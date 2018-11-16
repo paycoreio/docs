@@ -1,0 +1,22 @@
+site_name: Paycore documentation
+repo_name: 'paycoreio/docs.paycore.io'
+repo_url: 'https://github.com/paycoreio/docs.paycore.io'
+theme:
+  favicon: 'images/favicon.ico'
+  logo: 'images/logo.png'
+  name: 'material'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/paycoreio'
+    - type: 'twitter'
+      link: 'https://twitter.com/paycoreio'
+google_analytics:
+  - 'UA-72023338-5'
+  - 'auto'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true  
