@@ -1,6 +1,6 @@
 site_name: Documentation
-repo_name: 'github.com/paycoreio/docs'
-repo_url: 'https://github.com/paycoreio/docs'
+repo_name: 'github.com/paycoreio'
+repo_url: 'https://github.com/paycoreio'
 copyright: '© 2018 PayCore.io. All Rights Reserved.'
 theme:
   name: 'material'
@@ -12,7 +12,7 @@ theme:
     primary: 'white'
     accent: 'white'
   feature:
-    tabs: false
+    tabs: true
 extra:
   social:
     - type: 'facebook'
@@ -34,10 +34,15 @@ markdown_extensions:
       permalink: true
 nav:
 - Home: 'index.md'
+- Getting started:
+    - 'Overview': 'getting-started/overview.md'
 - Payment gateway:
     - 'Overview': 'payment-gateway/overview.md'
 - Payout gateway:
     - 'Overview': 'payout-gateway/overview.md'
 - Currency rates:
     - 'Overview': 'currency-rates/overview.md'
+- HPP:
+    - 'Overview': 'hpp/overview.md'
 - Release Notes: 'release-notes.md'
+- Full API Reference: 'https://redoc.paycore.io/'
