@@ -1,4 +1,4 @@
-site_name: Documentation
+site_name: 'Documentation'
 repo_name: 'github.com/paycoreio'
 repo_url: 'https://github.com/paycoreio'
 copyright: '© 2018 PayCore.io. All Rights Reserved.'
@@ -9,8 +9,8 @@ theme:
   logo:
     icon: 'import_contacts'
   palette:
-    primary: 'white'
-    accent: 'white'
+    primary: 'indigo'
+    accent: 'indigo'
   feature:
     tabs: false
 extra:
@@ -23,6 +23,7 @@ extra:
       link: 'https://www.linkedin.com/company/paycore/'
     - type: 'github'
       link: 'https://github.com/paycoreio'
+  var1: 'test123'
 google_analytics:
   - 'UA-72023338-4'
   - 'auto'
@@ -33,19 +34,28 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-- Home: 'index.md'
+- Home:
+    - Introduction: 'index.md'
+    - Release Notes: 'release-notes.md'
 - Getting started:
-    - 'Overview': 'getting-started/overview.md'
-- Payment gateway:
-    - 'Overview': 'payment-gateway/overview.md'
-- Payout gateway:
-    - 'Overview': 'payout-gateway/overview.md'
-- Currency rates:
-    - 'Overview': 'currency-rates/overview.md'
-- HPP:
-    - 'Overview': 'hpp/overview.md'
-- Payment Providers:
+    - Overview: 'getting-started/overview.md'
+    - Public IPs: 'getting-started/ips.md'
+- Products:
+    - Payment gateway:
+        - Overview: 'products/payment-gateway/overview.md'
+    - Payout gateway:
+        - Overview: 'products/payout-gateway/overview.md'
+    - Currency rates:
+        - Overview: 'products/currency-rates/overview.md'
+    - HPP:
+        - Overview: 'products/hpp/overview.md'
+- Providers: 
     - Liqpay:
         - Connect manual: 'payment-providers/liqpay/connect-manual.md'
-- Release Notes: 'release-notes.md'
-- Full API Reference: 'https://redoc.paycore.io/'
+- Add-ons: 
+    - Commerce:
+        - Overview: 'commerce/overview.md'
+    - Store:
+        - Overview: 'store/overview.md'
+    - Exchanger:
+        - Overview: 'exchanger/overview.md'
