@@ -1,6 +1,6 @@
 site_name: 'Documentation'
-repo_name: 'github.com/paycoreio'
-repo_url: 'https://github.com/paycoreio'
+repo_name: 'paycoreio/docs'
+repo_url: 'https://github.com/paycoreio/docs/'
 copyright: '© 2018 PayCore.io. All Rights Reserved.'
 theme:
   name: 'material'
@@ -33,13 +33,16 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
 nav:
 - Home:
     - Introduction: 'index.md'
     - Release Notes: 'release-notes.md'
 - Getting started:
     - Overview: 'getting-started/overview.md'
-    - Public IPs: 'getting-started/ips.md'
+    - Public IPs: 'ips.md'
 - Products:
     - Payment gateway:
         - Overview: 'products/payment-gateway/overview.md'
