@@ -1,52 +1,73 @@
-# Introdution
+# Liqpay: Connecting merchant account
+
+## Introdution
 
 Please setup Liqpay account in dashboard - 
-<a href="https://www.liqpay.ua/" target="_blank">https://www.liqpay.ua/</a>
+[https://www.liqpay.ua/](https://www.liqpay.ua/)
 
-# Setup
+## Setup merchant account
 
-## **Step 1: Open your Liqpay account settings** 
-<a href="https://www.liqpay.ua/en/admin/business" target="_blank">https://www.liqpay.ua/en/admin/business</a>
+### Step 1: Open merchant account settings
+[https://www.liqpay.ua/en/admin/business](https://www.liqpay.ua/en/admin/business)
 
-[![Step 1](images/liqpay-step1.png)](images/liqpay-step1.png)
+??? info "Screenshot"
+    [![Step 1](images/liqpay-step1.png)](images/liqpay-step1.png)
 
-## **Step 2: Go to "API" section ** 
+### Step 2: Go to "API" section
 
-[![Step 2](images/liqpay-step2.png)](images/liqpay-step2.png)
+??? info "Screenshot"
+    [![Step 2](images/liqpay-step2.png)](images/liqpay-step2.png)
 
-## **Step 3: Set up parameters ** 
-- **Availability of order_id**
-- **Signature availability (signature)**
+### Step 3: Set up parameters
 
-[![Step 3](images/liqpay-step3.png)](images/liqpay-step3.png)
+- [x] Availability of `order_id`
+- [x] Signature availability (signature)
+- [x] Add trusted IP's from [PayCore white-list IP addresses](/ips).
+- [x] Save settings
 
-## **Step 4: Enter Trusted IP adresses from <a href="https://url" target="_blank">PayCore Trusted IP</a>**
+??? info "Screenshot"
+    [![Step 3](images/liqpay-step3.png)](images/liqpay-step3.png)
+    [![Step 4](images/liqpay-step4.png)](images/liqpay-step4.png)
 
-[![Step 4](images/liqpay-step4.png)](images/liqpay-step4.png)
+### Step 4: Copy credentials
 
-## **Step 5: Save settings. Copy Public and Private keys**
-[![Step 5](images/liqpay-step5.png)](images/liqpay-step5.png)
+- [x] Copy Public key
+- [x] Copy Private key
 
-## **Step 6: Sing in to PayCore Dashboard**
- <a href="https://dashboard.paycore.io/" target="_blank">https://dashboard.paycore.io/</a>
+??? info "Screenshot"
+    [![Step 5](images/liqpay-step5.png)](images/liqpay-step5.png)
 
-[![Step 6](images/liqpay-step6.png)](images/liqpay-step6.png)
+## Connect merchant account
 
-## **Step 7: Go to "New connection" page**
+### Step 1: Open [PayCore Dashboard](https://dashboard.paycore.io/)
 
-[![Step 7](images/liqpay-step7.png)](images/liqpay-step7.png)
+??? info "Screenshot"
+    [![Step 6](images/liqpay-step6.png)](images/liqpay-step6.png)
 
-## **Step 8: Ensure that You are at "Payment Providers" tab and find LiqPay in the list**
+### Step 2: Go to "New connection"
 
-[![Step 8](images/liqpay-step8.png)](images/liqpay-step8.png)
+??? info "Screenshot"
+    [![Step 7](images/liqpay-step7.png)](images/liqpay-step7.png)
 
-## **Step 9: Open connection form**
+### Step 3: Select "Liqpay"
 
-[![Step 9](images/liqpay-step9.png)](images/liqpay-step9.png)
+Ensure that You are at "Payment Providers" tab and find LiqPay in the list.
 
-## **Step 10: Enter your keys. Choose provider's currencies. Save connection changes**
+??? info "Screenshot"
+    [![Step 8](images/liqpay-step8.png)](images/liqpay-step8.png)
 
-[![Step 10](images/liqpay-step10.png)](images/liqpay-step10.png)
+### Step 4: Open connection form
 
-## **Success! You have connected LiqPay!**
-[![](images/liqpay-success.png)](images/liqpay-success.png)
+??? info "Screenshot"
+    [![Step 9](images/liqpay-step9.png)](images/liqpay-step9.png)
+
+### Step 5: Enter credentials
+
+- [x] Choose provider's currencies.
+- [x] Save connection changes.
+
+??? info "Screenshot"
+    [![Step 10](images/liqpay-step10.png)](images/liqpay-step10.png)
+
+!!! success
+    You have connected LiqPay merchant account!
