@@ -12,7 +12,7 @@ theme:
     primary: 'indigo'
     accent: 'indigo'
   feature:
-    tabs: false
+    tabs: true
 extra:
   social:
     - type: 'facebook'
