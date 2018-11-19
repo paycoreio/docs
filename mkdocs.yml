@@ -23,6 +23,7 @@ extra:
       link: 'https://www.linkedin.com/company/paycore/'
     - type: 'github'
       link: 'https://github.com/paycoreio'
+  var1: 'test123'
 google_analytics:
   - 'UA-72023338-4'
   - 'auto'

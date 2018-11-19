@@ -4,34 +4,34 @@
 
 Welcome to PayCore.io! Get familiar with the PayCore products and explore their features:
 
+* [Payment Provider Hub](#): Connect any provider or merchant account of any payment provider into one hub.
+* [Payments](#): Accept any online payment option through the single omni-chanel gateway.
+    * Payment Gateway
+    * Payment Routing Engine
+    * Smart Payments
+* [Payouts](#): Make payouts on any online option in multiple ways through the single omni-chanel gateway.
+    * Payout Gateway
+    * Payout Routing Engine
+    * Smart Payouts
+* [Currency Rates](#): FX conversion rules are encapsulated in a currency exchange scheme, which is adhered to every routing scheme.
+
 
 ## Getting started
 
-PayCore helps you create any type of payments flow — from e-commerce to recurring billing and everything in between. Follow our  [development quickstart](/getting-started/overview)  to start building your integration.
+PayCore helps you create any type of payments & flow — from e-commerce to complex finance processes and everything in between. Follow our  [development quickstart](/getting-started/overview)  to start building your integration.
 
 
-## Accept payments
+## Accept payments & send payouts
 
-PayCore enables you to accept payments in minutes. Collect your customers' payment information easily and securely on  [web](#)  or  [mobile](#), and create  [charges](#)  server-side in  [135+ currencies](https://paycore.io/portfolio-category/providers/). 
+Make payments & payouts in 135+ currencies of any  [payment methods](https://paycore.io/portfolio-category/payment-methods/)  over  [any payment provider](https://paycore.io/portfolio-category/providers/) in the world.
 
-PayCore also supports a range of alternative  [payment methods](https://paycore.io/portfolio-category/payment-methods/), including  [3D Secure](#),  [ACH debits](#),  [Apple Pay](#), and  [Android Pay](#).
+* Payments: Take advantage of international and familiar local payment methods, including credit cards, e-wallets, and bank transfers.
+* Payouts: Exploit the benefits of safe and quick domestic and international methods to pay out to third parties.
 
-* [On your website](#): Start accepting payments on your website with our JavaScript libraries.
-* [In your mobile app](#): Integrate our iOS & Android SDKs, which support Apple Pay and Android Pay.
+## Build your own payment solution
 
-## Manage recurring payments
+Whether your business is simple or complex, we offer a robust set of building blocks to frame your own payment solution that will help multiply payment capabilities and reach, support growth without investments in development or infrastructure, while keeping consumers safe.
 
-PayCore makes recurring and subscription-based billing easy.  
-[Explore the quickstart](#)  to get going quickly and subscribe your first customer to a plan.
+## Extend PayCore's functionality
 
-## Build a marketplace
-
-Whether you're building a platform that needs to get sellers paid, or building applications to do more with PayCore data, you can use  [Payment gateway](#). Learn how to  [connect to accounts](#)  and  [let PayCore handle the signup process](#), or choose to customize your users' experience by  [creating Custom accounts](#)  via the API.
-
-## Add payments to your platform
-
-Rapidly enable payments processing for businesses and individuals using your platform. Get started by using  [PayCore Connect with Standard accounts](https://stripe.com/docs/connect/standard-accounts).
-
-## Extend PayCore's offerings
-
-Build features on PayCore’s core APIs, to meet businesses' needs. Start by  [connecting to PayCore accounts via API](https://redoc.paycore.io/).
+Build features on PayCore’s APIs, to meet businesses' needs. Start by [using powerful & flexible API](https://redoc.paycore.io/).

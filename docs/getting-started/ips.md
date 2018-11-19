@@ -2,9 +2,9 @@
 
 Your integration must be able to reach any of PayCore’s fully qualified  [domain names](#domains)  for it to function properly. Depending on how your integration operates, you may need to whitelist them.
 
-To help your integration operate securely, it must also verify that it’s communicating with  **api.paycore.com**  through one of our listed  [IP addresses](#ip-addresses).
+To help your integration operate securely, it must also verify that it’s communicating with  **api.paycore.io**  through SSL certificate on it and DNS IP address.
 
-If your integration also receives  [webhooks](/webhooks)  from PayCore, you should ensure these events originate from one of our [webhook IP addresses](#webhook-notifications).
+For correct communication between PayCore and Payment Providers or third-party services what PayCore have access to, use [PayCore white-list IP addresses](#white-list-ip-addresses).
 
 ## Domains
 
@@ -13,24 +13,14 @@ PayCore uses the following fully qualified domain names to interact with your in
 ```html
 api.paycore.io
 checkout.paycore.io
-js.paycore.io
-```
-
-## IP addresses
-
-The full list of IP addresses that  **api.paycore.io**  may resolve to is:
-
-```html
-54.36.117.30
-51.38.147.254
-54.38.139.222
+hp.paycore.io
 ```
 !!! warning
     Always use the **api.paycore.io** DNS name to contact our API—never an IP address.
 
-## Webhook notifications
+## White-list IP addresses
 
-The full list of IP addresses that webhook notifications may come from is:
+The full list of IP addresses that PayCore use to interact with Payment Providers & third-party services:
 
 ```html
 54.36.117.30
@@ -42,7 +32,5 @@ The full list of IP addresses that webhook notifications may come from is:
 
 As a convenience, both lists are available in other formats for easy import into `iptables` or similar tools:
 
-- [https://paycore.io/files/ips/ips_api.txt](https://paycore.io/files/ips/ips_api.txt)
-- [https://paycore.io/files/ips/ips_api.json](https://paycore.io/files/ips/ips_api.json)
-- [https://paycore.io/files/ips/ips_webhooks.txt](https://paycore.io/files/ips/ips_webhooks.txt)
-- [https://paycore.io/files/ips/ips_webhooks.json](https://paycore.io/files/ips/ips_webhooks.json)
+- [https://docs.paycore.io/ips/ips_access.txt](/ips/ips_access.txt)
+- [https://docs.paycore.io/ips/ips_access.json](/ips/ips_access.json)
