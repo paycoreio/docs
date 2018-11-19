@@ -12,7 +12,7 @@ theme:
     primary: 'indigo'
     accent: 'indigo'
   feature:
-    tabs: true
+    tabs: false
 extra:
   social:
     - type: 'facebook'
@@ -50,7 +50,8 @@ nav:
     - HPP:
         - Overview: 'products/hpp/overview.md'
 - Providers: 
-    - Page1: '#'
+    - Liqpay:
+        - Connect manual: 'payment-providers/liqpay/connect-manual.md'
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
