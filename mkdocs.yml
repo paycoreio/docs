@@ -53,8 +53,11 @@ nav:
     - HPP:
         - Overview: 'products/hpp/overview.md'
 - Providers: 
-    - Liqpay:
-        - Connect manual: 'payment-providers/liqpay/connect-manual.md'
+        - Introduction: 'payment-providers/index.md'
+        - Liqpay:
+            - Connection manual: 'payment-providers/liqpay/connect-manual.md'
+        - Advcash:
+            - Connection manual: 'payment-providers/advcash/connect-manual.md'
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
