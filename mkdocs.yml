@@ -39,7 +39,7 @@ markdown_extensions:
 nav:
 - Home:
     - Introduction: 'index.md'
-    - Release Notes: 'release-notes.md'
+    - Release notes: 'release-notes.md'
 - Getting started:
     - Overview: 'getting-started/overview.md'
     - Public IPs: 'ips.md'
