@@ -4,7 +4,7 @@
 
 Welcome to PayCore.io! Get familiar with the PayCore.io products and explore their features:
 
-* [Payment Provider Hub](#): Connect any provider or merchant account of any payment provider into the one hub.
+* [Payment Providers Hub](#): Connect any provider or merchant account of any payment provider into the one hub.
 * [Payments](#): Accept any online payment option through the single omnichannel gateway.
     * Payment Gateway
     * Payment Routing Engine
