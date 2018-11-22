@@ -58,6 +58,10 @@ nav:
             - Connection manual: 'payment-providers/liqpay/connect-manual.md'
         - Advcash:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
+        - CoinGate:
+            - Connection manual: 'payment-providers/coingate/connect-manual.md'
+        - 123x:
+            - Connection manual: 'payment-providers/123x/connect-manual.md'
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
