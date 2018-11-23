@@ -62,6 +62,10 @@ nav:
             - Connection manual: 'payment-providers/coingate/connect-manual.md'
         - 123x:
             - Connection manual: 'payment-providers/123x/connect-manual.md'
+        - Fondy:
+            - Connection manual: 'payment-providers/fondy/connect-manual.md'
+        - PayBox:
+            - Connection manual: 'payment-providers/paybox/connect-manual.md'
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
