@@ -1,6 +1,6 @@
 # Liqpay: Connecting merchant account
 
-## Introdution
+## Introduction
 
 Please setup Liqpay account in dashboard - 
 [https://www.liqpay.ua/](https://www.liqpay.ua/)
@@ -27,7 +27,7 @@ Please setup Liqpay account in dashboard -
 
 ??? info "Screenshot"
     [![Step 3](images/liqpay-step3.png)](images/liqpay-step3.png)
-    [![Step 4](images/liqpay-step4.png)](images/liqpay-step4.png)
+  
 
 !!! success
     You have configured account

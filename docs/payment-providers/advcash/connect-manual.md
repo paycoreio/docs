@@ -1,6 +1,6 @@
 # Advcash: Connecting account
 
-## Introdution
+## Introduction
 
 Please setup AdvCash account in dashboard - 
 [https://wallet.advcash.com/](https://wallet.advcash.com/)
@@ -37,23 +37,21 @@ Please setup AdvCash account in dashboard -
     - [x] Transaction history
     - [x] Make Transactions
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 2](images/advcash-step4.png)](images/advcash-step4.png)
-    [![Step 2](images/advcash-step4_1.png)](images/advcash-step4_1.png)
+  
         
 #### Step 3: Save changes
 
 !!! warning
-    To save changes You may be asked to Confirm this action though email!
-        
+    To save changes You may be asked to Confirm this action though email!    
+    
     ??? info "Screenshot"
         [![Step 3](images/advcash-step4_2.png)](images/advcash-step4_2.png)
 
 !!! success
     You have created an API
 
-    ??? info "Screenshot"
-        [![Step 3](images/advcash-step4_3.png)](images/advcash-step4_3.png)
 
     
 ### Setup SCI
@@ -103,8 +101,6 @@ Please setup AdvCash account in dashboard -
 !!! success
     You have created the SCI
 
-    ??? info "Screenshot"
-        [![Step 5](images/advcash-step5_4.png)](images/advcash-step5_4.png)
 
 
 ## Connect account
@@ -114,7 +110,7 @@ Please setup AdvCash account in dashboard -
 - [x] Account Email
     
     ??? tip
-        Main email from your [profile](https://wallet.advcash.com/pages/profile)
+        Main email from your [Profile](https://wallet.advcash.com/pages/profile)
 
 - [x] API Name
 - [x] API Password

@@ -1,6 +1,6 @@
 # CoinGate: Connecting account
 
-## Introdution
+## Introduction
 
 Please setup CoingGate account in dashboard - 
 [https://coingate.com/account/dashboard](https://coingate.com/account/dashboard)
@@ -30,7 +30,7 @@ Please setup CoingGate account in dashboard -
     [![Step 3](images/coingate-step3.png)](images/coingate-step3.png)
 
 !!! info
-    **_Invoice Time_**, **_Max % of Order Amount to Cover_**, **_Underpaid Cover %_**, **_Notification_** parameter is set at your discretion!
+    **_Invoice Time_**, **_Max % of Order Amount to Cover_**, **_Underpaid Cover %_**, **_Notification_** parameters are set at your discretion!
 
  - [x] Confirm creation
 

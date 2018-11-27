@@ -1,6 +1,6 @@
 # Paybox: Connecting account
 
-## Introdution
+## Introduction
 
 Please setup Paybox account in dashboard - 
 [https://my.paybox.money/](https://my.paybox.money/)
@@ -12,20 +12,37 @@ Please setup Paybox account in dashboard -
 - [x] Submit a questionnaire
 - [x] Verify your documents
 
-#### Step 2: Open Merchant setting
+#### Step 2: Open Settings
 
 ??? info "Screenshot"
     [![Step 2](images/paybox-step1.png)](images/paybox-step1.png)
 
-#### Step 3: Go to My markets section
+#### Step 3: Go to Merchant section (My markets)
+
+??? info "Screenshot"
+    [![Step 3](images/paybox-step3.png)](images/paybox-step3.png)
 
 
 
+#### Step 4: Configure your merchant
 
+- Set up parameters:
+    - [x] General merchant info
+    - [x] Secret keys
+        - For Payout
 
-#### Step 4: Configure your market
+    ??? info "Screenshot"
+        [![Step 4](images/paybox-step4.png)](images/paybox-step4.png)
 
-
+    - [x] URLs
+        - RESULT URL    ```https://psp-ext.paycore.io/paybox/return```
+        - SUCCESS ```https://psp-ext.paycore.io/paybox/callback```
+        - FAILURE URL ```https://psp-ext.paycore.io/paybox/callback```
+        
+    - [x] REQUEST METHOD ```POST```
+    
+    ??? info "Screenshot"
+        [![Step 4](images/paybox-step5.png)](images/paybox-step5.png)
 
 !!! success
     You have configured your account!

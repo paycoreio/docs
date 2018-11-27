@@ -66,6 +66,8 @@ nav:
             - Connection manual: 'payment-providers/fondy/connect-manual.md'
         - PayBox:
             - Connection manual: 'payment-providers/paybox/connect-manual.md'
+        - Interkassa:
+            - Connection manual: 'payment-providers/interkassa/connect-manual.md'
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
