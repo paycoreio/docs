@@ -68,6 +68,8 @@ nav:
             - Connection manual: 'payment-providers/paybox/connect-manual.md'
         - Interkassa:
             - Connection manual: 'payment-providers/interkassa/connect-manual.md'
+        - PayMega:
+            - Connection manual: 'payment-providers/paymega/connect-manual.md'
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
