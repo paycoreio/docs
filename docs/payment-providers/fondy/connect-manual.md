@@ -1,6 +1,6 @@
 # Fondy: Connecting account
 
-## Introdution
+## Introduction
 
 Please setup Fondy account in dashboard - 
 [https://portal.fondy.eu/](https://portal.fondy.eu/)

@@ -1,6 +1,6 @@
 # 123x: Connecting account
 
-## Introdution
+## Introduction
 
 Please setup 123x account in dashboard - 
 [https://123x.io/site/index.html](https://123x.io/site/index.html)
