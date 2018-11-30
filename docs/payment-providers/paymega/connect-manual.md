@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # PayMega: Connecting account
 
 ## Introduction
