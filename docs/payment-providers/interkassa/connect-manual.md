@@ -55,6 +55,11 @@ Please setup Interkassa account in dashboard -
     ??? info "Screenshot"
         [![Step 3](images/interkassa-step3_1.png)](images/interkassa-step3_1.png)
 
+- Go to **_Payment Settings_** and set **Check the uniqueness of payments** to **```Enabled```**
+   
+    ??? info "Screenshot"
+        [![Step 3](images/interkassa-step3_2_1.png)](images/interkassa-step3_2_1.png)
+
 - Go to **_Paysystems_** and activate **at least 1** paysystem
 
     ??? info "Screenshot"
@@ -62,7 +67,7 @@ Please setup Interkassa account in dashboard -
 
 - Go to **_Security_** and set up parameters:
     - [x] Sign algorithm only **```SHA256```**
-    - [x] Require sign in payment form  **```Disabled```**
+    - [x] Require sign in payment form  **```Enabled```**
 
     ??? info "Screenshot"
         [![Step 3](images/interkassa-step3_3.png)](images/interkassa-step3_3.png)
