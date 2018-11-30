@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # 123x: Connecting account
 
 ## Introduction

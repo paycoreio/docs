@@ -1,3 +1,4 @@
+![logo](images/logo.png)
 # Fondy: Connecting account
 
 ## Introduction

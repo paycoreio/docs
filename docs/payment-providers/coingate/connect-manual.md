@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # CoinGate: Connecting account
 
 ## Introduction

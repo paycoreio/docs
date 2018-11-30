@@ -70,6 +70,8 @@ nav:
             - Connection manual: 'payment-providers/interkassa/connect-manual.md'
         - PayMega:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
+        - AnyCash:  
+            - Connection manual: 'payment-providers/anycash/connect-manual.md' 
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'

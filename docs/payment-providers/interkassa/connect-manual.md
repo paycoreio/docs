@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # Interkassa: Connecting account
 
 ## Introduction

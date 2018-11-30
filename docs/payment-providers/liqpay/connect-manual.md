@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # Liqpay: Connecting merchant account
 
 ## Introduction

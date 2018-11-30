@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # Paybox: Connecting account
 
 ## Introduction

@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # Advcash: Connecting account
 
 ## Introduction
