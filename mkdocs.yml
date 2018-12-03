@@ -72,6 +72,10 @@ nav:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
         - AnyCash:  
             - Connection manual: 'payment-providers/anycash/connect-manual.md' 
+        - 4bill: 
+            - Connection manual: 'payment-providers/4bill/connect-manual.md'
+        - ING Bank: 
+            - Connection manual: 'payment-providers/ingbank/connect-manual.md'   
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
