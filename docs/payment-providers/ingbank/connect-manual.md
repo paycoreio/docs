@@ -26,7 +26,7 @@ Please setup **ING Bank** account!
 
 - Go to the Integration Data (Dane do integracji) Section
 - Set "Notification address"(Adres notyfikacji)
-    - [x] ```https://psp-ext.paycore.io/advcash/callback```
+    - [x] ```https://psp-ext.paycore.io/ingbank/callback```
 
 ??? info "Screenshots"
     [![Step 2](images/ingbank-step2_2.png)](images/ingbank-step2_2.png)

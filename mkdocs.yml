@@ -76,6 +76,10 @@ nav:
             - Connection manual: 'payment-providers/4bill/connect-manual.md'
         - ING Bank: 
             - Connection manual: 'payment-providers/ingbank/connect-manual.md'   
+        - FlashPay: 
+            - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
+        - Certus.Finance: 
+            - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
