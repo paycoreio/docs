@@ -9,7 +9,7 @@ Please setup AnyCash account at -
 
 ## Setup account
 
-#### Step 1: Create AnCash wallet
+#### Step 1: Create AnyCash wallet
 
 !!! note
     Before creating You must have the [**Telegram**](https://web.telegram.org) account with presetted ```@User name```
