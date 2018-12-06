@@ -1,8 +1,5 @@
 sudo: false
 language: python
-branches:
-  only:
-  - master
 install:
 - pip install mkdocs mkdocs-material
 script:
