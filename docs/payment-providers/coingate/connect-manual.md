@@ -1,4 +1,4 @@
-![logo](images/logo.png)
+<img src="https://static.openfintech.io/payment_providers/coingate/logo.png" width="300px" height="150px">
 
 # CoinGate: Connecting account
 

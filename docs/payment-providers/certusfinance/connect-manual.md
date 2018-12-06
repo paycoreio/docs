@@ -1,4 +1,4 @@
-![logo](images/logo.png)
+<img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png" width="400px" height="100px">
 
 # Certus Finance: Connecting account
 

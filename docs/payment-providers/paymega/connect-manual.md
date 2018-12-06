@@ -1,4 +1,4 @@
-![logo](images/logo.png)
+<img src="https://static.openfintech.io/payment_providers/paymega/logo.svg" width="400px" height="150px">
 
 # PayMega: Connecting account
 

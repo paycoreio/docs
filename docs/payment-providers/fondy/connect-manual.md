@@ -1,4 +1,4 @@
-![logo](images/logo.png)
+<img src="https://static.openfintech.io/payment_providers/fondy/logo.svg" width="400px" height="150px">
 # Fondy: Connecting account
 
 ## Introduction

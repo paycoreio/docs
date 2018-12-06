@@ -42,6 +42,12 @@ nav:
     - Release notes: 'release-notes.md'
 - Getting started:
     - Overview: 'getting-started/overview.md'
+    - User Profile: 
+        - Overview: 'getting-started/user-profile/index.md'
+        - General: 'getting-started/user-profile/general.md'
+        - Security: 'getting-started/user-profile/security.md'
+    - Organisation:
+        - Overview: 'getting-started/organisation/index.md'
     - Public IPs: 'ips.md'
 - Products:
     - Payment gateway:
@@ -53,7 +59,7 @@ nav:
     - HPP:
         - Overview: 'products/hpp/overview.md'
 - Providers: 
-        - Introduction: 'payment-providers/index.md'
+        - Overview: 'payment-providers/index.md'
         - Liqpay:
             - Connection manual: 'payment-providers/liqpay/connect-manual.md'
         - Advcash:
@@ -61,7 +67,7 @@ nav:
         - CoinGate:
             - Connection manual: 'payment-providers/coingate/connect-manual.md'
         - 123x:
-            - Connection manual: 'payment-providers/123x/connect-manual.md'
+            - Connection manual: 'payment-providers/123xio/connect-manual.md'
         - Fondy:
             - Connection manual: 'payment-providers/fondy/connect-manual.md'
         - PayBox:
@@ -73,13 +79,15 @@ nav:
         - AnyCash:  
             - Connection manual: 'payment-providers/anycash/connect-manual.md' 
         - 4bill: 
-            - Connection manual: 'payment-providers/4bill/connect-manual.md'
+            - Connection manual: 'payment-providers/4billio/connect-manual.md'
         - ING Bank: 
-            - Connection manual: 'payment-providers/ingbank/connect-manual.md'   
+            - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'   
         - FlashPay: 
             - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
         - Certus.Finance: 
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
+        - GeoPay:
+            - Connection manual: 'payment-providers/geopaynet/connect-manual.md' 
 - Add-ons: 
     - Commerce:
         - Overview: 'commerce/overview.md'
