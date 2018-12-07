@@ -13,11 +13,10 @@ It includes info about You and Organisation, in which You work!
 You can add Profile picture from a file, set Contact Information and other.
 
 !!! tip
-    Don't forget to Save changes to confirm entered data!
+    **Don't forget to Save changes to confirm entered data!**
 
-??? info
-    ![img](../images/general1.png)
-
+??? info "Screenshot"
+    [![General](../images/general1.png)](../images/general1.png)
 
 
 ##Preferences
@@ -29,7 +28,7 @@ Here You can:
 - [x] Choose data layout preference (Item per page)
 
 !!! tip
-    Don't forget to Save changes to confirm your choice!
+   **Don't forget to Save changes to confirm your choice!**
 
-??? info
-    ![img](../images/general2.png)
+??? info "Screenshot"
+    [![General](../images/general2.png)](../images/general2.png)
