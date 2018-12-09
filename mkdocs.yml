@@ -58,11 +58,13 @@ nav:
         - Overview: 'products/currency-rates/overview.md'
     - HPP:
         - Overview: 'products/hpp/overview.md'
+    - Commerce:
+        - Overview: 'products/commerce/overview.md'
 - Providers: 
         - Overview: 'payment-providers/index.md'
         - Liqpay:
             - Connection manual: 'payment-providers/liqpay/connect-manual.md'
-        - Advcash:
+        - AdvCash:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
         - CoinGate:
             - Connection manual: 'payment-providers/coingate/connect-manual.md'
@@ -88,10 +90,3 @@ nav:
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
         - GeoPay:
             - Connection manual: 'payment-providers/geopaynet/connect-manual.md' 
-- Add-ons: 
-    - Commerce:
-        - Overview: 'commerce/overview.md'
-    - Store:
-        - Overview: 'store/overview.md'
-    - Exchanger:
-        - Overview: 'exchanger/overview.md'
