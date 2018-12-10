@@ -7,7 +7,7 @@ script:
 - mkdocs build
 deploy:
     provider: script
-    script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then deploy.sh; else echo "PR skip deploy"; fi
+    script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./deploy.sh; else echo "PR skip deploy"; fi
     on:
       branch: master
 
