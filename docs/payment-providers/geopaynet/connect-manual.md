@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/geopay/logo.svg" width="400px" height="100px">
+<img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg" width="400px" height="100px">
 
 # GeoPay: Connecting account
 

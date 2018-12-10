@@ -28,7 +28,7 @@ Here You can:
 - [x] Choose data layout preference (Item per page)
 
 !!! tip
-   **Don't forget to Save changes to confirm your choice!**
+    **Don't forget to Save changes to confirm your choice!**
 
 ??? info "Screenshot"
     [![General](../images/general2.png)](../images/general2.png)
