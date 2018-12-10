@@ -48,6 +48,10 @@ nav:
         - Security: 'getting-started/user-profile/security.md'
     - Organisation:
         - Overview: 'getting-started/organisation/index.md'
+        - General: 'getting-started/organisation/general.md'
+        - Security: 'getting-started/organisation/security.md'
+        - Access Control: 'getting-started/organisation/access.md'
+    - Webhooks: 'getting-started/webhooks.md'
     - Public IPs: 'ips.md'
 - Products:
     - Payment gateway:
@@ -62,7 +66,7 @@ nav:
         - Overview: 'products/commerce/overview.md'
 - Providers: 
         - Overview: 'payment-providers/index.md'
-        - Liqpay:
+        - LiqPay:
             - Connection manual: 'payment-providers/liqpay/connect-manual.md'
         - AdvCash:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
@@ -82,11 +86,11 @@ nav:
             - Connection manual: 'payment-providers/anycash/connect-manual.md' 
         - 4bill: 
             - Connection manual: 'payment-providers/4billio/connect-manual.md'
-        - ING Bank: 
+        - ING Bank Poland: 
             - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'   
         - FlashPay: 
             - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
-        - Certus.Finance: 
+        - Certus Finance: 
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
         - GeoPay:
             - Connection manual: 'payment-providers/geopaynet/connect-manual.md' 
