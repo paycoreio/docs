@@ -6,7 +6,6 @@ script:
 - git clean -f -d -x;
 - mkdocs build
 deploy:
-  - edge: true
     provider: script
     script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ; else echo "PR skip deploy"; fi
     on:
