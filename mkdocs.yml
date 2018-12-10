@@ -42,7 +42,7 @@ nav:
     - Release notes: 'release-notes.md'
 - Getting started:
     - Overview: 'getting-started/overview.md'
-    - User Profile: 
+    - User Profile:
         - Overview: 'getting-started/user-profile/index.md'
         - General: 'getting-started/user-profile/general.md'
         - Security: 'getting-started/user-profile/security.md'
@@ -58,13 +58,14 @@ nav:
         - Overview: 'products/payment-gateway/overview.md'
     - Payout gateway:
         - Overview: 'products/payout-gateway/overview.md'
+        - Payout-request: 'products/payout-gateway/payout-requests.md'
     - Currency rates:
         - Overview: 'products/currency-rates/overview.md'
     - HPP:
         - Overview: 'products/hpp/overview.md'
     - Commerce:
         - Overview: 'products/commerce/overview.md'
-- Providers: 
+- Providers:
         - Overview: 'payment-providers/index.md'
         - LiqPay:
             - Connection manual: 'payment-providers/liqpay/connect-manual.md'
@@ -82,15 +83,15 @@ nav:
             - Connection manual: 'payment-providers/interkassa/connect-manual.md'
         - PayMega:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
-        - AnyCash:  
-            - Connection manual: 'payment-providers/anycash/connect-manual.md' 
-        - 4bill: 
+        - AnyCash:
+            - Connection manual: 'payment-providers/anycash/connect-manual.md'
+        - 4bill:
             - Connection manual: 'payment-providers/4billio/connect-manual.md'
-        - ING Bank Poland: 
-            - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'   
-        - FlashPay: 
-            - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
-        - Certus Finance: 
-            - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
+        - ING Bank Poland:
+            - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'
+        - FlashPay:
+            - Connection manual: 'payment-providers/flashpay/connect-manual.md'
+        - Certus Finance:
+            - Connection manual: 'payment-providers/certusfinance/connect-manual.md'
         - GeoPay:
-            - Connection manual: 'payment-providers/geopaynet/connect-manual.md' 
+            - Connection manual: 'payment-providers/geopaynet/connect-manual.md'
