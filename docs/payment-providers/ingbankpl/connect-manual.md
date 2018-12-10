@@ -63,4 +63,4 @@ Please setup **ING Bank** account!
 - [x] Save changes
 
 !!! success
-    You have connected **ING Bank**!
+    You have connected **ING Bank Poland**!
