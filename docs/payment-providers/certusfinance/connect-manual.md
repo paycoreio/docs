@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png" width="400px" height="100px">
+<img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png" width="400px">
 
 # Certus Finance: Connecting account
 
@@ -42,10 +42,11 @@ Please setup **Certus Finance** account!
 
 - [x] Merchant account password
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/certusfinance-step_connect.png)](images/certusfinance-step_connect.png)
-    
-- [x] Save changes
 
 !!! success
     You have connected **Certus Finance**!

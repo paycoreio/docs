@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg?w=400" width="400px">
 
 # ING Bank: Connecting account
 
@@ -57,10 +57,12 @@ Please setup **ING Bank** account!
 - [x] Service ID (Identyfikator sklepu)
 - [x] Store key (Klucz sklepu)
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/ingbank-step_connect.png)](images/4bill-step_connect.png)
-    
-- [x] Save changes
+
 
 !!! success
     You have connected **ING Bank Poland**!

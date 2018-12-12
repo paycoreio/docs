@@ -51,6 +51,8 @@ nav:
         - General: 'getting-started/organisation/general.md'
         - Security: 'getting-started/organisation/security.md'
         - Access Control: 'getting-started/organisation/access.md'
+    - New connection:
+        - Overview: 'getting-started/new-connection/index.md'
     - Webhooks: 'getting-started/webhooks.md'
     - Public IPs: 'ips.md'
 - Products:
@@ -94,3 +96,5 @@ nav:
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
         - GeoPay:
             - Connection manual: 'payment-providers/geopaynet/connect-manual.md' 
+        - SatchelPay:
+            - Connection manual: 'payment-providers/satchelpay/connect-manual.md' 

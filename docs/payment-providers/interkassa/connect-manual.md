@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/interkassa/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/interkassa/logo.svg?w=400" width="400px" >
 
 # Interkassa: Connecting account
 
@@ -105,10 +105,12 @@ Please setup Interkassa account in dashboard -
 - [x] Sign key
 - [x] Test key
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/interkassa-step_connect.png)](images/interkassa-step_connect.png)
-    
-- [x] Save changes
+
 
 !!! success
     You have connected **Interkassa**!

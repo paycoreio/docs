@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/advcash/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/advcash/logo.svg?w=400" width="400px" >
 
 # Advcash: Connecting account
 

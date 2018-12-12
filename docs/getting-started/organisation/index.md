@@ -3,20 +3,22 @@
 
 Organisation is an important management part of [PayCore Dashboard](https://dashboard.paycore.io/). 
 
+It allows you to isolate data and operations of your organization from other accounts in the system
+
 It is intened to for:
 
-- _setting up organisation info_
-- _mebmers management_ 
-- _functionlan access control_
+- setting up organisation info
+- mebmers management
+- functionlan access control
 
 In these cases "Organisation settings" is structurally divided into 3 sections:
 
-- [x] [General](general)
+1. [General](general)
 
-- [x] [Security](security)
+2. [Security](security)
 
-- [x] [Access control](access)
+3. [Access control](access)
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![img](images/org1.png)](images/org1.png)
 
