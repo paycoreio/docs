@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/4bill/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/4bill/logo.svg?w=400" width="400px" >
 
 # 4bill: Connecting account
 
@@ -40,10 +40,12 @@ Please setup **4bill** account!
 - [x] Point ID
 - [x] API key
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/4bill-step_connect.png)](images/4bill-step_connect.png)
     
-- [x] Save changes
 
 !!! success
     You have connected **4bill**!

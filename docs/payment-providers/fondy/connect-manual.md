@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/fondy/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/fondy/logo.svg?w=400" width="400px" >
 # Fondy: Connecting account
 
 ## Introduction
@@ -72,10 +72,11 @@ Please setup Fondy account in dashboard -
 - [x] Application ID
 - [x] Application Secret Key
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/fondy-step_connect.png)](images/fondy-step_connect.png)
-    
-- [x] Save changes
 
 !!! success
     You have connected **Fondy**!

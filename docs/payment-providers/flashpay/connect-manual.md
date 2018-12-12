@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/flashpay/logo.png" width="400px" height="100px">
+<img src="https://static.openfintech.io/payment_providers/flashpay/logo.png" width="400px" >
 
 # FlashPay: Connecting account
 
@@ -34,10 +34,12 @@ Please setup **FlashPay** account!
 - [x] Key ID
 - [x] Upload your Private key file
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/flashpay-step_connect.png)](images/flashpay-step_connect.png)
-    
-- [x] Save changes
+
 
 !!! success
     You have connected **FlashPay**!

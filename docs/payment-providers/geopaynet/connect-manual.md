@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg" width="400px" height="100px">
+<img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg?w=400" width="400px" >
 
 # GeoPay: Connecting account
 
@@ -41,10 +41,11 @@ Please setup **GeoPay** account in [GeoPay Dashboard](https://geo-pay.net/accoun
 - [x] User ID (Hash)
 - [x] API Key
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/geopay-step_connect.png)](images/geopay-step_connect.png)
-    
-- [x] Save changes
 
 !!! success
     You have connected **GeoPay**!

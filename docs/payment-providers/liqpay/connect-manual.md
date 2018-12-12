@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/liqpay/logo.png" width="300px" height="100px">
+<img src="https://static.openfintech.io/payment_providers/liqpay/logo.png" width="300px" >
 
 # Liqpay: Connecting merchant account
 

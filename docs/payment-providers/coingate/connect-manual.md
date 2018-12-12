@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/coingate/logo.png" width="300px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/coingate/logo.png" width="300px" >
 
 # CoinGate: Connecting account
 
@@ -57,10 +57,12 @@ Please setup CoingGate account in dashboard -
 - [x] API key
 - [x] Currencies to use
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/coingate-step_connect.png)](images/coingate-step_connect.png)
-    
-- [x] Save changes
+
 
 !!! success
     You have connected **CoinGate**!

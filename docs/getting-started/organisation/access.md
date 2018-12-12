@@ -1,14 +1,16 @@
-#Organisation: Access Control
+# Organisation: Access Control
 
 "Access control" is intended to delimit User access to different Dashboard sections  through User Roles assignment.
 
+PayCore.io implements multi-user access, which allows one user to use several independent organization accounts and switch between them.
+
 It is divided into **2 parts**:
 
-- [x] Members management
-- [x] Role Access management 
+- Members management
+- Role Access management 
 
 
-##Members management
+## Members management
 
 Here you can manage your organisation team:
 
@@ -25,7 +27,7 @@ Here you can manage your organisation team:
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
 
-##Role Access management 
+## Role Access management 
 
 In this section You can manage Access roles in current organisation!
 
@@ -55,7 +57,7 @@ Here you can manage your organisation roles and their access scope:
     **Don't forget to Save changes to confirm your choice!**
 
 
-??? info "Screenshots"
+!!! info "Access Control: Role Access management"
     [![Security](images/org_access1.png)](images/org_access1.png)
     [![Security](images/org_access2.png)](images/org_access2.png)
 

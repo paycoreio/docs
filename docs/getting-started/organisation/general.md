@@ -1,4 +1,4 @@
-#Organisation: General
+# Organisation: General
 In "General" section You can:
 
 - [x] Change Organisation Name
@@ -12,6 +12,6 @@ In "General" section You can:
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![img](images/org_general1.png)](images/org_general1.png)
     

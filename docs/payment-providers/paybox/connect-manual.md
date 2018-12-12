@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/paybox/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/paybox/logo.svg?w=400" width="400px" >
 
 # Paybox: Connecting account
 
@@ -61,10 +61,12 @@ Please setup Paybox account in dashboard -
 - [x] Merchant ID
 - [x] Secret key (_for payout_)
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/paybox-step_connect.png)](images/paybox-step_connect.png)
-    
-- [x] Save changes
+
 
 !!! success
     You have connected **Paybox**!

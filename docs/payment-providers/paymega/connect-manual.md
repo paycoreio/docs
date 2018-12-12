@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/paymega/logo.svg" width="400px" height="150px">
+<img src="https://static.openfintech.io/payment_providers/paymega/logo.svg?w=400" width="400px">
 
 # PayMega: Connecting account
 
@@ -33,10 +33,12 @@ Please setup Paymega  account!
 - [x]  Merchant password
 - [x]  Signature key
 
+!!! tip
+    **Don't forget to Save changes to confirm action!**
+
 ??? info "Screenshot"
     [![Step 2](images/paymega-step_connect.png)](images/paymega-step_connect.png)
-    
-- [x] Save changes
+
 
 !!! success
     You have connected **PayMega**!

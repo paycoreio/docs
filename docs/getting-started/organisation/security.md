@@ -1,4 +1,4 @@
-#Organisation: Security
+# Organisation: Security
 
 Security section is intended  to prevent illegal access by connection  using API keys.
 
@@ -13,7 +13,7 @@ Here You can:
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Security](images/org_security_1.png)](images/org_security_1.png)
     [![Security](images/org_security_2.png)](images/org_security_2.png)
     [![Security](images/org_security_3.png)](images/org_security_3.png)
