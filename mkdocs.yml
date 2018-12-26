@@ -75,7 +75,7 @@ nav:
         - CoinGate:
             - Connection manual: 'payment-providers/coingate/connect-manual.md'
         - 123x:
-            - Connection manual: 'payment-providers/123xio/connect-manual.md'
+            - Connection manual: 'payment-providers/123x/connect-manual.md'
         - Fondy:
             - Connection manual: 'payment-providers/fondy/connect-manual.md'
         - PayBox:
@@ -87,7 +87,7 @@ nav:
         - AnyCash:  
             - Connection manual: 'payment-providers/anycash/connect-manual.md' 
         - 4bill: 
-            - Connection manual: 'payment-providers/4billio/connect-manual.md'
+            - Connection manual: 'payment-providers/4bill/connect-manual.md'
         - ING Bank Poland: 
             - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'   
         - FlashPay: 
