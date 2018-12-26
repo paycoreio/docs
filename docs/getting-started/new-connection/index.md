@@ -13,6 +13,7 @@
 - Payment services - is
 - Payout services - is
 
+## Payment Providers 
 Payment Provider  can be in **2 statuses**:
 
 1. **Ready**: means, that this Payment provider has been already implemented to PayCore 
@@ -20,3 +21,11 @@ Payment Provider  can be in **2 statuses**:
     
 !!! tip
     If You need to implement new Payment provider, use "Request connection" button!
+
+## Payment methods
+
+## Payout methods
+
+## Payment services
+
+## Payout services 
