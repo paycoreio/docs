@@ -68,33 +68,38 @@ nav:
         - Overview: 'products/commerce/overview.md'
 - Providers: 
         - Overview: 'payment-providers/index.md'
-        - LiqPay:
-            - Connection manual: 'payment-providers/liqpay/connect-manual.md'
         - AdvCash:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
-        - CoinGate:
-            - Connection manual: 'payment-providers/coingate/connect-manual.md'
-        - 123x:
-            - Connection manual: 'payment-providers/123x/connect-manual.md'
-        - Fondy:
-            - Connection manual: 'payment-providers/fondy/connect-manual.md'
-        - PayBox:
-            - Connection manual: 'payment-providers/paybox/connect-manual.md'
-        - Interkassa:
-            - Connection manual: 'payment-providers/interkassa/connect-manual.md'
-        - PayMega:
-            - Connection manual: 'payment-providers/paymega/connect-manual.md'
         - AnyCash:  
             - Connection manual: 'payment-providers/anycash/connect-manual.md' 
-        - 4bill: 
-            - Connection manual: 'payment-providers/4bill/connect-manual.md'
-        - ING Bank Poland: 
-            - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'   
-        - FlashPay: 
-            - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
         - Certus Finance: 
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
+        - CoinGate:
+            - Connection manual: 'payment-providers/coingate/connect-manual.md'
+        - FlashPay: 
+            - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
+        - Fondy:
+            - Connection manual: 'payment-providers/fondy/connect-manual.md'
         - GeoPay:
-            - Connection manual: 'payment-providers/geopaynet/connect-manual.md' 
+            - Connection manual: 'payment-providers/geopaynet/connect-manual.md'
+        - ING Bank Poland: 
+            - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'
+        - Interkassa:
+            - Connection manual: 'payment-providers/interkassa/connect-manual.md'   
+        - LiqPay:
+            - Connection manual: 'payment-providers/liqpay/connect-manual.md'
+        - PayBox:
+            - Connection manual: 'payment-providers/paybox/connect-manual.md'
+        - PayMega:
+            - Connection manual: 'payment-providers/paymega/connect-manual.md'
         - SatchelPay:
             - Connection manual: 'payment-providers/satchelpay/connect-manual.md' 
+        - 123x:
+            - Connection manual: 'payment-providers/123x/connect-manual.md' 
+        - 4bill: 
+            - Connection manual: 'payment-providers/4bill/connect-manual.md'
+  
+
+
+ 
+
