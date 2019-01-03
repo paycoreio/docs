@@ -32,5 +32,5 @@ The full list of IP addresses that PayCore use to interact with Payment Provider
 
 As a convenience, both lists are available in other formats for easy import into `iptables` or similar tools:
 
-- [https://docs.paycore.io/ips/ips_access.txt](/ips/ips_access.txt)
-- [https://docs.paycore.io/ips/ips_access.json](/ips/ips_access.json)
+- <a href="/ips/ips_access.txt" target="_blank" rel="noopener">IP Addresses (TXT)</a>
+- <a href="/ips/ips_access.json" target="_blank" rel="noopener">IP Addresses (JSON)</a>

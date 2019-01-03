@@ -4,8 +4,7 @@
 
 ## Introduction
 
-Please setup Liqpay account in dashboard - 
-[https://www.liqpay.ua/](https://www.liqpay.ua/)
+Here You can find  instructions for setting up <a href="https://www.liqpay.ua/" target="_blank" rel="noopener">**Liqpay** account</a>!
 
 ## Setup merchant account
 
@@ -24,7 +23,7 @@ Please setup Liqpay account in dashboard -
 
 - [x] Availability of `order_id`
 - [x] Signature availability (signature)
-- [x] Add trusted IP's from [PayCore white-list IP addresses](/ips).
+- [x] Add trusted IP's from [PayCore white-list IP addresses](/ips/#white-list-ip-addresses).
 - [x] Save settings
 
 ??? info "Screenshot"

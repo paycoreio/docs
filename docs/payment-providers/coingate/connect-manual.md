@@ -4,8 +4,7 @@
 
 ## Introduction
 
-Please setup CoingGate account in dashboard - 
-[https://coingate.com/account/dashboard](https://coingate.com/account/dashboard)
+Here You can find  instructions for setting up <a href="https://coingate.com/account/dashboard" target="_blank" rel="noopener">**CoingGate** account</a>!
 
 ## Setup account
 
@@ -25,7 +24,7 @@ Please setup CoingGate account in dashboard -
 #### Step 3: Set up parameters
 
 - [x] Title
-- [x] Whitelisted IP Addresses from [PayCore white-list IP addresses](/ips)   
+- [x] Whitelisted IP Addresses from [PayCore white-list IP addresses](/ips/#white-list-ip-addresses)   
 - [x] Integration URL or Description  as ```https://paycore.io/```
 
 ??? info "Screenshot"

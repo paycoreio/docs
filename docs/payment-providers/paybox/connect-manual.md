@@ -4,8 +4,7 @@
 
 ## Introduction
 
-Please setup Paybox account in dashboard - 
-[https://my.paybox.money/](https://my.paybox.money/)
+Here You can find  instructions for setting up  <a href="https://my.paybox.money/" target="_blank" rel="noopener">**Paybox** account</a>!
 
 ## Setup account
 

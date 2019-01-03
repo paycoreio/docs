@@ -27,19 +27,41 @@ Here you can manage your organisation team:
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
 
+
+
+User access to the organisation is primarily determined  by the status of a team member related to this user.
+
+|    **ID**      |               **Name**       |        **Organisation Access**       |
+|:--------------:|:----------------------------:|:----------------------------:|
+| **invited**      | The invited member  has no access to the organisation until he independently activates it through the mechanism of confirmation. When you try to enter the organisation, you will be redirected to the confirmation screen. A member can be deleted only in **```invited```** state using **_"Revoke invite"_** action.      | **FALSE**         |
+| **active**      | Active user, team member        |  **TRUE**         |
+| **inactive**      | Inactive team member, does not have access to the organisation. When try to access,you will be shown an error screen with message - "No access rights. Contact your organisation administrator."       |  **FALSE**       |    
+| **archived**      | Archived inactive team member. Not displayed in the management list of the team and its directory.        |  **FALSE**       |
+
+
+
+Inactive team member, does not have access to the organisation. When try to access,you will be shown an error screen with message - "No access rights. Contact your organisation administrator."
+
 ## Role Access management 
 
 In this section You can manage Access roles in current organisation!
 
 !!! info 
     Take stock, that You **can NOT Modify or Delete  System Roles** 
-|    **ID**      |               **Name**       |
-|:--------------:|:----------------------------:|
-| **owner**      | Owner of organisation        |
-| **admin**      | Organisation administrator   |
-| **manager**    | Organisation manager         |
-| **developer**  | Organisation developer       |
-| **watcher**    | Watcher of  organisation     |
+### System roles
+|    **ID**      |               **Name**       |        **Description**       |
+|:--------------:|:----------------------------:|:----------------------------:|
+| **owner**      | Owner of organisation        |<ul align="left" > <li >**Only 1 member** of the team can have this role!</li><li>The user with this role cannot be removed from the command.</li><li> This role can be transferred to other team members by lowering the rights to the admin role.</li></ul>|
+| **admin**      | Organisation administrator   |Full access to the organisation, including the ability to manage access and team members (cannot delete a user with role **```owner```**).       |
+| **manager**    | Organisation manager         |Full read and write access, without the ability to manage **organisation** and **technical aspects**: _set up integrations, webhook, see keys, regenerate them, etc._      |
+| **developer**  | Organisation developer       |  Full read and write access, without the ability to manage **organisation** and **business aspects**: _re-wire payments, edit customers, organization data, etc._     |
+| **watcher**    | Watcher of  organisation     | **Only read** access  of all data, except **"sensitive data"**, such as: _keys, webhook URL, integration, etc._      |
+
+
+
+
+
+
 
 
 

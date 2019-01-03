@@ -1,7 +1,7 @@
 # Organisation
 
 
-Organisation is an important management part of [PayCore Dashboard](https://dashboard.paycore.io/). 
+Organisation is an important management part of <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayCore Dashboard</a>. 
 
 It allows you to isolate data and operations of your organization from other accounts in the system
 

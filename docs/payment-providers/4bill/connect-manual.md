@@ -4,14 +4,14 @@
 
 ## Introduction
 
-Please setup **4bill** account!
+Here You can find  instructions for setting up <a href="https://4bill.io/" target="_blank" rel="noopener">**4bill** account</a>!
 
 ## Setup account
 
 #### Step 1: Create merchant account
 
 !!! note
-    To create an account send connection request at **[4bill.io](https://4bill.io/)** or contact manager directly!
+    To create an account send connection request at <a href="https://4bill.io/" target="_blank" rel="noopener">**4bill Website**</a> or contact manager directly!
 
 ??? info "Screenshot"
     [![Step 2](images/4bill-step1.png)](images/4bill-step1.png)

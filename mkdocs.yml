@@ -56,6 +56,17 @@ nav:
     - Webhooks: 'getting-started/webhooks.md'
     - Public IPs: 'ips.md'
 - Products:
+    - Analytics:
+    
+        - Overview: 'products/analytics/overview.md'
+        - Queries: 'products/analytics/queries.md'
+        - Dashboards: 'products/analytics/dashboards.md'
+        - Alerts: 'products/analytics/alerts.md'
+    - Provider Hub:
+        - Overview: 'products/provider-hub/overview.md'
+        - Provider Accounts: 'products/provider-hub/provider-accounts.md'
+        - Merchant Accounts: 'products/provider-hub/merchant-accounts.md'
+        - Deposit Accounts: 'products/provider-hub/deposit-accounts.md'
     - Payment gateway:
         - Overview: 'products/payment-gateway/overview.md'
     - Payout gateway:

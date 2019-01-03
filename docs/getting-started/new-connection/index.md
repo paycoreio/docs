@@ -2,18 +2,17 @@
 
 
 "New connection" section  contains the collections of Payment Provider and related to them:
+
  - Payment methods 
  - Payout methods 
  - Payment services 
  - Payout services
 
-- Payment Provider - is
-- Payment methods - is
-- Payout methods - is
-- Payment services - is
-- Payout services - is
 
 ## Payment Providers 
+
+!!! info "Definition"
+    **Payment Provider** - is
 Payment Provider  can be in **2 statuses**:
 
 1. **Ready**: means, that this Payment provider has been already implemented to PayCore 
@@ -24,8 +23,20 @@ Payment Provider  can be in **2 statuses**:
 
 ## Payment methods
 
+!!! info "Definition"
+    **Payment method** - is
+
 ## Payout methods
+
+!!! info "Definition"
+    **Payout method** - is
 
 ## Payment services
 
+!!! info "Definition"
+    **Payment service** - is
+
 ## Payout services 
+
+!!! info "Definition"
+    **Payout service** - is

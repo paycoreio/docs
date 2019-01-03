@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Please setup **SatchelPay** account!
+Here You can find  instructions for setting up **SatchelPay** account!
 
 ## Setup account
 
