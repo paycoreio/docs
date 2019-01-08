@@ -10,8 +10,7 @@ The section contains  all connecting instructions (for each provider) which will
 - [x] Create a Provider (Merchant) account
 - [x] Set Up the profile
 - [x] Set or get the required credentials
-- [x] Connect account in our [Dashboard](https://dashboard.paycore.io/) 
-
+- [x] Connect account in <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">**Paycore Dashboard**</a>
 
 The general algorithm for the connection procedure consists of the following steps:
 
@@ -39,7 +38,8 @@ Step ** Connect account **:
 
 
 !!! info "Note"
-    If You have any questions, suggestions or comments, please, contat Us  through [PayCore Service Desk](https://support.paycore.io/)
+    If You have any questions, suggestions or comments, please, contat Us  through <a href="https://support.paycore.io/" target="_blank" rel="noopener">**PayCore Service Desk**</a>
+    
     [![Step 2](images/servicedesk.png)](https://support.paycore.io/)
 
 

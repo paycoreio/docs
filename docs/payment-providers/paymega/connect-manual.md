@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Please setup Paymega  account!
+Here You can find  instructions for setting up **Paymega**  account!
 
 ## Setup account
 

@@ -1,7 +1,6 @@
 # User Profile
 
-
-[User profile](https://dashboard.paycore.io/user/settings/)  is the part of [PayCore Dashboard](https://dashboard.paycore.io/), where You can:
+<a href="https://dashboard.paycore.io/user/settings/" target="_blank" rel="noopener">User profile</a> is the part of <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayCore Dashboard</a>, where You can:
 
 
 - [x] Configure your personal info

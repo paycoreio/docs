@@ -4,8 +4,8 @@
 
 ## Introduction
 
-Please setup Interkassa account in dashboard - 
-[https://www.interkassa.com](https://www.interkassa.com)
+Here You can find  instructions for setting up <a href="https://www.interkassa.com" target="_blank" rel="noopener">**Interkassa** account</a>!
+
 
 ## Setup account
 
@@ -17,7 +17,7 @@ Please setup Interkassa account in dashboard -
 
 - Go to the API section
 - Set up parameters:
-    - [x] IP filter from [PayCore white-list IP addresses](/ips)
+    - [x] IP filter from [PayCore white-list IP addresses](/ips/#white-list-ip-addresses)
     - [x] "Turn ON" API
 
 ??? info "Screenshot"

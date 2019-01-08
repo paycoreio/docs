@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Please setup **Certus Finance** account!
+Here You can find  instructions for setting up **Certus Finance** account!
 
 ## Setup account
 

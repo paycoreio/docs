@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Please setup **GeoPay** account in [GeoPay Dashboard](https://geo-pay.net/account/#!/)!
+Here You can find  instructions for setting up <a href="https://geo-pay.net/account/#!/" target="_blank" rel="noopener">**GeoPay**  account</a>!
 
 ## Setup account
 

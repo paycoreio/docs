@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Please setup **FlashPay** account!
+Here You can find  instructions for setting up **FlashPay** account!
 
 ## Setup account
 

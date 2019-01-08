@@ -4,8 +4,7 @@
 
 ## Introduction
 
-Please setup AdvCash account in dashboard - 
-[https://wallet.advcash.com/](https://wallet.advcash.com/)
+Here You can find  instructions for setting up <a href="https://wallet.advcash.com/" target="_blank" rel="noopener">**AdvCash** account</a>! 
 
 ## Setup account
 
@@ -30,7 +29,7 @@ Please setup AdvCash account in dashboard -
 #### Step 2: Set up the following parameters
 
 - API Name
-- IP adress list [PayCore white-list IP addresses](/ips)
+- IP adress list [PayCore white-list IP addresses](/ips/#white-list-ip-addresses)
 - API Password
 - Set all checkboxes
     - [x] Accounts Verification

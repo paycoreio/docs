@@ -1,10 +1,10 @@
 <img src="https://static.openfintech.io/payment_providers/fondy/logo.svg?w=400" width="400px" >
+
 # Fondy: Connecting account
 
 ## Introduction
 
-Please setup Fondy account in dashboard - 
-[https://portal.fondy.eu/](https://portal.fondy.eu/)
+Here You can find  instructions for setting up <a href="https://portal.fondy.eu/" target="_blank" rel="noopener">**Fondy** account</a>!
 
 ## Setup account
 
@@ -14,6 +14,7 @@ Please setup Fondy account in dashboard -
 - [x] Go to the Merchant list section
 - [x] Press "Add Merchant"
 - [x] Set up creation parameters
+
 ??? info "Screenshot"
     [![Step 1](images/fondy-step1.png)](images/fondy-step1.png)
 

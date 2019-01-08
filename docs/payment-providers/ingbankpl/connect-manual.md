@@ -1,10 +1,10 @@
 <img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg?w=400" width="400px">
 
-# ING Bank: Connecting account
+# ING Bank Poland: Connecting account
 
 ## Introduction
 
-Please setup **ING Bank** account!
+Here You can find  instructions for setting up <a href="https://login.ingbank.pl/mojeing/app/#login" target="_blank" rel="noopener">**ING Bank Poland** account</a>!
 
 ## Setup account
 

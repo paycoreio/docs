@@ -4,8 +4,7 @@
 
 ## Introduction
 
-Please setup 123x account in dashboard - 
-[https://123x.io/site/index.html](https://123x.io/site/index.html)
+Here You can find  instructions for setting up <a href="https://123x.io/site/index.html" target="_blank" rel="noopener">**123x** account</a>!
 
 ## Setup account
 
