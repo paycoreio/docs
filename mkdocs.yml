@@ -73,6 +73,8 @@ nav:
         - Overview: 'products/payout-gateway/overview.md'
     - Currency rates:
         - Overview: 'products/currency-rates/overview.md'
+        - Resources: 'products/currency-rates/resources.md'
+        - Rate Schemes: 'products/currency-rates/rate-schemes.md'
     - HPP:
         - Overview: 'products/hpp/overview.md'
     - Commerce:

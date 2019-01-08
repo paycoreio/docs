@@ -48,6 +48,7 @@ In this section You can manage Access roles in current organisation!
 
 !!! info 
     Take stock, that You **can NOT Modify or Delete  System Roles** 
+    
 ### System roles
 |    **ID**      |               **Name**       |        **Description**       |
 |:--------------:|:----------------------------:|:----------------------------:|
@@ -56,13 +57,6 @@ In this section You can manage Access roles in current organisation!
 | **manager**    | Organisation manager         |Full read and write access, without the ability to manage **organisation** and **technical aspects**: _set up integrations, webhook, see keys, regenerate them, etc._      |
 | **developer**  | Organisation developer       |  Full read and write access, without the ability to manage **organisation** and **business aspects**: _re-wire payments, edit customers, organization data, etc._     |
 | **watcher**    | Watcher of  organisation     | **Only read** access  of all data, except **"sensitive data"**, such as: _keys, webhook URL, integration, etc._      |
-
-
-
-
-
-
-
 
 
 Here you can manage your organisation roles and their access scope:
