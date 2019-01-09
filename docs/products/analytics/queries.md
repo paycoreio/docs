@@ -22,11 +22,23 @@ To create query you need:
 
 1. Press Create button on toolbar
 2. Choose "Query"
-3. Write query text
+3. Select Datasource
+4. Write query text
+5. Save to confirm creation
 
-    !!! tip
-        To facilitate writing a query, use the list of tables and their fields in the left menu.
-        You can add field to the query by clicking on the **```">>"```** button.
+!!! tip "Tip #1"
+    To facilitate writing a query, use the list of tables and their fields in the left menu.
+
+    You can add field to the query by clicking on the **```">>"```** button.
+
+!!! tip "Tip #2"
+    Execute query after creation to make sure that it works correctly!
+    
+
+!!! info "Screenshot"
+    [![Queries](images/queries1.png)](images/queries1.png)
+  
+
 
 
 ## Visualization
@@ -56,7 +68,9 @@ After you make sure that the query is working properly, returning the result you
 4. Save changes.
 
 !!! note
-    After saving - tab with your visualization's  name will appear next to the "Table" tab.
+    After saving - tab with name of your visualization  will appear next to the "Table" tab.
     
     And you will be able to add it to the [**Dashboard**](../dashboards)
-
+    
+!!! info "Screenshot"
+    [![Queries](images/queries2.png)](images/queries2.png)
