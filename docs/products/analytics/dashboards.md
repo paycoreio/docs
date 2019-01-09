@@ -1,6 +1,6 @@
 # Dashboards
 
-The Second important entiti of Paycore Analytics is Dashboard. 
+The Second important entity of Paycore Analytics is Dashboard. 
 
 !!! info "Definition"
     **Dashboard** is an information management tool that visually tracks, analyzes and displays key performance indicators (KPI), metrics and key data points to monitor the health of a business, department or specific process.
