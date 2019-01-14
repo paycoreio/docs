@@ -4,11 +4,11 @@ Your integration must be able to reach any of PayCore’s fully qualified  [doma
 
 To help your integration operate securely, it must also verify that it’s communicating with  **api.paycore.io**  through SSL certificate on it and DNS IP address.
 
-For correct communication between PayCore and Payment Providers or third-party services what PayCore have access to, use [PayCore white-list IP addresses](#white-list-ip-addresses).
+For correct communication between PayСore.io and Payment Providers or third-party services what PayСore.io have access to, use [PayСore.io white-list IP addresses](#white-list-ip-addresses).
 
 ## Domains
 
-PayCore uses the following fully qualified domain names to interact with your integration:
+PayСore.io uses the following fully qualified domain names to interact with your integration:
 
 ```html
 api.paycore.io
@@ -20,7 +20,7 @@ hp.paycore.io
 
 ## White-list IP addresses
 
-The full list of IP addresses that PayCore use to interact with Payment Providers & third-party services:
+The full list of IP addresses that PayСore.io use to interact with Payment Providers & third-party services:
 
 ```html
 54.36.117.30

@@ -12,7 +12,7 @@ For each organization, **_a list of base currencies_** with which it works is de
     [![Rate currency](images/exch-rate_1.png)](images/exch-rate_1.png)
 
 
-This section of Paycore Dashboard is intended to meke you informed about current currency rates and it's [Resources](../resources) and manage [Rate schemes](../rate-schemes).
+This section of PayСore.io Dashboard is intended to meke you informed about current currency rates and it's [Resources](../resources) and manage [Rate schemes](../rate-schemes).
 
 
 

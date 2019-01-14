@@ -24,7 +24,7 @@ Here You can find  instructions for setting up <a href="https://coingate.com/acc
 #### Step 3: Set up parameters
 
 - [x] Title
-- [x] Whitelisted IP Addresses from [PayCore white-list IP addresses](/ips/#white-list-ip-addresses)   
+- [x] Whitelisted IP Addresses from [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)   
 - [x] Integration URL or Description  as ```https://paycore.io/```
 
 ??? info "Screenshot"

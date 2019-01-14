@@ -1,4 +1,4 @@
-# Resources
+# Exchange Rates: Resources
 
 
 !!! info "Definition"

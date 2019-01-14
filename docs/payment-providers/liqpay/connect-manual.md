@@ -23,7 +23,7 @@ Here You can find  instructions for setting up <a href="https://www.liqpay.ua/" 
 
 - [x] Availability of `order_id`
 - [x] Signature availability (signature)
-- [x] Add trusted IP's from [PayCore white-list IP addresses](/ips/#white-list-ip-addresses).
+- [x] Add trusted IP's from [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses).
 - [x] Save settings
 
 ??? info "Screenshot"

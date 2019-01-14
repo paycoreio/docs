@@ -1,5 +1,6 @@
-# Alerts
+# Analytics: Alerts
 
+## General
 
 In the Alerts view, you’ll see all existing alerts.
 

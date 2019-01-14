@@ -1,9 +1,9 @@
-# Paycore.io documentation
+# PayСore.io documentation
 
 [![Build Status][ico-travis]][link-travis]
 [![Software License][ico-license]](LICENSE.md)
 
-This repository contains Paycore.io public documentation.
+This repository contains PayСore.io public documentation.
 
 
 ## License

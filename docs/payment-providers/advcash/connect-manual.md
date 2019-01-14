@@ -29,7 +29,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 #### Step 2: Set up the following parameters
 
 - API Name
-- IP adress list [PayCore white-list IP addresses](/ips/#white-list-ip-addresses)
+- IP adress list [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
 - API Password
 - Set all checkboxes
     - [x] Accounts Verification

@@ -17,7 +17,7 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 
 - Go to the API section
 - Set up parameters:
-    - [x] IP filter from [PayCore white-list IP addresses](/ips/#white-list-ip-addresses)
+    - [x] IP filter from [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
     - [x] "Turn ON" API
 
 ??? info "Screenshot"
