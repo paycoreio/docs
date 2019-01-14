@@ -1,8 +1,6 @@
 #Payment Providers connecting
 
 
-Here you can fing understandable connection guides for all implemented payment providers!
-
 This section is intended for mastering with the general connecting process.
 
 The section contains  all connecting instructions (for each provider) which will help you to:
@@ -19,12 +17,12 @@ The general algorithm for the connection procedure consists of the following ste
  !!! Note
     This step implies that you are already registered in the provider's system!
 
-2. Connecting account (in Dashbord)
+2. Connecting account (in Dashboard)
 
 
 Step ** Setting up account **:
 
-- Depending on the provider, the set of steps can be different, in case of: the methods of storage, transmission and uingse of data are individual for each of them.
+- Depending on the provider, the set of steps can be different, in case of: the methods of storage, transmission and uniqueness of data are individual for each of them.
 - The purpose of this step is to obtain the Credentials necessary for integration in Dashboard
 
 !!! warning
