@@ -15,13 +15,27 @@ It is divided into **2 parts**:
 Here you can manage your organisation team:
 
 - [x] Invite new members
+
+    !!! info
+        You can invite both registered unregistered users to become a new member of your organisation. 
+        
+        User will recieve invitation email.
+        - Registered users will be asked to confirm joining on dashboard login.
+        - Unregistered users will be asked to sign up at join confirmation step. 
+
 - [x] Assign Role to member
+
+    !!! info
+        Inviting of new member requires the role choosing
+
 - [x] Set up and Change Individual access scope (Permission set) for each member
 - [x] Change Member status
     - Deactivate
     - Activate
     - Archive
 - [x] Edit Member description 
+
+
 
 
 !!! tip
