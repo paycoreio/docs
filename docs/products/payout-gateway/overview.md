@@ -1,22 +1,24 @@
 # Payout Gateway
 
-Payout gateway is a part of PayCore.io Payment Infrastructure manage payouts. This gateway enables you to initiate financial transactions in the connected payment providers in order to send payments to a large number of recipients simultaneously. There are two ways to initiate financial transactions: payout and payout request.
+Payout gateway is a part of PayCore.io Payment Infrastructure to initiate and manage payouts. This gateway enables you to initiate financial transactions in the connected payment providers in order to send payments to a large number of recipients simultaneously. There are two ways to initiate financial transactions: payout and payout request.
 
 ### Payout operation
 This operation is responsible for communication with external provider. It is the low level operation that responsible for status mapping, processed amount calculation.
 
 ### Payout request operation 
 This operation has many features that make payout processing simpler:
+
 1. Exchange rates
-1. Failover
-1. Splitting 
+2. Failover
+3. Splitting 
  
 It creates payout operation under the hood during processing. 
 
 ### Create first payout request
+
 1. Create <a href="https://dashboard.paycore.io/payout-gateway/payout-points" target="_blank" rel="noopener">payout point</a> with desired currencies 
-1. Connect test <a href="https://dashboard.paycore.io/connect-directory/payment-providers/test/general" target="_blank" rel="noopener">provider account</a>
-1. Create <a href="https://dashboard.paycore.io/organization/settings/api-keys" target="_blank" rel="noopener">API key</a>
+2. Connect test <a href="https://dashboard.paycore.io/connect-directory/payment-providers/test/general" target="_blank" rel="noopener">provider account</a>
+3. Create <a href="https://dashboard.paycore.io/organization/settings/api-keys" target="_blank" rel="noopener">API key</a>
 
 All operation in Paycore.io have test mode. After connecting test provider you can create only test operations. Production operations could be created only after successful connection one of [available providers](../../payment-providers/index.md). 
 ```
