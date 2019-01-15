@@ -1,4 +1,4 @@
-# Rate Schemes
+# Exchange Rates: Rate Schemes
 
 ## General
 **Rate scheme** - is  an entity that determines exchange rules for currency pair in your organisation.  

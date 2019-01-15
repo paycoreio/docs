@@ -42,7 +42,10 @@ nav:
     - Release notes: 'release-notes.md'
 - Getting started:
     - Overview: 'getting-started/overview.md'
-    - User Profile:
+
+    - Integration:
+        - Overview: 'getting-started/integration/index.md'   
+    - User Profile: 
         - Overview: 'getting-started/user-profile/index.md'
         - General: 'getting-started/user-profile/general.md'
         - Security: 'getting-started/user-profile/security.md'
@@ -51,14 +54,12 @@ nav:
         - General: 'getting-started/organisation/general.md'
         - Security: 'getting-started/organisation/security.md'
         - Access Control: 'getting-started/organisation/access.md'
-    - New connection:
-        - Overview: 'getting-started/new-connection/index.md'
+
     - Webhooks: 'getting-started/webhooks.md'
     - API: 'getting-started/api.md'
     - Public IPs: 'ips.md'
 - Products:
     - Analytics:
-
         - Overview: 'products/analytics/overview.md'
         - Queries: 'products/analytics/queries.md'
         - Dashboards: 'products/analytics/dashboards.md'
@@ -70,8 +71,12 @@ nav:
         - Deposit Accounts: 'products/provider-hub/deposit-accounts.md'
     - Payment gateway:
         - Overview: 'products/payment-gateway/overview.md'
+        - Payments: 'products/payment-gateway/payments.md'
+        - Payment Requests: 'products/payment-gateway/payment-requests.md'
     - Payout gateway:
         - Overview: 'products/payout-gateway/overview.md'
+        - Payouts: 'products/payout-gateway/payouts.md'
+        - Payout Requests: 'products/payout-gateway/payout-requests.md'
     - Currency rates:
         - Overview: 'products/currency-rates/overview.md'
         - Resources: 'products/currency-rates/resources.md'

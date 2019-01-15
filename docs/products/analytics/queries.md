@@ -1,4 +1,4 @@
-# Queries
+# Analytics: Queries
 
 ## General
 The basic concept in analytics is the **query**. 
@@ -7,7 +7,7 @@ The basic concept in analytics is the **query**.
     **A query** is a means of selecting the necessary information from a database using a special language.
 
 
- Paycore Analytics uses <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener"> **SQL (Structured Query Language)**</a>  for creating queries.
+ PayСore.io Analytics uses <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener"> **SQL (Structured Query Language)**</a>  for creating queries.
 
 
 ## Creating

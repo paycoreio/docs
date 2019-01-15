@@ -1,6 +1,6 @@
 # Welcome to [PayCore.io](https://paycore.io/) documentation
 
-![PayCore Main Illustration](images/paycore-main3.png)
+![PayСore.io Main Illustration](images/paycore-main3.png)
 
 Welcome to PayCore.io! Get familiar with the PayCore.io products and explore their features:
 

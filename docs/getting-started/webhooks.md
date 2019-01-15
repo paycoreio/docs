@@ -1,6 +1,6 @@
 # Webhooks
 
-Currently, Paycore supports 2 version of callbacks. This document only describes the newer version. All organisations created after 12-01-2018 by default use the new version of callbacks. Paycore sign data using organization secret keys. They can be obtained in organization settings. All callbacks are signed live or test secret key according to the mode in which operation has been created.
+Currently, PayСore.io supports 2 version of callbacks. This document only describes the newer version. All organisations created after 12-01-2018 by default use the new version of callbacks. PayСore.io sign data using organization secret keys. They can be obtained in organization settings. All callbacks are signed live or test secret key according to the mode in which operation has been created.
 
 ## Format
 All webhooks are sent in JSON-API format. It is the same as in public API. 
@@ -58,7 +58,7 @@ This an example for payment-request operation callback data:
 
 ## Signature
 
- Paycore sends signature in X-Signature header. The signature is created by next algorithm:
+ PayСore.io sends signature in X-Signature header. The signature is created by next algorithm:
 
 ```php
 $signature = base64_encode(sha1($secret . $webhookData . $secret, true));
@@ -66,4 +66,4 @@ $signature = base64_encode(sha1($secret . $webhookData . $secret, true));
 Where the ```$secret``` is one your secrets: test or live, ```$webhookData``` is raw json data. 
 
 !!! note
-      To be sure you got data from Paycore, you should compute the signature using an appropriate secret key and compare with ones from Paycore callback data.
+      To be sure you got data from PayСore, you should compute the signature using an appropriate secret key and compare with ones from PayСore.io callback data.
