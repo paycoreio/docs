@@ -7,7 +7,7 @@ Here You can:
 - [x] Create new API key 
 - [x] Change description 
 - [x] Add Whitelisted IP addresses
-- [x] Change permission set of exsisting keys
+- [x] Change permission set of existing keys
 - [x] Revoke out-of-use keys
 
 !!! tip

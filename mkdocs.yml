@@ -1,7 +1,7 @@
 site_name: 'Documentation'
 repo_name: 'paycoreio/docs'
 repo_url: 'https://github.com/paycoreio/docs/'
-copyright: '© 2018 PayCore.io. All Rights Reserved.'
+copyright: '© 2018-2019 PayCore.io. All Rights Reserved.'
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -42,6 +42,7 @@ nav:
     - Release notes: 'release-notes.md'
 - Getting started:
     - Overview: 'getting-started/overview.md'
+
     - Integration:
         - Overview: 'getting-started/integration/index.md'   
     - User Profile: 
@@ -55,6 +56,7 @@ nav:
         - Access Control: 'getting-started/organisation/access.md'
 
     - Webhooks: 'getting-started/webhooks.md'
+    - API: 'getting-started/api.md'
     - Public IPs: 'ips.md'
 - Products:
     - Analytics:
@@ -83,26 +85,26 @@ nav:
         - Overview: 'products/hpp/overview.md'
     - Commerce:
         - Overview: 'products/commerce/overview.md'
-- Providers: 
+- Providers:
         - Overview: 'payment-providers/index.md'
         - AdvCash:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
-        - AnyCash:  
-            - Connection manual: 'payment-providers/anycash/connect-manual.md' 
-        - Certus Finance: 
-            - Connection manual: 'payment-providers/certusfinance/connect-manual.md' 
+        - AnyCash:
+            - Connection manual: 'payment-providers/anycash/connect-manual.md'
+        - Certus Finance:
+            - Connection manual: 'payment-providers/certusfinance/connect-manual.md'
         - CoinGate:
             - Connection manual: 'payment-providers/coingate/connect-manual.md'
-        - FlashPay: 
-            - Connection manual: 'payment-providers/flashpay/connect-manual.md' 
+        - FlashPay:
+            - Connection manual: 'payment-providers/flashpay/connect-manual.md'
         - Fondy:
             - Connection manual: 'payment-providers/fondy/connect-manual.md'
         - GeoPay:
             - Connection manual: 'payment-providers/geopaynet/connect-manual.md'
-        - ING Bank Poland: 
+        - ING Bank Poland:
             - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'
         - Interkassa:
-            - Connection manual: 'payment-providers/interkassa/connect-manual.md'   
+            - Connection manual: 'payment-providers/interkassa/connect-manual.md'
         - LiqPay:
             - Connection manual: 'payment-providers/liqpay/connect-manual.md'
         - PayBox:
@@ -110,13 +112,13 @@ nav:
         - PayMega:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
         - SatchelPay:
-            - Connection manual: 'payment-providers/satchelpay/connect-manual.md' 
+            - Connection manual: 'payment-providers/satchelpay/connect-manual.md'
         - 123x:
-            - Connection manual: 'payment-providers/123x/connect-manual.md' 
-        - 4bill: 
+            - Connection manual: 'payment-providers/123x/connect-manual.md'
+        - 4bill:
             - Connection manual: 'payment-providers/4bill/connect-manual.md'
-  
 
 
- 
+
+
 
