@@ -1,6 +1,6 @@
 # Payout Gateway
 
-Payout gateway is part of system that implements withdrawal operations. It based on two operations: payout and payout request. 
+Payout gateway is a part of PayCore.io Payment Infrastructure that executes payout operations. It comprises two main operations: payout and payout request. 
 
 ### Payout operation
 This operation is responsible for communication with external provider. It is the low level operation that responsible for status mapping, processed amount calculation.
