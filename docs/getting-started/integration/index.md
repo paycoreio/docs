@@ -17,10 +17,10 @@ In this case you need to do basic steps before total onboarding.
     !!! info
         "New connection" section  contains the collections of **```Payment Provider```** and related to them:
     
-        - **```Payment methods```** 
-        - **```Payout methods```** 
-        - **```Payment services```** 
-        - **```Payout services```**
+        - Payment methods** 
+        - Payout methods
+        - Payment services
+        - Payout services
 
 4. Find the necessary provider(-s) in Paylment providers list.
 
@@ -42,7 +42,13 @@ Payment Provider  can be in **2 statuses**:
 !!! tip
     If You need to implement new Payment provider, use "Request connection" button!
 
-[![New connection](images/newconn1.png)](images/newconn1.png)
+!!! info "Screenshot"
+    [![New connection](images/newconn1.png)](images/newconn1.png)
+
+To *```connect```* your provider account or *```get informed```* about **```suppoted features```**, **```methods```**  - go to the Payment Provider Overview page.
+
+!!! info "Screenshot"
+    [![New connection](images/newconn2.png)](images/newconn2.png)
 
 
 ## Payment methods
