@@ -14,26 +14,60 @@ It is divided into **2 parts**:
 
 Here you can manage your organisation team:
 
-- [x] Invite new members
+- [x] Invite new member
 
     !!! info
         You can invite both registered unregistered users to become a new member of your organisation. 
         
-        User will recieve invitation email.
-        - Registered users will be asked to confirm joining on dashboard login.
-        - Unregistered users will be asked to sign up at join confirmation step. 
+        User will recieve an invitation to email with **```Join```** button. It's needed to confirm join via Confirmation form after login in.
+    
+ 
 
-- [x] Assign Role to member
 
-    !!! info
-        Inviting of new member requires the role choosing
+    !!! info "Screenshots"
+        [![Member Management](images/org_memb1.png)](images/org_memb1.png)
+        [![Member Management](images/org_memb2.png)](images/org_memb2.png)
+        [![Member Management](images/org_memb3.png)](images/org_memb3.png)
+        [![Member Management](images/org_memb4.png)](images/org_memb4.png)
+        [![Member Management](images/org_memb5.png)](images/org_memb5.png)
+   
+    !!! note 
+        After join accepting it will be automatically swiched to joined organisation!
 
-- [x] Set up and Change Individual access scope (Permission set) for each member
-- [x] Change Member status
-    - Deactivate
-    - Activate
-    - Archive
-- [x] Edit Member description 
+- [x] Modify member
+
+    - Assign Role to member
+
+        !!! info
+            Inviting of new member requires the role choosing. You can change invited member's role at the Member Overview page.
+
+        !!! warning
+            It is **impossible** to set **```Owner```** role to members. Organisation's owner need to migrate it himself.
+
+    - Set up and Change Individual access scope (Permission set) for each member
+
+        !!! info
+            If want to set different permissions for several members with the same role - You can set **```Individuall access scope```** for each of them.
+    
+        !!! info "Screenshot"
+            [![Member Management](images/org_memb6.png)](images/org_memb6.png)
+    
+        !!! tip
+            You can create **```New role```** based on individuial access scope!
+
+    - Perform actions
+    
+        _For **```invited```** members_
+
+        - Revoke invite
+        - Resend invite
+
+        _For **```active```** members_
+    
+        - Deactivate
+        - Activate
+        - Archive
+
 
 
 
@@ -53,15 +87,17 @@ User access to the organisation is primarily determined  by the status of a team
 | **archived**      | Archived inactive team member. Not displayed in the management list of the team and its directory.        |  **FALSE**       |
 
 
+!!! warning
+    Inactive team member, does not have access to the organisation. 
 
-Inactive team member, does not have access to the organisation. When try to access,you will be shown an error screen with message - "No access rights. Contact your organisation administrator."
+    When try to access, you will be shown an error screen with message - _"No access rights. Contact your organisation administrator."_
 
 ## Role Access management 
 
 In this section You can manage Access roles in current organisation!
 
-!!! info 
-    Take stock, that You **can NOT Modify or Delete  System Roles** 
+!!! warning 
+    Take stock, that You **can NOT** **```Modify```** or **```Delete```**  System Roles! 
     
 ### System roles
 |    **ID**      |               **Name**       |        **Description**       |
