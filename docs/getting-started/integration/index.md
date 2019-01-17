@@ -15,9 +15,9 @@ In this case you need to do basic steps before total onboarding.
 3. Go to the "New connection" section
 
     !!! info
-        "New connection" section  contains the collections of **```Payment Provider```** and related to them:
+        "New connection" section  contains the collections of **```Payment Providers```** and related to them:
     
-        - Payment methods** 
+        - Payment methods
         - Payout methods
         - Payment services
         - Payout services
