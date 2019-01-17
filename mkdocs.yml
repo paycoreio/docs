@@ -73,10 +73,12 @@ nav:
         - Overview: 'products/payment-gateway/overview.md'
         - Payments: 'products/payment-gateway/payments.md'
         - Payment Requests: 'products/payment-gateway/payment-requests.md'
+        - Payment Pages: 'products/payment-gateway/payment-pages.md'
     - Payout gateway:
         - Overview: 'products/payout-gateway/overview.md'
         - Payouts: 'products/payout-gateway/payouts.md'
         - Payout Requests: 'products/payout-gateway/payout-requests.md'
+        - Payout Points: 'products/payout-gateway/payout-points.md'
     - Currency rates:
         - Overview: 'products/currency-rates/overview.md'
         - Resources: 'products/currency-rates/resources.md'

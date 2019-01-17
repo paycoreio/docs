@@ -6,10 +6,16 @@
 !!! info "Definition"
     **Payout** — refers to the financial return or monetary disbursement of investment or annuity.
 
-    **Payout status** —  is a property, based on which it can be unambiguously stated at what stage the payout is. 
+!!! info "Workflow State diagram"
+    [![Payout Workflow](images/payout_state_diagram.png)](images/payout_state_diagram.png)
+
+   
 
 
 ## Payout status
+
+!!! info "Definition"
+    **Payout status** —  is a property, based on which it can be unambiguously stated at what stage the payout is. 
 
 Payout Statuses are divided into **```TWO```** groups _in the context of their level of completion_.
 
@@ -46,10 +52,6 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 </table>
 
 
-## Payout workflow
-
-!!! info "State Diagram"
-    [![Payout Workflow](images/payout_state_diagram.png)](images/payout_state_diagram.png)
 
 
 ## Payout Resolution
