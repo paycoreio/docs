@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://developer.paypal.com/" target="_blank" rel="noopener"> **PayPal**account</a>  account.
+Here You can find  instructions for setting up <a href="https://developer.paypal.com/" target="_blank" rel="noopener"> **PayPal** account</a>  account.
 
 ## Setup account
 
