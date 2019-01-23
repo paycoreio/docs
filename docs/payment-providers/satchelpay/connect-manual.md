@@ -33,7 +33,10 @@ Here You can find  instructions for setting up **SatchelPay** account!
 - [x] Account number
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at SatchelPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/satchelpay-step_connect.png)](images/satchelpay-step_connect.png)

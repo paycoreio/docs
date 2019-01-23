@@ -34,7 +34,10 @@ Here You can find  instructions for setting up **Paymega**  account!
 - [x]  Signature key
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at PayMega **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/paymega-step_connect.png)](images/paymega-step_connect.png)

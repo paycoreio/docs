@@ -37,11 +37,11 @@ Here You can find  instructions for setting up <a href="https://4bill.io/" targe
 
 #### Step 2: Enter credentials
 
-- [x] Point ID
-- [x] API key
+!!! tip
+    Press **```Connect```** at 4bill **```Provider Overview page```** in **```New connection```** section to open Connection form!
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/4bill-step_connect.png)](images/4bill-step_connect.png)

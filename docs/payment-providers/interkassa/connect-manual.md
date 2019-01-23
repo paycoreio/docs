@@ -17,7 +17,7 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 
 - Go to the API section
 - Set up parameters:
-    - [x] IP filter from [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+    - [x] Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
     - [x] "Turn ON" API
 
 ??? info "Screenshot"
@@ -30,7 +30,10 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
     - [x] API key 
 
     !!! note
-        You may generate new API key
+        You may generate **```New API key```**!
+    
+    !!! danger
+        **Be careful!** Before generating **```New API key```** ensure that **```Existing API key```** is **NOT** used somewhere else.
 
 - Save changes
 #### Step 2: Create Checkout
@@ -106,7 +109,10 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 - [x] Test key
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at Interkassa **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/interkassa-step_connect.png)](images/interkassa-step_connect.png)

@@ -60,8 +60,12 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
 - [x] Merchant ID
 - [x] Secret key (_for payout_)
 
+
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at Paybox **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/paybox-step_connect.png)](images/paybox-step_connect.png)

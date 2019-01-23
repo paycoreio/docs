@@ -74,7 +74,10 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 - [x] Application Secret Key
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at Fondy **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/fondy-step_connect.png)](images/fondy-step_connect.png)

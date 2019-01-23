@@ -58,7 +58,10 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 - [x] Store key (Klucz sklepu)
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at ING Bank Poland **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/ingbank-step_connect.png)](images/4bill-step_connect.png)

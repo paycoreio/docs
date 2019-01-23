@@ -59,9 +59,17 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 
 #### Step 2: Enter credentials
 
+!!! tip
+    Press **```Connect```** at 123x **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 1](images/123xio-step_connect.png)](images/123xio-step_connect.png)
+
+
 
 !!! success
     You have connected **123x**!
