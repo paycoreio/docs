@@ -43,7 +43,10 @@ Here You can find  instructions for setting up **Certus Finance** account!
 - [x] Merchant account password
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at Certus Finance **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/certusfinance-step_connect.png)](images/certusfinance-step_connect.png)

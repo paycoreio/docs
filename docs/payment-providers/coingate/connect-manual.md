@@ -24,14 +24,14 @@ Here You can find  instructions for setting up <a href="https://coingate.com/acc
 #### Step 3: Set up parameters
 
 - [x] Title
-- [x] Whitelisted IP Addresses from [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)   
+- [x] Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)   
 - [x] Integration URL or Description  as ```https://paycore.io/```
 
 ??? info "Screenshot"
     [![Step 3](images/coingate-step3.png)](images/coingate-step3.png)
 
 !!! info
-    **_Invoice Time_**, **_Max % of Order Amount to Cover_**, **_Underpaid Cover %_**, **_Notification_** parameters are set at your discretion!
+    **_Invoice Time_**, **_Max % of Order Amount to Cover_**, **_Underpaid Cover %_**, **_Notification_** parameters are set  at your choice!
 
  - [x] Confirm creation
 
@@ -57,7 +57,10 @@ Here You can find  instructions for setting up <a href="https://coingate.com/acc
 - [x] Currencies to use
 
 !!! tip
-    **Don't forget to Save changes to confirm action!**
+    Press **```Connect```** at CoinGate **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 2](images/coingate-step_connect.png)](images/coingate-step_connect.png)

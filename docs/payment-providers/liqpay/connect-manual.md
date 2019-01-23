@@ -23,7 +23,7 @@ Here You can find  instructions for setting up <a href="https://www.liqpay.ua/" 
 
 - [x] Availability of `order_id`
 - [x] Signature availability (signature)
-- [x] Add trusted IP's from [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses).
+- [x] Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses).
 - [x] Save settings
 
 ??? info "Screenshot"
@@ -47,8 +47,14 @@ Here You can find  instructions for setting up <a href="https://www.liqpay.ua/" 
 
 - [x] Public key
 - [x] Private key
-- [x] Choose provider's currencies
-- [x] Save connection changes
+
+!!! tip
+    Press **```Connect```** at LiqPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+### Step 3: Choose provider's currencies
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
     [![Step 10](images/liqpay-step10.png)](images/liqpay-step10.png)

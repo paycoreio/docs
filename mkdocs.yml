@@ -113,8 +113,12 @@ nav:
             - Connection manual: 'payment-providers/paybox/connect-manual.md'
         - PayMega:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
+        - PayPal:
+            - Connection manual: 'payment-providers/paypal/connect-manual.md'
         - SatchelPay:
             - Connection manual: 'payment-providers/satchelpay/connect-manual.md'
+        - Wirecapital:
+            - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
         - 123x:
             - Connection manual: 'payment-providers/123x/connect-manual.md'
         - 4bill:

@@ -21,6 +21,9 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 ### Setup API
 
+!!! info
+    Skip this section if You have already configure it.
+
 #### Step 1: Create New API
 
 ??? info "Screenshot"
@@ -29,7 +32,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 #### Step 2: Set up the following parameters
 
 - API Name
-- IP adress list [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
 - API Password
 - Set all checkboxes
     - [x] Accounts Verification
@@ -58,6 +61,9 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 ### Setup SCI
 
 !!! info
+    Skip this section if You have already configure it.
+
+!!! info
     To create new SCI You need to have a varified account!
 
 #### Step 1: Verify your account
@@ -77,7 +83,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 - [x] Use a digital signature in the request to SCI
     
     !!! tip
-        Parameters "**COMMISSION PAYS**", "**Accept underpayment**", "**Accept overpayment**"  are set at your discretion
+        Parameters "**COMMISSION PAYS**", "**Accept underpayment**", "**Accept overpayment**"  are set  at your choice!
 
 ??? info "Screenshot"
     [![Step 3](images/advcash-step5_2.png)](images/advcash-step5_2.png)  
@@ -128,8 +134,17 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 - [x] SCI Name
 - [x] SCI Password
 
+
+!!! tip
+    Press **```Connect```** at AdvCash **```Provider Overview page```** in **```New connection```** section to open Connection form!
+
+!!! tip
+    **Don't forget to Save changes to confirm connection!**
+
 ??? info "Screenshot"
     [![Step 2](images/advcash-step_connect.png)](images/advcash-step_connect.png)
+
+
 
 !!! success
     You have connected **Advcash**!
