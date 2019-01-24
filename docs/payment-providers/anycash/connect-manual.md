@@ -18,10 +18,14 @@ Here You can find  instructions for setting up <a href="https://any.cash/" targe
 
 ??? info "Screenshots"
     [![Step 1](images/anycash-step1.png)](images/anycash-step1.png)
+    
     [![Step 1](images/anycash-step1_1.png)](images/anycash-step1_1.png)
 
 #### Step 2: Contact with AnyCash Manager
 
+!!! info
+    This Payment Provoider gives acoount credentials personaly to their merchants!
+    
 #### Step 3: Get required credentials
 
 !!! success

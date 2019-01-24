@@ -14,6 +14,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 
 ??? info "Screenshots"
     [![Step 1](images/ingbank-step1_1.png)](images/ingbank-step1_1.png)
+
     [![Step 1](images/ingbank-step1_2.png)](images/ingbank-step1_2.png)
 
 #### Step 2: Congigure Your shop
@@ -30,6 +31,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 
 ??? info "Screenshots"
     [![Step 2](images/ingbank-step2_2.png)](images/ingbank-step2_2.png)
+
     [![Step 2](images/ingbank-step2_3.png)](images/ingbank-step2_3.png)
 
 #### Step 3: Get required parameters:
@@ -37,7 +39,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 - [x] Service ID (Identyfikator sklepu)
 - [x] Store key (Klucz sklepu) 
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 2](images/ingbank-step3.png)](images/ingbank-step3.png)
 
 !!! success

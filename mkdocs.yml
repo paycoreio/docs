@@ -89,6 +89,10 @@ nav:
         - Overview: 'products/commerce/overview.md'
 - Providers:
         - Overview: 'payment-providers/index.md'
+        - 123x:
+            - Connection manual: 'payment-providers/123x/connect-manual.md'
+        - 4bill:
+            - Connection manual: 'payment-providers/4bill/connect-manual.md'
         - AdvCash:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
         - AnyCash:
@@ -115,14 +119,15 @@ nav:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
         - PayPal:
             - Connection manual: 'payment-providers/paypal/connect-manual.md'
+        - PaySec:
+            - Connection manual: 'payment-providers/paysec/connect-manual.md'
+        - PerfectMoney:
+            - Connection manual: 'payment-providers/perfectmoney/connect-manual.md'
         - SatchelPay:
             - Connection manual: 'payment-providers/satchelpay/connect-manual.md'
         - Wirecapital:
             - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
-        - 123x:
-            - Connection manual: 'payment-providers/123x/connect-manual.md'
-        - 4bill:
-            - Connection manual: 'payment-providers/4bill/connect-manual.md'
+
 
 
 

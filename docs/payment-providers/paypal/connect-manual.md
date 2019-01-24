@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://developer.paypal.com/" target="_blank" rel="noopener"> **PayPal** account</a>  account.
+Here You can find  instructions for setting up <a href="https://developer.paypal.com/" target="_blank" rel="noopener"> **PayPal** account</a>.
 
 ## Setup account
 
@@ -22,48 +22,78 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
     Don't forget to confirm creation!
 
 
+??? info "Screenshots"
+    [![Create App](images/createapp1.png)](images/createapp1.png)
+
+    [![Create App](images/createapp2.png)](images/createapp2.png)
+
+!!! Note
+    You will be automaticaly redirected to Created app!
+
 #### Step 2: Get App credentials
 
 - [x] Client ID
 - [x] Client Secret
 
-!!! warning
-    Ensure that **```Mode Switcher```** has **```Live```** state 
+??? info "Screenshot"
+    [![App Credentials](images/appcred1.png)](images/appcred1.png)
 
+!!! warning
+    Ensure that **```Mode Switcher```** has **```Live```** state, if you want to connect **```Live```** account!
+    
 !!! tip
     You can find **```Mode Switcher```** on the upper right.
 
+
 #### Step 3: Set Up App settings
-- Open  **```SANDBOX APP SETTINGS```**
+- Go to the  **```LIVE APP SETTINGS```**
 - Set the necessary parameters
 
-!!! tip
-    Don't forget to confirm action!
-
-#### Step 4: Create an Account
-
-!!! info
-    Skip this step if You have already configured it.
-
-
- - Go to the <a href="https://developer.paypal.com/developer/accounts/" target="_blank" rel="noopener">  **Accounts Section**</a> 
- - Press **```Create Account```**
- - Fill creation form
+!!! note
+    If **```Mode Switcher```** has **```Sanbox```** state - this section has **```SANDBOX APP SETTINGS```** title!
 
 !!! tip
     Don't forget to confirm action!
 
+??? info "Screenshots"
+    [![Set Up](images/setup1.png)](images/setup1.png)
 
-#### Step 5: Get Account credentials
 
-- Open necessary account
-- Go to **```Profile preferences```**
-- Choose **```API Credentials```** section 
-- Copy credentials:
+#### Step 4: Get Account credentials
+
+Besides App credentials You also need:
+
+- [x] SOAP Username
+- [x] SOAP Password
+- [x] Signature
+
+
+To get them - folow this flow:
+
+1. Log In at  <a href="https://paypal.com/" target="_blank" rel="noopener">  **PayPal.com**</a> 
+2. Open **```Tools```** -> **```All Tools```** 
     
+    !!! tip
+        You can find this on the **```Navigation bar```**
+
+3. Find  and Open **```API Credentials``**
+
+5. Go to the **```NVP/SOAP API integration (classic)```** section
+6. Press **```Manage API Credentials```**
+
+- Find:
     - [x] SOAP Username
     - [x] SOAP Password
     - [x] Signature
+
+??? info "Screenshots"
+    [![Acc Credentials](images/acc-cred1.png)](images/acc-cred1.png)
+
+    [![Acc Credentials](images/acc-cred2.png)](images/acc-cred2.png)
+
+    [![Acc Credentials](images/acc-cred3.png)](images/acc-cred3.png)
+
+    [![Acc Credentials](images/acc-cred4.png)](images/acc-cred4.png)
 
 !!! success
     You have configured account!

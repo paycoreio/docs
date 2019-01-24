@@ -44,7 +44,7 @@ Here You can find  instructions for setting up <a href="https://coingate.com/acc
 
 - [x] API key
 
-!!! danger
+!!! warning
     Copy the API key straight away after App creation!
     It will be unavailable later!
 
