@@ -22,7 +22,10 @@ Here You can find  instructions for setting up <a href="https://geo-pay.net/acco
 ??? info "Screenshot"
     [![Step 3](images/geopay-step2.png)](images/geopay-step2.png)
 
-#### Step 4: Contact with your manager
+#### Step 4: Contact with GeoPay manager
+
+!!! info
+    This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 5: Get API Key
 

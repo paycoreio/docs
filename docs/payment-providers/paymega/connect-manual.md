@@ -10,6 +10,9 @@ Here You can find  instructions for setting up **Paymega**  account!
 
 #### Step 1: Contact with PayMega Support Manager
 
+!!! info
+    This Payment Provoider gives acoount credentials personaly to their merchants!
+    
 #### Step 2: Get required credentials
 
 - [x]  Merchant account ID

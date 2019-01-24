@@ -32,7 +32,7 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
     !!! note
         You may generate **```New API key```**!
     
-    !!! danger
+    !!! warning
         **Be careful!** Before generating **```New API key```** ensure that **```Existing API key```** is **NOT** used somewhere else.
 
 - Save changes
@@ -85,6 +85,7 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 
     ??? info "Screenshots"
         [![Step 3](images/interkassa-step3_4.png)](images/interkassa-step3_4.png)
+        
         [![Step 3](images/interkassa-step3_5.png)](images/interkassa-step3_5.png)
 
 !!! success

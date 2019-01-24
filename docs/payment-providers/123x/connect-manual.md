@@ -16,7 +16,7 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 
 #### Step 2: Verify your business account
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 2](images/123xio-step2_1.png)](images/123xio-step2_1.png)
     
     [![Step 2](images/123xio-step2_2.png)](images/123xio-step2_2.png)
@@ -25,12 +25,12 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 
 #### Step 3: Back to Commerce and choose  "API.V0.MPS Merchant Payment Service"
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 3](images/123xio-step3.png)](images/123xio-step3.png)
 
 #### Step 4: Add Service
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 4](images/123xio-step4.png)](images/123xio-step4.png)
 
 #### Step 5: Set up parameters
@@ -40,7 +40,7 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 - [x] Error Url ```https://psp-ext.paycore.io/123xio/return```
 - [x] Status
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 5](images/123xio-step5.png)](images/123xio-step5.png)
 
 - [x] Confirm creation
@@ -54,7 +54,7 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 - [x] API key
 - [x] Secret key
 
-??? info "Screenshots"
+??? info "Screenshot"
     [![Step 1](images/123xio-step6.png)](images/123xio-step6.png)
 
 #### Step 2: Enter credentials

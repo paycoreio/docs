@@ -10,7 +10,10 @@ Here You can find  instructions for setting up **Certus Finance** account!
 
 #### Step 1: Create provider account
 
-#### Step 2: Contact with your manager
+#### Step 2: Contact with Certus Finance manager
+
+!!! info
+    This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 3: Get required credentials
 

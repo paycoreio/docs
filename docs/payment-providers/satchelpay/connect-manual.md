@@ -8,12 +8,12 @@ Here You can find  instructions for setting up **SatchelPay** account!
 
 ## Setup account
 
-#### Step 1: Create provider account
+#### Step 1:  Contact with SatchelPay Support Manager
 
-!!! tip
-    To create and set up your account - contact with SatchelPay Manager!
+!!! info
+    This Payment Provoider gives acoount credentials personaly to their merchants!
 
-#### Step 3: Get required credentials
+#### Step 2: Get required credentials
 
 - [x] API key
 
