@@ -70,6 +70,8 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
     ??? info "Screenshot"
         [![Step 3](images/interkassa-step3_2.png)](images/interkassa-step3_2.png)
 
+- Go to  **_Interface_** and ensure that  **```allow override in request```** under **```Interaction URL```** option is **```ENABLED```**
+
 - Go to **_Security_** and set up parameters:
     - [x] Sign algorithm only **```SHA256```**
     - [x] Require sign in payment form  **```Enabled```**

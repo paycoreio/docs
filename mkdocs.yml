@@ -97,6 +97,10 @@ nav:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
         - AnyCash:
             - Connection manual: 'payment-providers/anycash/connect-manual.md'
+        - AustralPay:
+            - Connection manual: 'payment-providers/australpay/connect-manual.md'
+        - CardPay:
+            - Connection manual: 'payment-providers/cardpay/connect-manual.md'
         - Certus Finance:
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md'
         - CoinGate:
@@ -127,6 +131,8 @@ nav:
             - Connection manual: 'payment-providers/satchelpay/connect-manual.md'
         - Wirecapital:
             - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
+        - Xpay:
+            - Connection manual: 'payment-providers/xpayua/connect-manual.md'
 
 
 
