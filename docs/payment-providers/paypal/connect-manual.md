@@ -76,7 +76,7 @@ To get them - folow this flow:
     !!! tip
         You can find this on the **```Navigation bar```**
 
-3. Find  and Open **```API Credentials``**
+3. Find  and Open **```API Credentials```**
 
 5. Go to the **```NVP/SOAP API integration (classic)```** section
 6. Press **```Manage API Credentials```**

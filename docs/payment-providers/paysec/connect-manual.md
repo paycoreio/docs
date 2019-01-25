@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/paysec/logo.png?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/paysec/logo.svg?w=400" width="400px">
 
 # PaySec: Connecting account
 
