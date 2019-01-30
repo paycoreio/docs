@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/flashpay/logo.png" width="400px" >
+<img src="https://static.openfintech.io/payment_providers/flashpay/logo.png?w=400" width="400px" >
 
 # FlashPay: Connecting account
 

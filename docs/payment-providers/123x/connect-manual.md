@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/123x/logo.png" width="300px" >
+<img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=300" width="300px" >
 
 # 123x: Connecting account
 
