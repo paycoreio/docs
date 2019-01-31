@@ -97,10 +97,10 @@ nav:
             - Connection manual: 'payment-providers/advcash/connect-manual.md'
         - AnyCash:
             - Connection manual: 'payment-providers/anycash/connect-manual.md'
-        - AustralPay:
-            - Connection manual: 'payment-providers/australpay/connect-manual.md'
-        - CardPay:
-            - Connection manual: 'payment-providers/cardpay/connect-manual.md'
+        #- AustralPay:
+        #    - Connection manual: 'payment-providers/australpay/connect-manual.md'
+        #- CardPay:
+        #    - Connection manual: 'payment-providers/cardpay/connect-manual.md'
         - Certus Finance:
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md'
         - CoinGate:
@@ -121,6 +121,8 @@ nav:
             - Connection manual: 'payment-providers/paybox/connect-manual.md'
         - PayMega:
             - Connection manual: 'payment-providers/paymega/connect-manual.md'
+        #- Payoneer:
+        #   - Connection manual: 'payment-providers/payoneer/connect-manual.md'
         - PayPal:
             - Connection manual: 'payment-providers/paypal/connect-manual.md'
         - PaySec:
@@ -129,10 +131,12 @@ nav:
             - Connection manual: 'payment-providers/perfectmoney/connect-manual.md'
         - SatchelPay:
             - Connection manual: 'payment-providers/satchelpay/connect-manual.md'
+        #- Skrill:
+        #    - Connection manual: 'payment-providers/skrill/connect-manual.md'
         - Wirecapital:
             - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
-        - Xpay:
-            - Connection manual: 'payment-providers/xpayua/connect-manual.md'
+        #- Xpay:
+        #    - Connection manual: 'payment-providers/xpayua/connect-manual.md'
 
 
 
