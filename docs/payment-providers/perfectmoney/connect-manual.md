@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/perfectmoney/logo.svg?w=400" width="200px">
+<img src="https://static.openfintech.io/payment_providers/perfectmoney/logo.png?w=400" width="400px">
 
 # PerfectMoney: Connecting account
 
