@@ -13,6 +13,9 @@ Structurally User profile consists of:
 -  [General settings](general)
     - Profile
     - Preferences
+    - Formatting
 -  [Security settings](security)
     - Password management
     - Two-Factors Authentication
+    - Sessions
+    - Auditlog
