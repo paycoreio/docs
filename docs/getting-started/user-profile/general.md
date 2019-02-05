@@ -2,10 +2,11 @@
 
 
 This subsection intended  for setting up your General info and basic preferences of location and data layout.
-It is divided into **2 parts**:
+It is divided into **3 parts**:
 
 1. Profile
 2. Preferences
+3. Formatting
 
 
 ## Profile
@@ -33,3 +34,13 @@ Here You can:
 
 !!! info "General: Preferences"
     [![General](../images/general2.png)](../images/general2.png)
+
+## Formatting
+
+In this section You can configure data formatting preferences. 
+
+In particular:
+
+- Amounts Precision
+- Thousands separator
+- Date & time format
