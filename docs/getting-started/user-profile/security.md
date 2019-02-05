@@ -48,7 +48,6 @@ To acivate this function You should do the follow:
 
 **Step 3**: Enter the verification code from the app
 
-
 !!! info "Security: Two-Factor authentication"
     [![General](../images/security2.png)](../images/security2.png)
 
