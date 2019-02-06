@@ -15,7 +15,6 @@ Here You can find  instructions for setting up **PaySec**  account.
 
 #### Step 2: Get required credentials
 
-- [x] User name
 - [x] Merchant Key
 - [x] Merchant Code
 
@@ -29,7 +28,6 @@ Here You can find  instructions for setting up **PaySec**  account.
 
 #### Step 1: Copy required credentials
 
-- [x] User name
 - [x] Merchant Key
 - [x] Merchant Code
 

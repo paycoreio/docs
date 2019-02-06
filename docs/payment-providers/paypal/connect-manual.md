@@ -1,6 +1,6 @@
 <img src="https://static.openfintech.io/payment_providers/paypal/logo.svg?w=400" width="400px">
 
-# PalPal: Connecting account
+# PayPal: Connecting account
 
 ## Introduction
 
