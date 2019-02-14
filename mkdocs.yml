@@ -105,6 +105,8 @@ nav:
             - Connection manual: 'payment-providers/certusfinance/connect-manual.md'
         - CoinGate:
             - Connection manual: 'payment-providers/coingate/connect-manual.md'
+        #- dLocal:
+        #    - Connection manual: 'payment-providers/dlocal/connect-manual.md'
         - FlashPay:
             - Connection manual: 'payment-providers/flashpay/connect-manual.md'
         - Fondy:
@@ -135,8 +137,8 @@ nav:
         #    - Connection manual: 'payment-providers/skrill/connect-manual.md'
         - Wirecapital:
             - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
-        #- Xpay:
-        #    - Connection manual: 'payment-providers/xpayua/connect-manual.md'
+        - Xpay:
+            - Connection manual: 'payment-providers/xpayua/connect-manual.md'
 
 
 

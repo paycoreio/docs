@@ -8,13 +8,29 @@ Here You can find  instructions for setting up **Xpay**  account.
 
 ## Setup account
 
-#### Step 1: Contact with Xpay Support Manager
+#### Step 1 Generate Keys-pair
+- [x] Public key
+- [x] Private key
+
+!!! note
+    You can generate them in any way you can. 
+
+    <a href="https://github.com/paycoreio/xpayua" target="_blank" rel="noopener">**Here**</a> is an example how to do this!
+
+#### Step 2: Contact with Xpay Support Manager
+
+1. Send **Your** **```Public Key```**
+2. Get **Xpay** **```Public Key```** and **```Partner Token```**
 
 !!! info
-    This Payment Provoider gives acoount credentials personaly to their merchants!
+    Do **NOT** share your **```Private Key```**!!! 
 
-#### Step 2: Get required credentials
 
+#### Step 3: Get required credentials
+
+- [x] Xpay Public key
+- [x] Your Private key
+- [x] Xpay Partner Token
 
 !!! success
     You have configured account!
@@ -29,6 +45,15 @@ Here You can find  instructions for setting up **Xpay**  account.
 
 #### Step 2: Enter credentials
 
+- [x] Token
+- [x] Private key
+
+    ??? tip
+        Save your **```Private Key```** to **```txt```** file and upload it to connecting form using Upload button!
+
+- [x] Public key
+
+
 !!! tip
     Press **```Connect```** at Xpay **```Provider Overview page```** in **```New connection```** section to open Connection form!
 
@@ -37,7 +62,7 @@ Here You can find  instructions for setting up **Xpay**  account.
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/xpay-step_connect.png)](images/xpay-step_connect.png)
+    [![Step 3](images/xpayua-step_connect.png)](images/xpayua-step_connect.png)
 
 
 !!! success
