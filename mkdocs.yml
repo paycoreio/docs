@@ -135,8 +135,8 @@ nav:
         #    - Connection manual: 'payment-providers/skrill/connect-manual.md'
         - Wirecapital:
             - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
-        #- Xpay:
-        #    - Connection manual: 'payment-providers/xpayua/connect-manual.md'
+        - Xpay:
+            - Connection manual: 'payment-providers/xpayua/connect-manual.md'
 
 
 
