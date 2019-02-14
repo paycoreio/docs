@@ -17,7 +17,7 @@ Here You can find  instructions for setting up **Xpay**  account.
 
     <a href="https://github.com/paycoreio/xpayua" target="_blank" rel="noopener">**Here**</a> is an example how to do this!
 
-#### Step 1: Contact with Xpay Support Manager
+#### Step 2: Contact with Xpay Support Manager
 
 1. Send **Your** **```Public Key```**
 2. Get **Xpay** **```Public Key```** and **```Partner Token```**
@@ -26,7 +26,7 @@ Here You can find  instructions for setting up **Xpay**  account.
     Do **NOT** share your **```Private Key```**!!! 
 
 
-#### Step 2: Get required credentials
+#### Step 3: Get required credentials
 
 - [x] Xpay Public key
 - [x] Your Private key
