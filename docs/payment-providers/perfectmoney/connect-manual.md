@@ -53,7 +53,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 - Find and copy next credential:
 
-    - [x] Alternate Passphrase
+    - [x] Alternate Passphrase (Passphrase)
 
 ??? info "Screenshot"
     [![Verify](images/cred3.png)](images/cred3.png)
@@ -64,7 +64,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 - Find and copy next credential:
 
-    - [x] Client ID
+    - [x] Member ID (Account ID)
 
 ??? info "Screenshot"
     [![Verify](images/cred1.png)](images/cred1.png)
@@ -75,9 +75,14 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 ### Step 1: Copy required credentials
 
-- [x] Client ID
+- [x] Account ID
 
-- [x] Alternate Passphrase
+- [x] Passphrase
+
+- [x] Merchant Account Password
+    
+    !!! info
+        **```Merchant Account Password```** - is the password, you use to Sign in to the <a href="https://perfectmoney.is/login.html" target="_blank" rel="noopener">PerfectMoney Dashboard</a>
 
 ### Step 2: Enter credentials
 

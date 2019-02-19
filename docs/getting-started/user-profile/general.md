@@ -1,5 +1,6 @@
 # User Profile: General
 
+## General 
 
 This subsection intended  for setting up your General info and basic preferences of location and data layout.
 It is divided into **3 parts**:
@@ -10,6 +11,7 @@ It is divided into **3 parts**:
 
 
 ## Profile
+
 It includes info about You and Organisation, in which You work! 
 
 Here You can add a Profile picture from a file, set  your contact information and other.

@@ -38,6 +38,14 @@ Here You can find  instructions for setting up **PaySec**  account.
     Press **```Connect```** at PaySec **```Provider Overview page```** in **```New connection```** section to open Connection form!
 
 
+#### Step 3: Set up additional parameters 
+
+- [x] Currencies
+- [x] Test mode
+
+!!! note
+    These parameters are set according to your Merchant account type and it's available currencies!
+
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 

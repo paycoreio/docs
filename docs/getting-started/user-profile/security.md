@@ -1,5 +1,7 @@
 # User Profile: Security
 
+## General 
+
 This subsection intended for setting up your Security preferences and access management.
 It is divided into several parts:
 
@@ -64,4 +66,65 @@ After all this you will be asked  to enter **```verification code```** **every t
 
 To **```Disable```** 2FA authentication press **```Disable```** button!
 !!! info "Security: Two-Factor authentication Disabling"
-    [![Disable](../images/security-2fa-disable.png)](../images/security-2fa-disable.png)
+    [![Disable](../images/security__2fa__disable1.png)](../images/security__2fa__disable1.png)
+
+    [![Disable](../images/security__2fa__disable2.png)](../images/security__2fa__disable2.png)
+
+
+## Sessions
+This section provides  an ability to control **```active ```** sessions.
+
+Session list contains the next information:
+- Device type
+- IP address
+- Location (Based on IP)
+- Last time accessed
+
+
+You can revoke any unrecognized session using **```"Revoke"```** or **```"Revoke all"```**  button.
+
+!!! note
+    **```"Revoke"```** - this button revoke only 1 session
+
+    **```"Revoke all"```** - this button provides bulk-revoke for **```all```** sessions  except the **```current```** one!
+
+!!! tip
+    To get more info about certain session - expand session row!
+
+!!! info "Security: Sessions List"
+    [![Sessions](../images/security__sessions1.png)](../images/security__sessions1.png)
+
+## Auditlog
+
+This section is intended to inform user about the actions in context of user profile.
+
+It register the next type of events:
+
+- **```user:logged_in```** (Logged in)
+- **```user:logged_out```** (Logged out)
+- **```user:login_failed```** (Login failed)
+- **```user.password:reset_requested```** (Requested a password reset)
+- **```user.profile:updated```** (Profile updated)
+- **```user.preferences:updated```** (Preferences updated)
+- **``user.password:changed``** (Password changed)
+- **``user.2fa:enabled``** (2FA enabled)
+- **```user.2fa:disabled```** (2FA disabled)
+
+!!! tip
+    To get more info about certain event - expand it's row!
+
+
+Events list contains the next information:
+- Event code
+- Event message
+- IP address
+- Last time accessed
+- Session hash
+- Location (Based on IP)
+- Device type
+- Browser
+- OS name
+- ...other
+
+!!! info "Security: Auditlog"
+    [![Auditlog](../images/security__auditlog1.png)](../images/security__auditlog1.png)
