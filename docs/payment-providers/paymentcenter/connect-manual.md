@@ -24,8 +24,6 @@ Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.
 2. Find and Copy:
     - [x] **Service ID**
 
-    ??? info "Screenshot"
-        [![Service ID](images/paymentcenter__service_id.png)](images/paymentcenter__service_id.png)  
 
 3. Go to the **```Actions list```**
 
@@ -49,6 +47,8 @@ Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.
 - Notifications: **```ENABLED```**
 - Callback data format : **```JSON```**
 
+    ??? info "Screenshot"
+        [![Parameters](images/paymentcenter__paramenters.png)](images/paymentcenter__paramenters.png) 
 
 !!! success
     You have configured account!
