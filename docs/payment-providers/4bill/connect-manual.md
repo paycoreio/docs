@@ -44,7 +44,7 @@ Here You can find  instructions for setting up <a href="https://4bill.io/" targe
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/4bill-step_connect.png)](images/4bill-step_connect.png)
+    [![Connect](images/4bill-step_connect.png)](images/4bill-step_connect.png)
     
 
 !!! success

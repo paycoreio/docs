@@ -80,7 +80,7 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/fondy-step_connect.png)](images/fondy-step_connect.png)
+    [![Connect](images/fondy-step_connect.png)](images/fondy-step_connect.png)
 
 !!! success
     You have connected **Fondy**!

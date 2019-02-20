@@ -68,7 +68,7 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/paybox-step_connect.png)](images/paybox-step_connect.png)
+    [![Connect](images/paybox-step_connect.png)](images/paybox-step_connect.png)
 
 
 !!! success

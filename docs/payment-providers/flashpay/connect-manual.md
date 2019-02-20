@@ -44,7 +44,7 @@ Here You can find  instructions for setting up **FlashPay** account!
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/flashpay-step_connect.png)](images/flashpay-step_connect.png)
+    [![Connect](images/flashpay-step_connect.png)](images/flashpay-step_connect.png)
 
 
 !!! success

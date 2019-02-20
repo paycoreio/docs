@@ -94,7 +94,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/perfectmoney-step_connect.png)](images/perfectmoney-step_connect.png)
+    [![Connect](images/perfectmoney-step_connect.png)](images/perfectmoney-step_connect.png)
 
 
 !!! success

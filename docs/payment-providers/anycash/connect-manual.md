@@ -51,7 +51,7 @@ Here You can find  instructions for setting up <a href="https://any.cash/" targe
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/anycash-step_connect.png)](images/anycash-step_connect.png)
+    [![Connect](images/anycash-step_connect.png)](images/anycash-step_connect.png)
 
 
 !!! success

@@ -63,7 +63,7 @@ Here You can find  instructions for setting up <a href="https://coingate.com/acc
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/coingate-step_connect.png)](images/coingate-step_connect.png)
+    [![Connect](images/coingate-step_connect.png)](images/coingate-step_connect.png)
 
 
 !!! success

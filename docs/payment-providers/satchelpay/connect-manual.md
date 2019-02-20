@@ -39,7 +39,7 @@ Here You can find  instructions for setting up **SatchelPay** account!
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/satchelpay-step_connect.png)](images/satchelpay-step_connect.png)
+    [![Connect](images/satchelpay-step_connect.png)](images/satchelpay-step_connect.png)
     
 
 

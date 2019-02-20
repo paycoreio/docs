@@ -51,7 +51,7 @@ Here You can find  instructions for setting up <a href="https://geo-pay.net/acco
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/geopay-step_connect.png)](images/geopay-step_connect.png)
+    [![Connect](images/geopay-step_connect.png)](images/geopay-step_connect.png)
 
 !!! success
     You have connected **GeoPay**!
