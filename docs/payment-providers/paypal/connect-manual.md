@@ -124,7 +124,7 @@ To get them - folow this flow:
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/paypal-step_connect.png)](images/paypal-step_connect.png)
+    [![Connect](images/paypal-step_connect.png)](images/paypal-step_connect.png)
 
 
 !!! success

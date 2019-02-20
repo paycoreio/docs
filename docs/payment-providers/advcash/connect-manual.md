@@ -142,7 +142,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/advcash-step_connect.png)](images/advcash-step_connect.png)
+    [![Connect](images/advcash-step_connect.png)](images/advcash-step_connect.png)
 
 
 

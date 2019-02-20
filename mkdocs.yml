@@ -89,58 +89,36 @@ nav:
         - Overview: 'products/commerce/overview.md'
 - Providers:
         - Overview: 'payment-providers/index.md'
-        - 123x:
-            - Connection manual: 'payment-providers/123x/connect-manual.md'
-        - 4bill:
-            - Connection manual: 'payment-providers/4bill/connect-manual.md'
-        - AdvCash:
-            - Connection manual: 'payment-providers/advcash/connect-manual.md'
-        - AnyCash:
-            - Connection manual: 'payment-providers/anycash/connect-manual.md'
-        #- AustralPay:
-        #    - Connection manual: 'payment-providers/australpay/connect-manual.md'
-        #- CardPay:
-        #    - Connection manual: 'payment-providers/cardpay/connect-manual.md'
-        - Certus Finance:
-            - Connection manual: 'payment-providers/certusfinance/connect-manual.md'
-        - CoinGate:
-            - Connection manual: 'payment-providers/coingate/connect-manual.md'
-        #- dLocal:
-        #    - Connection manual: 'payment-providers/dlocal/connect-manual.md'
-        - FlashPay:
-            - Connection manual: 'payment-providers/flashpay/connect-manual.md'
-        - Fondy:
-            - Connection manual: 'payment-providers/fondy/connect-manual.md'
-        - GeoPay:
-            - Connection manual: 'payment-providers/geopaynet/connect-manual.md'
-        - ING Bank Poland:
-            - Connection manual: 'payment-providers/ingbankpl/connect-manual.md'
-        - Interkassa:
-            - Connection manual: 'payment-providers/interkassa/connect-manual.md'
-        - LiqPay:
-            - Connection manual: 'payment-providers/liqpay/connect-manual.md'
-        - PayBox:
-            - Connection manual: 'payment-providers/paybox/connect-manual.md'
-        - PayMega:
-            - Connection manual: 'payment-providers/paymega/connect-manual.md'
-        - PaymentCenter:
-            - Connection manual: 'payment-providers/paymentcenter/connect-manual.md'   
-        #- Payoneer:
-        #   - Connection manual: 'payment-providers/payoneer/connect-manual.md'
-        - PayPal:
-            - Connection manual: 'payment-providers/paypal/connect-manual.md'
-        - PaySec:
-            - Connection manual: 'payment-providers/paysec/connect-manual.md'
-        - PerfectMoney:
-            - Connection manual: 'payment-providers/perfectmoney/connect-manual.md'
-        - SatchelPay:
-            - Connection manual: 'payment-providers/satchelpay/connect-manual.md'
-        #- Skrill:
-        #    - Connection manual: 'payment-providers/skrill/connect-manual.md'
-        - Wirecapital:
-            - Connection manual: 'payment-providers/wirecapital/connect-manual.md'
-        - Xpay:
-            - Connection manual: 'payment-providers/xpayua/connect-manual.md'
+        - 123x: 'payment-providers/123x/connect-manual.md'
+        - 4bill: 'payment-providers/4bill/connect-manual.md'
+        - AdvCash: 'payment-providers/advcash/connect-manual.md'
+        - AnyCash: 'payment-providers/anycash/connect-manual.md'
+        #- AustralPay: 'payment-providers/australpay/connect-manual.md'
+        #- CardPay: 'payment-providers/cardpay/connect-manual.md'
+        - Certus Finance: 'payment-providers/certusfinance/connect-manual.md'
+        - CoinGate: 'payment-providers/coingate/connect-manual.md'
+        #- dLocal: 'payment-providers/dlocal/connect-manual.md'
+        - FlashPay: 'payment-providers/flashpay/connect-manual.md'
+        - Fondy: 'payment-providers/fondy/connect-manual.md'
+        - GeoPay: 'payment-providers/geopaynet/connect-manual.md'
+        - ING Bank Poland: 'payment-providers/ingbankpl/connect-manual.md'
+        - Interkassa: 'payment-providers/interkassa/connect-manual.md'
+        #- Leogaming: 'payment-providers/leogaming/connect-manual.md'
+         - LiqPay: 'payment-providers/liqpay/connect-manual.md'
+        #- MoneyMovers: 'payment-providers/moneymovers/connect-manual.md'
+        #- Neteller: 'payment-providers/neteller/connect-manual.md'
+        - PayBox: 'payment-providers/paybox/connect-manual.md'
+        - PayMega: 'payment-providers/paymega/connect-manual.md'
+        - PaymentCenter: 'payment-providers/paymentcenter/connect-manual.md'   
+        #- Payoneer: 'payment-providers/payoneer/connect-manual.md'
+        - PayPal: 'payment-providers/paypal/connect-manual.md'
+        - PaySec: 'payment-providers/paysec/connect-manual.md'
+        - PerfectMoney: 'payment-providers/perfectmoney/connect-manual.md'
+        - SatchelPay: 'payment-providers/satchelpay/connect-manual.md'
+        #- Skrill: 'payment-providers/skrill/connect-manual.md'
+        #- Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
+        - Wirecapital: 'payment-providers/wirecapital/connect-manual.md'
+        - Xpay: 'payment-providers/xpayua/connect-manual.md'
 
 
 

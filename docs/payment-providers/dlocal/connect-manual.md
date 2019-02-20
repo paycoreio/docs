@@ -37,7 +37,7 @@ Here You can find  instructions for setting up **dLocal**  account.
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/dLocal-step_connect.png)](images/dLocal-step_connect.png)
+    [![Connect](images/dLocal-step_connect.png)](images/dLocal-step_connect.png)
 
 
 !!! success

@@ -36,7 +36,7 @@ Here You can find  instructions for setting up **Payoneer**  account.
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/payoneer-step_connect.png)](images/payoneer-step_connect.png)
+    [![Connect](images/payoneer-step_connect.png)](images/payoneer-step_connect.png)
 
 
 !!! success

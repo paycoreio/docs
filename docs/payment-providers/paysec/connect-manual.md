@@ -50,7 +50,7 @@ Here You can find  instructions for setting up **PaySec**  account.
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/paysec-step_connect.png)](images/paysec-step_connect.png)
+    [![Connect](images/paysec-step_connect.png)](images/paysec-step_connect.png)
 
 
 !!! success

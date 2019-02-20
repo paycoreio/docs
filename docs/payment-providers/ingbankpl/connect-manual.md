@@ -66,7 +66,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/ingbank-step_connect.png)](images/4bill-step_connect.png)
+    [![Connect](images/ingbank-step_connect.png)](images/4bill-step_connect.png)
 
 
 !!! success

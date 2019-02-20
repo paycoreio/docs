@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/paymentcenter/logo.svg?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/paymentcenter/logo.png?w=400" width="400px">
 
 # PaymentCenter: Connecting account
 
@@ -8,14 +8,46 @@ Here You can find  instructions for setting up <a href="https://cabinet.payment.
 
 ## Setup account
 
-#### Step 1: 
+#### Step 1: Contact with PaymentCenter Support Manager
+Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.center/login/" target="_blank" rel="noopener">Your personal account</a>
+
+#### Step 2: Get required credentials
+
+1. Go to the Services
+    
+    ??? note
+        Services are created by PaymentCenter manager!
+    
+    ??? info "Screenshot"
+        [![Services](images/paymentcenter__services1.png)](images/paymentcenter__services1.png)    
+
+2. Find and Copy:
+    - [x] **Service ID**
+
+    ??? info "Screenshot"
+        [![Service ID](images/paymentcenter__service_id.png)](images/paymentcenter__service_id.png)  
+
+3. Go to the **```Actions list```**
+
+    ??? info "Screenshot"
+        [![Actions](images/paymentcenter__actions.png)](images/paymentcenter__actions.png) 
+
+4. Find and Copy:
+    - [x] **Secret Key**
+
+    ??? info "Screenshot"
+        [![Secret key](images/paymentcenter__secret_key.png)](images/paymentcenter__secret_key.png) 
+
+    ??? Note
+        You can set a new one, but ensure that copied key is actual.
 
 
-#### Step 2: Contact with PaymentCenter Support Manager
+#### Step 3: Set up parameters
 
-
-
-#### Step 3: Get required credentials
+- Return URL: ```https://psp-ext.paycore.io/paymentcenter/return```
+- Callback URL: ```https://psp-ext.paycore.io/paymentcenter/callback```
+- Notifications: **```ENABLED```**
+- Callback data format : **```JSON```**
 
 
 !!! success
@@ -28,6 +60,8 @@ Here You can find  instructions for setting up <a href="https://cabinet.payment.
 
 #### Step 1: Copy required credentials
 
+ - [x] **Service ID**
+ - [x] **Secret Key**
 
 #### Step 2: Enter credentials
 
@@ -40,7 +74,7 @@ Here You can find  instructions for setting up <a href="https://cabinet.payment.
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/paymentcenter-step_connect.png)](images/paymentcenter-step_connect.png)
+    [![Connect](images/paymentcenter-step_connect.png)](images/paymentcenter-step_connect.png)
 
 
 !!! success

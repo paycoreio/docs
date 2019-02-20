@@ -36,7 +36,7 @@ Here You can find  instructions for setting up **Skrill**  account.
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 3](images/skrill-step_connect.png)](images/skrill-step_connect.png)
+    [![Connect](images/skrill-step_connect.png)](images/skrill-step_connect.png)
 
 
 !!! success

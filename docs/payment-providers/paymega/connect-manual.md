@@ -43,7 +43,7 @@ Here You can find  instructions for setting up **Paymega**  account!
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/paymega-step_connect.png)](images/paymega-step_connect.png)
+    [![Connect](images/paymega-step_connect.png)](images/paymega-step_connect.png)
 
 
 !!! success

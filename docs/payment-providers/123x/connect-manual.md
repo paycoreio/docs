@@ -67,7 +67,7 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 1](images/123xio-step_connect.png)](images/123xio-step_connect.png)
+    [![Connect](images/123xio-step_connect.png)](images/123xio-step_connect.png)
 
 
 

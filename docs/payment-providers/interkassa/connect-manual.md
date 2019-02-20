@@ -118,7 +118,7 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
     **Don't forget to Save changes to confirm connection!**
 
 ??? info "Screenshot"
-    [![Step 2](images/interkassa-step_connect.png)](images/interkassa-step_connect.png)
+    [![Connect](images/interkassa-step_connect.png)](images/interkassa-step_connect.png)
 
 
 !!! success
