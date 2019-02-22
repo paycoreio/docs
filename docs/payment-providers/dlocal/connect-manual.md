@@ -84,6 +84,23 @@ Here You can find  instructions for setting up **dLocal**  account.
     Press **```Connect```** at dLocal **```Provider Overview page```** in **```New connection```** section to open Connection form!
 
 
+#### Step 3: Set up additional parameters
+
+- [x] Currencies
+    
+    !!! tip
+        You can add any currency, available for your dLocal merchant account.
+
+    !!! Note 
+        If You add **unavailable** currency - it will occure an **```ERROR```**!
+
+- [x] Test mode
+
+    !!! tip
+        Set **TRUE** - if You connect **```TEST```** account!
+
+        Set **FALSE** - if You connect **```LIVE```** account!
+
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
