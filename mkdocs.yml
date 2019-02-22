@@ -97,7 +97,7 @@ nav:
       #- CardPay: 'payment-providers/cardpay/connect-manual.md'
       - Certus Finance: 'payment-providers/certusfinance/connect-manual.md'
       - CoinGate: 'payment-providers/coingate/connect-manual.md'
-      #- dLocal: 'payment-providers/dlocal/connect-manual.md'
+      - dLocal: 'payment-providers/dlocal/connect-manual.md'
       - FlashPay: 'payment-providers/flashpay/connect-manual.md'
       - Fondy: 'payment-providers/fondy/connect-manual.md'
       - GeoPay: 'payment-providers/geopaynet/connect-manual.md'
