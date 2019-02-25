@@ -100,15 +100,15 @@ This section is intended to inform user about the actions in context of user pro
 
 It register the next type of events:
 
-- **```user:logged_in```** (Logged in)
-- **```user:logged_out```** (Logged out)
-- **```user:login_failed```** (Login failed)
-- **```user.password:reset_requested```** (Requested a password reset)
-- **```user.profile:updated```** (Profile updated)
-- **```user.preferences:updated```** (Preferences updated)
-- **``user.password:changed``** (Password changed)
-- **``user.2fa:enabled``** (2FA enabled)
-- **```user.2fa:disabled```** (2FA disabled)
+- **```user:logged_in```** (*Logged in*)
+- **```user:logged_out```** (*Logged out*)
+- **```user:login_failed```** (*Login failed*)
+- **```user.password:reset_requested```** (*Requested a password reset*)
+- **```user.profile:updated```** (*Profile updated*)
+- **```user.preferences:updated```** (*Preferences updated*)
+- **``user.password:changed``** (*Password changed*)
+- **``user.2fa:enabled``** (*2FA enabled*)
+- **```user.2fa:disabled```** (*2FA disabled*)
 
 !!! tip
     To get more info about certain event - expand it's row!
@@ -120,7 +120,7 @@ Events list contains the next information:
 - IP address
 - Last time accessed
 - Session hash
-- Location (Based on IP)
+- Location (*Based on IP*)
 - Device type
 - Browser
 - OS name

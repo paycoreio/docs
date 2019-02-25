@@ -5,7 +5,7 @@
 
 - [x] Configure your personal info
 - [x] Set general preferences
-- [x] Set up your contact data (such as website, email, phone number, etc.)
+- [x] Set up your contact data (*such as website, email, phone number, etc.*)
 - [x] Manage your application access
 
 Structurally User profile consists of:
@@ -13,7 +13,6 @@ Structurally User profile consists of:
 -  [General settings](general)
     - Profile
     - Preferences
-    - Formatting
 -  [Security settings](security)
     - Password management
     - Two-Factors Authentication
