@@ -3,12 +3,10 @@
 ## General 
 
 This subsection intended  for setting up your General info and basic preferences of location and data layout.
-It is divided into **3 parts**:
+It is divided into ** the next parts**:
 
 1. Profile
 2. Preferences
-3. Formatting
-
 
 ## Profile
 
@@ -25,11 +23,18 @@ Here You can add a Profile picture from a file, set  your contact information an
 
 ## Preferences
 
-Here You can:
-
-- [x] Set Interface language for Dashboard 
-- [x] Set your time zone
-- [x] Choose data layout preference (Item per page)
+Here You can configure:
+- [x] Localization
+    - Set Interface language for Dashboard 
+    - Set your time zone
+- [x] Amounts formatting
+    - Precision
+    - Decimal separator
+-  [x] Date & Time formatting
+    - Date format type
+    - Use relative time (*eg. 44 minutes ago*)
+- [x] Data layout
+    - Choose data layout preference (*Item per page*)
 
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
@@ -37,12 +42,6 @@ Here You can:
 !!! info "General: Preferences"
     [![General](../images/general2.png)](../images/general2.png)
 
-## Formatting
 
-In this section You can configure data formatting preferences. 
-
-In particular:
-
-- Amounts Precision
-- Thousands separator
-- Date & time format
+!!! tip
+    **Don`t forget to save changes!**

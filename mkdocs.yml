@@ -94,7 +94,7 @@ nav:
       - AdvCash: 'payment-providers/advcash/connect-manual.md'
       - AnyCash: 'payment-providers/anycash/connect-manual.md'
       #- AustralPay: 'payment-providers/australpay/connect-manual.md'
-      #- CardPay: 'payment-providers/cardpay/connect-manual.md'
+      - CardPay: 'payment-providers/cardpay/connect-manual.md'
       - Certus Finance: 'payment-providers/certusfinance/connect-manual.md'
       - CoinGate: 'payment-providers/coingate/connect-manual.md'
       - dLocal: 'payment-providers/dlocal/connect-manual.md'
