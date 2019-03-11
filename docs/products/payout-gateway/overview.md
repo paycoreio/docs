@@ -1,6 +1,6 @@
 # Payout Gateway
 
-Payout Gateway is a part of PayCore.io Payment Infrastructure to initiate and manage payouts. This gateway enables you to securely initiate financial transactions within connected payment providers in order to send payments to a large number of recipients simultaneously. There are two ways to initiate a financial transaction: payout and payout request.
+Payout Gateway is a part of PayCore.io<sup>®</sup> Payment Infrastructure to initiate and manage payouts. This gateway enables you to securely initiate financial transactions within connected payment providers in order to send payments to a large number of recipients simultaneously. There are two ways to initiate a financial transaction: payout and payout request.
 
 ### Payout operation
 
@@ -27,7 +27,7 @@ NOTES:
 1. If you require to add a currency of payout point, which is not listed in the drop down menu, then please write us a message to support@paycore.io to support this currency.
 2. A payout point currency is used mainly for accounting and reporting but you should specify at least one. The payout currency is a mandatory attribute ('point_currency') in a payout request, but it doesn't mean you can not initiate a financial transaction in the currency, which is different from the currency of the payout point.
 
-PayCore.io has a test mode you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. Using a test provider account it is possible only to initiate test payout requests. Payout and payment requests can be initiated from live deposit accounts only when you connect at least one provider, which supports payouts from the list of [established integrations](../../payment-providers/index.md). You can request a new integration by contacting our Customer Service team.
+PayCore.io<sup>®</sup> has a test mode you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. Using a test provider account it is possible only to initiate test payout requests. Payout and payment requests can be initiated from live deposit accounts only when you connect at least one provider, which supports payouts from the list of [established integrations](../../payment-providers/index.md). You can request a new integration by contacting our Customer Service team.
 
 This example shows how to create a Payout Request:
 ```
@@ -51,7 +51,7 @@ Content-Type: application/json
   }
 }
 ```    
-The full list of properties and atributes available in the <a href="https://apidoc.paycore.io/#tag/Payout-gateway/paths/~1payout-gateway~1payout-requests/post" target="_blank" rel="noopener">PayCore.io Public API documentation</a>. The content of **fields** must be set according to 'payout-service'. The list of available payout services can be found in the Payout Gateway on the <a href="https://dashboard.paycore.io/payout-gateway/payout-routes" target="_blank" rel="noopener">Dashboard</a> the **Payout Routes** tab. The payout service fields can be found in the <a href="https://dashboard.paycore.io/connect-directory/payout-services" target="_blank" rel="noopener">Payout Services</a> tab.
+The full list of properties and atributes available in the <a href="https://apidoc.paycore.io/#tag/Payout-gateway/paths/~1payout-gateway~1payout-requests/post" target="_blank" rel="noopener">PayCore.io<sup>®</sup> Public API documentation</a>. The content of **fields** must be set according to 'payout-service'. The list of available payout services can be found in the Payout Gateway on the <a href="https://dashboard.paycore.io/payout-gateway/payout-routes" target="_blank" rel="noopener">Dashboard</a> the **Payout Routes** tab. The payout service fields can be found in the <a href="https://dashboard.paycore.io/connect-directory/payout-services" target="_blank" rel="noopener">Payout Services</a> tab.
 
 Here is a list of terms we use and their definitions on payouts.
 

@@ -2,9 +2,9 @@
 
 ## Introduction
 
-**PayCore.io** integrates payment providers and acquires all around the world to one hub and offers the unified communication interface. 
+**PayCore.io<sup>®</sup>** integrates payment providers and acquires all around the world to one hub and offers the unified communication interface. 
 
-<a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayСore.io Dashboard</a> is an information and management tool which is intended to help you manage your business based on **PayСore**.
+<a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayCore.io<sup>®</sup> Dashboard</a> is an information and management tool which is intended to help you manage your business based on **PayСore**.
 
 [![Dashboard](images/dash_overview1.png)](images/dash_overview1.png)
 
@@ -54,8 +54,8 @@ Using **_PayCore.io Dashboard_**  you can:
 
 - [x] Create and manage Customers
 
-[![Dashboard](images/dash_overview_cust1.png)](images/dash_overview_acc1.png)
-[![Dashboard](images/dash_overview_cust2.png)](images/dash_overview_acc2.png)
+[![Dashboard](images/dash_overview_cust1.png)](images/dash_overview_cust1.png)
+[![Dashboard](images/dash_overview_cust2.png)](images/dash_overview_cust2.png)
 
 - [x] Manage Operations
     - [Payments](../../products/payment-gateway/payments)

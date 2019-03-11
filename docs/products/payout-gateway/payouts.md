@@ -91,7 +91,7 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 <tr style="background-color:#ff8787"><td><b>INVALID_AMOUNT</b></td><td>Invalid payout amount</td><td>Amount format or route limits violation</td></tr>
 <tr style="background-color:#ff8787"><td><b>INVALID_METHOD</b></td><td>Invalid payout method</td><td></td></tr>
 <tr style="background-color:#ff8787"><td><b>INVALID_CREDENTIALS</b></td><td>Invalid authentication data</td><td></td></tr>
-<tr style="background-color:#ff8787"><td><b>FORBIDDEN_IP</b></td><td>Forbidden IP</td><td> Perhaps you did not register PayCore.io IP addresses in Whitelist</td></tr>
+<tr style="background-color:#ff8787"><td><b>FORBIDDEN_IP</b></td><td>Forbidden IP</td><td> Perhaps you did not register PayCore.io<sup>®</sup> IP addresses in Whitelist</td></tr>
 <tr style="background-color:#ff8787"><td><b>SIGNATURE_ERROR</b></td><td>Signature verification error</td><td>Perhaps key was changed or it is outdated </td></tr>
 <tr style="background-color:#ff8787"><td><b>DUPLICATED_ID</b></td><td>Operation ID already exists</td><td></td></tr>
 <tr style="background-color:#ff8787"><td><b>INSUFFICIENT_FUNDS</b></td><td>Insufficient funds for payout</td><td></td></tr>
@@ -100,7 +100,7 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 <tr style="background-color:#ff8787"><td><b>RECIPIENT_NOT_FOUND</b></td><td>Payout Recipient not found</td><td></td></tr>
 <tr style="background-color:#ff8787"><td><b>INVALID_RECIPIENT</b></td><td>Payout Recipient is  invalid or inaccessible</td><td></td></tr>
 <tr style="background-color:#ff8787"><td><b>LIMIT_VIOLATION</b></td><td>Payout limits violation</td><td></td></tr>
-<tr style="background-color:#ff8787"><td><b>INTERNAL_ERROR</b></td><td>System error</td><td>Internal PayCore.io error</td></tr>
+<tr style="background-color:#ff8787"><td><b>INTERNAL_ERROR</b></td><td>System error</td><td>Internal PayCore.io<sup>®</sup> error</td></tr>
 <tr style="background-color:#ff8787"><td><b>ACCESS_ERROR</b></td><td>There are not enough permissions to perform the operation</td><td>Check the configuration in the payment provider</td></tr>
 <tr style="background-color:#ff8787"><td><b>ACCESS_DENIED</b></td><td>User is not authorized to perform these actions</td><td></td></tr>
 <tr style="background-color:#ff8787"><td><b>GENERAL_FATAL_ERROR</b></td><td>Critical error</td><td>Further processing of the operation is meaningless</td></tr>
