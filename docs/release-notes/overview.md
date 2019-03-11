@@ -29,7 +29,7 @@ This changelog lists releases by date and version number, along with associated 
       <td align="center">05.03.2019</td>
       <td align="left">          
         <ul>
-          <li>Commerce entity implemented
+          <li>New Commerce feature released
           <ul>
           <li>Commerce Account</li>
           <li>Contract Scheme</li>
@@ -41,7 +41,7 @@ This changelog lists releases by date and version number, along with associated 
           </li>
           <li>New UI/UX
           <ul>
-            <li>Navigation reorganized</li>
+            <li>Navigation reorganised</li>
             <li>Organisation update</li>
             <li>User profile update</li>
             </ul></li>
