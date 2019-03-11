@@ -19,7 +19,7 @@ Here You can change your password!
     **Don't forget to Save changes to confirm entered data!**
 
 !!! info "Security: Passwords management"
-    [![General](../images/security1.png)](../images/security1.png)
+    [![General](images/security1.png)](images/security1.png)
 
 
 
@@ -28,7 +28,7 @@ Here You can change your password!
 
 **```Two-factor authentication```** enables You to add an extra layer of protection from getting your account compromised.
 
- You can set up two-factor authentication using any device capable of generating Time-based One-Time Password (TOTP) authentication codes to log in to your PayCore.io account. 
+ You can set up two-factor authentication using any device capable of generating Time-based One-Time Password (TOTP) authentication codes to log in to your PayCore.io<sup>®</sup> account. 
  
 
 !!! tip
@@ -43,7 +43,7 @@ To acivate this function You should do the follow:
 
 **Step 1**: Download and install an authentication app at your choice
 
-**Step 2**: Add PayCore.io account to the app
+**Step 2**: Add PayCore.io<sup>®</sup> account to the app
     
 !!! note
     You can do this through **```scanning the QR-code```**, or **```set up```** required parameters **```manualy```**!
@@ -51,7 +51,7 @@ To acivate this function You should do the follow:
 **Step 3**: Enter the verification code from the app
 
 !!! info "Security: Two-Factor authentication"
-    [![General](../images/security2.png)](../images/security2.png)
+    [![General](images/security2.png)](images/security2.png)
 
 
 !!! tip
@@ -61,14 +61,14 @@ To acivate this function You should do the follow:
         Backup codes are One-Time! If You have already used all codes (10), You can Generate new code-list.
 
 
-After all this you will be asked  to enter **```verification code```** **every time** you are **```Login in```** to the PayCore.io Dashboard!
+After all this you will be asked  to enter **```verification code```** **every time** you are **```Login in```** to the PayCore.io<sup>®</sup> Dashboard!
 
 
 To **```Disable```** 2FA authentication press **```Disable```** button!
 !!! info "Security: Two-Factor authentication Disabling"
-    [![Disable](../images/security__2fa__disable1.png)](../images/security__2fa__disable1.png)
+    [![Disable](images/security__2fa__disable1.png)](images/security__2fa__disable1.png)
 
-    [![Disable](../images/security__2fa__disable2.png)](../images/security__2fa__disable2.png)
+    [![Disable](images/security__2fa__disable2.png)](images/security__2fa__disable2.png)
 
 
 ## Sessions
@@ -92,7 +92,7 @@ You can revoke any unrecognized session using **```"Revoke"```** or **```"Revoke
     To get more info about certain session - expand session row!
 
 !!! info "Security: Sessions List"
-    [![Sessions](../images/security__sessions1.png)](../images/security__sessions1.png)
+    [![Sessions](images/security__sessions1.png)](images/security__sessions1.png)
 
 ## Auditlog
 
@@ -115,6 +115,7 @@ It register the next type of events:
 
 
 Events list contains the next information:
+
 - Event code
 - Event message
 - IP address
@@ -127,4 +128,4 @@ Events list contains the next information:
 - ...other
 
 !!! info "Security: Auditlog"
-    [![Auditlog](../images/security__auditlog1.png)](../images/security__auditlog1.png)
+    [![Auditlog](images/security__auditlog1.png)](images/security__auditlog1.png)

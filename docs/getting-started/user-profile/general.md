@@ -18,16 +18,16 @@ Here You can add a Profile picture from a file, set  your contact information an
     **Don't forget to Save changes to confirm entered data!**
 
 !!! info "General: Profile"
-    [![General](../images/general1.png)](../images/general1.png)
+    [![General](images/general1.png)](images/general1.png)
 
 
 ## Preferences
 
 Here You can configure:
-- [x] Localization
+- [x] Localisation
     - Set Interface language for Dashboard 
     - Set your time zone
-- [x] Amounts formatting
+- [x] Numbers formatting
     - Precision
     - Decimal separator
 -  [x] Date & Time formatting
@@ -35,12 +35,13 @@ Here You can configure:
     - Use relative time (*eg. 44 minutes ago*)
 - [x] Data layout
     - Choose data layout preference (*Item per page*)
+- [x] Show/Hide **```Test Mode```** toggle
 
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
 
 !!! info "General: Preferences"
-    [![General](../images/general2.png)](../images/general2.png)
+    [![General](images/general2.png)](images/general2.png)
 
 
 !!! tip

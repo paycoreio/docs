@@ -1,7 +1,7 @@
 site_name: 'Documentation'
 repo_name: 'paycoreio/docs'
 repo_url: 'https://github.com/paycoreio/docs/'
-copyright: '© 2018-2019 PayCore.io. All Rights Reserved.'
+copyright: '© 2018-2019 PayCore.io<sup>®</sup>. All Rights Reserved.'
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -38,8 +38,7 @@ markdown_extensions:
       custom_checkbox: true
 nav:
 - Home:
-    - Introduction: 'index.md'
-    - Release notes: 'release-notes.md'
+    - Introduction: 'index.md'   
 - Getting started:
     - Overview: 'getting-started/overview.md'
 
@@ -125,6 +124,11 @@ nav:
       #- Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
       - Wirecapital: 'payment-providers/wirecapital/connect-manual.md'
       - Xpay: 'payment-providers/xpayua/connect-manual.md'
+
+- Release notes: 
+    - Overview: 'release-notes/overview.md'
+    - v.0.56 (March 4, 2019): 'release-notes/v.0.56/v-0-56.md' 
+
 
 
 
