@@ -63,6 +63,27 @@ nav:
         - Queries: 'products/analytics/queries.md'
         - Dashboards: 'products/analytics/dashboards.md'
         - Alerts: 'products/analytics/alerts.md'
+    - Commerce:
+        - Overview: 'products/commerce/overview.md'
+        - Commerce Account:
+          - Overview: 'products/commerce/commerce-account/overview.md'
+          #- Usage:
+        - Contract Scheme:
+          - Overview: 'products/commerce/contract-scheme/overview.md'
+          #- Usage:
+        - Currency Account:
+          - Overview: 'products/commerce/currency-account/overview.md'
+          #- Usage:
+        - Ledger: 'products/commerce/ledger/overview.md'
+        - Operations:
+          - Overview: 'products/commerce/operations/overview.md'
+          - Payment Invoice: 'products/commerce/operations/payment-invoice/overview.md'
+          - Payout Invoice: 'products/commerce/operations/payout-invoice/overview.md'
+          - Deposit: 'products/commerce/operations/deposit/overview.md'
+          - Withdrawal: 'products/commerce/operations/withdrawal/overview.md'
+          - Transfer: 'products/commerce/operations/transfer/overview.md'
+        - Commerce Webhooks: 'products/commerce/webhooks.md'
+        - SDK Widget: 'products/commerce/sdk-widget/overview.md'
     - Provider Hub:
         - Overview: 'products/provider-hub/overview.md'
         - Provider Accounts: 'products/provider-hub/provider-accounts.md'
@@ -88,8 +109,7 @@ nav:
         - Rate Schemes: 'products/currency-rates/rate-schemes.md'
     - HPP:
         - Overview: 'products/hpp/overview.md'
-    - Commerce:
-        - Overview: 'products/commerce/overview.md'
+
 - Providers:
       - Overview: 'payment-providers/index.md'
       - 123x: 'payment-providers/123x/connect-manual.md'
@@ -127,7 +147,7 @@ nav:
 
 - Release notes: 
     - Overview: 'release-notes/overview.md'
-    - v.0.56 (March 4, 2019): 'release-notes/v.0.56/v-0-56.md' 
+    - v0.56 (March 4, 2019): 'release-notes/v0.56/v0.56.md' 
 
 
 

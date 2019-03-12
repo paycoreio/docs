@@ -11,7 +11,7 @@ This changelog lists releases by date and version number, along with associated 
 !!! info
     We are always here to hear your thoughts, questions, and feedback! 
     
-    Send us your thoughts and questions at <a href="mailto:support@paycore.io" target="_blank" rel="noopener"><b>support@paycore.io</b></a>
+    Send us your thoughts and questions at <a href="mailto:support@paycore.io" target="_blank" rel="noopener"><b>support@pav.0.56ycore.io</b></a>
 
 
 ## Releases
@@ -25,7 +25,7 @@ This changelog lists releases by date and version number, along with associated 
       <th align="left">Summary</th>
     </tr>
     <tr>
-      <td align="left" style="font-weight:bold">v.0.56</td>
+     <td align="left" style="font-weight:bold"><a href="../v0.56/v0.56">v0.56</a></td>
       <td align="center">05.03.2019</td>
       <td align="left">          
         <ul>
