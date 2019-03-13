@@ -25,7 +25,7 @@ This changelog lists releases by date and version number, along with associated 
       <th align="left">Summary</th>
     </tr>
     <tr>
-     <td align="left" style="font-weight:bold"><a href="../v0.56/v0.56">v0.56</a></td>
+     <td align="left" style="font-weight:bold"><a href="../v0.56">v0.56</a></td>
       <td align="center">05.03.2019</td>
       <td align="left">          
         <ul>
