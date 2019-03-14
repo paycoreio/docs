@@ -77,7 +77,9 @@ nav:
         - Ledger: 'products/commerce/ledger/overview.md'
         - Operations:
           - Overview: 'products/commerce/operations/overview.md'
-          - Payment Invoice: 'products/commerce/operations/payment-invoice/overview.md'
+          - Payment Invoice:
+            - Overview: 'products/commerce/operations/payment-invoice/overview.md'
+            - Usage: 'products/commerce/operations/payment-invoice/usage.md'
           - Payout Invoice: 'products/commerce/operations/payout-invoice/overview.md'
           - Deposit: 'products/commerce/operations/deposit/overview.md'
           - Withdrawal: 'products/commerce/operations/withdrawal/overview.md'
@@ -149,6 +151,7 @@ nav:
 - Release notes: 
     - Overview: 'release-notes/overview.md'
     - v0.56 (March 4, 2019): 'release-notes/v0.56.md' 
+    - v0.57 (March 11, 2019): 'release-notes/v0.57.md'
 
 
 

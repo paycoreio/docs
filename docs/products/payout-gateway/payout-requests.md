@@ -27,7 +27,7 @@
 
 <table border="1px">
 
-<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleep</b></th><th><b>Description</b></th></tr>
+<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 
 <tr style="background-color:"><td>CREATED</td><td><b>No</b></td><td><b>No</b></td><td>The operation validated at the initial stage and successfully created</td></tr>
 <tr style="background-color:"><td>DISPATCHING</td><td>No</td><td><b>Yes</b></td><td>The operation is being processed</td></tr>
