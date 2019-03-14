@@ -2,7 +2,7 @@
 
 <img src="../images/paycore_global.svg" width="300"> 
 
-## PayCore<sup>®</sup> Public API 
+## PayCore.io<sup>®</sup> Public API 
 
 
 <a href = "https://apidoc.paycore.io/" target="_blank" rel="noopener"> PayCore.io<sup>®</sup> Public API (ReDoc) <i class="md-icon">launch</i></a>

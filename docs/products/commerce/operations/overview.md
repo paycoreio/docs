@@ -7,6 +7,7 @@
 An Operation Status represents it's current state. This property is displayed in the Operation Overview section within the Dashboard. 
 
 Workflow statuses are divided into two types: 
+
 - Final 
 - Non-final
 
@@ -17,6 +18,6 @@ Workflow statuses are divided into two types:
 Сoncurrently, a payment process may be in the **```sleeping```** state.
 
 !!! info
-    **```Sleeping```** means that PayCore.io is waiting for data, interaction with other processes, a user response or any other action.
+    **```Sleeping```** means that PayCore.io<sup>®</sup> is waiting for data, interaction with other processes, a user response or any other action.
 
 These status properties are displayed in the Status Table for each operation type.

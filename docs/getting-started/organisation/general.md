@@ -6,8 +6,8 @@ In "General" section You can:
 - [x] Set up it's Public profile and Contact info
 - [x] Set Webhook version  
     
-    !!! Note
-       Read more about [**Webhooks**](../../webhooks/)?
+    !!! info
+       Read more about [**Webhooks**](../../webhooks/)
 
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
