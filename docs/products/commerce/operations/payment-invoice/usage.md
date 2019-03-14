@@ -19,7 +19,7 @@ This action consists of 3 stages:
 - Process
 
 !!! info "Payment Invoice Creating"
-    [![Payment Invoice](images/invoice_creating1.png)](images/invoice_creating1.png)
+    [![Payment Invoice](images/invoice_creating.png)](images/invoice_creating.png)
 
 ## Overview
 
