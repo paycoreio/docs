@@ -147,11 +147,12 @@ nav:
       #- Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
       - Wirecapital: 'payment-providers/wirecapital/connect-manual.md'
       - Xpay: 'payment-providers/xpayua/connect-manual.md'
-
 - Release notes: 
     - Overview: 'release-notes/overview.md'
     - v0.56 (March 4, 2019): 'release-notes/v0.56.md' 
     - v0.57 (March 11, 2019): 'release-notes/v0.57.md'
+- API: 
+    - PayCore.io<sup>®</sup> API: 'api/overview.md'
 
 
 
