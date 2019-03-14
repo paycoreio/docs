@@ -1,14 +1,22 @@
 # Organisation: Security
 
-Security section is intended  to prevent illegal access by connection  using API keys.
+Security section is intended for:
+
+- manage organisation API keys
+- control organisation access keys
+- setting up preferences
+- callbacks configuration
+
+
+
+## API Keys
 
 Here You can:
 
-- [x] Create new API key 
-- [x] Change description 
-- [x] Add Whitelisted IP addresses
+- [x] Create new API keys 
+- [x] Configure IP Whitelist
 - [x] Change permission set of existing keys
-- [x] Revoke out-of-use keys
+- [x] Revoke deprecated keys
 
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
@@ -19,3 +27,30 @@ Here You can:
     [![Security](images/org_security_3.png)](images/org_security_3.png)
 
 As a result, You will be able to give API key to External system or user for functional accessing through API connection.
+
+## Preferences
+
+This section includes organisation-wide properties.
+
+- Currencies: Owner and Administrators have the possibility to determine available currencies.
+
+
+## Callbacks
+
+This section contains:
+
+-  Signature secret keys
+
+    !!! note
+        These keys are **```READ ONLY```**!
+
+- Webhooks version
+    
+    > This property determines the Callbacks structure and the way how data is signed
+
+    !!! info
+        Read more about [**Webhooks**](../../webhooks/)
+
+!!! info "Screenshots"
+    [![Security](images/org_security_4.png)](images/org_security_4.png)
+
