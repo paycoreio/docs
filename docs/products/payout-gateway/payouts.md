@@ -27,7 +27,7 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 
 <table border="1px">
 
-<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleep</b></th><th><b>Description</b></th></tr>
+<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 
 <tr style="background-color:#ff8787"><td>CREATE_FAILED</td><td><b>Yes</b></td><td>No</td><td>Payout was not created. Using for Pauout Request section</td></tr>
 <tr><td>CREATED</td><td>No</td><td>No</td><td>Payout was successfuly created</td></tr>
@@ -38,7 +38,7 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 <tr style="background-color:#ff8787"><td>INVOKE_FAILED</td><td><b>Yes</b></td><td>No</td><td>Failed to register a payout on the side of payment provider</td></tr>
 <tr><td>PROCESSING</td><td>No</td><td><b>Yes</b></td><td>Payout is processing by payment provider</td></tr>
 <tr><td>PENDING</td><td>No</td><td><b>Yes</b></td><td>Payout was created by payment provider and is waiting for resolution</td></tr>
-<tr style="background-color:#79f99b"><td>PROCESSED</td><td>No</td><td><b>Yes</b></td><td>Payout was successfuly processed</td></tr>
+<tr style="background-color:#79f99b"><td>PROCESSED</td><td>No</td><td>No</td><td>Payout was successfuly processed</td></tr>
 <tr style="background-color:#79f99b"><td>PARTIALLY_PROCESSED</td><td>No</td><td><b>Yes</b></td><td>Payout was successfuly processed with part of amount</td></tr>
 <tr style="background-color:#ff8787"><td>PROCESS_FAILED</td><td><b>Yes</b></td><td>No</td><td>Payment provider could not process the transaction</td></tr>
 <tr><td>CANCELLING</td><td>No</td><td><b>Yes</b></td><td> Payout is cancelling</td></tr>

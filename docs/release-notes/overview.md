@@ -5,7 +5,7 @@
 This changelog lists releases by date and version number, along with associated changes. 
 
 !!! note
-    Read more about <a href="https://semver.org" target="_blank" rel="noopener">Software Versioning</a>.
+    Read more about <a href="https://semver.org" target="_blank" rel="noopener">Software Versioning <i class="md-icon">launch</i> </a>.
 
 
 !!! info
@@ -60,7 +60,12 @@ This changelog lists releases by date and version number, along with associated 
         </ul>  
         </td>
     </tr>
-
+    <tr>
+     <td align="left" style="font-weight:bold"><a href="../v0.57">v0.57</a></td>
+      <td align="center">11.03.2019</td>
+      <td align="left">          
+      </td>
+    </tr>
   </tbody>
 </table>
 

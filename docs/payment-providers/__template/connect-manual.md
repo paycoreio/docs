@@ -8,10 +8,10 @@ Here You can find  instructions for setting up **NAME**  account.
 
 ## Setup account
 
-#### Step 1 
+#### Step 1 Contact with NAME Support Manager
 
 
-#### Step 2: Contact with NAME Support Manager
+#### Step 2: 
 
 
 
@@ -38,7 +38,7 @@ Here You can find  instructions for setting up **NAME**  account.
 
 #### Step 3: Set up additional parameters 
 
-- [x] Currencies
+- [x] 
 - [x] Test mode
 
 !!! note

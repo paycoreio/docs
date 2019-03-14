@@ -7,7 +7,7 @@ In "General" section You can:
 - [x] Set Webhook version  
     
     !!! Note
-        Do You want to [**Read more about Webhooks**](../../webhooks/)?
+       Read more about [**Webhooks**](../../webhooks/)?
 
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
