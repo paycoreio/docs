@@ -134,7 +134,7 @@ nav:
       #- MoneyMovers: 'payment-providers/moneymovers/connect-manual.md'
       #- Neteller: 'payment-providers/neteller/connect-manual.md'
       - PayBox: 'payment-providers/paybox/connect-manual.md'
-      #- Payeer: 'payment-providers/payeer/connect-manual.md'
+      - Payeer: 'payment-providers/payeer/connect-manual.md'
       - PayMega: 'payment-providers/paymega/connect-manual.md'
       - PayMega.io: 'payment-providers/paymegaio/connect-manual.md'
       - PaymentCenter: 'payment-providers/paymentcenter/connect-manual.md'   
