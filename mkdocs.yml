@@ -80,7 +80,9 @@ nav:
           - Payment Invoice:
             - Overview: 'products/commerce/operations/payment-invoice/overview.md'
             - Usage: 'products/commerce/operations/payment-invoice/usage.md'
-          - Payout Invoice: 'products/commerce/operations/payout-invoice/overview.md'
+          - Payout Invoice: 
+            - Overview: 'products/commerce/operations/payout-invoice/overview.md'
+            - Usage: 'products/commerce/operations/payout-invoice/usage.md'
           - Deposit: 'products/commerce/operations/deposit/overview.md'
           - Withdrawal: 'products/commerce/operations/withdrawal/overview.md'
           - Transfer: 'products/commerce/operations/transfer/overview.md'

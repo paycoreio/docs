@@ -18,6 +18,7 @@ There are three types of **incoming** transactions that occur in PayCore.io<sup>
 
 
 The Payment Invoice includes information on the **_```amount```_**, **_```currency```_**, **_```service```_**, **_```commission```_**, **_```exchange rate```_** and other properties. 
+
 !!! info
     The full list of properties can be found in the <a href="http://apidoc.paycore.io/" target="_blank" rel="noopener"> API Reference <i class="md-icon">launch</i> </a>.
 

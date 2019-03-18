@@ -1,6 +1,6 @@
 # Payment Invoice: Usage
 
-Payment Invoice is locate in Operations section. This entity includes **List**, **Overview** and **Creating** screens.
+Payment Invoice is located in Operations section. This entity includes **List**, **Overview** and **Creating** screens.
 
 ## List
 
@@ -16,12 +16,19 @@ It also contains filters and search features to facilitate use.
 This action consists of 3 stages:
 - Create : this stage requires the setting of Invoice proerties and parameters
 - Confirm : this stage is intended to get user ensured that all data is correct 
-- Process
+- Process : contains processing data 
 
 !!! info "Payment Invoice Creating"
     [![Payment Invoice](images/invoice_creating.png)](images/invoice_creating.png)
 
 ## Overview
+
+Overview page is intended to display detailed info about:
+
+- Operation states
+- Amounts
+- Service, Method, Provider
+- Related entities etc. 
 
 !!! info "Payment Invoice Overview"
     [![Payment Invoice](images/payment_invoice_overview.png)](images/payment_invoice_overview.png)
