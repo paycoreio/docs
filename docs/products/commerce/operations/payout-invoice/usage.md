@@ -53,7 +53,7 @@ Overview page is intended to display detailed info about:
 ## Configuration
 
 
-To configure the payout invoice  set necessary properties at Commerce Account **```Payout options```** page:
+To configure the payout invoice set necessary properties at Commerce Account **```Payout options```** page:
 
 1. Navigate to the <a href =https://dashboard.paycore.io/commerce/accounts/" target="_blank" rel="noopener">Commerce accounts</a>
 2. Go to the Setting of neccessary one
@@ -77,7 +77,7 @@ To configure the payout invoice  set necessary properties at Commerce Account **
 <tr><td style="font-weight:bold;">Allow partially</td><td>Partial processing allowed</td></tr>
 <tr><td style="font-weight:bold;">Parallel mode</td><td>Parallel or sequential processing strategy</td></tr>
 <tr><td style="font-weight:bold;">Split mode</td><td>Allow the splitting of operation when exceeding the amount limit</td></tr>
-<tr><td style="font-weight:bold;">Include commission</td><td>Put the commission in the payment amount and calculate it from the amount of the write-off</td></tr>
+<tr><td style="font-weight:bold;">Include commission</td><td>Put the commission in the payout amount and calculate it from the amount of the write-off</td></tr>
 <tr><td style="font-weight:bold;">Expose internal callback data</td><td>Expose internal callback data</td></tr>
 <tr><td style="font-weight:bold;">Invoice lifetime</td><td>Set operation expiration time based on creation. Expires = created + lifetime</td></tr>
 <tr><td style="font-weight:bold;">Attempts limit</td><td>How many times processor will try to create new operation based on failed status</td></tr>
