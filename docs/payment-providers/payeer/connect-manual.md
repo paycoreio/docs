@@ -19,7 +19,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
         !!! info
             Copy this parameter, whereas **this will be unavailable** henceforth!
     
-    - **Domen name**: set your merchant  domen name
+    - **Domain name**: set your merchant  domain name
 
 ??? info "Screenshots"
     [![Create Merchant](images/merchant_create_1.png)](images/merchant_create_1.png)
@@ -33,10 +33,10 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
     ??? info
          As default system redirects user to the Merchant configuration page automaticaly. 
 
-2. Verify domen
+2. Verify domain
     
-    ??? info "Domen verification"
-        [![Domen verification](images/merchant_verify.png)](images/merchant_verify.png)
+    ??? info "Domain verification"
+        [![Domain verification](images/merchant_verify.png)](images/merchant_verify.png)
 
 3. Set configuration properties: 
 
