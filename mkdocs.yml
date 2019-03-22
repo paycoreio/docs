@@ -67,22 +67,22 @@ nav:
         - Overview: 'products/commerce/overview.md'
         - Commerce Account:
           - Overview: 'products/commerce/commerce-account/overview.md'
-          #- Usage:
+          #- Guide:
         - Contract Scheme:
           - Overview: 'products/commerce/contract-scheme/overview.md'
-          #- Usage:
+          #- Guide:
         - Currency Account:
           - Overview: 'products/commerce/currency-account/overview.md'
-          #- Usage:
+          #- Guide:
         - Ledger: 'products/commerce/ledger/overview.md'
         - Operations:
           - Overview: 'products/commerce/operations/overview.md'
           - Payment Invoice:
             - Overview: 'products/commerce/operations/payment-invoice/overview.md'
-            - Usage: 'products/commerce/operations/payment-invoice/usage.md'
+            - Guide: 'products/commerce/operations/payment-invoice/usage.md'
           - Payout Invoice: 
             - Overview: 'products/commerce/operations/payout-invoice/overview.md'
-            - Usage: 'products/commerce/operations/payout-invoice/usage.md'
+            - Guide: 'products/commerce/operations/payout-invoice/usage.md'
           - Deposit: 'products/commerce/operations/deposit/overview.md'
           - Withdrawal: 'products/commerce/operations/withdrawal/overview.md'
           - Transfer: 'products/commerce/operations/transfer/overview.md'
@@ -135,6 +135,7 @@ nav:
       - LiqPay: 'payment-providers/liqpay/connect-manual.md'
       #- MoneyMovers: 'payment-providers/moneymovers/connect-manual.md'
       #- Neteller: 'payment-providers/neteller/connect-manual.md'
+      #- Parimatch: 'payment-providers/parimatch/connect-manual.md'
       - PayBox: 'payment-providers/paybox/connect-manual.md'
       - Payeer: 'payment-providers/payeer/connect-manual.md'
       - PayMega: 'payment-providers/paymega/connect-manual.md'
@@ -145,7 +146,7 @@ nav:
       - PaySec: 'payment-providers/paysec/connect-manual.md'
       - PerfectMoney: 'payment-providers/perfectmoney/connect-manual.md'
       - SatchelPay: 'payment-providers/satchelpay/connect-manual.md'
-      #- Skrill: 'payment-providers/skrill/connect-manual.md'
+      - Skrill: 'payment-providers/skrill/connect-manual.md'
       #- Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
       - Wirecapital: 'payment-providers/wirecapital/connect-manual.md'
       - Xpay: 'payment-providers/xpayua/connect-manual.md'

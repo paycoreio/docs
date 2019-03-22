@@ -1,4 +1,4 @@
-# Payment Invoice: Usage
+# Payment Invoice: Guide
 
 Payment Invoice is located in Operations section. This entity includes **List**, **Overview** and **Creating** screens.
 
