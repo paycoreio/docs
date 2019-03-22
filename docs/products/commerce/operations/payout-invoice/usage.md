@@ -1,4 +1,4 @@
-# Payout Invoice: Usage
+# Payout Invoice: Guide
 
 Payout Invoice is located in Operations section. This entity includes **List**, **Overview** and **Creating** screens.
 
