@@ -13,10 +13,8 @@ PayСore.io uses the following fully qualified domain names to interact with you
 ```html
 api.paycore.io
 checkout.paycore.io
-hp.paycore.io
+com.paycore.io
 ```
-!!! warning
-    Always use the **api.paycore.io** DNS name to contact our API—never an IP address.
 
 ## White-list IP addresses
 
