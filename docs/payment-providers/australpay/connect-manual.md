@@ -35,7 +35,7 @@ Here You can find  instructions for setting up **AustralPay**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/australpay-step_connect.png)](images/australpay-step_connect.png)
 
 

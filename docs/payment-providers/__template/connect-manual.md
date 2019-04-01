@@ -47,7 +47,7 @@ Here You can find  instructions for setting up **NAME**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/name-step_connect.png)](images/name-step_connect.png)
 
 

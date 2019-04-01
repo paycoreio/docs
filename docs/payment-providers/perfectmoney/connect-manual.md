@@ -13,12 +13,12 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 ### Step 1: Open Commerce setting
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Verify](images/perfmoney-verify1.png)](images/perfmoney-verify1.png)
 
 ### Step 2: Verify your business account
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Verify](images/perfmoney-verify2.png)](images/perfmoney-verify2.png)
 
     [![Verify](images/perfmoney-verify3.png)](images/perfmoney-verify3.png)
@@ -38,7 +38,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
         **_For example_**: _54.36.117.30; 51.38.147.254; 54.38.139.222_
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Verify](images/api_security1.png)](images/api_security1.png)
 
     [![Verify](images/api_security2.png)](images/api_security2.png)
@@ -55,7 +55,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
     - [x] Alternate Passphrase (Passphrase)
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Verify](images/cred3.png)](images/cred3.png)
 
 - Go to the **```Public Account Information```**
@@ -66,7 +66,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
     - [x] Member ID (Account ID)
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Verify](images/cred1.png)](images/cred1.png)
 
     [![Verify](images/cred2.png)](images/cred2.png)
@@ -93,7 +93,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/perfectmoney-step_connect.png)](images/perfectmoney-step_connect.png)
 
 

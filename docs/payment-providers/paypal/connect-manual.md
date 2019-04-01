@@ -22,7 +22,7 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
     Don't forget to confirm creation!
 
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Create App](images/createapp1.png)](images/createapp1.png)
 
     [![Create App](images/createapp2.png)](images/createapp2.png)
@@ -35,7 +35,7 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
 - [x] Client ID
 - [x] Client Secret
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![App Credentials](images/appcred1.png)](images/appcred1.png)
 
 !!! warning
@@ -55,7 +55,7 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
 !!! tip
     Don't forget to confirm action!
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Set Up](images/setup1.png)](images/setup1.png)
 
 
@@ -86,7 +86,7 @@ To get them - folow this flow:
     - [x] SOAP Password
     - [x] Signature
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Acc Credentials](images/acc-cred1.png)](images/acc-cred1.png)
 
     [![Acc Credentials](images/acc-cred2.png)](images/acc-cred2.png)
@@ -123,7 +123,7 @@ To get them - folow this flow:
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/paypal-step_connect.png)](images/paypal-step_connect.png)
 
 

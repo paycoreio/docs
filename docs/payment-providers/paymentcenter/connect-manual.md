@@ -18,7 +18,7 @@ Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.
     ??? note
         Services are created by PaymentCenter manager!
     
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Services](images/paymentcenter__services1.png)](images/paymentcenter__services1.png)    
 
 2. Find and Copy:
@@ -27,13 +27,13 @@ Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.
 
 3. Go to the **```Actions list```**
 
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Actions](images/paymentcenter__actions.png)](images/paymentcenter__actions.png) 
 
 4. Find and Copy:
     - [x] **Secret Key**
 
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Secret key](images/paymentcenter__secret_key.png)](images/paymentcenter__secret_key.png) 
 
     ??? Note
@@ -47,7 +47,7 @@ Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.
 - Notifications: **```ENABLED```**
 - Callback data format : **```JSON```**
 
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Parameters](images/paymentcenter__paramenters.png)](images/paymentcenter__paramenters.png) 
 
 !!! success
@@ -73,7 +73,7 @@ Get **```Login```** and **```Password```** for <a href="https://cabinet.payment.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/paymentcenter-step_connect.png)](images/paymentcenter-step_connect.png)
 
 

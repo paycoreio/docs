@@ -45,23 +45,30 @@ Here You can find  instructions for setting up **Xpay**  account.
 
 #### Step 2: Enter credentials
 
-- [x] Token
-- [x] Private key
+
+- [x] Your Private key
+- [x] Xpay Partner Token
 
     ??? tip
         Save your **```Private Key```** to **```txt```** file and upload it to connecting form using Upload button!
 
-- [x] Public key
+- [x] Xpay Public key
 
 
 !!! tip
     Press **```Connect```** at Xpay **```Provider Overview page```** in **```New connection```** section to open Connection form!
 
+#### Step 3: Set additional parameters
+
+- [x] Test mode
+
+!!! info
+    **```Test mode```** is set **_according to your account settings_**!
 
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/xpayua-step_connect.png)](images/xpayua-step_connect.png)
 
 

@@ -40,7 +40,7 @@ Here You can find  instructions for setting up **LeoGaming**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/leogaming-step_connect.png)](images/leogaming-step_connect.png)
 
 

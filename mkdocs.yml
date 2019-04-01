@@ -67,7 +67,7 @@ nav:
         - Overview: 'products/commerce/overview.md'
         - Commerce Account:
           - Overview: 'products/commerce/commerce-account/overview.md'
-          #- Guide:
+          - Guide: 'products/commerce/commerce-account/guide.md'
         - Contract Scheme:
           - Overview: 'products/commerce/contract-scheme/overview.md'
           #- Guide:
@@ -79,10 +79,10 @@ nav:
           - Overview: 'products/commerce/operations/overview.md'
           - Payment Invoice:
             - Overview: 'products/commerce/operations/payment-invoice/overview.md'
-            - Guide: 'products/commerce/operations/payment-invoice/usage.md'
+            - Guide: 'products/commerce/operations/payment-invoice/guide.md'
           - Payout Invoice: 
             - Overview: 'products/commerce/operations/payout-invoice/overview.md'
-            - Guide: 'products/commerce/operations/payout-invoice/usage.md'
+            - Guide: 'products/commerce/operations/payout-invoice/guide.md'
           - Deposit: 'products/commerce/operations/deposit/overview.md'
           - Withdrawal: 'products/commerce/operations/withdrawal/overview.md'
           - Transfer: 'products/commerce/operations/transfer/overview.md'
@@ -134,8 +134,8 @@ nav:
       #- Leogaming: 'payment-providers/leogaming/connect-manual.md'
       - LiqPay: 'payment-providers/liqpay/connect-manual.md'
       #- MoneyMovers: 'payment-providers/moneymovers/connect-manual.md'
-      #- Neteller: 'payment-providers/neteller/connect-manual.md'
-      #- Parimatch: 'payment-providers/parimatch/connect-manual.md'
+      - Neteller: 'payment-providers/neteller/connect-manual.md'
+      - Parimatch: 'payment-providers/parimatch/connect-manual.md'
       - PayBox: 'payment-providers/paybox/connect-manual.md'
       - Payeer: 'payment-providers/payeer/connect-manual.md'
       - PayMega: 'payment-providers/paymega/connect-manual.md'

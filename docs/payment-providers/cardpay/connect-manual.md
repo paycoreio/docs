@@ -52,7 +52,7 @@ Here You can find  instructions for setting up <a href="https://cardpay.com/ma/"
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/cardpay-step_connect.png)](images/cardpay-step_connect.png)
 
 

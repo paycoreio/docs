@@ -30,9 +30,9 @@ It means that this type of commerce operations can be processed as **automatical
 !!! info "Payout Invoice Flow"
     [![New UI](images/payout_invoice_flow.png)](images/payout_invoice_flow.png)
 
-## Statuses
+## Status list
 
-Below is a description of each status:
+Below is a list of statuses and it's descriptions:
 <table>
 <tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 

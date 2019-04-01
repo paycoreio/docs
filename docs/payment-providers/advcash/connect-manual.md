@@ -11,12 +11,12 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 #### Step 1: Open profile setting
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 1](images/advcash-step1.png)](images/advcash-step1.png)
 
 #### Step 2: Go to "API AND SCI FOR DEVELOPERS" section
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/advcash-step2.png)](images/advcash-step2.png)
 
 ### Setup API
@@ -26,7 +26,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 #### Step 1: Create New API
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 1](images/advcash-step3.png)](images/advcash-step3.png)
 
 #### Step 2: Set up the following parameters
@@ -41,7 +41,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
     - [x] Transaction history
     - [x] Make Transactions
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/advcash-step4.png)](images/advcash-step4.png)
   
         
@@ -50,7 +50,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 !!! warning
     To save changes You may be asked to Confirm this action though email!    
     
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Step 3](images/advcash-step4_2.png)](images/advcash-step4_2.png)
 
 !!! success
@@ -68,14 +68,14 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 #### Step 1: Verify your account
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 4](images/advcash-step5_1.png)](images/advcash-step5_1.png)
         
         
 
 #### Step 2: Create New SCI
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/advcash-step5.png)](images/advcash-step5.png)
 
 #### Step 3: Set up basic parameters
@@ -85,7 +85,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
     !!! tip
         Parameters "**COMMISSION PAYS**", "**Accept underpayment**", "**Accept overpayment**"  are set  at your choice!
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 3](images/advcash-step5_2.png)](images/advcash-step5_2.png)  
  
 
@@ -100,7 +100,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 - [x] FAILED TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
 - [x] STATUS PAGE : ```https://psp-ext.paycore.io/advcash/callback```
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 4](images/advcash-step5_3.png)](images/advcash-step5_3.png)
 
 #### Step 5: Save changes
@@ -141,7 +141,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/advcash-step_connect.png)](images/advcash-step_connect.png)
 
 

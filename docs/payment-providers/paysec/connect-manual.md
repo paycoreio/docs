@@ -49,7 +49,7 @@ Here You can find  instructions for setting up **PaySec**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/paysec-step_connect.png)](images/paysec-step_connect.png)
 
 

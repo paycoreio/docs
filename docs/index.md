@@ -2,7 +2,7 @@
 
 ![PayСore.io Main Illustration](images/paycore-main3.png)
 
-Welcome to PayCore.io<sup>®</sup>! Get familiar with the PayCore.io<sup>®</sup> products and explore their features:
+Welcome  to PayCore.io<sup>®</sup>! Get familiar with the PayCore.io<sup>®</sup> products and explore their features:
 
 * [Payment Providers Hub](#): Connect any provider or merchant account of any payment provider into the one hub.
 * [Payments](#): Accept any online payment option through the single omnichannel gateway.

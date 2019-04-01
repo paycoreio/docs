@@ -39,7 +39,7 @@ Here You can find  instructions for setting up **MoneyMovers**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/moneymovers-step_connect.png)](images/moneymovers-step_connect.png)
 
 

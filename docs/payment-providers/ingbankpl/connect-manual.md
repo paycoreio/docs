@@ -12,7 +12,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 - [x] Go to the "Shops" (Sklepy) section
 - [x] Add new shop (Sklep)
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Step 1](images/ingbank-step1_1.png)](images/ingbank-step1_1.png)
 
     [![Step 1](images/ingbank-step1_2.png)](images/ingbank-step1_2.png)
@@ -22,14 +22,14 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 - Return to the "Shops" (Sklepy) section
 - Open Shop Details (Szczegóły)
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/ingbank-step2_1.png)](images/ingbank-step2_1.png)
 
 - Go to the Integration Data (Dane do integracji) Section
 - Set "Notification address"(Adres notyfikacji)
     - [x] ```https://psp-ext.paycore.io/ingbank/callback```
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Step 2](images/ingbank-step2_2.png)](images/ingbank-step2_2.png)
 
     [![Step 2](images/ingbank-step2_3.png)](images/ingbank-step2_3.png)
@@ -39,7 +39,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 - [x] Service ID (Identyfikator sklepu)
 - [x] Store key (Klucz sklepu) 
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/ingbank-step3.png)](images/ingbank-step3.png)
 
 !!! success
@@ -50,13 +50,13 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 #### Step 1: Copy credentials
 
 - [x] Merchant ID (Identyfikator klienta)
-- [x] Service ID (Identyfikator sklepu)
+- [x] Store ID (Identyfikator sklepu)
 - [x] Store key (Klucz sklepu)
 
 #### Step 2: Enter credentials
 
 - [x] Merchant ID (Identyfikator klienta)
-- [x] Service ID (Identyfikator sklepu)
+- [x] Store ID (Identyfikator sklepu)
 - [x] Store key (Klucz sklepu)
 
 !!! tip
@@ -65,7 +65,7 @@ Here You can find  instructions for setting up <a href="https://login.ingbank.pl
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/ingbank-step_connect.png)](images/ingbank-step_connect.png)
 
 

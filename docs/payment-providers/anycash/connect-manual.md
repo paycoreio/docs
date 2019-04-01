@@ -16,7 +16,7 @@ Here You can find  instructions for setting up <a href="https://any.cash/" targe
 - [x] Press "Create Wallet" button
 - [x] Run commant ```/start```
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Step 1](images/anycash-step1.png)](images/anycash-step1.png)
     
     [![Step 1](images/anycash-step1_1.png)](images/anycash-step1_1.png)
@@ -50,7 +50,7 @@ Here You can find  instructions for setting up <a href="https://any.cash/" targe
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/anycash-step_connect.png)](images/anycash-step_connect.png)
 
 

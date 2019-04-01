@@ -13,7 +13,7 @@ Here You can find  instructions for setting up <a href="https://4bill.io/" targe
 !!! note
     To create an account send connection request at <a href="https://4bill.io/" target="_blank" rel="noopener">**4bill Website**</a> or contact manager directly!
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/4bill-step1.png)](images/4bill-step1.png)
 
 #### Step 2: Get required credentials
@@ -43,7 +43,7 @@ Here You can find  instructions for setting up <a href="https://4bill.io/" targe
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/4bill-step_connect.png)](images/4bill-step_connect.png)
     
 

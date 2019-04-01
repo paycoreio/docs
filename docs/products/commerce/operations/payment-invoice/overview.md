@@ -27,9 +27,9 @@ The Payment Invoice includes information on the **_```amount```_**, **_```curren
 !!! info "Payment Invoice Flow"
     [![New UI](images/payment_invoice_flow.png)](images/payment_invoice_flow.png)
 
-## Statuses
+## Status list
 
-Below is a description of each status:
+Below is a list of statuses and it's descriptions:
 <table>
 <tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 
