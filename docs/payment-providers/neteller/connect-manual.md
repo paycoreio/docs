@@ -62,7 +62,7 @@ Here You can find  instructions for setting up **Neteller**  account.
 - [x] Test mode
 
 !!! note
-    These parameters are set according to your Merchant account type!
+    This parameter is set according to your Merchant account type!
 
 !!! tip
     **Don't forget to Save changes to confirm connection!**

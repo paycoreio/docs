@@ -8,6 +8,8 @@
     **```Payout Request Event```**  - event log for a specific request for payout. Gives detailed information about the process for requesting payout.
 
 
+## Workflow
+
 !!! info "Workflow State diagram"
     [![Payout Request Workflow](images/payout_request_state_diagram.png)](images/payout_request_state_diagram.png)
 
@@ -40,3 +42,5 @@
 <tr style="background-color:"><td>WAITING_DETAILS</td><td>No</td><td><b>Yes</b></td><td>Waiting for transaction details</td></tr>
 
 </table>
+
+## Guide

@@ -14,6 +14,7 @@ Here You can find  instructions for setting up **Tranzzo**  account.
 - [x] POS_ID
 - [x] API_KEY
 - [x] Secret
+- [x] ENDPOINTS_KEY
 
 
 !!! success
@@ -32,6 +33,8 @@ Here You can find  instructions for setting up **Tranzzo**  account.
 - [x] POS_ID
 - [x] API_KEY
 - [x] Secret
+- [x] ENDPOINTS_KEY
+
 
 !!! tip
     Press **```Connect```** at Xpay **```Provider Overview page```** in **```New connection```** section to open Connection form!

@@ -53,10 +53,10 @@ nav:
         - General: 'getting-started/organisation/general.md'
         - Security: 'getting-started/organisation/security.md'
         - Access Control: 'getting-started/organisation/access.md'
-
     - Webhooks: 'getting-started/webhooks.md'
     - API: 'getting-started/api.md'
     - Public IPs: 'ips.md'
+    - FAQ: 'getting-started/faq/index.md'
 - Products:
     - Analytics:
         - Overview: 'products/analytics/overview.md'
@@ -67,7 +67,7 @@ nav:
         - Overview: 'products/commerce/overview.md'
         - Commerce Account:
           - Overview: 'products/commerce/commerce-account/overview.md'
-          #- Guide: 'products/commerce/commerce-account/guide.md'
+          - Guide: 'products/commerce/commerce-account/guide.md'
         - Contract Scheme:
           - Overview: 'products/commerce/contract-scheme/overview.md'
           #- Guide:
@@ -145,9 +145,10 @@ nav:
       - PayPal: 'payment-providers/paypal/connect-manual.md'
       - PaySec: 'payment-providers/paysec/connect-manual.md'
       - PerfectMoney: 'payment-providers/perfectmoney/connect-manual.md'
+      - Piastrix: 'payment-providers/piastrix/connect-manual.md'
       - SatchelPay: 'payment-providers/satchelpay/connect-manual.md'
       - Skrill: 'payment-providers/skrill/connect-manual.md'
-      #- Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
+      - Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
       - Wirecapital: 'payment-providers/wirecapital/connect-manual.md'
       - Xpay: 'payment-providers/xpayua/connect-manual.md'
 - Release notes: 

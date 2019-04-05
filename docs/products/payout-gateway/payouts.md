@@ -2,9 +2,10 @@
 
 ## General
 
+**Payout** — refers to the financial return or monetary disbursement of investment or annuity.
 
-!!! info "Definition"
-    **Payout** — refers to the financial return or monetary disbursement of investment or annuity.
+
+## Workflow
 
 !!! info "Workflow State diagram"
     [![Payout Workflow](images/payout_state_diagram.png)](images/payout_state_diagram.png)
@@ -118,3 +119,6 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 
 !!! info
     The difference between these concepts lies in the fact that status is a property of the payout, and resolution relates to all sub-operations and has an explanatory meaning of the cause of the error that occurred during the processing of this request.
+
+
+## Guide
