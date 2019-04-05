@@ -51,7 +51,7 @@ Here You can find  instructions for setting up **Certus Finance** account!
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/certusfinance-step_connect.png)](images/certusfinance-step_connect.png)
 
 !!! success

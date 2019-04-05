@@ -43,7 +43,7 @@ Here You can find  instructions for setting up **FlashPay** account!
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/flashpay-step_connect.png)](images/flashpay-step_connect.png)
 
 

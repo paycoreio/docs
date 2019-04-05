@@ -18,7 +18,7 @@ Here You can find  instructions for setting up <a href="https://account.skrill.c
 - Go to the **`Settings`** —> **`Account settings`**
 - Set **`Auto accept payments`** property
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Settings](images/acc_settings_1.png)](images/acc_settings_1.png)
 
 
@@ -37,7 +37,7 @@ Here You can find  instructions for setting up <a href="https://account.skrill.c
 !!! tip
     Follow the Skrill recomendations for passwords and secrets requirements!
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Settings](images/acc_dev_settings_1.png)](images/acc_dev_settings_1.png)
 
 ### Step 4: Get required credentials
@@ -75,7 +75,7 @@ Here You can find  instructions for setting up <a href="https://account.skrill.c
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/skrill-step_connect.png)](images/skrill-step_connect.png)
 
 

@@ -15,12 +15,12 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
 
 #### Step 2: Open Settings
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/paybox-step1.png)](images/paybox-step1.png)
 
 #### Step 3: Go to Merchant section (My markets)
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 3](images/paybox-step3.png)](images/paybox-step3.png)
 
 
@@ -32,7 +32,7 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
     - [x] Secret keys
         - For Payout
 
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Step 4](images/paybox-step4.png)](images/paybox-step4.png)
 
     - [x] URLs
@@ -42,7 +42,7 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
         
     - [x] REQUEST METHOD ```POST```
     
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Step 4](images/paybox-step5.png)](images/paybox-step5.png)
 
 !!! success
@@ -67,7 +67,7 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/paybox-step_connect.png)](images/paybox-step_connect.png)
 
 

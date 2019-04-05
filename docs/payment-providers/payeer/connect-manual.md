@@ -21,7 +21,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
     
     - **Domain name**: set your merchant  domain name
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Create Merchant](images/merchant_create_1.png)](images/merchant_create_1.png)
     
     [![Create Merchant](images/merchant_create_2.png)](images/merchant_create_2.png)
@@ -30,12 +30,12 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 
 1. Go to the created Merchant
     
-    ??? info
-         As default system redirects user to the Merchant configuration page automaticaly. 
+    !!! info
+        As default system redirects user to the Merchant configuration page automaticaly. 
 
 2. Verify domain
     
-    ??? info "Domain verification"
+    !!! info "Domain verification"
         [![Domain verification](images/merchant_verify.png)](images/merchant_verify.png)
 
 3. Set configuration properties: 
@@ -55,14 +55,14 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 
     - other properties are set at your choice
 
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Merchant Configuration](images/merchant_configure.png)](images/merchant_configure.png)
 
 ### Step 3: Get Merchant credentials
 
 - [x] Account No.
 
-    ??? info "Screenshot"
+    !!! info "Screenshot"
         [![Account No.](images/account_no.png)](images/account_no.png)
 
 - [x] Merchant ID
@@ -95,7 +95,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
     Note, that API User configuration can be modified at API User configuration page!
 
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Create API User](images/api_create_1.png)](images/api_create_1.png)
     
     [![Create API User](images/api_create_2.png)](images/api_create_2.png)
@@ -139,7 +139,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/payeer-step_connect.png)](images/payeer-step_connect.png)
 
 

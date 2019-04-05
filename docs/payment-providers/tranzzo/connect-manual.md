@@ -8,10 +8,13 @@ Here You can find  instructions for setting up **Tranzzo**  account.
 
 ## Setup account
 
-#### Step 1 
-#### Step 2: Contact with Tranzzo Support Manager
+#### Step 1 Contact with Tranzzo Support Manager
+#### Step 2: Get required credentials
 
-#### Step 3: Get required credentials
+- [x] POS_ID
+- [x] API_KEY
+- [x] Secret
+- [x] ENDPOINTS_KEY
 
 
 !!! success
@@ -27,6 +30,12 @@ Here You can find  instructions for setting up **Tranzzo**  account.
 
 #### Step 2: Enter credentials
 
+- [x] POS_ID
+- [x] API_KEY
+- [x] Secret
+- [x] ENDPOINTS_KEY
+
+
 !!! tip
     Press **```Connect```** at Xpay **```Provider Overview page```** in **```New connection```** section to open Connection form!
 
@@ -34,7 +43,7 @@ Here You can find  instructions for setting up **Tranzzo**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/tranzzo-step_connect.png)](images/tranzzo-step_connect.png)
 
 

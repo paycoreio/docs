@@ -12,14 +12,14 @@ Here You can find  instructions for setting up <a href="https://geo-pay.net/acco
 
 #### Step 2: Go to the **Profile** info
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/geopay-step1.png)](images/geopay-step1.png)
 
 #### Step 3: Get User (Hash) ID
 
 - [x] User ID (Hash)
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 3](images/geopay-step2.png)](images/geopay-step2.png)
 
 #### Step 4: Contact with GeoPay manager
@@ -50,7 +50,7 @@ Here You can find  instructions for setting up <a href="https://geo-pay.net/acco
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/geopay-step_connect.png)](images/geopay-step_connect.png)
 
 !!! success

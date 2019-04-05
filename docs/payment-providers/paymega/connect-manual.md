@@ -20,8 +20,8 @@ Here You can find  instructions for setting up **Paymega** accounts.
     
 #### Step 2: Get required credentials
 
-- [x]  Merchant account ID
-- [x]  Merchant password
+- [x]  Account ID
+- [x]  Account Password
 - [x]  Signature key
 
 !!! success
@@ -33,8 +33,8 @@ Here You can find  instructions for setting up **Paymega** accounts.
 
 #### Step 2: Enter credentials
 
-- [x]  Merchant account ID
-- [x]  Merchant password
+- [x]  Account ID
+- [x]  Account Password
 - [x]  Signature key
 
 !!! tip
@@ -44,7 +44,7 @@ Here You can find  instructions for setting up **Paymega** accounts.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/paymega_provider-step_connect1.png)](images/paymega_provider-step_connect1.png)
     [![Connect](images/paymega_provider-step_connect2.png)](images/paymega_provider-step_connect2.png)
 
@@ -64,7 +64,7 @@ Here You can find  instructions for setting up **Paymega** accounts.
 - Go to the **Payment Pages** section
 - Press create button
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![Create](images/merch_acc__payment_page_create1.png)](images/merch_acc__payment_page_create1.png)
 
 
@@ -86,7 +86,7 @@ Here You can find  instructions for setting up **Paymega** accounts.
 
 - Callback URL: ```https://psp-ext.paycore.io/paymega/callback```
 
-??? info "Screenshots"
+!!! info "Screenshots"
     [![SetUp](images/merch_acc__setup.png)](images/merch_acc__setup.png)
 
 !!! success
@@ -111,7 +111,7 @@ Here You can find  instructions for setting up **Paymega** accounts.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/paymega_merchant-step_connect1.png)](images/paymega_merchant-step_connect1.png)
     [![Connect](images/paymega_merchant-step_connect2.png)](images/paymega_merchant-step_connect2.png)
 

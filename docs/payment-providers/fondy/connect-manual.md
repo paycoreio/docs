@@ -15,7 +15,7 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 - [x] Press "Add Merchant"
 - [x] Set up creation parameters
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 1](images/fondy-step1.png)](images/fondy-step1.png)
 
 #### Step 2: Setup Financial settings
@@ -25,7 +25,7 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 - [x] Fill the required data
 - [x] Verify documents
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 2](images/fondy-step2.png)](images/fondy-step2.png)
 
 #### Step 3: Get Merchant and Aplication credentials
@@ -35,7 +35,7 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
     - [x] Payment Key
     - [x] Credit Private Key
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 3](images/fondy-step3.png)](images/fondy-step3.png)
 
 - **Application**
@@ -45,7 +45,7 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 !!! info 
     Application credentials (**_ID_**, **_Secret key_**) You can get only from **Fondy Technical Support**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Step 3](images/fondy-step4.png)](images/fondy-step4.png)
 
 !!! success
@@ -79,7 +79,7 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/fondy-step_connect.png)](images/fondy-step_connect.png)
 
 !!! success

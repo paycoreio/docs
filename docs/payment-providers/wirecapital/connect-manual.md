@@ -52,7 +52,7 @@ Here You can find  instructions for setting up **Wirecapital**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/wirecapital-step_connect.png)](images/wirecapital-step_connect.png)
 
 

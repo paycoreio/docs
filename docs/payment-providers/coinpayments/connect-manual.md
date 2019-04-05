@@ -47,7 +47,7 @@ Here You can find  instructions for setting up **CoinPayments**  account.
 !!! tip
     **Don't forget to Save changes to confirm connection!**
 
-??? info "Screenshot"
+!!! info "Screenshot"
     [![Connect](images/coinpayments-step_connect.png)](images/coinpayments-step_connect.png)
 
 
