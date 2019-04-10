@@ -8,8 +8,6 @@ This entity includes the next sections:
 - Account settings
 - Account creating 
 
-(**—>>> UPGRADE**)
-
 ## List
 
 Commerce accounts list includes information on merchant  name and logo, contract scheme, creation date and time etc.
@@ -39,7 +37,8 @@ All settings are devided into few groups:
     - Services
 - Testing
 
-
+!!! info
+    Detailed info about settings features are explained in [Overview](../overview/) section
 
 
 ### General:
@@ -178,25 +177,21 @@ This page contains a list of available Payment services (within assigned contrac
 
 ##### Public Access
 
-- Allow public creation (Public Creation)
 - Public Zero-Fee badge
 - Public fee details
+- Allow public creation (Public Creation)
 
 ##### Fee
 
 - Fee strategy
 - Include fee
 
-##### Interaction
-
-- Expose internal callback data
-- Descriptor
-
-##### Time
+##### Processing
 
 - Lifetime
 - Attempts
-
+- Expose internal callback data
+- Descriptor
 
 ### Payouts
 
@@ -220,24 +215,15 @@ This page contains a list of available Payout services (within assigned contract
 - Fee strategy
 - Include fee
 
-##### Interaction
-
-- Moderation required
-- Allow partially
+##### Processing
 - Parallel mode
 - Split mode
-- Expose internal callback data
-- Descriptor
-
-##### Time
-
+- Allow partially
+- Moderation required
 - Lifetime
 - Attempts
-
-
-
-
-
+- Expose internal callback data
+- Descriptor
 
 
 ### Testing

@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/tranzzo/logo.png?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=400" width="400px">
 
 # Tranzzo: Connecting account
 

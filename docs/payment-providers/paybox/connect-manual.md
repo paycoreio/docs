@@ -36,9 +36,9 @@ Here You can find  instructions for setting up  <a href="https://my.paybox.money
         [![Step 4](images/paybox-step4.png)](images/paybox-step4.png)
 
     - [x] URLs
-        - RESULT URL    ```https://psp-ext.paycore.io/paybox/return```
-        - SUCCESS ```https://psp-ext.paycore.io/paybox/callback```
-        - FAILURE URL ```https://psp-ext.paycore.io/paybox/callback```
+        - RESULT URL    ```https://psp-ext.paycore.io/paybox/callback```
+        - SUCCESS ```https://psp-ext.paycore.io/paybox/return```
+        - FAILURE URL ```https://psp-ext.paycore.io/paybox/return```
         
     - [x] REQUEST METHOD ```POST```
     
