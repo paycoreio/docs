@@ -13,7 +13,7 @@ Get familiar with the PayCore.io products and explore their features:
 | [Hosted payment page](/products/hpp/)         | Secure, easier and seamless shopping experience with the hosted checkout that works right out of the box.        |
 | [FX Rates](/products/fx-rates/)               | FX conversion rules are encapsulated in a currency exchange scheme, which is adhered to every routing scheme.    |
 | [Analytics](/products/analytics/)             | Data analytics & real-time metrics.                                                                              |
-| [Batch Payouts](#)                            | Omnichannel large batch payouts.                                                                                 |
+| [Batch Payouts](/products/batch-payouts/)     | Omnichannel large batch payouts.                                                                                 |
 | [Card Processing](#)                          | Payment card processing.                                                                                         |
-| [Ledger](#)                                   | Automated treasury accounting.                                                                                   |
+| [Ledger](/products/ledger/)                   | Automated treasury accounting.                                                                                   |
 | [Merchant Back-office](#)                     | White-label merchant back-office web application for PSPs.                                                       |

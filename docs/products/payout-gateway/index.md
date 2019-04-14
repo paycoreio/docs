@@ -120,13 +120,13 @@ Here is a list of terms we use and their definitions on payouts.
 
 <tr ><th><b>Type</b></th><th><b>Description</b></th><th><b>Diagram</b></th></tr>
 <tr><td><b>Optimal</b></td><td> Funds are debited in equal shares from each route</td><td></td></tr>
-<tr><td><b>Load balancing<br><i>(Weight)</i></b></td><td>Funds are debited proportionally (as a percentage) from each route<br><i>It is available to set load percentage manualy</i></td><td><a href= "../images/routing_load_balancing_diagram.png" target="_blank" noopener="rel"><img src="../images/routing_load_balancing_diagram.png"></a></td></tr>
+<tr><td><b>Load balancing<br><i>(Weight)</i></b></td><td>Funds are debited proportionally (as a percentage) from each route<br><i>It is available to set load percentage manualy</i></td><td><a href= "images/routing_load_balancing_diagram.png" target="_blank" noopener="rel"><img src="images/routing_load_balancing_diagram.png"></a></td></tr>
 <tr><td><b>Optimisation By Deposit Account Balance & Limits</b></td><td>The funds are debited off  from routes as the balance decreases (taking into account limits).<br>
 Stages:<br>
 1) Filter routes for which you can write off for a specific amount<br>
 2) Choosing a route with maximum balance<br>
 3) Performing an operation<br>
-</td><td><a href= "../images/routing_balance_limits_diagram.png" target="_blank" noopener="rel"><img src="../images/routing_balance_limits_diagram.png"></a></td></tr>
-<tr><td><b>Optimisation By Conversion</b></td><td></td><td><a href= "../images/routing_conversion_diagram.png" target="_blank" noopener="rel"><img src="../images/routing_conversion_diagram.png"></a></td></tr>
-<tr><td><b>Optimization By Cost</b></td><td></td><td><a href= "../images/routing_cost_diagram.png" target="_blank" noopener="rel"><img src="../images/routing_cost_diagram.png"></a></td></tr>
+</td><td><a href= "images/routing_balance_limits_diagram.png" target="_blank" noopener="rel"><img src="images/routing_balance_limits_diagram.png"></a></td></tr>
+<tr><td><b>Optimisation By Conversion</b></td><td></td><td><a href= "images/routing_conversion_diagram.png" target="_blank" noopener="rel"><img src="images/routing_conversion_diagram.png"></a></td></tr>
+<tr><td><b>Optimization By Cost</b></td><td></td><td><a href= "images/routing_cost_diagram.png" target="_blank" noopener="rel"><img src="images/routing_cost_diagram.png"></a></td></tr>
 </table>

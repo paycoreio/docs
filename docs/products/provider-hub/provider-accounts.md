@@ -1,3 +1,0 @@
-# Provider Hub: Provider Accounts
-
-Under construction...

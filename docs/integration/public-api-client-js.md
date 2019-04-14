@@ -1,4 +1,4 @@
-# Merchant SDK Widget
+# PublicApiClient.js
 
 Merchant SDK is simple API client
 

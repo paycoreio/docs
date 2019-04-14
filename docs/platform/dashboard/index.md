@@ -1,4 +1,4 @@
-# General Overview
+# Dashboard
 
 ## Introduction
 

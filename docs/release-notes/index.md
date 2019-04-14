@@ -79,9 +79,9 @@ This changelog lists releases by date and version number, along with associated 
 * Performance improvements
 
 !!! note
-    Read more about <a href="https://semver.org" target="_blank" rel="noopener">Software Versioning <i class="md-icon">launch* </a>.
+    Read more about [Software Versioning <i class="md-icon">launch</i>](https://semver.org).
 
 !!! info
     We are always here to hear your thoughts, questions, and feedback! 
     
-    Send us your thoughts and questions at <a href="mailto:support@paycore.io" target="_blank" rel="noopener">**support@paycore.io**</a>
+    Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)

@@ -1,10 +1,9 @@
-# Contract scheme: Guide
+# Commerce Scheme
 
 ## General
 
 ## List
 
 ## Settings
-
 
 ## Creating

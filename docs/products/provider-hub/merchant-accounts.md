@@ -1,3 +1,0 @@
-# Provider Hub: Merchant Accounts
-
-Under construction...

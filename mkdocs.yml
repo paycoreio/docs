@@ -46,47 +46,21 @@ nav:
     - Glossary: 'getting-started/glossary.md'
 - Platform:
     - Dashboard: 'platform/dashboard/index.md'
-    - User Profile: 
-        - Overview: 'platform/user-profile/index.md'
-        - General: 'platform/user-profile/general.md'
-        - Security: 'platform/user-profile/security.md'
-    - Organisation:
+    - User account: 'platform/user-profile/index.md'
+    - Organization account:
         - Overview: 'platform/organisation/index.md'
-        - General: 'platform/organisation/general.md'
         - Security: 'platform/organisation/security.md'
-        - Access Control: 'platform/organisation/access.md'
+        - Access Control: 'platform/organisation/access-control.md'
 - Products:
     - Overview: 'products/index.md'
-    - Provider Hub:
-        - Overview: 'products/provider-hub/index.md'
-        - Provider Accounts: 'products/provider-hub/provider-accounts.md'
-        - Merchant Accounts: 'products/provider-hub/merchant-accounts.md'
-        - Deposit Accounts: 'products/provider-hub/deposit-accounts.md'
+    - Provider Hub: 'products/provider-hub/index.md'
     - Commerce:
         - Overview: 'products/commerce/index.md'
-        - Commerce Account:
-          - Overview: 'products/commerce/commerce-account/overview.md'
-          - Guide: 'products/commerce/commerce-account/guide.md'
-        - Contract Scheme:
-          - Overview: 'products/commerce/contract-scheme/overview.md'
-          #- Guide:
-        - Currency Account:
-          - Overview: 'products/commerce/currency-account/overview.md'
-          #- Guide:
-        - Ledger: 'products/commerce/ledger/overview.md'
-        - Operations:
-          - Overview: 'products/commerce/operations/overview.md'
-          - Payment Invoice:
-            - Overview: 'products/commerce/operations/payment-invoice/overview.md'
-            - Guide: 'products/commerce/operations/payment-invoice/guide.md'
-          - Payout Invoice: 
-            - Overview: 'products/commerce/operations/payout-invoice/overview.md'
-            - Guide: 'products/commerce/operations/payout-invoice/guide.md'
-          - Deposit: 'products/commerce/operations/deposit/overview.md'
-          - Withdrawal: 'products/commerce/operations/withdrawal/overview.md'
-          - Transfer: 'products/commerce/operations/transfer/overview.md'
+        - Commerce Account: 'products/commerce/commerce-account/index.md'
+        - Commerce Scheme: 'products/commerce/commerce-scheme.md'
+        - Payment Invoice: 'products/commerce/payment-invoice/index.md'
+        - Payout Invoice: 'products/commerce/payout-invoice/index.md'
         - Commerce Webhooks: 'products/commerce/webhooks.md'
-        - SDK Widget: 'products/commerce/sdk-widget/overview.md'
     - Payment gateway:
         - Overview: 'products/payment-gateway/index.md'
         - Payments: 'products/payment-gateway/payments.md'
@@ -101,10 +75,9 @@ nav:
         - Points: 'products/payout-gateway/payout-points.md'
         - Routes: 'products/payout-gateway/payout-routes.md'
         - Routing Schemes: 'products/payout-gateway/payout-routing-schemes.md'
-    - FX Rates:
-        - Overview: 'products/fx-rates/index.md'
-        - Resources: 'products/fx-rates/resources.md'
-        - Rate Schemes: 'products/fx-rates/rate-schemes.md'
+    - Batch payouts: 'products/batch-payouts/index.md'
+    - FX Rates: 'products/fx-rates/index.md'
+    - Ledger: 'products/ledger/index.md'
     - HPP:
         - Overview: 'products/hpp/index.md'
     - Analytics:
@@ -116,6 +89,7 @@ nav:
     - API References: 'integration/index.md'
     - Public IPs: 'integration/ips.md'
     - Callbacks: 'integration/callbacks.md'
+    - PublicApiClient.js: 'integration/public-api-client-js.md'
 - Connectors:
       - Overview: 'connectors/index.md'
       - 123x: 'connectors/123x/index.md'
