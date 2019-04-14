@@ -1,6 +1,6 @@
-# PayCore.io<sup>®</sup> Release notes 
+# PayCore.io Release notes 
 
-**PayCore.io<sup>®</sup>** regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**. 
+**PayCore.io** regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**. 
 
 This changelog lists releases by date and version number, along with associated changes. 
 

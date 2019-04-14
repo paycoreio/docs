@@ -52,7 +52,7 @@ Payment Provider  can be in **2 statuses**:
         !!! tip
             You can find detailed instructions for each provider at <a href="https://docs.paycore.io/payment-providers/" target="_blank" rel="noopener"> Integration    Manuals </a>.
 
-    - To ask PayCore.io<sup>®</sup> to implement **NEW** Payment provider, use **```Request a connection```** button!
+    - To ask PayCore.io to implement **NEW** Payment provider, use **```Request a connection```** button!
 
 !!! info "Screenshots"
     [![New connection](images/newconn1.png)](images/newconn1.png)

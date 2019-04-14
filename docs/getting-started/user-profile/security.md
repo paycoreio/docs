@@ -28,7 +28,7 @@ Here You can change your password!
 
 **```Two-factor authentication```** enables You to add an extra layer of protection from getting your account compromised.
 
- You can set up two-factor authentication using any device capable of generating Time-based One-Time Password (TOTP) authentication codes to log in to your PayCore.io<sup>®</sup> account. 
+ You can set up two-factor authentication using any device capable of generating Time-based One-Time Password (TOTP) authentication codes to log in to your PayCore.io account. 
  
 
 !!! tip
@@ -43,7 +43,7 @@ To acivate this function You should do the follow:
 
 **Step 1**: Download and install an authentication app at your choice
 
-**Step 2**: Add PayCore.io<sup>®</sup> account to the app
+**Step 2**: Add PayCore.io account to the app
     
 !!! note
     You can do this through **```scanning the QR-code```**, or **```set up```** required parameters **```manualy```**!
@@ -61,7 +61,7 @@ To acivate this function You should do the follow:
         Backup codes are One-Time! If You have already used all codes (10), You can Generate new code-list.
 
 
-After all this you will be asked  to enter **```verification code```** **every time** you are **```Login in```** to the PayCore.io<sup>®</sup> Dashboard!
+After all this you will be asked  to enter **```verification code```** **every time** you are **```Login in```** to the PayCore.io Dashboard!
 
 
 To **```Disable```** 2FA authentication press **```Disable```** button!

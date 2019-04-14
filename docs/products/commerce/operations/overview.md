@@ -39,6 +39,6 @@ Workflow statuses has two  properties:
 Payment process may also be in the **```sleeping```** state.
 
 !!! info
-    **```Sleeping```** means that PayCore.io<sup>®</sup> is waiting for data, interaction with other processes, a user response or any other action.
+    **```Sleeping```** means that PayCore.io is waiting for data, interaction with other processes, a user response or any other action.
 
 These status properties are displayed in the Status Table for each operation type.

@@ -51,7 +51,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
     - **```Success URL```**, **```Fail URL```**, **```Status URL```** : Set your URLs
         
         !!! info
-            PayCore.io<sup>®</sup> will overwrite this properties in request. 
+            PayCore.io will overwrite this properties in request. 
 
     - other properties are set at your choice
 

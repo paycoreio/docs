@@ -1,8 +1,8 @@
-# PayCore.io<sup>®</sup> API
+# PayCore.io API
 
 <img src="../images/paycore_global.svg" width="300"> 
 
-## PayCore.io<sup>®</sup> Public API 
+## PayCore.io Public API 
 
 
 <a href = "https://apidoc.paycore.io/" target="_blank" rel="noopener">  Public API (ReDoc) <i class="md-icon">launch</i></a>

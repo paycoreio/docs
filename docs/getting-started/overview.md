@@ -2,9 +2,9 @@
 
 ## Introduction
 
-**PayCore.io<sup>®</sup>** integrates payment providers and acquires all around the world to one hub and offers the unified communication interface. 
+**PayCore.io** integrates payment providers and acquires all around the world to one hub and offers the unified communication interface. 
 
-<a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayCore.io<sup>®</sup> Dashboard</a> is an information and management tool which is intended to help you manage your business based on **PayСore**.
+<a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayCore.io Dashboard</a> is an information and management tool which is intended to help you manage your business based on **PayСore**.
 
 [![Dashboard](images/dash_overview1.png)](images/dash_overview1.png)
 

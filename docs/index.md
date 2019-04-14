@@ -1,8 +1,8 @@
-# Welcome to [PayCore.io<sup>®</sup>](https://paycore.io/) documentation
+# Welcome to [PayCore.io](https://paycore.io/) documentation
 
 ![PayСore.io Main Illustration](images/paycore-main3.png)
 
-Welcome  to PayCore.io<sup>®</sup>! Get familiar with the PayCore.io<sup>®</sup> products and explore their features:
+Welcome  to PayCore.io! Get familiar with the PayCore.io products and explore their features:
 
 * [Payment Providers Hub](#): Connect any provider or merchant account of any payment provider into the one hub.
 * [Payments](#): Accept any online payment option through the single omnichannel gateway.
@@ -18,7 +18,7 @@ Welcome  to PayCore.io<sup>®</sup>! Get familiar with the PayCore.io<sup>®</su
 
 ## Getting started
 
-PayCore.io<sup>®</sup> helps you create any type of payments & flow — from e-commerce to complex finance processes and everything in between. Follow our  [development quickstart](/getting-started/overview)  to start building your integration.
+PayCore.io helps you create any type of payments & flow — from e-commerce to complex finance processes and everything in between. Follow our  [development quickstart](/getting-started/overview)  to start building your integration.
 
 
 ## Accept payments & send payouts

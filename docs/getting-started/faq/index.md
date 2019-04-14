@@ -1,4 +1,4 @@
-# PayCore.io<sup>®</sup> FAQ
+# PayCore.io FAQ
 
 ![images/faq.svg](images/faq.svg)
 
