@@ -25,10 +25,7 @@ In this case you need to do basic steps before total onboarding.
 4. Find the necessary provider(-s) in Paylment providers list.
 
     !!! tip
-        Detailed connecton guides for all **```Implemented (Ready)```** Payment Providers You can find at [**Payment Providers connecting**](../../payment-providers/)
-
-
-
+        Detailed connecton guides for all **```Implemented (Ready)```** Payment Providers You can find at [**Payment Providers connecting**](/connectors/)
 
 ## Payment Providers 
 
@@ -50,7 +47,7 @@ Payment Provider  can be in **2 statuses**:
         4. Confirm action
         
         !!! tip
-            You can find detailed instructions for each provider at <a href="https://docs.paycore.io/payment-providers/" target="_blank" rel="noopener"> Integration    Manuals </a>.
+            You can find detailed instructions for each provider at <a href="/connectors/" target="_blank" rel="noopener"> Integration    Manuals </a>.
 
     - To ask PayCore.io to implement **NEW** Payment provider, use **```Request a connection```** button!
 

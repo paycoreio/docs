@@ -1,7 +1,7 @@
 site_name: 'Documentation'
 repo_name: 'paycoreio/docs'
 repo_url: 'https://github.com/paycoreio/docs/'
-copyright: '© 2018-2019 PayCore.io<sup>®</sup>. All Rights Reserved.'
+copyright: '© 2016-2048 PayCore.io<sup>®</sup>. All Rights Reserved.'
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -36,35 +36,34 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+  - smarty
 nav:
-- Home:
-    - Introduction: 'index.md'   
 - Getting started:
-    - Overview: 'getting-started/overview.md'
-
+    - Introduction: 'index.md'   
     - Integration:
         - Overview: 'getting-started/integration/index.md'   
+    - FAQ: 'getting-started/faq.md'
+    - Glossary: 'getting-started/glossary.md'
+- Platform:
+    - Dashboard: 'platform/dashboard/index.md'
     - User Profile: 
-        - Overview: 'getting-started/user-profile/index.md'
-        - General: 'getting-started/user-profile/general.md'
-        - Security: 'getting-started/user-profile/security.md'
+        - Overview: 'platform/user-profile/index.md'
+        - General: 'platform/user-profile/general.md'
+        - Security: 'platform/user-profile/security.md'
     - Organisation:
-        - Overview: 'getting-started/organisation/index.md'
-        - General: 'getting-started/organisation/general.md'
-        - Security: 'getting-started/organisation/security.md'
-        - Access Control: 'getting-started/organisation/access.md'
-    - Webhooks: 'getting-started/webhooks.md'
-    - API: 'getting-started/api.md'
-    - Public IPs: 'ips.md'
-    - FAQ: 'getting-started/faq/index.md'
+        - Overview: 'platform/organisation/index.md'
+        - General: 'platform/organisation/general.md'
+        - Security: 'platform/organisation/security.md'
+        - Access Control: 'platform/organisation/access.md'
 - Products:
-    - Analytics:
-        - Overview: 'products/analytics/overview.md'
-        - Queries: 'products/analytics/queries.md'
-        - Dashboards: 'products/analytics/dashboards.md'
-        - Alerts: 'products/analytics/alerts.md'
+    - Overview: 'products/index.md'
+    - Provider Hub:
+        - Overview: 'products/provider-hub/index.md'
+        - Provider Accounts: 'products/provider-hub/provider-accounts.md'
+        - Merchant Accounts: 'products/provider-hub/merchant-accounts.md'
+        - Deposit Accounts: 'products/provider-hub/deposit-accounts.md'
     - Commerce:
-        - Overview: 'products/commerce/overview.md'
+        - Overview: 'products/commerce/index.md'
         - Commerce Account:
           - Overview: 'products/commerce/commerce-account/overview.md'
           - Guide: 'products/commerce/commerce-account/guide.md'
@@ -88,79 +87,77 @@ nav:
           - Transfer: 'products/commerce/operations/transfer/overview.md'
         - Commerce Webhooks: 'products/commerce/webhooks.md'
         - SDK Widget: 'products/commerce/sdk-widget/overview.md'
-    - Provider Hub:
-        - Overview: 'products/provider-hub/overview.md'
-        - Provider Accounts: 'products/provider-hub/provider-accounts.md'
-        - Merchant Accounts: 'products/provider-hub/merchant-accounts.md'
-        - Deposit Accounts: 'products/provider-hub/deposit-accounts.md'
     - Payment gateway:
-        - Overview: 'products/payment-gateway/overview.md'
+        - Overview: 'products/payment-gateway/index.md'
         - Payments: 'products/payment-gateway/payments.md'
         - Requests: 'products/payment-gateway/payment-requests.md'
         - Pages: 'products/payment-gateway/payment-pages.md'
         - Routes: 'products/payment-gateway/payment-routes.md'
         - Routing Schemes: 'products/payment-gateway/payment-routing-schemes.md'
     - Payout gateway:
-        - Overview: 'products/payout-gateway/overview.md'
+        - Overview: 'products/payout-gateway/index.md'
         - Payouts: 'products/payout-gateway/payouts.md'
         - Requests: 'products/payout-gateway/payout-requests.md'
         - Points: 'products/payout-gateway/payout-points.md'
         - Routes: 'products/payout-gateway/payout-routes.md'
         - Routing Schemes: 'products/payout-gateway/payout-routing-schemes.md'
-    - Currency rates:
-        - Overview: 'products/currency-rates/overview.md'
-        - Resources: 'products/currency-rates/resources.md'
-        - Rate Schemes: 'products/currency-rates/rate-schemes.md'
+    - FX Rates:
+        - Overview: 'products/fx-rates/index.md'
+        - Resources: 'products/fx-rates/resources.md'
+        - Rate Schemes: 'products/fx-rates/rate-schemes.md'
     - HPP:
-        - Overview: 'products/hpp/overview.md'
-
-- Providers:
-      - Overview: 'payment-providers/index.md'
-      - 123x: 'payment-providers/123x/connect-manual.md'
-      - 4bill: 'payment-providers/4bill/connect-manual.md'
-      - AdvCash: 'payment-providers/advcash/connect-manual.md'
-      - AnyCash: 'payment-providers/anycash/connect-manual.md'
-      #- AustralPay: 'payment-providers/australpay/connect-manual.md'
-      - CardPay: 'payment-providers/cardpay/connect-manual.md'
-      - Certus Finance: 'payment-providers/certusfinance/connect-manual.md'
-      - CoinGate: 'payment-providers/coingate/connect-manual.md'
-      #- CoinPayments:'payment-providers/coinpayments/connect-manual.md'
-      - dLocal: 'payment-providers/dlocal/connect-manual.md'
-      - FlashPay: 'payment-providers/flashpay/connect-manual.md'
-      - Fondy: 'payment-providers/fondy/connect-manual.md'
-      - GeoPay: 'payment-providers/geopaynet/connect-manual.md'
-      - ING Bank Poland: 'payment-providers/ingbankpl/connect-manual.md'
-      - Interkassa: 'payment-providers/interkassa/connect-manual.md'
-      #- Leogaming: 'payment-providers/leogaming/connect-manual.md'
-      - LiqPay: 'payment-providers/liqpay/connect-manual.md'
-      #- MoneyMovers: 'payment-providers/moneymovers/connect-manual.md'
-      - Neteller: 'payment-providers/neteller/connect-manual.md'
-      - Parimatch: 'payment-providers/parimatch/connect-manual.md'
-      - PayBox: 'payment-providers/paybox/connect-manual.md'
-      - Payeer: 'payment-providers/payeer/connect-manual.md'
-      - PayMega: 'payment-providers/paymega/connect-manual.md'
-      - PayMega.io: 'payment-providers/paymegaio/connect-manual.md'
-      - PaymentCenter: 'payment-providers/paymentcenter/connect-manual.md'   
-      #- Payoneer: 'payment-providers/payoneer/connect-manual.md'
-      - PayPal: 'payment-providers/paypal/connect-manual.md'
-      - PaySec: 'payment-providers/paysec/connect-manual.md'
-      - PerfectMoney: 'payment-providers/perfectmoney/connect-manual.md'
-      - Piastrix: 'payment-providers/piastrix/connect-manual.md'
-      - SatchelPay: 'payment-providers/satchelpay/connect-manual.md'
-      - Skrill: 'payment-providers/skrill/connect-manual.md'
-      - Tranzzo: 'payment-providers/tranzzo/connect-manual.md'
-      - Wirecapital: 'payment-providers/wirecapital/connect-manual.md'
-      - Xpay: 'payment-providers/xpayua/connect-manual.md'
+        - Overview: 'products/hpp/index.md'
+    - Analytics:
+        - Overview: 'products/analytics/index.md'
+        - Queries: 'products/analytics/queries.md'
+        - Dashboards: 'products/analytics/dashboards.md'
+        - Alerts: 'products/analytics/alerts.md'
+- Integration: 
+    - API References: 'integration/index.md'
+    - Public IPs: 'integration/ips.md'
+    - Callbacks: 'integration/callbacks.md'
+- Connectors:
+      - Overview: 'connectors/index.md'
+      - 123x: 'connectors/123x/index.md'
+      - 4bill: 'connectors/4bill/index.md'
+      - AdvCash: 'connectors/advcash/index.md'
+      - AnyCash: 'connectors/anycash/index.md'
+      #- AustralPay: 'connectors/australpay/index.md'
+      - CardPay: 'connectors/cardpay/index.md'
+      - Certus Finance: 'connectors/certusfinance/index.md'
+      - CoinGate: 'connectors/coingate/index.md'
+      #- CoinPayments:'connectors/coinpayments/index.md'
+      - dLocal: 'connectors/dlocal/index.md'
+      - FlashPay: 'connectors/flashpay/index.md'
+      - Fondy: 'connectors/fondy/index.md'
+      - GeoPay: 'connectors/geopaynet/index.md'
+      - ING Bank Poland: 'connectors/ingbankpl/index.md'
+      - Interkassa: 'connectors/interkassa/index.md'
+      #- Leogaming: 'connectors/leogaming/index.md'
+      - LiqPay: 'connectors/liqpay/index.md'
+      #- MoneyMovers: 'connectors/moneymovers/index.md'
+      - Neteller: 'connectors/neteller/index.md'
+      - Parimatch: 'connectors/parimatch/index.md'
+      - PayBox: 'connectors/paybox/index.md'
+      - Payeer: 'connectors/payeer/index.md'
+      - PayMega: 'connectors/paymega/index.md'
+      - PayMega.io: 'connectors/paymegaio/index.md'
+      - PaymentCenter: 'connectors/paymentcenter/index.md'   
+      #- Payoneer: 'connectors/payoneer/index.md'
+      - PayPal: 'connectors/paypal/index.md'
+      - PaySec: 'connectors/paysec/index.md'
+      - PerfectMoney: 'connectors/perfectmoney/index.md'
+      - Piastrix: 'connectors/piastrix/index.md'
+      - SatchelPay: 'connectors/satchelpay/index.md'
+      - Skrill: 'connectors/skrill/index.md'
+      - Tranzzo: 'connectors/tranzzo/index.md'
+      - Wirecapital: 'connectors/wirecapital/index.md'
+      - Xpay: 'connectors/xpayua/index.md'
 - Release notes: 
-    - Overview: 'release-notes/overview.md'
-    - v0.58 (March 23, 2019): 'release-notes/v0.58.md'
-    - v0.57 (March 11, 2019): 'release-notes/v0.57.md'
-    - v0.56 (March 4, 2019): 'release-notes/v0.56.md' 
-- API: 
-    - PayCore.io<sup>®</sup> API: 'api/overview.md'
-
-
-
+    - Overview: 'release-notes/index.md'
+    - v0.58 (23/03/2019): 'release-notes/v0.58.md'
+    - v0.57 (11/03/2019): 'release-notes/v0.57.md'
+    - v0.56 (05/03/2019): 'release-notes/v0.56.md' 
 
 
 
