@@ -33,10 +33,28 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+  #- pymdownx.details
+  #- pymdownx.magiclink
+  #- pymdownx.smartsymbols
+  #- pymdownx.tasklist:
+  #    custom_checkbox: true
+
+  #- pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
-  - smarty
+  - pymdownx.tilde      
 nav:
 - Getting started:
     - Introduction: 'index.md'   
@@ -44,23 +62,15 @@ nav:
         - Overview: 'getting-started/integration/index.md'   
     - FAQ: 'getting-started/faq.md'
     - Glossary: 'getting-started/glossary.md'
-- Platform:
-    - Dashboard: 'platform/dashboard/index.md'
-    - User account: 'platform/user-profile/index.md'
-    - Organization account:
-        - Overview: 'platform/organisation/index.md'
-        - Security: 'platform/organisation/security.md'
-        - Access Control: 'platform/organisation/access-control.md'
 - Products:
     - Overview: 'products/index.md'
+    - Dashboard: 'platform/dashboard/index.md'
+    - Account:
+        - Overview: 'platform/organisation/index.md'
+        - User account: 'platform/user-profile/index.md'
+        - Security: 'platform/organisation/security.md'
+        - Access Control: 'platform/organisation/access-control.md'
     - Provider Hub: 'products/provider-hub/index.md'
-    - Commerce:
-        - Overview: 'products/commerce/index.md'
-        - Commerce Account: 'products/commerce/commerce-account/index.md'
-        - Commerce Scheme: 'products/commerce/commerce-scheme.md'
-        - Payment Invoice: 'products/commerce/payment-invoice/index.md'
-        - Payout Invoice: 'products/commerce/payout-invoice/index.md'
-        - Commerce Webhooks: 'products/commerce/webhooks.md'
     - Payment gateway:
         - Overview: 'products/payment-gateway/index.md'
         - Payments: 'products/payment-gateway/payments.md'
@@ -75,9 +85,16 @@ nav:
         - Points: 'products/payout-gateway/payout-points.md'
         - Routes: 'products/payout-gateway/payout-routes.md'
         - Routing Schemes: 'products/payout-gateway/payout-routing-schemes.md'
-    - Batch payouts: 'products/batch-payouts/index.md'
     - FX Rates: 'products/fx-rates/index.md'
-    - Ledger: 'products/ledger/index.md'
+    - Commerce:
+        - Overview: 'products/commerce/index.md'
+        - Commerce Account: 'products/commerce/commerce-account/index.md'
+        - Commerce Scheme: 'products/commerce/commerce-scheme.md'
+        - Payment Invoice: 'products/commerce/payment-invoice/index.md'
+        - Payout Invoice: 'products/commerce/payout-invoice/index.md'
+        - Commerce Webhooks: 'products/commerce/webhooks.md'
+        - Ledger: 'products/ledger/index.md'        
+    - Batch payouts: 'products/batch-payouts/index.md'
     - HPP:
         - Overview: 'products/hpp/index.md'
     - Analytics:
@@ -86,10 +103,11 @@ nav:
         - Dashboards: 'products/analytics/dashboards.md'
         - Alerts: 'products/analytics/alerts.md'
 - Integration: 
-    - API References: 'integration/index.md'
-    - Public IPs: 'integration/ips.md'
-    - Callbacks: 'integration/callbacks.md'
+    - Overview: 'integration/index.md'
+    - API References: 'integration/api-references.md'
     - PublicApiClient.js: 'integration/public-api-client-js.md'
+    - Callbacks: 'integration/callbacks.md'
+    - Public IPs: 'integration/ips.md'
 - Connectors:
       - Overview: 'connectors/index.md'
       - 123x: 'connectors/123x/index.md'

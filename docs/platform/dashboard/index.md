@@ -1,12 +1,12 @@
 # Dashboard
 
-## Introduction
+## Overview
 
-**PayCore.io** integrates payment providers and acquires all around the world to one hub and offers the unified communication interface. 
+The [PayCore.io Dashboard](https://dashboard.paycore.io/) is a feature-rich user interface for you to operate and configure your PayCore.io account. You can use it to manage payments and payouts, respond to incidents, monitor your integration, and more.
 
-<a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayCore.io Dashboard</a> is an information and management tool which is intended to help you manage your business based on **PayСore**.
+The Dashboard home page provides useful at-a-glance information about the activity on your account. A wide range of analytics and real-time charts provide insight into the performance of your business. The Dashboard also shows recent activity that may require you to take action, such as unanswered disputes or identity verifications.
 
-[![Dashboard](images/dash_overview1.png)](images/dash_overview1.png)
+![Dashboard](images/dash_overview1.png)
 
 
 ## Basic structure
