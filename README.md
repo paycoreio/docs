@@ -5,6 +5,7 @@
 
 This repository contains PayСore.io public documentation.
 
+Please visit our documentation website — [docs.paycore.io](https://docs.paycore.io/).
 
 ## License
 
