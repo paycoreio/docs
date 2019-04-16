@@ -5,27 +5,24 @@ PayСore.io is the software platform  - it means that PayСore.io  is payment ag
 In this case you need to do basic steps before total onboarding.
 
 1. First of all you need to have created and verified accounts on the provider side. 
-2. Then **```Sign up```** in <a href="https://dashboard.paycore.io/register" target="_blank" rel="noopener">PayСore.io</a>.
+2. Then **`Sign up`** in <a href="https://dashboard.paycore.io/register" target="_blank" rel="noopener">PayСore.io</a>.
 
-    !!! info
-        After registration you will be redirected to dashboard of your organisation, which will be created automaticaly.
     !!! tip
-        You can read more about **```Organisation```** in PayСore.io Dashboard  and setting it up at [**PayСore.io: Organisations and it's preferences**](../organisation/)
+        You can read more about **`Organisation`** in PayСore.io Dashboard  and setting it up at [**PayСore.io: Organisations and it's preferences**](../organisation/)
 
 3. Go to the "New connection" section
 
-    !!! info
-        "New connection" section  contains the collections of **```Payment Providers```** and related to them:
+    "New connection" section  contains the collections of **`Payment Providers`** and related to them:
     
-        - Payment methods
-        - Payout methods
-        - Payment services
-        - Payout services
+    - Payment methods
+    - Payout methods
+    - Payment services
+    - Payout services
 
 4. Find the necessary provider(-s) in Paylment providers list.
 
     !!! tip
-        Detailed connecton guides for all **```Implemented (Ready)```** Payment Providers You can find at [**Payment Providers connecting**](/connectors/)
+        Detailed connecton guides for all **`Implemented (Ready)`** Payment Providers You can find at [**Payment Providers connecting**](/connectors/)
 
 ## Payment Providers 
 
@@ -36,20 +33,18 @@ Payment Provider  can be in **2 statuses**:
 
 1. **Ready**: means, that this Payment provider has been already implemented to PayСore.io 
 2. **Not Ready**: means, that this Payment provider has  not been implemented to PayСore.io yet.
-
-!!! info
     
-    - To connect certain provider:
+- To connect the certain provider:
 
-        1. Go to the **```Provider Overview page```** by clicking on it's logo
-        2. Click **```Connect```** button
-        3. Enter the credentials 
-        4. Confirm action
-        
-        !!! tip
-            You can find detailed instructions for each provider at <a href="/connectors/" target="_blank" rel="noopener"> Integration    Manuals </a>.
+    1. Go to the **`Provider Overview page`** by clicking on it's logo
+    2. Click **`Connect`** button
+    3. Enter the credentials 
+    4. Confirm action
+    
+    !!! tip
+        You can find detailed instructions for each provider at [Integration    Manuals](/connectors/).
 
-    - To ask PayCore.io to implement **NEW** Payment provider, use **```Request a connection```** button!
+- To ask PayCore.io to implement **NEW** Payment provider, use **`Request a connection`** button!
 
 !!! info "Screenshots"
     [![New connection](images/newconn1.png)](images/newconn1.png)

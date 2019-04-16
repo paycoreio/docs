@@ -33,14 +33,13 @@ Here You can find  instructions for setting up **MoneyMovers**  account.
 
 
 !!! tip
-    Press **```Connect```** at Xpay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Xpay **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/moneymovers-step_connect.png)](images/moneymovers-step_connect.png)
+    [![Connect](images/moneymovers_connect.png)](images/moneymovers_connect.png)
 
 
 !!! success

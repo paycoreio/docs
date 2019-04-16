@@ -7,7 +7,7 @@
 Here You can find  instructions for setting up **Paymega** accounts.
 
 !!! info
-     This provider supports **```Merchant```** and **```Provider```** account connection!
+     This provider supports **`Merchant`** and **`Provider`** account connection!
 
 ## Provider account
 
@@ -15,14 +15,13 @@ Here You can find  instructions for setting up **Paymega** accounts.
 
 #### Step 1: Contact with PayMega Support Manager
 
-!!! info
-    This Payment Provoider gives acoount credentials personaly to their merchants!
+This Payment Provoider gives acoount credentials personaly to their merchants!
     
 #### Step 2: Get required credentials
 
-- [x]  Account ID
-- [x]  Account Password
-- [x]  Signature key
+-   Account ID
+-   Account Password
+-   Signature key
 
 !!! success
     You have configured account!
@@ -33,16 +32,15 @@ Here You can find  instructions for setting up **Paymega** accounts.
 
 #### Step 2: Enter credentials
 
-- [x]  Account ID
-- [x]  Account Password
-- [x]  Signature key
+-   Account ID
+-   Account Password
+-   Signature key
 
 !!! tip
-    Press **```Connect```** at PayMega **```Provider Overview page```** in **```New connection```** section to open Connection form!
-    Choose **```Provider```** account type.
+    Press **`Connect`** at PayMega **`Provider Overview page`** in **`New connection`** section to open Connection form!
+    Choose **`Provider`** account type.
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
     [![Connect](images/paymega_provider-step_connect1.png)](images/paymega_provider-step_connect1.png)
@@ -77,10 +75,10 @@ Here You can find  instructions for setting up **Paymega** accounts.
 
 - Go to created Page —> General
 - Find and copy:
-    - [x] **Test** public key
-    - [x] **Test** secret key
-    - [x] **Live** public key
-    - [x] **Live** secret key
+    -  **Test** public key
+    -  **Test** secret key
+    -  **Live** public key
+    -  **Live** secret key
 
 #### Step 5: Set up parameters
 
@@ -99,17 +97,16 @@ Here You can find  instructions for setting up **Paymega** accounts.
 
 #### Step 2: Enter credentials
 
-- [x] **Test** public key
-- [x] **Test** secret key
-- [x] **Live** public key
-- [x] **Live** secret key
+-  **Test** public key
+-  **Test** secret key
+-  **Live** public key
+-  **Live** secret key
 
 !!! tip
-    Press **```Connect```** at PayMega **```Provider Overview page```** in **```New connection```** section to open Connection form!
-    Choose **```Merchant```** account type.
+    Press **`Connect`** at PayMega **`Provider Overview page`** in **`New connection`** section to open Connection form!
+    Choose **`Merchant`** account type.
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
     [![Connect](images/paymega_merchant-step_connect1.png)](images/paymega_merchant-step_connect1.png)

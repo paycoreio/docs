@@ -13,10 +13,10 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
 !!! info
      Skip this step if You have already configured it.
 
-- Go to the **```REST API apps```** section
-- Press **```Create App```**
-- Set **```App Name```** 
-- Choose **```Sandbox developer account```**
+- Go to the **`REST API apps`** section
+- Press **`Create App`**
+- Set **`App Name`** 
+- Choose **`Sandbox developer account`**
 
 !!! tip
     Don't forget to confirm creation!
@@ -32,25 +32,25 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
 
 #### Step 2: Get App credentials
 
-- [x] Client ID
-- [x] Client Secret
+-  Client ID
+-  Client Secret
 
 !!! info "Screenshot"
     [![App Credentials](images/appcred1.png)](images/appcred1.png)
 
 !!! warning
-    Ensure that **```Mode Switcher```** has **```Live```** state, if you want to connect **```Live```** account!
+    Ensure that **`Mode Switcher`** has **`Live`** state, if you want to connect **`Live`** account!
     
 !!! tip
-    You can find **```Mode Switcher```** on the upper right.
+    You can find **`Mode Switcher`** on the upper right.
 
 
 #### Step 3: Set Up App settings
-- Go to the  **```LIVE APP SETTINGS```**
+- Go to the  **`LIVE APP SETTINGS`**
 - Set the necessary parameters
 
 !!! note
-    If **```Mode Switcher```** has **```Sanbox```** state - this section has **```SANDBOX APP SETTINGS```** title!
+    If **`Mode Switcher`** has **`Sanbox`** state - this section has **`SANDBOX APP SETTINGS`** title!
 
 !!! tip
     Don't forget to confirm action!
@@ -63,28 +63,28 @@ Here You can find  instructions for setting up <a href="https://developer.paypal
 
 Besides App credentials You also need:
 
-- [x] SOAP Username
-- [x] SOAP Password
-- [x] Signature
+-  SOAP Username
+-  SOAP Password
+-  Signature
 
 
 To get them - folow this flow:
 
 1. Log In at  <a href="https://paypal.com/" target="_blank" rel="noopener">  **PayPal.com**</a> 
-2. Open **```Tools```** -> **```All Tools```** 
+2. Open **`Tools`** -> **`All Tools`** 
     
     !!! tip
-        You can find this on the **```Navigation bar```**
+        You can find this on the **`Navigation bar`**
 
-3. Find  and Open **```API Credentials```**
+3. Find  and Open **`API Credentials`**
 
-5. Go to the **```NVP/SOAP API integration (classic)```** section
-6. Press **```Manage API Credentials```**
+5. Go to the **`NVP/SOAP API integration (classic)`** section
+6. Press **`Manage API Credentials`**
 
 - Find:
-    - [x] SOAP Username
-    - [x] SOAP Password
-    - [x] Signature
+    -  SOAP Username
+    -  SOAP Password
+    -  Signature
 
 !!! info "Screenshots"
     [![Acc Credentials](images/acc-cred1.png)](images/acc-cred1.png)
@@ -102,29 +102,28 @@ To get them - folow this flow:
 
 #### Step 1: Copy required credentials
 
-- [x] Client ID
-- [x] Client Secret
-- [x] SOAP Username
-- [x] SOAP Password
-- [x] Signature
+-  Client ID
+-  Client Secret
+-  SOAP Username
+-  SOAP Password
+-  Signature
 
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at PayPal **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at PayPal **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 #### Step 3: Set additional parameters
 
-- [x] Test mode
+-  Test mode
 
 !!! info
-    **```Test mode```** is set **_according to your PayPal account settings_**!
+    **`Test mode`** is set **_according to your PayPal account settings_**!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/paypal-step_connect.png)](images/paypal-step_connect.png)
+    [![Connect](images/paypal_connect.png)](images/paypal_connect.png)
 
 
 !!! success

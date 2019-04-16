@@ -18,13 +18,10 @@
 !!! info "Definition"
     **Payout status** —  is a property, based on which it can be unambiguously stated at what stage the payout is. 
 
-Payout Statuses are divided into **```TWO```** groups _in the context of their level of completion_.
+Payout Statuses are divided into **`TWO`** groups _in the context of their level of completion_.
 
-- **```Final```** : means, that current status is the last (**_in current flow_**)
-- **```Intermediate```**: means, that paycout can go into another state after current
-
-!!! info
-    **```Sleep```** - means that operation can wait in this status for some moderation.
+- **`Final`** : means, that current status is the last (**_in current flow_**)
+- **`Intermediate`**: means, that paycout can go into another state after current
 
 <table border="1px">
 
@@ -57,11 +54,11 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 
 ## Payout Resolution
 
-!!! info "Definition"
-    **Payout resolution** - the status of the request to the API of the payment provider and, in general, can be **successful** (**```OK```**) or **not successful** (for example, **```INVALID_REQUEST```**, **```FORBIDDEN_IP```**, **```SIGNATURE_ERROR```**), 
+
+**Payout resolution** - the status of the request to the API of the payment provider and, in general, can be **successful** (**`OK`**) or **not successful** (for example, **`INVALID_REQUEST`**, **`FORBIDDEN_IP`**, **`SIGNATURE_ERROR`**), 
     
-!!! info
-    The resolution explains why the payout is in this status and, in fact, is the code (or group of codes) of the error that occurred when requesting the payment provider API.
+
+The resolution explains why the payout is in this status and, in fact, is the code (or group of codes) of the error that occurred when requesting the payment provider API.
 
 
 
@@ -113,12 +110,11 @@ Payout Statuses are divided into **```TWO```** groups _in the context of their l
 
 
 !!! warning
-    Any resolution from the **```ERROR GROUP```** transfers the payout to the **```moderation required```** state and it **will not be processed** by the processor.
+    Any resolution from the **`ERROR GROUP`** transfers the payout to the **`moderation required`** state and it **will not be processed** by the processor.
 
 ##  Concept Difference
 
-!!! info
-    The difference between these concepts lies in the fact that status is a property of the payout, and resolution relates to all sub-operations and has an explanatory meaning of the cause of the error that occurred during the processing of this request.
+The difference between these concepts lies in the fact that status is a property of the payout, and resolution relates to all sub-operations and has an explanatory meaning of the cause of the error that occurred during the processing of this request.
 
 
 ## Guide

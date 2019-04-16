@@ -34,8 +34,8 @@
 
 - Create New account
     - Ledger: 
-        - [x] **`ON`** (if balances and low-level operations are necessary)
-        - [x] **`OFF`** (if there is no need to control balances) 
+        -  **`ON`** (if balances and low-level operations are necessary)
+        -  **`OFF`** (if there is no need to control balances) 
 
 - Configure account:
     - Payment options

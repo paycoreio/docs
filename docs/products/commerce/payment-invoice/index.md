@@ -17,7 +17,7 @@ There are three types of **incoming** transactions that occur in PayCore.io:
     > A **Payment Invoice** is a high-level operation that initiates accompanying Payment Request and Ledger account transactions.
 
 
-The Payment Invoice includes information on the **_```amount```_**, **_```currency```_**, **_```service```_**, **_```commission```_**, **_```exchange rate```_** and other properties. 
+The Payment Invoice includes information on the **_`amount`_**, **_`currency`_**, **_`service`_**, **_`commission`_**, **_`exchange rate`_** and other properties. 
 
 !!! info
     The full list of properties can be found in the <a href="http://apidoc.paycore.io/" target="_blank" rel="noopener"> API Reference <i class="md-icon">launch</i> </a>.
@@ -90,7 +90,7 @@ Overview page is intended to display detailed info about:
 ### Configuration
 
 
-To configure the payment invoice **```lifetime```** or **```attempts limit```**:
+To configure the payment invoice **`lifetime`** or **`attempts limit`**:
 
 1. Navigate to the <a href =https://dashboard.paycore.io/commerce/accounts/" target="_blank" rel="noopener">Commerce accounts</a>
 2. Go to the Setting of neccessary one

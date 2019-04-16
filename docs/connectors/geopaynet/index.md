@@ -17,19 +17,18 @@ Here You can find  instructions for setting up <a href="https://geo-pay.net/acco
 
 #### Step 3: Get User (Hash) ID
 
-- [x] User ID (Hash)
+-  User ID (Hash)
 
 !!! info "Screenshot"
     [![Step 3](images/geopay-step2.png)](images/geopay-step2.png)
 
 #### Step 4: Contact with GeoPay manager
 
-!!! info
-    This Payment Provoider gives acoount credentials personaly to their merchants!
+This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 5: Get API Key
 
-- [x] API Key
+-  API Key
 
 
 !!! success
@@ -41,17 +40,16 @@ Here You can find  instructions for setting up <a href="https://geo-pay.net/acco
 
 #### Step 2: Enter credentials
 
-- [x] User ID (Hash)
-- [x] API Key
+-  User ID (Hash)
+-  API Key
 
 !!! tip
-    Press **```Connect```** at GeoPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at GeoPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/geopay-step_connect.png)](images/geopay-step_connect.png)
+    [![Connect](images/geopay_connect.png)](images/geopay_connect.png)
 
 !!! success
     You have connected **GeoPay**!

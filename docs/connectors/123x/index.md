@@ -34,16 +34,16 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
     [![Step 4](images/123xio-step4.png)](images/123xio-step4.png)
 
 #### Step 5: Set up parameters
-- [x] Market name
-- [x] Handler Url ```https://psp-ext.paycore.io/123xio/callback```
-- [x] Success Url ```https://psp-ext.paycore.io/123xio/return```
-- [x] Error Url ```https://psp-ext.paycore.io/123xio/return```
-- [x] Status
+-  Market name
+-  Handler Url ```https://psp-ext.paycore.io/123xio/callback```
+-  Success Url ```https://psp-ext.paycore.io/123xio/return```
+-  Error Url ```https://psp-ext.paycore.io/123xio/return```
+-  Status
 
 !!! info "Screenshot"
     [![Step 5](images/123xio-step5.png)](images/123xio-step5.png)
 
-- [x] Confirm creation
+-  Confirm creation
 
 !!! success
     You have created Merchant Payment Service!
@@ -51,8 +51,8 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 ## Connect account
 
 #### Step 1: Copy required credentials
-- [x] API key
-- [x] Secret key
+-  API key
+-  Secret key
 
 !!! info "Screenshot"
     [![Step 1](images/123xio-step6.png)](images/123xio-step6.png)
@@ -60,14 +60,13 @@ Here You can find  instructions for setting up <a href="https://123x.io/site/ind
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at 123x **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at 123x **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/123xio-step_connect.png)](images/123xio-step_connect.png)
+    [![Connect](images/123xio_connect.png)](images/123xio_connect.png)
 
 
 

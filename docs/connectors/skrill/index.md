@@ -42,10 +42,10 @@ Here You can find  instructions for setting up <a href="https://account.skrill.c
 
 ### Step 4: Get required credentials
 
-- [x] Account email
-- [x] Merchant ID
-- [x] Secret Word
-- [x] API password
+-  Account email
+-  Merchant ID
+-  Secret Word
+-  API password
 
 !!! success
     You have configured account!
@@ -60,23 +60,22 @@ Here You can find  instructions for setting up <a href="https://account.skrill.c
 
 ### Step 2: Enter credentials
 
-- [x] Account email
-- [x] Merchant ID
-- [x] Secret Word
-- [x] API password
-- [x] Currencies (available in Your Skrill account)
+-  Account email
+-  Merchant ID
+-  Secret Word
+-  API password
+-  Currencies (available in Your Skrill account)
 
 
 
 !!! tip
-    Press **```Connect```** at Skrill **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Skrill **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/skrill-step_connect.png)](images/skrill-step_connect.png)
+    [![Connect](images/skrill_connect.png)](images/skrill_connect.png)
 
 
 !!! success

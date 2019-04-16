@@ -17,9 +17,9 @@ There are three types of **outgoing** transactions that occur in PayCore.io:
     > A **Payout Invoice** is a high-level operation that initiates accompanying Payout Request and Ledger account transactions.
 
 
-The Payout Invoice includes information on the **_```amount```_**, **_```currency```_**, **_```service```_**, **_```commission```_**, **_```exchange rate```_** and other properties. 
+The Payout Invoice includes information on the **_`amount`_**, **_`currency`_**, **_`service`_**, **_`commission`_**, **_`exchange rate`_** and other properties. 
 
-In contradistinction to Payment Invoice — Payout Invoice has **```AUTOPROCESS```** property.
+In contradistinction to Payment Invoice — Payout Invoice has **`AUTOPROCESS`** property.
 It means that this type of commerce operations can be processed as **automaticaly** as **manualy**.
 
 !!! info
@@ -108,7 +108,7 @@ Overview page is intended to display detailed info about:
 ### Configuration
 
 
-To configure the payout invoice set necessary properties at Commerce Account **```Payout options```** page:
+To configure the payout invoice set necessary properties at Commerce Account **`Payout options`** page:
 
 1. Navigate to the <a href =https://dashboard.paycore.io/commerce/accounts/" target="_blank" rel="noopener">Commerce accounts</a>
 2. Go to the Setting of neccessary one

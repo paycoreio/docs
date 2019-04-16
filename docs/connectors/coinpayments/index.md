@@ -33,22 +33,21 @@ Here You can find  instructions for setting up **CoinPayments**  account.
 
 
 !!! tip
-    Press **```Connect```** at CoinPayments **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at CoinPayments **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters 
 
-- [x]
-- [x] Test mode
+- 
+-  Test mode
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/coinpayments-step_connect.png)](images/coinpayments-step_connect.png)
+    [![Connect](images/coinpayments_connect.png)](images/coinpayments_connect.png)
 
 
 !!! success

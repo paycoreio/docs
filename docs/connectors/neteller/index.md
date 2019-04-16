@@ -30,8 +30,8 @@ Here You can find  instructions for setting up **Neteller**  account.
 
 1. Go to the App preferences
 2. Find :
-    - [x] Client ID
-    - [x] Client Secret
+    -  Client ID
+    -  Client Secret
 
 !!! info "Screenshot"
     [![APP](images/creds_1.png)](images/creds_1.png)
@@ -49,26 +49,25 @@ Here You can find  instructions for setting up **Neteller**  account.
 
 #### Step 2: Enter credentials
 
-- [x] Client ID
-- [x] Client Secret
+-  Client ID
+-  Client Secret
 
 
 !!! tip
-    Press **```Connect```** at Neteller **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Neteller **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters 
 
-- [x] Test mode
+-  Test mode
 
 !!! note
     This parameter is set according to your Merchant account type!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/neteller-step_connect.png)](images/neteller-step_connect.png)
+    [![Connect](images/neteller_connect.png)](images/neteller_connect.png)
 
 
 !!! success

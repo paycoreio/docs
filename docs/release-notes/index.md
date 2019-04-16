@@ -4,40 +4,25 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v0.59 (10/04/2019)]()
+* System-wide search implemented
+* UI upgrade
+* Analytics views upgrade
+* Merchant Back Office released
+* Telegram Bot upgrade
+* New connectors implemented
+* Bug fixes
+
+
 ## [v0.58 (23/03/2019)](v0.58)
 
-* Commerce update
-
-    * Commerce features
-
-        * Fee strategy change
-        * **Fee shift IN/OUT** --> **Include fee**
-        * Contract services: add ability of **Amount limits** manualy setting
-        * Expose internal callback data
-
-    * Commerce Public API
-
-        * Public fee details *(Allows get fee details through Public API)*
-        * Public Zero-Fee badge *(Set Zero-fee flag in Pre-request through Public API)*
-        * Payment Invoice: Public access *(Allows creation through Public API)*
-
-    * Payment Invoice **Autoprocess** property removed
-    * **(IMPORTANT) Operation statuses updated ** (Payment invoice, Payout invoice, Payment)
-
-* UI upgrade
-
-    * Organisation: added "Archived members" filter
-    * Payout batches UI
-    * Connected accounts
-
-        * Accounts **Reconnect** and **Update** ability
-        * Related entities navigation upgraded
-        * Provider account: Related accounts counters added at list page. Deposit and Merchant accounts section added at overview page.
-
-* New integration
-
-    * [Skrill (Payment gateway)](/connectors/skrill)
-    * [Paymega.eu (Payment gateway)](/connectors/paymega)
+* Commerce features changed
+* Commerce Public API upgraded
+* Operations statuses updated (Payment invoice, Payout invoice, Payment)
+* UI upgraded
+* Payout batches added
+* Accounting upgraded
+* New connectors implemented
 
 ## [v0.57 (11/03/2019)](v0.57)
 
@@ -81,7 +66,6 @@ This changelog lists releases by date and version number, along with associated 
 !!! note
     Read more about [Software Versioning <i class="md-icon">launch</i>](https://semver.org).
 
-!!! info
-    We are always here to hear your thoughts, questions, and feedback! 
+We are always here to hear your thoughts, questions, and feedback! 
     
-    Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)
+Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)

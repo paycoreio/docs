@@ -19,8 +19,8 @@ Here You can find  instructions for setting up <a href="https://4bill.io/" targe
 #### Step 2: Get required credentials
 
 - Ask your manager for required credentials
-    - [x] Point ID
-    - [x] API key
+    -  Point ID
+    -  API key
 
 !!! note
     Another parameters You will be able to get within API key (token)! 
@@ -32,19 +32,18 @@ Here You can find  instructions for setting up <a href="https://4bill.io/" targe
 
 #### Step 1: Copy credentials
 
-- [x] Point ID
-- [x] API key
+-  Point ID
+-  API key
 
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at 4bill **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at 4bill **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/4bill-step_connect.png)](images/4bill-step_connect.png)
+    [![Connect](images/4bill_connect.png)](images/4bill_connect.png)
     
 
 !!! success

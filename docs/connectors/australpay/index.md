@@ -29,14 +29,13 @@ Here You can find  instructions for setting up **AustralPay**  account.
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at AustralPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at AustralPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/australpay-step_connect.png)](images/australpay-step_connect.png)
+    [![Connect](images/australpay_connect.png)](images/australpay_connect.png)
 
 
 !!! success

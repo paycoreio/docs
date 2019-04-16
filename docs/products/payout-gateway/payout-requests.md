@@ -3,9 +3,9 @@
 ## General
 
 !!! info "Definition"
-    **```Payout request```** - is an operation for abstraction from route and payout. It allows dynamic routing and failover for payouts.
+    **`Payout request`** - is an operation for abstraction from route and payout. It allows dynamic routing and failover for payouts.
     
-    **```Payout Request Event```**  - event log for a specific request for payout. Gives detailed information about the process for requesting payout.
+    **`Payout Request Event`**  - event log for a specific request for payout. Gives detailed information about the process for requesting payout.
 
 
 ## Workflow
@@ -18,12 +18,10 @@
 
 ## Payout Request Status
 
+**Payout Request status** —  is a property, based on which it can be unambiguously stated at what stage the payout request is. 
 
-!!! info "Definition"
-    **Payout Request status** —  is a property, based on which it can be unambiguously stated at what stage the payout request is. 
 
-!!! info
-    Same to Payout, Payout Request status has **```final```** property, which can be **true (Yes)** or **false (No)**, and **```sleep```** - which explains if operation can wait in certain status to be modified manualy. 
+Same to Payout, Payout Request status has **`final`** property, which can be **true (Yes)** or **false (No)**, and **`sleep`** - which explains if operation can wait in certain status to be modified manualy. 
 
 
 

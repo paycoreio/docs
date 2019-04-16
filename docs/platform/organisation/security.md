@@ -42,7 +42,7 @@ This section contains:
 -  Signature secret keys
 
     !!! note
-        These keys are **```READ ONLY```**!
+        These keys are **`READ ONLY`**!
 
 - Webhooks version
     

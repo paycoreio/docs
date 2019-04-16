@@ -29,7 +29,7 @@ To create query you need:
 !!! tip "Tip #1"
     To facilitate writing a query, use the list of tables and their fields in the left menu.
 
-    You can add field to the query by clicking on the **```">>"```** button.
+    You can add field to the query by clicking on the **`">>"`** button.
 
 !!! tip "Tip #2"
     Execute query after creation to make sure that it works correctly!
@@ -52,18 +52,17 @@ After you make sure that the query is working properly, returning the result you
 
 ### Visualization creating workflow
 
-1. To crate another visualization press **```"+New visualization"```**
+1. To crate another visualization press **`"+New visualization"`**
 2. Choose Type
     
     ??? tip 
         Suitable select of visualization type depends on the business needs and analysis purpose.
         
-        **_For example:_** To compare several indicators of the similar types, the most appropriate are **```Bar```** and **```Pie```** Charts
+        **_For example:_** To compare several indicators of the similar types, the most appropriate are **`Bar`** and **`Pie`** Charts
 
 3. Set up visualization parameters
     
-    !!! info
-        There are a lot of different parameters for  different types of visualization. 
+There are a lot of different parameters for  different types of visualization. 
 
 4. Save changes.
 

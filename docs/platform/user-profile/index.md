@@ -52,7 +52,7 @@ Here You can configure:
     - Use relative time (*eg. 44 minutes ago*)
 - [x] Data layout
     - Choose data layout preference (*Item per page*)
-- [x] Show/Hide **```Test Mode```** toggle
+- [x] Show/Hide **`Test Mode`** toggle
 
 !!! info "General: Preferences"
     [![General](images/general2.png)](images/general2.png)
@@ -83,18 +83,18 @@ Here You can change your password!
 ### Two-Factor authentication
 
 
-**```Two-factor authentication```** enables You to add an extra layer of protection from getting your account compromised.
+**`Two-factor authentication`** enables You to add an extra layer of protection from getting your account compromised.
 
  You can set up two-factor authentication using any device capable of generating Time-based One-Time Password (TOTP) authentication codes to log in to your PayCore.io account. 
  
 
 !!! tip
-    You can use **```Google Authenticator```** or **```Authy-2FA App```** or any other compatible application to generate the codes.
+    You can use **`Google Authenticator`** or **`Authy-2FA App`** or any other compatible application to generate the codes.
 
 
 To set up two-factor authentication for your account:
 
-Go your profile’s **```Profile Settings```** > **```Security```** > **```Two-Factor authentication```**.
+Go your profile’s **`Profile Settings`** > **`Security`** > **`Two-Factor authentication`**.
 
 To acivate this function You should do the follow:
 
@@ -103,7 +103,7 @@ To acivate this function You should do the follow:
 **Step 2**: Add PayCore.io account to the app
     
 !!! note
-    You can do this through **```scanning the QR-code```**, or **```set up```** required parameters **```manualy```**!
+    You can do this through **`scanning the QR-code`**, or **`set up`** required parameters **`manualy`**!
 
 **Step 3**: Enter the verification code from the app
 
@@ -112,16 +112,16 @@ To acivate this function You should do the follow:
 
 
 !!! tip
-    **Don't forget** to store your **```backup codes```**, to be able to get access to your account, if You have no access to your 2FA-device.
+    **Don't forget** to store your **`backup codes`**, to be able to get access to your account, if You have no access to your 2FA-device.
     
     !!! note
         Backup codes are One-Time! If You have already used all codes (10), You can Generate new code-list.
 
 
-After all this you will be asked  to enter **```verification code```** **every time** you are **```Login in```** to the PayCore.io Dashboard!
+After all this you will be asked  to enter **`verification code`** **every time** you are **`Login in`** to the PayCore.io Dashboard!
 
 
-To **```Disable```** 2FA authentication press **```Disable```** button!
+To **`Disable`** 2FA authentication press **`Disable`** button!
 !!! info "Security: Two-Factor authentication Disabling"
     [![Disable](images/security__2fa__disable1.png)](images/security__2fa__disable1.png)
 
@@ -129,7 +129,7 @@ To **```Disable```** 2FA authentication press **```Disable```** button!
 
 
 ### Sessions
-This section provides  an ability to control **```active ```** sessions.
+This section provides  an ability to control **`active `** sessions.
 
 Session list contains the next information:
 - Device type
@@ -138,12 +138,12 @@ Session list contains the next information:
 - Last time accessed
 
 
-You can revoke any unrecognized session using **```"Revoke"```** or **```"Revoke all"```**  button.
+You can revoke any unrecognized session using **`"Revoke"`** or **`"Revoke all"`**  button.
 
 !!! note
-    **```"Revoke"```** - this button revoke only 1 session
+    **`"Revoke"`** - this button revoke only 1 session
 
-    **```"Revoke all"```** - this button provides bulk-revoke for **```all```** sessions  except the **```current```** one!
+    **`"Revoke all"`** - this button provides bulk-revoke for **`all`** sessions  except the **`current`** one!
 
 !!! tip
     To get more info about certain session - expand session row!
@@ -157,15 +157,15 @@ This section is intended to inform user about the actions in context of user pro
 
 It register the next type of events:
 
-- **```user:logged_in```** (*Logged in*)
-- **```user:logged_out```** (*Logged out*)
-- **```user:login_failed```** (*Login failed*)
-- **```user.password:reset_requested```** (*Requested a password reset*)
-- **```user.profile:updated```** (*Profile updated*)
-- **```user.preferences:updated```** (*Preferences updated*)
+- **`user:logged_in`** (*Logged in*)
+- **`user:logged_out`** (*Logged out*)
+- **`user:login_failed`** (*Login failed*)
+- **`user.password:reset_requested`** (*Requested a password reset*)
+- **`user.profile:updated`** (*Profile updated*)
+- **`user.preferences:updated`** (*Preferences updated*)
 - **``user.password:changed``** (*Password changed*)
 - **``user.2fa:enabled``** (*2FA enabled*)
-- **```user.2fa:disabled```** (*2FA disabled*)
+- **`user.2fa:disabled`** (*2FA disabled*)
 
 !!! tip
     To get more info about certain event - expand it's row!

@@ -13,9 +13,9 @@ Here You can find  instructions for setting up **Parimatch**  account.
 
 #### Step 2: Get required credentials
 
-- [x] Account ID
-- [x] Secret key
-- [x] API URL
+-  Account ID
+-  Secret key
+-  API URL
 
 !!! success
     You have configured account!
@@ -29,22 +29,21 @@ Here You can find  instructions for setting up **Parimatch**  account.
 #### Step 2: Enter credentials
 
 
-- [x] Account ID
-- [x] Secret key
-- [x] API URL
+-  Account ID
+-  Secret key
+-  API URL
 
 !!! tip
-    Press **```Connect```** at Parimatch **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Parimatch **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/parimatch-step_connect.png)](images/parimatch-step_connect.png)
+    [![Connect](images/parimatch_connect.png)](images/parimatch_connect.png)
 
 
 !!! success

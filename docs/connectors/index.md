@@ -6,10 +6,10 @@ This section is intended for mastering with the general connecting process.
 
 The section contains  all connecting instructions (for each provider) which will help you to:
 
-- [x] Create a Provider (Merchant) account
-- [x] Set Up the profile
-- [x] Set or get the required credentials
-- [x] Connect account in <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">**PayСore.io Dashboard**</a>
+-  Create a Provider (Merchant) account
+-  Set Up the profile
+-  Set or get the required credentials
+-  Connect account in <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">**PayСore.io Dashboard**</a>
 
 The general algorithm for the connection procedure consists of the following steps:
 
@@ -21,7 +21,7 @@ The general algorithm for the connection procedure consists of the following ste
 2. Connecting account (in Dashboard)
 
 
-Step ** Setting up account **:
+**Setting up account**:
 
 - Depending on the provider, the set of steps can be different, in case of: the methods of storage, transmission and uniqueness of data are individual for each of them.
 - The purpose of this step is to obtain the Credentials necessary for integration in Dashboard
@@ -29,17 +29,17 @@ Step ** Setting up account **:
 !!! warning
     Parameters (credentials) format should correspond to the requirements of connection form .
 
-Step ** Connect account **:
+**Connect account**:
 
 - This step is unified for all providers. All that you need is to:
-    - [x] Enter the connection data
-    - [x] Confirm the connection
+    -  Enter the connection data
+    -  Confirm the connection
 
 
 !!! info "Note"
-    If You have any questions, suggestions or comments, please, contat Us  through <a href="https://support.paycore.io/" target="_blank" rel="noopener">**PayСore.io Service Desk**</a>
+    If You have any questions, suggestions or comments, please, contact us  through <a href="https://jira.paymaxi.com/servicedesk/customer/portal/4" target="_blank" rel="noopener">**PayСore.io Service Desk**</a>
     
-    [![Step 2](../getting-started/images/servicedesk.png)](https://support.paycore.io/)
+    [![Step 2](images/servicedesk.png)](https://jira.paymaxi.com/servicedesk/customer/portal/4)
 
 
 !!! Success 
