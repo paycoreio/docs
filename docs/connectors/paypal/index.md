@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://developer.paypal.com/" target="_blank" rel="noopener"> **PayPal** account</a>.
+Here You can find  instructions for setting up [ **PayPal** account](https://developer.paypal.com/).
 
 ## Setup account
 
@@ -70,7 +70,7 @@ Besides App credentials You also need:
 
 To get them - folow this flow:
 
-1. Log In at  <a href="https://paypal.com/" target="_blank" rel="noopener">  **PayPal.com**</a> 
+1. Log In at  [  **PayPal.com**](https://paypal.com/) 
 2. Open **`Tools`** -> **`All Tools`** 
     
     !!! tip

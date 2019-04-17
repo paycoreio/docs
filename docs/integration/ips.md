@@ -29,5 +29,5 @@ The full list of IP addresses that PayСore.io use to interact with Payment Prov
 
 As a convenience, both lists are available in other formats for easy import into `iptables` or similar tools:
 
-- <a href="/ips/ips_access.txt" target="_blank" rel="noopener">IP Addresses (TXT)</a>
-- <a href="/ips/ips_access.json" target="_blank" rel="noopener">IP Addresses (JSON)</a>
+- [IP Addresses (TXT)](/ips/ips_access.txt)
+- [IP Addresses (JSON)](/ips/ips_access.json)

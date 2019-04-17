@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://portal.fondy.eu/" target="_blank" rel="noopener">**Fondy** account</a>!
+Here You can find  instructions for setting up [**Fondy** account](https://portal.fondy.eu/)!
 
 ## Setup account
 

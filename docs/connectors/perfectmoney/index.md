@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://perfectmoney.is/login.html" target="_blank" rel="noopener"> **PerfectMoney** account</a>.
+Here You can find  instructions for setting up [ **PerfectMoney** account](https://perfectmoney.is/login.html).
 
 ## Setup account
 
@@ -82,7 +82,7 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 -  Merchant Account Password
     
     !!! info
-        **`Merchant Account Password`** - is the password, you use to Sign in to the <a href="https://perfectmoney.is/login.html" target="_blank" rel="noopener">PerfectMoney Dashboard</a>
+        **`Merchant Account Password`** - is the password, you use to Sign in to the [PerfectMoney Dashboard](https://perfectmoney.is/login.html)
 
 ### Step 2: Enter credentials
 

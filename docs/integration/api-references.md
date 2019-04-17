@@ -4,18 +4,16 @@
 
 ## Organization API 
 
-API implements HTTP Basic Authentication  method. API key can be created in [organization settings](organisation/security.md). Username and password are equals to api-key value. Provide them both. 
+API implements HTTP Basic Authentication  method. API key can be created in [organisation settings](/platform/organisation/security/). Username and password are equals to api-key value. Provide them both. 
 
-[Public API (ReDoc)](https://apidoc.paycore.io/)
+[Public API (ReDoc) <i class="md-icon">launch</i>](https://apidoc.paycore.io/)
 
-<a href = "https://swagger.paycore.io/" target="_blank" rel="noopener"> Public API (Swagger) <i class="md-icon">launch</i></a>
-
+[Public API (Swagger) <i class="md-icon">launch</i>](https://swagger.paycore.io/)
 
 ## Commerce Public API
 
-<a href = "https://apidoc.paycore.io/commerce-public/" target="_blank" rel="noopener"> Public API (ReDoc) <i class="md-icon">launch</i></a>
+[Public API (ReDoc) <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce-public/)
 
 ## Commerce Private API
 
-
-<a href = "https://apidoc.paycore.io/commerce/" target="_blank" rel="noopener"> Private API (ReDoc) <i class="md-icon">launch</i></a>
+[Private API (ReDoc) <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce/)

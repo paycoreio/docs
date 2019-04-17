@@ -9,7 +9,7 @@ Commerce account status determines its current state. Accordingly, a set of avai
 Below is a list of statuses and it's descriptions:
 
 <table>
-<tr ><th><b>Code</b></th><th><b>Description</b></th></tr>
+<tr><th><b>Code</b></th><th><b>Description</b></th></tr>
 
 <tr><td style="background-color:#c5c5c5; font-weight:bold;">new</td><td>Account was recently created. Business functionality (operations creating) is unavailable</td></tr>
 <tr><td style="background-color:#67c23a; font-weight:bold;">active</td><td> All functionality is available. No additional moderation is required</td></tr>
@@ -114,7 +114,7 @@ This section contains settings, which determine the external interaction with co
 
 **KEYS:**
 
-Keys subsection relates to <a href="https://swagger-dev.paycore.io/commerce-public/#/" target="_blank" rel="noopener">Commerce Public API</a>. 
+Keys subsection relates to [Commerce Public API](https://swagger-dev.paycore.io/commerce-public/#/). 
 
  
 **`Public`** Keys are used to: 
@@ -159,7 +159,7 @@ This subsection contains:
 
 **API:**
 
-API key relates to <a href="https://swagger-dev.paycore.io/commerce/#/" target="_blank" rel="noopener">Commerce Private API</a>.
+API key relates to [Commerce Private API](https://swagger-dev.paycore.io/commerce/#/).
 
 !!! info
     To authorize the connection **`basic auth`** is used.

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://wallet.advcash.com/" target="_blank" rel="noopener">**AdvCash** account</a>! 
+Here You can find  instructions for setting up [**AdvCash** account](https://wallet.advcash.com/)! 
 
 ## Setup account
 

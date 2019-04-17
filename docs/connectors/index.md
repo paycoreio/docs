@@ -9,7 +9,7 @@ The section contains  all connecting instructions (for each provider) which will
 -  Create a Provider (Merchant) account
 -  Set Up the profile
 -  Set or get the required credentials
--  Connect account in <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">**PayСore.io Dashboard**</a>
+-  Connect account in [**PayСore.io Dashboard**](https://dashboard.paycore.io/)
 
 The general algorithm for the connection procedure consists of the following steps:
 
@@ -37,7 +37,7 @@ The general algorithm for the connection procedure consists of the following ste
 
 
 !!! info "Note"
-    If You have any questions, suggestions or comments, please, contact us  through <a href="https://jira.paymaxi.com/servicedesk/customer/portal/4" target="_blank" rel="noopener">**PayСore.io Service Desk**</a>
+    If You have any questions, suggestions or comments, please, contact us  through [**PayСore.io Service Desk**](https://jira.paymaxi.com/servicedesk/customer/portal/4)
     
     [![Step 2](images/servicedesk.png)](https://jira.paymaxi.com/servicedesk/customer/portal/4)
 

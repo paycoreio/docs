@@ -5,7 +5,7 @@ PayСore.io is the software platform  - it means that PayСore.io  is payment ag
 In this case you need to do basic steps before total onboarding.
 
 1. First of all you need to have created and verified accounts on the provider side. 
-2. Then **`Sign up`** in <a href="https://dashboard.paycore.io/register" target="_blank" rel="noopener">PayСore.io</a>.
+2. Then **`Sign up`** in [PayСore.io](https://dashboard.paycore.io/register).
 
     !!! tip
         You can read more about **`Organisation`** in PayСore.io Dashboard  and setting it up at [**PayСore.io: Organisations and it's preferences**](../organisation/)
@@ -57,7 +57,7 @@ Payment Provider  can be in **2 statuses**:
 !!! info "Definition"
     **Payment method** - the way that a customer chooses to pay to the merchant. Typical payment methods used in a modern business context include cash, checks, credit or debit cards, money orders, bank transfers and online payment services such as PayPal.
     
-    <a href="http://www.businessdictionary.com/definition/payment-method.html" target="_blank" rel="noopener">*Read more...*</a>
+    [*Read more...*](http://www.businessdictionary.com/definition/payment-method.html)
 
 ## Payout methods
 

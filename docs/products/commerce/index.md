@@ -1,9 +1,9 @@
 # Commerce
 
 
-**Introducing <a href="http://paycore.io/" target="_blank" rel="noopener">PayCore.io</a> Commerce feature**
+**Introducing [PayCore.io](http://paycore.io/) Commerce feature**
 
-Instead of having multiple <a href="http://paycore.io/" target="_blank" rel="noopener">PayCore.io</a> accounts to support various projects or business entities now you can create as many  **Commerce Accounts**  as you require within one <a href="http://paycore.io/" target="_blank" rel="noopener">PayCore.io</a> account. When it comes to running multiple businesses now you can manage them all in one place. For our FinTech and marketplace customers, this means an ability to create accounts for their merchants and manage them in one place.
+Instead of having multiple [PayCore.io](http://paycore.io/" target="_blank" rel="noopener">PayCore.io</a> accounts to support various projects or business entities now you can create as many  **Commerce Accounts**  as you require within one <a href ="http://paycore.io/) account. When it comes to running multiple businesses now you can manage them all in one place. For our FinTech and marketplace customers, this means an ability to create accounts for their merchants and manage them in one place.
 
 With  **Currency Accounts**  now is possible to create and manage currency holding accounts that give your merchants the flexibility to make and receive foreign currency payments in selected currencies without converting the funds into a base currency. For online businesses, multiple currency accounts enable to support billing in multiple currencies and consolidate transaction data made in the same currency for accounting and financial management purposes.
 
@@ -11,7 +11,7 @@ With  **Currency Accounts**  now is possible to create and manage currency holdi
 
 **Payment and Payout Invoice**
 
-There are three types of transactions that occur in  <a href="http://paycore.io/" target="_blank" rel="noopener">PayCore.io</a>: invoice, request and payment or payout. A Payment or Payout is a low-level operation that initiates a financial transaction in the defined payment provider using the specified payment method, it simply provides communication with an external provider and the mapping of statuses. A Payment or Payout Request is an operation with rich functionality that initiates one or many payments or payouts depending on the conditions set in the routing and exchange rate schemes. A  [Payment Invoice](https://dashboard.paycore.io/operations/payment-invoices)  or  [Payout Invoice](https://dashboard.paycore.io/operations/payout-invoices)  is a high-level operation that initiates not only payment or payout request correspondingly but also Ledger account transactions. An invoice includes information on a currency, commission and exchange rate.
+There are three types of transactions that occur in  [PayCore.io](http://paycore.io/): invoice, request and payment or payout. A Payment or Payout is a low-level operation that initiates a financial transaction in the defined payment provider using the specified payment method, it simply provides communication with an external provider and the mapping of statuses. A Payment or Payout Request is an operation with rich functionality that initiates one or many payments or payouts depending on the conditions set in the routing and exchange rate schemes. A  [Payment Invoice](https://dashboard.paycore.io/operations/payment-invoices)  or  [Payout Invoice](https://dashboard.paycore.io/operations/payout-invoices)  is a high-level operation that initiates not only payment or payout request correspondingly but also Ledger account transactions. An invoice includes information on a currency, commission and exchange rate.
 
 This new functionality allows online businesses to apply commission fee for all incoming and outgoing transactions separately for every Commerce Account. For example, Uber and Fiverr take a 20% commission rate, while Freelancer charges 10% per transaction. Transaction fees are usually the main revenue stream of any payment processor.
 

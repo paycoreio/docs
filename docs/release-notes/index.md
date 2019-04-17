@@ -14,7 +14,7 @@ This changelog lists releases by date and version number, along with associated 
 * Bug fixes
 
 
-## [v0.58 (23/03/2019)](v0.58)
+## [v0.58 (23/03/2019)](v0.58/)
 
 * Commerce features changed
 * Commerce Public API upgraded
@@ -24,7 +24,7 @@ This changelog lists releases by date and version number, along with associated 
 * Accounting upgraded
 * New connectors implemented
 
-## [v0.57 (11/03/2019)](v0.57)
+## [v0.57 (11/03/2019)](v0.57/)
 
 * Batch Payouts API Update
 * Merchant SDK.js
@@ -34,7 +34,7 @@ This changelog lists releases by date and version number, along with associated 
 
 * Improvements and Bug fixes
 
-## [v0.56 (05/03/2019)](v0.56)
+## [v0.56 (05/03/2019)](v0.56/)
 
 * New Commerce feature released
 

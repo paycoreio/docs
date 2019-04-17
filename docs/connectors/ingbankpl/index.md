@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://login.ingbank.pl/mojeing/app/#login" target="_blank" rel="noopener">**ING Bank Poland** account</a>!
+Here You can find  instructions for setting up [**ING Bank Poland** account](https://login.ingbank.pl/mojeing/app/#login)!
 
 ## Setup account
 

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://www.interkassa.com" target="_blank" rel="noopener">**Interkassa** account</a>!
+Here You can find  instructions for setting up [**Interkassa** account](https://www.interkassa.com)!
 
 
 ## Setup account

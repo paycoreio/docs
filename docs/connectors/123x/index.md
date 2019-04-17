@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://123x.io/site/index.html" target="_blank" rel="noopener">**123x** account</a>!
+Here You can find  instructions for setting up [**123x** account](https://123x.io/site/index.html)!
 
 ## Setup account
 

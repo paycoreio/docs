@@ -41,7 +41,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 #### Step 3: Set additional parameters
 
 
--  <a href="https://en.wikipedia.org/wiki/3-D_Secure" target="_blank" rel="noopener">3DS (3D - Secure)</a>
+-  [3DS (3D - Secure)](https://en.wikipedia.org/wiki/3-D_Secure)
 
 -  Test mode
 

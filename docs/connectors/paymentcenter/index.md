@@ -4,12 +4,12 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://cabinet.payment.center/login/" target="_blank" rel="noopener">**PaymentCenter**  account</a>.
+Here You can find  instructions for setting up [**PaymentCenter**  account](https://cabinet.payment.center/login/).
 
 ## Setup account
 
 #### Step 1: Contact with PaymentCenter Support Manager
-Get **`Login`** and **`Password`** for <a href="https://cabinet.payment.center/login/" target="_blank" rel="noopener">Your personal account</a>
+Get **`Login`** and **`Password`** for [Your personal account](https://cabinet.payment.center/login/)
 
 #### Step 2: Get required credentials
 

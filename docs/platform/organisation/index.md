@@ -1,7 +1,7 @@
 # Organisation
 
 
-Organisation is an important management part of <a href="https://dashboard.paycore.io/" target="_blank" rel="noopener">PayСore.io Dashboard</a>. 
+Organisation is an important management part of [PayСore.io Dashboard](https://dashboard.paycore.io/). 
 
 It allows you to isolate data and operations of your organization from other accounts in the system.
 
@@ -42,7 +42,7 @@ Go to this link. You will be redirected to the confirmation page and asked to cr
 
 You can create your own organisation in  **`TWO`** ways.
 
-**`First way`**: you need to **`Sign up`** in <a href="https://dashboard.paycore.io/register" target="_blank" rel="noopener">PayCore.io</a>.
+**`First way`**: you need to **`Sign up`** in [PayCore.io](https://dashboard.paycore.io/register).
 
 After Signing up new organisation will be created automticaly.
 

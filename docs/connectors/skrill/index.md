@@ -4,14 +4,14 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://account.skrill.com/" target="_blank" rel="noopener">**Skrill**  account</a>.
+Here You can find  instructions for setting up [**Skrill**  account](https://account.skrill.com/).
 
 ## Setup account
 
 ### Step 1: Ensure that your accoutn is verified as Merchant
 
 !!! note
-    If the Settings > Developer Settings section is not displayed in your account, contact <a href="mailto:support@paycore.io" target="_blank" rel="noopener"><b>merchantservices@skrill.com</b></a>
+    If the Settings > Developer Settings section is not displayed in your account, contact [merchantservices@skrill.com](mailto:support@paycore.io)
 
 ### Step 2: Enable automated payments
 

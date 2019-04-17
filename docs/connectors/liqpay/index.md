@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://www.liqpay.ua/" target="_blank" rel="noopener">**Liqpay** account</a>!
+Here You can find  instructions for setting up [**Liqpay** account](https://www.liqpay.ua/)!
 
 ## Setup merchant account
 

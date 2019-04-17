@@ -25,7 +25,7 @@ Payout Statuses are divided into **`TWO`** groups _in the context of their level
 
 <table border="1px">
 
-<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
+<tr><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 
 <tr style="background-color:#ff8787"><td>CREATE_FAILED</td><td><b>Yes</b></td><td>No</td><td>Payout was not created. Using for Pauout Request section</td></tr>
 <tr><td>CREATED</td><td>No</td><td>No</td><td>Payout was successfuly created</td></tr>
@@ -69,7 +69,7 @@ The resolution explains why the payout is in this status and, in fact, is the co
 
 <table border="1px">
 
-<tr ><th><b>Code</b></th><th><b>Description</b></th><th><b>Comment</b></th></tr>
+<tr><th><b>Code</b></th><th><b>Description</b></th><th><b>Comment</b></th></tr>
 
 <tr style="background-color:#79f99b;"><td colspan=3 style="text-align: center;"><b>OK GROUP</b></td></tr>
 <tr style="background-color:#79f99b"><td><b>OK</b></td><td>Request completed successfully</td><td></td></tr>

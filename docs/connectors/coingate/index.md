@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://coingate.com/account/dashboard" target="_blank" rel="noopener">**CoingGate** account</a>!
+Here You can find  instructions for setting up [**CoingGate** account](https://coingate.com/account/dashboard)!
 
 ## Setup account
 

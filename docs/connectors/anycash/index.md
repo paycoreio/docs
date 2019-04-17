@@ -4,14 +4,14 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://any.cash/" target="_blank" rel="noopener">**AnyCash** account</a>! 
+Here You can find  instructions for setting up [**AnyCash** account](https://any.cash/)! 
 
 ## Setup account
 
 #### Step 1: Create AnyCash wallet
 
 !!! note
-    Before creating You must have <a href="https://web.telegram.org" target="_blank" rel="noopener">**Telegram** account</a> with presetted ```@User name```
+    Before creating You must have [**Telegram** account](https://web.telegram.org) with presetted ```@User name```
 
 -  Press "Create Wallet" button
 -  Run commant ```/start```

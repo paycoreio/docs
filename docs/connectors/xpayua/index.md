@@ -15,7 +15,7 @@ Here You can find  instructions for setting up **Xpay**  account.
 !!! note
     You can generate them in any way you can. 
 
-    <a href="https://github.com/paycoreio/xpayua" target="_blank" rel="noopener">**Here**</a> is an example how to do this!
+    [**Here**](https://github.com/paycoreio/xpayua) is an example how to do this!
 
 #### Step 2: Contact with Xpay Support Manager
 

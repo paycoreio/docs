@@ -2,7 +2,7 @@
 
 ## General 
 
-<a href="https://analytics.paycore.io" target="_blank" rel="noopener"> **PayСore.io Analytics**</a> - is a partly separated plugin, which is intended to generate, aggregate and create accessible and understandable visualization of your bussiness data.
+[ **PayСore.io Analytics**](https://analytics.paycore.io) - is a partly separated plugin, which is intended to generate, aggregate and create accessible and understandable visualization of your bussiness data.
 
 !!! info "Screenshots"
     [![Overview](images/overview1.png)](images/overview1.png)

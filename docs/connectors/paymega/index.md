@@ -43,8 +43,8 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 !!! info "Screenshot"
-    [![Connect](images/paymega_provider-step_connect1.png)](images/paymega_provider-step_connect1.png)
-    [![Connect](images/paymega_provider-step_connect2.png)](images/paymega_provider-step_connect2.png)
+    [![Connect](images/paymega_provider_connect1.png)](images/paymega_provider_connect1.png)
+    [![Connect](images/paymega_provider_connect2.png)](images/paymega_provider_connect2.png)
 
 !!! success
     You have connected **PayMega** **Provider** Account!
@@ -55,7 +55,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 ### Setup account
 
-#### Step 1: Log in to <a href="https://my.paymega.eu/" target="_blank" rel="noopener">**PayMega** Merchant Portal</a>
+#### Step 1: Log in to [**PayMega** Merchant Portal](https://my.paymega.eu/)
 
 #### Step 2: Create Payment Page
 
@@ -109,8 +109,8 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 !!! info "Screenshot"
-    [![Connect](images/paymega_merchant-step_connect1.png)](images/paymega_merchant-step_connect1.png)
-    [![Connect](images/paymega_merchant-step_connect2.png)](images/paymega_merchant-step_connect2.png)
+    [![Connect](images/paymega_merchant_connect1.png)](images/paymega_merchant_connect1.png)
+    [![Connect](images/paymega_merchant_connect2.png)](images/paymega_merchant_connect2.png)
 
 
 !!! success

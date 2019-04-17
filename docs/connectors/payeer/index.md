@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://payeer.com/en/account/" target="_blank" rel="noopener"> **Payeer**  account</a>.
+Here You can find  instructions for setting up [ **Payeer**  account](https://payeer.com/en/account/).
 
 ## Setup account
 

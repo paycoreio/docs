@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://geo-pay.net/account/#!/" target="_blank" rel="noopener">**GeoPay**  account</a>!
+Here You can find  instructions for setting up [**GeoPay**  account](https://geo-pay.net/account/#!/)!
 
 ## Setup account
 

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up  <a href="https://my.paybox.money/" target="_blank" rel="noopener">**Paybox** account</a>!
+Here You can find  instructions for setting up  [**Paybox** account](https://my.paybox.money/)!
 
 ## Setup account
 

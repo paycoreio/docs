@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://cardpay.com/ma/" target="_blank" rel="noopener">**CardPay**  account</a>.
+Here You can find  instructions for setting up [**CardPay**  account](https://cardpay.com/ma/).
 
 ## Setup account
 
