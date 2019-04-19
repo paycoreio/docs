@@ -9,16 +9,17 @@ Commerce account status determines its current state. Accordingly, a set of avai
 Below is a list of statuses and it's descriptions:
 
 <table>
-<tr ><th><b>Code</b></th><th><b>Description</b></th></tr>
+<tr><th><b>Code</b></th><th><b>Description</b></th></tr>
 
-<tr><td style="background-color:#c5c5c5; font-weight:bold;">new</td><td></td></tr>
-<tr><td style="background-color:#67c23a; font-weight:bold;">active</td><td></td></tr>
-<tr><td style="background-color:#f56c6c; font-weight:bold;">inactive</td><td></td></tr>
-<tr><td style="background-color:#e6a23c; font-weight:bold;">moderation_pending</td><td></td></tr>
-<tr><td style="background-color:#e6a23c; font-weight:bold;">moderation_requested</td><td></td></tr>
-<tr><td style="background-color:#c5c5c5; font-weight:bold;">archived</td><td></td></tr>
+<tr><td style="background-color:#c5c5c5; font-weight:bold;">new</td><td>Account was recently created. Business functionality (operations creating) is unavailable</td></tr>
+<tr><td style="background-color:#67c23a; font-weight:bold;">active</td><td> All functionality is available. No additional moderation is required</td></tr>
+<tr><td style="background-color:#f56c6c; font-weight:bold;">inactive</td><td>Account was deactivated by administrator. All functionality (including the access to the merchant dashboard) is unavailable</td></tr>
+<tr><td style="background-color:#e6a23c; font-weight:bold;">moderation_requested</td><td>Merchant requested moderation of account. Business functionality (operations creating) is unavailable</td></tr>
+<tr><td style="background-color:#e6a23c; font-weight:bold;">moderation_pending</td><td>Account moderation is in progress. Business functionality (operations creating) is unavailable</td></tr>
+<tr><td style="background-color:#c5c5c5; font-weight:bold;">archived</td><td>Account was deleted (archived) by administrator. All functionality (including the access to the merchant dashboard) is unavailable</td></tr>
 
 </table>
+
 
 ## General
 
@@ -76,8 +77,7 @@ This section is intended for setting (changing) account name, description, logo,
 This page includes the list [currency accounts](/products/commerce/currency-account/overview/) related to certain Commerce Account.
 There is an ability to add new or remove unnecessary currencies.
 
-!!! note
-    A set of available currencies is limited by a [contract scheme](/products/commerce/contract-scheme/overview/) properties
+A set of available currencies is limited by a [contract scheme](/products/commerce/contract-scheme/overview/) properties
 
 
 !!! info "Screenshots"
@@ -86,10 +86,8 @@ There is an ability to add new or remove unnecessary currencies.
     [![Currency accounts](images/guide__overview__curracc2.png)](images/guide__overview__curracc2.png)
 
 
-
-!!! info
-    - If certain currency was added previously ­— it would be disabled in **`Add currency`** selector list.
-    - If **All** currencies within assigned contract scheme are added, **`Add currency`** button is **`DISABLED`**!
+- If certain currency was added previously ­— it would be disabled in **`Add currency`** selector list.
+- If **All** currencies within assigned contract scheme are added, **`Add currency`** button is **`DISABLED`**!
 
 #### Contract scheme
 
@@ -108,7 +106,7 @@ There is an ability to **`change`** current contract scheme.
     [![Contract scheme](images/guide__overview__contrscheme.png)](images/guide__overview__contrscheme.png)
 
     
-#### Integration (DRAFT)
+#### Integration
 
 This section contains settings, which determine the external interaction with commerce account.
 
@@ -116,7 +114,7 @@ This section contains settings, which determine the external interaction with co
 
 **KEYS:**
 
-Keys subsection relates to <a href="https://swagger-dev.paycore.io/commerce-public/#/" target="_blank" rel="noopener">Commerce Public API</a>. 
+Keys subsection relates to [Commerce Public API](https://swagger-dev.paycore.io/commerce-public/#/). 
 
  
 **`Public`** Keys are used to: 
@@ -161,7 +159,7 @@ This subsection contains:
 
 **API:**
 
-API key relates to <a href="https://swagger-dev.paycore.io/commerce/#/" target="_blank" rel="noopener">Commerce Private API</a>.
+API key relates to [Commerce Private API](https://swagger-dev.paycore.io/commerce/#/).
 
 !!! info
     To authorize the connection **`basic auth`** is used.
@@ -195,25 +193,21 @@ This page contains a list of available Payment services (within assigned contrac
 
 ##### Public Access
 
-- Allow public creation (Public Creation)
 - Public Zero-Fee badge
 - Public fee details
+- Allow public creation (Public Creation)
 
 ##### Fee
 
 - Fee strategy
 - Include fee
 
-##### Interaction
-
-- Expose internal callback data
-- Descriptor
-
-##### Time
+##### Processing
 
 - Lifetime
 - Attempts
-
+- Expose internal callback data
+- Descriptor
 
 ### Payouts
 
@@ -237,24 +231,15 @@ This page contains a list of available Payout services (within assigned contract
 - Fee strategy
 - Include fee
 
-##### Interaction
-
-- Moderation required
-- Allow partially
+##### Processing
 - Parallel mode
 - Split mode
-- Expose internal callback data
-- Descriptor
-
-##### Time
-
+- Allow partially
+- Moderation required
 - Lifetime
 - Attempts
-
-
-
-
-
+- Expose internal callback data
+- Descriptor
 
 
 ### Testing
@@ -301,9 +286,6 @@ Workflow statuses has two  properties:
 
 - Slepping state
 
-Payment process may also be in the **```sleeping```** state.
-
-!!! info
-    **```Sleeping```** means that PayCore.io is waiting for data, interaction with other processes, a user response or any other action.
+Payment process may also be in the **`sleeping`** state.
 
 These status properties are displayed in the Status Table for each operation type.

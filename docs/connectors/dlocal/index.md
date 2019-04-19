@@ -28,7 +28,7 @@ Here You can find  instructions for setting up **dLocal**  account.
 #### Step 4: Get required credentials
 
 !!! info
-    Notem that  there are  **```TEST```** and **```LIVE```** mode.
+    Note that  there are  **`TEST`** and **`LIVE`** mode.
     Ensure that you turn on the rught one.
     
     !!! info "Screenshot"
@@ -37,16 +37,16 @@ Here You can find  instructions for setting up **dLocal**  account.
 
 - **Test (Live) Credentials**:
 
-    - [x] x_login
+    -  x_login
 
-    - [x] x_trans_key
+    -  x_trans_key
 
-    - [x] Secret Key
+    -  Secret Key
 
 
 - **Cashout credentials:**
 
-    - [x] Cashout secret key
+    -  Cashout secret key
 
 !!! info "Screenshot"
     [![Cashout ](images/dLocal__cred.png)](images/dLocal__cred.png)
@@ -67,13 +67,13 @@ Here You can find  instructions for setting up **dLocal**  account.
 ## Connect account
 
 #### Step 1: Copy required credentials
-- [x] x_login
+-  x_login
 
-- [x] x_trans_key
+-  x_trans_key
 
-- [x] Secret Key
+-  Secret Key
 
-- [x] Cashout secret key
+-  Cashout secret key
 
 #### Step 2: Enter credentials
 
@@ -81,31 +81,30 @@ Here You can find  instructions for setting up **dLocal**  account.
 
 
 !!! tip
-    Press **```Connect```** at dLocal **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at dLocal **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters
 
-- [x] Currencies
+-  Currencies
     
     !!! tip
         You can add any currency, available for your dLocal merchant account.
 
     !!! Note 
-        If You add **unavailable** currency - it will occure an **```ERROR```**!
+        If You add **unavailable** currency - it will occure an **`ERROR`**!
 
-- [x] Test mode
+-  Test mode
 
     !!! tip
-        Set **TRUE** - if You connect **```TEST```** account!
+        Set **TRUE** - if You connect **`TEST`** account!
 
-        Set **FALSE** - if You connect **```LIVE```** account!
+        Set **FALSE** - if You connect **`LIVE`** account!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/dLocal-step_connect.png)](images/dLocal-step_connect.png)
+    [![Connect](images/dlocal_connect.png)](images/dlocal_connect.png)
 
 
 !!! success

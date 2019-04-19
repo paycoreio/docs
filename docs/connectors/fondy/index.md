@@ -4,26 +4,26 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://portal.fondy.eu/" target="_blank" rel="noopener">**Fondy** account</a>!
+Here You can find  instructions for setting up [**Fondy** account](https://portal.fondy.eu/)!
 
 ## Setup account
 
 
 #### Step 1: Create Merchant
 
-- [x] Go to the Merchant list section
-- [x] Press "Add Merchant"
-- [x] Set up creation parameters
+-  Go to the Merchant list section
+-  Press "Add Merchant"
+-  Set up creation parameters
 
 !!! info "Screenshot"
     [![Step 1](images/fondy-step1.png)](images/fondy-step1.png)
 
 #### Step 2: Setup Financial settings
 
-- [x] Go to the Merchant Settings
-- [x] Open Financial Settings
-- [x] Fill the required data
-- [x] Verify documents
+-  Go to the Merchant Settings
+-  Open Financial Settings
+-  Fill the required data
+-  Verify documents
 
 !!! info "Screenshot"
     [![Step 2](images/fondy-step2.png)](images/fondy-step2.png)
@@ -31,16 +31,16 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 #### Step 3: Get Merchant and Aplication credentials
 
 - **Merchant**: Go to the Technical Settings and find the following fields
-    - [x] Merchant ID
-    - [x] Payment Key
-    - [x] Credit Private Key
+    -  Merchant ID
+    -  Payment Key
+    -  Credit Private Key
 
 !!! info "Screenshot"
     [![Step 3](images/fondy-step3.png)](images/fondy-step3.png)
 
 - **Application**
-- [x] ID
-- [x] Secret key
+-  ID
+-  Secret key
 
 !!! info 
     Application credentials (**_ID_**, **_Secret key_**) You can get only from **Fondy Technical Support**
@@ -56,31 +56,30 @@ Here You can find  instructions for setting up <a href="https://portal.fondy.eu/
 #### Step 1: Copy required credentials
 - Merchant data:
 
-    - [x] Merchant ID
-    - [x] Payment Key
-    - [x] Credit Private Key
+    -  Merchant ID
+    -  Payment Key
+    -  Credit Private Key
 
 - Application data:
     
-    - [x] ID
-    - [x] Secret Key
+    -  ID
+    -  Secret Key
 
 #### Step 2: Enter credentials
    
-- [x] Merchant ID
-- [x] Payment Key
-- [x] Credit Private Key
-- [x] Application ID
-- [x] Application Secret Key
+-  Merchant ID
+-  Payment Key
+-  Credit Private Key
+-  Application ID
+-  Application Secret Key
 
 !!! tip
-    Press **```Connect```** at Fondy **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Fondy **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/fondy-step_connect.png)](images/fondy-step_connect.png)
+    [![Connect](images/fondy_connect.png)](images/fondy_connect.png)
 
 !!! success
     You have connected **Fondy**!

@@ -9,28 +9,25 @@ Here You can find  instructions for setting up **Xpay**  account.
 ## Setup account
 
 #### Step 1 Generate Keys-pair
-- [x] Public key
-- [x] Private key
+-  Public key
+-  Private key
 
 !!! note
     You can generate them in any way you can. 
 
-    <a href="https://github.com/paycoreio/xpayua" target="_blank" rel="noopener">**Here**</a> is an example how to do this!
+    [**Here**](https://github.com/paycoreio/xpayua) is an example how to do this!
 
 #### Step 2: Contact with Xpay Support Manager
 
-1. Send **Your** **```Public Key```**
-2. Get **Xpay** **```Public Key```** and **```Partner Token```**
-
-!!! info
-    Do **NOT** share your **```Private Key```**!!! 
+1. Send **Your** **`Public Key`**
+2. Get **Xpay** **`Public Key`** and **`Partner Token`**
 
 
 #### Step 3: Get required credentials
 
-- [x] Xpay Public key
-- [x] Your Private key
-- [x] Xpay Partner Token
+-  Xpay Public key
+-  Your Private key
+-  Xpay Partner Token
 
 !!! success
     You have configured account!
@@ -46,30 +43,29 @@ Here You can find  instructions for setting up **Xpay**  account.
 #### Step 2: Enter credentials
 
 
-- [x] Your Private key
-- [x] Xpay Partner Token
+-  Your Private key
+-  Xpay Partner Token
 
     ??? tip
-        Save your **```Private Key```** to **```txt```** file and upload it to connecting form using Upload button!
+        Save your **`Private Key`** to **`txt`** file and upload it to connecting form using Upload button!
 
-- [x] Xpay Public key
+-  Xpay Public key
 
 
 !!! tip
-    Press **```Connect```** at Xpay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Xpay **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 #### Step 3: Set additional parameters
 
-- [x] Test mode
+-  Test mode
 
 !!! info
-    **```Test mode```** is set **_according to your account settings_**!
+    **`Test mode`** is set **_according to your account settings_**!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/xpayua-step_connect.png)](images/xpayua-step_connect.png)
+    [![Connect](images/xpayua_connect.png)](images/xpayua_connect.png)
 
 
 !!! success

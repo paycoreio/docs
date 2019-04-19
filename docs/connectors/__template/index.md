@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/name/logo.svg?w=400" width="400px">
+![image](https://static.openfintech.io/payment_providers/name/logo.svg?w=400)
 
 # NAME Connector
 
@@ -33,22 +33,21 @@ Here You can find  instructions for setting up **NAME**  account.
 
 
 !!! tip
-    Press **```Connect```** at NAME **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at NAME **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters 
 
-- [x] 
-- [x] Test mode
+-  
+-  Test mode
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/name-step_connect.png)](images/name-step_connect.png)
+    [![Connect](images/name_connect.png)](images/name_connect.png)
 
 
 !!! success

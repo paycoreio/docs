@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://wallet.advcash.com/" target="_blank" rel="noopener">**AdvCash** account</a>! 
+Here You can find  instructions for setting up [**AdvCash** account](https://wallet.advcash.com/)! 
 
 ## Setup account
 
@@ -35,11 +35,11 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 - Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
 - API Password
 - Set all checkboxes
-    - [x] Accounts Verification
-    - [x] Get Balance per Wallet
-    - [x] Find Transaction
-    - [x] Transaction history
-    - [x] Make Transactions
+    -  Accounts Verification
+    -  Get Balance per Wallet
+    -  Find Transaction
+    -  Transaction history
+    -  Make Transactions
 
 !!! info "Screenshot"
     [![Step 2](images/advcash-step4.png)](images/advcash-step4.png)
@@ -62,9 +62,8 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 !!! info
     Skip this section if You have already configure it.
-
-!!! info
-    To create new SCI You need to have a varified account!
+    
+To create new SCI You need to have a varified account!
 
 #### Step 1: Verify your account
 
@@ -80,7 +79,7 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 #### Step 3: Set up basic parameters
 
-- [x] Use a digital signature in the request to SCI
+-  Use a digital signature in the request to SCI
     
     !!! tip
         Parameters "**COMMISSION PAYS**", "**Accept underpayment**", "**Accept overpayment**"  are set  at your choice!
@@ -91,14 +90,14 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 #### Step 4: Set up advanced parameters   
 
-- [x] SCI NAME
-- [x] WEBSITE ADDRESS : ```https://paycore.io/```
-- [x] EMAIL FOR NOTIFICATIONS
-- [x] EMAIL TO DISPLAY IN SCI
-- [x] PASSWORD
-- [x] SUCCESSFUL TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
-- [x] FAILED TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
-- [x] STATUS PAGE : ```https://psp-ext.paycore.io/advcash/callback```
+-  SCI NAME
+-  WEBSITE ADDRESS : ```https://paycore.io/```
+-  EMAIL FOR NOTIFICATIONS
+-  EMAIL TO DISPLAY IN SCI
+-  PASSWORD
+-  SUCCESSFUL TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
+-  FAILED TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
+-  STATUS PAGE : ```https://psp-ext.paycore.io/advcash/callback```
 
 !!! info "Screenshot"
     [![Step 4](images/advcash-step5_3.png)](images/advcash-step5_3.png)
@@ -114,35 +113,34 @@ Here You can find  instructions for setting up <a href="https://wallet.advcash.c
 
 #### Step 1: Copy required credentials
 
-- [x] Account Email
+-  Account Email
     
     ??? tip
         Main email from your [Profile](https://wallet.advcash.com/pages/profile)
 
-- [x] API Name
-- [x] API Password
-- [x] SCI Name
-- [x] SCI Password
+-  API Name
+-  API Password
+-  SCI Name
+-  SCI Password
 
 
 
 #### Step 2: Enter credentials
 
-- [x] Account Email
-- [x] API Name
-- [x] API Password
-- [x] SCI Name
-- [x] SCI Password
+-  Account Email
+-  API Name
+-  API Password
+-  SCI Name
+-  SCI Password
 
 
 !!! tip
-    Press **```Connect```** at AdvCash **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at AdvCash **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/advcash-step_connect.png)](images/advcash-step_connect.png)
+    [![Connect](images/advcash_connect.png)](images/advcash_connect.png)
 
 
 

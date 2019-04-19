@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://www.interkassa.com" target="_blank" rel="noopener">**Interkassa** account</a>!
+Here You can find  instructions for setting up [**Interkassa** account](https://www.interkassa.com)!
 
 
 ## Setup account
@@ -17,8 +17,8 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 
 - Go to the API section
 - Set up parameters:
-    - [x] Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
-    - [x] "Turn ON" API
+    -  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+    -  "Turn ON" API
 
 !!! info "Screenshot"
     [![Step 1](images/interkassa-step1_1.png)](images/interkassa-step1_1.png)
@@ -26,29 +26,29 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 
  - Get required account parameters:   
    
-    - [x] User ID
-    - [x] API key 
+    -  User ID
+    -  API key 
 
     !!! note
-        You may generate **```New API key```**!
+        You may generate **`New API key`**!
     
     !!! warning
-        **Be careful!** Before generating **```New API key```** ensure that **```Existing API key```** is **NOT** used somewhere else.
+        **Be careful!** Before generating **`New API key`** ensure that **`Existing API key`** is **NOT** used somewhere else.
 
 - Save changes
 #### Step 2: Create Checkout
 
-- [x] Ensure You are at **Checkout mode**
+-  Ensure You are at **Checkout mode**
     
     !!! info "Screenshot"
         [![Step 2](images/interkassa-step2.png)](images/interkassa-step2.png)
 
-- [x] Create new checkout
+-  Create new checkout
     
     !!! info "Screenshot"
         [![Step 2](images/interkassa-step2_1.png)](images/interkassa-step2_1.png)
 
-- [x] Set up  Site URL as ```https://paycore.io```
+-  Set up  Site URL as ```https://paycore.io```
       
     !!! info "Screenshot"
         [![Step 2](images/interkassa-step2_2.png)](images/interkassa-step2_2.png)
@@ -60,7 +60,7 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
     !!! info "Screenshot"
         [![Step 3](images/interkassa-step3_1.png)](images/interkassa-step3_1.png)
 
-- Go to **_Payment Settings_** and set **Check the uniqueness of payments** to **```Enabled```**
+- Go to **_Payment Settings_** and set **Check the uniqueness of payments** to **`Enabled`**
    
     !!! info "Screenshot"
         [![Step 3](images/interkassa-step3_2_1.png)](images/interkassa-step3_2_1.png)
@@ -70,20 +70,20 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
     !!! info "Screenshot"
         [![Step 3](images/interkassa-step3_2.png)](images/interkassa-step3_2.png)
 
-- Go to  **_Interface_** and ensure that  **```allow override in request```** under **```Interaction URL```** option is **```ENABLED```**
+- Go to  **_Interface_** and ensure that  **`allow override in request`** under **`Interaction URL`** option is **`ENABLED`**
 
 - Go to **_Security_** and set up parameters:
-    - [x] Sign algorithm only **```SHA256```**
-    - [x] Require sign in payment form  **```Enabled```**
+    -  Sign algorithm only **`SHA256`**
+    -  Require sign in payment form  **`Enabled`**
 
     !!! info "Screenshot"
         [![Step 3](images/interkassa-step3_3.png)](images/interkassa-step3_3.png)
 
 - Get required checkout parameters
     
-    - [x] Checkout ID
-    - [x] Sign key
-    - [x] Test key
+    -  Checkout ID
+    -  Sign key
+    -  Test key
 
     !!! info "Screenshots"
         [![Step 3](images/interkassa-step3_4.png)](images/interkassa-step3_4.png)
@@ -97,28 +97,27 @@ Here You can find  instructions for setting up <a href="https://www.interkassa.c
 
 #### Step 1: Copy required credentials
 
-- [x] User ID
-- [x] API Key
-- [x] Checkout ID
-- [x] Sign key
-- [x] Test key
+-  User ID
+-  API Key
+-  Checkout ID
+-  Sign key
+-  Test key
 
 #### Step 2: Enter credentials
 
-- [x] User ID
-- [x] API Key
-- [x] Checkout ID
-- [x] Sign key
-- [x] Test key
+-  User ID
+-  API Key
+-  Checkout ID
+-  Sign key
+-  Test key
 
 !!! tip
-    Press **```Connect```** at Interkassa **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Interkassa **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/interkassa-step_connect.png)](images/interkassa-step_connect.png)
+    [![Connect](images/interkassa_connect.png)](images/interkassa_connect.png)
 
 
 !!! success

@@ -19,7 +19,7 @@ A dashboard lets you combine visualizations and text boxes that provide context 
 2. Have at least 1 query visualization
 
 !!! note
-     You will have a **```table```** visualisation as default!
+     You will have a **`table`** visualisation as default!
 
 3. Create  dashboard
 4. Add widget
@@ -36,7 +36,7 @@ When queries have filters you need to apply filters at the dashboard level as we
 
 ## Grouping Dashboards Using Tags
 
-Dashboards can be grouped with **```#hashtags```**. You simply add the **```#hashtags```** to the dashboard name. All currently used **```#hashtags```** will appear on the dashboards page left pane.
+Dashboards can be grouped with **`#hashtags`**. You simply add the **`#hashtags`** to the dashboard name. All currently used **`#hashtags`** will appear on the dashboards page left pane.
 You can click on any of the tags to show all dashboards with this tag or Shift+Click on multiple tags to show dashboards that use all selected tags together.
 
 !!! info "Screenshots"

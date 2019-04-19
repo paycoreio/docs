@@ -5,6 +5,7 @@
 
 ## A
 
+### Access Scope
 ### Acquiring Bank
 
 ### Address Verification System
@@ -41,14 +42,22 @@
 
 ## C
 
+### Callback
 ### Card Not Present (CNP)
 
 Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rate Checking Account Checkout Churn Rate (Attrition) Co-termination Configurable Retry Logic Conversion Rate Credit Card Credit Card Account Number Credit Card Authorization Credit Card Authorization Code Credit Card Interchange Customer Acquisition Cost (CAC) Customer Relationship Management (CRM) Customer Retention
 
+
+### Commerce Account
+### Commerce Scheme
+### Currency Account
+
+
 ## D
 
+### Dashboard
 ### Delayed Delivery Transaction
-
+### Deposit Account
 ### Digital Commerce (eCommerce)
 
 ### Digital Wallet
@@ -59,8 +68,9 @@ Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rat
 
 ## E
 
+### Event
+### Event (operations)
 ### Electronic Storefront
-
 ### Expired Card Handling
 
 ## F
@@ -78,6 +88,7 @@ Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rat
 
 ### Hard Decline
 ### Hypertext Transfer Protocol Secure (HTTPS)
+### Hosted Payment Page (HPP)
 
 ## I
 
@@ -92,6 +103,9 @@ Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rat
 ## M
 
 ### Marketing Automation
+### Member
+### Member Role
+### Member Status
 ### Merchant
 ### Merchant Account
 ### Merchant Category Code (MCC)
@@ -106,27 +120,54 @@ Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rat
 ## O
 
 ### Omnichannel On-premises Operating Regulations
+### Organisation
+
 
 ## P
 
+### Payment
 ### Payment Card Industry Data Security Standard (PCI)
 ### Payment Gateway
+### Payment Invoice
+### Payment Method 
+### Payment Page
+### Payment Pre-Request
 ### Payment Processor
+### Payment Request
+### Payment Service 
 ### Payment Service Provider (PSP)
+### Payout
+### Payout Invoice
+### Payout Method
+### Payout Point
+### Payout Request
+### Payout Service 
+### Permission
 ### Personalization
 ### Point-of-Sale (POS)
+### Provider Account
 ### Purchase Flow
 
 ## Q
 
 ### Quarterly Recurring Revenue (QRR)
+### Query
+### Quote Currency
 
 ## R
 
+### Rate
+### Rate Resource
+### Rate Scheme
 ### Recurring Revenue
 ### Recurring Transaction
+### Reference ID
 ### Refund
 ### Renewal
+### Resolution
+### Response
+### Routing scheme
+
 
 ## S
 
@@ -141,23 +182,33 @@ Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rat
 ### Software-as-a-Service (SaaS)
 ### Split Payment
 ### Sponsored Merchant
+### Statement
+### Status
 ### Subscription
 ### Subscription Lifecycle
 ### Subscription Management
+
+
 
 ## T
 
 ### Tax (Sales Tax)
 ### Transaction Settlement
 ### Transition to Subscriptions Trial
+### Token
 
 ## U
 
 ### Up-selling
 ### Usage Billing
+### User
 
 ## V
 
 ### Virtual Reality (VR)
 ### Voice Shopping
 ### Voice-activated Banking
+
+## W
+
+### Webhook

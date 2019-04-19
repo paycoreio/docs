@@ -13,8 +13,8 @@ Here You can find  instructions for setting up **PayMega.io**  account.
 
 #### Step 2: Get required credentials
 
-- [x] Commerce ID
-- [x] API key
+-  Commerce ID
+-  API key
  
 
 !!! success
@@ -27,21 +27,20 @@ Here You can find  instructions for setting up **PayMega.io**  account.
 
 #### Step 1: Copy required credentials
 
-- [x] Commerce ID
-- [x] API key
+-  Commerce ID
+-  API key
 
 #### Step 2: Enter credentials
 
 
 !!! tip
-    Press **```Connect```** at PayMega.io **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at PayMega.io **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/paymegaio-step_connect.png)](images/paymegaio-step_connect.png)
+    [![Connect](images/paymegaio_connect.png)](images/paymegaio_connect.png)
 
 
 !!! success

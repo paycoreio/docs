@@ -44,7 +44,7 @@ Using **_PayCore.io Dashboard_**  you can:
 - [x] Connect [Payment Providers](/connectors) (Provider or Merchant accounts) 
    
     !!! note
-        Before connecting an acoount - ensure it is **```implemented```** to PayСore.
+        Before connecting an acoount - ensure it is **`implemented`** to PayСore.
 
 [![Dashboard](images/dash_overview_connect1.png)](images/dash_overview_connect1.png)
 
@@ -74,6 +74,6 @@ Using **_PayCore.io Dashboard_**  you can:
 
 
 !!! info "Note"
-    If You have any questions, suggestions or comments, please, contat Us  through <a href="https://support.paycore.io/" target="_blank" rel="noopener">**PayСore.io Service Desk**</a>
+    If You have any questions, suggestions or comments, please, contat Us  through [**PayСore.io Service Desk**](https://support.paycore.io/)
     
     [![Service Desk](images/servicedesk.png)](https://support.paycore.io/)

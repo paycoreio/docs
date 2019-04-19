@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://cardpay.com/ma/" target="_blank" rel="noopener">**CardPay**  account</a>.
+Here You can find  instructions for setting up [**CardPay**  account](https://cardpay.com/ma/).
 
 ## Setup account
 
@@ -13,14 +13,14 @@ Here You can find  instructions for setting up <a href="https://cardpay.com/ma/"
 
 #### Step 2: Get required credentials
 
-- [x] Terminal code
-- [x] Terminal password
-- [x] Callback secret
+-  Terminal code
+-  Terminal password
+-  Callback secret
 
 
 #### Step 3: Send necessary paramenter yo CardPay
 
-- [x] Callback URL : ```https://psp-ext.paycore.io/cardpay/callback```
+-  Callback URL : ```https://psp-ext.paycore.io/cardpay/callback```
 
 !!! success
     You have configured account!
@@ -32,28 +32,27 @@ Here You can find  instructions for setting up <a href="https://cardpay.com/ma/"
 
 #### Step 1: Copy required credentials
 
-- [x] Terminal code
-- [x] Terminal password
-- [x] Callback secret
+-  Terminal code
+-  Terminal password
+-  Callback secret
 
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at CardPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at CardPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 #### Step 3: Set up additional parameters 
 
-- [x] Currencies
-- [x] Test mode
+-  Currencies
+-  Test mode
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/cardpay-step_connect.png)](images/cardpay-step_connect.png)
+    [![Connect](images/cardpay_connect.png)](images/cardpay_connect.png)
 
 
 !!! success

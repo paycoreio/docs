@@ -17,13 +17,13 @@ There are three types of **outgoing** transactions that occur in PayCore.io:
     > A **Payout Invoice** is a high-level operation that initiates accompanying Payout Request and Ledger account transactions.
 
 
-The Payout Invoice includes information on the **_```amount```_**, **_```currency```_**, **_```service```_**, **_```commission```_**, **_```exchange rate```_** and other properties. 
+The Payout Invoice includes information on the **_`amount`_**, **_`currency`_**, **_`service`_**, **_`commission`_**, **_`exchange rate`_** and other properties. 
 
-In contradistinction to Payment Invoice — Payout Invoice has **```AUTOPROCESS```** property.
+In contradistinction to Payment Invoice — Payout Invoice has **`AUTOPROCESS`** property.
 It means that this type of commerce operations can be processed as **automaticaly** as **manualy**.
 
 !!! info
-    The full list of properties can be found in the <a href="http://apidoc.paycore.io/" target="_blank" rel="noopener"> API Reference <i class="md-icon">launch</i> </a>.
+    The full list of properties can be found in the [ API Reference <i class="md-icon">launch</i> ](http://apidoc.paycore.io/).
 
 ## Flow
 
@@ -34,7 +34,7 @@ It means that this type of commerce operations can be processed as **automatical
 
 Below is a list of statuses and it's descriptions:
 <table>
-<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
+<tr><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 
 <tr><td>created</td><td>No</td><td>No</td><td>Initial status after a Payout Invoice is created, processing has not started. <br> If PayCore.io will not return response 201 (Created) HTTP status code on your request, you should consider that the payout invoice was failed to be created</td></tr>
 <tr style="background-color:#ff8787"><td>expired</td><td><b>Yes</b></td><td>No</td><td>Means the Payout Invoice hit the lifetime limit (configurable in the 'Invoice lifetime' property) without being successfully processed, but also did not either cancelled or terminated, e.g. your customer has abandoned the payout</td></tr>
@@ -108,9 +108,9 @@ Overview page is intended to display detailed info about:
 ### Configuration
 
 
-To configure the payout invoice set necessary properties at Commerce Account **```Payout options```** page:
+To configure the payout invoice set necessary properties at Commerce Account **`Payout options`** page:
 
-1. Navigate to the <a href =https://dashboard.paycore.io/commerce/accounts/" target="_blank" rel="noopener">Commerce accounts</a>
+1. Navigate to the [Commerce accounts](https://dashboard.paycore.io/commerce/accounts/)
 2. Go to the Setting of neccessary one
 3. Find **Payout Options** section
 4. Set property value

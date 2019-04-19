@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://perfectmoney.is/login.html" target="_blank" rel="noopener"> **PerfectMoney** account</a>.
+Here You can find  instructions for setting up [ **PerfectMoney** account](https://perfectmoney.is/login.html).
 
 ## Setup account
 
@@ -28,13 +28,13 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 ### Step 3: Set up API access
 
-- Go to the **```Settings```**
-- Find **```Security```**  section
-- Enable **```API access```**
+- Go to the **`Settings`**
+- Find **`Security`**  section
+- Enable **`API access`**
 - Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
     
     !!! tip
-        IP list should contains IP adresses separated with **```;```**.
+        IP list should contains IP adresses separated with **`;`**.
 
         **_For example_**: _54.36.117.30; 51.38.147.254; 54.38.139.222_
 
@@ -53,18 +53,18 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 - Find and copy next credential:
 
-    - [x] Alternate Passphrase (Passphrase)
+    -  Alternate Passphrase (Passphrase)
 
 !!! info "Screenshot"
     [![Verify](images/cred3.png)](images/cred3.png)
 
-- Go to the **```Public Account Information```**
+- Go to the **`Public Account Information`**
 
-- Press **```Change Public Account Information settings```**
+- Press **`Change Public Account Information settings`**
 
 - Find and copy next credential:
 
-    - [x] Member ID (Account ID)
+    -  Member ID (Account ID)
 
 !!! info "Screenshot"
     [![Verify](images/cred1.png)](images/cred1.png)
@@ -75,26 +75,25 @@ Here You can find  instructions for setting up <a href="https://perfectmoney.is/
 
 ### Step 1: Copy required credentials
 
-- [x] Account ID
+-  Account ID
 
-- [x] Passphrase
+-  Passphrase
 
-- [x] Merchant Account Password
+-  Merchant Account Password
     
     !!! info
-        **```Merchant Account Password```** - is the password, you use to Sign in to the <a href="https://perfectmoney.is/login.html" target="_blank" rel="noopener">PerfectMoney Dashboard</a>
+        **`Merchant Account Password`** - is the password, you use to Sign in to the [PerfectMoney Dashboard](https://perfectmoney.is/login.html)
 
 ### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at PerfectMoney **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at PerfectMoney **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/perfectmoney-step_connect.png)](images/perfectmoney-step_connect.png)
+    [![Connect](images/perfectmoney_connect.png)](images/perfectmoney_connect.png)
 
 
 !!! success

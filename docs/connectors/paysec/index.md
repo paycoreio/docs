@@ -10,13 +10,12 @@ Here You can find  instructions for setting up **PaySec**  account.
 
 #### Step 1: Contact with PaySec Support Manager
 
-!!! info
-    This Payment Provoider gives acoount credentials personaly to their merchants!
+This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 2: Get required credentials
 
-- [x] Merchant Key
-- [x] Merchant Code
+-  Merchant Key
+-  Merchant Code
 
 !!! success
     You have configured account!
@@ -28,29 +27,28 @@ Here You can find  instructions for setting up **PaySec**  account.
 
 #### Step 1: Copy required credentials
 
-- [x] Merchant Key
-- [x] Merchant Code
+-  Merchant Key
+-  Merchant Code
 
 
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at PaySec **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at PaySec **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters 
 
-- [x] Currencies
-- [x] Test mode
+-  Currencies
+-  Test mode
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/paysec-step_connect.png)](images/paysec-step_connect.png)
+    [![Connect](images/paysec_connect.png)](images/paysec_connect.png)
 
 
 !!! success

@@ -29,14 +29,13 @@ Here You can find  instructions for setting up **Payoneer**  account.
 #### Step 2: Enter credentials
 
 !!! tip
-    Press **```Connect```** at Payoneer **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Payoneer **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/payoneer-step_connect.png)](images/payoneer-step_connect.png)
+    [![Connect](images/payoneer_connect.png)](images/payoneer_connect.png)
 
 
 !!! success
