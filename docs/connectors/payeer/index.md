@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up <a href="https://payeer.com/en/account/" target="_blank" rel="noopener"> **Payeer**  account</a>.
+Here You can find  instructions for setting up [ **Payeer**  account](https://payeer.com/en/account/).
 
 ## Setup account
 
@@ -29,9 +29,10 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 ### Step 2: Configure Merchant
 
 1. Go to the created Merchant
-    
-    !!! info
+
+    As default system redirects user to the Merchant configuration page automaticaly. 
         As default system redirects user to the Merchant configuration page automaticaly. 
+    As default system redirects user to the Merchant configuration page automaticaly. 
 
 2. Verify domain
     
@@ -40,7 +41,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 
 3. Set configuration properties: 
 
-    - **```Encryption key```**
+    - **`Encryption key`**
         
         !!! tip
             It shoud consists of 32 symbols. You may generate it using any service You want.
@@ -48,7 +49,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
         !!! info
             Copy this key before confirming changes, whereas **this will be unavailable** henceforth!
 
-    - **```Success URL```**, **```Fail URL```**, **```Status URL```** : Set your URLs
+    - **`Success URL`**, **`Fail URL`**, **`Status URL`** : Set your URLs
         
         !!! info
             PayCore.io will overwrite this properties in request. 
@@ -60,18 +61,18 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 
 ### Step 3: Get Merchant credentials
 
-- [x] Account No.
+-  Account No.
 
     !!! info "Screenshot"
         [![Account No.](images/account_no.png)](images/account_no.png)
 
-- [x] Merchant ID
+-  Merchant ID
 
     !!! tip
         It is located at Merchant configuration page!
 
-- [x] Merchant Secret key
-- [x] Encryption key
+-  Merchant Secret key
+-  Encryption key
 
 ### Step 4: Create API User
 
@@ -87,7 +88,7 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
     - IP: Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
     
         !!! tip
-            IP list should contains IP adresses separated with **```;```**.
+            IP list should contains IP adresses separated with **`;`**.
 
             **_For example_**: _54.36.117.30; 51.38.147.254; 54.38.139.222_
 
@@ -103,12 +104,12 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
     
 ### Step 5: Get API User credentials
 
-- [x] API User ID
+-  API User ID
 
     !!! tip
         It is located at API User configuration page!
 
-- [x] API User Secret key
+-  API User Secret key
 
 
 !!! success
@@ -121,12 +122,12 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 
 #### Step 1: Copy required credentials
 
-- [x] Account No.
-- [x] Merchant ID
-- [x] Merchant Secret key
-- [x] Encryption key
-- [x] API User ID
-- [x] API User Secret key
+-  Account No.
+-  Merchant ID
+-  Merchant Secret key
+-  Encryption key
+-  API User ID
+-  API User Secret key
 
 
 #### Step 2: Enter credentials
@@ -134,13 +135,12 @@ Here You can find  instructions for setting up <a href="https://payeer.com/en/ac
 
 
 !!! tip
-    Press **```Connect```** at Payeer **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Payeer **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/payeer-step_connect.png)](images/payeer-step_connect.png)
+    [![Connect](images/payeer_connect.png)](images/payeer_connect.png)
 
 
 !!! success

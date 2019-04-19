@@ -34,14 +34,13 @@ Here You can find  instructions for setting up **LeoGaming**  account.
 
 
 !!! tip
-    Press **```Connect```** at LeoGaming **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at LeoGaming **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/leogaming-step_connect.png)](images/leogaming-step_connect.png)
+    [![Connect](images/leogaming_connect.png)](images/leogaming_connect.png)
 
 
 !!! success

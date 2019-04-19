@@ -29,21 +29,20 @@ Here You can find  instructions for setting up **Piastrix**  account.
 
 
 !!! tip
-    Press **```Connect```** at Piastrix **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at Piastrix **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters 
 
-- [x] Test mode
+-  Test mode
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/piastrix-step_connect.png)](images/piastrix-step_connect.png)
+    [![Connect](images/piastrix_connect.png)](images/piastrix_connect.png)
 
 
 !!! success

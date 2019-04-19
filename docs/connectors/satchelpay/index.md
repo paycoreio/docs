@@ -10,14 +10,13 @@ Here You can find  instructions for setting up **SatchelPay** account!
 
 #### Step 1:  Contact with SatchelPay Support Manager
 
-!!! info
-    This Payment Provoider gives acoount credentials personaly to their merchants!
+This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 2: Get required credentials
 
-- [x] API key
+-  API key
 
-- [x] Account number
+-  Account number
 
 !!! success
     You are ready to connect!
@@ -28,18 +27,17 @@ Here You can find  instructions for setting up **SatchelPay** account!
 
 #### Step 2: Enter credentials
 
-- [x] API key
+-  API key
 
-- [x] Account number
-
-!!! tip
-    Press **```Connect```** at SatchelPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+-  Account number
 
 !!! tip
-    **Don't forget to Save changes to confirm connection!**
+    Press **`Connect`** at SatchelPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
+
+
 
 !!! info "Screenshot"
-    [![Connect](images/satchelpay-step_connect.png)](images/satchelpay-step_connect.png)
+    [![Connect](images/satchelpay_connect.png)](images/satchelpay_connect.png)
     
 
 

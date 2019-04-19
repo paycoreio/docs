@@ -12,13 +12,12 @@ Here You can find  instructions for setting up **FlashPay** account!
 
 #### Step 2: Contact with Flashpay manager
 
-!!! info
-    This Payment Provoider gives acoount credentials personaly to their merchants!
+This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 3: Get required credentials
 
-- [x] Key ID
-- [x] Private key
+-  Key ID
+-  Private key
     !!! note
         Private key must be a file!
 
@@ -29,22 +28,21 @@ Here You can find  instructions for setting up **FlashPay** account!
 
 #### Step 1: Copy credentials
 
-- [x] Key ID
-- [x] Private key
+-  Key ID
+-  Private key
 
 #### Step 2: Enter credentials
 
-- [x] Key ID
-- [x] Upload your Private key file
+-  Key ID
+-  Upload your Private key file
 
 !!! tip
-    Press **```Connect```** at FlashPay **```Provider Overview page```** in **```New connection```** section to open Connection form!
+    Press **`Connect`** at FlashPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
-!!! tip
-    **Don't forget to Save changes to confirm connection!**
+
 
 !!! info "Screenshot"
-    [![Connect](images/flashpay-step_connect.png)](images/flashpay-step_connect.png)
+    [![Connect](images/flashpay_connect.png)](images/flashpay_connect.png)
 
 
 !!! success

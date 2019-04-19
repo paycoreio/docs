@@ -26,18 +26,18 @@ Payouts related to the certain payout request are listed in the Payout Request  
 
 To create the payout request, follow these steps:
 
-1. Create <a href="https://dashboard.paycore.io/payout-gateway/payout-points" target="_blank" rel="noopener">a payout point</a> and set currencies of the payout point. 
-2. Connect a certain <a href="https://dashboard.paycore.io/connect-directory/payment-providers/" target="_blank" rel="noopener">payment provider</a>;
-3. Generate <a href="https://dashboard.paycore.io/organization/settings/api-keys" target="_blank" rel="noopener">an API key</a>. 
+1. Create [a payout point](https://dashboard.paycore.io/payout-gateway/payout-points) and set currencies of the payout point. 
+2. Connect a certain [payment provider](https://dashboard.paycore.io/connect-directory/payment-providers/);
+3. Generate [an API key](https://dashboard.paycore.io/organization/settings/api-keys). 
   
-!!! info
-    The API key does not expire. If an API is compromissed, you can revoke it and generate a new one.
 
-!!! note
-    1. To add a currency of payout point, which is **not** listed in the drop down menu, then please write us a message to support@paycore.io to support this currency.
-    2. A payout point currency is used mainly for accounting and reporting but you should specify at least one. The payout currency is a mandatory attribute ('point_currency') in a payout request, but it doesn't mean you can not initiate a financial transaction in the currency, which is different from the currency of the payout point.
+The API key does not expire. If an API is compromissed, you can revoke it and generate a new one.
 
-PayCore.io has a **`test mode`** you should use for testing. It operates separately from **`live mode`**, so you can make changes without affecting your live data. Using a test provider account it is possible only to initiate test payout requests. Payout and payment requests can be initiated from live deposit accounts only when you connect at least one provider, which supports payouts from the list of [established integrations](../../payment-providers/index.md). You can request a new integration by contacting our Customer Service team.
+To add a currency of payout point, which is **not** listed in the drop down menu, then please write us a message to support@paycore.io to support this currency.
+
+A payout point currency is used mainly for accounting and reporting but you should specify at least one. The payout currency is a mandatory attribute ('point_currency') in a payout request, but it doesn't mean you can not initiate a financial transaction in the currency, which is different from the currency of the payout point.
+
+PayCore.io has a **`test mode`** you should use for testing. It operates separately from **`live mode`**, so you can make changes without affecting your live data. Using a test provider account it is possible only to initiate test payout requests. Payout and payment requests can be initiated from live deposit accounts only when you connect at least one provider, which supports payouts from the list of [established integrations](/connectors/index.md). You can request a new integration by contacting our Customer Service team.
 
 This example shows how to create a Payout Request:
 
@@ -62,16 +62,17 @@ Content-Type: application/json
   }
 }
 ```    
-!!! info
-    The full list of properties and atributes is available in the PayCore.io <a href="https://apidoc.paycore.io/#tag/Payout-gateway/paths/~1payout-gateway~1payout-requests/post" target="_blank" rel="noopener">Public API documentation</a>. 
 
-The content of **fields** must be set according to **`payout-service`**. The list of available payout services can be found in the Payout Gateway on the <a href="https://dashboard.paycore.io/payout-gateway/payout-routes" target="_blank" rel="noopener">Dashboard</a> the **Payout Routes** tab. The payout service fields can be found in the <a href="https://dashboard.paycore.io/connect-directory/payout-services" target="_blank" rel="noopener">Payout Services</a> tab.
+The full list of properties and atributes is available in the PayCore.io [Public API documentation](https://apidoc.paycore.io/#tag/Payout-gateway/paths/~1payout-gateway~1payout-requests/post). 
+
+The content of **fields** must be set according to **`payout-service`**. The list of available payout services can be found in the Payout Gateway on the [Dashboard](https://dashboard.paycore.io/payout-gateway/payout-routes) the **Payout Routes** tab.
+ The payout service fields can be found in the [Payout Services](https://dashboard.paycore.io/connect-directory/payout-services) tab.
 
 Here is a list of terms we use and their definitions on payouts.
 
 <table border="1px">
 
-<tr ><th><b>Definition</b></th><th><b>Description</b></th></tr>
+<tr><th><b>Definition</b></th><th><b>Description</b></th></tr>
 <tr><td><b>Payout</b></td><td>refers to the financial return or monetary disbursement of investment or annuity.</td></tr>
 <tr><td><b>Payout Point</b></td><td>An aggregation entity that sets a configuration for processing a payout request through links to the exchange rate scheme and the routing scheme that are set for it.</td></tr>
 
@@ -97,36 +98,35 @@ Here is a list of terms we use and their definitions on payouts.
     **Routing Engine** - is a system component which is indended to determine the route of processed operation.
 
 
-**```Routing engine```** is responsible for automating dynamic **```Routing Rules```** and **```Routing Strategies```**. 
+**`Routing engine`** is responsible for automating dynamic **`Routing Rules`** and **`Routing Strategies`**. 
     
-**```Routing rules```** are defined in the **```Routing Scheme```**, which is set for the [**Payout Point**](../payout-points).
+**`Routing rules`** are defined in the **`Routing Scheme`**, which is set for the [**Payout Point**](../payout-points).
 
 !!! info "Definition"
-    **Routing Scheme** -  contains dynamic **```Routing rules```** that are executed when the **```conditions```** match, which are defined for context attributes.
+    **Routing Scheme** -  contains dynamic **`Routing rules`** that are executed when the **`conditions`** match, which are defined for context attributes.
 
 !!! info "Routing logic diagram"
     [![Routing](images/routing_general_diagram.png)](images/routing_general_diagram.png)
 
 ### Routing Strategy
 
-!!! info
-    ** Payout Routing Strategy** describes how payouts are routed.
+**Payout Routing Strategy** describes how payouts are routed.
 
-    If all the conditions of the rule are met, the routing strategy is established for  it's available routes.
+If all the conditions of the rule are met, the routing strategy is established for  it's available routes.
 
 #### Routing Strategy Types
 
 <table border="1px">
 
-<tr ><th><b>Type</b></th><th><b>Description</b></th><th><b>Diagram</b></th></tr>
+<tr><th><b>Type</b></th><th><b>Description</b></th><th><b>Diagram</b></th></tr>
 <tr><td><b>Optimal</b></td><td> Funds are debited in equal shares from each route</td><td></td></tr>
-<tr><td><b>Load balancing<br><i>(Weight)</i></b></td><td>Funds are debited proportionally (as a percentage) from each route<br><i>It is available to set load percentage manualy</i></td><td><a href= "images/routing_load_balancing_diagram.png" target="_blank" noopener="rel"><img src="images/routing_load_balancing_diagram.png"></a></td></tr>
+<tr><td><b>Load balancing<br><i>(Weight)</i></b></td><td>Funds are debited proportionally (as a percentage) from each route<br><i>It is available to set load percentage manualy</i></td><td><a href ="images/routing_load_balancing_diagram.png" target="_blank" noopener="rel"><img src="images/routing_load_balancing_diagram.png"></a></td></tr>
 <tr><td><b>Optimisation By Deposit Account Balance & Limits</b></td><td>The funds are debited off  from routes as the balance decreases (taking into account limits).<br>
 Stages:<br>
 1) Filter routes for which you can write off for a specific amount<br>
 2) Choosing a route with maximum balance<br>
 3) Performing an operation<br>
-</td><td><a href= "images/routing_balance_limits_diagram.png" target="_blank" noopener="rel"><img src="images/routing_balance_limits_diagram.png"></a></td></tr>
-<tr><td><b>Optimisation By Conversion</b></td><td></td><td><a href= "images/routing_conversion_diagram.png" target="_blank" noopener="rel"><img src="images/routing_conversion_diagram.png"></a></td></tr>
-<tr><td><b>Optimization By Cost</b></td><td></td><td><a href= "images/routing_cost_diagram.png" target="_blank" noopener="rel"><img src="images/routing_cost_diagram.png"></a></td></tr>
+</td><td><a href ="images/routing_balance_limits_diagram.png" target="_blank" noopener="rel"><img src="images/routing_balance_limits_diagram.png"></a></td></tr>
+<tr><td><b>Optimisation By Conversion</b></td><td></td><td><a href ="images/routing_conversion_diagram.png" target="_blank" noopener="rel"><img src="images/routing_conversion_diagram.png"></a></td></tr>
+<tr><td><b>Optimization By Cost</b></td><td></td><td><a href ="images/routing_cost_diagram.png" target="_blank" noopener="rel"><img src="images/routing_cost_diagram.png"></a></td></tr>
 </table>

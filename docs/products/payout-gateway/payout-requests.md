@@ -3,9 +3,9 @@
 ## General
 
 !!! info "Definition"
-    **```Payout request```** - is an operation for abstraction from route and payout. It allows dynamic routing and failover for payouts.
+    **`Payout request`** - is an operation for abstraction from route and payout. It allows dynamic routing and failover for payouts.
     
-    **```Payout Request Event```**  - event log for a specific request for payout. Gives detailed information about the process for requesting payout.
+    **`Payout Request Event`**  - event log for a specific request for payout. Gives detailed information about the process for requesting payout.
 
 
 ## Workflow
@@ -18,18 +18,16 @@
 
 ## Payout Request Status
 
+**Payout Request status** —  is a property, based on which it can be unambiguously stated at what stage the payout request is. 
 
-!!! info "Definition"
-    **Payout Request status** —  is a property, based on which it can be unambiguously stated at what stage the payout request is. 
 
-!!! info
-    Same to Payout, Payout Request status has **```final```** property, which can be **true (Yes)** or **false (No)**, and **```sleep```** - which explains if operation can wait in certain status to be modified manualy. 
+Same to Payout, Payout Request status has **`final`** property, which can be **true (Yes)** or **false (No)**, and **`sleep`** - which explains if operation can wait in certain status to be modified manualy. 
 
 
 
 <table border="1px">
 
-<tr ><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
+<tr><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
 
 <tr style="background-color:"><td>CREATED</td><td><b>No</b></td><td><b>No</b></td><td>The operation validated at the initial stage and successfully created</td></tr>
 <tr style="background-color:"><td>DISPATCHING</td><td>No</td><td><b>Yes</b></td><td>The operation is being processed</td></tr>
