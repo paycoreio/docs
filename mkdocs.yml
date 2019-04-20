@@ -110,6 +110,7 @@ nav:
     - Public IPs: 'integration/ips.md'
 - Connectors:
       - Overview: 'connectors/index.md'
+      - Test: 'connectors/test/index.md'
       - 123x: 'connectors/123x/index.md'
       - 4bill: 'connectors/4bill/index.md'
       - AdvCash: 'connectors/advcash/index.md'
