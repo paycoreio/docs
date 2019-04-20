@@ -1,4 +1,5 @@
-![image](https://static.openfintech.io/payment_providers/name/logo.svg?w=400)
+<img src="https://static.openfintech.io/payment_providers/name/logo.svg?w=400" width="400px" >
+
 
 # NAME Connector
 
