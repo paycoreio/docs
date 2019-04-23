@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=200" width="200px">
 
 # Manual Connector
 
@@ -13,8 +13,8 @@ Here You can find  instructions for setting up **Manual**  account.
 
 #### Step 1: Enter credentials
 
-- Name
 - Services
+- External ID (_optional_)
 
 It should have 32 characters or less!
 

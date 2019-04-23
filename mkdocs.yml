@@ -131,6 +131,7 @@ nav:
       - Interkassa: 'connectors/interkassa/index.md'
       #- Leogaming: 'connectors/leogaming/index.md'
       - LiqPay: 'connectors/liqpay/index.md'
+      #-MaxPay: 'connectors/maxpay/index.md'
       #- MoneyMovers: 'connectors/moneymovers/index.md'
       - Neteller: 'connectors/neteller/index.md'
       - Parimatch: 'connectors/parimatch/index.md'
