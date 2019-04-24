@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/test/logo.svg?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/test/logo.svg?w=200" width="200px">
 
 # Test Connector
 

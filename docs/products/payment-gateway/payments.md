@@ -8,32 +8,29 @@
 
 ## Status list
 
-<table border="1px">
+|Code|Final|Description|
+| --- | --- | --- |
+|created|No|The Payment is created|
+|expired|Yes|The Payment is expired|
+|terminated|Yes|The Payment is terminated|
+|invoke_pending|No|Payment invoke process is pending. Waiting for a trigger to continue|
+|invoke_failed|Yes|Payment invoking process is failed|
+|invoke_error|No|An error occurred during the payment invoking. Waiting for the next attempt|
+|invoked|No|The Payment is invoked|
+|revoke_pending|No|Payment revoke process is pending. Waiting for a trigger to continue|
+|revoke_failed|Yes|Payment revoke process is failed|
+|revoke_error|No|An error occurred during the payment revoking. Waiting for the next attempt|
+|revoked|Yes|The Payment is revoked|
+|process_pending|No|The payment process is pending. Waiting for a trigger to continue|
+|process_failed|Yes|The Payment processing is failed|
+|process_error|No|An error occurred during the payment processing. Waiting for the next attempt|
+|processed|No|The Payment is processed|
+|refund_pending|No|The payment refund process is pending. Waiting for a trigger to continue|
+|refund_failed|Yes|The Payment  process is failed|
+|refund_error|No|An error occurred during the payment refunding process. Waiting for the next attempt|
+|refunded|Yes|The Payment is refunded|
+|charged_back|Yes|The Payment is charged back|
 
-<tr><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
-
-<tr><td>created</td><td>No</td><td><b>Yes</b></td><td>The Payment is created</td></tr>
-<tr style="background-color:#ff8787"><td>expired</td><td><b>Yes</b></td><td>No</td><td>The Payment is expired</td></tr>
-<tr style="background-color:#ff8787"><td>terminated</td><td><b>Yes</b></td><td>No</td><td>The Payment is terminated</td></tr>
-<tr><td>invoke_pending</td><td>No</td><td><b>Yes</b></td><td>Payment invoke process is pending. Waiting for a trigger to continue</td></tr>
-<tr style="background-color:#ff8787"><td>invoke_failed</td><td><b>Yes</b></td><td>No</td><td>Payment invoking process is failed</td></tr>
-<tr style="background-color:#ff8787"><td>invoke_error</td><td>No</td><td><b>Yes</b></td><td>An error occurred during the payment invoking. Waiting for the next attempt</td></tr>
-<tr><td>invoked</td><td>No</td><td><b>Yes</b></td><td>The Payment is invoked</td></tr>
-<tr><td>revoke_pending</td><td>No</td><td><b>Yes</b></td><td>Payment revoke process is pending. Waiting for a trigger to continue</td></tr>
-<tr style="background-color:#ff8787"><td>revoke_failed</td><td><b>Yes</b></td><td>No</td><td>Payment revoke process is failed</td></tr>
-<tr style="background-color:#ff8787"><td>revoke_error</td><td>No</td><td><b>Yes</b></td><td>An error occurred during the payment revoking. Waiting for the next attempt</td></tr>
-<tr><td>revoked</td><td><b>Yes</b></td><td>No</td><td>The Payment is revoked</td></tr>
-<tr><td>process_pending</td><td>No</td><td><b>Yes</b></td><td>The payment process is pending. Waiting for a trigger to continue</td></tr>
-<tr style="background-color:#ff8787"><td>process_failed</td><td><b>Yes</b></td><td>No</td><td>The Payment processing is failed</td></tr>
-<tr style="background-color:#ff8787"><td>process_error</td><td>No</td><td><b>Yes</b></td><td>An error occurred during the payment processing. Waiting for the next attempt</td></tr>
-<tr style="background-color:#79f99b"><td>processed</td><td>No</td><td>No</td><td>The Payment is processed</td></tr>
-<tr><td>refund_pending</td><td>No</td><td><b>Yes</b></td><td>The payment refund process is pending. Waiting for a trigger to continue</td></tr>
-<tr style="background-color:#ff8787"><td>refund_failed</td><td><b>Yes</b></td><td>No</td><td>The Payment  process is failed</td></tr>
-<tr style="background-color:#ff8787"><td>refund_error</td><td>No</td><td><b>Yes</b></td><td>An error occurred during the payment refunding process. Waiting for the next attempt</td></tr>
-<tr><td>refunded</td><td><b>Yes</b></td><td>No</td><td>The Payment is refunded</td></tr>
-<tr><td>charged_back</td><td><b>Yes</b></td><td>No</td><td>The Payment is charged back</td></tr>
-
-</table>
 
 
 
