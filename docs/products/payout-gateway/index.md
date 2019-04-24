@@ -70,25 +70,14 @@ The content of **fields** must be set according to **`payout-service`**. The lis
 
 Here is a list of terms we use and their definitions on payouts.
 
-<table border="1px">
-
-<tr><th><b>Definition</b></th><th><b>Description</b></th></tr>
-<tr><td><b>Payout</b></td><td>refers to the financial return or monetary disbursement of investment or annuity.</td></tr>
-<tr><td><b>Payout Point</b></td><td>An aggregation entity that sets a configuration for processing a payout request through links to the exchange rate scheme and the routing scheme that are set for it.</td></tr>
-
-<tr><td><b>Payout request</b></td><td>Operation for abstraction from route and payout. Allows dynamic routing and failover for payouts.</td></tr>
-
-
-<tr><td><b>Payout Request Event </b></td><td>Event log for a specific request for payout. Gives detailed information about the process for requesting payout.</td></tr>
-
-
-<tr><td><b>Payout Routing Scheme</b></td><td> Aggregation entity responsible for routing configuration. Consists of a set of routing rules for each payout method</td></tr>
-
-
-<tr><td><b>Payout Routing Rule</b></td><td>Route processing rule for the payout method currency. Sets the route processing strategy and the conditions under which this strategy will be active.</td></tr>
-
-
-</table>
+|Definition|Description|
+|--- |--- |
+|Payout|refers to the financial return or monetary disbursement of investment or annuity.|
+|Payout Point|An aggregation entity that sets a configuration for processing a payout request through links to the exchange rate scheme and the routing scheme that are set for it.|
+|Payout request|Operation for abstraction from route and payout. Allows dynamic routing and failover for payouts.|
+|Payout Request Event|Event log for a specific request for payout. Gives detailed information about the process for requesting payout.|
+|Payout Routing Scheme|Aggregation entity responsible for routing configuration. Consists of a set of routing rules for each payout method|
+|Payout Routing Rule|Route processing rule for the payout method currency. Sets the route processing strategy and the conditions under which this strategy will be active.|
 
 
 
@@ -116,17 +105,11 @@ If all the conditions of the rule are met, the routing strategy is established f
 
 #### Routing Strategy Types
 
-<table border="1px">
+|Type|Description|Diagram|
+|--- |--- |--- |
+|Optimal|Funds are debited in equal shares from each route|
+|Load balancing(Weight)|Funds are debited proportionally (as a percentage) from each routeIt is available to set load percentage manualy|
+|Optimisation By Deposit Account Balance & Limits|The funds are debited off  from routes as the balance decreases (taking into account limits). Stages: 1) Filter routes for which you can write off for a specific amount. 2) Choosing a route with maximum balance. 3) Performing an operation.|
+|Optimisation By Conversion|
+|Optimisation By Cost|
 
-<tr><th><b>Type</b></th><th><b>Description</b></th><th><b>Diagram</b></th></tr>
-<tr><td><b>Optimal</b></td><td> Funds are debited in equal shares from each route</td><td></td></tr>
-<tr><td><b>Load balancing<br><i>(Weight)</i></b></td><td>Funds are debited proportionally (as a percentage) from each route<br><i>It is available to set load percentage manualy</i></td><td><a href ="images/routing_load_balancing_diagram.png" target="_blank" noopener="rel"><img src="images/routing_load_balancing_diagram.png"></a></td></tr>
-<tr><td><b>Optimisation By Deposit Account Balance & Limits</b></td><td>The funds are debited off  from routes as the balance decreases (taking into account limits).<br>
-Stages:<br>
-1) Filter routes for which you can write off for a specific amount<br>
-2) Choosing a route with maximum balance<br>
-3) Performing an operation<br>
-</td><td><a href ="images/routing_balance_limits_diagram.png" target="_blank" noopener="rel"><img src="images/routing_balance_limits_diagram.png"></a></td></tr>
-<tr><td><b>Optimisation By Conversion</b></td><td></td><td><a href ="images/routing_conversion_diagram.png" target="_blank" noopener="rel"><img src="images/routing_conversion_diagram.png"></a></td></tr>
-<tr><td><b>Optimization By Cost</b></td><td></td><td><a href ="images/routing_cost_diagram.png" target="_blank" noopener="rel"><img src="images/routing_cost_diagram.png"></a></td></tr>
-</table>
