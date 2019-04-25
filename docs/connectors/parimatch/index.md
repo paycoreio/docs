@@ -13,9 +13,15 @@ Here You can find  instructions for setting up **Parimatch**  account.
 
 #### Step 2: Get required credentials
 
--  Account ID
 -  Secret key
 -  API URL
+
+!!! info
+    Parimatch **Account ID** is also required.
+
+    It is used to verify Secret Key and API URL. 
+
+    It is not involved in the operations initializing  and processing.
 
 !!! success
     You have configured account!
