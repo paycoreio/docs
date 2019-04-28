@@ -1,4 +1,5 @@
-![image](https://static.openfintech.io/payment_providers/name/logo.svg?w=400)
+<img src="https://static.openfintech.io/payment_providers/name/logo.svg?w=400" width="400px" >
+
 
 # NAME Connector
 
@@ -11,11 +12,7 @@ Here You can find  instructions for setting up **NAME**  account.
 #### Step 1 Contact with NAME Support Manager
 
 
-#### Step 2: 
-
-
-
-#### Step 3: Get required credentials
+#### Step 2: Get required credentials
 
 
 !!! success
@@ -38,8 +35,8 @@ Here You can find  instructions for setting up **NAME**  account.
 
 #### Step 3: Set up additional parameters 
 
--  
--  Test mode
+- Test mode
+- Currencies
 
 !!! note
     These parameters are set according to your Merchant account type and it's available currencies!

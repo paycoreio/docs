@@ -110,6 +110,8 @@ nav:
     - Public IPs: 'integration/ips.md'
 - Connectors:
       - Overview: 'connectors/index.md'
+      - Test: 'connectors/test/index.md'
+      - Manual: 'connectors/manual/index.md'
       - 123x: 'connectors/123x/index.md'
       - 4bill: 'connectors/4bill/index.md'
       - AdvCash: 'connectors/advcash/index.md'
@@ -129,6 +131,7 @@ nav:
       - Interkassa: 'connectors/interkassa/index.md'
       #- Leogaming: 'connectors/leogaming/index.md'
       - LiqPay: 'connectors/liqpay/index.md'
+      #-MaxPay: 'connectors/maxpay/index.md'
       #- MoneyMovers: 'connectors/moneymovers/index.md'
       - Neteller: 'connectors/neteller/index.md'
       - Parimatch: 'connectors/parimatch/index.md'

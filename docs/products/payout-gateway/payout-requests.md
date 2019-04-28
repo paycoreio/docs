@@ -25,20 +25,17 @@ Same to Payout, Payout Request status has **`final`** property, which can be **t
 
 
 
-<table border="1px">
+|Code|Final|Description|
+| --- | --- | --- |
+|CREATED|No|The operation validated at the initial stage and successfully created|
+|DISPATCHING|No|The operation is being processed|
+|EXPIRED|Yes|The operation has expired|
+|FAILED|Yes|Failed transaction|
+|PENDING|No|The operation is pending for processing|
+|PARTIALLY_PROCESSED|Yes|The operation has been partially processed|
+|PROCESSED|Yes|The operation was processed successfuly|
+|READY|No|The operation is ready for processing|
+|WAITING_DETAILS|No|Waiting for transaction details|
 
-<tr><th><b>Code</b></th><th><b>Final</b></th><th><b>Sleeping State</b></th><th><b>Description</b></th></tr>
-
-<tr style="background-color:"><td>CREATED</td><td><b>No</b></td><td><b>No</b></td><td>The operation validated at the initial stage and successfully created</td></tr>
-<tr style="background-color:"><td>DISPATCHING</td><td>No</td><td><b>Yes</b></td><td>The operation is being processed</td></tr>
-<tr style="background-color:#ff8787"><td>EXPIRED</td><td><b>Yes</b></td><td>No</td><td>The operation has expired</td></tr>
-<tr style="background-color:#ff8787"><td>FAILED</td><td><b>Yes</b></td><td>No</td><td>Failed transaction</td></tr>
-<tr style="background-color:"><td>PENDING</td><td>No</td><td><b>Yes</b></td><td>The operation is pending for processing</td></tr>
-<tr style="background-color:#79f99b"><td>PARTIALLY_PROCESSED</td><td><b>Yes</b></td><td>No</td><td>The operation has been partially processed</td></tr>
-<tr style="background-color:#79f99b"><td>PROCESSED</td><td><b>Yes</b></td><td>No</td><td>The operation was processed successfuly</td></tr>
-<tr style="background-color:"><td>READY</td><td>No</td><td><b>Yes</b></td><td>The operation is ready for processing</td></tr>
-<tr style="background-color:"><td>WAITING_DETAILS</td><td>No</td><td><b>Yes</b></td><td>Waiting for transaction details</td></tr>
-
-</table>
 
 ## Guide

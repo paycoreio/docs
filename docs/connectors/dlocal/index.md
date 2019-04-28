@@ -12,8 +12,7 @@ Here You can find  instructions for setting up **dLocal**  account.
 
 !!! note
     You can not create dLocal merchant account yourself! 
-    
-!!! tip    
+ 
     Ask Support manager how to get login details!
 
 
@@ -67,6 +66,10 @@ Here You can find  instructions for setting up **dLocal**  account.
 ## Connect account
 
 #### Step 1: Copy required credentials
+
+
+#### Step 2: Enter credentials
+
 -  x_login
 
 -  x_trans_key
@@ -74,10 +77,6 @@ Here You can find  instructions for setting up **dLocal**  account.
 -  Secret Key
 
 -  Cashout secret key
-
-#### Step 2: Enter credentials
-
-
 
 
 !!! tip
