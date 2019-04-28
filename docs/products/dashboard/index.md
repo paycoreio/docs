@@ -1,79 +1,46 @@
-# Dashboard
 
-## Overview
+## Introduction
 
-The [PayCore.io Dashboard](https://dashboard.paycore.io/) is a feature-rich user interface for you to operate and configure your PayCore.io account. You can use it to manage payments and payouts, respond to incidents, monitor your integration, and more.
+The [PayCore.io](https://paycore.io/) Dashboard is a feature-rich user interface for you to operate and configure your [PayCore.io](https://paycore.io/) account. You can use it to manage payments and payouts, respond to disputes, monitor your integration, and more.
 
-The Dashboard home page provides useful at-a-glance information about the activity on your account. A wide range of analytics and real-time charts provide insight into the performance of your business. The Dashboard also shows recent activity that may require you to take action, such as unanswered disputes or identity verifications.
+The Dashboard home page provides useful at-a-glance information about the activity on your account. A wide range of analytics and real-time charts provide insight into the performance of your business. The Dashboard also shows recent activity that may require you to take action.
 
-![Dashboard](images/dash_overview1.png)
+![](images/dashboard.png "PayCore.io > Dashboard ~ Docs > Home")
 
+## Basic features
 
-## Basic structure
+-   **Search**  payments, payouts, customers and provider accounts by using the  **header search bar**.
+-   Easily switch between organization accounts with the **account dropdown.**
+-   Access the Knowledge Center articles and documentation by clicking the **Help button**.
+-   Contact with [PayCore.io](https://paycore.io/) team using the **chat button**.
+-   Use the user account dropdown list, to find your: **Profile settings, Access Role in the current organization,** and the **Log Out** button.
+-   Control the interval for which the data is being displayed, by selecting one of the predefined timeframes: **today, yesterday, last 7 days, last 30 days, this month, last month** or set a specific timeframe with the **custom range** option.
 
-Generally Dashboard consists of the next parts:
+## Navigation
 
-- Navigation menu
-- Working space
-- Header
+The Dashboard is primarily organized into separate sections. Each section represents a particular area of the API (e.g.,  Payment Request represents Payment  objects that have been created) or functionality provided by [PayCore.io](https://paycore.io/) (e.g., PayCore Commerce).
 
-!!! info "Basic structure"
-    [![Dashboard](images/dash_overview_struct1.png)](images/dash_overview_struct1.png)
+In many cases, you can use the Dashboard to perform specific actions, such as refunding a payment or canceling a subscription, without needing to use the API-making the Dashboard a useful tool for running your business.
 
-!!! info "Navigation menu"
-    [![Dashboard](images/dash_overview_struct_nav.png)](images/dash_overview_struct_nav.png)
+## Test mode
 
-!!! info "Working space"
-    [![Dashboard](images/dash_overview_struct_workingspace.png)](images/dash_overview_struct_workingspace.png)
+You can view test data by toggling the Dashboard’s  **Viewing test data**  option. Whether a  _transaction_  was created in test or live mode is dictated by which  [API keys](/products/account)  were used to create it.
 
-!!! info "Header"
-    [![Dashboard](images/dash_overview_struct_header.png)](images/dash_overview_struct_header.png)
+## Team member access
 
-## General facilities
+You can invite  [team members](http://confluence.paymaxi.com)  to access your Dashboard and help manage your business. Each team member can have different privileges that restrict the information they can see or actions they can take. For instance, you can allow members of your customer service team to access your Dashboard for the purpose of handling  payments  and  payouts.
 
-Using **_PayCore.io Dashboard_**  you can:
+## Creating reports and searches
 
-- [x] Manage your organisations and it's preferences
-    - invite and manage team members
-    - control access rights
-    - set security preferences
-    
-[![Dashboard](images/dash_overview_org1.png)](images/dash_overview_org1.png)
-[![Dashboard](images/dash_overview_org2.png)](images/dash_overview_org2.png)
+All of your transactional data can be filtered and exported as  [reports](/products/analytics)  in CSV format in PayCore's Analytics.
 
-- [x] Connect [Payment Providers](/connectors) (Provider or Merchant accounts) 
-   
-    !!! note
-        Before connecting an acoount - ensure it is **`implemented`** to PayСore.
+For more advanced searches and reporting, [PayCore Analytics](/products/analytics)  makes all of your data available as an interactive SQL environment in the Dashboard. You can write queries to generate highly customized reports without needing to use additional reporting tools.
 
-[![Dashboard](images/dash_overview_connect1.png)](images/dash_overview_connect1.png)
+## Browser compatibility
 
-- [x] Manage your [Connected Accounts](../../products/provider-hub/overview)
+The Dashboard officially supports the following web browsers and mobile environments:
 
-[![Dashboard](images/dash_overview_acc1.png)](images/dash_overview_acc1.png)
-
-- [x] Create and manage Customers
-
-[![Dashboard](images/dash_overview_cust1.png)](images/dash_overview_cust1.png)
-[![Dashboard](images/dash_overview_cust2.png)](images/dash_overview_cust2.png)
-
-- [x] Manage Operations
-    - [Payments](../../products/payment-gateway/payments)
-    - [Payment Requests](../../products/payment-gateway/payment-requests)
-    - [Payouts](../../products/payout-gateway/payouts)
-    - [Payout Requests](../../products/payout-gateway/payout-requests)
-
-[![Dashboard](images/dash_overview_operation1.png)](images/dash_overview_operation1.png)
-    
-- [x] Create and  set up [Payment Pages](../../products/payment-gateway/payment-pages)  and [Payout points](../../products/payout-gateway/payout-points)
-- [x] Create [Rate schemes](../../products/currency-rates/overview) for your operations
-- [x] Generate and visualize [Analytics](../../products/analytics/overview) reports
-
-[![Dashboard](images/dash_overview_analytics1.png)](images/dash_overview_analytics1.png)
-
-
-
-!!! info "Note"
-    If You have any questions, suggestions or comments, please, contat Us  through [**PayСore.io Service Desk**](https://support.paycore.io/)
-    
-    [![Service Desk](images/servicedesk.png)](https://support.paycore.io/)
+-   Chrome versions greater than 49
+-   The last two versions of Firefox, Safari, and Edge
+-   The last two versions of mobile Safari on iOS
+-   Internet Explorer 11
