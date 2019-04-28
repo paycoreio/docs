@@ -38,7 +38,6 @@ markdown_extensions:
   #- pymdownx.smartsymbols
   #- pymdownx.tasklist:
   #    custom_checkbox: true
-
   #- pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -58,18 +57,17 @@ markdown_extensions:
 nav:
 - Getting started:
     - Introduction: 'index.md'   
-    - Integration:
-        - Overview: 'getting-started/integration/index.md'   
+    - Setting up account: 'getting-started/setting-up-account.md'
     - FAQ: 'getting-started/faq.md'
     - Glossary: 'getting-started/glossary.md'
 - Products:
     - Overview: 'products/index.md'
     - Dashboard: 'platform/dashboard/index.md'
     - Account:
-        - Overview: 'platform/organisation/index.md'
-        - User account: 'platform/user-profile/index.md'
-        - Security: 'platform/organisation/security.md'
-        - Access Control: 'platform/organisation/access-control.md'
+        - Overview: 'products/account/index.md'
+        - User account: 'products/account/user-account.md'
+        - Security: 'products/account/security.md'
+        - Access Control: 'products/account/access-control.md'
     - Provider Hub: 'products/provider-hub/index.md'
     - Payment gateway:
         - Overview: 'products/payment-gateway/index.md'
