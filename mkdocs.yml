@@ -62,7 +62,7 @@ nav:
     - Glossary: 'getting-started/glossary.md'
 - Products:
     - Overview: 'products/index.md'
-    - Dashboard: 'platform/dashboard/index.md'
+    - Dashboard: 'products/dashboard/index.md'
     - Account:
         - Overview: 'products/account/index.md'
         - User account: 'products/account/user-account.md'
