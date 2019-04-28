@@ -20,8 +20,7 @@ The general algorithm for the connection procedure consists of the following ste
 
 2. Connecting account (in Dashboard)
 
-
-**Setting up account**:
+## Setting up account
 
 - Depending on the provider, the set of steps can be different, in case of: the methods of storage, transmission and uniqueness of data are individual for each of them.
 - The purpose of this step is to obtain the Credentials necessary for integration in Dashboard
@@ -29,18 +28,63 @@ The general algorithm for the connection procedure consists of the following ste
 !!! warning
     Parameters (credentials) format should correspond to the requirements of connection form .
 
-**Connect account**:
+## Connecting account
 
 - This step is unified for all providers. All that you need is to:
     -  Enter the connection data
     -  Confirm the connection
 
+## Payment Providers 
+
+!!! info "Definition"
+    **Payment Provider** - is an institution that offers online services for accepting electronic payments by a variety of payment methods including credit card, bank-based payments such as direct debit, bank transfer, and real-time bank transfer based on online banking. Typically, they use a software as a service model and form a single payment gateway for their clients (merchants) to multiple payment methods.
+
+Payment Provider  can be in **2 statuses**:
+
+1. **Ready**: means, that this Payment provider has been already implemented to PayСore.io 
+2. **Not Ready**: means, that this Payment provider has  not been implemented to PayСore.io yet.
+    
+- To connect the certain provider:
+
+    1. Go to the **`Provider Overview page`** by clicking on it's logo
+    2. Click **`Connect`** button
+    3. Enter the credentials 
+    4. Confirm action
+    
+    !!! tip
+        You can find detailed instructions for each provider at [Integration    Manuals](/connectors/).
+
+- To ask PayCore.io to implement **NEW** Payment provider, use **`Request a connection`** button!
+
+!!! info "Screenshots"
+    [![New connection](images/newconn1.png)](images/newconn1.png)
+
+    [![New connection](images/newconn2.png)](images/newconn2.png)
+
+
+## Payment methods
+
+!!! info "Definition"
+    **Payment method** - the way that a customer chooses to pay to the merchant. Typical payment methods used in a modern business context include cash, checks, credit or debit cards, money orders, bank transfers and online payment services such as PayPal.
+    
+    [*Read more...*](http://www.businessdictionary.com/definition/payment-method.html)
+
+## Payout methods
+
+!!! info "Definition"
+    **Payout method** - is the way a merchant pay to the customers through.
+
+## Payment services
+
+!!! info "Definition"
+    **Payment service** - is a virtual entity, that means "payment method in view of certain currency"
+
+## Payout services 
+
+!!! info "Definition"
+    **Payout service** - is a virtual entity, that means "payout method in view of certain currency"
 
 !!! info "Note"
     If You have any questions, suggestions or comments, please, contact us  through [**PayСore.io Service Desk**](https://jira.paymaxi.com/servicedesk/customer/portal/4)
     
     [![Step 2](images/servicedesk.png)](https://jira.paymaxi.com/servicedesk/customer/portal/4)
-
-
-!!! Success 
-    Now You are ready to overview the connection guides!

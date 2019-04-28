@@ -1,4 +1,5 @@
 # Glossary
+
 ## 3
 
 ### 3-D Secure
@@ -44,10 +45,24 @@
 
 ### Callback
 ### Card Not Present (CNP)
-
-Cart Abandonment Cart Abandonment Rate Channel Manager Chargeback Chargeback Rate Checking Account Checkout Churn Rate (Attrition) Co-termination Configurable Retry Logic Conversion Rate Credit Card Credit Card Account Number Credit Card Authorization Credit Card Authorization Code Credit Card Interchange Customer Acquisition Cost (CAC) Customer Relationship Management (CRM) Customer Retention
-
-
+### Cart Abandonment
+### Cart Abandonment Rate
+### Channel Manager
+### Chargeback
+### Chargeback Rate
+### Checking Account
+### Checkout Churn Rate (Attrition)
+### Co-termination
+### Configurable Retry Logic
+### Conversion Rate
+### Credit Card
+### Credit Card Account Number
+### Credit Card Authorization
+### Credit Card Authorization Code
+### Credit Card Interchange
+### Customer Acquisition Cost (CAC)
+### Customer Relationship Management (CRM)
+### Customer Retention
 ### Commerce Account
 ### Commerce Scheme
 ### Currency Account
