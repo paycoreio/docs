@@ -10,6 +10,18 @@ A payment gateway is a service that authorizes credit card payments for online a
 
 Payment gateways are often confused with merchant accounts. To take payments online you need both a payment gateway and a merchant account. A merchant account is where funds are held before being deposited into your bank account. The role of the payment gateway is simply to decline or approve a transaction.
 
+Merchant accounts are the types of bank accounts that authorize merchants to accept credit or debit cards payments online. These accounts are required if you want to use a payment gateway to process transactions from your website.
+
+It's worth noting that merchant accounts are often called MIDs (or merchant IDs).
+
+Many payment processing and payment gateway companies provide merchant accounts. These accounts can also be opened with some large banks that provide such services.
+
+In most cases, Independent sales organizations (ISOs) or Member Service Providers (MSPs) provide these accounts. These organizations have agreements with payment processors. In addition to this, independent contractors or Agents of ISOs also provide Merchant accounts.
+
+In all cases, to acquire a merchant account, one must have some sort of arrangement with a payment processor to charge a customer's credit/debit card.
+
+There are a variety of payment gateways and payment processors out there. They vary in the monthly fees and transaction costs. It is vital to choose the right company for your merchant account if you plan to run a profitable online business.
+
 ## What is a Payment Service Provider?
 
 Payment Service Providers (or PSPs) act as both a merchant account and the payment gateway, helping businesses to collect and manage their payments. Payments go to the PSP and are then transferred on to you.
