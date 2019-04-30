@@ -1,3 +1,4 @@
+# Basic Concepts
 
 ## What is a Payment Gateway?
 

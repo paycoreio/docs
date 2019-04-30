@@ -68,7 +68,9 @@ nav:
         - User account: 'products/account/user-account.md'
         - Security: 'products/account/security.md'
         - Access Control: 'products/account/access-control.md'
-    - Provider Hub: 'products/provider-hub/index.md'
+    - Provider Hub: 
+        - Introduction: 'products/provider-hub/index.md'
+        - Basic Concepts: 'products/provider-hub/basic-concepts.md'
     - Payment gateway:
         - Overview: 'products/payment-gateway/index.md'
         - Payments: 'products/payment-gateway/payments.md'
