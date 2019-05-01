@@ -34,11 +34,11 @@ Full-service payment service providers like [Stripe](https://www.stripe.com/), [
 
 The platform supports all possible currencies, methods, flow and payment providers.
 
-A complete list of already implemented integrations with payment providers can be found [here](http://confluence.paymaxi.com).
+A complete list of already implemented integrations with payment providers can be found [here](#).
 
 There are more than 900 payment providers in the world.
 
-Even if you do not find the provider you are interested in, you can always [request its implementation](http://confluence.paymaxi.com) from us at any time.
+Even if you do not find the provider you are interested in, you can always [request its implementation](#) from us at any time.
 
 ## Currencies
 
@@ -58,7 +58,7 @@ In general, [PayCore.io](http://PayCore.io) supports all the currencies in the w
 
 This need is dictated by the fact that [PayCore.io](http://PayCore.io) integrates various payment providers that can process any currency, including digital and crypto.
 
-A list of all supported currencies can be found in our [currency directory](http://confluence.paymaxi.com).
+A list of all supported currencies can be found in our [currency directory](#).
 
 ## Payment and payout methods
 
@@ -82,7 +82,7 @@ Supported by widespread access to high-speed internet and the insatiable appetit
 
 That's why, [PayCore.io](http://PayCore.io) supports all the payment and payout methods implemented by payment providers that connected to our platform.
 
-A list of all supported currencies can be found in our [payment and payout methods directory](http://confluence.paymaxi.com).
+A list of all supported currencies can be found in our [payment and payout methods directory](#).
 
 ## Payment and payout services
 
@@ -144,8 +144,8 @@ First of all, the payment hub unifies the protocols and interaction with externa
 
 Therefore, it is necessary to have a single payment and payout service codes directory.
 
-The full directory is available [here](http://confluence.paymaxi.com).
+The full directory is available [here](#).
 
 ## Next
 
-Let's take a look at how you could connect different payment providers in the [next article](http://confluence.paymaxi.com).
+Let's take a look at how you could connect different payment providers in the [next article](#).
