@@ -1,13 +1,31 @@
 # Provider Hub
 
-## Provider Accounts
+## Introduction
 
-Under construction...
+The payment providers hub is the heart of the [PayCore.io](http://PayCore.io) platform.
 
-## Merchant Accounts
+Based on it, all the main services of the platform are implemented.
 
-Under construction...
+Therefore, it is extremely important to understand the work of other components and products of [PayCore.io](http://PayCore.io), to thoroughly understand the principles and concepts of the payment hub.
 
-## Deposit Accounts
+## What's inside?
 
-Under construction...
+In this section, we will look at what the payment providers hub is and what features it performs.
+
+For a start, we propose to deal with the basic concepts with which he operates:
+
+-   What is a Payment Gateway?
+-   What is a Payout gateway?
+-   What is a payment provider?
+-   What is a merchant account?
+-   What are the Currencies?
+-   What is the Payment and Payout Methods?
+-   What is a Payment and Payout Services?
+
+After, we will consider what the Connector of a payment provider is and its capabilities.
+
+This will give an insight into how [PayCore.io](http://PayCore.io) providers are organized and how they can be managed.
+
+## Next
+
+Well, let's take a look at basic concepts and terms?
