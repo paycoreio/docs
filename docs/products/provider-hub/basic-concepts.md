@@ -30,21 +30,19 @@ Some PSPs provide services to process other next-generation methods ([payment sy
 
 Full-service payment service providers like [Stripe](https://www.stripe.com/), [Braintree](https://www.braintreepayments.com/), [PayPal](https://www.paypal.com/), [Adyen](https://www.adyen.com/home/) are typically easier and quicker to get started with as you don't need to set up your own merchant account (and if you do the provider will offer that too).
 
-### What Payment providers does [PayCore.io](http://PayCore.io) support?
+### What Payment providers does [PayCore.io](https://paycore.io/) support?
 
 The platform supports all possible currencies, methods, flow and payment providers.
 
 A complete list of already implemented integrations with payment providers can be found [here](#).
 
-There are more than 900 payment providers in the world.
-
-Even if you do not find the provider you are interested in, you can always [request its implementation](#) from us at any time.
+There are more than 900 payment providers in the world. Even if you do not find the provider you are interested in, you can always [request its implementation](#) from us at any time.
 
 ## Currencies
 
 ### What is the currency?
 
-A  **currency**, in the most specific sense is  [money](https://en.wikipedia.org/wiki/Money "Money")  in any form when in use or circulation as a  [medium of exchange](https://en.wikipedia.org/wiki/Medium_of_exchange "Medium of exchange"), especially circulating  [banknotes](https://en.wikipedia.org/wiki/Banknote "Banknote")  and  [coins](https://en.wikipedia.org/wiki/Coin "Coin").  A more general definition is that a currency is a  _system of money_  (monetary units) in common use, especially for people in a nation. Under this definition,  [US dollars](https://en.wikipedia.org/wiki/United_States_dollar "United States dollar")  (US\$),  [pounds sterling](https://en.wikipedia.org/wiki/Pound_sterling "Pound sterling")  (£),  [Australian dollars](https://en.wikipedia.org/wiki/Australian_dollars "Australian dollars")  (A\$),  [European euros](https://en.wikipedia.org/wiki/Euro "Euro")  (€),  [Russian rubles](https://en.wikipedia.org/wiki/Russian_ruble "Russian ruble")  (₽) and  [Indian Rupees](https://en.wikipedia.org/wiki/Indian_Rupee "Indian Rupee")  (₹) are examples of currency. These various currencies are recognized as stores of value and are traded between nations in  [foreign exchange markets](https://en.wikipedia.org/wiki/Foreign_exchange_market "Foreign exchange market"), which determine the relative values of the different currencies. Currencies in this sense are defined by governments, and each type has limited boundaries of acceptance.
+A  **currency**, in the most specific sense is  [money](https://en.wikipedia.org/wiki/Money "Money")  in any form when in use or circulation as a  [medium of exchange](https://en.wikipedia.org/wiki/Medium_of_exchange "Medium of exchange"), especially circulating  [banknotes](https://en.wikipedia.org/wiki/Banknote "Banknote")  and  [coins](https://en.wikipedia.org/wiki/Coin "Coin").  A more general definition is that a currency is a  _system of money_  (monetary units) in common use, especially for people in a nation. Under this definition,  [US dollars](https://en.wikipedia.org/wiki/United_States_dollar "United States dollar")  (US),  [pounds sterling](https://en.wikipedia.org/wiki/Pound_sterling "Pound sterling")  (£),  [Australian dollars](https://en.wikipedia.org/wiki/Australian_dollars "Australian dollars")  (A),  [European euros](https://en.wikipedia.org/wiki/Euro "Euro")  (€),  [Russian rubles](https://en.wikipedia.org/wiki/Russian_ruble "Russian ruble")  (₽) and  [Indian Rupees](https://en.wikipedia.org/wiki/Indian_Rupee "Indian Rupee")  (₹) are examples of currency. These various currencies are recognized as stores of value and are traded between nations in  [foreign exchange markets](https://en.wikipedia.org/wiki/Foreign_exchange_market "Foreign exchange market"), which determine the relative values of the different currencies. Currencies in this sense are defined by governments, and each type has limited boundaries of acceptance.
 
 Currencies can be classified into two  [monetary systems](https://en.wikipedia.org/wiki/Monetary_system "Monetary system"):  [fiat money](https://en.wikipedia.org/wiki/Fiat_money "Fiat money")  and  [commodity money](https://en.wikipedia.org/wiki/Commodity_money "Commodity money"), depending on what guarantees the currency's value.  [Digital currency](https://en.wikipedia.org/wiki/Digital_currency "Digital currency")  has arisen with the popularity of computers and the  [Internet](https://en.wikipedia.org/wiki/Internet "Internet").
 
@@ -52,11 +50,11 @@ Currencies can be classified into two  [monetary systems](https://en.wikipedia.o
 
 **Digital currency** (**digital money**, **electronic money** or **electronic currency**) is a type of [currency](https://en.wikipedia.org/wiki/Currency "Currency") available in digital form (in contrast to physical, such as [banknotes](https://en.wikipedia.org/wiki/Banknote "Banknote") and [coins](https://en.wikipedia.org/wiki/Coin "Coin")). It exhibits properties similar to physical currencies, but can allow for instantaneous transactions and borderless transfer-of-ownership. Examples include [virtual currencies](https://en.wikipedia.org/wiki/Virtual_currency "Virtual currency") and [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency "Cryptocurrency") and [central bank](https://en.wikipedia.org/wiki/Central_bank "Central bank") issued money accounted for in a computer database (including [digital base money](https://en.wikipedia.org/wiki/Digital_base_money "Digital base money")). Like traditional [money](https://en.wikipedia.org/wiki/Money "Money"), these currencies may be used to buy physical [goods](https://en.wikipedia.org/wiki/Goods "Goods") and [services](https://en.wikipedia.org/wiki/Service_(economics) "Service (economics)"), but may also be restricted to certain communities such as for use inside an online game or social network.
 
-### What currencies does [PayCore.io](http://PayCore.io) support?
+### What currencies does [PayCore.io](https://paycore.io/) support?
 
-In general, [PayCore.io](http://PayCore.io) supports all the currencies in the world.
+In general, [PayCore.io](https://paycore.io/) supports all the currencies in the world.
 
-This need is dictated by the fact that [PayCore.io](http://PayCore.io) integrates various payment providers that can process any currency, including digital and crypto.
+This need is dictated by the fact that [PayCore.io](https://paycore.io/) integrates various payment providers that can process any currency, including digital and crypto.
 
 A list of all supported currencies can be found in our [currency directory](#).
 
@@ -76,11 +74,11 @@ In general, there is no difference between payment methods and payments. This se
 
 Payment methods used for payments in the payment gateway. Payouts, respectively.
 
-### What methods does [PayCore.io](http://PayCore.io) support?
+### What methods does [PayCore.io](https://paycore.io/) support?
 
 Supported by widespread access to high-speed internet and the insatiable appetite of customers for convenience, online commerce is progressing rapidly around the world and estimated to reach $4T (source: eMarketer) in 2020. But when it comes to payments online, businesses expanding internationally and taking advantage of the increased reach that online commerce provides them with are met with widely varying customer preferences. Not only can delivery terms be quite different (pay after delivery, for example, common in Europe and Asia, requires businesses to only expect payment once they’ve shipped goods) but the payment methods used for online transactions themselves vary too. Credit and debit cards, not always the most trusted option, only account for half of the online transactions globally. Bank payments, digital wallets, and cash are in strong customer demand, and can even offer additional benefits to businesses such as lower risks and transaction costs.
 
-That's why, [PayCore.io](http://PayCore.io) supports all the payment and payout methods implemented by payment providers that connected to our platform.
+That's why, [PayCore.io](https://paycore.io/) supports all the payment and payout methods implemented by payment providers that connected to our platform.
 
 A list of all supported currencies can be found in our [payment and payout methods directory](#).
 
@@ -88,17 +86,14 @@ A list of all supported currencies can be found in our [payment and payout metho
 
 ### What are payment and payout services?
 
-Данный термин специально введен для идентификации методов в связке с валютой. Часто, платежные провадеры оперируют именно комбинацией метода и валюты. Это позволяет точно оперировать одним термином для маршрутизации на стороне провайдера, взаимодействуя по единому коду, вместо двух.  
-Сервисы включают в себя свойства и параметры, необходимые для инициализации платежа или выплаты.  
-Это как контракт на протокол взаимодействия с шлюзом.  
-Шлюз может всегда ожидать пераметры перечисленные в свойствах сервиса.
-
 This term is specifically introduced to identify methods in conjunction with currency. Often, payment providers use exactly the combination of method and currency. This allows you to accurately operate with one term for routing on the provider side, interacting with a single code, instead of two.  
 Services include the properties and parameters required to initiate a payment or payout.  
 This is like a contract for the gateway protocol.  
 The gateway can always expect the parameters listed in the service properties.
 
-**Example:** If you need to make a payout on a _PayPal account_ by _email_, then obviously, for this you need to send some details. For service, they look like this:
+**Example:**
+
+If you need to make a payout, then obviously, for this you need to send some details based on service fields. For payout service to PayPal account by email, they look like this:
 
     {
         "code": "paypal_email_usd",
@@ -122,8 +117,8 @@ The gateway can always expect the parameters listed in the service properties.
             "required": true,
             "position": 1
           }
-        ]
-    }
+	    ]
+	}
 
 ### What differences between payment and payout services?
 
@@ -133,12 +128,12 @@ The only difference between the payment and payout services is that the payment 
 
 There are 4 basic payment processing flows:
 
--   **hpp** — Hosted payment page. It is when a customer needs to be redirected to external **HPP** provided by **Payment Service Provider**.
--   **invoice** — when a customer needs to pay by payment details. At the same time, the payment process outside the processing and asynchronous. This can be a manual transfer to a digital wallet, or bank Wire-transfer, or payment in a self-service kiosk by cash., etc.
--   **card** — used for host-to-host card payment processing. Requires PCI DSS.
--   **test** — used only for testing.
+-   `hpp` — Hosted payment page. It is when a customer needs to be redirected to external **HPP** provided by **Payment Service Provider**.
+-   `invoice` — when a customer needs to pay by payment details. At the same time, the payment process outside the processing and asynchronous. This can be a manual transfer to a digital wallet, or bank Wire-transfer, or payment in a self-service kiosk by cash., etc.
+-   `card` — used for host-to-host card payment processing. Requires PCI DSS.
+-   `test` — used only for testing.
 
-### What payment and payout services does [PayCore.io](http://PayCore.io) support?
+### What payment and payout services does [PayCore.io](https://paycore.io/) support?
 
 First of all, the payment hub unifies the protocols and interaction with external payment providers.
 
