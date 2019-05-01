@@ -1,5 +1,7 @@
 # Basic Concepts
 
+Let's look at the basic concepts with which the payment hub operates.
+
 ## What is a Payment Gateway?
 
 The main job of a payment gateway is to validate your customer’s credit card details securely, make sure the funds are available for the payment and get you paid.
@@ -10,165 +12,140 @@ A payment gateway is a service that authorizes credit card payments for online a
 
 Payment gateways are often confused with merchant accounts. To take payments online you need both a payment gateway and a merchant account. A merchant account is where funds are held before being deposited into your bank account. The role of the payment gateway is simply to decline or approve a transaction.
 
-Merchant accounts are the types of bank accounts that authorize merchants to accept credit or debit cards payments online. These accounts are required if you want to use a payment gateway to process transactions from your website.
+Merchant accounts are the types of financial accounts that authorize merchants to accept payments online. These accounts are required if you want to use a payment gateway to process transactions from your website.
 
-It's worth noting that merchant accounts are often called MIDs (or merchant IDs).
+## Payment Service Providers
 
-Many payment processing and payment gateway companies provide merchant accounts. These accounts can also be opened with some large banks that provide such services.
-
-In most cases, Independent sales organizations (ISOs) or Member Service Providers (MSPs) provide these accounts. These organizations have agreements with payment processors. In addition to this, independent contractors or Agents of ISOs also provide Merchant accounts.
-
-In all cases, to acquire a merchant account, one must have some sort of arrangement with a payment processor to charge a customer's credit/debit card.
-
-There are a variety of payment gateways and payment processors out there. They vary in the monthly fees and transaction costs. It is vital to choose the right company for your merchant account if you plan to run a profitable online business.
-
-## What is a Payment Service Provider?
+### What is a Payment Service Provider?
 
 Payment Service Providers (or PSPs) act as both a merchant account and the payment gateway, helping businesses to collect and manage their payments. Payments go to the PSP and are then transferred on to you.
 
-In details, a  **payment service provider**  (**PSP**) offers shops online services for accepting electronic payments by a variety of payment methods including  [credit card](https://en.wikipedia.org/wiki/Credit_card "Credit card"), bank-based payments such as  [direct debit](https://en.wikipedia.org/wiki/Direct_debit "Direct debit"),  [bank transfer](https://en.wikipedia.org/wiki/Bank_transfer "Bank transfer"), and real-time bank transfer based on  [online banking](https://en.wikipedia.org/wiki/Online_banking "Online banking"). Typically, they use a  [software as a service](https://en.wikipedia.org/wiki/Software_as_a_service "Software as a service")  model and form a single  [payment gateway](https://en.wikipedia.org/wiki/Payment_gateway "Payment gateway")  for their clients (_merchants_) to multiple payment methods.
+In details, a  **payment service provider**  (**PSP**) offers shops online services for accepting electronic payments by a variety of payment methods including  [credit card](https://en.wikipedia.org/wiki/Credit_card "Credit card"), bank-based payments such as  [direct debit](https://en.wikipedia.org/wiki/Direct_debit "Direct debit"),  [bank transfer](https://en.wikipedia.org/wiki/Bank_transfer "Bank transfer"), and real-time bank transfer based on  [online banking](https://en.wikipedia.org/wiki/Online_banking "Online banking").
 
-Typically, a PSP can connect to multiple  [acquiring banks](https://en.wikipedia.org/wiki/Acquiring_bank "Acquiring bank"), card, and  [payment networks](https://en.wikipedia.org/wiki/Payment_network "Payment network"). In many cases, the PSP will fully manage these technical connections, relationships with the external network, and bank accounts. This makes the merchant less dependent on financial institutions and free from the task of establishing these connections directly, especially when operating internationally. Furthermore, by negotiating bulk deals they can often offer cheaper fees.
+Typically, a PSP can connect to multiple  [acquiring banks](https://en.wikipedia.org/wiki/Acquiring_bank "Acquiring bank"), card, and  [payment networks](https://en.wikipedia.org/wiki/Payment_network "Payment network"). In many cases, the PSP will fully manage these technical connections, relationships with the external network, and bank accounts.
 
-Furthermore, a full-service PSP can offer  [risk management](https://en.wikipedia.org/wiki/Risk_management "Risk management")  services for card and bank-based payments, transaction payment matching, reporting, fund  [remittance](https://en.wikipedia.org/wiki/Remittance "Remittance")  and fraud protection in addition to  [multi-currency](https://en.wikipedia.org/w/index.php?title=Multi-currency&action=edit&redlink=1 "Multi-currency (page does not exist)")  functionality and services. Some PSPs provide services to process other next-generation methods ([payment systems](https://en.wikipedia.org/wiki/Payment_systems "Payment systems")) including cash payments, wallets, prepaid cards or vouchers, and even paper or  [e-check](https://en.wikipedia.org/wiki/Electronic_funds_transfer "Electronic funds transfer")  processing.
+Furthermore, a full-service PSP can offer  [risk management](https://en.wikipedia.org/wiki/Risk_management "Risk management")  services for card and bank-based payments, transaction payment matching, reporting, fund  [remittance](https://en.wikipedia.org/wiki/Remittance "Remittance")  and fraud protection in addition to  [multi-currency](https://en.wikipedia.org/w/index.php?title=Multi-currency&action=edit&redlink=1 "Multi-currency (page does not exist)")  functionality and services.
 
-A PSP is thus a much broader term than a  [payment gateway](https://en.wikipedia.org/wiki/Payment_gateway "Payment gateway")  which is how the  [payment card industry](https://en.wikipedia.org/wiki/Payment_card_industry "Payment card industry")  refers to them.
+Some PSPs provide services to process other next-generation methods ([payment systems](https://en.wikipedia.org/wiki/Payment_systems "Payment systems")) including cash payments, wallets, prepaid cards or vouchers, and even paper or  [e-check](https://en.wikipedia.org/wiki/Electronic_funds_transfer "Electronic funds transfer")  processing.
 
-PSP fees are typically levied in one of two ways: as a percentage of each transaction or a fixed cost per transaction.
+Full-service payment service providers like [Stripe](https://www.stripe.com/), [Braintree](https://www.braintreepayments.com/), [PayPal](https://www.paypal.com/), [Adyen](https://www.adyen.com/home/) are typically easier and quicker to get started with as you don't need to set up your own merchant account (and if you do the provider will offer that too).
 
-There are more than 900 payment providers in the world. More than 300 offer services for Europe and North America.
+### What Payment providers does [PayCore.io](http://PayCore.io) support?
 
-## How does a payment gateway work?
+The platform supports all possible currencies, methods, flow and payment providers.
 
-There are four simple steps in the payment gateway process:
- 
-**1. Collection**  
-Your customer chooses the product or service they want to purchase and then enters their credit card details onto your payment page. This information is then directed to your payment gateway.
+A complete list of already implemented integrations with payment providers can be found [here](http://confluence.paymaxi.com).
 
-**2. Authentication**  
-Your payment gateway then takes this information and sending it via a shielded link to your bank account.
+There are more than 900 payment providers in the world.
 
-**3. Authorization**  
-At this point, you will know that the sale has been approved and you can deliver the ordered products or services.
+Even if you do not find the provider you are interested in, you can always [request its implementation](http://confluence.paymaxi.com) from us at any time.
 
-**4. Settlement**  
-At last, the transaction data is verified by your bank and the money from the sale is deposited into your account. When the actual payment will arrive in your account will depend on your payment gateway – it can be as little as real-time or as long as 21 working days.
+## Currencies
 
-## What payment gateway options are there?
+### What is the currency?
 
-There are a lot of different options for you to choose from when looking at a payment gateway. Some of the main options include:
+A  **currency**, in the most specific sense is  [money](https://en.wikipedia.org/wiki/Money "Money")  in any form when in use or circulation as a  [medium of exchange](https://en.wikipedia.org/wiki/Medium_of_exchange "Medium of exchange"), especially circulating  [banknotes](https://en.wikipedia.org/wiki/Banknote "Banknote")  and  [coins](https://en.wikipedia.org/wiki/Coin "Coin").  A more general definition is that a currency is a  _system of money_  (monetary units) in common use, especially for people in a nation. Under this definition,  [US dollars](https://en.wikipedia.org/wiki/United_States_dollar "United States dollar")  (US\$),  [pounds sterling](https://en.wikipedia.org/wiki/Pound_sterling "Pound sterling")  (£),  [Australian dollars](https://en.wikipedia.org/wiki/Australian_dollars "Australian dollars")  (A\$),  [European euros](https://en.wikipedia.org/wiki/Euro "Euro")  (€),  [Russian rubles](https://en.wikipedia.org/wiki/Russian_ruble "Russian ruble")  (₽) and  [Indian Rupees](https://en.wikipedia.org/wiki/Indian_Rupee "Indian Rupee")  (₹) are examples of currency. These various currencies are recognized as stores of value and are traded between nations in  [foreign exchange markets](https://en.wikipedia.org/wiki/Foreign_exchange_market "Foreign exchange market"), which determine the relative values of the different currencies. Currencies in this sense are defined by governments, and each type has limited boundaries of acceptance.
 
-### Payment Gateways
+Currencies can be classified into two  [monetary systems](https://en.wikipedia.org/wiki/Monetary_system "Monetary system"):  [fiat money](https://en.wikipedia.org/wiki/Fiat_money "Fiat money")  and  [commodity money](https://en.wikipedia.org/wiki/Commodity_money "Commodity money"), depending on what guarantees the currency's value.  [Digital currency](https://en.wikipedia.org/wiki/Digital_currency "Digital currency")  has arisen with the popularity of computers and the  [Internet](https://en.wikipedia.org/wiki/Internet "Internet").
 
-Before you can start taking payments with a payment gateway, you will typically need:
+### Digital currencies
 
--   A UK business bank account
--   A business plan and one page summary of what your business will be doing
--   A website (if you plan to trade online) with terms and conditions
--   Management accounts and a profit & loss projection for the next 6 months minimum
+**Digital currency** (**digital money**, **electronic money** or **electronic currency**) is a type of [currency](https://en.wikipedia.org/wiki/Currency "Currency") available in digital form (in contrast to physical, such as [banknotes](https://en.wikipedia.org/wiki/Banknote "Banknote") and [coins](https://en.wikipedia.org/wiki/Coin "Coin")). It exhibits properties similar to physical currencies, but can allow for instantaneous transactions and borderless transfer-of-ownership. Examples include [virtual currencies](https://en.wikipedia.org/wiki/Virtual_currency "Virtual currency") and [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency "Cryptocurrency") and [central bank](https://en.wikipedia.org/wiki/Central_bank "Central bank") issued money accounted for in a computer database (including [digital base money](https://en.wikipedia.org/wiki/Digital_base_money "Digital base money")). Like traditional [money](https://en.wikipedia.org/wiki/Money "Money"), these currencies may be used to buy physical [goods](https://en.wikipedia.org/wiki/Goods "Goods") and [services](https://en.wikipedia.org/wiki/Service_(economics) "Service (economics)"), but may also be restricted to certain communities such as for use inside an online game or social network.
 
-Setting up a merchant account requires a good relationship with a bank, and a minimum value of transactions a month (around £10,000). Banks will also typically require a bond of at least £10,000 (more if you’re in a high-risk industry).
+### What currencies does [PayCore.io](http://PayCore.io) support?
 
-Examples:
+In general, [PayCore.io](http://PayCore.io) supports all the currencies in the world.
 
--   [Braintree](https://www.braintreepayments.com/)
--   [Sage Pay](https://www.sagepay.co.uk/)
--   [Authorize.net](https://www.authorize.net/)
--   [PaymentExpress](https://www.paymentexpress.com/)
--   [TrustCommerce](http://www.trustcommerce.com/)
+This need is dictated by the fact that [PayCore.io](http://PayCore.io) integrates various payment providers that can process any currency, including digital and crypto.
 
-### Full-service Payment Providers (Payment Gateway and Merchant Account)
+A list of all supported currencies can be found in our [currency directory](http://confluence.paymaxi.com).
 
-It is generally quite simple to get set up with a Payment Service Provider but requirements do still vary from provider to provider.
+## Payment and payout methods
 
-If you choose to use a newer full-service provider like Stripe then you’ll just need a bank account, email address, your account details and to answer some questions about your business.
+### What is the payment method?
 
-Full-service payment service providers are typically easier and quicker to get started with as you don’t need to set up your own merchant account (and if you do the provider will offer that too).
+The most common alternative payment methods are debit cards,  [charge cards](https://en.wikipedia.org/wiki/Charge_card "Charge card"),  [prepaid cards](https://en.wikipedia.org/wiki/Prepaid_cards "Prepaid cards"),  [direct debit](https://en.wikipedia.org/wiki/Direct_debit "Direct debit"), bank transfers,  [phone](https://en.wikipedia.org/wiki/Phone "Phone")  and  [mobile payments](https://en.wikipedia.org/wiki/Mobile_payments "Mobile payments"),  [checks](https://en.wikipedia.org/wiki/Cheque "Cheque"),  [money orders](https://en.wikipedia.org/wiki/Money_orders "Money orders")  and  [cash](https://en.wikipedia.org/wiki/Cash "Cash")  payments.
 
-Examples:
+More details can be found in the article on [Wikipedia](https://en.wikipedia.org/wiki/Alternative_payments).
 
--   [Stripe](https://www.stripe.com/)
--   [Braintree](https://www.braintreepayments.com/)
--   [PayPal](https://www.paypal.com/)
--   [Adyen](https://www.adyen.com/home/)
+Or take a look at [a guide to payment methods](https://stripe.com/payments/payment-methods-guide).
 
-## Which payment gateway should I choose?
+### What difference between payment and payout methods?
 
-Choosing a payment gateway (or a full-service payment provider) can be difficult. We have come up with a list of 10 quick questions to help you choose the right payment gateway for you.
+In general, there is no difference between payment methods and payments. This separation is necessary only for ease of identification.
 
-### How soon do you need to start accepting payments?
+Payment methods used for payments in the payment gateway. Payouts, respectively.
 
-Setting up a merchant account and payment gateway will usually take around 3 – 4 weeks. However, some payment gateway providers like PayPal and Stripe let you sign up without a merchant account and get started straight away.
+### What methods does [PayCore.io](http://PayCore.io) support?
 
-While most payment gateways offer help setting up a merchant account, obtaining one can still be a long and complex process - particularly if you’re a new or small business going through the process for the first time.
+Supported by widespread access to high-speed internet and the insatiable appetite of customers for convenience, online commerce is progressing rapidly around the world and estimated to reach $4T (source: eMarketer) in 2020. But when it comes to payments online, businesses expanding internationally and taking advantage of the increased reach that online commerce provides them with are met with widely varying customer preferences. Not only can delivery terms be quite different (pay after delivery, for example, common in Europe and Asia, requires businesses to only expect payment once they’ve shipped goods) but the payment methods used for online transactions themselves vary too. Credit and debit cards, not always the most trusted option, only account for half of the online transactions globally. Bank payments, digital wallets, and cash are in strong customer demand, and can even offer additional benefits to businesses such as lower risks and transaction costs.
 
-### How much do you want to spend on a payment gateway?
+That's why, [PayCore.io](http://PayCore.io) supports all the payment and payout methods implemented by payment providers that connected to our platform.
 
-Cost is obviously a concern for every business. Before committing to any payment gateway provider make sure you are aware of their fee structure. The most important thing to think about is fully-loaded costs: set-up costs + transaction costs + admin costs.
+A list of all supported currencies can be found in our [payment and payout methods directory](http://confluence.paymaxi.com).
 
-A payment gateway and merchant account will typically cost around £600 – 900 in set-up costs, 15p + 2% per transaction and a £50-100 monthly fee. You will usually also be charged extra fees for any chargebacks.
+## Payment and payout services
 
-If you only take a relatively low volume of online payments, then you should try to avoid monthly fees and a high setup cost. You may want to look at a full-service provider like Stripe which is quick and free to set up. You might also want to consider Direct Debit which is typically cheaper than card payments.
+### What are payment and payout services?
 
-### How soon do you need to receive funds from your sales?
+Данный термин специально введен для идентификации методов в связке с валютой. Часто, платежные провадеры оперируют именно комбинацией метода и валюты. Это позволяет точно оперировать одним термином для маршрутизации на стороне провайдера, взаимодействуя по единому коду, вместо двух.  
+Сервисы включают в себя свойства и параметры, необходимые для инициализации платежа или выплаты.  
+Это как контракт на протокол взаимодействия с шлюзом.  
+Шлюз может всегда ожидать пераметры перечисленные в свойствах сервиса.
 
-While you will usually know that a payment has been approved straight away it typically takes a few days for a payment to be settled. Payment timings vary significantly from provider to provider.
+This term is specifically introduced to identify methods in conjunction with currency. Often, payment providers use exactly the combination of method and currency. This allows you to accurately operate with one term for routing on the provider side, interacting with a single code, instead of two.  
+Services include the properties and parameters required to initiate a payment or payout.  
+This is like a contract for the gateway protocol.  
+The gateway can always expect the parameters listed in the service properties.
 
-Some gateway providers hold onto your funds (or a certain % of your funds) for up to 30 days while others can settle your funds as quickly as the next day. Some providers may also only pay out funds on set days. Ideally, you should look for a provider that pays out every day.
+**Example:** If you need to make a payout on a _PayPal account_ by _email_, then obviously, for this you need to send some details. For service, they look like this:
 
-### Does the payment gateway offer international payments?
+    {
+        "code": "paypal_email_usd",
+        "method": "paypal",
+        "currency": "USD",
+        "amount_min": 0.01,
+        "amount_max": 10000,
+        "fields": [
+          {
+            "key": "email",
+            "type": "string",
+            "label": {
+              "en": "Email",
+              "uk": "Електронна пошта"
+            },
+            "hint": {
+              "en": "Enter email",
+              "uk": "Введіть адресу електронної пошти"
+            },
+            "regexp": "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$",
+            "required": true,
+            "position": 1
+          }
+        ]
+    }
 
-If you need to take international payments – or may want to in the future – you should check whether the payment gateway offers international and multi-currency payments or an interface with multiple languages.
+### What differences between payment and payout services?
 
-You should also check whether there are any additional fees for accepting multi-currency payments or payments from other countries and whether you will need to have a merchant account in a specific country.
+The only difference between the payment and payout services is that the payment service has **flow** property.
 
-### How secure is the payment gateway?
+**Flow** code determines the scenario of the payment processing.
 
-Security is obviously a key concern when taking payments. You should make sure you only use a provider which is level 1 compliant with the Payment Card Industry Data Security Standard (PCI DSS) and that offers built-in security capabilities (such as tokenization).
+There are 4 basic payment processing flows:
 
-You should also consider the fraud protection and screening tools offered. Most payment gateways offer a number of tools to help you guard against fraud, such as filters to define who or where you receive payments from. These tools are particularly important if you will be accepting payments from people who you don't have an existing relationship with.
+-   **hpp** — Hosted payment page. It is when a customer needs to be redirected to external **HPP** provided by **Payment Service Provider**.
+-   **invoice** — when a customer needs to pay by payment details. At the same time, the payment process outside the processing and asynchronous. This can be a manual transfer to a digital wallet, or bank Wire-transfer, or payment in a self-service kiosk by cash., etc.
+-   **card** — used for host-to-host card payment processing. Requires PCI DSS.
+-   **test** — used only for testing.
 
-### What level of support does the payment gateway offer?
+### What payment and payout services does [PayCore.io](http://PayCore.io) support?
 
-Customer experience is one of those under-valued areas which can really hurt your business down the line and as such is worth taking seriously from the off.
+First of all, the payment hub unifies the protocols and interaction with external payment providers.
 
-You should look for a payment gateway which offers support when you need it and in a way you can get it. Questions you might want to ask are:
+Therefore, it is necessary to have a single payment and payout service codes directory.
 
--   Does the provider only offer email support or do they offer a range of support?
--   How responsive is the support?
--   Where is the customer support based? Do they work the same hours as you?
--   Do you need to pay extra for customer support?
-
-A good place to start is contacting them to see how the initial experience goes as well as doing research online into other customers’ experiences.
-
-### What types of cards are accepted by the Payment Gateway?
-
-Payment gateways typically accept VISA, Mastercard and most accept American Express. Paypal is also becoming popular for online payments. If you’re collecting international payments you may want to check that the gateway supports local credit card types (e.g beyond Visa, Amex, MasterCard and Discover).
-
-### Does the payment gateway offer automatic recurring payments?
-
-If you want to take recurring payments you may want to look for a system that will store your clients’ credit card numbers and let you automatically charge them on a recurring basis. Many gateways now have this feature, but in almost all cases they also require your business to have an online merchant account. PayPal Standard, Google Checkout and some others are unable to handle this kind of pre-authorized transaction.
-
-### Does the payment gateway offer hosted or non-hosted payments?
-
-**Hosted payment gateways**
-
-A hosted payment gateway redirects a customer away from your checkout page to a securely ‘hosted’ payment page. Once payment has been made then your customer will be returned to your website and the order will be confirmed.
-
-Redirecting to another site reduces the risk around storing and transacting credit cards and helps you to meet PCI requirements. Hosted solutions can also be more suitable for small to medium-sized businesses that require a quick and cost-effective way to securely accept card payments online. However, it also means sending a prospective customer to another site at a critical point in the payment process. If this extra step makes your payment process longer or slower or if the payment page looks significantly different to your site customers may fail to complete their payment - 22% of customers blame the failure to complete a payment on a long/ slow payment process while 58% blame security concerns.
-
-**Non-hosted payment gateway**
-
-Using a non-hosted payment gateway, your customers will be able to enter their details without leaving your site. To take payments onsite you typically need an SSL certificate and to comply with certain legal and technical PCI requirements.
-
-However, some of the full-service payment providers like Stripe and Braintree allow you to send card details directly from your customer’s browser to the provider meaning that it never hits your server. This makes the payment process much simpler for your customers without imposing any more requirements on you.
-
-### Can the payment gateway be used with your existing/planned integrations?
-
-You will want to consider whether the payment gateway integrates with your current billing, shopping cart, accounting solutions you are using. Ideally, the payment gateway you choose will be integrated with the software you already have, but you could not manage multiples Payment Providers connections.
-
-So you should still look for a service that is integrated with software provider —  [PayCore.io](http://paycore.io/), both because it increases convenience and saves you time and because it signals that the provider has an API that is easy to integrate against, saving you development time down the road.
+The full directory is available [here](http://confluence.paymaxi.com).
 
 ## Next
 
-Let's take a look at how you could connect different payment providers in the  [next article](#).
+Let's take a look at how you could connect different payment providers in the [next article](http://confluence.paymaxi.com).
