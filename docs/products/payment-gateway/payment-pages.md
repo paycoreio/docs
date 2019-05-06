@@ -1,1 +1,0 @@
-# Payment Gateway: Payment Pages
