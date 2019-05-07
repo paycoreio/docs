@@ -1,3 +1,3 @@
 # Ledger
 
-Under construction...
+![Ledger illustration](ledger-illustration.jpg)

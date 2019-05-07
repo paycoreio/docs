@@ -1,5 +1,4 @@
-# Organisation
-
+# Organization Account
 
 Organisation is an important management part of [PayСore.io Dashboard](https://dashboard.paycore.io/). 
 
@@ -19,9 +18,7 @@ In these cases "Organisation settings" is structurally divided into 3 sections:
 
 3. [Access control](access)
 
-!!! info "Screenshot"
-    [![img](images/org1.png)](images/org1.png)
-
+![img](images/org1.png)
 
 You can **`Create`** your own organisation or become a member of **`Existing`** one.
 
@@ -57,9 +54,8 @@ After Signing up new organisation will be created automticaly.
 !!! tip    
     To switch current organisation manualy - just choose it in organisation list!
 
-!!! info "Screenshots"
-    [![ORG](images/org_create1.png)](images/org_create1.png)
-    [![ORG](images/org_create2.png)](images/org_create2.png)
+![ORG](images/org_create1.png)
+![ORG](images/org_create2.png)
 
 ## General settings
 In "General" section You can:
@@ -75,6 +71,5 @@ In "General" section You can:
 !!! tip
     **Don't forget to Save changes to confirm your choice!**
 
-!!! info "Screenshot"
-    [![img](images/org_general1.png)](images/org_general1.png)
+![img](images/org_general1.png)
     
