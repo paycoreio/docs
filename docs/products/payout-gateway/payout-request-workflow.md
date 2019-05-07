@@ -9,15 +9,13 @@
 
 ## Workflow
 
-!!! info "Workflow State diagram"
-    [![Payout Request Workflow](images/payout_request_state_diagram.png)](images/payout_request_state_diagram.png)
+![Payout Request Workflow](images/payout_request_state_diagram.png)
 
 ## Payout Request Status
 
 **Payout Request status** —  is a property, based on which it can be unambiguously stated at what stage the payout request is. 
 
 Same to Payout, Payout Request status has **`final`** property, which can be **true (Yes)** or **false (No)**, and **`sleep`** - which explains if operation can wait in certain status to be modified manualy. 
-
 
 | Code                | Final | Description                                                           |
 |---------------------|-------|-----------------------------------------------------------------------|

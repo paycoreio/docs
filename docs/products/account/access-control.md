@@ -22,14 +22,11 @@ Here you can manage your organisation team:
         User will recieve an invitation to email with **`Join`** button. Join confirmation after sign in is required.
         After join accepting it will be automatically swiched to joined organisation!
    
-    !!! info "Screenshots"
-        [![Member Management](images/org_memb1.png)](images/org_memb1.png)
-        [![Member Management](images/org_memb2.png)](images/org_memb2.png)
-        [![Member Management](images/org_memb3.png)](images/org_memb3.png)
-        [![Member Management](images/org_memb4.png)](images/org_memb4.png)
-        [![Member Management](images/org_memb5.png)](images/org_memb5.png)
-
-
+![Member Management](images/org_memb1.png)
+![Member Management](images/org_memb2.png)
+![Member Management](images/org_memb3.png)
+![Member Management](images/org_memb4.png)
+![Member Management](images/org_memb5.png)
 
 - [x] Modify member
 
@@ -47,10 +44,7 @@ Here you can manage your organisation team:
     
             You can create **`New role`** based on individuial access scope!
 
-        !!! info "Screenshot"
-            [![Member Management](images/org_memb6.png)](images/org_memb6.png)
-
-            
+![Member Management](images/org_memb6.png)
 
     - Perform actions
     
@@ -65,24 +59,14 @@ Here you can manage your organisation team:
         - Activate
         - Archive
 
-
-
-
-
-!!! tip
-    **Don't forget to Save changes to confirm your choice!**
-
-
-
 User access to the organisation is primarily determined  by the status of a team member related to this user.
 
-|    **ID**      |               **Name**       |        **Organisation Access**       |
-|:--------------:|:----------------------------:|:----------------------------:|
-| **invited**      | The invited member  has no access to the organisation until he independently activates it through the mechanism of confirmation. When you try to enter the organisation, you will be redirected to the confirmation screen. A member can be deleted only in **`invited`** state using **_"Revoke invite"_** action.      | **FALSE**         |
-| **active**      | Active user, team member        | <span style="background-color:#79f99b"> **TRUE**</span    >         |
-| **inactive**      | Inactive team member, does not have access to the organisation. When try to access,you will be shown an error screen with message - "No access rights. Contact your organisation administrator."       |  **FALSE**       |    
-| **archived**      | Archived inactive team member. Not displayed in the management list of the team and its directory.        |  **FALSE**       |
-
+|    **ID**    | **Name** |
+|:------------:|----------|
+|  **invited** | The invited member  has no access to the organisation until he independently activates it through the mechanism of confirmation. When you try to enter the organisation, you will be redirected to the confirmation screen. A member can be deleted only in **`invited`** state using **_"Revoke invite"_** action. |
+|  **active**  | Active user, team member |
+| **inactive** | Inactive team member, does not have access to the organisation. When try to access,you will be shown an error screen with message - "No access rights. Contact your organisation administrator." |
+| **archived** | Archived inactive team member. Not displayed in the management list of the team and its directory. |
 
 !!! warning
     Inactive team member, does not have access to the organisation. 
@@ -97,14 +81,14 @@ In this section You can manage Access roles in current organisation!
     Take stock, that You **can NOT** **`Modify`** or **`Delete`**  System Roles! 
     
 ### System roles
-|    **ID**      |               **Name**       |        **Description**       |
-|:--------------:|:----------------------------:|:----------------------------:|
-| **Owner**      | Owner of organisation        |<ul align="left" > <li >**Only 1 member** of the team can have this role!</li><li>The user with this role cannot be removed from the command.</li><li> This role can be transferred to other team members by lowering the rights to the admin role.</li></ul>|
-| **Administrator**      | Organisation administrator   |Full access to the organisation, including the ability to manage access and team members (cannot delete a user with role **`owner`**).       |
-| **Manager**    | Organisation manager         |Full read and write access, without the ability to manage **organisation** and **technical aspects**: _set up integrations, webhook, see keys, regenerate them, etc._      |
-| **Developer**  | Organisation developer       |  Full read and write access, without the ability to manage **organisation** and **business aspects**: _re-wire payments, edit customers, organization data, etc._     |
-| **Watcher**    | Watcher of  organisation     | **Only read** access  of all data, except **"sensitive data"**, such as: _keys, webhook URL, integration, etc._      |
 
+| **ID** | **Name** | **Description** |
+|:------:|:--------:|-----------------|
+| **Owner** | Owner of organisation | **Only 1 member** of the team can have this role! The user with this role cannot be removed from the command. This role can be transferred to other team members by lowering the rights to the admin role. |
+| **Administrator** | Organisation administrator | Full access to the organisation, including the ability to manage access and team members (cannot delete a user with role **`owner`**). |
+| **Manager** | Organisation manager | Full read and write access, without the ability to manage **organisation** and **technical aspects**: _set up integrations, webhook, see keys, regenerate them, etc._ |
+| **Developer** | Organisation developer | Full read and write access, without the ability to manage **organisation** and **business aspects**: _re-wire payments, edit customers, organization data, etc._ |
+| **Watcher** | Watcher of  organisation | **Only read** access  of all data, except **"sensitive data"**, such as: _keys, webhook URL, integration, etc._ |
 
 Here you can manage your organisation roles and their access scope:
 
@@ -116,11 +100,5 @@ Here you can manage your organisation roles and their access scope:
     !!! warning
         You can Delete **only if It has NO members assigned to**!
 
-!!! tip
-    **Don't forget to Save changes to confirm your choice!**
-
-
-!!! info "Access Control: Role Access management"
-    [![Security](images/org_access1.png)](images/org_access1.png)
-    [![Security](images/org_access2.png)](images/org_access2.png)
-
+![Security](images/org_access1.png)
+![Security](images/org_access2.png)

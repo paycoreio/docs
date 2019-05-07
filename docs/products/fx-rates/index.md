@@ -1,5 +1,7 @@
 # Exchange Rates
 
+![FX Rates illustration](images/fx-rates-illustration2.jpg)
+
 ## Overview
 
 In finance, an **`exchange rate`** or  **`currency rate`**   is the rate at which one currency will be exchanged for another. It is also regarded as the value of one country’s currency in relation to another currency.

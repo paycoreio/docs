@@ -1,4 +1,6 @@
-# Analytics
+# Analytics: Overview
+
+![Analytics illustration](images/analytics-illustration.jpg)
 
 ## General 
 
@@ -14,8 +16,6 @@ The proccesses of data generating, aggregating and visualizing are provided by e
 
 ![Overview](images/overview3.png)
 
-
-
 ## General workflow
 
 Basic Analytics workflow includes next steps:
@@ -29,4 +29,3 @@ Basic Analytics workflow includes next steps:
 4. Create Alert for Query. (**_optional_**) 
 
 ![Overview](images/overview2.png)
-

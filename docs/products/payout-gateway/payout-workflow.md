@@ -6,8 +6,7 @@
 
 ## Workflow
 
-!!! info "Workflow State diagram"
-    [![Payout Workflow](images/payout_state_diagram.png)](images/payout_state_diagram.png)
+![Payout Workflow](images/payout_state_diagram.png)
 
 ## Payout status
 
@@ -50,12 +49,14 @@ The resolution explains why the payout is in this status and, in fact, is the co
 |---------------------------|-------------------------------------------------------------------------------------------------------------|
 | **OK GROUP**              |                                                                                                             |
 | OK                        | Request completed successfully                                                                              |
+|                           |                                                                                                             |
 | **ERROR GROUP**           | not final resolution, needed to determining                                                                 |
 | CONNECTION_ERROR(NOT 200) | Transport level error. Example: Invalid SSL certificate, HTTP 5**, 4**, 3**                                 |
 | PROVIDER_INTERNAL_ERROR   | Error on Payment provider side. For example: 500 Internal Server Error                                      |
 | CONNECTION_TIMEOUT_ERROR  | Request time limit exceeded                                                                                 |
 | GENERAL_ERROR             | General not critical error                                                                                  |
 | UNKNOWN                   | Any other resolution missing in mapping                                                                     |
+|                           |                                                                                                             |
 | **FATAL ERROR GROUP**     | final resolution                                                                                            |
 | INVALID_DETAILS           | Invalid payout details                                                                                      |
 | INVALID_REQUEST           | The protocol may have changed and/or the extension is outdated                                              |

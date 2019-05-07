@@ -59,4 +59,3 @@ If you leave the **`REARM`** value empty alerts will only be sent when the statu
 ## Get an Alert Everytime the Query Runs
 
 To get an alert every time the query runs, set the **`REARM`** value - the value is for seconds that pass since the system detects a change until it sends the alert, a 1-minute “delay” would require entering ‘60’ in the **`REARM`** field.
-

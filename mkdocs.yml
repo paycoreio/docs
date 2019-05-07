@@ -76,29 +76,32 @@ nav:
         - Basic Concepts: 'products/provider-hub/basic-concepts.md'
         - Accounts Hierarchy: 'products/provider-hub/accounts-hierarchy.md'
         - Managing Accounts: 'products/provider-hub/managing-accounts.md'
-    - Payment gateway:
+    - Payment Gateway:
         - Overview: 'products/payment-gateway/index.md'
         - Basic Concepts: 'products/payment-gateway/basic-concepts.md'
         - Managing Payments: 'products/payment-gateway/managing-payments.md'
         - Managing Routing: 'products/payment-gateway/managing-routing.md'
         - Payment Workflow: 'products/payment-gateway/payment-workflow.md'
         - Payment Request Workflow: 'products/payment-gateway/payment-request-workflow.md'
-    - Payout gateway:
+    - Payout Gateway:
         - Overview: 'products/payout-gateway/index.md'
         - Basic Concepts: 'products/payout-gateway/basic-concepts.md'
-        - Managing Payments: 'products/payout-gateway/managing-payments.md'
+        - Managing Payouts: 'products/payout-gateway/managing-payouts.md'
         - Managing Routing: 'products/payout-gateway/managing-routing.md'
         - Payout Workflow: 'products/payout-gateway/payout-workflow.md'
         - Payout Request Workflow: 'products/payout-gateway/payout-request-workflow.md'
     - Commerce:
         - Overview: 'products/commerce/index.md'
+        - Basic Concepts: 'products/commerce/basic-concepts.md'
         - Commerce Accounts: 'products/commerce/commerce-account.md'
-        - Commerce Schemes: 'products/commerce/commerce-scheme.md'
+        #- Commerce Schemes: 'products/commerce/commerce-scheme.md'
         - Currency Accounts: 'products/commerce/currency-account.md'
+        - Managing Payments: 'products/commerce/managing-payments.md'
+        - Managing Payouts: 'products/commerce/managing-payouts.md'
         - Payment Invoice: 'products/commerce/payment-invoice.md'
         - Payout Invoice: 'products/commerce/payout-invoice.md'
     - Ledger: 'products/ledger/index.md'        
-    - Batch payouts: 'products/batch-payouts/index.md'
+    #- Batch Payouts: 'products/batch-payouts/index.md'
     - HPP:
         - Overview: 'products/hpp/index.md'
     - FX Rates: 'products/fx-rates/index.md'

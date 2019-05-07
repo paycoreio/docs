@@ -1,3 +1,4 @@
+# Dashboard
 
 ## Introduction
 
