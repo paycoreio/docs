@@ -195,15 +195,36 @@ Callback Request будет содержать уникальный ID плат�
 **Пример запроса:**
 
 ```html
-<form action="https://com-dev.paycore.io/hpp/" method="GET">
-<input type="hidden" name="apiKey"
- value="com_pk_live_HSKvL3hEoENeA-V0VMKrkdtEz-7ZdDdoEDrxMsJC8ec"/>
+<form action="https://com.paycore.io/hpp/" method="GET">
+<input type="hidden" name="public_key"
+ value="pk_live_mF-EbTQBhz15e4AWAQNq-CFrBIdAEKG2pFSuj7JudNY"/>
  <!-- Change this key. Don't forget to allow public creation -->
 <input type="hidden" name="reference_id" id="reference_id" />
 <input type="hidden" name="currency" value="UAH"/>
 <input type="hidden" name="description" value="Test payment"/>
 Amount: <input type="text" name="amount" value="100"/> <br/>
 <input type="submit" value="PAY">
+</form>
+
+<script>
+window.document.getElementById('reference_id').value 
+		= Math.random().toString(36).slice(-10);
+</script>
+
+```
+
+**Пример запроса с авто-перенаправлением на оплату:**
+
+```html
+<form action="https://com.paycore.io/public-api/payment-invoices/process" method="POST">
+    Amount: <input type="text" name="amount" value="100"/> <br/>
+    <input type="hidden" name="public_key" 
+				value="pk_live_mF-EbTQBhz15e4AWAQNq-CFrBIdAEKG2pFSuj7JudNY"/>
+		<!-- Change this key. Don't forget to allow public creation -->
+    <input type="hidden" id="reference_id" name="reference_id"/>
+    <input type="hidden" name="currency" value="UAH"/>
+    <input type="hidden" name="service" value="bank_card_uah_hpp"/>
+    <input type="submit" value="PAY">
 </form>
 
 <script>
