@@ -58,6 +58,7 @@ nav:
 - Getting started:
     - Introduction: 'index.md'   
     - Setting up account: 'getting-started/setting-up-account.md'
+    - First payment & payout: 'getting-started/first-payment.md'
     - Play with API: 'getting-started/play-with-api.md'
     - FAQ: 'getting-started/faq.md'
     - Glossary: 'getting-started/glossary.md'
