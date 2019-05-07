@@ -4,8 +4,7 @@
 
 [ **PayСore.io Analytics**](https://analytics.paycore.io) - is a partly separated plugin, which is intended to generate, aggregate and create accessible and understandable visualization of your bussiness data.
 
-!!! info "Screenshots"
-    [![Overview](images/overview1.png)](images/overview1.png)
+![Overview](images/overview1.png)
 
 The proccesses of data generating, aggregating and visualizing are provided by entities:
 
@@ -13,8 +12,7 @@ The proccesses of data generating, aggregating and visualizing are provided by e
 - Dashboard
 - Alert
 
-!!! info "Screenshots"
-    [![Overview](images/overview3.png)](images/overview3.png)
+![Overview](images/overview3.png)
 
 
 
@@ -30,7 +28,5 @@ Basic Analytics workflow includes next steps:
 3. Add Query Visualization to Dashboard
 4. Create Alert for Query. (**_optional_**) 
 
-
-!!! info "Screenshots"
-    [![Overview](images/overview2.png)](images/overview2.png)
+![Overview](images/overview2.png)
 

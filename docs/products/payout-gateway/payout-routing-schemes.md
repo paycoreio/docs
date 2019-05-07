@@ -1,1 +1,0 @@
-# Payout Gateway: Payout Routing schemes
