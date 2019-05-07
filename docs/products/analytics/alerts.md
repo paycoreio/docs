@@ -4,8 +4,7 @@
 
 In the Alerts view, you’ll see all existing alerts.
 
-!!! info "Screenshot"
-    [![Alerts](images/alerts3.png)](images/alerts3.png)
+![Alerts](images/alerts3.png)
 
 To set up a new alert you’ll need to follow next steps:
 
@@ -30,11 +29,8 @@ To set up a new alert you’ll need to follow next steps:
 6. Save, to confirm actions
 7. Define alert destinations - choose alert destination point from dropdown list (_```email```_ or another if it is supported)
 
-!!! info "Screenshots"
-    [![Alerts](images/alerts1.png)](images/alerts1.png)
-    [![Alerts](images/alerts2.png)](images/alerts2.png)
-
-
+![Alerts](images/alerts1.png)
+![Alerts](images/alerts2.png)
 
 ## Alert Status & Frequency
 The Alert Status is checked every time the query is executed.

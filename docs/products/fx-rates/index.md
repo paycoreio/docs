@@ -8,7 +8,7 @@ For each organization, **_a list of base currencies_** with which it works is de
 
 !!! tip
     If the required currency is not supported by the system, the client can request its addition through the feedback form.
-    [![Rate currency](images/exch-rate_1.png)](images/exch-rate_1.png)
+    ![Rate currency](images/exch-rate_1.png)
 
 This section of PayСore.io Dashboard is intended to make you informed about current currency rates and it's [Resources](../resources) and manage [Rate schemes](../rate-schemes).
 
@@ -47,16 +47,14 @@ There are **`two`** types of Exchange rates:
 !!! tip
     To filter rate list use **`currency pair input`** above the Live rates  list.
 
-!!! info "Screenshots"
-    [![Resources](images/exch-rate_2.png)](images/exch-rate_2.png)
-    [![Live rates](images/exch-rate_3.png)](images/exch-rate_3.png)
+![Resources](images/exch-rate_2.png)
+![Live rates](images/exch-rate_3.png)
 
 ## Rate schemes
 
 **Rate scheme** - is  an entity that determines exchange rules for currency pair in your organisation.  
 
-!!! info "Screenshot"
-    [![Rate Schemes](images/rate-schemes_1.png)](images/rate-schemes_1.png)
+[![Rate Schemes](images/rate-schemes_1.png)](images/rate-schemes_1.png)
 
 There are **`two`** types of Rate Schemes:
 
@@ -67,9 +65,8 @@ There are **`two`** types of Rate Schemes:
 
 - **`Custom`** : An organisation administrator can create  custom rate schemes for current organisation.
 
-!!! info "Screenshots"
-    [![Rate Schemes](images/rate-schemes_2.png)](images/rate-schemes_2.png)
-    [![Rate Schemes](images/rate-schemes_3.png)](images/rate-schemes_3.png)
+![Rate Schemes](images/rate-schemes_2.png)
+![Rate Schemes](images/rate-schemes_3.png)
 
 ### Rules
 
@@ -87,5 +84,4 @@ You can create (add) rule using **`+ New`** button above the rules list.
 !!! note
     For Rules with **`Commercial`** Resource user should choose between  **`Ask`** and **`Bid`** source rate.
 
-!!! info "Screenshot"
-    [![Rate Schemes Rules](images/rate-schemes-rules_1.png)](images/rate-schemes-rules_1.png)
+![Rate Schemes Rules](images/rate-schemes-rules_1.png)

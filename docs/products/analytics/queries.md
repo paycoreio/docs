@@ -34,12 +34,7 @@ To create query you need:
 !!! tip "Tip #2"
     Execute query after creation to make sure that it works correctly!
     
-
-!!! info "Screenshot"
-    [![Queries](images/queries1.png)](images/queries1.png)
-  
-
-
+![Queries](images/queries1.png)
 
 ## Visualization
 
@@ -71,5 +66,4 @@ There are a lot of different parameters for  different types of visualization.
     
     And you will be able to add it to the [**Dashboard**](../dashboards)
     
-!!! info "Screenshot"
-    [![Queries](images/queries2.png)](images/queries2.png)
+![Queries](images/queries2.png)
