@@ -8,9 +8,11 @@
 
 Предлагаем получить API ключи попробовать наше API!
 
+
 ## Способы интеграции
 
 Для интеграции с платформой есть множество инструментов и интерфейсов для интеграции. Давайте разберемся с некоторыми из них.
+
 
 ### Commerce Private API
 
@@ -20,6 +22,7 @@ Swagger: [https://swagger.paycore.io/commerce/](https://swagger.paycore.io/comme
 
 Full Reference: [https://apidoc.paycore.io/commerce/](https://apidoc.paycore.io/commerce/)
 
+
 ### Commerce Public API
 
 Client–server интеграция для Commerce Account со стороны Website. Позволяет получить прямо на frontend, минуя серверное взаимодействие список доступных платежных сервисов и сервисов выплат.
@@ -27,6 +30,7 @@ Client–server интеграция для Commerce Account со стороны
 Swagger: [https://swagger.paycore.io/commerce-public/](https://swagger.paycore.io/commerce-public/)
 
 Full Reference: [https://apidoc.paycore.io/commerce-public/](https://apidoc.paycore.io/commerce-public/)
+
 
 ### Commerce HPP API
 
@@ -36,6 +40,7 @@ Swagger: [https://swagger.paycore.io/commerce-hpp/](https://swagger.paycore.io/c
 
 Full Reference: [https://apidoc.paycore.io/commerce-hpp/](https://apidoc.paycore.io/commerce-hpp/)
 
+
 ### Platform API
 
 Позволяет реализовать низкоуровневую интеграцию с платформой и ее сервисами. Вся фунциональность реализованная в Dashboard доступна через данное API.
@@ -44,21 +49,25 @@ Swagger: [https://swagger.paycore.io/](https://swagger.paycore.io/commerce-publi
 
 Full Reference: [https://apidoc.paycore.io/](https://apidoc.paycore.io/)
 
+
 ## API ключи
 
 Все ключи для Commerce Public API, Private API, HPP API доступны в личном кабинете в настройках Commerce Account → Integration.
 
 ![](images/commerce-keys.png "PayCore.io > Play with API > Integration")
 
+
 ### Live / Test keys
 
 Разница в live и test ключах только в том, что для тестового режима используются тестовые ключи, а для боевого — боевые соответственно.
+
 
 ### Public / Private keys
 
 Public keys и Private keys используются для взаимодействия с Commerce Public API и HPP API.
 
 Public keys для взаимодействия с API, а Private keys — для проверки цифровой подписи.
+
 
 ### Callback URL
 
@@ -76,19 +85,23 @@ Public keys для взаимодействия с API, а Private keys — дл
 
 Детальнее про формирование подписи и ее проверку мы можете ознакомится на странице "[Integration → Security](#)".
 
+
 ### API keys
 
 Для Commerce Private API используется классическая HTTP Basic авторизация. Commerce Account ID используется в качестве Login, API Key в качестве Password.
 
 Для повышения безопастности настроятельно рекомендует ограничить доступ к Private API через IP white-list filter.
 
+
 ## API usage
 
 Our APIs accept and return JSON in the HTTP body and return HTTP response codes to indicate errors. You can consume the APIs directly using your favorite HTTP/REST library, or use [one of our SDKs](#).
 
+
 ### Authentication
 
 To initiate a request to any of PayCore.io,’s endpoints, you will need to provide an API key in the  `Authorization`  header. Unless otherwise specified, you should use your secret key.
+
 
 ### HTTP response codes
 
@@ -114,6 +127,7 @@ Code Description
 
 `502` Bad gateway
 
+
 ### Validation errors
 
 If an error occurs while validating a request, the API responds with a  `422 HTTP`  response code, accompanied by a JSON response containing the error details. Find out more in the example below.
@@ -128,7 +142,9 @@ Field name Description
 
 `error_codes` An array of validation errors.
 
+
 ## Платежи
+
 
 ### Get available payment services over Commerce Public API
 
@@ -145,6 +161,7 @@ Field name Description
 **Response:**
 
 <example>
+
 
 ### Create payment over Commerce Public API
 
@@ -175,6 +192,7 @@ Callback Request будет содержать уникальный ID плат�
 **Response:**
 
 <example>
+
 
 ### Create payment over Commerce HPP API
 
@@ -237,11 +255,14 @@ window.document.getElementById('reference_id').value
 
 Для упрощения интеграции по данному интерфейсу рекомендуем использовать "[PaymentWidget.js](#)".
 
+
 ### Payment Invoice Callback
 
 Для корректной обработки Callbackов ознакомьтесь с полным перечнем [статусов Payment Invoice](#).
 
+
 ## Выплаты
+
 
 ### Get available payout services over Commerce Public API
 
@@ -259,6 +280,7 @@ window.document.getElementById('reference_id').value
 
 <example>
 
+
 ### Create payout over Commerce Private API
 
 Через API вы можете быстро и легко производить выплаты по любому сервису в мире.
@@ -272,20 +294,15 @@ window.document.getElementById('reference_id').value
 **Request:**
 ```json
 {
-	"data": {
-		"type": "string",
-		"attributes": {
-			"test_mode": false,
-			"currency": "EUR",
-			"amount": 100,
-			"service": "payment_card_uah",
-			"fields": {
-				"card_number": "5404367504475264"
-			},
-			"description": "Test payout",
-			"reference_id": "f3WbQNCAMAQs2DMWLyBiKF9jwv36z1TCS",
-		}
-	}
+    "test_mode": false,
+    "currency": "EUR",
+    "amount": 100,
+    "description": "Test payout",
+    "reference_id": "f3WbQNCAMAQs2DMWLyBiKF9jwv36z1TCS",	
+    "service": "payment_card_uah",
+    "fields": {
+        "card_number": "5404367504475264"
+    }
 }
 ```
 
@@ -293,9 +310,11 @@ window.document.getElementById('reference_id').value
 
 <example>
 
+
 ### Payout Invoice Callback
 
 Для корректной обработки Callbackов ознакомьтесь с полным перечнем [статусов Payout Invoice](#).
+
 
 ## Go live
 
@@ -310,6 +329,7 @@ window.document.getElementById('reference_id').value
 -   Проверить, что вы обрабатываете Callback.
     
 -   Убедиться, что в процессе обработки Callback вы контролируете цифровую подпись.
+
 
 ## Что дальше?
 

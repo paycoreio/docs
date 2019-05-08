@@ -2,6 +2,7 @@
 
 ![Getting started like a rocket!](/images/skyrocket.png)
 
+
 ## Introduction
 
 Behind the scenes of online payments: getting started

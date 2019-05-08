@@ -17,14 +17,14 @@
 
 Same to Payout, Payout Request status has **`final`** property, which can be **true (Yes)** or **false (No)**, and **`sleep`** - which explains if operation can wait in certain status to be modified manualy. 
 
-| Code                | Final | Description                                                           |
-|---------------------|-------|-----------------------------------------------------------------------|
-| CREATED             |       | The operation validated at the initial stage and successfully created |
-| DISPATCHING         |       | The operation is being processed                                      |
-| EXPIRED             | ✔     | The operation has expired                                             |
-| FAILED              | ✔     | Failed transaction                                                    |
-| PENDING             |       | The operation is pending for processing                               |
-| PARTIALLY_PROCESSED | ✔     | The operation has been partially processed                            |
-| PROCESSED           | ✔     | The operation was processed successfuly                               |
-| READY               |       | The operation is ready for processing                                 |
-| WAITING_DETAILS     |       | Waiting for transaction details                                       |
+| Code                  | Final | Description                                                           |
+|-----------------------|-------|-----------------------------------------------------------------------|
+| `CREATED`             |       | The operation validated at the initial stage and successfully created |
+| `DISPATCHING`         |       | The operation is being processed                                      |
+| `EXPIRED`             | ✔     | The operation has expired                                             |
+| `FAILED`              | ✔     | Failed transaction                                                    |
+| `PENDING`             |       | The operation is pending for processing                               |
+| `PARTIALLY_PROCESSED` | ✔     | The operation has been partially processed                            |
+| `PROCESSED`           | ✔     | The operation was processed successfuly                               |
+| `READY`               |       | The operation is ready for processing                                 |
+| `WAITING_DETAILS`     |       | Waiting for transaction details                                       |

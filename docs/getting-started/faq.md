@@ -5,25 +5,23 @@
 Here You can find the answers for the most popular questions about interaction and working with PayCore.io!
 
 
-
 ## Navigation
 
-### Page access: Error 403 Access denied
 
+### Page access: Error 403 Access denied
 
 Ask the organisation administrator to check your permissions. Routing asccess depends on member's access scope
 
 
-
-
-
 ## Operations management
+
 
 ### Operation has incorrect status
 
 Go to the operation Overview page and use "manual statement" functionality
 
 Set parameters according to the valid information from Provider and submit the form (Note: Status, Resolution are REQUIRED fields)
+
 
 ### Operation initiating: Error 403 Access denied
 
@@ -67,7 +65,6 @@ According to the Commerce account fee-settings:
     - [x] fee_strategy:internal, reverse_fee:true
     - [ ] fee_strategy:internal, reverse_fee:false
 
-
 Values with  `processed` prefix are actual amounts after the payment process:
 
 **`processed_amount`** - amount paid by customer, (can be less than initiated `payment_amount`, that's why we recalculate `fee`)
@@ -76,17 +73,12 @@ Values with  `processed` prefix are actual amounts after the payment process:
 
 **`processed_deposit`** - amount **actually** credited to the account
 
-
- Primary rules to check amounts are **valid**:
+Primary rules to check amounts are **valid**:
 
 1. `payment_amount` = `deposit` + `fee`
 2. `processed_amount` = `processed_fee` + `processed_deposit`
 3. `processed_deposit` = `deposit` 
 4. `processed_amount` = `payment_amount` 
-
-
-
-
 
 
 ## Concepts
@@ -103,4 +95,3 @@ Values with  `processed` prefix are actual amounts after the payment process:
 Status and Resolutions are independent. Each status can be with such resolution. 
  
 Resolution «Ok» means that the process occurred in the planned scenario.
-

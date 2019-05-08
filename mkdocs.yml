@@ -1,7 +1,17 @@
+# Project information
 site_name: 'Documentation'
+site_description: 'PayCore.io public documentation'
+site_author: 'PayCore.io (c)'
+site_url: 'https://docs.paycore.io/'
+
+# Repository
 repo_name: 'paycoreio/docs'
 repo_url: 'https://github.com/paycoreio/docs/'
+
+# Copyright
 copyright: '© 2016-2048 PayCore.io<sup>®</sup>. All Rights Reserved.'
+
+# Configuration
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -13,6 +23,8 @@ theme:
     accent: 'indigo'
   feature:
     tabs: true
+
+# Customization
 extra:
   social:
     - type: 'facebook'
@@ -23,22 +35,25 @@ extra:
       link: 'https://www.linkedin.com/company/paycore/'
     - type: 'github'
       link: 'https://github.com/paycoreio'
-  var1: 'test123'
+extra_css:
+  - extra.css
+
+# Google Analytics
 google_analytics:
   - 'UA-72023338-4'
   - 'auto'
+
+# Extensions
 markdown_extensions:
-  - admonition
-  - codehilite:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
       guess_lang: false
-  - toc:
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
       permalink: true
-  #- pymdownx.details
-  #- pymdownx.magiclink
-  #- pymdownx.smartsymbols
-  #- pymdownx.tasklist:
-  #    custom_checkbox: true
-  #- pymdownx.arithmatex
+  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -47,121 +62,132 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde      
+  - pymdownx.tilde
+
+# Navigation
 nav:
 - Getting started:
-    - Introduction: 'index.md'   
-    - Setting up account: 'getting-started/setting-up-account.md'
-    - First payment & payout: 'getting-started/first-payment.md'
-    - Play with API: 'getting-started/play-with-api.md'
-    - FAQ: 'getting-started/faq.md'
-    - Glossary: 'getting-started/glossary.md'
+    - Introduction: index.md
+    - Setting up account: getting-started/setting-up-account.md
+    - First payment & payout: getting-started/first-payment.md
+    - Play with API: getting-started/play-with-api.md
+    - FAQ: getting-started/faq.md
+    - Glossary: getting-started/glossary.md
 - Products:
-    - Overview: 'products/index.md'
-    - Dashboard: 'products/dashboard/index.md'
+    - Overview: products/index.md
+    - Dashboard: products/dashboard/index.md
     - Account:
-        - Overview: 'products/account/index.md'
-        - User account: 'products/account/user-account.md'
-        - Security: 'products/account/security.md'
-        - Access Control: 'products/account/access-control.md'
-        - Customers: 'products/account/customers.md'
-        - Activity Log: 'products/account/activity-log.md'
+        - Overview: products/account/index.md
+        - User Account: products/account/user-account.md
+        - Security: products/account/security.md
+        - Access Control: products/account/access-control.md
+        - Customers: products/account/customers.md
+        - Activity Log: products/account/activity-log.md
     - Provider Hub: 
-        - Introduction: 'products/provider-hub/index.md'
-        - Basic Concepts: 'products/provider-hub/basic-concepts.md'
-        - Accounts Hierarchy: 'products/provider-hub/accounts-hierarchy.md'
-        - Managing Accounts: 'products/provider-hub/managing-accounts.md'
+        - Introduction: products/provider-hub/index.md
+        - Basic Concepts: products/provider-hub/basic-concepts.md
+        - Accounts Hierarchy: products/provider-hub/accounts-hierarchy.md
+        - Managing Accounts: products/provider-hub/managing-accounts.md
     - Payment Gateway:
-        - Overview: 'products/payment-gateway/index.md'
-        - Basic Concepts: 'products/payment-gateway/basic-concepts.md'
-        - Managing Payments: 'products/payment-gateway/managing-payments.md'
-        - Managing Routing: 'products/payment-gateway/managing-routing.md'
-        - Payment Workflow: 'products/payment-gateway/payment-workflow.md'
-        - Payment Request Workflow: 'products/payment-gateway/payment-request-workflow.md'
+        - Overview: products/payment-gateway/index.md
+        - Basic Concepts: products/payment-gateway/basic-concepts.md
+        - Managing Payments: products/payment-gateway/managing-payments.md
+        - Managing Routing: products/payment-gateway/managing-routing.md
+        - Payment Workflow: products/payment-gateway/payment-workflow.md
+        - Payment Request Workflow: products/payment-gateway/payment-request-workflow.md
     - Payout Gateway:
-        - Overview: 'products/payout-gateway/index.md'
-        - Basic Concepts: 'products/payout-gateway/basic-concepts.md'
-        - Managing Payouts: 'products/payout-gateway/managing-payouts.md'
-        - Managing Routing: 'products/payout-gateway/managing-routing.md'
-        - Payout Workflow: 'products/payout-gateway/payout-workflow.md'
-        - Payout Request Workflow: 'products/payout-gateway/payout-request-workflow.md'
+        - Overview: products/payout-gateway/index.md
+        - Basic Concepts: products/payout-gateway/basic-concepts.md
+        - Managing Payouts: products/payout-gateway/managing-payouts.md
+        - Managing Routing: products/payout-gateway/managing-routing.md
+        - Payout Workflow: products/payout-gateway/payout-workflow.md
+        - Payout Request Workflow: products/payout-gateway/payout-request-workflow.md
     - Commerce:
-        - Overview: 'products/commerce/index.md'
-        - Basic Concepts: 'products/commerce/basic-concepts.md'
-        - Commerce Accounts: 'products/commerce/commerce-account.md'
-        #- Commerce Schemes: 'products/commerce/commerce-scheme.md'
-        - Currency Accounts: 'products/commerce/currency-account.md'
-        - Managing Payments: 'products/commerce/managing-payments.md'
-        - Managing Payouts: 'products/commerce/managing-payouts.md'
-        - Payment Invoice: 'products/commerce/payment-invoice.md'
-        - Payout Invoice: 'products/commerce/payout-invoice.md'
-    - Ledger: 'products/ledger/index.md'        
-    #- Batch Payouts: 'products/batch-payouts/index.md'
+        - Overview: products/commerce/index.md
+        - Basic Concepts: products/commerce/basic-concepts.md
+        - Commerce Accounts: products/commerce/commerce-account.md
+        #- Commerce Schemes: products/commerce/commerce-scheme.md
+        - Currency Accounts: products/commerce/currency-account.md
+        - Managing Payments: products/commerce/managing-payments.md
+        - Managing Payouts: products/commerce/managing-payouts.md
+        - Payment Invoice: products/commerce/payment-invoice.md
+        - Payout Invoice: products/commerce/payout-invoice.md
+    - Ledger: products/ledger/index.md        
+    #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
-        - Overview: 'products/hpp/index.md'
-    - FX Rates: 'products/fx-rates/index.md'
+        - Overview: products/hpp/index.md
+    - FX Rates: products/fx-rates/index.md
     - Analytics:
-        - Overview: 'products/analytics/index.md'
-        - Queries: 'products/analytics/queries.md'
-        - Dashboards: 'products/analytics/dashboards.md'
-        - Alerts: 'products/analytics/alerts.md'
+        - Overview: products/analytics/index.md
+        - Queries: products/analytics/queries.md
+        - Dashboards: products/analytics/dashboards.md
+        - Alerts: products/analytics/alerts.md
 - Integration: 
-    - Overview: 'integration/index.md'
-    - API References: 'integration/api-references.md'
-    - PublicApiClient.js: 'integration/public-api-client-js.md'
-    - Callbacks: 'integration/callbacks.md'
-    - Public IPs: 'integration/ips.md'
+    - Overview: integration/index.md
+    - Callbacks: integration/callbacks.md
+    - SDKs: integration/sdks.md
+    - References:
+        - Codes: integration/codes.md
+        - API References: integration/api-references.md
+        - PublicApiClient.js: integration/public-api-client-js.md
+    - Testing: integration/tesing.md
+    - Public IPs: integration/ips.md
+    - PCI Compliance: integration/pci-compliance.md
 - Connectors:
-      - Overview: 'connectors/index.md'
-      - Test: 'connectors/test/index.md'
-      - Manual: 'connectors/manual/index.md'
-      - 123x: 'connectors/123x/index.md'
-      - 4bill: 'connectors/4bill/index.md'
-      - AdvCash: 'connectors/advcash/index.md'
-      - AnyCash: 'connectors/anycash/index.md'
-      #- AustralPay: 'connectors/australpay/index.md'
-      - CardPay: 'connectors/cardpay/index.md'
-      - Certus Finance: 'connectors/certusfinance/index.md'
-      - CoinGate: 'connectors/coingate/index.md'
-      #- CoinPayments:'connectors/coinpayments/index.md'
-      - dLocal: 'connectors/dlocal/index.md'
-      - EasyBits.io: 'connectors/easybits/index.md'
-      #- Enfins: 'connectors/enfins/index.md'
-      - FlashPay: 'connectors/flashpay/index.md'
-      - Fondy: 'connectors/fondy/index.md'
-      - GeoPay: 'connectors/geopaynet/index.md'
-      - ING Bank Poland: 'connectors/ingbankpl/index.md'
-      - Interkassa: 'connectors/interkassa/index.md'
-      #- Leogaming: 'connectors/leogaming/index.md'
-      - LiqPay: 'connectors/liqpay/index.md'
-      #-MaxPay: 'connectors/maxpay/index.md'
-      #- MoneyMovers: 'connectors/moneymovers/index.md'
-      - Neteller: 'connectors/neteller/index.md'
-      - Parimatch: 'connectors/parimatch/index.md'
-      - PayBox: 'connectors/paybox/index.md'
-      - Payeer: 'connectors/payeer/index.md'
-      - PayMega: 'connectors/paymega/index.md'
-      - PayMega.io: 'connectors/paymegaio/index.md'
-      - PaymentCenter: 'connectors/paymentcenter/index.md'   
-      #- Payoneer: 'connectors/payoneer/index.md'
-      - PayPal: 'connectors/paypal/index.md'
-      - PaySec: 'connectors/paysec/index.md'
-      - PerfectMoney: 'connectors/perfectmoney/index.md'
-      - Piastrix: 'connectors/piastrix/index.md'
-      - SatchelPay: 'connectors/satchelpay/index.md'
-      #- Safecharge: 'connectors/safecharge/index.md'
-      - Skrill: 'connectors/skrill/index.md'
-      - Tranzzo: 'connectors/tranzzo/index.md'
-      - Wirecapital: 'connectors/wirecapital/index.md'
-      - Xpay: 'connectors/xpayua/index.md'
+      - Overview: connectors/index.md
+      - Test: connectors/test/index.md
+      - Manual: connectors/manual/index.md
+      - 123x: connectors/123x/index.md
+      - 4bill: connectors/4bill/index.md
+      - AdvCash: connectors/advcash/index.md
+      - AnyCash: connectors/anycash/index.md
+      #- AustralPay: connectors/australpay/index.md
+      - CardPay: connectors/cardpay/index.md
+      - Certus Finance: connectors/certusfinance/index.md
+      - CoinGate: connectors/coingate/index.md
+      #- CoinPayments:connectors/coinpayments/index.md
+      - dLocal: connectors/dlocal/index.md
+      - EasyBits.io: connectors/easybits/index.md
+      #- Enfins: connectors/enfins/index.md
+      - FlashPay: connectors/flashpay/index.md
+      - Fondy: connectors/fondy/index.md
+      - GeoPay: connectors/geopaynet/index.md
+      - ING Bank Poland: connectors/ingbankpl/index.md
+      - Interkassa: connectors/interkassa/index.md
+      #- Leogaming: connectors/leogaming/index.md
+      - LiqPay: connectors/liqpay/index.md
+      #-MaxPay: connectors/maxpay/index.md
+      #- MoneyMovers: connectors/moneymovers/index.md
+      - Neteller: connectors/neteller/index.md
+      - Parimatch: connectors/parimatch/index.md
+      - PayBox: connectors/paybox/index.md
+      - Payeer: connectors/payeer/index.md
+      - PayMega: connectors/paymega/index.md
+      - PayMega.io: connectors/paymegaio/index.md
+      - PaymentCenter: connectors/paymentcenter/index.md   
+      #- Payoneer: connectors/payoneer/index.md
+      - PayPal: connectors/paypal/index.md
+      - PaySec: connectors/paysec/index.md
+      - PerfectMoney: connectors/perfectmoney/index.md
+      - Piastrix: connectors/piastrix/index.md
+      - SatchelPay: connectors/satchelpay/index.md
+      #- Safecharge: connectors/safecharge/index.md
+      - Skrill: connectors/skrill/index.md
+      - Tranzzo: connectors/tranzzo/index.md
+      - Wirecapital: connectors/wirecapital/index.md
+      - Xpay: connectors/xpayua/index.md
 - Release notes: 
-    - Overview: 'release-notes/index.md'
-    - v0.58 (23/03/2019): 'release-notes/v0.58.md'
-    - v0.57 (11/03/2019): 'release-notes/v0.57.md'
-    - v0.56 (05/03/2019): 'release-notes/v0.56.md'
+    - Overview: release-notes/index.md
+    - v0.58 (23/03/2019): release-notes/v0.58.md
+    - v0.57 (11/03/2019): release-notes/v0.57.md
+    - v0.56 (05/03/2019): release-notes/v0.56.md

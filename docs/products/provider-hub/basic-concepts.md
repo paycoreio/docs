@@ -95,30 +95,32 @@ The gateway can always expect the parameters listed in the service properties.
 
 If you need to make a payout, then obviously, for this you need to send some details based on service fields. For payout service to PayPal account by email, they look like this:
 
-    {
-        "code": "paypal_email_usd",
-        "method": "paypal",
-        "currency": "USD",
-        "amount_min": 0.01,
-        "amount_max": 10000,
-        "fields": [
-          {
-            "key": "email",
-            "type": "string",
-            "label": {
-              "en": "Email",
-              "uk": "Електронна пошта"
-            },
-            "hint": {
-              "en": "Enter email",
-              "uk": "Введіть адресу електронної пошти"
-            },
-            "regexp": "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$",
-            "required": true,
-            "position": 1
-          }
-	    ]
-	}
+```json
+{
+    "code": "paypal_email_usd",
+    "method": "paypal",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 10000,
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "uk": "Електронна пошта"
+        },
+        "hint": {
+          "en": "Enter email",
+          "uk": "Введіть адресу електронної пошти"
+        },
+        "regexp": "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$",
+        "required": true,
+        "position": 1
+      }
+  ]
+}
+```
 
 ### What differences between payment and payout services?
 
