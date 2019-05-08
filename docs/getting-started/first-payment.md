@@ -1,10 +1,12 @@
 # Create your first payment & payout
 
+
 ## Введение
 
 Для совершения платежей и выплат ваш аккаунт должен быть должным образом сконфигурирован и иметь подключенные платежные провайдеры с активными платежными маршрутами.
 
 Если вы не произвели настройку вашего аккаунта, перейдите на статью с его [быстрой конфигурацией](#).
+
 
 ## Приймите ваш первый платеж
 
@@ -18,6 +20,7 @@
 
 ![](images/create-payment-invoice-2.png "PayCore.io > Create your first payment & payout > Create payment invoice 2")
 
+
 ## Совершите вашу первую выплату
 
 -   Шаг 1: Откройте "Операции" → "Выплаты" ([https://dashboard.paycore.io/operations/payout-invoices](https://dashboard.paycore.io/operations/payout-invoices))
@@ -29,6 +32,7 @@
 ![](images/create-payout-invoice-1.png "PayCore.io > Create your first payment & payout > Create payout invoice")
 
 ![](images/create-payout-invoice-2.png "PayCore.io > Create your first payment & payout > Create payout invoice (5).png")
+
 
 ## Что дальше?
 

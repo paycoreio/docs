@@ -1,4 +1,4 @@
-# Organisation: Security
+# Security
 
 Security section is intended for:
 

@@ -41,14 +41,14 @@ Commerce account status determines its current state. Accordingly, a set of avai
 
 Below is a list of statuses and it's descriptions:
 
-| Code                 | Description                                                                                                                        |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| new                  | Account was recently created. Business functionality (operations creating) is unavailable                                          |
-| active               | All functionality is available. No additional moderation is required                                                               |
-| inactive             | Account was deactivated by administrator. All functionality (including the access to the merchant dashboard) is unavailable        |
-| moderation_requested | Merchant requested moderation of account. Business functionality (operations creating) is unavailable                              |
-| moderation_pending   | Account moderation is in progress. Business functionality (operations creating) is unavailable                                     |
-| archived             | Account was deleted (archived) by administrator. All functionality (including the access to the merchant dashboard) is unavailable |
+| Code                   | Description                                                                                                                        |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `new`                  | Account was recently created. Business functionality (operations creating) is unavailable                                          |
+| `active`               | All functionality is available. No additional moderation is required                                                               |
+| `inactive`             | Account was deactivated by administrator. All functionality (including the access to the merchant dashboard) is unavailable        |
+| `moderation_requested` | Merchant requested moderation of account. Business functionality (operations creating) is unavailable                              |
+| `moderation_pending`   | Account moderation is in progress. Business functionality (operations creating) is unavailable                                     |
+| `archived`             | Account was deleted (archived) by administrator. All functionality (including the access to the merchant dashboard) is unavailable |
 
 ### Currency accounts
 
