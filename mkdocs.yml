@@ -129,9 +129,15 @@ nav:
     - FX Rates: products/fx-rates/index.md
     - Analytics:
         - Overview: products/analytics/index.md
-        - Queries: products/analytics/queries.md
-        - Dashboards: products/analytics/dashboards.md
-        - Alerts: products/analytics/alerts.md
+        - Getting Started: products/analytics/getting-started.md
+        - Managing Queries: products/analytics/managing-queries.md
+        - Managing Dashboards: products/analytics/managing-dashboards.md
+        - Managing Alerts: products/analytics/managing-alerts.md
+        - Visualizations: products/analytics/visualizations.md
+        #- Queries: products/analytics/queries.md
+        #- Dashboards: products/analytics/dashboards.md
+        #- Alerts: products/analytics/alerts.md
+        - FAQ: products/analytics/faq.md
 - Integration: 
     - Overview: integration/index.md
     - Callbacks: integration/callbacks.md

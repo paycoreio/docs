@@ -66,6 +66,11 @@ This an example for payment-request operation callback data:
 }
 ```
 
+## What to do when you receive a Callback
+
+Because HTTPS/SSL verifies the identity of the server you are making API calls to, you will always know that the updated information you are receiving is correct. 
+If we sent object information in the Callback itself, you would have to verify the authenticity of the information (via signed request, etc).
+
 ## Signature
 
  PayСore.io sends signature in X-Signature header. The signature is created by next algorithm:
