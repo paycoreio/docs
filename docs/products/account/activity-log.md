@@ -1,4 +1,4 @@
-# Organization: Activity Log
+# Activity Log
 
 ## Overview
 
@@ -44,9 +44,9 @@ A list of what's logged with Activity Logging.
 | payout_routing_scheme:updated        | Payout routing scheme updated                   |
 | fx_rate_scheme:created               | FX rate scheme created                          |
 | fx_rate_scheme:updated               | FX rate scheme updated                          |
-| com.contract_scheme:created          | Commerce contract scheme created                |
-| com.contract_scheme:updated          | Commerce contract scheme updated                |
-| com.contract_payment_service:updated | Commerce contract payment service updated       |
-| com.contract_payout_service:updated  | Commerce contract scheme payout service updated |
+| com.scheme:created                   | Commerce scheme created                         |
+| com.scheme:updated                   | Commerce scheme updated                         |
+| com.scheme_payment_service:updated   | Commerce scheme payment service updated         |
+| com.scheme_payout_service:updated    | Commerce scheme payout service updated          |
 | com.account:created                  | Commerce account created                        |
 | com.account:updated                  | Commerce account updated                        |
