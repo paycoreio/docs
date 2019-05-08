@@ -71,6 +71,7 @@ nav:
         - Security: 'products/account/security.md'
         - Access Control: 'products/account/access-control.md'
         - Customers: 'products/account/customers.md'
+        - Activity Log: 'products/account/activity-log.md'
     - Provider Hub: 
         - Introduction: 'products/provider-hub/index.md'
         - Basic Concepts: 'products/provider-hub/basic-concepts.md'
