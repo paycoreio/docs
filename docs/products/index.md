@@ -5,7 +5,7 @@
 Welcome to PayCore.io! Get familiar with the PayCore.io products and explore their features:
 
 | Product                                       | Description                                                                                                      |
-| ----------------------------------------------| ---------------------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [Provider Hub](/products/provider-hub/)       | Connect any provider or merchant account of any payment provider into the one hub.                               |
 | [Payment Gateway](/products/payment-gateway/) | Accept any online payment option through the single omnichannel gateway.                                         |
 | [Payout Gateway](/products/payout-gateway/)   | Make payouts on any online option in multiple ways through the single omni-chanel gateway.                       |
