@@ -16,7 +16,7 @@ Hit "Save" to apply your changes or "Cancel" to leave no trace.
 
 ## Embedding Visualizations
 
-For any visualization you create in Redash, you can get an embed link:
+For any visualization you create in PayCore.Analytics, you can get an embed link:
 
 ![](https://redash.io/assets/images/docs/gitbook/embed_viz.png)
 
@@ -33,7 +33,7 @@ To download a chart visualization as an image file go ahead and hover over the t
 
 ## Visualization Types
 
-Redash supports several different types of visualizations - A Table is the default view.
+PayCore.Analytics supports several different types of visualizations - A Table is the default view.
 
 ### Boxplot
 
