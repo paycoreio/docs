@@ -64,15 +64,18 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
+      hide_protocol: true
+      repo_url_shortener: true
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: paycoreio
+      repo: docs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.details
 
 # Navigation
 nav:
