@@ -29,25 +29,47 @@ Read about our integration methods below, then choose the one that best suits yo
 
 ### Hosted Payment Page (HPP)
 
-Frame is a highly customizable payment page, which allows customers to enter their payment details directly on your checkout page. We process these and exchange them for a secure, single-use token. You can then use this token to request a payment, without having to process or store any sensitive information yourself.
+Our Hosted Payment Page (HPP) is a complete, ready-made payment UI that offers a quick and easy way to securely accept payments. The UI includes a card entry form and supports any payment method flow. When a user successfully completes the UI, your client code obtains a payment method nonce for use on your server.
 
 Use our hosted responsive solution for payment processing:
 
 -   Least effort integration
+-   Can be used as a standalone page or as an iframe
+-   Supports one specific or all available payment methods.
 -   Easy do-it-yourself styling options
--   Top performing templates
+-   Good for connecting to existing checkout flows
 -   Responsive design on mobile
 
-[Learn more -->](/integration/hpp/)
+[Learn more -->](/products/hpp/)
 
-#### payment-widget.js
+#### Payment widget
 
 Payment.widget.js is our simplest integration method and requires little technical know-how. It's a payment lightbox that you can easily add to your website. Just like with Elements, customers enter their payment information, which we then exchange for a token.
   
 [Learn more -->](/integration/payment-widget-js/)
 
+#### Client Redirection
 
-### Self-hosting payment page 
+Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
+
+??? example "Simple redirect example"
+    The simplest case would involve an HTML form with specific information that would be sent via a POST request. There’s no need to require any the data from your customers, so all the fields will be hidden in most cases. 
+    Here’s how it can look like:
+
+    ```html
+    <form action="https://com.paycore.io/hpp/" method="POST">
+        <input type="hidden" name="public_key" value="<your-public-key>" />
+        <input type="hidden" name="reference_id" value="<unique-reference-id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay with PayCore.io" />
+    </form>
+    ```
+
+[Learn more -->](/products/hpp/)
+
+### Self-hosted payment page
 
 Before you can make a payment with our API integration, you need to collect any required payment details from your shopper. Here we describe how to do this by building your own payment form.
 Building your own form gives you full control over the look and feel of your checkout. If you'd rather not build your own payment form, you can also collect the shopper's payment details using our pre-built JavaScript Components. These are available for many popular payment methods.
@@ -61,12 +83,21 @@ Build and host yourself using SDKs or client API:
 
 [Learn more -->](/integration/self-hosting-payment-page/)
 
-## Send Payouts
+## Make Payouts
 
 ### Payouts API Guide
 
+[Learn more -->](/integration/payouts-guide/)
 
-## API References
+
+## Callbacks
+
+Callbacks notify you about events that occur with regards to the payments that you process via PayCore.io, like status changes on payments. This allows you to be easily aware of things that happen, even after the consumer is no longer on your site. 
+
+[Learn more -->](/integration/callbacks/)
+
+
+## Full API References
 
 We offer several RESTful APIs: A server API which is used by the merchants in a server-to-server setup and a client API which is used by clients like desktops, laptops, mobile phones and other internet connected devices. For both APIs we offer a detailed API reference that lists all the functionalities and how to use them.
 
@@ -98,13 +129,18 @@ The Private API enables merchants to access functionality such as payments, init
 
 #### Core API
 
+The Core API allows you to programmatically manage your PayCore.io account. It does everything the Dashboard UI does, but adds some capabilities that may come in handy depending on your business needs. 
+
+Consider, for instance, a business model in which you provide a service that allows other merchants to accept payments (like in a marketplace). Using the Core API you can create a Commerce accounts on behalf of each merchant, under the umbrella of your main account.
+
 [<i class="md-icon">description</i> Full Core API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/)
 
 [<i class="md-icon">explore</i> Swagger Core API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/)
 
 #### Cardgate API
 
-The Cardgate API integration lets you accept payments on your website and mobile application, if you support PCI compliance at Level 1 or 2. This tutorial explains how you can collect raw card data from your shoppers and pass this data in payment requests to the Cardgate API.
+
+The Cardgate API is Full card details API integration lets you accept payments on your website and mobile application, if you support PCI compliance at Level 1 or 2. This tutorial explains how you can collect raw card data from your shoppers and pass this data in payment requests to the Cardgate API.
 
 When you want to reduce your PCI compliance requirements, we recommend that you integrate with our Client-Side Encryption library instead.
 
@@ -120,11 +156,11 @@ Using Cardgate HPP for card payments you can process transactions using PayCore.
 
 [<i class="md-icon">explore</i> Swagger Cardgate HPP API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/cardgate-hpp/)
 
-## Callbacks
+### Postman Collections
 
-Callbacks notify you about events that occur with regards to the payments that you process via PayCore.io, like status changes on payments. This allows you to be easily aware of things that happen, even after the consumer is no longer on your site. 
+While being able to build requests using a GUI is nice, Postman really starts to shine when you use collections. Postman Collections are simply a collection of pre-built requests that can be organized into folders, and they can be easily exported and shared with others.
 
-[Learn more -->](/integration/callbacks/)
+[Learn more -->](/integration/postman-collections/)
 
 ## References
 
@@ -146,14 +182,25 @@ All objects have own  **Unique Identification Code** that used for unification a
 
 Feel free to explore and contribute at @github:paycoreio/openfintech
 
+
 ## SDKs
 
-PayCore.io offers SDKs that wrap the RESTful API and make it even easier to integrate with our platform. The SDK you need depends on your server-side technology stack and on the clients that you want to support. The list below includes our current SDK offering.
+PayCore.io offers SDKs that wrap the RESTful API and make it even easier to integrate with our platform. The SDK you need depends on your server-side technology stack and on the clients that you want to support.
+Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. 
 
-### API Clients
+### Client Libraries
 
-Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. We'll still take care of the processing side of things, and return tokenized payment information to you.
+We offer various libraries via our PayCore.io API.
+Have a good look at our getting started guide and the API reference to get started right away in your IDE.
+These libraries are hosted and maintained by PayCore.io. Nevertheless we always appreciate pull requests on GitHub to ensure our libraries are up to date. We greatly appreciate your input.
+
+If you have programmed your own library, simply let us know by writing us at <support@paycore.io>.
   
-[Learn more -->](/integration/sdks)
+[Learn more -->](/integration/sdks/)
 
-### Postman Collections
+
+## FAQ
+
+[Explore FAQ section -->](/getting-started/faq/)
+
+Can't find what you're looking for? [Contact our support team for help](https://support.paycore.io/).

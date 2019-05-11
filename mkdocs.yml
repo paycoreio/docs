@@ -128,7 +128,11 @@ nav:
     - Ledger: products/ledger/index.md        
     #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
-        - Overview: products/hpp/index.md
+        - Introduction: products/hpp/index.md
+        - Integration Overview: products/hpp/overview.md
+        - Integration Guide: products/hpp/integration-guide.md
+        - Customization: products/hpp/customization.md
+        - Payment Widget: products/hpp/payment-widget.md
     - FX Rates: products/fx-rates/index.md
     - Analytics:
         - Overview: products/analytics/index.md
@@ -152,6 +156,8 @@ nav:
     - Testing: integration/tesing.md
     - Public IPs: integration/ips.md
     - PCI Compliance: integration/pci-compliance.md
+    - Security: integration/security.md
+    - Postman Collections: integration/postman-collections.md
 - Connectors:
       - Overview: connectors/index.md
       - Test: connectors/test/index.md
