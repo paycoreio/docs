@@ -1,4 +1,4 @@
-# PayCore.io Hosted Payment Page
+# Commerce Hosted Payment Page
 
 ![HPP Preview](images/hpp-preview.png)
 
@@ -12,11 +12,13 @@ Before deciding to integrate the Hosted Payment Page, make sure that you checked
 
 For more information, visit our product page on [PayCore.io HPP](https://paycore.io/payment-gateway/checkout/).
 
-
 ## Benefits of payments via the PayCore.io HPP
 
 -   PayCore.io’s Hosted Payment Pages are suitable for web, smartphones and tablets.
 -   All payment methods you have enabled are – when relevant – shown to your customers. A newly activated payment method is available immediately for all of your visitors.
+-   You can alter the look and feel of the page easily online in the Commerce Account settings in Dashboard.
+-   You can offer over 50 languages/locales (e.g. pt-PT, pt-BR) to your customers.
+-   The Commerce HPP are designed to work with all the payment methods in the world.
 -   If the customer’s first choice of payment method is not successful, it’s very easy for the customer to select and try another one. If a customer appears to not have sufficient credit on a checking account a retry by credit card could easily be attempted. We handle this for you without asking you to implement any extra APIs.
 -   PayCore.io optimizes the order of payment methods. For Dutch customers we know to list iDEAL at the top while for Belgians we start off with the payment method Bancontact. A lot of effort goes into this and we optimize this using A/B-testing. This way we improve your conversion without your effort.
 
@@ -33,6 +35,13 @@ HPP lets you provide PayCore.io as a payment method in your website store, your 
 ### Telesales
 
 HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your consumer a _paylink_ by e-mail or sms and let them pay the order.
+
+
+## How it works?
+
+Once a customer has added items to the shopping cart and filled out the shipping and billing details, he or she needs to choose the payment method and needs to provide the payment details. If you choose not to touch and store the credit card details of your consumers, you can outsource your payment page to us and use the Hosted Payment Page.
+
+The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
 
 
 ## Follow our guide

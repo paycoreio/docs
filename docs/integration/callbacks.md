@@ -34,7 +34,7 @@ This an example for payment-request operation callback data:
          "expires":1542805481,
          "created":1542803681,
          "return_url":"http:\/\/senger.com\/",
-         "callback_url":"https:\/\/webhook.site\/519d4455-7242-49e8-9178-4402d8894d08",
+         "callback_url":"https:\/\/callback.site\/519d4455-7242-49e8-9178-4402d8894d08",
          "feedback_code":null,
          "feedback_message":null,
          "feedback_updated":null
@@ -76,13 +76,22 @@ If we sent object information in the Callback itself, you would have to verify t
  PayСore.io sends signature in X-Signature header. The signature is created by next algorithm:
 
 ```php
-$signature = base64_encode(sha1($secret . $webhookData . $secret, true));
+$signature = base64_encode(sha1($secret . $callbackData . $secret, true));
 ```
 
-Where the ```$secret``` is one your secrets: test or live, ```$webhookData``` is raw json data. 
+Where the ```$secret``` is one your secrets: test or live, ```$callbackData``` is raw json data. 
 
 !!! note
       To be sure you got data from PayСore, you should compute the signature using an appropriate secret key and compare with ones from PayСore.io callback data.
+
+
+## Manage concurrency
+
+When a user makes a number of changes in rapid succession, your app is likely to receive multiple notifications for the same user at roughly the same time. If you're not careful about how you manage concurrency, your app can end up processing the same changes for the same user more than once.
+
+To control processing idempotency use operation `id` or `reference_id` value in callback request data.
+
+For some applications, this is not a serious issue. Work that can be repeated without changing the outcome is called idempotent. If your app's actions are always idempotent, you don't need to worry much about concurrency.
 
 
 ## Batching
@@ -92,11 +101,13 @@ We will batch Callbacks for the same object that are very close together. So if 
 
 ## Failures
 
-If your  `callback_url`  returns a non-200 response code when we make a HTTP request, we will consider the Callback to have failed. If the Callback fails, we will retry at least 6 times:
+When you successfully process callback request you must return `200` HTTP status code. Any other data return by callback is ignored.
+
+If callback returns status code other then `200` it is assumed that the request delivery failed. Failed callback request are resent with increasing delay between each attempt:
 
 -   The 1st retry will happen 15 minutes after the initial attempt,
 -   the 2nd retry will happen 30 minutes after the 1st retry,
 -   the 3rd retry will happen 1 hour after the 2nd retry,
 -   the 4th retry will happen 6 hours after the 3rd retry,
 -   the 5th retry will happen 12 hours after the 4th retry,
--   and the 6th retry will happen 24 hours after the 5th retry.
+-   and the 6th retry will happen 24 hours after the 5th retry...

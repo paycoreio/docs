@@ -133,6 +133,7 @@ nav:
         - Integration Guide: products/hpp/integration-guide.md
         - Customization: products/hpp/customization.md
         - Payment Widget: products/hpp/payment-widget.md
+        - Samples: products/hpp/samples.md
     - FX Rates: products/fx-rates/index.md
     - Analytics:
         - Overview: products/analytics/index.md
