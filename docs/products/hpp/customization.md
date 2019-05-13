@@ -91,3 +91,6 @@ If you want to change the default text as it is provided by us, you have the fol
 The main domain for the MyCheckout hosted payment pages is:  **https://com.paycore.io/hpp**
 
 By default we offer a few subdomains that work for all our clients and that cannot be changed, indicated as "shared" subdomains. Using one of these shared subdomains works because the page shown to your consumer is based on your API key that is used when creating the URL for the hosted payment page and not on the subdomain of that URL that it does contain. In case you want a subdomain which contains a reference to your company name or own site, so that consumers will feel more confident in paying on that site, you can request up to 5 subdomains, excluding the shared subdomains.
+
+## Styling
+

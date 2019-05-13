@@ -23,6 +23,9 @@ theme:
     accent: 'indigo'
   feature:
     tabs: true
+  font:
+    text: Roboto
+    code: Roboto Mono    
 
 # Customization
 extra:
@@ -37,6 +40,12 @@ extra:
       link: 'https://github.com/paycoreio'
 extra_css:
   - extra.css
+#extra_javascript:
+  #- 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  #- 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'
+  #- 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'
+  #- 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
+  #- 'https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js'
 
 # Google Analytics
 google_analytics:
@@ -71,7 +80,15 @@ markdown_extensions:
       repo: docs
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences: 
+        - name: flow
+          class: uml-flowchart
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: sequence
+          class: uml-sequence-diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -133,7 +150,7 @@ nav:
         - Integration Guide: products/hpp/integration-guide.md
         - Customization: products/hpp/customization.md
         - Payment Widget: products/hpp/payment-widget.md
-        - Samples: products/hpp/samples.md
+        - Pages & Samples: products/hpp/samples.md
     - FX Rates: products/fx-rates/index.md
     - Analytics:
         - Overview: products/analytics/index.md

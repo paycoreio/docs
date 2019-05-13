@@ -42,8 +42,6 @@ You will find here the usual integration flow of the Hosted Payment Page. In thi
 ### Forward using a created payment invoice
 
 
-
-
 ## Using metadata
 
 In the example above we suppose you will store the  `reference_id`  that’s unique to the payment in your order table. This way your website is able to look-up the order for this payment when the webhook is triggered by PayCore.io. Your website is keeping track of the payment, effectively bringing about the connection between order and payment. This approach is easiest to grasp, which is why we use it in our example.
@@ -72,7 +70,6 @@ For some payment requests, you may decide to filter the payment methods that are
 -   The  `service`  and the `service_fields` fields are used to take the customer directly to a specific payment service gateway. Example: `service: paypal_usd_hpp`.
 
 All the payment services that are configured for your account, including the value you use to indicate the specific payment method, are available in the Dashboard interface under **Commerce Account Settings > Payment Methods > Name**.  
-
 
 ### Payment method availability by geolocation
 
