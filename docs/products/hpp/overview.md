@@ -2,7 +2,6 @@
 
 This page will take you through the  _Hosted Payment Page API_  and explain how to interact with it and its concepts. Please make sure to understand why you should use the Hosted Payment Page and the Overview of the system before reading this documentation. The Hosted Payment Page works with a  _Commerce_  from the PayCore.io ecosystem. 
 
-
 ## Ecosystem overview
 
 **Commerce’s Hosted Payment Page**  (_HPP_) requires that you integrate different server-side REST APIs from the PayCore.io environment and thus requires no client-side integration. The different APIs correspond to different PayCore.io products and have some defined objects that interact with each other.
@@ -52,3 +51,14 @@ On the merchant side, Payment Invoice is initiated on the order payment step. Th
 [//]: # (На backend мерчанта проиходит управление заказом, инициация платежа и обработка уведомлений о смене статуса Payment Invoice.)
 
 On the merchant backend, the order is managed, payment is initiated and Payment Invoice status changes are processed.
+
+
+## How does it work
+
+Technically, HPP is a companion service to  _PayCore.io Commerce_ that uses  _PayCore.io Payment Gateway_, which can both be referred as a  _Payment Provider_. You will have to integrate one of these APIs to create a  _Payment Invoice_, and then use HPP to deliver the Payment experience to merchant customers.
+
+A complete payment process will involve three of PayCore.io services:
+
+1.  **Commerce HPP API**  - Hosted Payment Page to distribute the Payment Invoice to merchant Customer.
+2.  **Commerce Public API**  - Public API to integrate to create a Payment Invoice.
+3.  **Commerce Private API**  - Private API to capture payment or refund the order that was created.

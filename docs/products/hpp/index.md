@@ -35,17 +35,7 @@ HPP lets you provide PayCore.io as a payment method in your website store, your 
 HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your consumer a _paylink_ by e-mail or sms and let them pay the order.
 
 
-### How does it work
-
-Technically, HPP is a companion service to  _PayCore.io Commerce_ that uses  _PayCore.io Payment Gateway_, which can both be referred as a  _Payment Provider_. You will have to integrate one of these APIs to create a  _Payment Invoice_, and then use HPP to deliver the Payment experience to merchant customers.
-
-A complete payment process will involve three of PayCore.io services:
-
-1.  **Commerce HPP API**  - Hosted Payment Page to distribute the Payment Invoice to merchant Customer.
-2.  **Commerce Public API**  - Public API to integrate to create a Payment Invoice.
-3.  **Commerce Private API**  - Private API to capture payment or refund the order that was created.
-
-### Follow our guide
+## Follow our guide
 
 1.  Learn more about  [objects handled using Commerce APIs](/products/hpp/integration-overview): payment invoice, payment request, callbacks…
 2.  Read our  [step by step integration guide](/products/hpp/integration-guide)  and create your own flow.
