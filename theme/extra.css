@@ -5,3 +5,16 @@
 }
 
 .md-typeset .magiclink:before{position:relative;padding-right:.25rem;font-family:FontAwesome;-moz-osx-font-smoothing:initial;-webkit-font-smoothing:initial;font-weight:400}.md-typeset .magiclink-repository.magiclink-github:before{content:""}.md-typeset .magiclink-repository.magiclink-gitlab:before{content:""}.md-typeset .magiclink-repository.magiclink-bitbucket:before{content:""}.md-typeset {}
+
+img[src*='#w40'] {
+    width: 40px;
+}
+img[src*='#w24'] {
+    width: 24px;
+}
+img[src*='#w100'] {
+    width: 100px;
+}
+img[src*='#w200'] {
+    width: 200px;
+}
