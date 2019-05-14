@@ -10,16 +10,18 @@ Here You can find  instructions for setting up **FlashPay** account!
 
 #### Step 1: Create provider account
 
-#### Step 2: Contact with Flashpay manager
+#### Step 2: Generate the key-pair
 
-This Payment Provoider gives acoount credentials personaly to their merchants!
+1. Generate Private key : `openssl genrsa -out priv.key 2048`
+2. Get public key: `openssl rsa -in priv.key -out open.key -pubout`
 
-#### Step 3: Get required credentials
+#### Step 3: Contact with Flashpay manager
+
+Ask manager to link public key to your account. 
+
+#### Step 4: Get required credentials
 
 -  Key ID
--  Private key
-    !!! note
-        Private key must be a file!
 
 !!! success
     You are ready to connect!

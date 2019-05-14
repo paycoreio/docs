@@ -134,6 +134,7 @@ nav:
         - Payout Workflow: products/payout-gateway/payout-workflow.md
         - Payout Request Workflow: products/payout-gateway/payout-request-workflow.md
     - Commerce:
+<<<<<<< Updated upstream
         - Overview: products/commerce/index.md
         - Basic Concepts: products/commerce/basic-concepts.md
         - Commerce Accounts: products/commerce/commerce-account.md
@@ -143,6 +144,22 @@ nav:
         - Managing Payouts: products/commerce/managing-payouts.md
         - Payment Invoice: products/commerce/payment-invoice.md
         - Payout Invoice: products/commerce/payout-invoice.md
+<<<<<<< HEAD
+=======
+    - Ledger: products/ledger/index.md        
+    #- Batch Payouts: products/batch-payouts/index.md
+=======
+        - Overview: 'products/commerce/index.md'
+        - Commerce Account: 'products/commerce/commerce-account/index.md'
+        - Commerce Scheme: 'products/commerce/commerce-scheme.md'
+        - Payment Invoice: 'products/commerce/payment-invoice/index.md'
+        - Payout Invoice: 'products/commerce/payout-invoice/index.md'
+        - Batch payouts: 'products/commerce/batch-payouts/index.md'
+        - Commerce Webhooks: 'products/commerce/webhooks.md'
+        - Ledger: 'products/ledger/index.md'        
+    - Batch payouts: 'products/batch-payouts/index.md'
+>>>>>>> Stashed changes
+>>>>>>> rebase conflict
     - HPP:
         - Introduction: products/hpp/index.md
         - Integration:
