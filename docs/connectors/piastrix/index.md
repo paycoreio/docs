@@ -41,8 +41,7 @@ Here You can find  instructions for setting up **Piastrix**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/piastrix_connect.png)](images/piastrix_connect.png)
+![Connect](images/piastrix_connect.png)
 
 
 !!! success

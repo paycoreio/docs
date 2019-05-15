@@ -43,8 +43,7 @@ Ask manager to link public key to your account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/flashpay_connect.png)](images/flashpay_connect.png)
+![Connect](images/flashpay_connect.png)
 
 
 !!! success

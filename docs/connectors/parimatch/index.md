@@ -48,8 +48,7 @@ Here You can find  instructions for setting up **Parimatch**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/parimatch_connect.png)](images/parimatch_connect.png)
+![Connect](images/parimatch_connect.png)
 
 
 !!! success

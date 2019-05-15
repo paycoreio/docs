@@ -64,8 +64,7 @@ Here You can find  instructions for setting up **Xpay**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/xpayua_connect.png)](images/xpayua_connect.png)
+![Connect](images/xpayua_connect.png)
 
 
 !!! success

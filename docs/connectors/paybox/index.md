@@ -15,13 +15,11 @@ Here You can find  instructions for setting up  [**Paybox** account](https://my.
 
 #### Step 2: Open Settings
 
-!!! info "Screenshot"
-    [![Step 2](images/paybox-step1.png)](images/paybox-step1.png)
+![Step 2](images/paybox-step1.png)
 
 #### Step 3: Go to Merchant section (My markets)
 
-!!! info "Screenshot"
-    [![Step 3](images/paybox-step3.png)](images/paybox-step3.png)
+![Step 3](images/paybox-step3.png)
 
 
 
@@ -32,8 +30,7 @@ Here You can find  instructions for setting up  [**Paybox** account](https://my.
     -  Secret keys
         - For Payout
 
-    !!! info "Screenshot"
-        [![Step 4](images/paybox-step4.png)](images/paybox-step4.png)
+    ![Step 4](images/paybox-step4.png)
 
     -  URLs
         - RESULT URL    ```https://psp-ext.paycore.io/paybox/callback```
@@ -43,8 +40,7 @@ Here You can find  instructions for setting up  [**Paybox** account](https://my.
         
     -  REQUEST METHOD ```POST```
     
-    !!! info "Screenshot"
-        [![Step 4](images/paybox-step5.png)](images/paybox-step5.png)
+    ![Step 4](images/paybox-step5.png)
 
 !!! success
     You have configured your account!
@@ -67,8 +63,7 @@ Here You can find  instructions for setting up  [**Paybox** account](https://my.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/paybox_connect.png)](images/paybox_connect.png)
+![Connect](images/paybox_connect.png)
 
 
 !!! success

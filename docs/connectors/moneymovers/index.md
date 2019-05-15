@@ -38,8 +38,7 @@ Here You can find  instructions for setting up **MoneyMovers**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/moneymovers_connect.png)](images/moneymovers_connect.png)
+![Connect](images/moneymovers_connect.png)
 
 
 !!! success

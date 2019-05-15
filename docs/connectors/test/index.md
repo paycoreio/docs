@@ -20,8 +20,7 @@ It should have 32 characters or less!
     Press **`Connect`** at Test **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
-!!! info "Screenshot"
-    [![Connect](images/test_connect.png)](images/test_connect.png)
+![Connect](images/test_connect.png)
 
 
 !!! success

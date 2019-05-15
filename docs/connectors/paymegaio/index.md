@@ -39,8 +39,7 @@ Here You can find  instructions for setting up **PayMega.io**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/paymegaio_connect.png)](images/paymegaio_connect.png)
+![Connect](images/paymegaio_connect.png)
 
 
 !!! success

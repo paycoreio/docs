@@ -18,8 +18,7 @@ Get **`Login`** and **`Password`** for [Your personal account](https://cabinet.p
     ??? note
         Services are created by PaymentCenter manager!
     
-    !!! info "Screenshot"
-        [![Services](images/paymentcenter__services1.png)](images/paymentcenter__services1.png)    
+        ![Services](images/paymentcenter__services1.png)    
 
 2. Find and Copy:
     -  **Service ID**
@@ -27,14 +26,12 @@ Get **`Login`** and **`Password`** for [Your personal account](https://cabinet.p
 
 3. Go to the **`Actions list`**
 
-    !!! info "Screenshot"
-        [![Actions](images/paymentcenter__actions.png)](images/paymentcenter__actions.png) 
+    ![Actions](images/paymentcenter__actions.png) 
 
 4. Find and Copy:
     -  **Secret Key**
 
-    !!! info "Screenshot"
-        [![Secret key](images/paymentcenter__secret_key.png)](images/paymentcenter__secret_key.png) 
+    ![Secret key](images/paymentcenter__secret_key.png) 
 
     ??? Note
         You can set a new one, but ensure that copied key is actual.
@@ -47,8 +44,7 @@ Get **`Login`** and **`Password`** for [Your personal account](https://cabinet.p
 - Notifications: **`ENABLED`**
 - Callback data format : **`JSON`**
 
-    !!! info "Screenshot"
-        [![Parameters](images/paymentcenter__paramenters.png)](images/paymentcenter__paramenters.png) 
+    ![Parameters](images/paymentcenter__paramenters.png) 
 
 !!! success
     You have configured account!
@@ -72,8 +68,7 @@ Get **`Login`** and **`Password`** for [Your personal account](https://cabinet.p
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/paymentcenter_connect.png)](images/paymentcenter_connect.png)
+![Connect](images/paymentcenter_connect.png)
 
 
 !!! success

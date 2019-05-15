@@ -18,8 +18,7 @@ Here You can find  instructions for setting up [**Skrill**  account](https://acc
 - Go to the **`Settings`** —> **`Account settings`**
 - Set **`Auto accept payments`** property
 
-!!! info "Screenshot"
-    [![Settings](images/acc_settings_1.png)](images/acc_settings_1.png)
+![Settings](images/acc_settings_1.png)
 
 
 ### Step 3: Set up API access
@@ -37,8 +36,7 @@ Here You can find  instructions for setting up [**Skrill**  account](https://acc
 !!! tip
     Follow the Skrill recomendations for passwords and secrets requirements!
 
-!!! info "Screenshot"
-    [![Settings](images/acc_dev_settings_1.png)](images/acc_dev_settings_1.png)
+![Settings](images/acc_dev_settings_1.png)
 
 ### Step 4: Get required credentials
 
@@ -74,8 +72,7 @@ Here You can find  instructions for setting up [**Skrill**  account](https://acc
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/skrill_connect.png)](images/skrill_connect.png)
+![Connect](images/skrill_connect.png)
 
 
 !!! success

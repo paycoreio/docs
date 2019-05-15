@@ -15,8 +15,7 @@ Here You can find  instructions for setting up [**Fondy** account](https://porta
 -  Press "Add Merchant"
 -  Set up creation parameters
 
-!!! info "Screenshot"
-    [![Step 1](images/fondy-step1.png)](images/fondy-step1.png)
+![Step 1](images/fondy-step1.png)
 
 #### Step 2: Setup Financial settings
 
@@ -25,8 +24,7 @@ Here You can find  instructions for setting up [**Fondy** account](https://porta
 -  Fill the required data
 -  Verify documents
 
-!!! info "Screenshot"
-    [![Step 2](images/fondy-step2.png)](images/fondy-step2.png)
+![Step 2](images/fondy-step2.png)
 
 #### Step 3: Get Merchant and Aplication credentials
 
@@ -35,8 +33,7 @@ Here You can find  instructions for setting up [**Fondy** account](https://porta
     -  Payment Key
     -  Credit Private Key
 
-!!! info "Screenshot"
-    [![Step 3](images/fondy-step3.png)](images/fondy-step3.png)
+![Step 3](images/fondy-step3.png)
 
 - **Application**
 -  ID
@@ -45,8 +42,7 @@ Here You can find  instructions for setting up [**Fondy** account](https://porta
 !!! info 
     Application credentials (**_ID_**, **_Secret key_**) You can get only from **Fondy Technical Support**
 
-!!! info "Screenshot"
-    [![Step 3](images/fondy-step4.png)](images/fondy-step4.png)
+![Step 3](images/fondy-step4.png)
 
 !!! success
     You have configured Merchant!
@@ -78,8 +74,7 @@ Here You can find  instructions for setting up [**Fondy** account](https://porta
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/fondy_connect.png)](images/fondy_connect.png)
+![Connect](images/fondy_connect.png)
 
 !!! success
     You have connected **Fondy**!

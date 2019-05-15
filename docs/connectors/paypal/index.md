@@ -18,14 +18,9 @@ Here You can find  instructions for setting up [ **PayPal** account](https://dev
 - Set **`App Name`** 
 - Choose **`Sandbox developer account`**
 
-!!! tip
-    Don't forget to confirm creation!
+    ![Create App](images/createapp1.png)
 
-
-!!! info "Screenshots"
-    [![Create App](images/createapp1.png)](images/createapp1.png)
-
-    [![Create App](images/createapp2.png)](images/createapp2.png)
+    ![Create App](images/createapp2.png)
 
 !!! Note
     You will be automaticaly redirected to Created app!
@@ -35,8 +30,7 @@ Here You can find  instructions for setting up [ **PayPal** account](https://dev
 -  Client ID
 -  Client Secret
 
-!!! info "Screenshot"
-    [![App Credentials](images/appcred1.png)](images/appcred1.png)
+![App Credentials](images/appcred1.png)
 
 !!! warning
     Ensure that **`Mode Switcher`** has **`Live`** state, if you want to connect **`Live`** account!
@@ -55,8 +49,7 @@ Here You can find  instructions for setting up [ **PayPal** account](https://dev
 !!! tip
     Don't forget to confirm action!
 
-!!! info "Screenshots"
-    [![Set Up](images/setup1.png)](images/setup1.png)
+    ![Set Up](images/setup1.png)
 
 
 #### Step 4: Get Account credentials
@@ -86,14 +79,13 @@ To get them - folow this flow:
     -  SOAP Password
     -  Signature
 
-!!! info "Screenshots"
-    [![Acc Credentials](images/acc-cred1.png)](images/acc-cred1.png)
+    ![Acc Credentials](images/acc-cred1.png)
 
-    [![Acc Credentials](images/acc-cred2.png)](images/acc-cred2.png)
+    ![Acc Credentials](images/acc-cred2.png)
 
-    [![Acc Credentials](images/acc-cred3.png)](images/acc-cred3.png)
+    ![Acc Credentials](images/acc-cred3.png)
 
-    [![Acc Credentials](images/acc-cred4.png)](images/acc-cred4.png)
+    ![Acc Credentials](images/acc-cred4.png)
 
 !!! success
     You have configured account!
@@ -122,8 +114,7 @@ To get them - folow this flow:
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/paypal_connect.png)](images/paypal_connect.png)
+![Connect](images/paypal_connect.png)
 
 
 !!! success

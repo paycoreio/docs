@@ -1,4 +1,4 @@
-<img src="https://static.openfintech.io/payment_providers/neteller/logo.png?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/neteller/logo.svg?w=400" width="400px">
 
 # Neteller Connector
 
@@ -14,8 +14,7 @@ Here You can find  instructions for setting up **Neteller**  account.
 2. Open **`API`** section
 3. Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
 
-!!! info "Screenshot"
-    [![API](images/ips_1.png)](images/ips_1.png)
+![API](images/ips_1.png)
 
 #### Step 2: Add APP
 1. Go to the **`Apps`** section
@@ -23,8 +22,7 @@ Here You can find  instructions for setting up **Neteller**  account.
     - Press Add button
     - Set your domain as Application hostname 
 
-!!! info "Screenshot"
-    [![APP](images/add_app_1.png)](images/add_app_1.png)
+![APP](images/add_app_1.png)
 
 #### Step 3: Get required credentials
 
@@ -33,8 +31,7 @@ Here You can find  instructions for setting up **Neteller**  account.
     -  Client ID
     -  Client Secret
 
-!!! info "Screenshot"
-    [![APP](images/creds_1.png)](images/creds_1.png)
+![APP](images/creds_1.png)
 
 !!! success
     You have configured account!
@@ -66,8 +63,7 @@ Here You can find  instructions for setting up **Neteller**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/neteller_connect.png)](images/neteller_connect.png)
+![Connect](images/neteller_connect.png)
 
 
 !!! success

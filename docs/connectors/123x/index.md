@@ -11,27 +11,23 @@ Here You can find  instructions for setting up [**123x** account](https://123x.i
 
 #### Step 1: Open Commerce setting
 
-!!! info "Screenshot"
-    [![Step 1](images/123xio-step1.png)](images/123xio-step1.png)
+![Step 1](images/123xio-step1.png)
 
 #### Step 2: Verify your business account
 
-!!! info "Screenshot"
-    [![Step 2](images/123xio-step2_1.png)](images/123xio-step2_1.png)
+![Step 2](images/123xio-step2_1.png)
     
-    [![Step 2](images/123xio-step2_2.png)](images/123xio-step2_2.png)
+![Step 2](images/123xio-step2_2.png)
 
-    [![Step 2](images/123xio-step2_3.png)](images/123xio-step2_3.png)
+![Step 2](images/123xio-step2_3.png)
 
 #### Step 3: Back to Commerce and choose  "API.V0.MPS Merchant Payment Service"
 
-!!! info "Screenshot"
-    [![Step 3](images/123xio-step3.png)](images/123xio-step3.png)
+![Step 3](images/123xio-step3.png)
 
 #### Step 4: Add Service
 
-!!! info "Screenshot"
-    [![Step 4](images/123xio-step4.png)](images/123xio-step4.png)
+![Step 4](images/123xio-step4.png)
 
 #### Step 5: Set up parameters
 -  Market name
@@ -40,10 +36,8 @@ Here You can find  instructions for setting up [**123x** account](https://123x.i
 -  Error Url ```https://psp-ext.paycore.io/123xio/return```
 -  Status
 
-!!! info "Screenshot"
-    [![Step 5](images/123xio-step5.png)](images/123xio-step5.png)
+![Step 5](images/123xio-step5.png)
 
--  Confirm creation
 
 !!! success
     You have created Merchant Payment Service!
@@ -54,8 +48,7 @@ Here You can find  instructions for setting up [**123x** account](https://123x.i
 -  API key
 -  Secret key
 
-!!! info "Screenshot"
-    [![Step 1](images/123xio-step6.png)](images/123xio-step6.png)
+![Step 1](images/123xio-step6.png)
 
 #### Step 2: Enter credentials
 
@@ -65,8 +58,7 @@ Here You can find  instructions for setting up [**123x** account](https://123x.i
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/123xio_connect.png)](images/123xio_connect.png)
+![Connect](images/123xio_connect.png)
 
 
 

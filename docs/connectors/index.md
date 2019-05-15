@@ -31,7 +31,7 @@ The general algorithm for the connection procedure consists of the following ste
 ## Connecting account
 
 - This step is unified for all providers. All that you need is to:
-    -  Enter the connection data
+    -  Enter credentials
     -  Confirm the connection
 
 ## Payment Providers 
@@ -49,17 +49,15 @@ Payment Provider  can be in **2 statuses**:
     1. Go to the **`Provider Overview page`** by clicking on it's logo
     2. Click **`Connect`** button
     3. Enter the credentials 
-    4. Confirm action
     
     !!! tip
         You can find detailed instructions for each provider at [Integration    Manuals](/connectors/).
 
 - To ask PayCore.io to implement **NEW** Payment provider, use **`Request a connection`** button!
 
-!!! info "Screenshots"
-    [![New connection](images/newconn1.png)](images/newconn1.png)
+    ![New connection](images/newconn1.png)
 
-    [![New connection](images/newconn2.png)](images/newconn2.png)
+    ![New connection](images/newconn2.png)
 
 
 ## Payment methods
@@ -87,4 +85,4 @@ Payment Provider  can be in **2 statuses**:
 !!! info "Note"
     If You have any questions, suggestions or comments, please, contact us  through [**PayСore.io Service Desk**](https://jira.paymaxi.com/servicedesk/customer/portal/4)
     
-    [![Step 2](images/servicedesk.png)](https://jira.paymaxi.com/servicedesk/customer/portal/4)
+    ![Step 2](images/servicedesk.png)
