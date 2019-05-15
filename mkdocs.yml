@@ -5,8 +5,8 @@ site_author: 'PayCore.io (c)'
 site_url: 'https://docs.paycore.io/'
 
 # Repository
-repo_name: 'paycoreio/docs'
-repo_url: 'https://github.com/paycoreio/docs/'
+#repo_name: 'paycoreio/docs'
+#repo_url: 'https://github.com/paycoreio/docs/'
 
 # Copyright
 copyright: '© 2016-2048 PayCore.io<sup>®</sup>. All Rights Reserved.'
