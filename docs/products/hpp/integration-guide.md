@@ -175,7 +175,7 @@ This example represents a complete payment session, based on the order details a
     <iframe name="pay_frame" src="" id="pay_frame" width="XX" height="YY"></iframe>     
     ```
 
-## Notifications
+## Callback handling
 
 ## Testing
 
