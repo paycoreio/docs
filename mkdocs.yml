@@ -142,8 +142,6 @@ nav:
         - Managing Payouts: products/commerce/managing-payouts.md
         - Payment Invoice: products/commerce/payment-invoice.md
         - Payout Invoice: products/commerce/payout-invoice.md
-    - Ledger: products/ledger/index.md        
-    #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
         - Introduction: products/hpp/index.md
         - Integration Overview: products/hpp/overview.md
@@ -152,6 +150,8 @@ nav:
         - Payment Widget: products/hpp/payment-widget.md
         - Pages & Samples: products/hpp/samples.md
     - FX Rates: products/fx-rates/index.md
+    - Ledger: products/ledger/index.md        
+    #- Batch Payouts: products/batch-payouts/index.md
     - Analytics:
         - Overview: products/analytics/index.md
         - Getting Started: products/analytics/getting-started.md

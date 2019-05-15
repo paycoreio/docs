@@ -42,6 +42,24 @@ You will find here the usual integration flow of the Hosted Payment Page. In thi
 ### Forward using a created payment invoice
 
 
+## Integration type
+
+Your integration type decides how you set your parameters.
+
+### Full-page redirect
+
+Full-page is right for you if you take  [Alternative Payment Methods](#)  (APMs) through Worldpay, as well as card payments. Currently the iframe/lightbox integration doesn't support APMs.
+
+In the full-page integration we use an iframe to display 3D Secure. All other Hosted Payment Page content is displayed full page in the browser.
+
+### JavaScript SDK
+
+[JavaScript SDK](#)  is right for you if you want a more advanced integration with card payments only:
+
+-   **In the iframe setup**  all Hosted Payment Page content, including 3D Secure content, is displayed in an iframe within your website.
+    
+-   **In the lightbox setup**  we use an iframe to display 3D Secure within the lightbox. All other Hosted Payment Page content is displayed in the lightbox.
+
 ## Using metadata
 
 In the example above we suppose you will store the  `reference_id`  that’s unique to the payment in your order table. This way your website is able to look-up the order for this payment when the webhook is triggered by PayCore.io. Your website is keeping track of the payment, effectively bringing about the connection between order and payment. This approach is easiest to grasp, which is why we use it in our example.
@@ -60,6 +78,13 @@ Keep the following in mind:
 
 PayCore.io cannot guarantee that all payment methods will work when using an iFrame, nor that the behaviour of a payment method will remain the same. Furthermore, the exact operation of a redirect payment method can differ between the test and the live environments.
 
+## Customer details
+
+### Customer email
+
+The  `customer`  element contains more information about the customer making the payment.
+
+It includes  `customer[email]`, which we can use to send an email to the shopper when the payment is authorised or refused (if you choose to enable this notification channel).
 
 ## Filtering payment services
 
@@ -167,3 +192,10 @@ To enhance the shopper experience, you have the option to include the following 
 |shopperLocale|A combination of a language code and country code to specify the language used in the session.|
 
 These values are used as a fallback when PayCore.io is unable to determine skin and language configuration.
+
+
+### Custom return URLs
+
+Provide custom `return_url` so that your shoppers are returned to your website at the end of the payment process.
+
+If `return_url` are not provided, shoppers are redirected to one of PayCore.io's default result pages, where the payment journey ends.
