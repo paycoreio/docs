@@ -43,6 +43,49 @@ Once a customer has added items to the shopping cart and filled out the shipping
 
 The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
 
+## Integration types
+
+#### Payment widget
+
+Payment.widget.js is our simplest integration method and requires little technical know-how. It's a payment lightbox that you can easily add to your website. Just like with Elements, customers enter their payment information, which we then exchange for a token.
+  
+[Learn more -->](/integration/payment-widget-js/)
+
+#### Client Redirection
+
+Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
+
+??? example "Simple redirect example"
+    The simplest case would involve an HTML form with specific information that would be sent via a POST request. There’s no need to require any the data from your customers, so all the fields will be hidden in most cases. 
+    Here’s how it can look like:
+
+    ```html
+    <form action="https://com.paycore.io/hpp/" method="POST">
+        <input type="hidden" name="public_key" value="<your-public-key>" />
+        <input type="hidden" name="reference_id" value="<unique-reference-id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay with PayCore.io" />
+    </form>
+    ```
+
+You can integrate with any of our 3 checkout experience offerings. Choose from one of our simple hosted solutions (Inline and Standard), or for more advanced users, integrate with our Payment API.
+
+-   [![Payment API](https://www.2checkout.com/upload/images/icon_payment-api_white.png)](https://www.2checkout.com/documentation/payment-api)
+    
+    **Payment API**  
+    Tokenize card data on your site and submit the charge from your server.
+    
+-   [![Embedded HPP](https://www.2checkout.com/upload/images/icon_inline_white.png)](https://www.2checkout.com/documentation/checkout/inline-checkout)
+    
+    **Embedded Checkout**  
+    Display an overlay payment form on your site.
+    
+-   [![Standard HPP](https://www.2checkout.com/upload/images/icon_standard_white.png)](https://www.2checkout.com/documentation/checkout/standard-checkout)
+    
+    **Standard Checkout**  
+    Redirect to a customizable hosted payment page.
 
 ## Follow our guide
 

@@ -1,14 +1,11 @@
 # Organization Account
 
-Organisation is an important management part of [PayСore.io Dashboard](https://dashboard.paycore.io/). 
+## Introduction
 
-It allows you to isolate data and operations of your organization from other accounts in the system.
+A  **organization**  in PayCore.io can be visualized as a container that holds all the customer information, payment provider accounts, payment & payout data, reports and associated configurations. It's the heart of a PayCore.io account and the way it is built and configured determines how your customers are paid, charged and communicated with. The kind of access privileges you have on a organization depend on the kind of  **role**  you have as a organization  **member**. You can learn more about organization member roles  [here](/account/assess-control/). The top-left corner in PayCore.io shows the organization you are working in and allows you to switch to any other one you may have access to.
 
-It is intended to for:
 
-- setting up organisation info
-- mebmers management
-- functionlan access control
+## Organisation settings
 
 In these cases "Organisation settings" is structurally divided into 3 sections:
 

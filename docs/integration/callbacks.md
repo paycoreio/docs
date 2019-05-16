@@ -5,9 +5,13 @@ Callbacks allow you to receive notifications whenever the state on an object cha
 To set up Callbacks for an object, set a  `callback_url`  on that object. Whenever something important happens to the object that we think you should be notified of (typically a state change), we will make an HTTP POST request to your  `callback_url`  with the  `object_id`  in the body of the request.
 
 !!! note
-      Currently, PayСore.io supports 2 version of callbacks. This document only describes the newer version. All organisations created after 12-01-2018 by default use the new version of callbacks. PayСore.io sign data using organization secret keys. They can be obtained in organization settings. All callbacks are signed live or test secret key according to the mode in which operation has been created.
+    Callbacks are asynchronous and are not recommended for time-critical applications. It is very much possible and even likely that callbacks reach your application out-of-order and that they get duplicated. For time-critical applications, we recommend using the  [API](/integration/) to poll our system for updates.
 
-## Request Details
+## Configure Callbacks
+
+To configure your callbacks, go to  **Commerce Settings**  >  **Integration**  >  **Callbacks** and add a callback URL.
+
+## Callback Requests
 
 The HTTP request that we make to your `callback_url` will have the following characteristics:
 
@@ -66,40 +70,47 @@ This an example for payment-request operation callback data:
 }
 ```
 
-## What to do when you receive a Callback
+You also have the option to exclude card object from the callback. Enabling this will remove the masked card details object from the callback.
 
-Because HTTPS/SSL verifies the identity of the server you are making API calls to, you will always know that the updated information you are receiving is correct. 
-If we sent object information in the Callback itself, you would have to verify the authenticity of the information (via signed request, etc).
+!!! note
+    Although only masked card details are sent as part of the callback data, we recommend this option be enabled as the data could still be used for phishing attacks in case your site suffers a security breach.
+
+## API Version
+
+PayCore.io supports multiple API versions. The event content sent to the callback is structured based on the API version selected. Hence it is crucial that the API version of the callback matches the API version of the client library used by your application server. Learn more about API versioning  [here](/integration/).
 
 ## Signature
 
- PayСore.io sends signature in X-Signature header. The signature is created by next algorithm:
+PayСore.io sign data using secret keys. They can be obtained in organization or Commerce Account settings. All callbacks are signed `live` or `test` secret key according to the mode in which operation has been created.
 
-```php
+PayСore.io sends signature in `X-Signature` callback request header. The signature is created by next algorithm:
+
+```php tab="PHP"
 $signature = base64_encode(sha1($secret . $callbackData . $secret, true));
 ```
 
-Where the ```$secret``` is one your secrets: test or live, ```$callbackData``` is raw json data. 
+Where the `$secret` is one your secrets: `test` or `live`, `$callbackData` is raw json data. 
 
 !!! note
       To be sure you got data from PayСore, you should compute the signature using an appropriate secret key and compare with ones from PayСore.io callback data.
 
+## Timeouts
 
-## Manage concurrency
+There are 3 timeouts for Callbacks in PayCore.io:
 
-When a user makes a number of changes in rapid succession, your app is likely to receive multiple notifications for the same user at roughly the same time. If you're not careful about how you manage concurrency, your app can end up processing the same changes for the same user more than once.
+1.  **Connection Timeout:**  The connection timeout is the timeout for making the initial connection to the callback URL's HTTP server.
+2.  **Read Timeout:**  Once the initial connection has been made, at any time there is a possibility that there is an indefinite wait to read data from the HTTP server. The read timeout is the timeout for such a wait.
+3.  **Total Callback Timeout:**  In addition to the above timeouts, PayCore.io also checks the total execution of time of any callback via the callback execution timeout.
 
-To control processing idempotency use operation `id` or `reference_id` value in callback request data.
+The values for each timeout are as follows:
 
-For some applications, this is not a serious issue. Work that can be repeated without changing the outcome is called idempotent. If your app's actions are always idempotent, you don't need to worry much about concurrency.
+|Timeout            |For Test site|For Live site|
+|-------------------|-------------|-------------|
+|Connection Timeout |10,000 ms    |20,000 ms    |
+|Read Timeout       |10,000 ms    |20,000 ms    |
+|Execution Timeout  |20,000 ms    |60,000 ms    |
 
-
-## Batching
-
-We will batch Callbacks for the same object that are very close together. So if a checkout goes from state new to authorized to captured immediately, you will only receive one Callback and when you look up the status of the payment it will be `processed`. The advantage of doing this is that it prevents us from overwhelming your server(s) with HTTP requests and it prevents your app from having to build complicated logic around sequential state changes. Your app should only care about the latest state the object is in.
-
-
-## Failures
+## Automatic Retries
 
 When you successfully process callback request you must return `200` HTTP status code. Any other data return by callback is ignored.
 
@@ -111,3 +122,33 @@ If callback returns status code other then `200` it is assumed that the request 
 -   the 4th retry will happen 6 hours after the 3rd retry,
 -   the 5th retry will happen 12 hours after the 4th retry,
 -   and the 6th retry will happen 24 hours after the 5th retry...
+
+!!! note
+    You could resend a callback manually, if you wish to sync your data immediately. Go to  _Operation overview_  >  _Callbacks_. On the right side, you will have the option to select the callback and resend the same.
+
+## Callback Handling
+
+Because HTTPS/SSL verifies the identity of the server you are making API calls to, you will always know that the updated information you are receiving is correct. 
+If we sent object information in the Callback itself, you would have to verify the authenticity of the information via signed request, etc.
+
+## Duplicate Handling
+
+Due to callback retries, it's possible that your application receives the same callback more than once. Ensure idempotency of the callback by detecting such duplicates within your application.
+
+To control processing idempotency use by examining the  `id`  parameter in callback request data since its value is unique to an operation and thus identifies it.
+
+For some applications, this is not a serious issue. Work that can be repeated without changing the outcome is called idempotent. If your app's actions are always idempotent, you don't need to worry much about concurrency.
+
+## Batching
+
+We will batch Callbacks for the same object that are very close together. So if a payment goes from state `created` to `invoked` to `processed` immediately, you will only receive one Callback and when you look up the status of the payment it will be `processed`.
+
+The advantage of doing this is that it prevents us from overwhelming your server(s) with HTTP requests and it prevents your app from having to build complicated logic around sequential state changes. Your app should only care about the latest state the object is in.
+
+## Out-of-Order Delivery
+
+Callbacks can also arrive at your application out-of-order. This can be due to issues such as network delays or callback failures. However, you can determine the order of the events by examining the  `updated`  attribute of the resource sent by the callback.  `updated`  is _timestamp_ value that updated for every change made to the resource.
+
+## IPs whitelist
+
+We use Amazon's EC2 for our infrastructure and currently we do not have a static IP address assigned. IP addresses for our instances are automatically allocated by Amazon, as we scale up or down. Hence, we are unable to provide any specific IP address for whitelisting.

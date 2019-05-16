@@ -10,14 +10,14 @@ Before you get started there are a few things you really need to know in order t
 
 Get the answers straight:
 
-???+ question "Which payment products do you want to offer your customers?"
+??? question "Which payment products do you want to offer your customers?"
     The PayCore.io platforms offer the widest range of payment methods of any payment service provider, from global card processing to specialized local payment products your world wide audience likes best. Have a look at the options we provide.
     [View all our payment methods -->](https://paycore.io/portfolio-category/payment-methods/)
 
-???+ question "Do you want to handle sensitive credit card information yourself?"
+??? question "Do you want to handle sensitive credit card information yourself?"
     Our platform offers SDKs and the Hosted Payment Pages that make sure you won’t have to bother with sensitive information.
 
-???+ question "Do you want to host your payment services yourself or let us take care of hosting?"
+??? question "Do you want to host your payment services yourself or let us take care of hosting?"
     You can either build your payment pages yourself using our javaScript or Native mobile SDKs on our Public API, or let us completely handle this for you through our Hosted Payment Pages. Which of these options is best in your case depends on your specific needs, and we're happy to advise.
 
 
@@ -27,7 +27,7 @@ With PayCore.io, you can build a payments flow that gives you and your customers
 
 Read about our integration methods below, then choose the one that best suits your needs.
 
-### Hosted Payment Page (HPP)
+### [Hosted Payment Page (HPP)](/products/hpp/)
 
 Our Hosted Payment Page (HPP) is a complete, ready-made payment UI that offers a quick and easy way to securely accept payments. The UI includes a card entry form and supports any payment method flow. When a user successfully completes the UI, your client code obtains a payment method nonce for use on your server.
 
@@ -40,36 +40,27 @@ Use our hosted responsive solution for payment processing:
 -   Good for connecting to existing checkout flows
 -   Responsive design on mobile
 
-[Learn more -->](/products/hpp/)
+??? question "What we do? What you do?"
+    We reduce your PCI-DSS burden by handling and validating your shopper data on our payment pages.
 
-#### Payment widget
+    **What we do**
 
-Payment.widget.js is our simplest integration method and requires little technical know-how. It's a payment lightbox that you can easily add to your website. Just like with Elements, customers enter their payment information, which we then exchange for a token.
-  
-[Learn more -->](/integration/payment-widget-js/)
+    -   Collect the shopper's payment details
+    -   Process your shopper's payment
+    -   Carry out changes/modifications to the payment
+    -   Notify you of payment status changes
+    -   Respond to your queries about the status of an order
 
-#### Client Redirection
+    **What you do**
 
-Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
-
-??? example "Simple redirect example"
-    The simplest case would involve an HTML form with specific information that would be sent via a POST request. There’s no need to require any the data from your customers, so all the fields will be hidden in most cases. 
-    Here’s how it can look like:
-
-    ```html
-    <form action="https://com.paycore.io/hpp/" method="POST">
-        <input type="hidden" name="public_key" value="<your-public-key>" />
-        <input type="hidden" name="reference_id" value="<unique-reference-id>" />
-        <input type="hidden" name="currency" value="USD" />
-        <input type="hidden" name="description" value="Some goods" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
+    -   Collect details of the items your shopper wants to buy
+    -   Send the order details to PayCore.io
+    -   Redirect the shopper to PayCore.io to make a payment
+    -   Inform the shopper of the payment result
 
 [Learn more -->](/products/hpp/)
 
-### Self-hosted payment page
+### [Self-hosted payment page](/integration/self-hosted-payment-page/)
 
 Before you can make a payment with our API integration, you need to collect any required payment details from your shopper. Here we describe how to do this by building your own payment form.
 Building your own form gives you full control over the look and feel of your checkout. If you'd rather not build your own payment form, you can also collect the shopper's payment details using our pre-built JavaScript Components. These are available for many popular payment methods.
@@ -80,6 +71,22 @@ Build and host yourself using SDKs or client API:
 -   Users stay in your application/domain
 -   Easy best-practices based development
 -   Available for many platforms
+
+??? question "What we do? What you do?"
+    You can manage shopper data and the shopper journey within your own environment.
+
+    **What we do**
+
+    -   Process your shopper's payment
+    -   Carry out changes/modifications to the payment
+    -   Notify you of payment status changes
+    -   Respond to your queries about the status of an order
+
+    **What you do**
+
+    -   Collect details of the items your shopper wants to buy
+    -   Collect the shopper's payment details (such as cardholder name and card number) and their chosen payment method
+    -   Send the payment to PayCore.io
 
 [Learn more -->](/integration/self-hosting-payment-page/)
 

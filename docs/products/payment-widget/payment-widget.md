@@ -41,7 +41,7 @@ There are two ways to add an event handler:
 Checkout.addEventHandler(Checkout.Events.<EVENT_CONSTANT>, handler, options);
 ```
 
-
-# Can we help?
+## Can we help?
 
 If you need any help or support, then message our support team at  <support@paycore.io>.
+
