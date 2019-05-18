@@ -63,9 +63,10 @@ This changelog lists releases by date and version number, along with associated 
 * API updates
 * Performance improvements
 
-!!! note
+!!! info
     Read more about [Software Versioning <i class="md-icon">launch</i>](https://semver.org).
 
-We are always here to hear your thoughts, questions, and feedback! 
-    
-Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)
+!!! question
+    We are always here to hear your thoughts, questions, and feedback! 
+
+    Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)
