@@ -104,3 +104,26 @@ In case you want to open the checkout in a separate page instead of it opening w
 ```
 https://<site-name>.chargebee.com/hosted_pages/plans/<plan-id>
 ```
+
+
+## Display logos of specific payment methods
+
+An alternative option is to present only the logos of the specific payment methods you want to offer
+your customers through Skrill. For example:
+You can then define, in your HTML code, which payment method to display on the Skrill Quick
+Checkout page when the customer selects this logo. There are two ways in which this feature can be
+implemented:
+• Fixed - only the selected payment method (or methods) is (are) displayed to the customer on
+Quick Checkout. The first method supplied is preselected (set as the default option).
+• Flexible - the selected payment method is displayed as the default option (preselected). Skrill
+automatically detects the customer’s country (using Geolocation or the country parameter
+passed by the merchant) and displays a localized version of the Quick Checkout page. Only
+the payment methods available in the customer’s country are displayed. The order of the
+payment methods tabs is based on the popularity and conversion rate for each method in the
+customer’s country.
+Co-branded payment method logos for display on your website are available at:
+https://www.skrill.com/en/merchants/brand-centre
+Note: The Payment methods you want to support are specified by including the relevant payment
+method codes in the payment request submitted to Skrill. Alternatively, it is also possible to
+request that only specific payment methods be enabled. For details, please contact Skrill
+Merchant Services.

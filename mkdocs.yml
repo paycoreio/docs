@@ -146,14 +146,18 @@ nav:
     - HPP:
         - Introduction: products/hpp/index.md
         - Integration:
-            - Integration Overview: products/hpp/actors.md
-            - Integration Guide: products/hpp/integration-guide.md
-            - Payment Widget: products/hpp/payment-widget.md
+            #- Integration Options: products/hpp/integration-options.md
+            - Integration Overview: products/hpp/integration-overview.md
+            #- Integration Guide: products/hpp/integration-guide.md
+        - Payment Widget: products/hpp/payment-widget.md
         - Customization: products/hpp/customization.md
         - Pages & Samples: products/hpp/samples.md
+        - Self-hosted payment page: products/hpp/self-hosted-payment-page.md
     - FX Rates: products/fx-rates/index.md
-    - Ledger: products/ledger/index.md        
-    #- Batch Payouts: products/batch-payouts/index.md
+    - Ledger: 
+        - Overview: products/ledger/index.md        
+    - Batch Payouts: 
+        - Overview: products/batch-payouts/index.md
     - Merchant Portal:
         - Overview: products/merchant-portal/index.md
     - Analytics:
@@ -169,17 +173,19 @@ nav:
         - FAQ: products/analytics/faq.md
 - Integration: 
     - Overview: integration/index.md
-    - Callbacks: integration/callbacks.md
-    - SDKs: integration/sdks.md
-    - References:
-        - Codes: integration/codes.md
-        - API References: integration/api-references.md
+    - Accept Payments: integration/accept-payments.md
+    - Make Payouts: integration/make-payouts.md
+    - API References: integration/api-references.md
+    - SDKs:
+        - Overview: integration/sdks.md
         - PublicApiClient.js: integration/public-api-client-js.md
+        - Postman Collections: integration/postman-collections.md
+    - Callbacks: integration/commerce-callbacks.md
+    - Security:
+        - Security Recommendations: integration/security-recommendations.md
+        - PCI Compliance: integration/pci-dss-overview.md
     - Testing: integration/tesing.md
     - Public IPs: integration/ips.md
-    - PCI Compliance: integration/pci-compliance.md
-    - Security: integration/security.md
-    - Postman Collections: integration/postman-collections.md
 - Connectors:
       - Overview: connectors/index.md
       - Test: connectors/test/index.md

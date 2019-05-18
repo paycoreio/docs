@@ -369,3 +369,7 @@ Please review the table below for details of the required and optional parameter
 ### Language Encoding for Text Parameters
 
 All text fields use UTF-8 encoding. Note however that the Quick Checkout payment form can only display Latin-1 characters
+
+## Callback
+
+When the payment process is complete Skrill sends the details of the transaction to the status_url page you provided in your payment request (see Table 2-1 on page 2-5). This is done with a standard HTTP POST. The Skrill server continues to post the status until a response of HTTP OK (200) is received from your server or the number of posts exceeds 10. The table below shows the parameters sent to your status_url page

@@ -8,7 +8,7 @@ _PayCore.io Ltd company is certified for PCI DSS as a Level 1 Service Provider._
 
 PCI compliance is a responsibility shared between both us and your business. So when accepting payments, it is essential that you do so in a PCI compliant manner. The complexity of this depends upon your integration methods, but the simplest way is never to see or access your customers' card data. Here are our tips:
 
--   Use one of our integration methods that allows you to accept payments without ever handling card data:  [Frames](#)  and  [payment.widget.js](/integration/payment-widget-js).
+-   Use one of our integration methods that allows you to accept payments without ever handling card data:  [HPP](/products/hpp/)  and  [payment.widget.js](/integration/payment-widget-js).
 -   Use Transport Layer Security (TLS) for all payment pages, so that they use HTTPS.
 -   Review and validate your PCI compliance once a year.
 

@@ -1,6 +1,6 @@
 
 
-# PayCore.io ecosystem overview
+# PayCore.io Ecosystem Overview
 
 You can interact with PayCore.io using the  [Dashboard](#dashboard), or using  [API](#api)  and  [Webhooks](#webhooks).  
 PayCore.io also collects payment information from your customers via the  [hosted payment page](#hosted-payment-page)  and the  [merchant portal](#merchant-portal).

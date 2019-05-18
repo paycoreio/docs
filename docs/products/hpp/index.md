@@ -1,5 +1,9 @@
 # Commerce Hosted Payment Page
 
+## Overview
+
+Start accepting online payments in just a few minutes with HPP. It's quick and easy to integrate, accepts online payments from all major methods and credit cards, and is customizable to your brand.
+
 ![HPP Preview](images/hpp-preview.png)
 
 The  **Hosted Payment Page**  (HPP) is a service that lets you use PayCore.io to accept payments without the need of integrating our products in your web pages, or even without having any consumer fronting website for  _In-store_  or  _Telesales_  use cases.
@@ -12,12 +16,14 @@ Before deciding to integrate the Hosted Payment Page, make sure that you checked
 
 For more information, visit our product page on [PayCore.io HPP](https://paycore.io/payment-gateway/checkout/).
 
-## Benefits of payments via the PayCore.io HPP
+## Benefits
+
+Benefits of payments via the PayCore.io HPP:
 
 -   PayCore.io’s Hosted Payment Pages are suitable for web, smartphones and tablets.
 -   All payment methods you have enabled are – when relevant – shown to your customers. A newly activated payment method is available immediately for all of your visitors.
 -   You can alter the look and feel of the page easily online in the Commerce Account settings in Dashboard.
--   You can offer over 50 languages/locales (e.g. pt-PT, pt-BR) to your customers.
+-   You can offer over 10 languages to your customers.
 -   The Commerce HPP are designed to work with all the payment methods in the world.
 -   If the customer’s first choice of payment method is not successful, it’s very easy for the customer to select and try another one. If a customer appears to not have sufficient credit on a checking account a retry by credit card could easily be attempted. We handle this for you without asking you to implement any extra APIs.
 -   PayCore.io optimizes the order of payment methods. For Dutch customers we know to list iDEAL at the top while for Belgians we start off with the payment method Bancontact. A lot of effort goes into this and we optimize this using A/B-testing. This way we improve your conversion without your effort.
@@ -37,60 +43,19 @@ HPP lets you provide PayCore.io as a payment method in your website store, your 
 HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your consumer a _paylink_ by e-mail or sms and let them pay the order.
 
 
-## How it works?
+## How it works
 
 Once a customer has added items to the shopping cart and filled out the shipping and billing details, he or she needs to choose the payment method and needs to provide the payment details. If you choose not to touch and store the credit card details of your consumers, you can outsource your payment page to us and use the Hosted Payment Page.
 
-The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
+The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details.
 
-## Integration types
+You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
 
-#### Payment widget
-
-Payment.widget.js is our simplest integration method and requires little technical know-how. It's a payment lightbox that you can easily add to your website. Just like with Elements, customers enter their payment information, which we then exchange for a token.
-  
-[Learn more -->](/integration/payment-widget-js/)
-
-#### Client Redirection
-
-Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
-
-??? example "Simple redirect example"
-    The simplest case would involve an HTML form with specific information that would be sent via a POST request. There’s no need to require any the data from your customers, so all the fields will be hidden in most cases. 
-    Here’s how it can look like:
-
-    ```html
-    <form action="https://com.paycore.io/hpp/" method="POST">
-        <input type="hidden" name="public_key" value="<your-public-key>" />
-        <input type="hidden" name="reference_id" value="<unique-reference-id>" />
-        <input type="hidden" name="currency" value="USD" />
-        <input type="hidden" name="description" value="Some goods" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
-
-You can integrate with any of our 3 checkout experience offerings. Choose from one of our simple hosted solutions (Inline and Standard), or for more advanced users, integrate with our Payment API.
-
--   [![Payment API](https://www.2checkout.com/upload/images/icon_payment-api_white.png)](https://www.2checkout.com/documentation/payment-api)
-    
-    **Payment API**  
-    Tokenize card data on your site and submit the charge from your server.
-    
--   [![Embedded HPP](https://www.2checkout.com/upload/images/icon_inline_white.png)](https://www.2checkout.com/documentation/checkout/inline-checkout)
-    
-    **Embedded Checkout**  
-    Display an overlay payment form on your site.
-    
--   [![Standard HPP](https://www.2checkout.com/upload/images/icon_standard_white.png)](https://www.2checkout.com/documentation/checkout/standard-checkout)
-    
-    **Standard Checkout**  
-    Redirect to a customizable hosted payment page.
 
 ## Follow our guide
 
-1.  Learn more about  [objects handled using Commerce APIs](/products/hpp/integration-overview): payment invoice, payment request, callbacks…
-2.  Read our  [step by step integration guide](/products/hpp/integration-guide)  and create your own flow.
-3.  Check that you  [respect specific use cases rules](/products/hpp/use-cases)  for Telesales or In-store cases.
-4.  [Customize the Hosted Payment Page](/products/hpp/customization)  to increase conversion.
-5.  Read the  [Full HPP API Reference](/integration/api-references/).
+1.  Learn more about  [objects handled using Commerce APIs](/products/hpp/integration-overview/): payment invoice, payment request, callbacks…
+2.  Read our  [step by step integration guide](/products/hpp/integration-guide/)  and create your own flow.
+3.  Check that you  [respect specific use cases rules](/products/hpp/#use-cases)  for Telesales or In-store cases.
+4.  [Customize the Hosted Payment Page](/products/hpp/customization/)  to increase conversion.
+5.  Read the  [Full HPP API Reference](/integration/api-references/#commerce-hpp).
