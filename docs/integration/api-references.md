@@ -1,18 +1,18 @@
 # Full API References
 
-![PayCore.io APIs](/images/paycore-apis.png)
-
 We offer several RESTful APIs: A server API which is used by the merchants in a server-to-server setup and a client API which is used by clients like desktops, laptops, mobile phones and other internet connected devices. For both APIs we offer a detailed API reference that lists all the functionalities and how to use them.
 
 ## Commerce
 
-### HPP API
+### Commerce HPP API
+
+Start accepting online payments in just a few minutes with HPP. It's quick and easy to integrate, accepts online payments from all major methods and credit cards, and is customizable to your brand.
 
 [<i class="md-icon">description</i> Full HPP API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce-hpp/)
 
 [<i class="md-icon">explore</i> Swagger HPP API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/commerce-hpp/)
 
-### Public API
+### Commerce Public API
 
 The Public API enables mobile phones, browsers, and apps to access the hosted data such as detailed information about the available payment methods, services metadata, and public keys used for encrypting sensitive data. These calls require a Public Key that the merchant can create using the Private API.
 
@@ -20,13 +20,19 @@ The Public API enables mobile phones, browsers, and apps to access the hosted da
 
 [<i class="md-icon">explore</i> Swagger Public API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/commerce-public/)
 
-### Private API
+### Commerce Private API
 
 The Private API enables merchants to access functionality such as payments, initiating hosted payments, creating profiles, and much more. All these calls require the caller to have a secret API key that merchants can look up in their Commerce Account.
 
 [<i class="md-icon">description</i> Full Private API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce/)
 
 [<i class="md-icon">explore</i> Swagger Private API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/commerce/)
+
+### Commerce Callbacks
+
+Callbacks notify you about events that occur with regards to the payments that you process via PayCore.io Commerce, like the state on payments or payouts changes changes. This allows you to be easily aware of things that happen, even after the consumer is no longer on your site. 
+
+[<i class="md-icon">description</i> Commerce Callbacks Guide](/integration/commerce-callbacks/)
 
 ## Platform
 
@@ -40,20 +46,57 @@ Consider, for instance, a business model in which you provide a service that all
 
 [<i class="md-icon">explore</i> Swagger Core API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/)
 
+### Webhooks
+
+When an event occurs, we send you a webhook notification to tell you what's happened so you can take action and keep your business running smoothly.
+
+Webhooks provide a definitive confirmation of a status update and are used for a variety of purposes, such as fulfilling orders, sending automated status updates to customers, or even integrating with third-party application services.
+
+>   Soon...
+
+## Cardgate
+
 ### Cardgate API
 
-The Cardgate API integration lets you accept payments on your website and mobile application, if you support PCI compliance at Level 1 or 2. This tutorial explains how you can collect raw card data from your shoppers and pass this data in payment requests to the Cardgate API.
+The Cardgate API is Full card details API integration lets you accept payments on your website and mobile application, if you support PCI compliance at Level 1 or 2. It allows you to collect raw card data from your shoppers and pass this data in payment requests to the Cardgate API.
 
 When you want to reduce your PCI compliance requirements, we recommend that you integrate with our Client-Side Encryption library instead.
 
-[<i class="md-icon">description</i> Full Cardgate API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/cardgate/)
-
-[<i class="md-icon">explore</i> Swagger Cardgate API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/cardgate/)
+>   Soon...
 
 ### Cardgate HPP API
 
 Using Cardgate HPP for card payments you can process transactions using PayCore.io, our easy to use hosted responsive payment pages. Your consumers will be able to complete the payment process using Cardgate HPP that is hosted by us. Using these pages to capture card details and process card transactions will greatly reduce not only your integration efforts, but it will also reduce your 'PCI exposure' to the lowest level (SAQ-A).
 
-[<i class="md-icon">description</i> Full Cardgate HPP API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/cardgate-hpp/)
+>   Soon...
 
-[<i class="md-icon">explore</i> Swagger Cardgate HPP API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/cardgate-hpp/)
+## Codes
+
+Codes are everywhere in the world of payments. But what do they all mean? If you struggle to tell your HTTP status codes from your ISO 4217s, we've got your back.
+
+PayCore.io uses its own developed standard for classification and identification of FinTech industry entities named OpenFinTech.io.
+
+OpenFinTech.io directory includes data like:
+
+-   Currencies: National, Digital, Virtual, Cryptocurrencies, etc.
+-   Payment Service Providers (PSP): Distributors, Aggregators, Collectors, Acquirers, etc.
+-   Payment & Payout Methods: E-wallets, Bank Cards, Prepaid Cards, SSK, Alternative Methods, etc.
+-   Payment & Payout Services.
+-   Digital Exchangers: Online, Offline, Stock, etc.
+-   Banks and Branches.
+-   Vendors: Organizations and companies.
+
+It also includes Country codes, Merchant category codes (MCC) and much other useful stuff.
+
+All objects have own  **Unique Identification Code** that used for unification all payment data from disparate sources.
+
+Feel free to explore and contribute at @github:paycoreio/openfintech
+
+## Postman Collections
+
+While being able to build requests using a GUI is nice, Postman really starts to shine when you use collections. Postman Collections are simply a collection of pre-built requests that can be organized into folders, and they can be easily exported and shared with others.
+
+[Learn more -->](/integration/postman-collections/)
+
+!!! question
+    Can't find what you're looking for? [Contact our support team for help](https://support.paycore.io/).

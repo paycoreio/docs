@@ -1,10 +1,9 @@
 # Hosted Payment Page Integration Guide
 
-## Overview
+## Introduction
 
-Once a customer has added items to the shopping cart and filled out the shipping and billing details, he or she needs to choose the payment method and needs to provide the payment details. If you choose not to touch and store the credit card details of your consumers, you can outsource your payment page to us and use the Hosted Payment Page.
 
-The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
+PayCore.io Commerce HPP is a secure hosted payment page, where you can redirect customers from your website to make a payment through PayCore.io. Commerce HPP provides customers with access to a range of payment methods, based on their location and your account and integration settings. Integration to Commerce HPP is simple and requires collecting customer payment information on your website in a standard HTML form and submitting this to PayCore.io. Commerce HPP then collects the customer payment details needed to complete the payment, and sends these details to the relevant bank or alternative payment provider for authorisation. After the payment is complete, the customer is returned to your website and you receive a real-time notification of the payment, which includes details of the transaction.
 
 ## How does it work?
 
@@ -199,3 +198,178 @@ These values are used as a fallback when PayCore.io is unable to determine skin 
 Provide custom `return_url` so that your shoppers are returned to your website at the end of the payment process.
 
 If `return_url` are not provided, shoppers are redirected to one of PayCore.io's default result pages, where the payment journey ends.
+
+### Return Method
+
+2Checkout provides three methods in which the buyer and sale parameters can be returned to your approved URL. You may send the buyer to our order processed page which will display a  **Click Here to Finalize your Order**  button to redirect the buyer, you may bypass the order processed page using a header redirect or you can immediately display your approved URL to the buyer while they remain on our server. Your return method can be selected on the Site Management page.
+
+#### Given links back to my Website
+
+With the Return Method set to Given links back to my website, the buyer will be taken to our Order Processed page after completing a successful purchase. This page will feature a  **Click Here to Finalize your Order**  button. When clicked the buyer and collected sale parameters will be directed to the provided approved URL by POST.
+
+#### Direct Return
+
+With the Return Method set to Direct Return, sale parameters will be posted automatically to the approved URL while fetched by our server and displayed to the buyer. When using this Direct Return function the URL will be masked to the buyer, appearing to still be on the 2Checkout.com domain. This method can be used with redirects as long as each page outputs content more than 255 characters to the browser. If Direct Return encounters a page that redirects without outputting content the process will fail and the buyer will be sent to our standard Order Processed page. This occurs usually with a header redirect, specifically content less then 255 characters. This is a common issue as many developers will set their approved URL to a script that processes the return sales parameters then silently forwards the buyer to another page. This is usually a thank you or download page for intangible products. The best solution is to handle all post-order processing on the page set as your approved URL, including the thank you message. If no redirects are used, meaning the URL is masked by our servers, then relative links will not point to the correct location. This can be corrected with the use of absolute paths on the approved URL page or by simply using a base tag in the head of the document to provide a reference for the relative paths.
+
+#### Header Redirect
+
+With the Return Method set to Header Redirect the buyer will be immediately returned to your approved URL. Using this method, the sale parameters will be returned along with the buyer using the GET method.
+
+#### Additional Information
+
+If you are returning the buyer to a script on your end it is important to note that parameter information will typically be returned by POST. Parameters however will be returned by GET if the Header Redirect method is used.
+
+_**Please Note:**  You must also have a script set up as the return URL if you wish to receive the pass back information. If your return URL ends in any of the following extensions, then pass back will NOT occur, but the buyer will still be returned there : .htm, .html, .com, .zip, .pdf, .rar, .doc_
+
+If you have problems with the return process you’re welcome to contact us at  [techsupport@2checkout.com](mailto:techsupport@2checkout.com)  to assist with troubleshooting the issue.
+
+_**Please Note:**  If you do not specify an approved URL at the account level, product level, or with the x_receipt_link_url parameter the buyer will remain on the 2Checkout Order Processed page upon completion of the order._
+
+## Idempotency
+
+Idempotency prevents the processing of duplicate payment requests by using unique keys set in `reference_id` property.
+
+Each `reference_id` must be a _Unique Identifier_, and you must manage the generation of your own keys to ensure that duplicates are not generated accidentally. Duplicate keys are only detected when provided by the same Commerce Account, so only submissions you provide can throw a duplicate error.
+
+UUIDs are very large (128-bit) numbers. To avoid the "accidental" creation of duplicate keys, we recommend using a randomly generated UUID for your `reference_id`. This is especially important when generating `reference_id` for different payment requests.
+
+
+## Locales Supported
+
+PayCore.io supports locales across the following languages in multiple regions around the world:
+
+-   English (en_*)
+-   Ukraininan (uk_*)
+-   Russian (ru_*)
+
+Here is the complete list of supported locales, accompanied by their unique input values if you would like to pass a customer's locale to PayCore.io via the[API](/integration/) .
+
+| Input Value | Locale                       |
+|-------------|------------------------------|
+| en          | English                      |
+| en_AU       | English (Australia)          |
+| en_CA       | English (Canada)             |
+| en_IN       | English (India)              |
+| en_IE       | English (Ireland)            |
+| en_MT       | English (Malta)              |
+| en_NZ       | English (New Zealand)        |
+| en_PH       | English (Philippines)        |
+| en_SG       | English (Singapore)          |
+| en_ZA       | English (South Africa)       |
+| en_GB       | English (United Kingdom)     |
+| en_US       | English (United States)      |
+| uk_RU       | Ukrainian (Russia            |
+| uk_UA       | Ukrainian (Ukraine)          |
+| ru_RU       | Russian (Russia)             |
+| ru_UA       | Russian (Ukrainin)           |
+| ru_BY       | Russian (Belarus)            |
+
+
+## Metadata
+
+If you want to store additional/custom data at a resource's level, you can make use of PayCore.io's Metadata.
+
+For example, if you're a data service provider and want to store certain features of a particular plan, say "Usage Limit", "Speed within limit", etc., you can store it in the Metadata of the Plan.
+
+Metadata can be passed during the Add/Update operations, for the following entities:
+
+-   **Customers**
+-   **Payment Invoice**
+-   **Payout Invoice**
+
+Metadata can be stored only in the JSON format. You can use nested JSON objects as well.
+
+Considering the same example as above, if you want to store the additional features of a particular data plan here's what the JSON will look like:
+
+```json
+{  
+    "features": {
+        "usage-limit":"5GB",
+        "speed-within-quota":"2MBbps",
+        "post-usage-quota":"512kbps"
+    }
+}
+
+```
+
+!!! note
+    -   Metadata is completely for your reference and will not be visible to customers. If you'd like to include fields in the hosted pages, invoices and customer portal, other than the default fields, use  [Custom Fields](https://www.chargebee.com/docs/custom_fields.html).
+    -   Metadata will not be a filter criteria, or a part of the exports. For this purpose, use Custom Fields if necessary.
+    -   **Copy Configurations**  option in your PayCore.io TEST site does not copy the Metadata saved in your TEST site to your LIVE site
+
+
+## Redirecting customers to Quick Checkout
+
+You can use a standard HTML form to collect and pass payment and customer details to Quick
+Checkout. See Example HTML forms on page 10-7. When the customer selects the Skrill option, your
+website should post the HTML form containing their transaction details to:
+https://pay.skrill.com .
+The HTML form should contain the mandatory hidden input fields listed in Table 2-1 on page 2-5.
+You should use a secure method of obtaining a session ID before redirecting customers to Skrill, as
+described in Secure redirection method on page 2-4.
+
+Tips for improving the customer experience
+• Any parameters that you pass through in your HTML form, such as customer first name, last
+name, and email, will be automatically populated (or populated and hidden) as appropriate,
+on the Quick Checkout payment pages making it easier for the customer to complete these
+forms.
+• You can customize the appearance of the Quick Checkout page using the options described in
+Chapter 4: Customizing the Quick Checkout Page.
+• To maximise conversion, Skrill recommends that you redirect customers to the Quick
+Checkout page in the same browser window or embed the Skrill page in an iframe (see
+Embedding the Quick Checkout page on page 4-11).
+
+### Secure redirection method
+
+This method can be used to ensure that details of the payment are communicated securely between
+your server and Skrill. 
+
+!!! note "Important!"
+     We strongly recommend that you use this method when redirecting your customers to Skrill, as it does not require sending any payment parameters to their browser. This prevents customers from being able to view or modify any hidden parameters in your source code.
+
+The redirection process is as follows:
+1. Your web server makes a standard POST request with the payment parameters, using the
+‘prepare_only=1’ parameter (see Table 2-1 below).
+2. The Skrill server prepares a session for the payment and returns a standard HTTP(S) response.
+3. Your web server takes the body of the response which contains a SESSION_ID value.
+4. Using this SESSION_ID value the customer can be redirected to: https://pay.skrill.com/?sid=<SESSION_ID>
+
+The normal flow of events continues. This redirect must happen within 15 minutes of the original
+request or the session will expire.
+
+!!! note
+    The Skrill Payment Platform treats GET/POST requests to the payment URL identically. As a result, you can also use an HTTP GET operation in place of POST in step 1 above and pass the payment parameters as name/value pairs in the query string. Similarly, in Step 4 above you could use a HTTP POST operation and pass the SESSION_ID value from Step 3 as the sid parameter in the message body. For code examples of how to implement this, see Redirecting the customer to Skrill on page 5-3.
+
+## Secure redirection restriction
+
+The Quick Checkout Secure Restriction service allows merchants to create a whitelist of IP addresses
+(including ranges) specific to them, so that Gateway transactions are generated only for the IP
+addresses in the list. When the service is enabled and the list is populated, any request that doesn’t
+have a “SID” in Skrill will be blocked. By default, the service is disabled, and the Gateway allows all
+payment requests, with no restrictions.
+Configure the service as follows:
+1. Note the IP addresses/address ranges to add to the whitelist.
+2. Log in to your merchant account.
+3. Go to Settings > DEVELOPER SETTINGS.
+4. Under Quick Checkout Secure Restriction, set Enable service, and then, in the field below,
+type the IP addresses separated by spaces, or an address range in CIDR notation.
+5. Click Save. 
+
+## Parameters to be posted to Quick Checkout
+
+Please review the table below for details of the required and optional parameters that need to be included in your form. For implementation examples, see Example HTML forms on page 10-7.
+
+!!! note
+    All URL parameters must include the scheme at the front of the URL for example: https://. For example instead of www.google.co.uk you would need to use https://www.google.co.uk.
+
+| Key | Required | Description |
+|---|---|---|
+| |||
+
+### Language Encoding for Text Parameters
+
+All text fields use UTF-8 encoding. Note however that the Quick Checkout payment form can only display Latin-1 characters
+
+## Callback
+
+When the payment process is complete Skrill sends the details of the transaction to the status_url page you provided in your payment request (see Table 2-1 on page 2-5). This is done with a standard HTTP POST. The Skrill server continues to post the status until a response of HTTP OK (200) is received from your server or the number of posts exceeds 10. The table below shows the parameters sent to your status_url page

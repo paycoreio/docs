@@ -29,4 +29,6 @@ The most reason why people don’t lock up their website is lack of awareness of
 -   Enable two-factor authentication (2FA) if available
 -   Enable logging of admin actions in the merchant software
 -   Monitor for suspicious admin activities
--   If you see anything suspicious, the checkout looks weird, or you detect anomalies in your transaction processing - reach out to us immediately. Let’s fight against fraud together.
+
+!!! warning
+    If you see anything suspicious, the checkout looks weird, or you detect anomalies in your transaction processing - [reach out to us immediately](mailto:support@paycore.io). Let’s fight against fraud together.
