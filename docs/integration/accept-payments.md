@@ -4,6 +4,7 @@ With PayCore.io, you can build a payments flow that gives you and your customers
 
 Read about our integration methods below, then choose the one that best suits your needs.
 
+
 ## [Hosted Payment Page (HPP)](/products/hpp/)
 
 ![](/products/hpp/images/hpp-preview.png)
@@ -39,6 +40,7 @@ Use our hosted responsive solution for payment processing:
 
 [Learn more -->](/products/hpp/)
 
+
 ## [Self-hosted payment page](/products/hpp/self-hosted-payment-page/)
 
 Before you can make a payment with our API integration, you need to collect any required payment details from your shopper. Here we describe how to do this by building your own payment form.
@@ -68,3 +70,40 @@ Build and host yourself using SDKs or client API:
     -   Send the payment to PayCore.io
 
 [Learn more -->](/products/hpp/self-hosted-payment-page/)
+
+
+## Payment card interfaces
+
+### CardGate HPP
+
+<img src="/products/hpp/images/checkout-js.svg" alt="CardGate HPP" style="width: 120px; float: right;">
+
+Unlike our other integration methods, the full card details API does not use card tokens. Instead, you process your customers' card details directly. If you are looking to have total control over the HPP experience, then the full card details API may be the option for you.
+
+[Learn more -->](/products/cardgate/hpp/)
+
+### Full card details API
+
+<img src="/products/hpp/images/payment-methods.svg" alt="Full card details API" style="width: 120px; float: right;">
+
+Unlike our other integration methods, the full card details API does not use card tokens. Instead, you process your customers' card details directly. If you are looking to have total control over the HPP experience, then the full card details API may be the option for you.
+
+[Learn more -->](/products/cardgate/full-card-details-api/)
+
+
+## SDKs
+
+<img src="/products/hpp/images/mobile-sdk.svg" alt="SDKs" style="width: 120px; float: right;">
+
+Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. We'll still take care of the processing side of things, and return tokenized payment information to you.
+  
+[Learn more -->](/integration/sdks/)
+
+
+## Shopping carts
+
+<img src="/products/hpp/images/merchant.svg" alt="Shopping carts" style="width: 120px; float: right;">
+
+Our payment gateway is integrated with many popular shopping cart platforms. Get up and running quickly, processing online payments with an ecommerce plugin.
+
+[Learn more -->](/integration/cms-modules/)

@@ -145,10 +145,10 @@ nav:
         - Payout Invoice: products/commerce/payout-invoice.md
     - HPP:
         - Introduction: products/hpp/index.md
-        - Integration:
-            #- Integration Options: products/hpp/integration-options.md
-            - Integration Overview: products/hpp/integration-overview.md
-            #- Integration Guide: products/hpp/integration-guide.md
+        #- Integration:
+        - Integration Methods: products/hpp/integration-methods.md
+        - Integration Overview: products/hpp/integration-overview.md
+        #- Integration Guide: products/hpp/integration-guide.md
         - Payment Widget: products/hpp/payment-widget.md
         - Customization: products/hpp/customization.md
         - Pages & Samples: products/hpp/samples.md
@@ -172,7 +172,7 @@ nav:
         #- Alerts: products/analytics/alerts.md
         - FAQ: products/analytics/faq.md
 - Integration: 
-    - Overview: integration/index.md
+    - Integrate with PayCore.io: integration/index.md
     - Accept Payments: integration/accept-payments.md
     - Make Payouts: integration/make-payouts.md
     - API References: integration/api-references.md

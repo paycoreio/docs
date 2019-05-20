@@ -2,7 +2,9 @@
 
 You have some optional parameters for HPP that will let you modify the look and feel of PayCore.io’s Hosted Payment Page in order to better match your own branding.
 
-The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
+The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. 
+
+You can easily adapt the look and feel of that page in the _Dashboard > Commerce Account > Settings_.
 
 ## Give the page your desired look and feel
 
