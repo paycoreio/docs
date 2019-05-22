@@ -155,7 +155,9 @@ nav:
         - Customization: products/hpp/customization.md
         - Pages & Samples: products/hpp/samples.md
         - Self-hosted payment page: products/hpp/self-hosted-payment-page.md
-    - FX Rates: products/fx-rates/index.md
+    - FX Rates:
+        - Overview: products/fx-rates/index.md
+        - How To: products/fx-rates/how-to.md
     - Ledger: 
         - Overview: products/ledger/index.md        
     - Batch Payouts: 
