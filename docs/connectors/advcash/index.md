@@ -11,13 +11,11 @@ Here You can find  instructions for setting up [**AdvCash** account](https://wal
 
 #### Step 1: Open profile setting
 
-!!! info "Screenshot"
-    [![Step 1](images/advcash-step1.png)](images/advcash-step1.png)
+![Step 1](images/advcash-step1.png)
 
 #### Step 2: Go to "API AND SCI FOR DEVELOPERS" section
 
-!!! info "Screenshot"
-    [![Step 2](images/advcash-step2.png)](images/advcash-step2.png)
+![Step 2](images/advcash-step2.png)
 
 ### Setup API
 
@@ -26,8 +24,7 @@ Here You can find  instructions for setting up [**AdvCash** account](https://wal
 
 #### Step 1: Create New API
 
-!!! info "Screenshot"
-    [![Step 1](images/advcash-step3.png)](images/advcash-step3.png)
+![Step 1](images/advcash-step3.png)
 
 #### Step 2: Set up the following parameters
 
@@ -41,17 +38,15 @@ Here You can find  instructions for setting up [**AdvCash** account](https://wal
     -  Transaction history
     -  Make Transactions
 
-!!! info "Screenshot"
-    [![Step 2](images/advcash-step4.png)](images/advcash-step4.png)
+![Step 2](images/advcash-step4.png)
   
         
 #### Step 3: Save changes
 
 !!! warning
-    To save changes You may be asked to Confirm this action though email!    
+    To save changes You may be asked to Confirm this action via email!    
     
-    !!! info "Screenshot"
-        [![Step 3](images/advcash-step4_2.png)](images/advcash-step4_2.png)
+![Step 3](images/advcash-step4_2.png)
 
 !!! success
     You have created an API
@@ -67,15 +62,13 @@ To create new SCI You need to have a varified account!
 
 #### Step 1: Verify your account
 
-!!! info "Screenshot"
-    [![Step 4](images/advcash-step5_1.png)](images/advcash-step5_1.png)
+![Step 4](images/advcash-step5_1.png)
         
         
 
 #### Step 2: Create New SCI
 
-!!! info "Screenshot"
-    [![Step 2](images/advcash-step5.png)](images/advcash-step5.png)
+![Step 2](images/advcash-step5.png)
 
 #### Step 3: Set up basic parameters
 
@@ -84,8 +77,7 @@ To create new SCI You need to have a varified account!
     !!! tip
         Parameters "**COMMISSION PAYS**", "**Accept underpayment**", "**Accept overpayment**"  are set  at your choice!
 
-!!! info "Screenshot"
-    [![Step 3](images/advcash-step5_2.png)](images/advcash-step5_2.png)  
+![Step 3](images/advcash-step5_2.png)  
  
 
 #### Step 4: Set up advanced parameters   
@@ -99,8 +91,7 @@ To create new SCI You need to have a varified account!
 -  FAILED TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
 -  STATUS PAGE : ```https://psp-ext.paycore.io/advcash/callback```
 
-!!! info "Screenshot"
-    [![Step 4](images/advcash-step5_3.png)](images/advcash-step5_3.png)
+![Step 4](images/advcash-step5_3.png)
 
 #### Step 5: Save changes
 
@@ -139,8 +130,7 @@ To create new SCI You need to have a varified account!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/advcash_connect.png)](images/advcash_connect.png)
+![Connect](images/advcash_connect.png)
 
 
 

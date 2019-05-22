@@ -21,10 +21,9 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
     
     - **Domain name**: set your merchant  domain name
 
-!!! info "Screenshots"
-    [![Create Merchant](images/merchant_create_1.png)](images/merchant_create_1.png)
+    ![Create Merchant](images/merchant_create_1.png)
     
-    [![Create Merchant](images/merchant_create_2.png)](images/merchant_create_2.png)
+    ![Create Merchant](images/merchant_create_2.png)
 
 ### Step 2: Configure Merchant
 
@@ -37,7 +36,7 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
 2. Verify domain
     
     !!! info "Domain verification"
-        [![Domain verification](images/merchant_verify.png)](images/merchant_verify.png)
+        ![Domain verification](images/merchant_verify.png)
 
 3. Set configuration properties: 
 
@@ -56,15 +55,13 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
 
     - other properties are set at your choice
 
-    !!! info "Screenshot"
-        [![Merchant Configuration](images/merchant_configure.png)](images/merchant_configure.png)
+        ![Merchant Configuration](images/merchant_configure.png)
 
 ### Step 3: Get Merchant credentials
 
 -  Account No.
 
-    !!! info "Screenshot"
-        [![Account No.](images/account_no.png)](images/account_no.png)
+    ![Account No.](images/account_no.png)
 
 -  Merchant ID
 
@@ -95,11 +92,9 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
 !!! note
     Note, that API User configuration can be modified at API User configuration page!
 
-
-!!! info "Screenshots"
-    [![Create API User](images/api_create_1.png)](images/api_create_1.png)
+    ![Create API User](images/api_create_1.png)
     
-    [![Create API User](images/api_create_2.png)](images/api_create_2.png)
+    ![Create API User](images/api_create_2.png)
 
     
 ### Step 5: Get API User credentials
@@ -139,8 +134,7 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/payeer_connect.png)](images/payeer_connect.png)
+![Connect](images/payeer_connect.png)
 
 
 !!! success

@@ -41,8 +41,7 @@ Here You can find  instructions for setting up **EasyBits.io**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/easybits_connect.png)](images/easybits_connect.png)
+![Connect](images/easybits_connect.png)
 
 
 !!! success

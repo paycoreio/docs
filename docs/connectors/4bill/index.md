@@ -13,8 +13,7 @@ Here You can find  instructions for setting up [**4bill** account](https://4bill
 !!! note
     To create an account send connection request at [**4bill Website**](https://4bill.io/) or contact manager directly!
 
-!!! info "Screenshot"
-    [![Step 2](images/4bill-step1.png)](images/4bill-step1.png)
+![Step 2](images/4bill-step1.png)
 
 #### Step 2: Get required credentials
 
@@ -42,8 +41,7 @@ Here You can find  instructions for setting up [**4bill** account](https://4bill
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/4bill_connect.png)](images/4bill_connect.png)
+![Connect](images/4bill_connect.png)
     
 
 !!! success

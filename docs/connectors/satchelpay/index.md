@@ -36,8 +36,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/satchelpay_connect.png)](images/satchelpay_connect.png)
+![Connect](images/satchelpay_connect.png)
     
 
 

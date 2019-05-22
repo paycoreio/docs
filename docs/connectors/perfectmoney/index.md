@@ -13,15 +13,13 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 
 ### Step 1: Open Commerce setting
 
-!!! info "Screenshot"
-    [![Verify](images/perfmoney-verify1.png)](images/perfmoney-verify1.png)
+![Verify](images/perfmoney-verify1.png)
 
 ### Step 2: Verify your business account
 
-!!! info "Screenshots"
-    [![Verify](images/perfmoney-verify2.png)](images/perfmoney-verify2.png)
+    ![Verify](images/perfmoney-verify2.png)
 
-    [![Verify](images/perfmoney-verify3.png)](images/perfmoney-verify3.png)
+    ![Verify](images/perfmoney-verify3.png)
 
 !!! tip
     You just need to verify **all documents** and **additional info**, which is necessary for successful setting up an account!
@@ -38,14 +36,14 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 
         **_For example_**: _54.36.117.30; 51.38.147.254; 54.38.139.222_
 
-!!! info "Screenshots"
-    [![Verify](images/api_security1.png)](images/api_security1.png)
 
-    [![Verify](images/api_security2.png)](images/api_security2.png)
+![Verify](images/api_security1.png)
 
-    [![Verify](images/api_security3.png)](images/api_security3.png)
+![Verify](images/api_security2.png)
 
-    [![Verify](images/api_security4.png)](images/api_security4.png)
+![Verify](images/api_security3.png)
+
+![Verify](images/api_security4.png)
 
 ### Step 3: Get required credentials
 
@@ -55,8 +53,7 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 
     -  Alternate Passphrase (Passphrase)
 
-!!! info "Screenshot"
-    [![Verify](images/cred3.png)](images/cred3.png)
+![Verify](images/cred3.png)
 
 - Go to the **`Public Account Information`**
 
@@ -66,10 +63,9 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 
     -  Member ID (Account ID)
 
-!!! info "Screenshot"
-    [![Verify](images/cred1.png)](images/cred1.png)
+![Verify](images/cred1.png)
 
-    [![Verify](images/cred2.png)](images/cred2.png)
+![Verify](images/cred2.png)
  
 ## Connect account
 
@@ -92,8 +88,7 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/perfectmoney_connect.png)](images/perfectmoney_connect.png)
+![Connect](images/perfectmoney_connect.png)
 
 
 !!! success

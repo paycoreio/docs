@@ -16,10 +16,9 @@ Here You can find  instructions for setting up [**AnyCash** account](https://any
 -  Press "Create Wallet" button
 -  Run commant ```/start```
 
-!!! info "Screenshots"
-    [![Step 1](images/anycash-step1.png)](images/anycash-step1.png)
+    ![Step 1](images/anycash-step1.png)
     
-    [![Step 1](images/anycash-step1_1.png)](images/anycash-step1_1.png)
+    ![Step 1](images/anycash-step1_1.png)
 
 #### Step 2: Contact with AnyCash Manager
 
@@ -48,8 +47,7 @@ This Payment Provoider gives account credentials personaly to their merchants!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/anycash_connect.png)](images/anycash_connect.png)
+![Connect](images/anycash_connect.png)
 
 
 !!! success

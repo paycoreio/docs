@@ -27,8 +27,7 @@ It should have 32 characters or less!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/manual_connect.png)](images/manual_connect.png)
+![Connect](images/manual_connect.png)
 
 
 !!! success
