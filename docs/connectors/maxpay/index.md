@@ -61,7 +61,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 - Go to the **Payment Pages** section
 - Press create button
 
-    ![Create](images/merch_acc__payment_page_create1.png)
 
 
 #### Step 3: Upgrade  your page to LIVE
@@ -82,7 +81,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 - Callback URL: ```https://psp-ext.paycore.io/maxpay/callback```
 
-    ![SetUp](images/merch_acc__setup.png)
 
 !!! success
     You have configured account!

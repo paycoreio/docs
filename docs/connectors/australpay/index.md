@@ -34,7 +34,6 @@ Here You can find  instructions for setting up **AustralPay**  account.
 
 
 
-![Connect](images/australpay_connect.png)
 
 
 !!! success

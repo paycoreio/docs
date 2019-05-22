@@ -34,7 +34,6 @@ Here You can find  instructions for setting up **Payoneer**  account.
 
 
 
-![Connect](images/payoneer_connect.png)
 
 
 !!! success
