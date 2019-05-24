@@ -219,6 +219,7 @@ nav:
       - Parimatch: connectors/parimatch/index.md
       - PayBox: connectors/paybox/index.md
       - Payeer: connectors/payeer/index.md
+      - PayLink: connectors/paylink/index.md
       - PayMega: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
       - PaymentCenter: connectors/paymentcenter/index.md   
