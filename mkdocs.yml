@@ -145,14 +145,22 @@ nav:
         - Payout Invoice: products/commerce/payout-invoice.md
     - HPP:
         - Introduction: products/hpp/index.md
-        #- Integration:
-        - Integration Methods: products/hpp/integration-methods.md
-        - Integration Overview: products/hpp/integration-overview.md
-        #- Integration Guide: products/hpp/integration-guide.md
-        - Payment Widget: products/hpp/payment-widget.md
+        - Quickstart: products/hpp/quickstart.md
+        - Guide:
+            - Integration Overview:  products/hpp/guide/integration-overview.md
+            - Integration Methods: products/hpp/guide/integration-methods.md
+            - Ecosystem Overview: products/hpp/guide/ecosystem-overview.md
+            #- Options: products/hpp/guide/options.md
+        - Payment Widget:
+            - Overview: products/payment-widget/index.md
+            - Quickstart: products/payment-widget/quickstart.md
+            - Guide: products/payment-widget/guide.md
+            - Reference: products/payment-widget/reference.md
         - Customization: products/hpp/customization.md
+        - Sandbox: products/hpp/sandbox.md
         - Pages & Samples: products/hpp/samples.md
-        - Self-hosted payment page: products/hpp/self-hosted-payment-page.md
+        - Self-hosted payment page: products/hpp/self-hpp.md
+        #- FAQ: products/hpp/faq.md
     - FX Rates: products/fx-rates/index.md
     - Ledger: 
         - Overview: products/ledger/index.md        

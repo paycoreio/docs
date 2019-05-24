@@ -77,7 +77,7 @@ The PayCore.io's HPP provides out-of-the-box support for the following translati
 |Ukrainian|uk_UA |
 
 
-The translation that a shopper will see in your Hosted Payment Page is set with the `locale` specified in the HPP Request. For each translation, you can  [customize](https://docs.adyen.com/checkout/web-sdk/customization/localization/#customize-localization)  the text displayed on your Checkout.
+The translation that a shopper will see in your Hosted Payment Page is set with the `locale` specified in the HPP Request.
 
 For shoppers in an unsupported `locale`, the default language (English - EN) will be used. If you have many of these shoppers in a specific locale, you may wish to  [create a localization](mailto:support@paycore.io).
 
@@ -99,20 +99,19 @@ By default we offer a few subdomains that work for all our clients and that cann
 ## Styling
 
 
-
 ### Displaying payment and order details
 
 Your payment request can include your own itemised payment details, such as an order description and amount breakdown. The customer can view these payment details by selecting the information icon displayed next to the amount and currency.
 
 ###  Preselecting or displaying payment methods
 
-Preselecting or displaying payment methods Which payment methods are displayed depends on the configuration setting for your merchant account; there are two options: Fixed or Flexible (also known as Fixed Split Gateway or Flexible Split Gateway). This feature is set up for your account by Skrill. For details, please contact Skrill Merchant Services. The Fixed option is used to specify the payment methods to display to customers in the Quick Checkout payment form (if these payment methods are available in the customer’s country). For example, you can display only Paysafecard, Klarna, and Rapid Transfer on the payment form instead of the generic Skrill options for the customer’s country. These methods will appear in the Payment method tabs where their logos will be displayed. For a list of currently supported alternative payment methods and their codes, see Payment method codes on page 10-9.
+Preselecting or displaying payment methods Which payment methods are displayed depends on the configuration setting for your merchant account; there are two options: Fixed or Flexible (also known as Fixed Split Gateway or Flexible Split Gateway). This feature is set up for your account by Skrill. For details, please contact Skrill Merchant Services. The Fixed option is used to specify the payment methods to display to customers in the HPP payment form (if these payment methods are available in the customer’s country). For example, you can display only Paysafecard, Klarna, and Rapid Transfer on the payment form instead of the generic Skrill options for the customer’s country. These methods will appear in the Payment method tabs where their logos will be displayed. For a list of currently supported alternative payment methods and their codes, see Payment method codes on page 10-9.
 
 
 ### Straight Through Redirect
 
 Straight Through Redirect is used with a single payment method code to automatically redirect
-customers to the Payment Method provider’s website without showing the Quick Checkout payment
+customers to the Payment Method provider’s website without showing the HPP payment
 form. Once redirected, the customer provides their name and any other details required and then
 confirms the payment. Straight Through Redirect reduces the number of steps to complete the
 payment.
@@ -120,29 +119,29 @@ This option is only available if the following conditions apply:
 • Your merchant account is set to use Fixed payment methods
 • You pass a single payment method code in the payment_methods parameter
 • You provide a customer email address using the pay_from_email parameter. If no email
-address is provided, the Quick Checkout payment form will display to allow the customer to
+address is provided, the HPP payment form will display to allow the customer to
 enter their email address. The customer will then need to click Proceed to <Payment
 Method> to continue. For example: Proceed to ALIPAY.
 The following table lists the payment methods which support Straight Through Redirect: 
 
 ### Displaying your company logo or brand
 
-You can display your company logo on Quick Checkout. To do this your payment request should
+You can display your company logo on HPP. To do this your payment request should
 include the logo parameter, with a secure HTTPS link to the logo on your website. See the example
 below.
 
 ``` html
-<input type="hidden" name="logo" value="https://www.skrill.com/fileadmin/content/pdf/acme.png"> 
+<input type="hidden" name="logo" value="https://www.google.com/acme.png"> 
 ```
 
-### Embedding the Quick Checkout page 
+### Embedding the HPP page 
 
-You can embed the Quick Checkout page in your website using an iframe. You can define in which frameset the return_url and cancel_url pages should be opened upon a successful payment or cancellation by the customer.
+You can embed the HPP page in your website using an iframe. You can define in which frameset the return_url and cancel_url pages should be opened upon a successful payment or cancellation by the customer.
 
 !!! note
-    If you are embedding Quick Checkout in your website, you can request a version of Quick Checkout which has the header removed and the footer reduced in size, enabling a more seamless and integrated appearance on your website. For details, see Removing or reducing the header and reducing the footer on page 4-13.
+    If you are embedding HPP in your website, you can request a version of HPP which has the header removed and the footer reduced in size, enabling a more seamless and integrated appearance on your website. For details, see Removing or reducing the header and reducing the footer on page 4-13.
 
- Below is an example of the Quick Checkout page displayed in an iframe.
+ Below is an example of the HPP page displayed in an iframe.
 
  ![]()
 
@@ -169,9 +168,10 @@ entire browser window.
 !!! note
     The iframe option works well with card and SEPA payments. However, it may not be suitable if you are offering any alternative payments methods through Skrill, which typically redirect to third party websites of varying sizes.
 
+ 
  ## Removing or reducing the header and reducing the footer
 
- You can request a version of the Quick Checkout page without the Skrill header and amount fields. The security logo is also removed from the footer, to reduce its size. You can enable this option at any time by contacting Skrill Merchant Services. However, we recommend that you request this feature when integrating to ensure a good UI experience.
+ You can request a version of the HPP page without the Skrill header and amount fields. The security logo is also removed from the footer, to reduce its size. You can enable this option at any time by contacting Skrill Merchant Services. However, we recommend that you request this feature when integrating to ensure a good UI experience.
 
  See the example below.
  
@@ -216,8 +216,31 @@ payment transaction.
 
 ## Code integration examples
 
-Below are two examples of HTML forms that can be submitted to Skrill. The first one is a basic example. The second example uses several additional features currently available with Quick Checkout. You can use these forms, ensuring that the values are replaced with your own values.
+Below are two examples of HTML forms that can be submitted to Skrill. The first one is a basic example. The second example uses several additional features currently available with HPP. You can use these forms, ensuring that the values are replaced with your own values.
 
 ### Payment method codes
 
 The table below describes the codes required for each payment method if passing specific payment methods in your payment request.
+
+
+## Display logos of specific payment methods
+
+An alternative option is to present only the logos of the specific payment methods you want to offer
+your customers through Skrill. For example:
+You can then define, in your HTML code, which payment method to display on the Skrill Quick
+Checkout page when the customer selects this logo. There are two ways in which this feature can be
+implemented:
+• Fixed - only the selected payment method (or methods) is (are) displayed to the customer on
+Quick Checkout. The first method supplied is preselected (set as the default option).
+• Flexible - the selected payment method is displayed as the default option (preselected). Skrill
+automatically detects the customer’s country (using Geolocation or the country parameter
+passed by the merchant) and displays a localized version of the Quick Checkout page. Only
+the payment methods available in the customer’s country are displayed. The order of the
+payment methods tabs is based on the popularity and conversion rate for each method in the
+customer’s country.
+Co-branded payment method logos for display on your website are available at:
+https://www.skrill.com/en/merchants/brand-centre
+Note: The Payment methods you want to support are specified by including the relevant payment
+method codes in the payment request submitted to Skrill. Alternatively, it is also possible to
+request that only specific payment methods be enabled. For details, please contact Skrill
+Merchant Services.

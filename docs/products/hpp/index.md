@@ -6,9 +6,9 @@ Start accepting online payments in just a few minutes with HPP. It's quick and e
 
 ![HPP Preview](images/hpp-preview.png)
 
-The  **Hosted Payment Page**  (HPP) is a service that lets you use PayCore.io to accept payments without the need of integrating our products in your web pages, or even without having any consumer fronting website for  _In-store_  or  _Telesales_  use cases.
+The  **Hosted Payment Page**  (HPP) is a service that lets you use PayCore.io to accept payments without the need of integrating our products in your web pages, or even without having any customer fronting website for  _In-store_  or  _Telesales_  use cases.
 
-HPP lets you accept payments on your website with PayCore.io just by redirecting the consumer in the checkout flow.
+HPP lets you accept payments on your website with PayCore.io just by redirecting the customer in the checkout flow.
 
 It supports  _PayCore.io Commerce_  so that you get the solution that matches the best your eCommerce needs. With distribution mechanisms (QR Code, SMS and Email), it lets you build your own customized flow that goes beyond the typical eCommerce solution.
 
@@ -43,22 +43,22 @@ Why use PayCore.io’s in-app Hosted Payment Page rather than building your own 
 
 ## Use cases
 
-HPP is especially made to help you use  **PayCore.io Commerce**  in workflows that are not typical e-commerce flows. It is a good fit when you are interacting with a consumer and you need to enable a payment in a store or by phone, without having to host a website. You interact with the consumer to define the order and either redirect them to the Hosted Payment Page or send them a link to pay by Email, SMS or even QR Code.
+HPP is especially made to help you use  **PayCore.io Commerce**  in workflows that are not typical e-commerce flows. It is a good fit when you are interacting with a customer and you need to enable a payment in a store or by phone, without having to host a website. You interact with the customer to define the order and either redirect them to the Hosted Payment Page or send them a link to pay by Email, SMS or even QR Code.
 
 As this hosted solution provides only basic customization features, for other cases PayCore.io encourages you when possible to integrate  _PayCore.io Payments_  directly in your website to get a better user experience and conversion rate.
 
 ### In-store
 
-HPP lets you provide PayCore.io as a payment method in your website store, your consumer will be able to finance their purchase in a few questions with PayCore.io.
+HPP lets you provide PayCore.io as a payment method in your website store, your customer will be able to finance their purchase in a few questions with PayCore.io.
 
 ### Telesales
 
-HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your consumer a _paylink_ by e-mail or sms and let them pay the order.
+HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your customer a _paylink_ by e-mail or sms and let them pay the order. Paylink could be generated like a QR code.
 
 
 ## How it works
 
-Once a customer has added items to the shopping cart and filled out the shipping and billing details, he or she needs to choose the payment method and needs to provide the payment details. If you choose not to touch and store the credit card details of your consumers, you can outsource your payment page to us and use the Hosted Payment Page.
+Once a customer has added items to the shopping cart and filled out the shipping and billing details, he or she needs to choose the payment method and needs to provide the payment details. If you choose not to touch and store the credit card details of your customers, you can outsource your payment page to us and use the Hosted Payment Page.
 
 The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers payment details.
 
