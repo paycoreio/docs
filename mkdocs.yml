@@ -147,14 +147,22 @@ nav:
     #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
         - Introduction: products/hpp/index.md
-        - Integration:
-            #- Integration Options: products/hpp/integration-options.md
-            - Integration Overview: products/hpp/integration-overview.md
-            #- Integration Guide: products/hpp/integration-guide.md
-        - Payment Widget: products/hpp/payment-widget.md
+        - Quickstart: products/hpp/quickstart.md
+        - Guide:
+            - Integration Overview:  products/hpp/guide/integration-overview.md
+            - Integration Methods: products/hpp/guide/integration-methods.md
+            - Ecosystem Overview: products/hpp/guide/ecosystem-overview.md
+            #- Options: products/hpp/guide/options.md
+        - Payment Widget:
+            - Overview: products/payment-widget/index.md
+            - Quickstart: products/payment-widget/quickstart.md
+            - Guide: products/payment-widget/guide.md
+            - Reference: products/payment-widget/reference.md
         - Customization: products/hpp/customization.md
+        - Sandbox: products/hpp/sandbox.md
         - Pages & Samples: products/hpp/samples.md
-        - Self-hosted payment page: products/hpp/self-hosted-payment-page.md
+        - Self-hosted payment page: products/hpp/self-hpp.md
+        #- FAQ: products/hpp/faq.md
     - FX Rates:
         - Overview: products/fx-rates/index.md
         - How To: products/fx-rates/how-to.md
@@ -176,7 +184,7 @@ nav:
         #- Alerts: products/analytics/alerts.md
         - FAQ: products/analytics/faq.md
 - Integration: 
-    - Overview: integration/index.md
+    - Integrate with PayCore.io: integration/index.md
     - Accept Payments: integration/accept-payments.md
     - Make Payouts: integration/make-payouts.md
     - API References: integration/api-references.md

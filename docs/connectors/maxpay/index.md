@@ -41,7 +41,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
     Choose **`Provider`** account type.
 
 
-
 ![Connect](images/maxpay_provider_connect1.png)
     ![Connect](images/maxpay_provider_connect2.png)
 
@@ -60,7 +59,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 - Go to the **Payment Pages** section
 - Press create button
-
 
 
 #### Step 3: Upgrade  your page to LIVE
@@ -100,8 +98,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 !!! tip
     Press **`Connect`** at MaxPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
     Choose **`Merchant`** account type.
-
-
 
 
 ![Connect](images/maxpay_merchant_connect1.png)

@@ -1,4 +1,4 @@
-# Overview of the Hosted Payment Page
+# HPP Guide: Ecosystem Overview
 
 This page will take you through the  _Hosted Payment Page API_  and explain how to interact with it and its concepts. Please make sure to understand why you should use the Hosted Payment Page and the Overview of the system before reading this documentation. The Hosted Payment Page works with a  _Commerce_  from the PayCore.io ecosystem. 
 
@@ -6,7 +6,7 @@ This page will take you through the  _Hosted Payment Page API_  and explain how 
 
 **Commerce’s Hosted Payment Page**  (_HPP_) requires that you integrate different server-side REST APIs from the PayCore.io environment and thus requires no client-side integration. The different APIs correspond to different PayCore.io products and have some defined objects that interact with each other.
 
-![HPP Preview](images/hpp-ecosystem.png)
+![HPP Preview](../images/hpp-ecosystem.png)
 
 ### Payment Widget
 

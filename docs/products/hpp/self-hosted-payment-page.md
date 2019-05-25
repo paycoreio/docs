@@ -1,3 +1,0 @@
-# Self Hosted Payment Page
-
-Soon...
