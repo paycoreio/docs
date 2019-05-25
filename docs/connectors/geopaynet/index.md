@@ -12,19 +12,15 @@ Here You can find  instructions for setting up [**GeoPay**  account](https://geo
 
 #### Step 2: Go to the **Profile** info
 
-!!! info "Screenshot"
-    [![Step 2](images/geopay-step1.png)](images/geopay-step1.png)
+![Step 2](images/geopay-step1.png)
 
-#### Step 3: Get User (Hash) ID
+#### Step 3: Get User ID (Hash ID)
 
--  User ID (Hash)
-
-!!! info "Screenshot"
-    [![Step 3](images/geopay-step2.png)](images/geopay-step2.png)
+![Step 3](images/geopay-step2.png)
 
 #### Step 4: Contact with GeoPay manager
 
-This Payment Provoider gives acoount credentials personaly to their merchants!
+This Payment Provoider gives account credentials personaly to their merchants!
 
 #### Step 5: Get API Key
 
@@ -40,7 +36,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 2: Enter credentials
 
--  User ID (Hash)
+-  User ID (Hash ID)
 -  API Key
 
 !!! tip
@@ -48,8 +44,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/geopay_connect.png)](images/geopay_connect.png)
+![Connect](images/geopay_connect.png)
 
 !!! success
     You have connected **GeoPay**!

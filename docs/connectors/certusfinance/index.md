@@ -49,8 +49,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/certusfinance_connect.png)](images/certusfinance_connect.png)
+![Connect](images/certusfinance_connect.png)
 
 !!! success
     You have connected **Certus Finance**!

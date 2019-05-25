@@ -143,6 +143,8 @@ nav:
         - Managing Payouts: products/commerce/managing-payouts.md
         - Payment Invoice: products/commerce/payment-invoice.md
         - Payout Invoice: products/commerce/payout-invoice.md
+    - Ledger: products/ledger/index.md        
+    #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
         - Introduction: products/hpp/index.md
         - Quickstart: products/hpp/quickstart.md
@@ -161,7 +163,9 @@ nav:
         - Pages & Samples: products/hpp/samples.md
         - Self-hosted payment page: products/hpp/self-hpp.md
         #- FAQ: products/hpp/faq.md
-    - FX Rates: products/fx-rates/index.md
+    - FX Rates:
+        - Overview: products/fx-rates/index.md
+        - How To: products/fx-rates/how-to.md
     - Ledger: 
         - Overview: products/ledger/index.md        
     - Batch Payouts: 

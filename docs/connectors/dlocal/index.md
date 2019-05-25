@@ -17,12 +17,10 @@ Here You can find  instructions for setting up **dLocal**  account.
 
 
 #### Step 2: Log in to the dashboard
-!!! info "Screenshot"
-    [![Log in](images/dLocal__login.png)](images/dLocal__login.png)
+![Log in](images/dLocal__login.png)
 #### Step 3: Go to the Integration:Credentials&Settings section
 
-!!! info "Screenshot"
-    [![Settings](images/dLocal__settings.png)](images/dLocal__settings.png)
+![Settings](images/dLocal__settings.png)
 
 #### Step 4: Get required credentials
 
@@ -30,8 +28,7 @@ Here You can find  instructions for setting up **dLocal**  account.
     Note that  there are  **`TEST`** and **`LIVE`** mode.
     Ensure that you turn on the rught one.
     
-    !!! info "Screenshot"
-        [![Mode](images/dLocal__testmode.png)](images/dLocal__testmode.png)
+![Mode](images/dLocal__testmode.png)
 
 
 - **Test (Live) Credentials**:
@@ -47,15 +44,13 @@ Here You can find  instructions for setting up **dLocal**  account.
 
     -  Cashout secret key
 
-!!! info "Screenshot"
-    [![Cashout ](images/dLocal__cred.png)](images/dLocal__cred.png)
+![Cashout ](images/dLocal__cred.png)
 
 #### Step 5: Set up required parameters
 
 - Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
     
-!!! info "Screenshot"
-    [![IPs](images/dLocal__ips.png)](images/dLocal__ips.png)
+![IPs](images/dLocal__ips.png)
 
 !!! success
     You have configured account!
@@ -102,8 +97,7 @@ Here You can find  instructions for setting up **dLocal**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/dlocal_connect.png)](images/dlocal_connect.png)
+![Connect](images/dlocal_connect.png)
 
 
 !!! success

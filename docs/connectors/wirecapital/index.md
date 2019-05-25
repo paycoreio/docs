@@ -41,7 +41,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 #### Step 3: Set additional parameters
 
 
--  [3DS (3D - Secure)](https://en.wikipedia.org/wiki/3-D_Secure)
+-  3DS (3D - Secure)
 
 -  Test mode
 
@@ -50,8 +50,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/wirecapital_connect.png)](images/wirecapital_connect.png)
+![Connect](images/wirecapital_connect.png)
 
 
 !!! success

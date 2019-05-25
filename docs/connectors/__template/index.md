@@ -43,8 +43,7 @@ Here You can find  instructions for setting up **NAME**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/name_connect.png)](images/name_connect.png)
+![Connect](images/name_connect.png)
 
 
 !!! success

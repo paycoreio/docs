@@ -42,8 +42,7 @@ Here You can find  instructions for setting up **Tranzzo**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/tranzzo_connect.png)](images/tranzzo_connect.png)
+![Connect](images/tranzzo_connect.png)
 
 
 !!! success

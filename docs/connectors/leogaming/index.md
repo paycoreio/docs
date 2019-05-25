@@ -39,8 +39,6 @@ Here You can find  instructions for setting up **LeoGaming**  account.
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/leogaming_connect.png)](images/leogaming_connect.png)
 
 
 !!! success

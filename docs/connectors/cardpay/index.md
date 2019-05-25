@@ -51,8 +51,7 @@ Here You can find  instructions for setting up [**CardPay**  account](https://ca
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/cardpay_connect.png)](images/cardpay_connect.png)
+![Connect](images/cardpay_connect.png)
 
 
 !!! success

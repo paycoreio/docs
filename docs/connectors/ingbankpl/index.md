@@ -12,35 +12,31 @@ Here You can find  instructions for setting up [**ING Bank Poland** account](htt
 -  Go to the "Shops" (Sklepy) section
 -  Add new shop (Sklep)
 
-!!! info "Screenshots"
-    [![Step 1](images/ingbank-step1_1.png)](images/ingbank-step1_1.png)
+    ![Step 1](images/ingbank-step1_1.png)
 
-    [![Step 1](images/ingbank-step1_2.png)](images/ingbank-step1_2.png)
+    ![Step 1](images/ingbank-step1_2.png)
 
 #### Step 2: Congigure Your shop
 
 - Return to the "Shops" (Sklepy) section
 - Open Shop Details (Szczegóły)
 
-!!! info "Screenshot"
-    [![Step 2](images/ingbank-step2_1.png)](images/ingbank-step2_1.png)
+![Step 2](images/ingbank-step2_1.png)
 
 - Go to the Integration Data (Dane do integracji) Section
 - Set "Notification address"(Adres notyfikacji)
     -  ```https://psp-ext.paycore.io/ingbank/callback```
 
-!!! info "Screenshots"
-    [![Step 2](images/ingbank-step2_2.png)](images/ingbank-step2_2.png)
+    ![Step 2](images/ingbank-step2_2.png)
 
-    [![Step 2](images/ingbank-step2_3.png)](images/ingbank-step2_3.png)
+    ![Step 2](images/ingbank-step2_3.png)
 
 #### Step 3: Get required parameters:
 -  Merchant ID (Identyfikator klienta)
 -  Service ID (Identyfikator sklepu)
 -  Store key (Klucz sklepu) 
 
-!!! info "Screenshot"
-    [![Step 2](images/ingbank-step3.png)](images/ingbank-step3.png)
+![Step 2](images/ingbank-step3.png)
 
 !!! success
     You are ready to connect!
@@ -64,8 +60,7 @@ Here You can find  instructions for setting up [**ING Bank Poland** account](htt
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/ingbank_connect.png)](images/ingbank_connect.png)
+![Connect](images/ingbank_connect.png)
 
 
 !!! success

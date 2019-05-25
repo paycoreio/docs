@@ -41,10 +41,8 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
     Choose **`Provider`** account type.
 
 
-
-!!! info "Screenshot"
-    [![Connect](images/maxpay_provider_connect1.png)]()
-    [![Connect](images/maxpay_provider_connect2.png)]()
+![Connect](images/maxpay_provider_connect1.png)
+    ![Connect](images/maxpay_provider_connect2.png)
 
 !!! success
     You have connected **MaxPay** **Provider** Account!
@@ -61,9 +59,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 - Go to the **Payment Pages** section
 - Press create button
-
-!!! info "Screenshots"
-    [![Create](images/merch_acc__payment_page_create1.png)]()
 
 
 #### Step 3: Upgrade  your page to LIVE
@@ -84,8 +79,6 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 - Callback URL: ```https://psp-ext.paycore.io/maxpay/callback```
 
-!!! info "Screenshots"
-    [![SetUp](images/merch_acc__setup.png)]()
 
 !!! success
     You have configured account!
@@ -107,10 +100,9 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
     Choose **`Merchant`** account type.
 
 
+![Connect](images/maxpay_merchant_connect1.png)
 
-!!! info "Screenshot"
-    [![Connect](images/maxpay_merchant_connect1.png)]()
-    [![Connect](images/maxpay_merchant_connect2.png)]()
+![Connect](images/maxpay_merchant_connect2.png)
 
 
 !!! success

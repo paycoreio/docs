@@ -47,8 +47,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/paysec_connect.png)](images/paysec_connect.png)
+![Connect](images/paysec_connect.png)
 
 
 !!! success

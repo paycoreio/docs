@@ -12,16 +12,14 @@ Here You can find  instructions for setting up [**Interkassa** account](https://
 #### Step 1: Configure API 
 - Open "Personal Data Settings"
 
-!!! info "Screenshot"
-    [![Step 1](images/interkassa-step1.png)](images/interkassa-step1.png)
+![Step 1](images/interkassa-step1.png)
 
 - Go to the API section
 - Set up parameters:
     -  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
     -  "Turn ON" API
 
-!!! info "Screenshot"
-    [![Step 1](images/interkassa-step1_1.png)](images/interkassa-step1_1.png)
+![Step 1](images/interkassa-step1_1.png)
 
 
  - Get required account parameters:   
@@ -40,35 +38,29 @@ Here You can find  instructions for setting up [**Interkassa** account](https://
 
 -  Ensure You are at **Checkout mode**
     
-    !!! info "Screenshot"
-        [![Step 2](images/interkassa-step2.png)](images/interkassa-step2.png)
+    ![Step 2](images/interkassa-step2.png)
 
 -  Create new checkout
     
-    !!! info "Screenshot"
-        [![Step 2](images/interkassa-step2_1.png)](images/interkassa-step2_1.png)
+    ![Step 2](images/interkassa-step2_1.png)
 
 -  Set up  Site URL as ```https://paycore.io```
       
-    !!! info "Screenshot"
-        [![Step 2](images/interkassa-step2_2.png)](images/interkassa-step2_2.png)
+    ![Step 2](images/interkassa-step2_2.png)
 
 #### Step 3: Configure Checkout
 
 - Open **_Checkout Settings_**
 
-    !!! info "Screenshot"
-        [![Step 3](images/interkassa-step3_1.png)](images/interkassa-step3_1.png)
+    ![Step 3](images/interkassa-step3_1.png)
 
 - Go to **_Payment Settings_** and set **Check the uniqueness of payments** to **`Enabled`**
    
-    !!! info "Screenshot"
-        [![Step 3](images/interkassa-step3_2_1.png)](images/interkassa-step3_2_1.png)
+    ![Step 3](images/interkassa-step3_2_1.png)
 
 - Go to **_Paysystems_** and activate **at least 1** paysystem
 
-    !!! info "Screenshot"
-        [![Step 3](images/interkassa-step3_2.png)](images/interkassa-step3_2.png)
+    ![Step 3](images/interkassa-step3_2.png)
 
 - Go to  **_Interface_** and ensure that  **`allow override in request`** under **`Interaction URL`** option is **`ENABLED`**
 
@@ -76,19 +68,17 @@ Here You can find  instructions for setting up [**Interkassa** account](https://
     -  Sign algorithm only **`SHA256`**
     -  Require sign in payment form  **`Enabled`**
 
-    !!! info "Screenshot"
-        [![Step 3](images/interkassa-step3_3.png)](images/interkassa-step3_3.png)
+    ![Step 3](images/interkassa-step3_3.png)
 
 - Get required checkout parameters
     
     -  Checkout ID
     -  Sign key
     -  Test key
-
-    !!! info "Screenshots"
-        [![Step 3](images/interkassa-step3_4.png)](images/interkassa-step3_4.png)
+    
+        ![Step 3](images/interkassa-step3_4.png)
         
-        [![Step 3](images/interkassa-step3_5.png)](images/interkassa-step3_5.png)
+        ![Step 3](images/interkassa-step3_5.png)
 
 !!! success
     You have configured your account!
@@ -116,8 +106,7 @@ Here You can find  instructions for setting up [**Interkassa** account](https://
 
 
 
-!!! info "Screenshot"
-    [![Connect](images/interkassa_connect.png)](images/interkassa_connect.png)
+![Connect](images/interkassa_connect.png)
 
 
 !!! success
