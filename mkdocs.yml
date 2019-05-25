@@ -149,16 +149,17 @@ nav:
         - Introduction: products/hpp/index.md
         - Quickstart: products/hpp/quickstart.md
         - Guide:
-            - Integration Overview:  products/hpp/guide/integration-overview.md
+            - Overview:  products/hpp/guide/index.md
+            - Integration Overview: products/hpp/guide/integration-overview.md
             - Integration Methods: products/hpp/guide/integration-methods.md
-            - Ecosystem Overview: products/hpp/guide/ecosystem-overview.md
-            #- Options: products/hpp/guide/options.md
+            #- Features: products/hpp/guide/features.md
+            - Customization: products/hpp/guide/customization.md
+            - Reference: products/hpp/guide/reference.md
         - Payment Widget:
             - Overview: products/payment-widget/index.md
             - Quickstart: products/payment-widget/quickstart.md
             - Guide: products/payment-widget/guide.md
             - Reference: products/payment-widget/reference.md
-        - Customization: products/hpp/customization.md
         - Sandbox: products/hpp/sandbox.md
         - Pages & Samples: products/hpp/samples.md
         - Self-hosted payment page: products/hpp/self-hpp.md

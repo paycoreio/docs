@@ -12,8 +12,9 @@ Commerce HPP is the easiest and the quickest way to integrate checkout into your
 
 You can integrate with any of our payment page experience offerings. Choose from one of our simple hosted solutions — **Payment Widget** or **Payment Link** which are based on **HPP API**.
 
+## Integration methods
 
-## Payment Widget
+### Payment Widget
 
 <img src="/products/hpp/images/checkout-js.svg" alt="HPP" style="width: 120px; float: right;">
 
@@ -26,11 +27,9 @@ Widget is integrated directly to the website page — client selects a payment m
 <script>
 window.widget.init({
     selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-    flow: "iframe",
     public_key: "YOUR_PUBLIC_KEY",
-    amount: "AMOUNT_OF_INVOICE",
+    amount: 100.00,
     currency: "USD",
-    baseUrl: "URL_OF_YOUR_HPP"
 });
 </script>
 ```
@@ -38,9 +37,11 @@ window.widget.init({
 Jump to  [this page](/products/hpp/quickstart/)  for the **Payment Link** based integration steps.
 
 
-## Payment Link
+### Payment Link
 
 <img src="/products/hpp/images/mobile-sdk.svg" alt="Widget" style="width: 120px; float: right;">
+
+Payment Link is a quick and easy solution for accepting payments. Just create, and optionally customize, a Payment Link, then copy and paste the HTML code snippet to your website.
 
 The simplest case would involve an HTML form with specific information that would be sent via a GET request. There’s no need to require any the data from your customers, so all the fields will be hidden in most cases. 
 Here’s how it can look like:
@@ -60,45 +61,40 @@ Here’s how it can look like:
 
 ## Widget vs Link
 
-|Feature              |Payment Widget|Payment Link|
-|---------------------|--------------|------------|
-|Technology           |JavaScript    |GET Request |
-|Request Validation   |✔             |            |
-|Error & Event Handing|✔             |            |
+|Feature                   |Payment Widget|Payment Link|
+|--------------------------|--------------|------------|
+|Technology                |JavaScript    |GET Request |
+|Request Validation        |✔             |            |
+|Error & Event Handing     |✔             |            |
+|Invoicing via Email or SMS|              |✔           |
+|Invoicing via QR-code     |              |✔           |
 
 ## Embed options
 
--   **Embedded HPP**: Display an overlay payment form on your site.
 -   **Standard HPP**: Redirect to a customizable hosted payment page.
+-   **Embedded HPP**: Display an overlay payment form on your site.
 
-## Customizations & Settings
+### Full-page redirect
 
-You can configure how the checkout should look and what fields you need to show, by navigating to  _Settings > Configure PayCore.io > Checkout & Self-Serve Portal._  in chargebee app.
+The Hosted Payment Page are displayed full-page in a browser. When your customers are redirected to the Hosted Payment Page, the web address for the Hosted Payment Page is displayed. Full-page redirect supports over 60 payment methods.
 
-You can have a look at the various settings which we have in this  [page](/products/hpp/customization/).
+### Embedded
+
+The Hosted Payment Page are displayed in an **iframe** or **lightbox** within your website. When you redirect your customers to our payment page, the web address for your website remains unchanged, providing a more seamless shopping experience. An iframe or lightbox integration requires a more advanced integration.
+
+We apply responsive web design to payment content displayed in an iframe or lightbox. When the width of the parent page is resized, the content in the iframe or lightbox is automatically adjusted.
+
+Depending on the content being displayed, the height of the iframe or lightbox may increase. For an iframe, the content in the parent page that is below the iframe is pushed down as the payment page content expands vertically.
 
 
 ## Self-hosted Payment Page
 
 Integrating using API provides you with better control. But requires coding knowledge. Choose this option if you:
 
--   Have user authentication (/management) system at your end.
+-   Have user authentication / management system at your end.
 -   Or need more control than offered by  **HPP**  (like 'price overriding' , changing 'trial end date')
 
-Jump to  [this page](/products/hpp/self-hosted-payment-page/)  for the 'API' based integration steps.
-
-## Alternative methods
-
-This page lists a high-level overview of all ways to integrate PayCore.io HPP into a website, application, web store or Smart TV service.
-
--   To build a custom integration, check which API works best to accept payments: Payment Widget, HPP API or Private APIs in the  [API Overview](#overview).
--   To study all the APIs, such as cancelling subscriptions, issuing refunds, getting the list of supported methods, go to  [full API Reference](/integration/api-references/).
--   For an SDK for iOS, Android, Unity or Smart TV, check out the  [SDKs section](/integration/sdks/).
--   For server-side API libraries, check out the  [Server SDKs section](/integration/sdks/).
--   For shopping cart systems or e-commerce solutions, such as Magento or Woocommerce, check out the  [CMS Modules & Shopping Cards](/integration/cms-modules/).
--   To learn which products works with which API, check the  [API Compatibility](https://docs.paymentwall.com/#api-compatibility).
-
-Read about our all integration methods for payments below, then [choose the one that best suits your needs](/integration/accept-payments/).
+Jump to  [this page](/products/hpp/self-hpp/)  for the API based integration steps.
 
 ## Next
 
