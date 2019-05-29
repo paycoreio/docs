@@ -4,13 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
-## [v0.59 (10/04/2019)]()
-* System-wide search implemented
-* UI upgrade
-* Analytics views upgrade
-* Merchant Back Office released
+## [v0.59 (15/04/2019)](v0.59/)
+* Platform-wide search released
+* UI/UX updates
+* Analytics upgrade
+* Merchant Portal application update
 * Telegram Bot upgrade
-* New connectors implemented
+* New Integrations
 * Bug fixes
 
 
