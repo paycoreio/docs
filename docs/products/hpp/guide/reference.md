@@ -4,250 +4,175 @@ Our HPP reference is here to help you find those hard-to-find bits of informatio
 
 ## Configuration options
 
-Here's a complete list of HPP configuration options.
+This is a complete list of HPP configuration options.
 
-### Required
+### Basic (required)
+
+|Key           |Description                                                                                      |
+|--------------|-------------------------------------------------------------------------------------------------|
+|`public_key`  |Public key of your commerce account — find it in the  [Dashboard](https://dashboard.paycore.io/).|
+|`reference_id`|Unique reference id of payment invoice.                                                          |
+|`amount`      |Amount of payment invoice.                                                                       |
+|`currency`    |Currency of payment invoice.                                                                     |
 
 !!! note
-    You can only create charges in currencies that have been enabled for your account. Please contact your Customer Success Manager if you need to process in additional currencies.
+    You can only create charges in currencies that have been enabled for your Commerce account. Please contact your Administrator if you need to process in additional currencies.
 
-
-JavaScript keys
-
-Description
-
-`publicKey`
-
-Your public key — find it in the  [Hub](https://hub.checkout.com/v2/login).
 
 ### Optional
 
+#### Customer details
 
-JavaScript keys
+Set in `customer` key a customer object with following optional properties: 
 
-Description
-
-Default
-
-`theme`
-
-Choose the  [theme](https://docs.checkout.com/docs/frames-customization-guide)  of your payment form.
-
-`standard`
-
-`themeOverride`
-
-Use this to load your  [custom stylesheet](https://docs.checkout.com/docs/frames-customization-guide#section-using-custom-styling).
-
-`none`
-
-`debugMode`
-
-Set to  `true`  to view console messages.
-
-`false`
-
-`namespace`
-
-Customize the default Frames namespace.
-
-`Frames`
-
-`containerSelector`
-
-The  `.class`  or  `#id`  of the parent element in the Frames payment form.
-
-`none`
-
-### Payment details
-
-### Customer details
-
-### Localization options
+|Key           |Description                        |
+|--------------|-----------------------------------|
+|`email`       |The customer's email address.      |
+|`name`        |The customer's name.               |
+|`reference_id`|The customer's unique reference ID.|
 
 
-`localisation`
+#### Predefined payment service
 
-Sets the  [language](https://docs.checkout.com/v2.1/docs/frames-customization-guide#section-localization)  of the text used.
-
-Available options are:
-
--   EN-GB (English)
--   ES-ES (Spanish)
--   DE-DE (German)
--   KR-KR (Korean)
--   FR-FR (French)
--   IT-IT (Italian)
--   NL-NL (Dutch)
-
-EN-GB
-
-### Widget options
-
-### Localization
-
-## Advanced styling
-
-You can define advanced styling and customization of Checkout.js using the Javascript API and setting the styling property in the configuration object.
+|Key             |Description                     |
+|----------------|--------------------------------|
+|`service`       |Service you want to autoprocess.|
+|`service_fields`|Fields of selected service.     |
 
 
-## Lightbox options
+### Customization
 
+One of our favorite things about HPP is its customizability. By following this styling guide, you can make changes to just about anything.
+
+#### Display
+
+Language and HPP layout settings.
+
+Set in `display` key as an array object with the following properties:
+
+|Key                    |Description                                                           |Default|
+|-----------------------|----------------------------------------------------------------------|-------|
+|`language`             |Use one of our pre-defined languages. Enum:"en" "uk" "ru".            |`auto` |
+|`hide_header`          |Flag to hide header on HPP.                                           |`false`|
+|`hide_footer`          |Flag to hide footer on HPP.                                           |`false`|
+|`hide_progress_bar`    |Flag to hide progress bar on HPP.                                     |`false`|
+|`hide_method_filter`   |Flag to hide method filter bar on HPP.                                |`false`|
+|`hide_lifetime_counter`|Flag to hide lifetime counter on HPP (if the expires date was passed).|`false`|
+
+#### Styling
+
+HPP can be customized to fit seamlessly with your brand. All customizations are achieved using selectors, properties and values in a manner very familiar to developers.
+
+You can define advanced styling and customization of HPP by setting the styling property `style` in the configuration object.
+
+The available options for the styling object:
+
+|Key                         |Description                                                                                                                                                                 |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|`pay_button_label`          |Label on pay button translated on all supported languages. Enum:"book" "donate" "pay".                                                                                      |
+|`show_method_logo`          |Payment methods has icons or logos to show on their card previews.                                                                                                          |
+|`theme`                     |Our themes include several options to change the layout, colors and fonts of your payment page. Enum: "basic", "dark".                                                      |
+|`success_color`             |Success color to show success notifies / messages.                                                                                                                          |
+|`warning_color`             |Warning color to show warning notifies / messages.                                                                                                                          |
+|`danger_color`              |Danger color to show danger notifies / messages.                                                                                                                            |
+|`info_color`                |Info color to show information notifies / messages.                                                                                                                         |
+|`primary_color`             |Accent color.                                                                                                                                                               |
+|`primary_variant`           |Based on primary color, or can be passed by you. If primary color will be dark - then this variable will be lighter. Used on most important UI components (stepper,buttons).|
+|`primary_text_color`        |Primary text color, that used mostly everywhere.                                                                                                                            |
+|`primary_background_color`  |Primary backgoround color.                                                                                                                                                  |
+|`on_primary_color`          |The most readable color on elements with primary color fill. Based on primary_background_color color, or can be passed by you.                                              |
+|`secondary_color`           |Secondary color.                                                                                                                                                            |
+|`secondary_variant`         |Based on secondary color, or can be passed by you. If secondary color will be dark - then this variable will be a few tones lighter. Used on secondary UI components.       |
+|`secondary_text_color`      |Secondary text color, used mostly on secondary UI components.                                                                                                               |
+|`secondary_background_color`|Secondary background color (payment method cards).                                                                                                                          |
+|`on_secondary_color`        |The most readable color on elements with secondary_background_color fill. Based on secondary_background_color color, or can be passed manually by you.                      |
+
+Use the tabs below to view an example of styling, and a reference of selectors to use when styling your version of HPP.
+
+>   Soon...
+
+
+### Metadata
+
+|Key       |Description                                                          |
+|----------|---------------------------------------------------------------------|
+|`metadata`|Set of key/value pairs. Additional key:value info about your invoice.|
+
+If you want to store additional/custom data at a resource's level, you can make use of PayCore.io's Metadata.
+
+For example, if you're a data service provider and want to store certain features of a particular plan, say "Usage Limit", "Speed within limit", etc., you can store it in the Metadata of the Plan.
+
+Metadata can be stored only as key-value array.
+
+Considering the same example as above, if you want to store the additional features of a particular data plan here's what the JSON will look like:
+
+```json
+{  
+    "metadata": {
+        "usage-limit":"5GB",
+        "speed-within-quota":"2MBbps",
+        "post-usage-quota":"512kbps"
+    }
+}
+
+```
+
+!!! note
+    -   Metadata is completely for your reference and will not be visible to customers.
+    -   Metadata will not be a filter criteria, or a part of the exports.
 
 ## Handlers
-
-With Checkout.js, we dispatch events which you can handle for various purposes. The table below provides the full list of events — use them to attach to one or more handlers.
-
-
-### Widget and lightbox events
-
-### Events
 
 HPP dispatches events which can be handled for various purposes. The table below provides the full list of events that you can attach one or more handlers to.
 
 !!! note
     Event constants on the JavaScript API are accessible via `Frames.Events`.
 
+### Basic events
 
-Event name
+### Widget events
 
-JavaScript constant
-
-When
-
-`ready`
-
-`READY`
-
-Triggered when Frames is registered on the global namespace and safe to use.
-
-`frameActivated`
-
-`FRAME_ACTIVATED`
-
-Triggered when the form is rendered.
-
-`cardValidationChanged`
-
-`CARD_VALIDATION_CHANGED`
-
-Triggered when the state of the card form validation changes.
-
-This will return:  
-`isValid: true / false`
-
-`cardSubmitted`
-
-`CARD_SUBMITTED`
-
-Triggered when the card form has been submitted.
-
-`cardTokenised`
-
-`CARD_TOKENISED`
-
-Triggered after a card is tokenized. Returns an object containing the card token and card information such as payment methods, expiration date, the first 6 (bin) and last 4 digits of the credit card.
-
-`cardTokenisationFailed`
-
-`CARD_TOKENISATION_FAILED`
-
-Triggered if card tokenization fails.
+| Event | JavaScript constant | When |
+|---|---|---|
+| `ready` | `READY` | Triggered when Frames is registered on the global namespace and safe to use.|
+| `frameActivated` | `FRAME_ACTIVATED` | Triggered when the form is rendered.|
+| `cardValidationChanged` | `CARD_VALIDATION_CHANGED` | Triggered when the state of the card form validation changes. This will return: `isValid: true / false` |
+| `cardSubmitted` | `CARD_SUBMITTED` | Triggered when the card form has been submitted.|
+| `cardTokenised` | `CARD_TOKENISED` | Triggered after a card is tokenized. Returns an object containing the card token and card information such as payment methods, expiration date, the first 6 (bin) and last 4 digits of the credit card. |
+| `cardTokenisationFailed` | `CARD_TOKENISATION_FAILED` | Triggered if card tokenization fails. |
 
 
 ### Adding an event handler
 
-There are two ways to add an event handler:
+There are two ways to add an event handler: the standard approach or configuration options.
 
--   using the standard approach
--   using configuration options
+-   Method 1: The standard approach  
+    ```
+    Checkout.addEventHandler(Checkout.Events.<EVENT_CONSTANT>, handler, options);
+    ```
+-   Method 2: Configuration options
+    ```
+    Frames.init({
+      publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
+      <eventName>: handler
+    });
+    ```
 
--   [Standard approach](https://docs.checkout.com/docs/checkoutjs-reference)
--   [Configuration options](https://docs.checkout.com/docs/checkoutjs-reference)
+## Widget
 
-Copy
+### Actions
 
-```
-Checkout.addEventHandler(Checkout.Events.<EVENT_CONSTANT>, handler, options);
-```
-
-### Adding an event handler
-
-There are two ways to add an event handler; the standard approach or configuration options.
-
-Method 1:  The standard approach  
-`Frames.addEventHandler(Frames.Events.<EVENT_CONSTANT>, handler);`
-
-Method 2:  Configuration options
-
--   [Config options](https://docs.checkout.com/docs/frames-reference)
-
-Copy
-
-```
-Frames.init({
-  publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
-  <eventName>: handler
-});
-```
-
-## Actions
-
-### Synchronous
-
-
-## Functions
+|Method        |Description                 |
+|--------------|----------------------------|
+|`init(object)`|Initializes widget with HPP.|
 
 ### Getters / Setters
 
+|Method                                 |Description                                |
+|---------------------------------------|-------------------------------------------|
+|`getPublicKey()`, `setPublicKey(value)`|Your public key — find it in the Dashboard.|
+|`getVersion()`                         |Returns the Widget version.                |
 
-## Examples
-
-### Using the cardTokenised handler
-
-The example here uses a cardTokenised handler to gain a payment token for your customers' card details.
-
-### Loading Frames asynchronously
-
-If you load Frames asynchronously, you can change the namespace to a name other than  `Frames`. The example below uses  `Checkout`  as the namespace.
-
-Use  `window.CKOConfig`  to change the namespace, or to load Frames asynchronously.
-
-
-## Customization
-
-One of our favorite things about Frames is its customizability. By following this styling guide, you can make changes to just about anything.
-
-
-### Using custom styling
-
-Frames can be customized to fit seamlessly with your brand. By using a  `style`  variable within the Frames script itself, it's easy to start making changes. All customizations are achieved using selectors, properties and values in a manner very familiar to developers.
-
-Use the tabs below to view an example of styling, and a reference of selectors to use when styling your version of Frames.
-
-
-### Localization
-
-Make your customers feel at home by using our localization settings to change the language of your payment form. Use one of our pre-defined languages or create your own.
-
-#### Pre-defined Localization
-
-If the language you would like to use appears in our pre-defined list, then just set the  `localization`  parameter, for example  `localization: 'FR-FR'`.
-
-The pre-defined languages:
-
-English =  **EN-GB**  
-Dutch =  **NL-NL**  
-French =  **FR-FR**  
-German =  **DE-DE**  
-Italian =  **IT-IT**  
-Korean =  **KR-KR**  
-Spanish =  **ES-ES**
-
-
-### Customization example
-
-Customizing Frames for the first time can be a little daunting. To make it easier for you, we have provided the code example below. The comments in the code are there to help you with customizing your own payment form. Notice how we fit the custom styling and localization within the same script. This means there is no need to rely on external files, making Frames more secure and PCI compliant.
 
 ## Can we help?
 

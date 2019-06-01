@@ -1,7 +1,6 @@
 # HPP Guide: Integration Methods
 
-Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
-
+Read about our integration methods below, then choose the one that best suits your needs.
 
 ## Overview
 
@@ -98,4 +97,4 @@ Jump to  [this page](/products/hpp/self-hpp/)  for the API based integration ste
 
 ## Next
 
-Jump to next page for the [Quickstart integration steps](/products/hpp/quickstart/).
+Jump to next page for the [HPP Features](/products/hpp/guide/features/).

@@ -20,16 +20,6 @@ A simplified illustration of the PayCore.io HPP payment flow is shown in the fig
 
     This fetched status serves to mark the payment paid, trigger fulfilment and send out an email confirmation to the customer.
 
-## Make HPP your own
-
-### Customization
-
-HPP gives you the flexibility to adjust its look and feel to suit your brand and payment page. You can display your company's logo, use custom fonts and add some color to represent your brand's personality. Check out our [customization guide](/products/hpp/customization/) for more details.
-
-### Configuration options
-
-You'll find a list of all the possible configuration options, plus some examples, in our [HPP reference guide](/products/hpp/guide/).
-
 
 ## Integration methods
 

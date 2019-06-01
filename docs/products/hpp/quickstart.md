@@ -1,5 +1,8 @@
 # Quickstart with HPP
 
+## Introduction
+
+Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
 
 ## How it works
 
@@ -7,122 +10,83 @@ Once a customer has added items to the shopping cart and filled out the shipping
 
 The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers payment details.
 
-
 ## Try it out
 
 Why not give HPP a test run? Click the  **Pay Now**  button below and the form will spring to life.
 
-## Pick a integration method
+!!! note
+    `example`
 
-Read about our integration methods below, then choose the one that best suits your needs.
 
 
 
 ## Before you start
 
-Make sure you have your  `public_key`. You can find it in the  [Hub](https://hub.checkout.com/v2), under  **Settings > Channels**. If you don't have an account with us yet, sign up for your free test account at  [Checkout.com](https://hub.checkout.com/v2).
+Make sure you have your  `public_key`. You can find it in the  [Dashboard](https://dashboard.paycore.io/), under  **Commerce Account Settings > Integration**. If you don't have an account with us yet, sign up for your free test account at  [PayCore.io](https://dashboard.paycore.io/).
 
 ## Step 1:  Pick a display method
 
-First, you need to choose a display method. We offer three ways to integrate Checkout.js into your website, so you can pick the one that best fits your requirements:
+First, you need to choose a display method. We offer three ways to integrate `payment-widget.js` into your website, so you can pick the one that best fits your requirements:
 
-Method
-
-Description
-
-`window.CKOConfig`
-
-Our recommended option, which allows you to run Checkout.js synchronously or asynchronously. This simple integration method provides a widget displaying accepted payment icons alongside a  **Pay Now**  button that triggers the payment form.
-
-`Checkout.configure()`
-
-Gives you more control over how and when the  **Pay Now**  button and payment lightbox appear.
-
-We offer two variants:
+| Method | Description |
+|---|---|
+|`window.CKOConfig` | Our recommended option, which allows you to run Checkout.js synchronously or asynchronously. This simple integration method provides a widget displaying accepted payment icons alongside a  **Pay Now**  button that triggers the payment form.
+| `Checkout.configure()` | 
+Gives you more control over how and when the  **Pay Now**  button and payment lightbox appear. We offer two variants:
 
 -   Variant A, which opens the payment lightbox instantly, without the use of a  **Pay Now**  button.
 -   Variant B, which uses a custom  **Pay Now**  button to launch the payment lightbox.
 
-Checkout.js can only be run synchronously with this method.
-
-`Checkout.render()`
-
-Renders the payment widget automatically onto your page, displaying the accepted payment icons, the  **Pay Now**  button, and the lightbox payment form.
-
-Checkout.render() offers an asynchronous payment process. This means that it can take several days to confirm the success or failure of a payment.
+Checkout.js can only be run synchronously with this method.|
+| `Checkout.render()` | Renders the payment widget automatically onto your page, displaying the accepted payment icons, the  **Pay Now**  button, and the lightbox payment form. Checkout.render() offers an asynchronous payment process. This means that it can take several days to confirm the success or failure of a payment.|
 
 ## Step 2:  Add the code snippet to your site
 
 Next, copy the code snippet for your chosen method and add it to your checkout page.
 
-You'll need to replace the example  `publicKey`  with your own, and edit the required key-value pairs to reflect the order details (see the  [JavaScript keys table](https://docs.checkout.com/docs/checkoutjs#section-javascript-keys)  below for details).
+You'll need to replace the example  `public_key`  with your own, and edit the required key-value pairs to reflect the order details (see the  [JavaScript keys table](https://docs.paycore.io/docs/checkoutjs#section-javascript-keys)  below for details).
 
 The card token will be posted via the URL specified in the form's  `action`  attribute.
 
--   [window.CKOConfig](https://docs.checkout.com/docs/checkoutjs)
--   [Checkout.configure() - Variant A](https://docs.checkout.com/docs/checkoutjs)
--   [Checkout.configure() - Variant B](https://docs.checkout.com/docs/checkoutjs)
--   [Checkout.render()](https://docs.checkout.com/docs/checkoutjs)
-
-Copy
+-   [window.CKOConfig](https://docs.paycore.io/docs/checkoutjs)
+-   [Checkout.configure() - Variant A](https://docs.paycore.io/docs/checkoutjs)
+-   [Checkout.configure() - Variant B](https://docs.paycore.io/docs/checkoutjs)
+-   [Checkout.render()](https://docs.paycore.io/docs/checkoutjs)
 
 ```
-<form class="payment-form" method="POST" action="https://merchant.com/successUrl">
-  <script>
-    window.CKOConfig = {
-      publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
-      customerEmail: 'user@email.com',
-      value: 100,
-      currency: 'GBP',
-      paymentMode: 'cards',
-      cardFormMode: 'cardTokenisation',
-      cardTokenised: function(event) {
-        console.log(event.data.cardToken);
-      }
-    };
-  </script>
-  <script async src="https://cdn.checkout.com/sandbox/js/checkout.js"></script>
-</form>
+<script src="https://unpkg.com/@paycore/merchant-widget-js@0.1.7/dist/merchantWidget.umd.min.js"></script>
+<script>
+window.widget.init({
+    selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
+    public_key: "YOUR_PUBLIC_KEY",
+    amount: 100.00,
+    currency: "USD",
+});
+</script>
 ```
 
-When you're processing live payments, replace  `<script async src="https://cdn.checkout.com/sandbox/js/checkout.js"></script>`  with  `<script async src="https://cdn.checkout.com/js/checkout.js"></script>`.
+When you're processing live payments, replace  `<script async src="https://cdn.paycore.io/sandbox/js/checkout.js"></script>`  with  `<script async src="https://cdn.paycore.io/js/checkout.js"></script>`.
 
 ### JavaScript keys
 
 These are the JavaScript keys you need to use when embedding Checkout.js.
 
-JavaScript keys
+| Key | Description |
+|---|---|
+| `public_key` REQUIRED | Your public key. You'll find this in the  [Hub](https://dashboard.paycore.io/).|
+| `currency` REQUIRED | The payment currency (three-letter ISO 4217 code).|
+| `amount` REQUIRED | The payment amount, written as a whole number (0 and decimal figures are not allowed). For most currencies, the value is 100 times one unit of currency (e.g. 1 US Dollar is equivalent to 'value = 100'). A full description of how value is calculated for all our supported currencies is available  [here](https://docs.paycore.io/docs/calculating-the-value). |
+| `customer[email]` OPTIONAL | The customer's email address. |
 
-Description
+## Make HPP your own
 
-`cardFormMode`  
-REQUIRED
+### Customization
 
-Set to  `cardTokenisation`  to charge with card token.
+HPP gives you the flexibility to adjust its look and feel to suit your brand and payment page. You can display your company's logo, use custom fonts and add some color to represent your brand's personality. Check out our [customization guide](/products/hpp/customization/) for more details.
 
-`currency`  
-REQUIRED
+### Configuration options
 
-The payment currency (three-letter ISO 4217 code).
-
-`publicKey`  
-REQUIRED
-
-Your public key. You'll find this in the  [Hub](https://hub.checkout.com/v2).
-
-`value`  
-REQUIRED
-
-The payment amount, written as a whole number (0 and decimal figures are not allowed).
-
-For most currencies, the value is 100 times one unit of currency (e.g. 1 US Dollar is equivalent to 'value = 100').
-
-A full description of how value is calculated for all our supported currencies is available  [here](https://docs.checkout.com/docs/calculating-the-value).
-
-`customerEmail`  
-OPTIONAL
-
-The customer's email address.
+You'll find a list of all the possible configuration options, plus some examples, in our [HPP reference guide](/products/hpp/guide/).
 
 
 ## Follow our guide
