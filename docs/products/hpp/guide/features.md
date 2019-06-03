@@ -1,4 +1,4 @@
-# HPP Guide: Options
+# HPP Guide: Features
 
 
 ## Sequence diagrams
@@ -71,6 +71,14 @@ For some payment requests, you may decide to filter the payment methods that are
 -   The  `service`  and the `service_fields` fields are used to take the customer directly to a specific payment service gateway. Example: `service: paypal_usd_hpp`.
 
 All the payment services that are configured for your account, including the value you use to indicate the specific payment method, are available in the Dashboard interface under **Commerce Account Settings > Payment Methods > Name**.  
+
+## 
+Allows you to deep-link to specific payment methods that you can plug one by one into your system.
+
+## Mobile First
+
+This widget is optimized for mobile devices. Supports displaying all relevant payment methods as well as one specific payment method.
+
 
 ### Payment method availability by geolocation
 
@@ -350,3 +358,29 @@ All text fields use UTF-8 encoding. Note however that the Quick Checkout payment
 ## Callback
 
 When the payment process is complete Skrill sends the details of the transaction to the status_url page you provided in your payment request (see Table 2-1 on page 2-5). This is done with a standard HTTP POST. The Skrill server continues to post the status until a response of HTTP OK (200) is received from your server or the number of posts exceeds 10. The table below shows the parameters sent to your status_url page
+
+
+### Auto return the buyer to your website
+
+With Auto return for PayPal payments, buyers are not required to click a button to return to your website after they complete their payments with PayPal. Auto Return applies to all PayPal Payments Standards payment buttons, including Buy Now, Shopping Cart, Subscription, and Donate buttons.
+
+Auto Return shortens the checkout flow and immediately brings your buyers back to your website upon payment completion. To set up Auto Return, you need to turn it on in your PayPal account profile and enter the return URL that will be used to redirect your buyers back to your site. For more information on how to enable this feature in your PayPal account, see  [Auto return](https://developer.paypal.com/docs/classic/admin/checkout-settings/#auto-return-the-buyer-to-your-website)  in the Merchant setup and administration guide.
+
+#### Subscriptions Password Management and Auto return
+
+If you are using the  [Subscriptions Password Management](https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/user_names_passwords/)  feature, you must make sure that Auto return is disabled in order to display the PayPal-generated username and password to the subscriber.
+
+> **Note:**  You can use Auto return with subscriptions, which is a separate feature from Subscriptions Password Management.
+
+#### Override the return URL on individual transactions
+
+With Auto return turned on in your account profile, you can set the value of the  `return`  HTML variable on individual transactions, which overrides the value of the return URL stored in your PayPal account profile. For example, you might want to redirect payers to a URL on your site that is specific to that person, perhaps with a session-id or other transaction-related data included in the URL.
+
+To set the return URL for individual transactions, include the  `return`  variable in the HTML form:
+
+```
+<INPUT TYPE="hidden" NAME="return" value=" The-Page-On-Your-Site-To-Which-Buyer-Returns;">
+
+```
+
+> **Note:**  To receive transaction-related notification data from PayPal, you must turn Payment Data Transfer on. To learn more, see the  [Payment Data Transfer](https://developer.paypal.com/docs/classic/products/payment-data-transfer/)  page.

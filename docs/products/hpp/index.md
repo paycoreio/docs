@@ -55,18 +55,6 @@ HPP lets you provide PayCore.io as a payment method in your website store, your 
 
 HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your customer a _paylink_ by e-mail or sms and let them pay the order. Paylink could be generated like a QR code.
 
+# Next
 
-## How it works
-
-Once a customer has added items to the shopping cart and filled out the shipping and billing details, he or she needs to choose the payment method and needs to provide the payment details. If you choose not to touch and store the credit card details of your customers, you can outsource your payment page to us and use the Hosted Payment Page.
-
-The payment method selection can be done on your site or can be hosted by us. The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers payment details.
-
-## Follow our guide
-
-1.  [Choose your integration path](/products/hpp/integration-methods/).
-2.  Learn more about  [objects handled using Commerce APIs](/products/hpp/integration-overview/): payment invoice, payment request, callbacks…
-3.  Read our  [step by step integration guide](/products/hpp/integration-guide/)  and create your own flow.
-4.  Check that you  [respect specific use cases rules](/products/hpp/#use-cases)  for Telesales or In-store cases.
-5.  [Customize the Hosted Payment Page](/products/hpp/customization/)  to increase conversion.
-6.  Read the  [Full HPP API Reference](/integration/api-references/#commerce-hpp).
+Try out HPP with our [quickstart guide](/products/hpp/quickstart/).

@@ -1,5 +1,3 @@
-
-
 # PayCore.io Platform Overview
 
 ## Product Overview
