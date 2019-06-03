@@ -148,7 +148,7 @@ nav:
     #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
         - Introduction: products/hpp/index.md
-        - Quickstart: products/hpp/quickstart.md
+        #- Quickstart: products/hpp/quickstart.md
         - Guide:
             - Overview:  products/hpp/guide/index.md
             - Integration Overview: products/hpp/guide/integration-overview.md
