@@ -8,15 +8,15 @@ This is a complete list of HPP configuration options.
 
 ### Basic (required)
 
-|Key           |Description                                                                                      |
-|--------------|-------------------------------------------------------------------------------------------------|
-|`public_key`  |Public key of your commerce account — find it in the  [Dashboard](https://dashboard.paycore.io/).|
-|`reference_id`|Unique reference id of payment invoice.                                                          |
-|`amount`      |Amount of payment invoice.                                                                       |
-|`currency`    |Currency of payment invoice.                                                                     |
+|Key           |Type                   |Description                                                                                      |
+|--------------|-----------------------|-------------------------------------------------------------------------------------------------|
+|`public_key`  |`string`               |Public key of your commerce account — find it in the  [Dashboard](https://dashboard.paycore.io/).|
+|`reference_id`|`string`               |Unique reference id of payment invoice.                                                          |
+|`amount`      |`float`                |Amount of payment invoice.                                                                       |
+|`currency`    |`(string) CurrencyCode`|Currency of payment invoice.                                                                     |
 
 !!! note
-    You can only create charges in currencies that have been enabled for your Commerce account. Please contact your Administrator if you need to process in additional currencies.
+    You can only create payments in currencies that have been enabled for your Commerce account. Please contact your account Administrator if you need to process in additional currencies.
 
 
 ### Optional
@@ -25,19 +25,19 @@ This is a complete list of HPP configuration options.
 
 Set in `customer` key a customer object with following optional properties: 
 
-|Key           |Description                        |
-|--------------|-----------------------------------|
-|`email`       |The customer's email address.      |
-|`name`        |The customer's name.               |
-|`reference_id`|The customer's unique reference ID.|
+|Key           |Type    |Description                        |
+|--------------|--------|-----------------------------------|
+|`email`       |`string`|The customer's email address.      |
+|`name`        |`string`|The customer's name.               |
+|`reference_id`|`string`|The customer's unique reference ID.|
 
 
 #### Predefined payment service
 
-|Key             |Description                     |
-|----------------|--------------------------------|
-|`service`       |Service you want to autoprocess.|
-|`service_fields`|Fields of selected service.     |
+|Key             |Type                 |Description                     |
+|----------------|---------------------|--------------------------------|
+|`service`       |`(string) ServiceCode`|Service you want to autoprocess.|
+|`service_fields`|`(object) string[key:value]`   |Fields of selected service.     |
 
 
 ### Customization
@@ -50,14 +50,14 @@ Language and HPP layout settings.
 
 Set in `display` key as an array object with the following properties:
 
-|Key                    |Description                                                           |Default|
-|-----------------------|----------------------------------------------------------------------|-------|
-|`language`             |Use one of our pre-defined languages. Enum:"en" "uk" "ru".            |`auto` |
-|`hide_header`          |Flag to hide header on HPP.                                           |`false`|
-|`hide_footer`          |Flag to hide footer on HPP.                                           |`false`|
-|`hide_progress_bar`    |Flag to hide progress bar on HPP.                                     |`false`|
-|`hide_method_filter`   |Flag to hide method filter bar on HPP.                                |`false`|
-|`hide_lifetime_counter`|Flag to hide lifetime counter on HPP (if the expires date was passed).|`false`|
+|Key                    |Type    |Description                                                                             |
+|-----------------------|--------|----------------------------------------------------------------------------------------|
+|`language`             |`string`|Use one of our pre-defined languages. Enum: `en`, `uk`, `ru`. Default: `auto`.          |
+|`hide_header`          |`bool`  |Flag to hide header on HPP. Default: `false`.                                           |
+|`hide_footer`          |`bool`  |Flag to hide footer on HPP. Default: `false`.                                           |
+|`hide_progress_bar`    |`bool`  |Flag to hide progress bar on HPP. Default: `false`.                                     |
+|`hide_method_filter`   |`bool`  |Flag to hide method filter bar on HPP. Default: `false`.                                |
+|`hide_lifetime_counter`|`bool`  |Flag to hide lifetime counter on HPP (if the expires date was passed). Default: `false`.|
 
 #### Styling
 
@@ -126,7 +126,7 @@ Considering the same example as above, if you want to store the additional featu
 HPP dispatches events which can be handled for various purposes. The table below provides the full list of events that you can attach one or more handlers to.
 
 !!! note
-    Event constants on the JavaScript API are accessible via `Frames.Events`.
+    Event constants on the JavaScript API are accessible via `HPP.Events`.
 
 ### Basic events
 
@@ -134,7 +134,7 @@ HPP dispatches events which can be handled for various purposes. The table below
 
 | Event | JavaScript constant | When |
 |---|---|---|
-| `ready` | `READY` | Triggered when Frames is registered on the global namespace and safe to use.|
+| `ready` | `READY` | Triggered when HPP is registered on the global namespace and safe to use.|
 | `frameActivated` | `FRAME_ACTIVATED` | Triggered when the form is rendered.|
 | `cardValidationChanged` | `CARD_VALIDATION_CHANGED` | Triggered when the state of the card form validation changes. This will return: `isValid: true / false` |
 | `cardSubmitted` | `CARD_SUBMITTED` | Triggered when the card form has been submitted.|
@@ -152,7 +152,7 @@ There are two ways to add an event handler: the standard approach or configurati
     ```
 -   Method 2: Configuration options
     ```
-    Frames.init({
+    HPP.init({
       publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
       <eventName>: handler
     });
