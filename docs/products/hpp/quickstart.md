@@ -78,6 +78,74 @@ These are the JavaScript keys you need to use when embedding Checkout.js.
 | `amount` REQUIRED | The payment amount, written as a whole number (0 and decimal figures are not allowed). For most currencies, the value is 100 times one unit of currency (e.g. 1 US Dollar is equivalent to 'value = 100'). A full description of how value is calculated for all our supported currencies is available  [here](https://docs.paycore.io/docs/calculating-the-value). |
 | `customer[email]` OPTIONAL | The customer's email address. |
 
+## Use cases
+
+A shopper makes an order for a total amount payable of GBP 100. The order reference in your backoffice is Internet order 12345.
+
+The order details are:
+
+-   Goods shipping date to the shopper: before or not later than October 20th, 2016.
+-   Order summary information to display on the payment review page for the order: _1 digital camera_.
+-   The merchant account you are using is _TestMerchant_.
+-   The order was placed before or on October 11th 2016, 10:30 am.
+-   You want the payment offer to expire on October 11th 2016, 11:00 am.
+
+This example represents a complete payment session, based on the order details above.
+
+!!! example "Simple redirect example"
+    ```html
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
+        <input type="hidden" name="reference_id" value="12345" />
+        <input type="hidden" name="currency" value="GBP" />
+        <input type="hidden" name="description" value="Test payment" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay with PayCore.io" />
+    </form>
+    ```
+
+!!! example "Any amount pay button"
+    ```html hl_lines="7"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <!-- This public key of TestMerchant -->
+        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
+        <input type="hidden" name="reference_id" value="12345" />
+        <input type="hidden" name="currency" value="GBP" />
+        <input type="hidden" name="description" value="Test payment" />
+        Amount: <input type="text" name="amount" value="100" />
+        <input type="submit" value="Pay with PayCore.io" />
+    </form>
+    ```
+
+!!! example "Payment form with additional fields"
+    ```html hl_lines="7 8"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <!-- This public key of TestMerchant -->
+        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
+        <input type="hidden" name="reference_id" value="12345" />
+        <input type="hidden" name="currency" value="GBP" />
+        <input type="hidden" name="description" value="Test payment" />
+        <input type="hidden" name="metadata[key1]" value="SomeValue1" />
+        <input type="hidden" name="metadata[key2]" value="SomeValue2" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay with PayCore.io" />
+    </form>
+    ```
+
+!!! example "The form of payment embed into iFrame"
+    ```html hl_lines="1 10"
+    <form action="https://com.paycore.io/hpp/" method="get" target="pay_frame">
+        <!-- This public key of TestMerchant -->
+        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
+        <input type="hidden" name="reference_id" value="12345" />
+        <input type="hidden" name="currency" value="GBP" />
+        <input type="hidden" name="description" value="Test payment" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay with PayCore.io" />
+    </form>
+    <iframe name="pay_frame" src="" id="pay_frame" width="XX" height="YY"></iframe>     
+    ```
+
 ## Make HPP your own
 
 ### Customization

@@ -177,9 +177,6 @@ nav:
         - Managing Dashboards: products/analytics/managing-dashboards.md
         - Managing Alerts: products/analytics/managing-alerts.md
         - Visualizations: products/analytics/visualizations.md
-        #- Queries: products/analytics/queries.md
-        #- Dashboards: products/analytics/dashboards.md
-        #- Alerts: products/analytics/alerts.md
         - FAQ: products/analytics/faq.md
 - Integration: 
     - Integrate with PayCore.io: integration/index.md

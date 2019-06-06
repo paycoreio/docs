@@ -1,22 +1,201 @@
 # HPP Guide: Features
 
+This guide assumes you have completed a [HPP integration](/products/hpp/guide/). These features are all upgrades for that basic integration. After you add a new feature, you can [test it](/products/hpp/guide/testing/) on your site then [go live](/products/hpp/guide/going-live/).
 
-## Sequence diagrams
+## Features list
 
-You will find here the usual integration flow of the Hosted Payment Page. In this flow, actors are defined as follow:
+### Essential HPP features
 
--   **Customer**: a physical person that wants to buy something.
--   **Browser**: the browser that the  **Consumer**  is able to control, for example on a desktop or a mobile.
--   **Merchant Backend**: your backend that will do the API calls to HPP, KP and Order Management.
--   **Commerce HPP**: the Hosted Payment Page API
--   **Payment Gateway**: the Payment Gateway API
+Use these features to ensure your integration has the optimal buyer experience and increased conversion.
 
-## Flows
+| Goal | Steps |
+|---|---|
+| Listen for shipping changes and update the cart | Follow the  [Shipping Changes](#shipping-callback)  guide to listen for changes to the buyer's shipping address, then update costs accordingly.|
+| Handle funding failures | Follow the  [Funding failures](#funding-failure)  guide to allow your buyer to choose a different funding source if their chosen method fails.|
+| Show a cancellation page | Follow the  [Cancellation page](#cancellation-page)  guide to show a cancellation page to the buyer if they decide to cancel the transaction.|
+| Handle errors | Follow the  [Handle errors](https://developer.paypal.com/docs/checkout/integration-features/handle-errors)  guide to handle errors from the checkout experience and show an error message to the buyer.|
 
-### New payment HPP request
 
-### Forward using a created payment invoice
+### Additional HPP features
 
+Use these features to enhance and customize your integration.
+
+| Goal                                              | Steps                                                                                                                       |
+|---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Customize the look and feel of the buttons        | Follow the Style the buttons guide to change the button layout, color, label, shape or size.                                |
+| Create an authorization, and capture funds later  | Follow the Authorize and Capture guide to authorize the payment immediately, then capture the payment at a later time.      |
+| Refund a transaction                              | Follow the Refunds guide to call PayPal to refund any transactions that have already been captured.                         |
+| Send funds to a custom payee                      | Follow the Custom Payee guide to direct any funds to a different PayPal account                                             |
+| Listen for transaction events on your server      | Follow the Add Webhooks guide to listen for events on your server from transactions as they are created and captured.       |
+| Search for completed transactions                 | Follow the Search Transactions guide to search for completed transactions from your buyers.                                 |
+| Handle disputes                                   | Follow the Handle Disputes guide to handle buyer disputes.                                                                  |
+| Show PayPal when the buyer selects a radio button | Follow the Radio buttons guide to show the Smart Payment Buttons to the buyer when they select a radio button on your site. |
+| Validate on button click                          | Follow the Validation guide to validate user inputs on button clicks.                                                       |
+| Show a confirmation page                          | Follow the Confirmation page guide to show a confirmation page to the buyer before capturing the funds from a transaction.  |
+| Update a transaction                              | Follow the Update order details guide to update a transaction after it has been set up.                                     |
+
+
+## Customer details
+
+## Auto process
+
+## Using predefined Payment Invoice
+
+## Customization
+
+### Display
+
+### Themes
+
+### Styling
+
+### Pay button label
+
+### Override methods positions
+
+### Override methods labels
+
+### Hide methods 
+
+### Override methods icons & logos
+
+## Integration
+
+### Idempotency
+
+Idempotency prevents the processing of duplicate payment requests by using unique keys set in `reference_id` property.
+
+Each `reference_id` must be a _Unique Identifier_, and you must manage the generation of your own keys to ensure that duplicates are not generated accidentally. Duplicate keys are only detected when provided by the same Commerce Account, so only submissions you provide can throw a duplicate error.
+
+UUIDs are very large (128-bit) numbers. To avoid the "accidental" creation of duplicate keys, we recommend using a randomly generated UUID for your `reference_id`. This is especially important when generating `reference_id` for different payment requests.
+
+### Return URL
+
+### Callbacks
+
+When the payment process is complete PayCore.io sends the details of the transaction to the `callback_url` page you provided in your payment request. This is done with a standard HTTP POST. The PayCore.io server continues to post the status until a response of HTTP OK (200) is received from your server or the number of posts exceeds 10. 
+
+More information about callbacks you could find [here](/integration/callbacks/).
+
+### Metadata
+
+In the example above we suppose you will store the  `reference_id`  that’s unique to the payment in your order table. This way your website is able to look-up the order for this payment when the webhook is triggered by PayCore.io. Your website is keeping track of the payment, effectively bringing about the connection between order and payment. This approach is easiest to grasp, which is why we use it in our example.
+
+Alternatively you could ask PayCore.io to remember the unique identifier of your order by instructing the PayCore.io API to store it in the payment’s  `metadata`. You would provide it while creating the payment. In our example  `order_id` would be a good candidate. PayCore.io stores the metadata for you, when you fetch the payment during processing the webhook the metadata is included in the response. This is another way to connect orders and payments. We advise to use the  `metadata`  approach. This is the most popular approach and it’s easiest to implement.
+
+### Embedded options
+
+We provide two ways to integrate:
+
+1.  **Full-page redirect**
+    
+    The Hosted Payment Pages are displayed full-page in a browser. When your customers are redirected to the Hosted Payment Pages, the web address for the Hosted Payment Pages is displayed. Full-page redirect supports over 60 payment methods.
+        
+2.  **iframe or lightbox**
+        
+    The Hosted Payment Pages are displayed in an iframe or lightbox within your website. When you redirect your customers to our payment pages, the web address for your website remains unchanged, providing a more seamless shopping experience. An iframe or lightbox integration requires a more advanced integration.
+
+
+### HPP in an iFrame
+
+Although possible, using **iFrames** can introduce known usability, security and cross-domain browser issues.
+
+Keep the following in mind:
+
+-   Some redirect payment methods, such as iDEAL, do not allow displaying their pages in an iFrame; they will break out of it. Other redirect payment methods may require more available screen space than your iFrame allows. You should also be prepared to handle the difference in behaviour for the payment callback URL, as once the payment completes you may not be in an iFrame anymore.
+-   Another problem you may face is the browser's cookie policy. The HPP solution requires cookies. Using an iFrame means that the browser may impose restrictions regarding the conditions in which cookies are allowed to be set within the iFrame. While there are workarounds to get the browser to accept cookies in a default configuration, the shopper may have configured a more restrictive policy. The most common problem is with Apple Safari and Google Chrome browsers: by default, they require user-initiated page loading inside an iFrame. This means that first the iFrame needs to be loaded with a page hosted at the parent domain. Secondly, on this page the user needs to actively click on a button submitting the redirect to the HPP.
+
+PayCore.io cannot guarantee that all payment methods will work when using an iFrame, nor that the behaviour of a payment method will remain the same. Furthermore, the exact operation of a redirect payment method can differ between the test and the live environments.
+
+### Bypass mode
+
+
+## Handling events
+
+## Actions
+
+## Methods filter
+
+### Categorization
+
+### Geo-location
+
+## Test mode
+
+## Sandbox test environment
+
+You can test your technical integration in Sandbox, our secure-test environment. Sandbox supports the testing of both card and alternative payment methods. The Sandbox test environment simulates a production experience but in a shielded secure-test environment.
+
+## Currency conversion
+
+When currency conversion is needed, we notify your customers during the payment process and let them know what their options are.
+
+## Failover
+
+## Localization
+
+PayCore.io supports locales across the following languages in multiple regions around the world:
+
+-   English (en_*)
+-   Ukraininan (uk_*)
+-   Russian (ru_*)
+
+## Full-cycle payment flow
+
+### Payment methods storefront
+
+### Status page
+
+## Any payment flow support
+
+## Any currency support
+
+## UI Features
+
+### Responsivnes
+
+The Hosted Payment Pages automatically adapt to the size and orientation of a wide range of devices including smartphones, tablets and desktops. You don't have to integrate for different devices. We've got it covered.
+
+HPP is optimized for mobile devices. Supports displaying all relevant payment methods as well as one specific payment method.
+
+### Steps support
+
+### Zero-fee badge support
+
+### Fast-pay support
+
+### Merchant details
+
+Logo, Name, Description, URL
+
+### Lifetime countdown
+
+### Methods categorization
+
+### Payment method availability by geolocation
+
+Some payment methods are not available in all countries. For example, iDEAL is only offered if the shopper is from The Netherlands.
+
+Filter by geolocation ensures that the shopper only sees the payment methods that are relevant for their country.
+
+The list of countries where a payment method is offered is also available in the payment methods list in the Dashboard interface, near the **Countries** field.
+
+The list of payment methods may differ in the test and live environments. All payment methods are not automatically configured for the LIVE environment.
+
+### Method searching
+
+### Process failover
+
+### Error handling
+
+### Unified payment flow page
+
+### Automatic card recognition
+
+As your customer enters their card details, we automatically detect:
+
+-   Card type. For example Visa or American Express.
+-   Card authentication scheme. For example Verified by Visa or Amex SafeKey.
 
 ## Integration type
 
@@ -32,27 +211,6 @@ In the full-page integration we use an iframe to display 3D Secure. All other Ho
 
 [JavaScript SDK](#)  is right for you if you want a more advanced integration with card payments only:
 
--   **In the iframe setup**  all Hosted Payment Page content, including 3D Secure content, is displayed in an iframe within your website.
-    
--   **In the lightbox setup**  we use an iframe to display 3D Secure within the lightbox. All other Hosted Payment Page content is displayed in the lightbox.
-
-## Using metadata
-
-In the example above we suppose you will store the  `reference_id`  that’s unique to the payment in your order table. This way your website is able to look-up the order for this payment when the webhook is triggered by PayCore.io. Your website is keeping track of the payment, effectively bringing about the connection between order and payment. This approach is easiest to grasp, which is why we use it in our example.
-
-Alternatively you could ask PayCore.io to remember the unique identifier of your order by instructing the PayCore.io API to store it in the payment’s  `metadata`. You would provide it while creating the payment. In our example  `order_id` would be a good candidate. PayCore.io stores the metadata for you, when you fetch the payment during processing the webhook the metadata is included in the response. This is another way to connect orders and payments. We advise to use the  `metadata`  approach. This is the most popular approach and it’s easiest to implement.
-
-
-## HPP in an iFrame
-
-Although possible, using **iFrames** can introduce known usability, security and cross-domain browser issues.
-
-Keep the following in mind:
-
--   Some redirect payment methods, such as iDEAL, do not allow displaying their pages in an iFrame; they will break out of it. Other redirect payment methods may require more available screen space than your iFrame allows. You should also be prepared to handle the difference in behaviour for the payment callback URL, as once the payment completes you may not be in an iFrame anymore.
--   Another problem you may face is the browser's cookie policy. The HPP solution requires cookies. Using an iFrame means that the browser may impose restrictions regarding the conditions in which cookies are allowed to be set within the iFrame. While there are workarounds to get the browser to accept cookies in a default configuration, the shopper may have configured a more restrictive policy. The most common problem is with Apple Safari and Google Chrome browsers: by default, they require user-initiated page loading inside an iFrame. This means that first the iFrame needs to be loaded with a page hosted at the parent domain. Secondly, on this page the user needs to actively click on a button submitting the redirect to the HPP.
-
-PayCore.io cannot guarantee that all payment methods will work when using an iFrame, nor that the behaviour of a payment method will remain the same. Furthermore, the exact operation of a redirect payment method can differ between the test and the live environments.
 
 ## Customer details
 
@@ -66,98 +224,13 @@ It includes  `customer[email]`, which we can use to send an email to the shopper
 
 For some payment requests, you may decide to filter the payment methods that are displayed on the HPP or bypass the HPP entirely.
 
--   The `options[show_services]`  field is used to display specific payment services.
+-   The  `options[show_services]`  field is used to display specific payment services.
 -   The  `options[hide_services]`  field is used to prevent specific payment services from being displayed.
 -   The  `service`  and the `service_fields` fields are used to take the customer directly to a specific payment service gateway. Example: `service: paypal_usd_hpp`.
 
 All the payment services that are configured for your account, including the value you use to indicate the specific payment method, are available in the Dashboard interface under **Commerce Account Settings > Payment Methods > Name**.  
 
-## 
-Allows you to deep-link to specific payment methods that you can plug one by one into your system.
 
-## Mobile First
-
-This widget is optimized for mobile devices. Supports displaying all relevant payment methods as well as one specific payment method.
-
-
-### Payment method availability by geolocation
-
-Some payment methods are not available in all countries. For example, iDEAL is only offered if the shopper is from The Netherlands.
-
-If the payment method selection is done on your web site, and the `allowedMethods` parameter contains a value for a payment method that is not available in all countries, we advise that you set the `countryCode` parameter as well. This ensures that the shopper only sees the payment methods that are relevant for their country.
-
-For example, if you set `allowedMethods` to `ideal`, you need to set `countryCode` to `NL` to ensure that the iDEAL payment method is displayed.  
-The list of countries where a payment method is offered is also available in the payment methods list in the CA interface, under the **Available Countries** column.
-
-The list of payment methods may differ in the test and live environments. All payment methods are not automatically configured for the LIVE environment.
-
-## Use cases
-
-A shopper makes an order for a total amount payable of GBP 100. The order reference in your backoffice is Internet order 12345.
-
-The order details are:
-
--   Goods shipping date to the shopper: before or not later than October 20th, 2016.
--   Order summary information to display on the payment review page for the order: _1 digital camera_.
--   The merchant account you are using is _TestMerchant_.
--   The order was placed before or on October 11th 2016, 10:30 am.
--   You want the payment offer to expire on October 11th 2016, 11:00 am.
-
-This example represents a complete payment session, based on the order details above.
-
-!!! example "Simple redirect example"
-    ```html
-    <form action="https://com.paycore.io/hpp/" method="get">
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
-
-!!! example "Any amount pay button"
-    ```html hl_lines="7"
-    <form action="https://com.paycore.io/hpp/" method="get">
-        <!-- This public key of TestMerchant -->
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        Amount: <input type="text" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
-
-!!! example "Payment form with additional fields"
-    ```html hl_lines="7 8"
-    <form action="https://com.paycore.io/hpp/" method="get">
-        <!-- This public key of TestMerchant -->
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        <input type="hidden" name="metadata[key1]" value="SomeValue1" />
-        <input type="hidden" name="metadata[key2]" value="SomeValue2" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
-
-!!! example "The form of payment embed into iFrame"
-    ```html hl_lines="1 10"
-    <form action="https://com.paycore.io/hpp/" method="get" target="pay_frame">
-        <!-- This public key of TestMerchant -->
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    <iframe name="pay_frame" src="" id="pay_frame" width="XX" height="YY"></iframe>     
-    ```
 
 ## Callback handling
 
@@ -199,88 +272,6 @@ With the Return Method set to Direct Return, sale parameters will be posted auto
 #### Header Redirect
 
 With the Return Method set to Header Redirect the buyer will be immediately returned to your approved URL. Using this method, the sale parameters will be returned along with the buyer using the GET method.
-
-#### Additional Information
-
-If you are returning the buyer to a script on your end it is important to note that parameter information will typically be returned by POST. Parameters however will be returned by GET if the Header Redirect method is used.
-
-_**Please Note:**  You must also have a script set up as the return URL if you wish to receive the pass back information. If your return URL ends in any of the following extensions, then pass back will NOT occur, but the buyer will still be returned there : .htm, .html, .com, .zip, .pdf, .rar, .doc_
-
-If you have problems with the return process you’re welcome to contact us at  [techsupport@2checkout.com](mailto:techsupport@2checkout.com)  to assist with troubleshooting the issue.
-
-_**Please Note:**  If you do not specify an approved URL at the account level, product level, or with the x_receipt_link_url parameter the buyer will remain on the 2Checkout Order Processed page upon completion of the order._
-
-## Idempotency
-
-Idempotency prevents the processing of duplicate payment requests by using unique keys set in `reference_id` property.
-
-Each `reference_id` must be a _Unique Identifier_, and you must manage the generation of your own keys to ensure that duplicates are not generated accidentally. Duplicate keys are only detected when provided by the same Commerce Account, so only submissions you provide can throw a duplicate error.
-
-UUIDs are very large (128-bit) numbers. To avoid the "accidental" creation of duplicate keys, we recommend using a randomly generated UUID for your `reference_id`. This is especially important when generating `reference_id` for different payment requests.
-
-
-## Locales Supported
-
-PayCore.io supports locales across the following languages in multiple regions around the world:
-
--   English (en_*)
--   Ukraininan (uk_*)
--   Russian (ru_*)
-
-Here is the complete list of supported locales, accompanied by their unique input values if you would like to pass a customer's locale to PayCore.io via the[API](/integration/) .
-
-| Input Value | Locale                       |
-|-------------|------------------------------|
-| en          | English                      |
-| en_AU       | English (Australia)          |
-| en_CA       | English (Canada)             |
-| en_IN       | English (India)              |
-| en_IE       | English (Ireland)            |
-| en_MT       | English (Malta)              |
-| en_NZ       | English (New Zealand)        |
-| en_PH       | English (Philippines)        |
-| en_SG       | English (Singapore)          |
-| en_ZA       | English (South Africa)       |
-| en_GB       | English (United Kingdom)     |
-| en_US       | English (United States)      |
-| uk_RU       | Ukrainian (Russia            |
-| uk_UA       | Ukrainian (Ukraine)          |
-| ru_RU       | Russian (Russia)             |
-| ru_UA       | Russian (Ukrainin)           |
-| ru_BY       | Russian (Belarus)            |
-
-
-## Metadata
-
-If you want to store additional/custom data at a resource's level, you can make use of PayCore.io's Metadata.
-
-For example, if you're a data service provider and want to store certain features of a particular plan, say "Usage Limit", "Speed within limit", etc., you can store it in the Metadata of the Plan.
-
-Metadata can be passed during the Add/Update operations, for the following entities:
-
--   **Customers**
--   **Payment Invoice**
--   **Payout Invoice**
-
-Metadata can be stored only in the JSON format. You can use nested JSON objects as well.
-
-Considering the same example as above, if you want to store the additional features of a particular data plan here's what the JSON will look like:
-
-```json
-{  
-    "features": {
-        "usage-limit":"5GB",
-        "speed-within-quota":"2MBbps",
-        "post-usage-quota":"512kbps"
-    }
-}
-
-```
-
-!!! note
-    -   Metadata is completely for your reference and will not be visible to customers. If you'd like to include fields in the hosted pages, invoices and customer portal, other than the default fields, use  [Custom Fields](https://www.chargebee.com/docs/custom_fields.html).
-    -   Metadata will not be a filter criteria, or a part of the exports. For this purpose, use Custom Fields if necessary.
-    -   **Copy Configurations**  option in your PayCore.io TEST site does not copy the Metadata saved in your TEST site to your LIVE site
 
 
 ## Redirecting customers to Quick Checkout
@@ -351,13 +342,7 @@ Please review the table below for details of the required and optional parameter
 |---|---|---|
 | |||
 
-### Language Encoding for Text Parameters
 
-All text fields use UTF-8 encoding. Note however that the Quick Checkout payment form can only display Latin-1 characters
-
-## Callback
-
-When the payment process is complete Skrill sends the details of the transaction to the status_url page you provided in your payment request (see Table 2-1 on page 2-5). This is done with a standard HTTP POST. The Skrill server continues to post the status until a response of HTTP OK (200) is received from your server or the number of posts exceeds 10. The table below shows the parameters sent to your status_url page
 
 
 ### Auto return the buyer to your website

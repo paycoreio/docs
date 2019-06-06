@@ -6,6 +6,9 @@ Our HPP reference is here to help you find those hard-to-find bits of informatio
 
 This is a complete list of HPP configuration options.
 
+!!! note "Language Encoding for Text Parameters"
+    All text fields use UTF-8 encoding.
+
 ### Basic (required)
 
 |Key           |Type                   |Description                                                                                      |
@@ -34,10 +37,10 @@ Set in `customer` key a customer object with following optional properties:
 
 #### Predefined payment service
 
-|Key             |Type                 |Description                     |
-|----------------|---------------------|--------------------------------|
-|`service`       |`(string) ServiceCode`|Service you want to autoprocess.|
-|`service_fields`|`(object) string[key:value]`   |Fields of selected service.     |
+|Key             |Type                        |Description                     |
+|----------------|----------------------------|--------------------------------|
+|`service`       |`(string) ServiceCode`      |Service you want to autoprocess.|
+|`service_fields`|`(object) string[key:value]`|Fields of selected service.     |
 
 
 ### Customization
