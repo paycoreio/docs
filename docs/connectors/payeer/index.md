@@ -82,7 +82,7 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
         !!! info
             Copy this parameter, whereas **this will be unavailable** henceforth!
 
-    - IP: Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+    - IP: Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
     
         !!! tip
             IP list should contains IP adresses separated with **`;`**.

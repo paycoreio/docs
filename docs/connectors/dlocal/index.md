@@ -48,7 +48,7 @@ Here You can find  instructions for setting up **dLocal**  account.
 
 #### Step 5: Set up required parameters
 
-- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
     
 ![IPs](images/dLocal__ips.png)
 
