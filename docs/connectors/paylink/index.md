@@ -61,7 +61,7 @@ Connect **PayLink** **`Provider account`** to make payouts.
 
 ## Payments
 
-Connect **PayLink** **`H2H merchant account`** to make payouts.
+Connect **PayLink** **`H2H merchant account`** to make payments.
 
 ### Setup account
 

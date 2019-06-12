@@ -16,7 +16,7 @@ Here You can find  instructions for setting up [**Interkassa** account](https://
 
 - Go to the API section
 - Set up parameters:
-    -  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+    -  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
     -  "Turn ON" API
 
 ![Step 1](images/interkassa-step1_1.png)

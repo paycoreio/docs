@@ -29,7 +29,7 @@ Here You can find  instructions for setting up [**AdvCash** account](https://wal
 #### Step 2: Set up the following parameters
 
 - API Name
-- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)
+- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
 - API Password
 - Set all checkboxes
     -  Accounts Verification
