@@ -22,7 +22,7 @@ Here You can find  instructions for setting up [**CoingGate** account](https://c
 #### Step 3: Set up parameters
 
 -  Title
--  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/ips/#white-list-ip-addresses)   
+-  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)   
 -  Integration URL or Description  as ```https://paycore.io/```
 
 ![Step 3](images/coingate-step3.png)
