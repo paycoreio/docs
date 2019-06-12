@@ -164,10 +164,10 @@ nav:
     - FX Rates:
         - Overview: products/fx-rates/index.md
         - How To: products/fx-rates/how-to.md
-    - Ledger: 
-        - Overview: products/ledger/index.md        
-    - Batch Payouts: 
-        - Overview: products/batch-payouts/index.md
+    #- Ledger: 
+    #    - Overview: products/ledger/index.md        
+    #- Batch Payouts: 
+    #    - Overview: products/batch-payouts/index.md
     - Merchant Portal:
         - Overview: products/merchant-portal/index.md
     - Analytics:
