@@ -148,15 +148,16 @@ nav:
     #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
         - Introduction: products/hpp/index.md
-        #- Quickstart: products/hpp/quickstart.md
+        - Quickstart: products/hpp/quickstart.md
         - Guide:
-            - Overview:  products/hpp/guide/index.md
-            - Integration Overview: products/hpp/guide/integration-overview.md
-            - Integration Methods: products/hpp/guide/integration-methods.md
-            #- Features: products/hpp/guide/features.md
-            #- Customization: products/hpp/guide/customization.md
-            - Full Reference: products/hpp/guide/reference.md
-            - Troubleshoot: products/hpp/guide/troubleshoot.md
+            - Overview:  products/hpp/index.md
+            - Quickstart: products/hpp/quick-start.md
+            - Integration Overview: products/hpp/integration-overview.md
+            - Integration Methods: products/hpp/integration-methods.md
+            #- Features: products/hpp/features.md
+            #- Customization: products/hpp/customization.md
+            - Full Reference: products/hpp/reference.md
+            - Troubleshoot: products/hpp/troubleshoot.md
         #- Sandbox: products/hpp/sandbox.md
         - Pages & Samples: products/hpp/samples.md
         #- Self-hosted payment page: products/hpp/self-hpp.md
@@ -164,12 +165,12 @@ nav:
     - FX Rates:
         - Overview: products/fx-rates/index.md
         - How To: products/fx-rates/how-to.md
-    - Ledger: 
-        - Overview: products/ledger/index.md        
-    - Batch Payouts: 
-        - Overview: products/batch-payouts/index.md
-    - Merchant Portal:
-        - Overview: products/merchant-portal/index.md
+    #- Ledger: 
+    #    - Overview: products/ledger/index.md        
+    #- Batch Payouts: 
+    #    - Overview: products/batch-payouts/index.md
+    #- Merchant Portal:
+    #    - Overview: products/merchant-portal/index.md
     - Analytics:
         - Overview: products/analytics/index.md
         - Getting Started: products/analytics/getting-started.md
