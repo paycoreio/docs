@@ -1,3 +1,0 @@
-# Going Live
-
->   Soon...
