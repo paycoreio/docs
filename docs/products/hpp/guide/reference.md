@@ -2,10 +2,6 @@
 
 Our HPP reference is here to help you find those hard-to-find bits of information all in one place. Use the navigation on the right to find your way around the page.
 
-<figure class="hpp_container">
-  <iframe  height="600px" width="375px" src="https://com-dev.paycore.io/hpp/methods?amount=100&currency=UAH&public_key=pk_test_yNznq07p7MChOL8shs7WT3Yat6ZnlqyXq8ep6WKF998&service=&service_fields=&cpi=&description=" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
 ## Configuration options
 
 This is a complete list of HPP configuration options.
@@ -27,10 +23,11 @@ You can only create payments in currencies that have been enabled for your Comme
 Optional values allow the user to more flexibly configure the HPP and add more information about payment invoice.
 For example, specify the validity period of payment invoice.
 
-| Key           | Type     | Description                              |
-| ------------- | -------- | ---------------------------------------- |
-| `description` | `string` | Description of the payment invoice.      |
-| `expired`     | `number` | UNIX timestamp / DateTime ( 1559665584 ) |
+| Key           | Type     | Description                                                                                                                        |
+| ------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `description` | `string` | Description of the payment invoice.                                                                                                |
+| `expired`     | `number` | UNIX timestamp / DateTime ( 1559665584 )                                                                                           |
+| `BASE_URL`    | `string` | The link on which your HPP is located. Is necessary in case of placing HPP on your own domain (for example CustomPaymentPage.сom). |
 
 ### Metadata
 
@@ -56,6 +53,8 @@ Considering the same example as above, if you want to store the additional featu
 }
 ```
 
+!!! note - Metadata is completely for your reference and will not be visible to customers. - Metadata will not be a filter criteria, or a part of the exports.
+
 ### Localization
 
 | Key        | Type     | Description                                                                                                                          |
@@ -72,14 +71,8 @@ User can define label of payment button, inside <b>style</b> object.
 
 ##### Example
 
-```bash tab="HTML form"
-#!/bin/bash
-
-echo "Hello world!"
-```
-
 ```javascript tab="Javascript"
-PCWidget.init({
+payment_widget.init({
   public_key: "YOUR_COMMERCE_ACCOUNT_PUBLIC_KEY",
   amount: "100.00",
   currency: "USD",
@@ -87,21 +80,6 @@ PCWidget.init({
     pay_button_label: "pay",
   },
 });
-```
-
-![alt text](../images/button_label_demo.png)
-
-## Examples
-
-### Initialize iframe with post form on your page.
-
-```html
-
-```
-
-### Initialize iframe on client side with configurations
-
-```javascript
 ```
 
 ### Auto process
@@ -112,7 +90,8 @@ PCWidget.init({
 | --------- | -------- | -------------------------------------------------------------- |
 | `service` | `string` | The code of service, for example: service : "bitcoin_btc_hpp:" |
 
-You can watch all enable services in sandbox. Also in dashboard user can configure payment link or code snippet to execute on client page .
+You can check all enable services in sandbox.
+Also, the user can configure payment link or code snippet to execute on the client page.
 
 ![alt text](../images/sandbox_service_demo.png)
 
@@ -171,58 +150,31 @@ Use the tabs below to view an example of styling, and a reference of selectors t
 
 > Soon...
 
-!!! note - Metadata is completely for your reference and will not be visible to customers. - Metadata will not be a filter criteria, or a part of the exports.
-
 ## Handlers
 
 HPP dispatches events which can be handled for various purposes. The table below provides the full list of events that you can attach one or more handlers to.
 
-!!! note
-Event constants on the JavaScript API are accessible via `HPP.Events`.
-
-### Basic events
-
-### Widget events
-
-| Event                    | JavaScript constant        | When                                                                                                                                                                                                    |
-| ------------------------ | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ready`                  | `READY`                    | Triggered when HPP is registered on the global namespace and safe to use.                                                                                                                               |
-| `frameActivated`         | `FRAME_ACTIVATED`          | Triggered when the form is rendered.                                                                                                                                                                    |
-| `cardValidationChanged`  | `CARD_VALIDATION_CHANGED`  | Triggered when the state of the card form validation changes. This will return: `isValid: true / false`                                                                                                 |
-| `cardSubmitted`          | `CARD_SUBMITTED`           | Triggered when the card form has been submitted.                                                                                                                                                        |
-| `cardTokenised`          | `CARD_TOKENISED`           | Triggered after a card is tokenized. Returns an object containing the card token and card information such as payment methods, expiration date, the first 6 (bin) and last 4 digits of the credit card. |
-| `cardTokenisationFailed` | `CARD_TOKENISATION_FAILED` | Triggered if card tokenization fails.                                                                                                                                                                   |
-
 ### Adding an event handler
 
-There are two ways to add an event handler: the standard approach or configuration options.
+If you don't use our payment_widget.js, and want just insert our HPP on your page by link with alredy configured link. You can listen iframe events.
 
-- Method 1: The standard approach
-  ```
-  Checkout.addEventHandler(Checkout.Events.<EVENT_CONSTANT>, handler, options);
-  ```
-- Method 2: Configuration options
-  ```
-  HPP.init({
-    publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
-    <eventName>: handler
-  });
-  ```
+#### HPP events
 
-## Widget
+HPP emits next list of events, you can subscribe on your side.
 
-### Actions
+| Method          | Description                |
+| --------------- | -------------------------- |
+| `close(object)` | On "return to shop button" |
 
-| Method         | Description                  |
-| -------------- | ---------------------------- |
-| `init(object)` | Initializes widget with HPP. |
+```Javascript
+window.addEventListener("ONE_OF_HPP_EVENTS", callback, false);
+```
+
+[Get more in documentation](https://developer.mozilla.org/ru/docs/Web/API/Window/postMessage)
 
 ### Getters / Setters
 
-| Method                                  | Description                                 |
-| --------------------------------------- | ------------------------------------------- |
-| `getPublicKey()`, `setPublicKey(value)` | Your public key — find it in the Dashboard. |
-| `getVersion()`                          | Returns the Widget version.                 |
+> Soon...
 
 ## Can we help?
 
