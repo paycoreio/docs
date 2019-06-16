@@ -148,20 +148,17 @@ nav:
     #- Batch Payouts: products/batch-payouts/index.md
     - HPP:
         - Introduction: products/hpp/index.md
+        #- Features: products/hpp/features.md
         - Quickstart: products/hpp/quickstart.md
-        - Guide:
-            - Overview:  products/hpp/index.md
-            - Quickstart: products/hpp/quick-start.md
-            - Integration Overview: products/hpp/integration-overview.md
-            - Integration Methods: products/hpp/integration-methods.md
-            #- Features: products/hpp/features.md
-            #- Customization: products/hpp/customization.md
-            - Full Reference: products/hpp/reference.md
-            - Troubleshoot: products/hpp/troubleshoot.md
-        #- Sandbox: products/hpp/sandbox.md
         - Pages & Samples: products/hpp/samples.md
-        #- Self-hosted payment page: products/hpp/self-hpp.md
+        - Integration Overview: products/hpp/integration-overview.md
+        #- Integration Methods: products/hpp/integration-methods.md
+        #- Customization: products/hpp/customization.md
+        - Full Reference: products/hpp/reference.md
+        - Troubleshoot: products/hpp/troubleshoot.md
+        #- Sandbox: products/hpp/sandbox.md
         #- FAQ: products/hpp/faq.md
+        #- Self-hosted payment page: products/hpp/self-hpp.md
     - FX Rates:
         - Overview: products/fx-rates/index.md
         - How To: products/fx-rates/how-to.md
@@ -178,9 +175,6 @@ nav:
         - Managing Dashboards: products/analytics/managing-dashboards.md
         - Managing Alerts: products/analytics/managing-alerts.md
         - Visualizations: products/analytics/visualizations.md
-        #- Queries: products/analytics/queries.md
-        #- Dashboards: products/analytics/dashboards.md
-        #- Alerts: products/analytics/alerts.md
         - FAQ: products/analytics/faq.md
 - Integration: 
     - Integrate with PayCore.io: integration/index.md

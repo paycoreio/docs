@@ -16,4 +16,4 @@ Welcome to PayCore.io! Get familiar with the PayCore.io products and explore the
 | [Ledger](/products/ledger/)                   | Automated treasury accounting.                                                                                   |
 | [Analytics](/products/analytics/)             | Data analytics & real-time metrics.                                                                              |
 | [Card Processing](#)                          | Payment card processing.                                                                                         |
-| [Merchant Back-office](#)                     | White-label merchant back-office web application for PSPs.                                                       |
+| [Merchant Portal](#)                          | White-label merchant back-office web application for PSPs.                                                       |

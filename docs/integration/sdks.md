@@ -17,9 +17,9 @@ If you have programmed your own library, simply let us know by writing us at <su
 
 ## Payment widget
 
-Payment.widget.js is our simplest integration method and requires little technical know-how. It's a payment lightbox that you can easily add to your website.
+Payment Widget is our simplest integration method and requires little technical know-how. It's a payment lightbox that you can easily add to your website.
   
-[Learn more -->](/products/payment-widget/)
+[Learn more -->](/products/hpp/)
 
 ## Postman Collections
 
