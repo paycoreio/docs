@@ -8,11 +8,11 @@ This page will take you through the  _Hosted Payment Page API_  and explain how 
 
 **Commerce’s Hosted Payment Page**  (_HPP_) requires that you integrate different server-side REST APIs from the PayCore.io environment and thus requires no client-side integration. The different APIs correspond to different PayCore.io products and have some defined objects that interact with each other.
 
-![HPP Preview](../images/hpp-ecosystem.png)
+![HPP Preview](images/hpp-ecosystem.png)
 
 ### Interaction overview
 
-![HPP Integration](../images/hpp-integration.png)
+![HPP Integration](images/hpp-integration.png)
 
 ## Actors
 

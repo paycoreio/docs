@@ -8,7 +8,7 @@ PayCore.io Commerce HPP is a secure hosted payment page, where you can redirect 
 
 A simplified illustration of the PayCore.io HPP payment flow is shown in the figure below.
 
-![HPP Interaction](../images/hpp-interaction.png)
+![HPP Interaction](images/hpp-interaction.png)
 
 1.  A customer on your website decides to checkout.
 2.  Your website redirects the customer to the Hosted Payment Page on the PayCore.io platform by submitting HTML form or calling the Private API with Payment Invoice data the amount, a payment description, a callback URL, and a Return URL we should redirect the customer to after the payment is made.

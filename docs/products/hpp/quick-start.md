@@ -151,7 +151,7 @@ window.payment_widget.init({
 });
 ```
 
-![alt text](../images/methods_list.png)
+![alt text](images/methods_list.png)
 
 ### With a predefined service
 
@@ -176,7 +176,7 @@ window.payment_widget.init({
 });
 ```
 
-![alt text](../images/sandbox_service_demo.png)
+![alt text](images/sandbox_service_demo.png)
 
 #### Service with fields
 
@@ -202,7 +202,7 @@ window.payment_widget.init({
 });
 ```
 
-![alt text](../images/service_with_fields.png)
+![alt text](images/service_with_fields.png)
 
 #### By payment invoice id
 
@@ -212,9 +212,9 @@ In the list of transactions on your commercial account, you can find a list of p
 
 If the service is already in its final status, the user will see its status page.
 
-![Payment invoice id](../images/payment_invoice_ID.png)
+![Payment invoice id](images/payment_invoice_ID.png)
 
-![Payment detedect ](../images/finalStatus.png)
+![Payment detedect ](images/finalStatus.png)
 
 If the service needs additional actions, such as entering payment data on the PSP side - the user will be directed to the external service.
 
