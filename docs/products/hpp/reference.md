@@ -17,8 +17,8 @@ All following fields are required:
 |--------------|-----------------------|-------------------------------------------------------------------------------------------------|
 |`public_key`  |`string`               |Public key of your commerce account — find it in the  [Dashboard](https://dashboard.paycore.io/).|
 |`reference_id`|`string`               |Unique reference id of payment invoice.                                                          |
-|`amount`      |`float`                |Amount of payment invoice.                                                                       |
-|`currency`    |`(string) CurrencyCode`|Currency of payment invoice.                                                                     |
+|`amount`      |`float`                |The payment invoice amount.                                                                      |
+|`currency`    |`(string) CurrencyCode`|The payment invoice currency (three-letter ISO 4217 code).                                       |
 
 !!! note
     You can only create payments in currencies that have been enabled for your Commerce account. Please contact your account Administrator if you need to process in additional currencies.
@@ -33,6 +33,15 @@ For example, specify the validity period of payment invoice.
 |`description`|`string`|Description of the payment invoice.   |
 |`expires`    |`int`   |UNIX timestamp / DateTime (1559665584)|
 
+### Options
+
+Set in `options` key a options object with following optional properties: 
+
+|Key         |Type    |Description                                                   |
+|------------|--------|--------------------------------------------------------------|
+|`return_url`|`string`|The customer's redirect URL at the end of the payment process.|
+
+
 ### Customer details
 
 Set in `customer` key a customer object with following optional properties: 
@@ -43,6 +52,34 @@ Set in `customer` key a customer object with following optional properties:
 |`email`       |`string`          |The customer's email address.      |
 |`name`        |`string`          |The customer's name.               |
 |`metadata`    |`array[key:value]`|The customer's metadata.           |
+
+??? example "Payment invoice with customer details"
+    ```html tab="Payment Link" hl_lines="7 8"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="pk_live_{your_key}"/>
+        <input type="hidden" name="reference_id" value="12345" />
+        <input type="hidden" name="currency" value="GBP" />
+        <input type="hidden" name="description" value="Test payment" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="customer[reference_id]" value="43263456" />
+        <input type="hidden" name="customer[email]" value="john@email.com" />
+        <input type="submit" value="Pay!" />
+    </form>
+    ```
+
+    ```javascript tab="Payment Widget" hl_lines="8 9"
+    window.payment_widget.init({
+        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
+        public_key: "pk_live_{your_key}",
+        amount: "100",
+        currency: "GBP",
+        description: "Test payment",
+        customer: {
+            reference_id: "43263456",
+            email: "john@email.com"
+        }
+    });
+    ```
 
 
 ### Auto process
@@ -158,67 +195,113 @@ Considering the same example as above, if you want to store the additional featu
 
 ## Payment Widget
 
-### Configuration
+### Library
 
-| Key           | Type     | Description                                                                                                                        |
-| ------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `BASE_URL`    | `string` | The link on which your HPP is located. Is necessary in case of placing HPP on your own domain (for example CustomPaymentPage.сom). |
+The fastest and easiest way to use our HPP is to use `payment_widget.js`.
 
-### Handlers
+To integrate the widget into your website, you can download it from the CDN or integrate the library into your javascript build.
 
-HPP dispatches events which can be handled for various purposes. The table below provides the full list of events that you can attach one or more handlers to.
-
-!!! note
-    Event constants on the JavaScript API are accessible via `HPP.Events`.
-    You can listen iframe events if you don't use our Payment Widget (JS).
-
-#### Basic events
-
-#### Widget events
-
-HPP emits next list of events, you can subscribe on your side.
-
-| Method          | Description                |
-| --------------- | -------------------------- |
-| `close(object)` | On "return to shop button" |
-
-| Event | JavaScript constant | When |
-|---|---|---|
-| `ready` | `READY` | Triggered when HPP is registered on the global namespace and safe to use.|
-| `frameActivated` | `FRAME_ACTIVATED` | Triggered when the form is rendered.|
-| `cardValidationChanged` | `CARD_VALIDATION_CHANGED` | Triggered when the state of the card form validation changes. This will return: `isValid: true / false` |
-| `cardSubmitted` | `CARD_SUBMITTED` | Triggered when the card form has been submitted.|
-| `cardTokenised` | `CARD_TOKENISED` | Triggered after a card is tokenized. Returns an object containing the card token and card information such as payment methods, expiration date, the first 6 (bin) and last 4 digits of the credit card. |
-| `cardTokenisationFailed` | `CARD_TOKENISATION_FAILED` | Triggered if card tokenization fails. |
-
-
-```Javascript
-window.addEventListener("ONE_OF_HPP_EVENTS", callback, false);
+```html tab="CDN"
+<script src="https://unpkg.com/@paycore/payment-widget-js@0.1.91/dist/paymentWidget.umd.min.js"></script>
 ```
 
-[Get more in documentation](https://developer.mozilla.org/ru/docs/Web/API/Window/postMessage)
+```html tab="JS package"
+> Soon...
+```
 
-#### Adding an event handler
+!!! note "Sandbox mode"
+    When you're processing live payments, replace  `<script async src="https://cdn.paycore.io/sandbox/js/checkout.js"></script>`  with  `<script async src="https://cdn.paycore.io/js/checkout.js"></script>`.
 
-There are two ways to add an event handler: the standard approach or configuration options.
+### Initialization
 
--   Method 1: The standard approach  
-    ```
-    Checkout.addEventHandler(Checkout.Events.<EVENT_CONSTANT>, handler, options);
-    ```
--   Method 2: Configuration options
-    ```
-    HPP.init({
-      publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
-      <eventName>: handler
+We offer three ways to integrate `payment-widget.js` into your website, so you can pick the one that best fits your requirements:
+
+1. `window.HPPConfig`
+
+    Our recommended option, which allows you to run `payment-widget.js` synchronously or asynchronously. This simple integration method provides a widget displaying accepted payment icons alongside a  **Pay Now**  button that triggers the payment form.
+
+2. `HPP.configure()`
+
+    Gives you more control over how and when the  **Pay Now**  button and payment lightbox appear. We offer two variants:
+
+    -   Variant A, which opens the payment lightbox instantly, without the use of a  **Pay Now**  button.
+    -   Variant B, which uses a custom  **Pay Now**  button to launch the payment lightbox.
+
+    Checkout.js can only be run synchronously with this method.
+
+3. `HPP.render()`
+
+    Renders the payment widget automatically onto your page, displaying the accepted payment icons, the  **Pay Now**  button, and the lightbox payment form. Checkout.render() offers an asynchronous payment process. This means that it can take several days to confirm the success or failure of a payment.|
+
+After you have specified all the required fields and customized your HTP, you will see a list of payment methods.
+
+```javascript
+window.payment_widget.init({
+    selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
+    flow: "iframe",
+    public_key: "YOUR_PUBLIC_KEY",
+    amount: "AMOUNT_OF_INVOICE",
+    currency: "USD",
+    baseUrl: "URL_OF_YOUR_HPP",
+});
+```
+
+### Configuration
+
+|Key       |Type    |Description                                                                                                                               |
+|----------|--------|------------------------------------------------------------------------------------------------------------------------------------------|
+|`BASE_URL`|`string`|The link on which your HPP is located. Is necessary in case of placing HPP on your own domain (for example CustomPaymentPage.сom).        |
+|`selector`|`string`|ID of DOM element you want HPP to insert into.                                                                                            |
+|`frame_id`|`string`|Identifier of the frame that will be inserted Default "payment_widget"                                                                    |
+|`flow`    |`string`|User can insert HPP inside iframe on page, or open HPP in new tab in browser <ul><li>iframe</li><li>redirect</li></ul> Default : 'iframe'.|
+
+??? example
+
+    ```javascript hl_lines="2 3 4"
+    window.payment_widget.init({
+        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
+        flow: "iframe",
+        baseUrl: "URL_OF_YOUR_HPP",
+        public_key: "YOUR_PUBLIC_KEY",
+        amount: "AMOUNT_OF_INVOICE",
+        currency: "USD",
     });
     ```
 
+
 ### Actions
 
-|Method        |Description                 |
-|--------------|----------------------------|
-|`init(object)`|Initializes widget with HPP.|
+|Method          |Description                                           |
+|----------------|------------------------------------------------------|
+|`init(object)`  |Accepts configuration and initializes widget with HPP.|
+|`reinit(object)`|Accepts configuration and reinitializes widget.       |
+|`close(object)` |Accepts configuration and closes widget.              |
+
+**Examples:**
+
+```javascript tab="init()"
+payment_widget.init({
+  public_key: "YOUR_COMMERCE_ACCOUNT_PUBLIC_KEY",
+  amount: "100.00",
+  currency: "USD",
+  flow: "iframe",
+});
+```
+
+```javascript tab="reinit()"
+payment_widget.reinit({
+  public_key: "YOUR_COMMERCE_ACCOUNT_PUBLIC_KEY",
+  amount: "100.00",
+  currency: "USD",
+  flow: "iframe",
+});
+```
+
+```javascript tab="close()"
+payment_widget.close({
+  frame_id: "ID_OF_IFRAME", // payment_widget by default
+});
+```
 
 ### Getters / Setters
 
@@ -228,23 +311,59 @@ There are two ways to add an event handler: the standard approach or configurati
 |`getVersion()`                         |Returns the Widget version.                |
 
 
-## Iframe styling
+### Events
 
-```html
-<style>
-  .hpp_container {
-        width: 375px;
-        box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
-        display:flex;
-        justify-content: center;
-        border-radius: 10px;        
-        overflow: hidden;
-  }
-  .hpp_container iframe {
-        border-radius: 10px;        
-  }
-</style>
-```
+The widget handles a number of events that are generated by HPP which you can handle for various purposes.
+
+The table below provides the full list of events that you can attach one or more handlers to.
+
+|Event name      |When                                                                                                    |
+|----------------|--------------------------------------------------------------------------------------------------------|
+|`delete`        |User click's on "Return to shop" button on success page. Removes the iframe from client page by default.|
+|`reinit`        |It's not being used now.                                                                                |
+|`ready`         |Triggered when HPP is registered on the global namespace and safe to use.                               |
+|`frameActivated`|Triggered when the form is rendered.                                                                    |
+
+#### Adding an event handler
+
+Event constants on the JavaScript API are accessible via `HPP.Events`.
+
+There are two ways to add an event handler: the standard approach or configuration options:
+
+-   **Method 1**: The standard approach  
+
+    ```javascript
+    Checkout.addEventHandler(Checkout.Events.<EVENT_CONSTANT>, handler, options);
+    ```
+
+    ```javascript tab="Basic"
+    payment_widget.bindEventListener(<event_name>, handler)
+    ```
+
+    ```javascript tab="Console logging"
+    payment_widget.bindEventListener('delete', () => {console.log("Iframe closing handle)})
+    ```
+
+
+-   **Method 2**: Configuration options
+
+    ```javascript
+    payment_widget.init({
+        publicKey: 'pk_test_6ff46046-30af-41d9-bf58-929022d2cd14',
+        <eventName>: handler
+    });
+    ```
+
+-   **Method 3**: Listen iframe events
+
+    You can listen iframe events if you don't use our Payment Widget (JS).
+
+    ```javascript
+    window.addEventListener("ONE_OF_HPP_EVENTS", callback, false);
+    ```
+
+    Get more in [`Window.postMessage()` documentation](https://developer.mozilla.org/ru/docs/Web/API/Window/postMessage).
+
 
 ## Can we help?
 

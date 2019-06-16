@@ -1,8 +1,6 @@
 # HPP Guide: Integration Methods
 
-Read about our integration methods below, then choose the one that best suits your needs.
-
-## Overview
+## Requirements
 
 Commerce HPP is the easiest and the quickest way to integrate checkout into your website.  **No coding knowledge**  is required. But your requirements should satisfy the below conditions:
 
@@ -12,6 +10,8 @@ Commerce HPP is the easiest and the quickest way to integrate checkout into your
 You can integrate with any of our payment page experience offerings. Choose from one of our simple hosted solutions — **Payment Widget** or **Payment Link** which are based on **HPP API**.
 
 ## Integration methods
+
+Read about our integration methods below, then choose the one that best suits your needs.
 
 ### Payment Widget
 
@@ -58,7 +58,7 @@ Here’s how it can look like:
     </form>
     ```
 
-## Widget vs Link
+### Widget vs Link
 
 |Feature                   |Payment Widget|Payment Link|
 |--------------------------|--------------|------------|
@@ -77,7 +77,20 @@ Here’s how it can look like:
 
 The Hosted Payment Page are displayed full-page in a browser. When your customers are redirected to the Hosted Payment Page, the web address for the Hosted Payment Page is displayed. Full-page redirect supports over 60 payment methods.
 
-### Embedded
+??? example "Payment Widget"
+    Set flow field to "redirect" for Payment Widget integration method:
+
+    ```javascript
+    window.payment_widget.init({
+        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
+        flow: "redirect",
+        public_key: "YOUR_PUBLIC_KEY",
+        amount: "AMOUNT_OF_INVOICE",
+        currency: "USD",
+    });
+    ```
+
+### Embedded (iframe)
 
 The Hosted Payment Page are displayed in an **iframe** or **lightbox** within your website. When you redirect your customers to our payment page, the web address for your website remains unchanged, providing a more seamless shopping experience. An iframe or lightbox integration requires a more advanced integration.
 
@@ -85,6 +98,20 @@ We apply responsive web design to payment content displayed in an iframe or ligh
 
 Depending on the content being displayed, the height of the iframe or lightbox may increase. For an iframe, the content in the parent page that is below the iframe is pushed down as the payment page content expands vertically.
 
+??? example "Payment Widget"
+    Set flow field to "iframe" and create HTML tag to insert HPP into. Define "selector" key in widget configuration options;
+
+    Example:
+
+    ```javascript
+    window.payment_widget.init({
+        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
+        flow: "redirect",
+        public_key: "YOUR_PUBLIC_KEY",
+        amount: "AMOUNT_OF_INVOICE",
+        currency: "USD",
+    });
+    ```
 
 ## Self-hosted Payment Page
 
