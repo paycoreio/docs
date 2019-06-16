@@ -213,9 +213,10 @@ nav:
       - FlashPay: connectors/flashpay/index.md
       - Fondy: connectors/fondy/index.md
       - GeoPay: connectors/geopaynet/index.md
+      - GlobalMoney: connectors/globalmoney/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
       - Interkassa: connectors/interkassa/index.md
-      #- Leogaming: connectors/leogaming/index.md
+      - Leogaming: connectors/leogaming/index.md
       - LiqPay: connectors/liqpay/index.md
       #-MaxPay: connectors/maxpay/index.md
       #- MoneyMovers: connectors/moneymovers/index.md
