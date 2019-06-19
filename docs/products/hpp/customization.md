@@ -1,5 +1,24 @@
 # Customization of the Hosted Payment Page
 
+
+## Customization
+
+### Display
+
+### Themes
+
+### Styling
+
+### Pay button label
+
+### Override methods positions
+
+### Override methods labels
+
+### Hide methods 
+
+### Override methods icons & logos
+
 You have some optional parameters for HPP that will let you modify the look and feel of PayCore.io’s Hosted Payment Page in order to better match your own branding.
 
 The payment page itself is hosted by PayCore.io and takes care of building forms, validating the input and securing your customers’ payment details. 

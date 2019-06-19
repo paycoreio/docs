@@ -22,7 +22,7 @@ Payment widget is our simplest integration method and requires little technical 
 Widget is integrated directly to the website page — client selects a payment method, fills out payment details and confirms payment in the widget.
 
 ```html
-<script src="https://unpkg.com/@paycore/merchant-widget-js@0.1.7/dist/merchantWidget.umd.min.js"></script>
+<script async src="https://unpkg.com/@paycore/merchant-widget-js@0.1.7/dist/merchantWidget.umd.min.js"></script>
 <script>
 window.widget.init({
     selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",

@@ -1,4 +1,4 @@
-# Commerce Callbacks
+# Callbacks
 
 Callbacks allow you to receive notifications whenever the state on an object changes (or something important happens to that object).
 

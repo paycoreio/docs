@@ -1,4 +1,4 @@
-# Commerce Hosted Payment Page
+# Hosted Payment Page
 
 ## Overview
 
@@ -53,7 +53,7 @@ HPP lets you provide PayCore.io as a payment method in your website store, your 
 
 ### Telesales
 
-HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your customer a _paylink_ by e-mail or sms and let them pay the order. Paylink could be generated like a QR code.
+HPP lets you accept payments in a Telesales flow without the need of any website integration. Send your customer a _Payment Link_ by e-mail or sms and let them pay the order. Payment Link could be generated like a QR code.
 
 # Next
 

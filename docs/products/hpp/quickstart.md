@@ -1,4 +1,4 @@
-# HPP Guide: Quickstart
+# HPP: Quickstart
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy i
 Why not give HPP a test run? Click the  **Pay Now**  button below and the form will spring to life.
 
 <figure class="hpp_container">
-    <iframe  height="600px" width="100%" src="https://com-dev.paycore.io/hpp/methods?amount=100&currency=UAH&public_key=pk_test_yNznq07p7MChOL8shs7WT3Yat6ZnlqyXq8ep6WKF998" frameborder="0" allowfullscreen="true"></iframe>
+    <iframe height="600px" width="100%" src="https://com-dev.paycore.io/hpp/methods?amount=100&currency=UAH&public_key=pk_test_yNznq07p7MChOL8shs7WT3Yat6ZnlqyXq8ep6WKF998" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
 </figure>
 
 
@@ -42,7 +42,7 @@ Commerce HPP is the easiest and the quickest way to integrate checkout into your
 -   You do not have an user authentication or management system at your end and you rely on PayCore.io for providing it.
 -   Only after completing checkout, end users are allowed to access your product or service.
 
-You can integrate with any of our payment page experience offerings. Choose from one of our simple hosted solutions — **Payment Widget** or **Payment Link** which are based on **HPP API**.
+You can integrate with any of our payment page experience offerings. Choose from one of our simple hosted solutions — **Payment Widget** or **Payment Link** which are based on **Commerce HPP API**.
 
 
 ## Integration methods
@@ -57,20 +57,18 @@ Payment widget is our simplest integration method and requires little technical 
 
 Widget is integrated directly to the website page — client selects a payment method, fills out payment details and confirms payment in the widget.
 
-```html
-<script src="https://unpkg.com/@paycore/merchant-widget-js@0.1.7/dist/merchantWidget.umd.min.js"></script>
+```html tab="Payment Widget Example"
+<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
 <script>
-window.widget.init({
-    selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-    public_key: "YOUR_PUBLIC_KEY",
+window.HPPConfig = {
+    public_key: "<your_public_key>",
     amount: 100.00,
     currency: "USD",
-});
+    description: "Some goods"
+};
 </script>
+<div id="payment_widget" style="width: 375px; height: 600px;"></div>
 ```
-
-Jump to  [this page](/products/hpp/quickstart/)  for the **Payment Link** based integration steps.
-
 
 ### Payment Link
 
@@ -81,88 +79,48 @@ Payment Link is a quick and easy solution for accepting payments. Just create, a
 The simplest case would involve an HTML form with specific information that would be sent via a GET request. There’s no need to require any the data from your customers, so all the fields will be hidden in most cases. 
 Here’s how it can look like:
 
-!!! example "Simple redirect example"
+```html tab="HTML Form"
+<form action="https://com.paycore.io/hpp/" method="get">
+    <input type="hidden" name="public_key" value="<your_public_key>" />
+    <input type="hidden" name="currency" value="USD" />
+    <input type="hidden" name="description" value="Some goods" />
+    <input type="hidden" name="amount" value="100" />
+    <input type="submit" value="Pay" />
+</form>
+```
 
-    ```html
-    <form action="https://com.paycore.io/hpp/" method="GET">
-        <input type="hidden" name="public_key" value="<your-public-key>" />
-        <input type="hidden" name="reference_id" value="<unique-reference-id>" />
-        <input type="hidden" name="currency" value="USD" />
-        <input type="hidden" name="description" value="Some goods" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
+```html tab="URL (Link)"
+<a href="https://com.paycore.io/hpp/?public_key=your_public_key&currency=USD&description=Some%20goods&amount=100" target="self" />
+```
+
+```html tab="QR Code (Image)"
+<img alt="Payment Link" src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.paycore.io%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100">
+```
+
+??? tip "Payment Link as a QR-Code"
+    Payment Link could be generated even like a QR code:
+
+    ![Payment Link](https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.paycore.io%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100)
 
 ### Widget vs Link
 
-|Feature                   |Payment Widget|Payment Link|
-|--------------------------|--------------|------------|
-|Technology                |JavaScript    |GET Request |
-|Request Validation        |✔             |            |
-|Error & Event Handing     |✔             |            |
-|Invoicing via Email or SMS|              |✔           |
-|Invoicing via QR-code     |              |✔           |
+|Feature                   |Payment Widget|Payment Link    |
+|--------------------------|--------------|----------------|
+|Technology                |JavaScript    |HTTP GET Request|
+|Request Validation        |✔             |                |
+|Error & Event Handing     |✔             |                |
+|Invoicing via Email or SMS|              |✔               |
+|Invoicing via QR-code     |              |✔               |
 
 ### Alternative methods
 
-Read about our integration methods below, then choose the one that best suits your needs:
+Our additional integration methods:
 
--   To build a custom integration, check which API works best to accept payments: Payment Widget, HPP API or Private APIs in the  [API Overview](#overview).
 -   To study all the APIs, such as cancelling subscriptions, issuing refunds, getting the list of supported methods, go to  [full API References](/integration/api-references/).
--   For an SDK for iOS, Android, Unity or Smart TV, check out the  [SDKs section](/integration/sdks/).
 -   For server-side API libraries, check out the  [Server SDKs section](/integration/sdks/).
 -   For shopping cart systems or e-commerce solutions, such as Magento or Woocommerce, check out the  [CMS Modules & Shopping Cards](/integration/cms-modules/).
--   To learn which components works with which API, check the  [Integration Overview](/products/hpp/integration-overview/).
 
 Read about our all integration methods for accepting payments below, then [choose the one that best suits your needs](/integration/accept-payments/).
-
-
-## Embed options
-
--   **Standard HPP**: Redirect to a customizable hosted payment page.
--   **Embedded HPP**: Display an overlay payment form on your site.
-
-### Full-page redirect
-
-The Hosted Payment Page are displayed full-page in a browser. When your customers are redirected to the Hosted Payment Page, the web address for the Hosted Payment Page is displayed. Full-page redirect supports over 60 payment methods.
-
-??? example "Payment Widget"
-    Set flow field to "redirect" for Payment Widget integration method:
-
-    ```javascript
-    window.payment_widget.init({
-        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-        flow: "redirect",
-        public_key: "YOUR_PUBLIC_KEY",
-        amount: "AMOUNT_OF_INVOICE",
-        currency: "USD",
-    });
-    ```
-
-### Embedded (iframe)
-
-The Hosted Payment Page are displayed in an **iframe** or **lightbox** within your website. When you redirect your customers to our payment page, the web address for your website remains unchanged, providing a more seamless shopping experience. An iframe or lightbox integration requires a more advanced integration.
-
-We apply responsive web design to payment content displayed in an iframe or lightbox. When the width of the parent page is resized, the content in the iframe or lightbox is automatically adjusted.
-
-Depending on the content being displayed, the height of the iframe or lightbox may increase. For an iframe, the content in the parent page that is below the iframe is pushed down as the payment page content expands vertically.
-
-??? example "Payment Widget"
-    Set flow field to "iframe" and create HTML tag to insert HPP into. Define "selector" key in widget configuration options;
-
-    Example:
-
-    ```javascript
-    window.payment_widget.init({
-        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-        flow: "redirect",
-        public_key: "YOUR_PUBLIC_KEY",
-        amount: "AMOUNT_OF_INVOICE",
-        currency: "USD",
-    });
-    ```
-
 
 ## Basic integration
 
@@ -170,10 +128,15 @@ Depending on the content being displayed, the height of the iframe or lightbox m
 
 Make sure you have your  `public_key`. You can find it in the  [Dashboard](https://dashboard.paycore.io/), under  **Commerce Account Settings > Integration**. If you don't have an account with us yet, sign up for your free test account at  [PayCore.io](https://dashboard.paycore.io/).
 
-!!! warning
-    HPP works only with **active** commerce account which **allows payment invoice public creation**.
+!!! warning "General requirements"
 
-    Please contact your account Administrator if you need to *activate Commerce Account* or *Allow public payment invoice creation* for it.
+    HPP works only with:
+
+    * [x]  *active* commerce account 
+    * [x]  which *allows public creation for payment invoices*
+    * [x]  and has at least *one active currency*
+
+    Please contact your account Administrator if you need to set up those options for it.
 
 
 ### Step 1:  Pick a integration method
@@ -188,92 +151,318 @@ Next, copy the code snippet for your chosen method and add it to your checkout p
 You'll need to replace the example  `public_key`  with your own, and edit the required key-value pairs to reflect the order details (see the  [full reference](/products/hpp/reference/)  below for details).
 
 
-```html
-<script src="https://unpkg.com/@paycore/merchant-widget-js@0.1.7/dist/merchantWidget.umd.min.js"></script>
+```html tab="Payment Widget (JS)"
+<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
 <script>
-window.widget.init({
-    selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-    public_key: "YOUR_PUBLIC_KEY",
+window.HPPConfig = {
+    public_key: "<your_public_key>",
     amount: 100.00,
     currency: "USD",
-});
+    description: "Some goods"
+};
 </script>
+<div id="payment_widget" style="width: 375px; height: 600px;"></div>
 ```
 
+```html tab="Payment Link (HTML Form)"
+<form action="https://com.paycore.io/hpp/" method="get">
+    <input type="hidden" name="public_key" value="<your_public_key>" />
+    <input type="hidden" name="currency" value="USD" />
+    <input type="hidden" name="description" value="Some goods" />
+    <input type="hidden" name="amount" value="100" />
+    <input type="submit" value="Pay" />
+</form>
+```
 
-## More examples
+### Step 3 (Optional):  Add callback handler to your backend app
+
+When the payment process is complete PayCore.io sends the details of the transaction to the `callback_url` page you provided in your payment request. This is done with a standard HTTP POST. The PayCore.io server continues to post the status until a response of HTTP `OK` (`200`) is received from your server or the number of posts exceeds `attempts_limit` (10 by default).
+
+More information about handling callbacks you could find [here](/integration/callbacks/).
+
+
+## Embed options
+
+We provide two ways to integrate:
+
+**Full-page redirect**: Redirect to a customizable hosted payment page.
+
+:    The Hosted Payment Page are displayed full-page in a browser. When your customers are redirected to the Hosted Payment Page, the web address for the Hosted Payment Page is displayed. Full-page redirect supports over 60 payment methods.
+
+??? example "Full-page redirect examples"
+
+    ```html tab="Payment Widget (JS)" hl_lines="8"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+        target: "redirect"
+    };
+    </script>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="1"
+    <form action="https://com.paycore.io/hpp/" method="get" target="_self">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```
+
+**Embedded (iframe or lightbox)**: Display an overlay payment form on your site.
+
+:    The Hosted Payment Page are displayed in an **iframe** or **lightbox** within your website. When you redirect your customers to our payment page, the web address for your website remains unchanged, providing a more seamless shopping experience. An iframe or lightbox integration requires a more advanced integration.
+
+More about embedding options you could find in our [Full Reference Guide](/products/hpp/reference/#embed-options).
+
+??? example "Embedded (iframe or lightbox) examples"
+
+    ```html tab="Payment Widget (JS)" hl_lines="8 11"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+        target: "iframe"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="1 8"
+    <form action="https://com.paycore.io/hpp/" method="get" target="payment_frame">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay" />
+    </form>
+    <iframe name="payment_frame" src="" id="payment_frame" width="100%" height="600"></iframe>
+    ```
+
+## Use cases
 
 A shopper makes an order for a total amount payable of GBP 100. The order reference in your backoffice is Internet order 12345.
 
 The order details are:
 
--   Goods shipping date to the shopper: before or not later than October 20th, 2016.
 -   Order summary information to display on the payment review page for the order: _1 digital camera_.
--   The merchant account you are using is _TestMerchant_.
--   The order was placed before or on October 11th 2016, 10:30 am.
--   You want the payment offer to expire on October 11th 2016, 11:00 am.
+-   The order was placed with unique ID is _12345_.
+-   Amount of the order bill is _100 USD_.
+-   You want the payment offer to expire on _October 11th 2020, 11:00 am_.
 
 This example represents a complete payment process, based on the order details above.
 
-??? example "Simple redirect example"
-    ```html
-    <form action="https://com.paycore.io/hpp/" method="get">
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    ```
+```html tab="Payment Widget (JS)"
+<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+<script>
+window.HPPConfig = {
+    public_key: "<your_public_key>",
+    reference_id: "12345", // The order was placed with unique ID is _12345_.
+    amount: 100.00, // Amount of the order bill is _100 USD_.
+    currency: "USD", // Amount of the order bill is _100 USD_.
+    description: "1 digital camera", // Order summary information to display on the payment review page for the order: _1 digital camera_.
+    expires: 1602414000 // You want the payment offer to expire on _October 11th 2020, 11:00 am_.
+};
+</script>
+<div id="payment_widget" style="width: 375px; height: 600px;"></div>
+```
+
+```html tab="Payment Link (HTML Form)"
+<form action="https://com.paycore.io/hpp/" method="get">
+    <input type="hidden" name="public_key" value="<your_public_key>" />
+    <input type="hidden" name="reference_id" value="12345" /><!-- The order was placed with unique ID is _12345_. -->
+    <input type="hidden" name="currency" value="USD" /><!-- Amount of the order bill is _100 USD_. -->
+    <input type="hidden" name="amount" value="100" /><!-- Amount of the order bill is _100 USD_. -->
+    <input type="hidden" name="description" value="1 digital camera" /><!-- Order summary information to display on the payment review page for the order: _1 digital camera_. -->
+    <input type="hidden" name="expires" value="1602414000" /><!-- You want the payment offer to expire on _October 11th 2020, 11:00 am_. -->
+    <input type="submit" value="Pay" />
+</form>
+```    
+
+**More examples:**
 
 ??? example "Any amount pay button"
-    ```html hl_lines="7"
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="6"
     <form action="https://com.paycore.io/hpp/" method="get">
         <!-- This public key of TestMerchant -->
         <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
         <input type="hidden" name="reference_id" value="12345" />
         <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
         Amount: <input type="text" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
+        <input type="submit" value="Pay" />
     </form>
     ```
 
-??? example "Payment invoice with additional fields"
-    ```html hl_lines="7 8"
+??? example "Basic payment with description"
+
+    ```html tab="Payment Widget (JS)" hl_lines="7"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="5"
     <form action="https://com.paycore.io/hpp/" method="get">
-        <!-- This public key of TestMerchant -->
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
+
+??? example "Payment with description and unique Reference ID"
+
+    ```html tab="Payment Widget (JS)" hl_lines="5 8"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        reference_id: "<your_unique_reference_id>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="3 6"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
+
+??? example "Payment with customer details"
+
+    ```html tab="Payment Widget (JS)" hl_lines="9 10 11 12 13 14 15 16 17"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        reference_id: "<your_unique_reference_id>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+        customer: {
+            reference_id: "cus_1234567",
+            email: "somename@domain.com",
+            name: "John Wick",
+            metadata: {
+                key1: "value1",
+                key2: "value2"
+            }
+        }
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="7 8 9 10 11"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="customer[reference_id]" value="cus_1234567" />
+        <input type="hidden" name="customer[email]" value="somename@domain.com" />
+        <input type="hidden" name="customer[name]" value="John Wick" />
+        <input type="hidden" name="customer[metadata][key1]" value="value1" />
+        <input type="hidden" name="customer[metadata][key1]" value="value2" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
+
+??? example "Payment with additional fields (metadata)"
+
+    ```html tab="Payment Widget (JS)" hl_lines="9 10 11 12"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        reference_id: "<your_unique_reference_id>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+        metadata: {
+            key1: "SomeValue1",
+            key2: "SomeValue2"
+        }
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="7 8"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="amount" value="100" />
         <input type="hidden" name="metadata[key1]" value="SomeValue1" />
         <input type="hidden" name="metadata[key2]" value="SomeValue2" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
+        <input type="submit" value="Pay" />
     </form>
     ```
 
-??? example "HPP embed into iFrame"
-    ```html hl_lines="1 10"
-    <form action="https://com.paycore.io/hpp/" method="get" target="pay_frame">
-        <!-- This public key of TestMerchant -->
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
-    </form>
-    <iframe name="pay_frame" src="" id="pay_frame" width="XX" height="YY"></iframe>     
+
+??? example "Payment with custom return URL"
+
+    ```html tab="Payment Widget (JS)" hl_lines="5"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        return_url: "https://somedomain.com/",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
     ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="3"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="return_url" value="https://somedomain.com/" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
+
+More about configuration options you could find in our [Full Reference Guide](/products/hpp/reference/).
 
 ## Make HPP your own
 
 ### Customization
 
-HPP gives you the flexibility to adjust its look and feel to suit your brand and payment page. You can display your company's logo, use custom fonts and add some color to represent your brand's personality. Check out our [customization guide](/products/hpp/customization/) for more details.
+HPP gives you the flexibility to adjust its look and feel to suit your brand and payment page. You can display your company's logo, use custom fonts and add some color to represent your brand's personality. Check out our [Customization Guide](/products/hpp/customization/) for more details.
 
 ### Configuration options
 
@@ -288,12 +477,11 @@ Integrating using API provides you with better control. But requires coding know
 
 Jump to  [this page](/products/hpp/self-hpp/)  for the API based integration steps.
 
-
 ## Follow our guide
 
-1.  Learn more about  [integration overview](/products/hpp/guide/integration-overview/).
+1.  To learn which components works with which API, check the  [Integration Overview](/products/hpp/integration-overview/).
 2.  Learn more about  [callback handling](/integration/callbacks/).
 3.  Read our  [step by step integration guide](/products/hpp/integration-guide/)  and create your own flow.
 4.  Check that you  [respect specific use cases rules](/products/hpp/#use-cases)  for Telesales or In-store cases.
 5.  [Customize the Hosted Payment Page](/products/hpp/customization/)  to increase conversion.
-6.  Read the  [Full HPP API Reference](/integration/api-references/#commerce-hpp).
+6.  Read the  [Full HPP API Reference](/products/hpp/reference/).
