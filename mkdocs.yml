@@ -150,11 +150,11 @@ nav:
         - Introduction: products/hpp/index.md
         #- Features: products/hpp/features.md
         - Quickstart: products/hpp/quickstart.md
+        - Full Reference: products/hpp/reference.md
         - Pages & Samples: products/hpp/samples.md
         - Integration Overview: products/hpp/integration-overview.md
         #- Integration Methods: products/hpp/integration-methods.md
         #- Customization: products/hpp/customization.md
-        - Full Reference: products/hpp/reference.md
         - Troubleshoot: products/hpp/troubleshoot.md
         #- Sandbox: products/hpp/sandbox.md
         #- FAQ: products/hpp/faq.md
@@ -185,7 +185,7 @@ nav:
         - Overview: integration/sdks.md
         - PublicApiClient.js: integration/public-api-client-js.md
         - Postman Collections: integration/postman-collections.md
-    - Callbacks: integration/commerce-callbacks.md
+    - Callbacks: integration/callbacks.md
     - Security:
         - Security Recommendations: integration/security-recommendations.md
         - PCI Compliance: integration/pci-dss-overview.md
