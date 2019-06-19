@@ -8,63 +8,28 @@ You can use a Payment Link (standard HTML form) or Payment Widget (JS) to collec
 
 When the customer selects the payment option, your website should post the HTML form containing their transaction details to: `https://com.paycore.io/hpp/`.
 
-Example: 
-
-```
-```
-
 The HTML form should contain the mandatory hidden input fields listed in [Configuration](#configuration-options).
 
-You should use a secure method of obtaining a session ID before redirecting customers to HPP, as described in [Secure redirection method](#).
+You could use a secure method of obtaining a precreated Payment Invoice ID before redirecting customers to HPP, as described in [Secure redirection method](#secure-redirection-method).
 
 !!! tip "Tips for improving the customer experience"
      -   Any parameters that you pass through in your HTML form, such [customer details](#customer-details) as first name, last name, and email, will be automatically populated (or populated and hidden) as appropriate, on the HPP making it easier for the customer to complete these forms.
      -   You can customize the appearance of the HPP using the options described in [Customization Guide](/products/hpp/customization/).
-     -   To maximise conversion, PayCore.io recommends that you redirect customers to the HPP in the same browser window or embed the HPP in an iframe (see Embedding on [Quickstart Guide](/products/hpp/quickstart/)).
+     -   To maximise conversion, PayCore.io recommends that you redirect customers to the HPP in the same browser window or embed the HPP in an iframe (see Embedding on [Quickstart Guide](/products/hpp/quickstart/#integration-methods).
 
 ### Secure redirection method
 
-This method can be used to ensure that details of the payment are communicated securely between
-your server and Skrill. 
+This method can be used to ensure that details of the payment are communicated securely between your server and PayCore.io. 
 
 !!! note "Important!"
-     We strongly recommend that you use this method when redirecting your customers to Skrill, as it does not require sending any payment parameters to their browser. This prevents customers from being able to view or modify any hidden parameters in your source code.
+     We strongly recommend that you use this method when redirecting your customers to PayCore.io, as it does not require sending any payment parameters to their browser. This prevents customers from being able to view or modify any hidden parameters in your source code.
 
 The redirection process is as follows:
 
-1. Your web server makes a standard POST request with the payment parameters, using the
-‘prepare_only=1’ parameter (see Table 2-1 below).
-2. The Skrill server prepares a session for the payment and returns a standard HTTP(S) response.
-3. Your web server takes the body of the response which contains a SESSION_ID value.
-4. Using this SESSION_ID value the customer can be redirected to: https://pay.skrill.com/?sid=<SESSION_ID>
-
-https://com-dev.paycore.io/hpp/?cpi=cpi_lIzWGho9BccHWeOa
-
-The normal flow of events continues. This redirect must happen within 15 minutes of the original
-request or the session will expire.
-
-!!! note
-    The Skrill Payment Platform treats GET/POST requests to the payment URL identically. As a result, you can also use an HTTP GET operation in place of POST in step 1 above and pass the payment parameters as name/value pairs in the query string. Similarly, in Step 4 above you could use a HTTP POST operation and pass the SESSION_ID value from Step 3 as the sid parameter in the message body. For code examples of how to implement this, see Redirecting the customer to Skrill on page 5-3.
-
-!!! warning "Secure redirection restriction"
-    The Quick Checkout Secure Restriction service allows merchants to create a whitelist of IP addresses (including ranges) specific to them, so that Gateway transactions are generated only for the IP addresses in the list.
-    When the service is enabled and the list is populated, any request that doesn’t have a “SID” in Skrill will be blocked. By default, the service is disabled, and the Gateway allows all payment requests, with no restrictions.
-
-    Configure the service as follows:
-
-    1. Note the IP addresses/address ranges to add to the whitelist.
-    2. Log in to your merchant account.
-    3. Go to Settings > DEVELOPER SETTINGS.
-    4. Under Quick Checkout Secure Restriction, set Enable service, and then, in the field below,
-    type the IP addresses separated by spaces, or an address range in CIDR notation.
-    5. Click Save. 
-
-
-### Auto return the buyer to your website
-
-With Auto return for PayCore.io payments, buyers are not required to click a button to return to your website after they complete their payments with PayCore.io. Auto Return applies to all PayCore.io Payments Standards payment buttons, including Buy Now, Shopping Cart, Subscription, and Donate buttons.
-
-Auto Return shortens the checkout flow and immediately brings your buyers back to your website upon payment completion. To set up Auto Return, you need to turn it on in your PayCore.io account profile and enter the return URL that will be used to redirect your buyers back to your site. For more information on how to enable this feature in your PayCore.io account, see  [Auto return](https://developer.paypal.com/docs/classic/admin/checkout-settings/#auto-return-the-buyer-to-your-website)  in the Merchant setup and administration guide.
+1. Your web server makes a standard POST request with the payment parameters, using the [Commerce Private API](/integration/api-references/).
+2. The PayCore.io server prepares a Payment Invoice for the payment and returns a standard HTTP(S) response with it.
+3. Your web server takes the body of the response which contains a Payment Invoice ID value.
+4. Using this Payment Invoice ID value the customer can be redirected to: `https://com.paycore.io/hpp/?cpi=<PAYMENT_INVOICE_ID>`
 
 
 ## Configuration options
@@ -96,12 +61,77 @@ All following fields are **required**<i class="md-icon">star</i>:
 |Key                                      |Type                   |Description                                                                                      |
 |-----------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------|
 |`public_key`<i class="md-icon">star</i>  |`string`               |Public key of your commerce account — find it in the  [Dashboard](https://dashboard.paycore.io/).|
-|`reference_id`<i class="md-icon">star</i>|`string`               |Unique reference id of payment invoice.                                                          |
 |`amount`<i class="md-icon">star</i>      |`float`                |The payment invoice amount.                                                                      |
 |`currency`<i class="md-icon">star</i>    |`(string) CurrencyCode`|The payment invoice currency (three-letter ISO 4217 code).                                       |
 
+??? example "Example: Basic payment"
+
+    ```html tab="Payment Widget (JS)" hl_lines="4 5 6"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="2 3 4"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
+
 !!! warning "Available currencies"
     You can only create payments in currencies that have been enabled for your Commerce account. Please contact your account Administrator if you need to process in additional currencies.
+
+!!! tip "Test mode"
+    When you're processing live payments, replace  Public **Live** Key  with Public **Test** Key.
+
+### Optional
+
+Optional values allow the user to more flexibly configure the HPP and add more information about payment invoice.
+For example, specify the validity period of payment invoice.
+
+|Key           |Type    |Description                            |
+|--------------|--------|---------------------------------------|
+|`reference_id`|`string`|Unique reference id of payment invoice.|
+|`description` |`string`|Description of the payment invoice.    |
+|`expires`     |`int`   |UNIX timestamp, UTC+0                  |
+
+??? example "Example: Payment with optional details"
+
+    ```html tab="Payment Widget (JS)" hl_lines="7 8 9"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD",
+        reference_id: "<your_unique_reference_id>",
+        description: "Some goods",
+        expires: 1602414000
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="5 6 7"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="expires" value="1602414000" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
 
 !!! tip "Idempotency"
     Idempotency prevents the processing of duplicate payment requests by using unique keys set in `reference_id` property.
@@ -109,32 +139,6 @@ All following fields are **required**<i class="md-icon">star</i>:
     Each `reference_id` must be a _Unique Identifier_, and you must manage the generation of your own keys to ensure that duplicates are not generated accidentally. Duplicate keys are only detected when provided by the same Commerce Account, so only submissions you provide can throw a duplicate error.
 
     UUIDs are very large (128-bit) numbers. To avoid the "accidental" creation of duplicate keys, we recommend using a randomly generated UUID for your `reference_id`. This is especially important when generating `reference_id` for different payment requests.
-
-!!! tip "Test mode"
-    When you're processing live payments, replace  Public **Live** Key  with Public **Test** Key.
-
-**Examples:**
-
-```html tab="Payment Link Example"
-<form action="https://com.paycore.io/hpp/" method="GET">
-    <input type="hidden" name="public_key" value="<your_public_key>" />
-    <input type="hidden" name="reference_id" value="<unique_reference_id>" />
-    <input type="hidden" name="currency" value="USD" />
-    <input type="hidden" name="description" value="Some goods" />
-    <input type="hidden" name="amount" value="100" />
-    <input type="submit" value="Pay with PayCore.io" />
-</form>
-```
-
-### Optional
-
-Optional values allow the user to more flexibly configure the HPP and add more information about payment invoice.
-For example, specify the validity period of payment invoice.
-
-|Key          |Type    |Description                        |
-|-------------|--------|-----------------------------------|
-|`description`|`string`|Description of the payment invoice.|
-|`expires`    |`int`   |UNIX timestamp, UTC+0              |
 
 ### Customer details
 
@@ -152,33 +156,46 @@ Set in `customer` key a customer object with following optional properties:
 |`name`                                   |`string`          |The customer's name.               |
 |`metadata`                               |`array[key:value]`|The customer's metadata.           |
 
-??? example "Payment invoice with customer details"
-    ```html tab="Payment Link" hl_lines="7 8"
-    <form action="https://com.paycore.io/hpp/" method="get">
-        <input type="hidden" name="public_key" value="pk_live_{your_key}"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        <input type="hidden" name="description" value="Test payment" />
-        <input type="hidden" name="amount" value="100" />
-        <input type="hidden" name="customer[reference_id]" value="43263456" />
-        <input type="hidden" name="customer[email]" value="john@email.com" />
-        <input type="submit" value="Pay!" />
-    </form>
+??? example "Example: Payment with customer details"
+
+    ```html tab="Payment Widget (JS)" hl_lines="9 10 11 12 13 14 15 16 17"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        reference_id: "<your_unique_reference_id>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+        customer: {
+            reference_id: "cus_1234567",
+            email: "somename@domain.com",
+            name: "John Wick",
+            metadata: {
+                key1: "value1",
+                key2: "value2"
+            }
+        }
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
     ```
 
-    ```javascript tab="Payment Widget" hl_lines="8 9"
-    window.payment_widget.init({
-        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-        public_key: "pk_live_{your_key}",
-        amount: "100",
-        currency: "GBP",
-        description: "Test payment",
-        customer: {
-            reference_id: "43263456",
-            email: "john@email.com"
-        }
-    });
-    ```
+    ```html tab="Payment Link (HTML Form)" hl_lines="7 8 9 10 11"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="customer[reference_id]" value="cus_1234567" />
+        <input type="hidden" name="customer[email]" value="somename@domain.com" />
+        <input type="hidden" name="customer[name]" value="John Wick" />
+        <input type="hidden" name="customer[metadata][key1]" value="value1" />
+        <input type="hidden" name="customer[metadata][key1]" value="value2" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
 
 ### Auto process
 
@@ -190,6 +207,31 @@ If the `service` has mandatory fields, the you need also specify them in `servic
 |----------------|----------------------------|------------------------------------------------------------------------|
 |`service`       |`(string) ServiceCode`      |The code of service you want to autoprocess. Example: `bitcoin_btc_hpp`.|
 |`service_fields`|`(object) string[key:value]`|Fields of selected service. Example: `[{'name': 'John Doe'}]`           |
+
+??? example "Example: Payment with auto process"
+
+    ```html tab="Payment Widget (JS)" hl_lines="7"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD",
+        service: "paypal_usd_hpp"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="5"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="service" value="paypal_usd_hpp" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
 
 ??? tip "Try it out in Sandbox"
     You can check all enable services in [sandbox](/products/hpp/testing/).
@@ -212,19 +254,43 @@ With Auto return turned on in your Commerce account, you can set the value of th
 
 For example, you might want to redirect payers to a URL on your site that is specific to that person, perhaps with a session-id or other transaction-related data included in the URL.
 
-To set the return URL for individual transactions, include the  `return_url`  variable in the payment invoice configuration:
+To set the return URL for individual transactions, include the  `return_url`  variable in the payment invoice configuration.
 
-```html tab="Payment Link"
-<INPUT TYPE="hidden" NAME="return" value=" The-Page-On-Your-Site-To-Which-Buyer-Returns;">
+??? example "Example: Payment with custom return URL"
 
-```
+    ```html tab="Payment Widget (JS)" hl_lines="5"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        return_url: "https://somedomain.com/",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
 
-```html tab="Payment Widget"
-
-```
+    ```html tab="Payment Link (HTML Form)" hl_lines="3"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="return_url" value="https://somedomain.com/" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
 
 !!! note
     It's not possible to override the Callback URL cause of the security violations. You must specify it Commerce Account settings.
+
+### Auto return the buyer to your website
+
+With Auto return for PayCore.io payments, buyers are not required to click a button to return to your website after they complete their payments with PayCore.io. Auto Return applies to all PayCore.io Payments Standards payment buttons, including Buy Now, Shopping Cart, Subscription, and Donate buttons.
+
+Auto Return shortens the checkout flow and immediately brings your buyers back to your website upon payment completion. To set up _Auto Return_, you need to turn it on in your PayCore.io account profile and enter the return URL that will be used to redirect your buyers back to your site. For more information on how to enable this feature in your PayCore.io account, see  [Auto return](/products/commerce/)  in the Commerce Account setup and administration guide.
 
 ### Localization
 
@@ -234,6 +300,32 @@ HPP supports following languages in multiple regions around the world: English, 
 |----------|--------|---------------------------------------------------------------------------------------------------------------|
 |`language`|`string`|The ISO 639-1 code of one of predefined languages. Enum: `en`, `uk`, `ru` (Default: The user browser language).|
 
+??? example "Example: Payment with predefined language for the UI"
+
+    ```html tab="Payment Widget (JS)" hl_lines="5"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        language: "uk",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods"
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="3"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="language" value="uk" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```    
 
 ### Customization
 
@@ -331,15 +423,41 @@ For example, if you're a data service provider and want to store certain feature
 
 Considering the same example as above, if you want to store the additional features of a particular data plan here's what the JSON will look like:
 
-```json
-{  
-    "metadata": {
-        "usage-limit":"5GB",
-        "speed-within-quota":"2MBbps",
-        "post-usage-quota":"512kbps"
-    }
-}
-```
+??? example "Example: Payment with additional fields (metadata)"
+
+    ```html tab="Payment Widget (JS)" hl_lines="9 10 11 12 13"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.HPPConfig = {
+        public_key: "<your_public_key>",
+        reference_id: "<your_unique_reference_id>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods",
+        metadata: {
+            "usage-limit": "5GB",
+            "speed-within-quota": "2MBbps",
+            "post-usage-quota": "512kbps"
+        }
+    };
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="7 8 9"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
+        <input type="hidden" name="currency" value="USD" />
+        <input type="hidden" name="description" value="Some goods" />
+        <input type="hidden" name="amount" value="100" />
+        <input type="hidden" name="metadata[usage-limit]" value="5GB" />
+        <input type="hidden" name="metadata[speed-within-quota]" value="2MBbps" />
+        <input type="hidden" name="metadata[post-usage-quota]" value="512kbps" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```
+
 
 !!! note
     -   Metadata is completely for your reference and will not be visible to customers.
@@ -356,18 +474,30 @@ We provide two ways to integrate:
 
 The Hosted Payment Page are displayed full-page in a browser. When your customers are redirected to the Hosted Payment Page, the web address for the Hosted Payment Page is displayed. Full-page redirect supports over 60 payment methods.
 
-??? example "Payment Widget"
-    Set flow field to "redirect" for Payment Widget integration method:
+Set `target` field to `redirect` for Payment Widget integration method.
 
-    ```javascript
-    window.payment_widget.init({
-        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-        action: "redirect",
-        public_key: "YOUR_PUBLIC_KEY",
-        amount: "AMOUNT_OF_INVOICE",
-        currency: "USD",
-    });
-    ```
+```html tab="Payment Widget (JS)" hl_lines="8"
+<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+<script>
+window.HPPConfig = {
+    public_key: "<your_public_key>",
+    amount: 100.00,
+    currency: "USD",
+    description: "Some goods",
+    target: "redirect"
+};
+</script>
+```
+
+```html tab="Payment Link (HTML Form)" hl_lines="1"
+<form action="https://com.paycore.io/hpp/" method="get" target="_self">
+    <input type="hidden" name="public_key" value="<your_public_key>" />
+    <input type="hidden" name="currency" value="USD" />
+    <input type="hidden" name="description" value="Some goods" />
+    <input type="hidden" name="amount" value="100" />
+    <input type="submit" value="Pay" />
+</form>
+```
 
 ### Embedded (iframe or lightbox)
 
@@ -377,22 +507,34 @@ We apply responsive web design to payment content displayed in an iframe or ligh
 
 Depending on the content being displayed, the height of the iframe or lightbox may increase. For an iframe, the content in the parent page that is below the iframe is pushed down as the payment page content expands vertically.
 
-??? example "Payment Widget"
-    Set flow field to "iframe" and create HTML tag to insert HPP into. Define "selector" key in widget configuration options;
+Set `target` field to `iframe` and create HTML tag to insert HPP into. Define `selector_id` key in widget configuration options. `selector_id` by default is `payment_widget`;
 
-    Example:
+```html tab="Payment Widget (JS)" hl_lines="8 11"
+<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+<script>
+window.HPPConfig = {
+    public_key: "<your_public_key>",
+    amount: 100.00,
+    currency: "USD",
+    description: "Some goods",
+    target: "iframe"
+};
+</script>
+<div id="payment_widget" style="width: 375px; height: 600px;"></div>
+```
 
-    ```javascript
-    window.payment_widget.init({
-        selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-        flow: "redirect",
-        public_key: "YOUR_PUBLIC_KEY",
-        amount: "AMOUNT_OF_INVOICE",
-        currency: "USD",
-    });
-    ```
+```html tab="Payment Link (HTML Form)" hl_lines="1 8"
+<form action="https://com.paycore.io/hpp/" method="get" target="payment_frame">
+    <input type="hidden" name="public_key" value="<your_public_key>" />
+    <input type="hidden" name="currency" value="USD" />
+    <input type="hidden" name="description" value="Some goods" />
+    <input type="hidden" name="amount" value="100" />
+    <input type="submit" value="Pay" />
+</form>
+<iframe name="payment_frame" src="" id="payment_frame" width="100%" height="600"></iframe>
+```
 
-??? warning "Security and cross-domain browser restrictions"
+!!! warning "Security and cross-domain browser restrictions"
     Although possible, using **iFrames** can introduce known usability, security and cross-domain browser issues.
 
     Keep the following in mind:
@@ -426,42 +568,40 @@ Repository: https://unpkg.com/@paycore/payment-widget-js
 
 We offer three ways to integrate `payment_widget.js` into your website, so you can pick the one that best fits your requirements:
 
-1. `window.HPPConfig`
-
-    Our recommended option, which allows you to run `payment_widget.js` synchronously or asynchronously.
-
-2. `window.payment_widget.init()`
+1. `window.payment_widget.init()`
 
     payment_widget.js can only be run synchronously with this method.
 
+2. `window.HPPConfig`
+
+    Our recommended option, which allows you to run `payment_widget.js` synchronously or asynchronously.
+
 
 After you have specified all the required fields and customized your HPP, you will see a list of payment methods.
-
-```html tab="HPPConfig"
-<script>
-window.HPPConfig = {
-    selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-    flow: "iframe",
-    public_key: "YOUR_PUBLIC_KEY",
-    amount: "AMOUNT_OF_INVOICE",
-    currency: "USD",
-    baseUrl: "URL_OF_YOUR_HPP",
-};
-</script>
-<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
-```
 
 ```html tab="init()"
 <script src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
 <script>
 window.payment_widget.init({
-    selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-    flow: "iframe",
-    public_key: "YOUR_PUBLIC_KEY",
-    amount: "AMOUNT_OF_INVOICE",
+    public_key: "<your_public_key>",
+    amount: 100.00,
     currency: "USD",
-    baseUrl: "URL_OF_YOUR_HPP",
+    description: "Some goods",
+    target: "redirect"
 });
+</script>
+```
+
+```html tab="HPPConfig"
+<script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+<script>
+window.HPPConfig = {
+    public_key: "<your_public_key>",
+    amount: 100.00,
+    currency: "USD",
+    description: "Some goods",
+    target: "redirect"
+};
 </script>
 ```
 
@@ -474,18 +614,36 @@ window.payment_widget.init({
 |`frame_id`   |`string`|ID of the frame that will be inserted Default: `payment_frame`.                                                                |
 |`target`     |`string`|User can insert HPP inside iframe on page, or open HPP in new tab in browser `iframe`, `redirect`. Default : `iframe`.         |
 
-??? example
+??? example "Example: Additional widget configuration"
 
-    ```javascript hl_lines="2 3 4"
-    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>    
+    ```html tab="init()" hl_lines="4 5 6 7"
+    <script src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.payment_widget.init({
+        base_url: "https://pay.yourdomain.сom/hpp/",
+        selector_id: "payWidget",
+        frame_id: "payFrame",
+        target: "redirect",
+        public_key: "<your_public_key>",
+        amount: 100.00,
+        currency: "USD",
+        description: "Some goods"
+    });
+    </script>
+    ```
+
+    ```html tab="HPPConfig" hl_lines="4 5 6 7"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
     <script>
     window.HPPConfig = {
-        selector_id: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-        target: "iframe",
-        base_url: "URL_OF_YOUR_HPP",
-        public_key: "YOUR_PUBLIC_KEY",
-        amount: "AMOUNT_OF_INVOICE",
+        base_url: "https://pay.yourdomain.сom/hpp/",
+        selector_id: "payWidget",
+        frame_id: "payFrame",
+        target: "redirect",
+        public_key: "<your_public_key>",
+        amount: 100.00,
         currency: "USD",
+        description: "Some goods",
     };
     </script>
     ```
@@ -502,26 +660,24 @@ window.payment_widget.init({
 **Examples:**
 
 ```javascript tab="init()"
-payment_widget.init({
-  public_key: "YOUR_COMMERCE_ACCOUNT_PUBLIC_KEY",
-  amount: "100.00",
-  currency: "USD",
-  flow: "iframe",
+window.payment_widget.init({
+    public_key: "<your_public_key>",
+    amount: "100.00",
+    currency: "USD",
 });
 ```
 
 ```javascript tab="reinit()"
-payment_widget.reinit({
-  public_key: "YOUR_COMMERCE_ACCOUNT_PUBLIC_KEY",
-  amount: "100.00",
-  currency: "USD",
-  flow: "iframe",
+window.payment_widget.reinit({
+    public_key: "<your_public_key>",
+    amount: "100.00",
+    currency: "USD",
 });
 ```
 
 ```javascript tab="close()"
-payment_widget.close({
-  frame_id: "ID_OF_IFRAME", // payment_widget by default
+window.payment_widget.close({
+    frame_id: "<id_of_frame>", // By default: `payment_widget`
 });
 ```
 
@@ -547,18 +703,27 @@ There are three ways to add an event handler:
 -   **Method 1**: The standard approach
 
     ```javascript tab="Bind by constant"
-    payment_widget.bindEventListener(payment_widget.events.<EVENT_CONSTANT>, handler)
+    window.payment_widget.bindEventListener(payment_widget.events.<EVENT_CONSTANT>, handler)
     ```
 
     ```javascript tab="Bind by name"
-    payment_widget.bindEventListener(<event_name>, handler)
+    window.payment_widget.bindEventListener(<event_name>, handler)
     ```
 
     ```javascript tab="Console logging example"
-    payment_widget.bindEventListener('delete', () => {console.log("Iframe closing handle")})
+    window.payment_widget.bindEventListener('delete', () => {console.log("Iframe closing handle")})
     ```
 
 -   **Method 2**: Configuration options
+
+    ```javascript tab="init()"
+    window.payment_widget.init({
+        public_key: 'pk_test_<your_key>',
+        handlers: {
+            <event_name>: handler
+        }
+    });
+    ```
 
     ```javascript tab="HPPConfig"
     window.HPPConfig = {
@@ -567,15 +732,6 @@ There are three ways to add an event handler:
             <event_name>: handler
         }
     };
-    ```
-
-    ```javascript tab="init()"
-    payment_widget.init({
-        public_key: 'pk_test_<your_key>',
-        handlers: {
-            <event_name>: handler
-        }
-    });
     ```
 
 -   **Method 3**: Listen iframe events

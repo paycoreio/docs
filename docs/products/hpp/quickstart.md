@@ -289,19 +289,6 @@ window.HPPConfig = {
 
 **More examples:**
 
-??? example "Any amount pay button"
-
-    ```html tab="Payment Link (HTML Form)" hl_lines="6"
-    <form action="https://com.paycore.io/hpp/" method="get">
-        <!-- This public key of TestMerchant -->
-        <input type="hidden" name="public_key" value="<!-- Your public key like 'pk_live_***' -->"/>
-        <input type="hidden" name="reference_id" value="12345" />
-        <input type="hidden" name="currency" value="GBP" />
-        Amount: <input type="text" name="amount" value="100" />
-        <input type="submit" value="Pay" />
-    </form>
-    ```
-
 ??? example "Basic payment with description"
 
     ```html tab="Payment Widget (JS)" hl_lines="7"
@@ -428,7 +415,6 @@ window.HPPConfig = {
     </form>
     ```
 
-
 ??? example "Payment with custom return URL"
 
     ```html tab="Payment Widget (JS)" hl_lines="5"
@@ -455,6 +441,34 @@ window.HPPConfig = {
         <input type="submit" value="Pay" />
     </form>
     ```    
+
+??? example "Payment with editable amount"
+    ```html tab="Payment Widget (JS)" hl_lines="3 7 13 14"
+    <script>
+    function initPaymentWidget() {
+        const amount = document.getElementById("amount").value;
+        window.payment_widget.init( {
+            public_key: "<your_public_key>",
+            reference_id: "<your_unique_reference_id>",
+            amount: amount,
+            currency: "USD",
+            description: "Some goods",
+        });
+    }
+    </script>
+    Enter amount:<input type="number" id="amount" name="amount"/><br/>
+    <input type="button" value="init" onclick="initPaymentWidget()"/>
+    ```
+
+    ```html tab="Payment Link (HTML Form)" hl_lines="5"
+    <form action="https://com.paycore.io/hpp/" method="get">
+        <input type="hidden" name="public_key" value="<your_public_key>" />
+        <input type="hidden" name="reference_id" value="12345" />
+        <input type="hidden" name="currency" value="GBP" />
+        Amount: <input type="text" name="amount" value="100" />
+        <input type="submit" value="Pay" />
+    </form>
+    ```
 
 More about configuration options you could find in our [Full Reference Guide](/products/hpp/reference/).
 
