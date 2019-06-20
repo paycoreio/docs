@@ -44,7 +44,7 @@ The editor allows you to change elements such as: the logo, background colors, b
 
 ### Payment methods
 
-Our PayCore.io's Hosted Payment Page supports all payment methods in the world, so credit cards, wallets, bank transfer etc. Some of these methods are hosted on the page itself and some require a redirect to the third party (e.g. Skrill). Methods that are hosted on the page itself will follow the styling you configure in the Dashboard. Redirect methods will not, as their visual appearance is not handled by the PayCore.io platform.
+Our PayCore.io's Hosted Payment Page supports all payment methods in the world, so credit cards, wallets, bank transfer etc. Some of these methods are hosted on the page itself and some require a redirect to the third party (e.g. PayCore.io). Methods that are hosted on the page itself will follow the styling you configure in the Dashboard. Redirect methods will not, as their visual appearance is not handled by the PayCore.io platform.
 
 ## Logo
 
@@ -124,7 +124,7 @@ Your payment request can include your own itemised payment details, such as an o
 
 ###  Preselecting or displaying payment methods
 
-Preselecting or displaying payment methods Which payment methods are displayed depends on the configuration setting for your merchant account; there are two options: Fixed or Flexible (also known as Fixed Split Gateway or Flexible Split Gateway). This feature is set up for your account by Skrill. For details, please contact Skrill Merchant Services. The Fixed option is used to specify the payment methods to display to customers in the HPP payment form (if these payment methods are available in the customer’s country). For example, you can display only Paysafecard, Klarna, and Rapid Transfer on the payment form instead of the generic Skrill options for the customer’s country. These methods will appear in the Payment method tabs where their logos will be displayed. For a list of currently supported alternative payment methods and their codes, see Payment method codes on page 10-9.
+Preselecting or displaying payment methods Which payment methods are displayed depends on the configuration setting for your merchant account; there are two options: Fixed or Flexible (also known as Fixed Split Gateway or Flexible Split Gateway). This feature is set up for your account by PayCore.io. For details, please contact PayCore.io Merchant Services. The Fixed option is used to specify the payment methods to display to customers in the HPP payment form (if these payment methods are available in the customer’s country). For example, you can display only Paysafecard, Klarna, and Rapid Transfer on the payment form instead of the generic PayCore.io options for the customer’s country. These methods will appear in the Payment method tabs where their logos will be displayed. For a list of currently supported alternative payment methods and their codes, see Payment method codes on page 10-9.
 
 
 ### Straight Through Redirect
@@ -185,12 +185,12 @@ entire browser window.
 4 '_blank' Opens the target URL in a new browser window
 
 !!! note
-    The iframe option works well with card and SEPA payments. However, it may not be suitable if you are offering any alternative payments methods through Skrill, which typically redirect to third party websites of varying sizes.
+    The iframe option works well with card and SEPA payments. However, it may not be suitable if you are offering any alternative payments methods through PayCore.io, which typically redirect to third party websites of varying sizes.
 
  
  ## Removing or reducing the header and reducing the footer
 
- You can request a version of the HPP page without the Skrill header and amount fields. The security logo is also removed from the footer, to reduce its size. You can enable this option at any time by contacting Skrill Merchant Services. However, we recommend that you request this feature when integrating to ensure a good UI experience.
+ You can request a version of the HPP page without the PayCore.io header and amount fields. The security logo is also removed from the footer, to reduce its size. You can enable this option at any time by contacting PayCore.io Merchant Services. However, we recommend that you request this feature when integrating to ensure a good UI experience.
 
  See the example below.
  
@@ -204,19 +204,19 @@ entire browser window.
 
 ### Secure return_url parameter
 
-A secure return_url parameter allows you to be certain that the customer has arrived at your return_url page by completing the payment process, rather than by looking up the return_url value in the page source code and entering it into their browser. However, this function only guarantees that the customer has completed the payment process, not that the payment had been processed. If this feature is not activated, please contact Skrill Merchant Services.
+A secure return_url parameter allows you to be certain that the customer has arrived at your return_url page by completing the payment process, rather than by looking up the return_url value in the page source code and entering it into their browser. However, this function only guarantees that the customer has completed the payment process, not that the payment had been processed. If this feature is not activated, please contact PayCore.io Merchant Services.
 
 1. Example 1
     Merchant submits return_url without additional parameters. For example:
     https://example.com/return_url.cgi
 
-    In this case Skrill will redirect the customer to:
+    In this case PayCore.io will redirect the customer to:
     https://example.com/return_url.cgi?transaction_id=A205220&msid=730743ed4ef7ec631155f5e15d2f4fa0
 
 2. Example 2
     Merchant submits the return_url with additional parameters. For example:
     https://example.com/return_url.cgi?par1=val1&par2=val2
-    In this case Skrill will redirect the customer to:
+    In this case PayCore.io will redirect the customer to:
     https://example.com/return_url.cgi?par1=val1&par2=val2&transaction_id=A205220&msid=730743ed4ef7ec631155f5e15d2f4fa0
 
 #### Securing the return_url
@@ -235,7 +235,7 @@ payment transaction.
 
 ## Code integration examples
 
-Below are two examples of HTML forms that can be submitted to Skrill. The first one is a basic example. The second example uses several additional features currently available with HPP. You can use these forms, ensuring that the values are replaced with your own values.
+Below are two examples of HTML forms that can be submitted to PayCore.io. The first one is a basic example. The second example uses several additional features currently available with HPP. You can use these forms, ensuring that the values are replaced with your own values.
 
 ### Payment method codes
 
@@ -245,13 +245,13 @@ The table below describes the codes required for each payment method if passing 
 ## Display logos of specific payment methods
 
 An alternative option is to present only the logos of the specific payment methods you want to offer
-your customers through Skrill. For example:
-You can then define, in your HTML code, which payment method to display on the Skrill Quick
+your customers through PayCore.io. For example:
+You can then define, in your HTML code, which payment method to display on the PayCore.io Quick
 Checkout page when the customer selects this logo. There are two ways in which this feature can be
 implemented:
 • Fixed - only the selected payment method (or methods) is (are) displayed to the customer on
 Quick Checkout. The first method supplied is preselected (set as the default option).
-• Flexible - the selected payment method is displayed as the default option (preselected). Skrill
+• Flexible - the selected payment method is displayed as the default option (preselected). PayCore.io
 automatically detects the customer’s country (using Geolocation or the country parameter
 passed by the merchant) and displays a localized version of the Quick Checkout page. Only
 the payment methods available in the customer’s country are displayed. The order of the
@@ -260,6 +260,6 @@ customer’s country.
 Co-branded payment method logos for display on your website are available at:
 https://www.skrill.com/en/merchants/brand-centre
 Note: The Payment methods you want to support are specified by including the relevant payment
-method codes in the payment request submitted to Skrill. Alternatively, it is also possible to
-request that only specific payment methods be enabled. For details, please contact Skrill
+method codes in the payment request submitted to PayCore.io. Alternatively, it is also possible to
+request that only specific payment methods be enabled. For details, please contact PayCore.io
 Merchant Services.
