@@ -29,8 +29,21 @@ The redirection process is as follows:
 1. Your web server makes a standard POST request with the payment parameters, using the [Commerce Private API](/integration/api-references/).
 2. The PayCore.io server prepares a Payment Invoice for the payment and returns a standard HTTP(S) response with it.
 3. Your web server takes the body of the response which contains a Payment Invoice ID value.
-4. Using this Payment Invoice ID value the customer can be redirected to: `https://com.paycore.io/hpp/?cpi=<PAYMENT_INVOICE_ID>`
+4. Using this Payment Invoice ID value the customer can be redirected to:
 
+    ``` tab="Payment Link"
+    https://com.paycore.io/hpp/?cpi=<PAYMENT_INVOICE_ID>
+    ```    
+
+    ```html tab="Payment Widget (JS)" hl_lines="4"
+    <script async src="https://unpkg.com/@paycore/payment-widget-js@0.1.93/dist/paymentWidget.umd.min.js"></script>
+    <script>
+    window.payment_widget.init({
+        cpi: "<PAYMENT_INVOICE_ID>",
+    });
+    </script>
+    <div id="payment_widget" style="width: 375px; height: 600px;"></div>
+    ```
 
 ## Configuration options
 
