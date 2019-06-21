@@ -23,6 +23,8 @@ Get the answers straight:
 
 ## Accept Payments
 
+<img src="/integration/images/icon-api.svg" alt="Payment Form" style="width: 150px; float: right;">
+
 With PayCore.io, you can build a payments flow that gives you and your customers the power of choice. Collect payment information quickly and securely, create charges server-side in over 150 currencies, or accept payments from a host of additional payment methods, including 3-D Secure, Apple Pay, and SEPA.
 
 Read about our integration methods below, then choose the one that best suits your needs.
@@ -31,6 +33,8 @@ Read about our integration methods below, then choose the one that best suits yo
 
 
 ## Make Payouts
+
+<img src="/integration/images/icon-masspayments2.svg" alt="Mass payout" style="width: 150px; float: right;">
 
 Many companies leverage PayCore.io Payouts to please their customers with timely payouts, while reducing the costs associated with managing multiple payout solutions. Integrate mass payout functionality directly in your existing system and gain time back to focus on building your business.
 
@@ -43,6 +47,8 @@ PayCore.io delivers the best global payout experience. You know your business an
 
 ## Full API References
 
+<img src="/integration/images/swagger.svg" alt="Full card details API" style="width: 150px; float: right;">
+
 We offer several RESTful APIs: A server API which is used by the merchants in a server-to-server setup and a client API which is used by clients like desktops, laptops, mobile phones and other internet connected devices. For both APIs we offer a detailed API reference that lists all the functionalities and how to use them.
 
 [Learn more -->](/integration/api-references/)
@@ -50,10 +56,21 @@ We offer several RESTful APIs: A server API which is used by the merchants in a 
 
 ## SDKs
 
+<img src="/integration/images/mobile-sdk.svg" alt="SDKs" style="width: 150px; float: right;">
+
 PayCore.io offers SDKs that wrap the RESTful API and make it even easier to integrate with our platform. The SDK you need depends on your server-side technology stack and on the clients that you want to support.
 Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. 
   
 [Learn more -->](/integration/sdks/)
+
+
+## Shopping carts
+
+<img src="/integration/images/merchant.svg" alt="Shopping carts" style="width: 150px; float: right;">
+
+Our payment gateway is integrated with many popular shopping cart platforms. Get up and running quickly, processing online payments with an ecommerce plugin.
+
+[Learn more -->](/integration/cms-modules/)
 
 
 ## FAQ
