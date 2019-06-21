@@ -73,7 +73,7 @@ Build and host yourself using SDKs or client API:
 
 [Learn more -->](/products/hpp/self-hosted-payment-page/)
 
-
+<!--
 ## Payment card interfaces
 
 ### CardGate HPP
@@ -82,7 +82,7 @@ Build and host yourself using SDKs or client API:
 
 Unlike our other integration methods, the full card details API does not use card tokens. Instead, you process your customers' card details directly. If you are looking to have total control over the HPP experience, then the full card details API may be the option for you.
 
-[Learn more -->](/products/cardgate/hpp/)
+[Learn more](/products/cardgate/hpp/)
 
 ### Full card details API
 
@@ -90,8 +90,8 @@ Unlike our other integration methods, the full card details API does not use car
 
 Unlike our other integration methods, the full card details API does not use card tokens. Instead, you process your customers' card details directly. If you are looking to have total control over the HPP experience, then the full card details API may be the option for you.
 
-[Learn more -->](/products/cardgate/full-card-details-api/)
-
+[Learn more](/products/cardgate/full-card-details-api/)
+-->
 
 ## SDKs
 
@@ -101,11 +101,15 @@ Whether you're processing payments on desktop or on mobile, our software develop
   
 [Learn more -->](/integration/sdks/)
 
-
+<!--
 ## Shopping carts
 
 <img src="/products/hpp/images/merchant.svg" alt="Shopping carts" style="width: 150px; float: right;">
 
 Our payment gateway is integrated with many popular shopping cart platforms. Get up and running quickly, processing online payments with an ecommerce plugin.
 
-[Learn more -->](/integration/cms-modules/)
+[Learn more](/integration/cms-modules/)
+-->
+
+!!! question
+    Can't find what you're looking for? [Contact our support team for help](https://support.paycore.io/).

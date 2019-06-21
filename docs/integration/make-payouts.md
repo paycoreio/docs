@@ -37,3 +37,6 @@ Create and send up to 1,000 transfers with just one payment using our Batch Payo
 PayCore.io’s Payout API is a mass payout solution that enables businesses to initiate hundreds of supplier payments or vendor payments through an easy to use, intuitive API.
 
 Completely automate your payout process by sending payout orders via the [Commerce Private API](/integration/api-references/#commerce-private-api).
+
+!!! question
+    Can't find what you're looking for? [Contact our support team for help](https://support.paycore.io/).

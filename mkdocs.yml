@@ -177,7 +177,7 @@ nav:
         - Visualizations: products/analytics/visualizations.md
         - FAQ: products/analytics/faq.md
 - Integration: 
-    - Integrate with PayCore.io: integration/index.md
+    - Overview: integration/index.md
     - Accept Payments: integration/accept-payments.md
     - Make Payouts: integration/make-payouts.md
     - API References: integration/api-references.md

@@ -63,15 +63,15 @@ Whether you're processing payments on desktop or on mobile, our software develop
   
 [Learn more -->](/integration/sdks/)
 
-
+<!--
 ## Shopping carts
 
 <img src="/integration/images/merchant.svg" alt="Shopping carts" style="width: 150px; float: right;">
 
 Our payment gateway is integrated with many popular shopping cart platforms. Get up and running quickly, processing online payments with an ecommerce plugin.
 
-[Learn more -->](/integration/cms-modules/)
-
+[Learn more](/integration/cms-modules/)
+-->
 
 ## FAQ
 
