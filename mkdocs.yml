@@ -148,8 +148,8 @@ nav:
         - Introduction: products/hpp/index.md
         #- Features: products/hpp/features.md
         - Quickstart: products/hpp/quickstart.md
-        - Integration Overview: products/hpp/integration-overview.md
         - Full Reference: products/hpp/reference.md
+        - Integration Overview: products/hpp/integration-overview.md
         - Pages & Samples: products/hpp/samples.md
         #- Integration Methods: products/hpp/integration-methods.md
         #- Customization: products/hpp/customization.md

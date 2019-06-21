@@ -43,6 +43,8 @@ Use our hosted responsive solution for payment processing:
 
 ## [Self-hosted payment page](/products/hpp/self-hosted-payment-page/)
 
+<img src="/integration/images/icon-paymentform.svg" alt="Payment Form" style="width: 150px; float: right; padding-left: 10px;">
+
 Before you can make a payment with our API integration, you need to collect any required payment details from your shopper. Here we describe how to do this by building your own payment form.
 Building your own form gives you full control over the look and feel of your checkout. If you'd rather not build your own payment form, you can also collect the shopper's payment details using our pre-built JavaScript Components. These are available for many popular payment methods.
 
@@ -76,7 +78,7 @@ Build and host yourself using SDKs or client API:
 
 ### CardGate HPP
 
-<img src="/products/hpp/images/checkout-js.svg" alt="CardGate HPP" style="width: 120px; float: right;">
+<img src="/products/hpp/images/checkout-js.svg" alt="CardGate HPP" style="width: 150px; float: right;">
 
 Unlike our other integration methods, the full card details API does not use card tokens. Instead, you process your customers' card details directly. If you are looking to have total control over the HPP experience, then the full card details API may be the option for you.
 
@@ -84,7 +86,7 @@ Unlike our other integration methods, the full card details API does not use car
 
 ### Full card details API
 
-<img src="/products/hpp/images/payment-methods.svg" alt="Full card details API" style="width: 120px; float: right;">
+<img src="/products/hpp/images/payment-methods.svg" alt="Full card details API" style="width: 150px; float: right;">
 
 Unlike our other integration methods, the full card details API does not use card tokens. Instead, you process your customers' card details directly. If you are looking to have total control over the HPP experience, then the full card details API may be the option for you.
 
@@ -93,7 +95,7 @@ Unlike our other integration methods, the full card details API does not use car
 
 ## SDKs
 
-<img src="/products/hpp/images/mobile-sdk.svg" alt="SDKs" style="width: 120px; float: right;">
+<img src="/products/hpp/images/mobile-sdk.svg" alt="SDKs" style="width: 150px; float: right;">
 
 Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. We'll still take care of the processing side of things, and return tokenized payment information to you.
   
@@ -102,7 +104,7 @@ Whether you're processing payments on desktop or on mobile, our software develop
 
 ## Shopping carts
 
-<img src="/products/hpp/images/merchant.svg" alt="Shopping carts" style="width: 120px; float: right;">
+<img src="/products/hpp/images/merchant.svg" alt="Shopping carts" style="width: 150px; float: right;">
 
 Our payment gateway is integrated with many popular shopping cart platforms. Get up and running quickly, processing online payments with an ecommerce plugin.
 
