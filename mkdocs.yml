@@ -209,6 +209,7 @@ nav:
       #- Enfins: connectors/enfins/index.md
       - FlashPay: connectors/flashpay/index.md
       - Fondy: connectors/fondy/index.md
+      - Genome: connectors/genome/index.md
       - GeoPay: connectors/geopaynet/index.md
       - GlobalMoney: connectors/globalmoney/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
@@ -222,6 +223,7 @@ nav:
       - PayBox: connectors/paybox/index.md
       - Payeer: connectors/payeer/index.md
       - PayLink: connectors/paylink/index.md
+      #- Paylogic: connectors/paylogic/index.md
       - PayMega: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
       - PaymentCenter: connectors/paymentcenter/index.md   
@@ -238,6 +240,7 @@ nav:
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v0.60 (01/07/2019): release-notes/v0.60.md
     - v0.59 (15/04/2019): release-notes/v0.59.md
     - v0.58 (23/03/2019): release-notes/v0.58.md
     - v0.57 (11/03/2019): release-notes/v0.57.md

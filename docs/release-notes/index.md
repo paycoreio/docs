@@ -4,6 +4,18 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+
+## [v0.60 (01/07/2019)](v0.60/)
+
+* Platform-wide search upgrade
+* Commerce HPP Released
+* CardGate is added to the Dashboard
+* New features released
+* Layout upgrade
+* Merchant Portal application update
+* New Integrations
+* Bug fixes
+
 ## [v0.59 (15/04/2019)](v0.59/)
 * Platform-wide search released
 * UI/UX updates

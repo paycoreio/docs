@@ -19,52 +19,62 @@ The HTTP request that we make to your `callback_url` will have the following cha
 -   Request Body will be in  [JSON-API](https://jsonapi.org/)  format. It is the same as in public API. 
 -   The  object `type` and `id` will be in the body of the request (and not added as a url-parameter).
 
-This an example for payment-request operation callback data:
+This an example for Payout Invoice operation callback data:
 
 ```json
 {
    "data":{
-      "type":"payment-requests",
-      "id":"prq_tqyozP8kKzsEJlOd",
+      "type":"payment-invoices",
+      "id":"cpi_UoIW6RdSYyIRj8vR",
       "attributes":{
-         "amount":100,
-         "paid_amount":0,
-         "amount_readonly":true,
+         "status":"process_pending",
+         "resolution":"ok",
+         "moderation_required":false,
+         "amount":4,
+         "payment_amount":4,
          "currency":"UAH",
-         "reference_id":"",
-         "status":"pending",
-         "description":null,
-         "test_mode":true,
-         "expires":1542805481,
-         "created":1542803681,
-         "return_url":"http:\/\/senger.com\/",
-         "callback_url":"https:\/\/callback.site\/519d4455-7242-49e8-9178-4402d8894d08",
-         "feedback_code":null,
-         "feedback_message":null,
-         "feedback_updated":null
+         "service_currency":"UAH",
+         "reference_id":"e2041fe2-44da-44da-0090-4ffe9d2f25d0",
+         "test_mode":false,
+         "fee":0,
+         "deposit":4,
+         "processed":null,
+         "processed_amount":null,
+         "processed_fee":null,
+         "processed_deposit":null,
+         "metadata":[
+
+         ],
+         "flow_data":{
+            "action":"https://cardgate.example.io/hpp/2018e26d-8882-57f6-9a91-ac2acfeedbe3",
+            "method":"GET",
+            "params":[
+
+            ]
+         },
+         "flow":"hpp",
+         "created":1560889898,
+         "updated":1560889898,
+         "payload":[
+
+         ]
       },
       "relationships":{
-         "customer":{
-            "data":null
-         },
-         "payment-page":{
+         "payment-service":{
             "data":{
-               "type":"payment-pages",
-               "id":"pp_Eq6pIE1toeY2iNaL"
+               "type":"payment-services",
+               "id":"payment_card_uah_hpp"
             }
          },
-         "rate-schema":{
+         "payment-method":{
             "data":{
-               "type":"rate-schemes",
-               "id":"ers_hIarvFE52len2sMm"
-            }
-         },
-         "routing-schema":{
-            "data":{
-               "type":"checkout-routing-scheme",
-               "id":"rtg_Rwi971GvXLNJRvOo"
+               "type":"payment-methods",
+               "id":"payment_card"
             }
          }
+      },
+      "links":{
+         "self":"/api/payment-invoices/cpi_UoIW6RdSYyIRj8vR"
       }
    }
 }
