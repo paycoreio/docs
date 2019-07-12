@@ -1,16 +1,16 @@
-<img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=400" width="400px">
+<img src="https://static.openfintech.io/payment_providers/paylogic/logo.png?w=400" width="300px">
 
-# LeoGaming Connector
+# Pay-Logic Connector
 
 ## Introduction
 
-Here You can find  instructions for setting up **LeoGaming**  account.
+Here You can find  instructions for setting up **Pay-Logic**  account.
 
 ## Setup account
 
 #### Step 1 Create Agent and Point
 
-Contact with LeoGaming Support Manager to get help with creating. 
+Contact with Pay-Logic Support Manager to get help with creating. 
 
 
 #### Step 2: Configure Point
@@ -39,7 +39,7 @@ Contact with LeoGaming Support Manager to get help with creating.
     ![Point ID](images/point_id.png)
 
 - **Service ID**
-    - Ask LeoGaming Support Manager for this ID
+    - Ask Pay-Logic Support Manager for this ID
 
 - **Private Key**
     - Get Private key from Keys archive from **Step 2**
@@ -68,7 +68,7 @@ Contact with LeoGaming Support Manager to get help with creating.
 - Public Key (base64)
 
 !!! tip
-    Press **`Connect`** at LeoGaming **`Provider Overview page`** in **`New connection`** section to open Connection form!
+    Press **`Connect`** at Pay-Logic **`Provider Overview page`** in **`New connection`** section to open Connection form!
 
 
 #### Step 3: Set up additional parameters 
@@ -80,8 +80,8 @@ Contact with LeoGaming Support Manager to get help with creating.
 
 
 
-![Connect](images/leogaming_connect.png)
+![Connect](images/paylogic_connect.png)
 
 
 !!! success
-    You have connected **LeoGaming**!
+    You have connected **Pay-Logic**!
