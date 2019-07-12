@@ -209,7 +209,7 @@ nav:
       #- Enfins: connectors/enfins/index.md
       - FlashPay: connectors/flashpay/index.md
       - Fondy: connectors/fondy/index.md
-      - Genome: connectors/genome/index.md
+      #- Genome: connectors/genome/index.md
       - GeoPay: connectors/geopaynet/index.md
       - GlobalMoney: connectors/globalmoney/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
@@ -223,8 +223,8 @@ nav:
       - PayBox: connectors/paybox/index.md
       - Payeer: connectors/payeer/index.md
       - PayLink: connectors/paylink/index.md
-      #- Paylogic: connectors/paylogic/index.md
-      - PayMega: connectors/paymega/index.md
+      - Paylogic: connectors/paylogic/index.md
+      - PayMega.eu: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
       - PaymentCenter: connectors/paymentcenter/index.md   
       #- Payoneer: connectors/payoneer/index.md
