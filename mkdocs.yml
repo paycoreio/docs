@@ -209,7 +209,7 @@ nav:
       #- Enfins: connectors/enfins/index.md
       - FlashPay: connectors/flashpay/index.md
       - Fondy: connectors/fondy/index.md
-      #- Genome: connectors/genome/index.md
+      - Genome: connectors/genome/index.md
       - GeoPay: connectors/geopaynet/index.md
       - GlobalMoney: connectors/globalmoney/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
@@ -219,6 +219,7 @@ nav:
       #-MaxPay: connectors/maxpay/index.md
       #- MoneyMovers: connectors/moneymovers/index.md
       - Neteller: connectors/neteller/index.md
+      - Odysseq: connectors/odysseq/index.md
       - Parimatch: connectors/parimatch/index.md
       - PayBox: connectors/paybox/index.md
       - Payeer: connectors/payeer/index.md
