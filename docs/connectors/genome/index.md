@@ -7,12 +7,19 @@
 
 Here You can find  instructions for setting up **Genome**  account.
 
-## Setup account
+
+## Host2Host Payments
+
+### Setup account
 
 #### Step 1 Contact with Genome Support Manager
 
 
 #### Step 2: Get required credentials
+
+- Merchant Account Name
+- Merchant Account Password
+- Signature Key
 
 
 !!! success
@@ -28,6 +35,10 @@ Here You can find  instructions for setting up **Genome**  account.
 
 #### Step 2: Enter credentials
 
+- Merchant Account Name
+- Merchant Account Password
+- Signature Key
+
 
 !!! tip
     Press **`Connect`** at Genome **`Provider Overview page`** in **`New connection`** section to open Connection form!
@@ -36,10 +47,10 @@ Here You can find  instructions for setting up **Genome**  account.
 #### Step 3: Set up additional parameters 
 
 - Test mode
-- Currencies
+- Features (one option)
 
 !!! note
-    These parameters are set according to your Merchant account type and it's available currencies!
+    These parameters are set according to your Merchant account type!
 
 
 
