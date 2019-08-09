@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v0.60.25 (09/08/2019)](v0.60.25/)
+
+  * Global search re-launch
+  * Card Gate improvements
+  * Commerce upgrade
+  * Layout upgrade
+  * New integrations
+  * Performance improvements
 
 ## [v0.60 (01/07/2019)](v0.60/)
 
