@@ -6,6 +6,7 @@ This changelog lists releases by date and version number, along with associated 
 
 ## [v0.60.30 (16/08/2019)](v0.60.30/)
 
+  * Analytics boost
   * Commerce upgrade
   * Card Gate improvements
   * Layout upgrade
