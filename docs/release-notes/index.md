@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v0.60.37 (23/08/2019)](v0.60.37/)
+
+  * Cascading launch
+  * Ledger betterment
+  * New integrations
+  * Bug fixes
+
 ## [v0.60.30 (16/08/2019)](v0.60.30/)
 
   * Analytics boost
