@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v0.60.41 (30/08/2019)](v0.60.41/)
+
+* Payment retry feature
+* Commerce improvements
+* Integrations update
+* Bug fixes
+
 ## [v0.60.37 (23/08/2019)](v0.60.37/)
 
   * Cascading launch
