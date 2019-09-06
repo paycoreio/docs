@@ -1,39 +1,52 @@
 # Create your first payment & payout
 
 
-## Введение
+## Introduction
 
-Для совершения платежей и выплат ваш аккаунт должен быть должным образом сконфигурирован и иметь подключенные платежные провайдеры с активными платежными маршрутами.
+To execute payments and payouts, your account should be previously configured and have connected payment providers with active payment routes.
 
-Если вы не произвели настройку вашего аккаунта, перейдите на статью с его [быстрой конфигурацией](#).
+If you haven't set up your account yet, we recommend going to the ['Setting up'](docs/getting-started/setting-up-account.md) article at first.
 
+## Receiving your first payment
 
-## Приймите ваш первый платеж
+* **Step 1**. Go to ['Operations' → 'Payment invoices'](https://dashboard.paycore.io/operations/payment-invoices).
 
--   Шаг 1: Откройте "Операции" → "Платежи" ([https://dashboard.paycore.io/operations/payment-invoices](https://dashboard.paycore.io/operations/payment-invoices))
--   Шаг 2: Нажмите "+ Новый"
--   Шаг 3: Выберите Коммерческий аккаунт, Валюту, Сервис (тестовый), заполните поля и нажмите "Далее"
--   Шаг 4: Подтвердите создание операции.
--   Поздравляем! Ваш первый платеж совершен!
+![](images/accept-1st-payment1.png)
 
-![](images/create-payment-invoice-1.png "PayCore.io > Create your first payment & payout > Create payment invoice 1")
+* **Step 2**. Press **+New** button.
+* **Step 3**. Choose Commerce account, Currency, Service, fill in all the necessary fields and press **Next**.
 
-![](images/create-payment-invoice-2.png "PayCore.io > Create your first payment & payout > Create payment invoice 2")
+![](images/accept-1st-payment2.png)
 
+* **Step 4**. Confirm your operation
 
-## Совершите вашу первую выплату
+![](images/accept-1st-payment3.png)
 
--   Шаг 1: Откройте "Операции" → "Выплаты" ([https://dashboard.paycore.io/operations/payout-invoices](https://dashboard.paycore.io/operations/payout-invoices))
--   Шаг 2: Нажмите "+ Новая"
--   Шаг 3: Выберите Коммерческий аккаунт, Валюту, Сервис (тестовый), заполните поля и нажмите "Далее"
--   Шаг 4: Подтвердите создание операции.
--   Поздравляем! Ваша первая выплата совершина!
+Congratulations! You have just created your first payment invoice. If you send invoice's ID to your merchant HPP, you can also process this payment and see the Status page.
 
-![](images/create-payout-invoice-1.png "PayCore.io > Create your first payment & payout > Create payout invoice")
+![](images/accept-1st-payment4.png)
 
-![](images/create-payout-invoice-2.png "PayCore.io > Create your first payment & payout > Create payout invoice (5).png")
+![](images/accept-1st-payment5.png)
 
+## Make your first payout
 
-## Что дальше?
+* **Step 1**: Go to ['Operations' – 'Payout invoices'](https://dashboard.paycore.io/operations/payout-invoices).
 
-После успешного проведения операций в ручном режиме, предлагаем ознакомится с [технической интеграций по нашему API](#).
+![](images/make-1st-payout1.png)
+
+* **Step 2**: Press **+New**.
+* **Step 3**. Choose Commerce account, Currency, Service, fill in all the necessary fields and press **Create**.
+
+![](images/make-1st-payout2.png)
+
+* **Step 4**. Confirm your operation.
+
+![](images/make-1st-payout3.png)
+
+You have just created your first payout invoice!
+
+![](images/make-1st-payout4.png)
+
+## And what's next?
+
+Since you tried out the first manual transactions, we suggest going to the next stage and play with [API integration](/getting-started/play-with-api/).
