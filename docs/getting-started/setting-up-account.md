@@ -1,74 +1,94 @@
 
-## Введение
+# Set up your account
 
-Перед тем как начать взаимодействовать с PayCore.io вам необходимо провести базовую конфигурацию и подключить платежные провайдеры.
+## Intro
 
-Но для начала, вам необходимо зарегистрироваться и вам автоматически будет создан новый аккаунт организации.
+Before you start interacting with [PayCore.io](https://paycore.io), you need to carry out a basic configuration and connect payment providers.
 
+To get an account for the organisation just follow the steps below.
 
-## Регистрация
+## Registration
 
-![](images/signup.png "PayCore.io > Setting up account > PayCore io.png")
+Visit the [registration page](https://dashboard.paycore.io/register).
 
-Для регистрации в системе достаточно ввести email и предпочитаемый пароль и вы автоматически попадете в новый аккаунт организации.
+![](images/register.png "PayCore.io > Setting up account")
 
-После чего вы можете пригласить ваших коллег в эту организацию с различными ролями и доступами.
+Enter an **email** address and **password**. A new account of the user and the linked organisation's account will be created automatically. 
 
-Детальнее об аккаунте организации и его настройках вы можете ознакомится в разделе "Account".
+!!! note
+    One user account can be a member of any number of organisations.
 
+Click on the avatar in the top right corner and set up user profile and preferences for working with the platform. 
 
-## Подключение платежных провадеров
+![](images/user-profile.png)
 
-![](images/connectors.png "PayCore.io > Setting up account > Payment providers (8).png")
+Manage organisation settings in the Organisation section.
 
-После успешной регистрации для полноценной работы системы вам необходимо подключить платежные провайдеры в которых вы имеете мерчант-аккаунты.
+![](images/organization-profile.png)
 
-Если платежного провайдера нет в списке доступных или коннектор не реализован, вы всегда можете обратиться к нам за помощью и он будет добавлен в максимально короткий срок.
+The first connected contact for the organisation is an **Owner** who serves as default primary contact and has all user permissions. 
 
-Со списком всех реализованных подключений вы можете ознакомится в разделе "Connectors" ([https://docs.paycore.io/connectors/](https://docs.paycore.io/connectors/)).
+The next step after creating your account is to invite your team members to your organisation. A **Member** can access all **Commerce Accounts** within an **Organisation**.
+ 
+Also, if you're an Account Owner, later you can transfer account ownership to any other user who has access to the account.
 
-Для подключение платежного провайдера выполните следующие действия:
+For more information, you can read the section [‘Account’](https://dashboard.paycore.io/organization/settings/access-roles).
 
--   Откройте каталог подключений платежных провайдеров.
--   Выберите необходимый провайдер и нажмите "Подключить".
--   Каждый коннектор имеет уникальные свойства и список необходимых параметров для подключения, с котороыми вы можете ознакомится в его инструкции подлючения.
--   В момент подключения аккаунта, система проверит их валидность, проведет синхронизацию доступных для него платежных маршрутов, маршрутов выплат, балансов и опций.
+## Connecting a payment provider
 
-Для быстрого тестирования системы мы предлагаем подключить тестовое подключение (Test connector) в 2 клика! После подключения, для вас будут доступны тестовые платежные маршруты и маршруты выплат.
+After successful registration, you need to connect your existing merchant accounts (MIDs) whether in the same or different payment providers to [PayCore.io](https://paycore.io). You can connect any number of different merchant accounts to your [PayCore.io account](https://dashboard.paycore.io/commerce/accounts).
 
-Что бы убедится, что аккаунт правильно сконфигурирован, вам необходимо проверить наличие активных платежных маршрутов в каждом из шлюзов соответственно:
+But before that, it is necessary to connect the first provider and create routing schemes for payments and payouts.  
 
--   Для платежного шлюза — [https://dashboard.paycore.io/payment-gateway/payment-routes](https://dashboard-dev.paycore.io/payment-gateway/payment-routes)
--   Для шлюза выплат — [https://dashboard.paycore.io/payment-gateway/payment-routes](https://dashboard-dev.paycore.io/payment-gateway/payment-routes)
+The list of all available integrations can be found in the [Connectors](https://docs.paycore.io/connectors/). 
 
-Внимание! Учитывайте, что для тестового режима отображения данных отображаются только тестовые маршруты.
+To connect a **Payment Provider**, follow these steps:
 
-Детальнее о тестовом режиме вы можете ознакомится в разделе "[Тестирование](http://confluence.paymaxi.com)" ([https://docs.paycore.io/connectors/test/](https://docs.paycore.io/connectors/test/)).
+1. Click on [New Connection](https://dashboard.paycore.io/connect-directory/payment-providers) section to access providers directory.
+2. Select the desired provider and click on its logo. Payment providers, that are available for connection, are marked with `Ready` flag in the top right corner. Contact our [Customer Support](mailto:support@paycore.io) if you don’t find a payment provider in the list of payment providers or integration is not yet implemented. We will do our best to deliver it right for you as soon as possible, generally under 7 business days.
+![](images/connectors.png)
+3. Each connector has its unique properties and account credentials to connect. For more information please follow the steps of the accompanying [connection guide](https://docs.paycore.io/connectors/) for every provider to set up the connection properly. Once you set up everything, you must click **Save** to get online with the payment provider. To quickly test your integration with PayCore.io, you may connect a **Test Connector** in 2 clicks! 
+![](images/test-connector.png)
+4. Immediately afterwards, PayCore.io will automatically check all available payment methods, payment and payout routes in supported currencies for your merchant account in the payment provider or acquirer. Now all is done!
+
+## Creating routing schemes
+
+After connecting to a payment provider, you need to set up **[Payment](https://dashboard.paycore.io/payment-gateway/payment-routes)** and **[Payout](https://dashboard.paycore.io/payment-gateway/payment-routes) Gateways**. 
+
+When you create a **routing scheme**, you need only to name it and all your connected payment methods will be automatically linked and enabled here. You can choose which of them you want to use in that scheme, set up routes and choose a strategy and conditions. Click on the right line to go to the level below ([Routing Scheme] &rarr; [Service] &rarr; [Rule] or [Route]).
+
+![](images/payment-routing-scheme.png)
+
+![](images/scheme.png)
+
+![](images/rules-n-routes.png)
+
+![](images/payment-rule.png)
+
+![](images/payment-routes-eg.png)
+
+**Payout schemes** are created in the same way as **Payment schemes**.
+
+[PayCore.io](https://paycore.io) has a **Test Mode** you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. You should use the same accounts in test and live modes when testing your integration. It makes testing more consistent across the two modes, and you don't have to maintain as many accounts. 
+
+Whether a transaction was created in the test or live mode is dictated by which API keys. ***Keep in mind*** that in Test Mode only test routes will be available.
 
 ![](images/payout-routes.png "PayCore.io > Setting up account > Payout routes")
 
+## Connecting a commerce account
 
-## Создание коммерческого аккаунта
+After setting up at least one payment scheme and at least one payout scheme, you can create a **Commerce scheme** to link them for commerce accounts. You also can create an [exchange rate scheme](https://dashboard.paycore.io/fx-rates/schemes) beforehand or use the default system scheme instead.
 
-В рамках одной организации может быть множество вебсайтов, проектов, магазинов, витрин, бизнес аккаунтов, точек продаж и т.п.. Для учета всех операций для каждого из них, используется **Коммерческий аккаунт**.
+![](images/commerce-scheme.png)
 
-**Коммерческий аккаунт** — это учетная запись, для которой учитываются все совершенные операции по приему платежей и выплатам в рамках всей вашей организации.
+You can always change the Commerce scheme for a Commerce account if you wish.
 
-Для каждого **Коммерческого аккаута** можно задать индивидуальные бизнес-правила обработки операций и доступные ему платежные сервисы.
+A **Commerce Account** is used by the organisation to account all websites, projects, stores, storefronts, business accounts, points of sale, etc. You can set individual rules for each Commerce Account, processing transactions and payment services available in it.
 
-Конфигурация бизнес правил для **Коммерческого аккаунта** задается в **Коммерческой схеме**.
+![](images/commerce-account.png)
 
-**Коммерческая схема** отвечает за доступные для **Коммерческого аккаунта** базовые валюты, схемы маршрутизации, схемы валютных курсов, индивидуальные комиссии соответственно для платежей и выплат.
+To create a new [Commerce Account](https://dashboard.paycore.io/commerce/accounts), it is enough to simply indicate its name, the Commerce scheme used and the base currencies available for it. If you are a Business plan user, you can additionally enable a Ledger scheme for better understanding and monitoring the flow of funds. 
 
-При подключении первого платежного провайдера автоматически создается **Коммерческая схема** по умолчанию, которая включает в себя все доступные платежные маршруты и маршруты выплат. При желании, вы всегда можете сменить для Коммерческого аккаунта Коммерческую схему.
+Congratulations! Your account is set up and ready to go!
 
-Для создания нового **Коммерческого аккаунта** достаточно просто указать его название, используемую **Коммерческую схему** и доступные для него базовые валюты.
-
-Создайте ваш первый Коммерческий аккаунт в [Dashboard](https://dashboard.paycore.io/commerce/accounts) и перейдите к следующей главе, где мы проведем ваш первый платеж и совершим первую выплату!
-
-![](images/commerce-accounts.png "PayCore.io > Setting up account > Commerce accounts")
-
-
-## Поздравляем! Ваш аккаунт настроен и готов к работе!
-
-После успешной конфиругации и подключении платежных провайдеров предлагаем [провести первые операции на прием платежей и выплаты](http://confluence.paymaxi.com).
+When the account is set, we offer to carry out the first operations to [receive payments and payouts](/getting-started/first-payment/).
