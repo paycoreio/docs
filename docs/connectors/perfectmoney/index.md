@@ -8,18 +8,15 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 
 ## Setup account
 
-
-
-
 ### Step 1: Open Commerce setting
 
 ![Verify](images/perfmoney-verify1.png)
 
 ### Step 2: Verify your business account
 
-    ![Verify](images/perfmoney-verify2.png)
+![Verify](images/perfmoney-verify2.png)
 
-    ![Verify](images/perfmoney-verify3.png)
+![Verify](images/perfmoney-verify3.png)
 
 !!! tip
     You just need to verify **all documents** and **additional info**, which is necessary for successful setting up an account!

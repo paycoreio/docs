@@ -197,18 +197,27 @@ nav:
       - Manual: connectors/manual/index.md
       - 123x: connectors/123x/index.md
       - 4bill: connectors/4bill/index.md
+      - Accentpay: connectors/accentpay/index.md
+      - ADgroup: connectors/adgroup/index.md
       - AdvCash: connectors/advcash/index.md
+      - Alfa Bank: connectors/alfabank/index.md
       - AnyCash: connectors/anycash/index.md
       #- AustralPay: connectors/australpay/index.md
+      - CardGate: connectors/cardgate/index.md
       - CardPay: connectors/cardpay/index.md
       - Certus Finance: connectors/certusfinance/index.md
       - CoinGate: connectors/coingate/index.md
       #- CoinPayments:connectors/coinpayments/index.md
+      - Concord Bank: connectors/concord/index.md
+      - Connectum: connectors/connectum/index.md
+      - Decta: connectors/decta/index.md
       - dLocal: connectors/dlocal/index.md
       - EasyBits.io: connectors/easybits/index.md
       #- Enfins: connectors/enfins/index.md
+      - ePay: connectors/epay/index.md
       - FlashPay: connectors/flashpay/index.md
       - Fondy: connectors/fondy/index.md
+      - Forward Bank: connectors/forwardbank/index.md
       - Genome: connectors/genome/index.md
       - GeoPay: connectors/geopaynet/index.md
       - GlobalMoney: connectors/globalmoney/index.md
@@ -216,7 +225,7 @@ nav:
       - Interkassa: connectors/interkassa/index.md
       - Leogaming: connectors/leogaming/index.md
       - LiqPay: connectors/liqpay/index.md
-      #-MaxPay: connectors/maxpay/index.md
+      - MaxPay: connectors/maxpay/index.md
       #- MoneyMovers: connectors/moneymovers/index.md
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
@@ -233,10 +242,13 @@ nav:
       - PaySec: connectors/paysec/index.md
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
+      - Procard: connectors/procard/index.md
       - SatchelPay: connectors/satchelpay/index.md
-      #- Safecharge: connectors/safecharge/index.md
+      - SafeCharge: connectors/safecharge/index.md
       - Skrill: connectors/skrill/index.md
+      - TKB pay: connectors/tkbpay/index.md
       - Tranzzo: connectors/tranzzo/index.md
+      - UAPay: connectors/uapay/index.md
       - Wirecapital: connectors/wirecapital/index.md
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
