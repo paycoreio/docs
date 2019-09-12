@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Here You can find  instructions for setting up **NAME**  account.
+For setting up connection with **NAME** payment provider, follow the instructions below.
 
 ## Setup account
 
