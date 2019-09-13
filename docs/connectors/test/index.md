@@ -30,7 +30,7 @@ Use any combination of printable characters (letters, digits, punctuation) up to
 
 ### Host-to-host merchant account
 
-### Step 1. Enter credentials
+#### Step 1. Enter credentials
 
 - External Code
 
