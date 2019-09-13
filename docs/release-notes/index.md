@@ -6,7 +6,6 @@ This changelog lists releases by date and version number, along with associated 
 
 ## [v1.0 13/09/2019](v1.0/)
 
-
 * Commerce enhancements
 * Card Gate Test environment
 * Integrations update
