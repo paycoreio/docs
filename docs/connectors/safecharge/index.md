@@ -51,9 +51,9 @@ Go to the **Account Settings** and find:
     These parameters are set according to your Merchant account type!
 
 
-
+<!--
 ![Connect](images/safecharge_connect.png)
-
+-->
 
 !!! success
     You have connected **SafeCharge**!
