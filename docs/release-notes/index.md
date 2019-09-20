@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v1.1.0 20/09/2019](v1.1.0/)
+
+* Refund option
+* System updates
+* UI/UX improvements
+* New integration
+* Bug fixes 
+
 ## [v1.0 13/09/2019](v1.0/)
 
 * Commerce enhancements

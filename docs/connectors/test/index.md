@@ -64,7 +64,6 @@ You can use the **Test** H2H merchant account to test Card Gate connection. We p
 | 5123817234060000 | any | any | yes| success (`processed`) |
 | 5519283812030000 | any | any | no | success (`processed`) |
 | 4412397212080000 | any | defined * |  yes | fail (`process_failed`) |
-| 
 
 \* Test different type of responses and Payment Retry with relevant values of the expiry date:
 
