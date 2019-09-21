@@ -226,6 +226,7 @@ nav:
       - Leogaming: connectors/leogaming/index.md
       - LiqPay: connectors/liqpay/index.md
       - MaxPay: connectors/maxpay/index.md
+      - Mercuryo: connectors/mercuryo/index.md
       #- MoneyMovers: connectors/moneymovers/index.md
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
@@ -243,8 +244,8 @@ nav:
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
       - Procard: connectors/procard/index.md
-      - SatchelPay: connectors/satchelpay/index.md
       - SafeCharge: connectors/safecharge/index.md
+      - SatchelPay: connectors/satchelpay/index.md     
       - Skrill: connectors/skrill/index.md
       - TKB pay: connectors/tkbpay/index.md
       - Tranzzo: connectors/tranzzo/index.md
