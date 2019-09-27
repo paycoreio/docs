@@ -213,6 +213,7 @@ nav:
       - Decta: connectors/decta/index.md
       - dLocal: connectors/dlocal/index.md
       - EasyBits.io: connectors/easybits/index.md
+      - Ecopayz: connectors/ecopays/index.md
       #- Enfins: connectors/enfins/index.md
       - ePay: connectors/epay/index.md
       - FlashPay: connectors/flashpay/index.md
