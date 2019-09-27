@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v1.3.4 27/09/2019](v1.3.4/)
+
+* Data export
+* Integrations' updates
+* General improvements and bug fixes
+
 ## [v1.1.0 20/09/2019](v1.1.0/)
 
 * Refund feasibility
