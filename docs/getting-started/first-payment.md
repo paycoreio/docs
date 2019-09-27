@@ -5,11 +5,7 @@
 
 To execute payments and payouts, your account should be previously configured and have connected payment providers with active payment routes.
 
-<<<<<<< HEAD
-If you haven't set up your account yet, we recommend going to the ['Setting up'](docs/getting-started/setting-up-account.md) article at first.
-=======
 If you haven't set up your account yet, we recommend going to the ['Setting up'](/getting-started/setting-up-account/) article at first.
->>>>>>> 41ce20adc9aaf9e1117656a8fd005c4db42d8259
 
 ## Receiving your first payment
 
