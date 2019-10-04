@@ -4,6 +4,8 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v1.3.9 04/10/2019](v1.3.9/)
+
 ## [v1.3.4 27/09/2019](v1.3.4/)
 
 * Data export
