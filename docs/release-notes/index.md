@@ -6,6 +6,11 @@ This changelog lists releases by date and version number, along with associated 
 
 ## [v1.3.9 04/10/2019](v1.3.9/)
 
+* System UX betterment
+* Card Gate upgrades
+* Integration improvements
+* Bug fixes
+
 ## [v1.3.4 27/09/2019](v1.3.4/)
 
 * Data export
