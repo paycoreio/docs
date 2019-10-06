@@ -49,4 +49,4 @@ You have just created your first payout invoice!
 
 ## And what's next?
 
-Since you tried out the first manual transactions, we suggest going to the next stage and play with [API integration](/getting-started/play-with-api/).
+Since you tried out the first manual transactions, we suggest going to the next stage and play with [API integration](/integration/).
