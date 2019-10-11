@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes. 
 
+## [v1.3.12 11/10/2019](v1.3.12/)
+
+* Commerce improvements.
+* New integrations.
+* Bug fixes.
+
 ## [v1.3.9 04/10/2019](v1.3.9/)
 
 * System UX betterment
