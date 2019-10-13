@@ -2,7 +2,7 @@
 
 # Paymentwall Connector
 
-**Site**: [paymentwall.com](https://www.paymentwall.com/en)
+**Website**: [paymentwall.com](https://www.paymentwall.com/en)
 
 !!! question "Looking for help connecting your Paymentwall account?"
     [Please contact our support team!](mailto:support@paycore.io)
