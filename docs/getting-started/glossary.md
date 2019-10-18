@@ -980,6 +980,7 @@ A marketing strategy to get the customers to buy a more expensive product or add
 ### Voice-activated Banking
 
 **Voice banking** is a process that allows a person to record a set list of phrases with their voice, using the recording to create a personal synthetic voice.
+
 <!--
 ## W
 
