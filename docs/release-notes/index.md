@@ -5,6 +5,11 @@
 This changelog lists releases by date and version number, along with associated changes. 
 
 ## [v1.3.14 18/10/2019](v1.3.14/)
+* Card data tokenization
+* New integrations
+* Performance Improvements
+
+## [v1.3.14 18/10/2019](v1.3.14/)
 * UX/UI improvements
 * Commerce upgrades
 * Integration update
