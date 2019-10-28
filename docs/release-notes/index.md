@@ -1,15 +1,17 @@
-# PayCore.io Release notes 
+# PayCore.io Release notes
 
-**PayCore.io** regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**. 
+**PayCore.io** regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
 
-This changelog lists releases by date and version number, along with associated changes. 
+This changelog lists releases by date and version number, along with associated changes.
 
-## [v1.3.14 18/10/2019](v1.3.14/)
+## [v1.3.17 25/10/2019](v1.3.17/)
+
 * Card data tokenization
 * New integrations
 * Performance Improvements
 
 ## [v1.3.14 18/10/2019](v1.3.14/)
+
 * UX/UI improvements
 * Commerce upgrades
 * Integration update
@@ -40,14 +42,14 @@ This changelog lists releases by date and version number, along with associated 
 * System updates
 * UI/UX improvement
 * New integration
-* Bug fixes 
+* Bug fixes
 
 ## [v1.0 13/09/2019](v1.0/)
 
 * Commerce enhancements
 * Card Gate Test environment
 * Integrations update
-* Performance betterment and bug fixes 
+* Performance betterment and bug fixes
 
 ## [v0.61.5 (06/09/2019)](v0.61.5/)
 
@@ -64,29 +66,29 @@ This changelog lists releases by date and version number, along with associated 
 
 ## [v0.60.37 (23/08/2019)](v0.60.37/)
 
-  * Cascading launch
-  * Ledger betterment
-  * New integrations
-  * Bug fixes
+* Cascading launch
+* Ledger betterment
+* New integrations
+* Bug fixes
 
 ## [v0.60.30 (16/08/2019)](v0.60.30/)
 
-  * Analytics boost
-  * Commerce upgrade
-  * Card Gate improvements
-  * Layout upgrade
-  * Merchant Portal upgrade
-  * New integrations
-  * Performance improvements and bug fixes
+* Analytics boost
+* Commerce upgrade
+* Card Gate improvements
+* Layout upgrade
+* Merchant Portal upgrade
+* New integrations
+* Performance improvements and bug fixes
 
 ## [v0.60.25 (09/08/2019)](v0.60.25/)
 
-  * Global search re-launch
-  * Card Gate improvements
-  * Commerce upgrade
-  * Layout upgrade
-  * New integrations
-  * Performance improvements
+* Global search re-launch
+* Card Gate improvements
+* Commerce upgrade
+* Layout upgrade
+* New integrations
+* Performance improvements
 
 ## [v0.60 (01/07/2019)](v0.60/)
 
@@ -100,6 +102,7 @@ This changelog lists releases by date and version number, along with associated 
 * Bug fixes
 
 ## [v0.59 (15/04/2019)](v0.59/)
+
 * Platform-wide search released
 * UI/UX updates
 * Analytics upgrade
@@ -107,7 +110,6 @@ This changelog lists releases by date and version number, along with associated 
 * Telegram Bot upgrade
 * New Integrations
 * Bug fixes
-
 
 ## [v0.58 (23/03/2019)](v0.58/)
 
@@ -125,7 +127,7 @@ This changelog lists releases by date and version number, along with associated 
 * Merchant SDK.js
 * New integration
 
-    * [payeer.com (Payout gateway)](/connectors/payeer)
+  * [payeer.com (Payout gateway)](/connectors/payeer)
 
 * Improvements and Bug fixes
 
@@ -133,27 +135,27 @@ This changelog lists releases by date and version number, along with associated 
 
 * New Commerce feature released
 
-    * Commerce Account
-    * Contract Scheme
-    * Currency Account
-    * Ledger
-    * Payment and Payout Invoice
-    * Deposit, Widthrawal, Transfer
+  * Commerce Account
+  * Contract Scheme
+  * Currency Account
+  * Ledger
+  * Payment and Payout Invoice
+  * Deposit, Widthrawal, Transfer
 
 * New UI/UX
 
-    * Navigation reorganised
-    * Organisation update
-    * User profile update
+  * Navigation reorganised
+  * Organisation update
+  * User profile update
 
 * New Integrations
 
-    * [cardpay.com](/connectors/cardpay)
-    * [dlocal.com](/connectors/dlocal)
-    * [payment.center](/connectors/paymentcenter)
-    * [paysec.com](/connectors/paysec)
-    * [perfectmoney.is](/connectors/perfectmoney)
-    * [xpay.com.ua](/connectors/xpayua)
+  * [cardpay.com](/connectors/cardpay)
+  * [dlocal.com](/connectors/dlocal)
+  * [payment.center](/connectors/paymentcenter)
+  * [paysec.com](/connectors/paysec)
+  * [perfectmoney.is](/connectors/perfectmoney)
+  * [xpay.com.ua](/connectors/xpayua)
 
 * API updates
 * Performance improvements
@@ -162,6 +164,6 @@ This changelog lists releases by date and version number, along with associated 
     Read more about [Software Versioning <i class="md-icon">launch</i>](https://semver.org).
 
 !!! question
-    We are always here to hear your thoughts, questions, and feedback! 
+    We are always here to hear your thoughts, questions, and feedback!
 
     Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)
