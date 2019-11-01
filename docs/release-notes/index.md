@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.3.21 01/11/2019](v1.3.21/)
+
+* Commerce update
+* Card Gate betterment:
+* Bug fixes
+
 ## [v1.3.17 25/10/2019](v1.3.17/)
 
 * Card data tokenization
