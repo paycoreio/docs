@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.4.2 08/11/2019](v1.4.2/)
+
+* Hosted payment page v2.0
+* Dashboard UX betterment
+* Card Gate enhancements
+* New integrations
+* Performance improvements
+
 ## [v1.3.21 01/11/2019](v1.3.21/)
 
 * Commerce update
