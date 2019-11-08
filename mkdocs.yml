@@ -242,6 +242,7 @@ nav:
       - Paymentwall: connectors/paymentwall/index.md   
       #- Payoneer: connectors/payoneer/index.md
       - PayPal: connectors/paypal/index.md
+      - paysafecard: connectors/paysafecard/index.md
       - PaySec: connectors/paysec/index.md
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md

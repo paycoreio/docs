@@ -146,7 +146,7 @@ This changelog lists releases by date and version number, along with associated 
   * Currency Account
   * Ledger
   * Payment and Payout Invoice
-  * Deposit, Widthrawal, Transfer
+  * Deposit, Withdrawal, Transfer
 
 * New UI/UX
 
