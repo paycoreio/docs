@@ -258,6 +258,7 @@ nav:
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.4.4 (15/11/2019): release-notes/v1.4.4.md
     - v1.4.2 (08/11/2019): release-notes/v1.4.2.md
     - v1.3.21 (01/11/2019): release-notes/v1.3.21.md
     - v1.3.17 (25/10/2019): release-notes/v1.3.17.md
