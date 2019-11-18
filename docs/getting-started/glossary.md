@@ -713,17 +713,44 @@ A third party that helps [merchants](#merchant) accept and facilitate payments.
 !!! info
     Payment service providers partner with [acquiring banks](#acquiring-bank) to offer merchants the capability to accept payments. Payment Service Providers often offer services in addition to processing transactions. These services include [Payment Card Industry Data Security Standard (PCI)](#payment-card-industry-data-security-standard-pci) compliance, fraud protection and the ability to process different currencies and translate different languages.
 
-<!--
 ### Payout
+
+The transaction refers to the financial return or monetary disbursement of investment or annuity.
+
+<!--
 ### Payout Batch
 ### Payout Batch Item
 ### Payout Gateway
 ### Payout Invoice
 ### Payout Method
 ### Payout Method currency
+-->
+
 ### Payout Point
+
+An aggregation entity that sets a configuration for processing a payout request through links to the exchange rate scheme and the routing scheme that are set for it.
+
 ### Payout Request
+
+Operation for abstraction from route and payout. Allows dynamic routing and failover for [payouts](#payout).
+
+### Payout Request Event Log
+
+Event log for a specific request for [payout](#payout). Gives detailed information about the process for requesting payout.
+
+<!--
 ### Payout Route
+-->
+
+### Payout Routing Scheme
+
+An aggregation entity responsible for routing configuration. Consists of a set of routing rules for each payout method.
+
+### Payout Routing Rule
+
+Route processing rule for the payout method currency. Sets the route processing strategy and the conditions under which this strategy will be active.
+
+<!--
 ### Payout Service 
 ### Pending balance
 ### Permission
