@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.4.8 22/11/2019](v1.4.8/)
+
+* Commerce enhancements
+* Merchant App update
+* Integration upgrade
+* Bug Fixes
+
 ## [v1.4.4 15/11/2019](v1.4.4/)
 
 * Card Gate update
@@ -22,7 +29,7 @@ This changelog lists releases by date and version number, along with associated 
 ## [v1.3.21 01/11/2019](v1.3.21/)
 
 * Commerce update
-* Card Gate betterment:
+* Card Gate betterment
 * Bug fixes
 
 ## [v1.3.17 25/10/2019](v1.3.17/)
