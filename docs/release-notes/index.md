@@ -6,117 +6,117 @@ This changelog lists releases by date and version number, along with associated 
 
 ## [v1.4.8 22/11/2019](v1.4.8/)
 
-* Commerce enhancements
-* Merchant App update
-* Integration upgrade
-* Bug Fixes
+* [Commerce enhancements](v1.4.8/#commerce-enhancements): extended the list of resolutions, added bulk callbacks
+* [Merchant App update](v1.4.8/#merchant-app-update): added card data to the payments
+* [Integration upgrade](v1.4.8/#integration-upgrade): Twelve.live H2H-connection
+* [Bug Fixes](v1.4.8/#bug-fixes)
 
 ## [v1.4.4 15/11/2019](v1.4.4/)
 
-* Card Gate update
-* Merchant App update
-* New integrations
-* Performance improvements
+* [Card Gate](v1.4.4/#card-gate-update): added the payment retry after declining transaction by the bank-acquirer
+* [Merchant App](v1.4.4/#merchant-app-update): added the data export for payments and payouts
+* [New integrations](v1.4.4/#new-integrations): Exactly, Twelve.live
+* [Performance improvements](v1.4.4/#performance-improvements)
 
 ## [v1.4.2 08/11/2019](v1.4.2/)
 
-* Hosted payment page v2.0
-* Dashboard UX betterment
-* Card Gate enhancements
-* New integrations
-* Performance improvements
+* [Hosted payment page v2.0](v1.4.2/#hpp-v20): improved and reorganized service
+* [Dashboard UX betterment](v1.4.2/#dashboard-ux-betterment): reorganized system of filters
+* [Card Gate enhancements](v1.4.2/#card-gate-enhancements): added modifiers to routing schemes, pull statements option, payments by tokens
+* [New integrations](v1.4.2/#new-integrations): Ecopays, paysafecard
+* [Performance improvements](v1.4.2/#performance-improvements)
 
 ## [v1.3.21 01/11/2019](v1.3.21/)
 
-* Commerce update
-* Card Gate betterment
-* Bug fixes
+* [Commerce updates](v1.3.21/#commerce-updates): added Merchant Portal's configuration tab, changed callbacks' lifetime
+* [Card Gate betterment](v1.3.21/#card-gate-betterment): added possibility to make payouts by card tokens
+* [Bug fixes](v1.3.21/#bug-fixes)
 
 ## [v1.3.17 25/10/2019](v1.3.17/)
 
-* Card data tokenization
-* New integrations
-* Performance Improvements
+* [Card data tokenization](v1.3.17/#card-data-tokenization): added the possibility to replace sensitive customer data with a token
+* [New Integrations](v1.3.17/#integration-upgrade): Wonderlandpay H2H connection, Paymentwall Refunds
+* [Performance Improvements](v1.3.17/#performance-improvements): we have successfully improved our products' performance and resolved revealed issues
 
 ## [v1.3.14 18/10/2019](v1.3.14/)
 
-* UX/UI improvements
-* Commerce upgrades
-* Integration update
-* Bug Fixes
+* [UX/UI improvements](v1.3.14/#uxui-improvements): reorganised dashboard menu
+* [Commerce upgrades](v1.3.14/#commerce-upgrades): additional options in the commerce account settings
+* [Integration update](v1.3.14/#integration-upgrade): ePay advanced protocol
+* [Bug Fixes](v1.3.14/#performance-betterment-and-bug-fixes).
 
 ## [v1.3.12 11/10/2019](v1.3.12/)
 
-* Commerce improvements
-* New integrations
-* Bug fixes
+* [Commerce improvements](v1.3.12/#commerce-improvements): updated setting up of payments' expiry date
+* [New integrations](v1.3.12/#new-integrations): Alfa-Bank Payout gateway, Paymentwall Host-to-host connection
+* [Bug Fixes](v1.3.12/#bug-fixes)
 
 ## [v1.3.9 04/10/2019](v1.3.9/)
 
-* System UX betterment
-* Card Gate upgrades
-* Integration improvements
-* Bug fixes
+* [System UX Betterment](v1.3.9/#system-ux-betterment): allocated *P2P payments* and *Payment requests*, added search through the routing schemes by name
+* [Card Gate Upgrades](v1.3.9/#card-gate-upgrades): added *Payment invoices* tab, Original provider code is attached for card payment's data
+* [Integration Improvements](v1.3.9/#integration-improvements): refunds for Tranzzo, Concord Bank and Procard
+* [Bug Fixes](v1.3.9/#bug-fixes): we pursue our effort on fighting deficiencies
 
 ## [v1.3.4 27/09/2019](v1.3.4/)
 
-* Data export
-* Integrations' updates
-* General improvements and bug fixes
+* [Data Export](v1.3.4/#data-export): added export tools for Payment and Payout Invoices
+* [Integrations' Updates](v1.3.4/#new-integrations): EcoPayz, Alfa-Bank
+* [General Improvements and Bug Fixes](v1.3.4/#system-improvements)
 
 ## [v1.1.0 20/09/2019](v1.1.0/)
 
-* Refund feasibility
-* System updates
-* UI/UX improvement
-* New integration
-* Bug fixes
+* [Refund Feasibility](v1.1.0/#refund-a-payment): Refund option is available now
+* [System Updates](v1.1.0/#system-updates): streamlined routes for sending Description and Descriptor of a payment. Also, added Original Data as expanded data in Callbacks
+* [UI/UX Improvements](v1.1.0/#ui-improvements): Setup a theme for Card Gate HPP
+* [New Integration](v1.1.0/#new-integration): Mercuryo
+* [Bug Fixes](v1.1.0/#bug-fixes)
 
 ## [v1.0 13/09/2019](v1.0/)
 
-* Commerce enhancements
-* Card Gate Test environment
-* Integrations update
-* Performance betterment and bug fixes
+* [Commerce enhancements](v1.0/#commerce-enhancements): a batch of new events in the *Activity Log* and settings for Payment Retry and Cascading in the Dashboard
+* [Card Gate Test environment](v1.0/#test-environment-upgrade): try Test card numbers for payments setup
+* [Integrations update](v1.0/#integrations-update): Piastrix improvements
+* [Performance betterment and bug fixes](v1.0/#performance-improvements)
 
 ## [v0.61.5 (06/09/2019)](v0.61.5/)
 
-* Commerce upgrade
-* New integrations and methods
-* Bug fixes
+* [Commerce upgrade](v0.61.5/#commerce-upgrade): advanced search and new filters for payment and payout screens. Also, additional options of batch payouts were moved to the account settings
+* [New integrations and methods](v0.61.5/#new-integrations): UAPay, Piastrix
+* [Bug fixes](v0.61.5/#performance-improvements).
 
 ## [v0.60.41 (30/08/2019)](v0.60.41/)
 
-* Payment retry feature
-* Commerce improvements
-* Integrations update
-* Bug fixes
+* [Payment Retry feature is added](v0.60.41/#payment-retry-feature): to retry incomplete or refused payments without leaving the payment page
+* [Commerce improvements](v0.60.41/#dynamic-descriptor): added a dynamic descriptor to the payment
+* [Integrations Update](v0.60.41/#integrations-update): supporting new features
+* [Bug fixes](v0.60.41/#performance-improvements)
 
 ## [v0.60.37 (23/08/2019)](v0.60.37/)
 
-* Cascading launch
-* Ledger betterment
-* New integrations
-* Bug fixes
+* [Cascading launch](v0.60.37/#cascading-launch): the key technology to support executing transactions through the alternative gateway now available for testing
+* [Ledger betterment](v0.60.37/#ledger-betterment): boosted up and optimised processes
+* [New integrations](v0.60.37/#new-integrations) with Decta and SafeCharge
+* [Bug fixes](v0.60.37/#bug-fixes). A batch of irritating bugs was found and cleared!
 
 ## [v0.60.30 (16/08/2019)](v0.60.30/)
 
-* Analytics boost
-* Commerce upgrade
-* Card Gate improvements
-* Layout upgrade
-* Merchant Portal upgrade
-* New integrations
-* Performance improvements and bug fixes
+* [Analytics boost](v0.60.30/#analytics-boost)
+* [Commerce upgrade](v0.60.30/#commerce-upgrade)
+* [Card Gate improvements](v0.60.30/#card-gate-improvements)
+* [Layout upgrade](v0.60.30/#layout-upgrade)
+* [Merchant Portal upgrade](v0.60.30/#merchant-portal-upgrade)
+* [New integrations](v0.60.30/#new-integrations)
+* [Performance improvements and bug fixes](v0.60.30/#performance-improvements)
 
 ## [v0.60.25 (09/08/2019)](v0.60.25/)
 
-* Global search re-launch
-* Card Gate improvements
-* Commerce upgrade
-* Layout upgrade
-* New integrations
-* Performance improvements
+* [Global search re-launch](v0.60.25/#global-search-re-launch)
+* [Card Gate improvements](v0.60.25/#card-gate-improvements)
+* [Commerce upgrade](v0.60.25/#commerce-upgrade)
+* [Layout upgrade](v0.60.25/#layout-upgrade)
+* [New integrations](v0.60.25/#new-integrations)
+* [Performance improvements](v0.60.25/#performance-developments)
 
 ## [v0.60 (01/07/2019)](v0.60/)
 
