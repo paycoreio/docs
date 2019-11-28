@@ -61,45 +61,49 @@ You can use the **Test** H2H merchant account to test Card Gate connection. We p
 
 | Card number | CVV2 | Expiry date | 3DS |Status code |
 |-------------|:---:|:------:|:---:|------|
-| 5123817234060000 | any | any | yes| success (`processed`) |
+| 5123817234060000 | any | any | yes | success (`processed`) |
 | 5519283812030000 | any | any | no | success (`processed`) |
 | 4412397212080000 | any | defined * |  yes | fail (`process_failed`) |
+| 4302912837020000 | any | defined * | no |  fail (`process_failed`) |
 
-\* Test different type of responses and Payment Retry with relevant values of the expiry date:
+<!--
+\* We have the expiry date code `0777` that 
+-->
+\* Test different type of responses and Payment Retry function with 'failed' cards and relevant expiry date values:
 
 | Expiry date | Resolution |
 |:-------------:|------------|
-| 0856 | `ACCESS_DENIED` |
-| 0755 | `ERROR` |
-| 0654 | `PROVIDER_ERROR` |
-| 0553 | `UNKNOWN` |
-| 0452 | `DUPLICATED_TRANSACTION` |
-| 0351 | `AUTH_FATAL_ERROR` |
-| 0250 | `UNABLE_TO_DETERMINE_3DS_ENROLMENT` |
-| 0149 | `CARD_IS_3DS_ENROLLED` |
-| 1248 | `CARD_IS_NOT_3DS_ENROLLED` |
-| 1147 | `ISSUER_DECLINE` |
-| 1046 |  `CLIENT_AUTH_FAILED` |
-| 0945 | `PROVIDER_FATAL_ERROR` |
-| 0844 | `INVALID_DETAILS` |
-| 0743 |  `INVALID_PIN` |
-| 0642 | `ANTIFRAUD_ERROR` |
-| 0541 | `INVALID_CARD` |
-| 0440 | `FATAL_ERROR` |
-| 0339 | `UNABLE_TO_RECONCILE` |
-| 0238 | `INVALID_AMOUNT` |
-| 0137 | `LIMIT_VIOLATION` |
-| 1236 | `FUNCTIONALITY_IS_NOT_PERMITTED` |
-| 1135 | `INVALID_REQUEST` |
-| 1034 | `LOST_OR_STOLEN_CARD` |
-| 0933 | `DECLINED` |
-| 0832 | `INVALID_OTP` |
-| 0731 | `INVALID_3DS_CODE` |
-| 0630 | `INVALID_CARD_STATUS` |
-| 0529 | `INSUFFICIENT_FUNDS` |
-| 0428 | `CARD_EXPIRED` |
-| 0327 | `INVALID_CVV` |
-| 0226 | ` INVALID_PAN` |
-| 0125 | `INVALID_CREDENTIALS` |
+| `0856` | `access_denied` |
+| `0755` | `error` |
+| `0654` | `provider_error` |
+| `0553` | `unknown` |
+| `0452` | `duplicated_transaction` |
+| `0351` | `auth_fatal_error` |
+| `0250` | `unable_to_determine_3ds_enrolment` |
+| `0149` | `card_is_3ds_enrolled` |
+| `1248` | `card_is_not_3ds_enrolled` |
+| `1147` | `issuer_decline` |
+| `1046` |  `client_auth_failed` |
+| `0945` | `provider_fatal_error` |
+| `0844` | `invalid_details` |
+| `0743` |  `invalid_pin` |
+| `0642` | `antifraud_error` |
+| `0541` | `invalid_card` |
+| `0440` | `fatal_error` |
+| `0339` | `unable_to_reconcile` |
+| `0238` | `invalid_amount` |
+| `0137` | `limit_violation` |
+| `1236` | `functionality_is_not_permitted` |
+| `1135` | `invalid_request` |
+| `1034` | `lost_or_stolen_card` |
+| `0933` | `declined` |
+| `0832` | `invalid_otp` |
+| `0731` | `invalid_3ds_code` |
+| `0630` | `invalid_card_status` |
+| `0529` | `insufficient_funds` |
+| `0428` | `card_expired` |
+| `0327` | `invalid_cvv` |
+| `0226` | `invalid_pan` |
+| `0125` | `invalid_credentials` |
 
 ![Retry](images/retry.png)
