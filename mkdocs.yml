@@ -257,6 +257,7 @@ nav:
       - UAPay: connectors/uapay/index.md
       - Wirecapital: connectors/wirecapital/index.md
       - WonderlandPay: connectors/wlandpay/index.md
+      - xpate: connectors/xpate/index.md
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
