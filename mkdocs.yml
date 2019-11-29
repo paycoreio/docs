@@ -193,7 +193,9 @@ nav:
     - Public IPs: integration/ips.md
 - Connectors:
       - Overview: connectors/index.md
-      - Test: connectors/test/index.md
+      - Test:
+        - Test Connectors: connectors/test/index.md
+        - Test Card Numbers: connectors/test/test-card-numbers.md
       - Manual: connectors/manual/index.md
       - 123x: connectors/123x/index.md
       - 4bill: connectors/4bill/index.md
@@ -261,6 +263,7 @@ nav:
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.4.45 (29/11/2019): release-notes/v1.4.45.md
     - v1.4.8 (22/11/2019): release-notes/v1.4.8.md
     - v1.4.4 (15/11/2019): release-notes/v1.4.4.md
     - v1.4.2 (08/11/2019): release-notes/v1.4.2.md
