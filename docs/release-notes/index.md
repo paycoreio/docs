@@ -6,9 +6,9 @@ This changelog lists releases by date and version number, along with associated 
 
 ## [v1.4.45 29/11/2019](v1.4.45/)
 
-* [Test Cards upgrade](#test-card-upgrade): added possibility to test reconciliation statuses
-* [New Integration](#new-integration): xpate H2H connection
-* [Bug Fixes](#bug-fixes)
+* [Test Cards upgrade](v1.4.45/#test-card-upgrade): added possibility to test reconciliation statuses
+* [New Integration](v1.4.45/#new-integration): xpate H2H connection
+* [Bug Fixes](v1.4.45/#bug-fixes)
 
 ## [v1.4.8 22/11/2019](v1.4.8/)
 
