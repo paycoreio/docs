@@ -214,6 +214,7 @@ nav:
       - Connectum: connectors/connectum/index.md
       - Decta: connectors/decta/index.md
       - dLocal: connectors/dlocal/index.md
+      - Dotpay: connectors/dotpay/index.md
       - EasyBits.io: connectors/easybits/index.md
       - Ecopayz: connectors/ecopayz/index.md
       #- Enfins: connectors/enfins/index.md
@@ -263,6 +264,7 @@ nav:
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.5 (06/12/2019): release-notes/v1.5.md
     - v1.4.45 (29/11/2019): release-notes/v1.4.45.md
     - v1.4.8 (22/11/2019): release-notes/v1.4.8.md
     - v1.4.4 (15/11/2019): release-notes/v1.4.4.md

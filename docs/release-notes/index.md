@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.5 06/12/2019](v1.5/)
+
+* [Commerce improvements](v1.5/#commerce-improvements): possibilities to moderate payment invoices through the dashboard, and to generate transaction reports monthly, added the turnover limit
+* [Card Gate update](v1.5/#card-gate-update): edited Payload object
+* [New Integration](v1.5/#new-integration): Dotpay
+* [Bug Fixes](v1.5/#bug-fixes)
+
 ## [v1.4.45 29/11/2019](v1.4.45/)
 
 * [Test Cards upgrade](v1.4.45/#test-card-upgrade): added possibility to test reconciliation statuses
