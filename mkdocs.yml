@@ -212,6 +212,7 @@ nav:
       #- CoinPayments:connectors/coinpayments/index.md
       - Concord Bank: connectors/concord/index.md
       - Connectum: connectors/connectum/index.md
+      - Cypix: connectors/cypix/index.md
       - Decta: connectors/decta/index.md
       - dLocal: connectors/dlocal/index.md
       - Dotpay: connectors/dotpay/index.md
@@ -264,6 +265,7 @@ nav:
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.5.2 (13/12/2019): release-notes/v1.5.2.md
     - v1.5 (06/12/2019): release-notes/v1.5.md
     - v1.4.45 (29/11/2019): release-notes/v1.4.45.md
     - v1.4.8 (22/11/2019): release-notes/v1.4.8.md

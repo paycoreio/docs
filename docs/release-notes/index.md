@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.5.2 13/12/2019](v1.5.2/)
+
+* [Card Gate](#card-gate-update): changed data-handling algorithms for transactions in pending status
+* [Merchant App](#merchant-app-update): updated screens in account settings, finalized Russian and Ukrainian localisations
+* [New integration](#new-integrations): Cypix
+* [Performance improvements](#performance-improvements)
+
 ## [v1.5 06/12/2019](v1.5/)
 
 * [Commerce improvements](v1.5/#commerce-improvements): possibilities to moderate payment invoices through the dashboard, and to generate transaction reports monthly, added the turnover limit
