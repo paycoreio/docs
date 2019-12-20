@@ -4,12 +4,17 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.5.6 20/12/2019](v1.5.6/)
+
+* [Integration improvements](v1.5.6/#integration-improvements): Epay, Decta, Alfabank
+* [Performance improvements](v1.5.6/#performance-improvements)
+
 ## [v1.5.2 13/12/2019](v1.5.2/)
 
-* [Card Gate](#card-gate-update): changed data-handling algorithms for transactions in pending status
-* [Merchant App](#merchant-app-update): updated screens in account settings, finalized Russian and Ukrainian localisations
-* [New integration](#new-integrations): Cypix
-* [Performance improvements](#performance-improvements)
+* [Card Gate](v1.5.2/#card-gate-update): changed data-handling algorithms for transactions in pending status
+* [Merchant App](v1.5.2/#merchant-app-update): updated screens in account settings, finalized Russian and Ukrainian localisations
+* [New integration](v1.5.2/#new-integrations): Cypix
+* [Performance improvements](v1.5.2/#performance-improvements)
 
 ## [v1.5 06/12/2019](v1.5/)
 
