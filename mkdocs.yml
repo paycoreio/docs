@@ -260,11 +260,13 @@ nav:
       - Twelve.live: connectors/twelvelive/index.md
       - UAPay: connectors/uapay/index.md
       - Wirecapital: connectors/wirecapital/index.md
+      - Wirecard: connectors/wirecard/index.md
       - WonderlandPay: connectors/wlandpay/index.md
       - xpate: connectors/xpate/index.md
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.5.15 (27/12/2019): release-notes/v1.5.15.md
     - v1.5.6 (20/12/2019): release-notes/v1.5.6.md
     - v1.5.2 (13/12/2019): release-notes/v1.5.2.md
     - v1.5 (06/12/2019): release-notes/v1.5.md
