@@ -4,11 +4,11 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
-## [v1.5.15 27/12/2019](v1.5.15/)
+## [v1.5.16 27/12/2019](v1.5.16/)
 
-* [Creation of the Merchant Portal](v1.5.15/#merchant-portal-tab): internal logic update
-* [New integration](v1.5.15/#new-integration): Wirecard, Forwardbank, a bunch of refunds' update
-* [Performance improvements](v1.5.15/#performance-improvements)
+* [Creation of the Merchant Portal](v1.5.16/#merchant-portal-tab): internal logic update
+* [New integration](v1.5.16/#new-integration): Wirecard, Forwardbank, a bunch of refunds' update
+* [Performance improvements](v1.5.16/#performance-improvements)
 
 ## [v1.5.6 20/12/2019](v1.5.6/)
 
