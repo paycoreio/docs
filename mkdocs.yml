@@ -249,6 +249,7 @@ nav:
       - PayPal: connectors/paypal/index.md
       - paysafecard: connectors/paysafecard/index.md
       - PaySec: connectors/paysec/index.md
+      - PaySoft: connectors/paysoft/index.md
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
       - Procard: connectors/procard/index.md

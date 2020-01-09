@@ -5,6 +5,7 @@
 Follow the instructions for setting up a connection with Decta payment provider.
 
 ## Set up account
+
 ### Step 1: Contact Decta support manager
 
 Submit the required documents to verify your account and gain access.
@@ -13,15 +14,15 @@ Submit the required documents to verify your account and gain access.
 
 Go to the 'e-Commerce & API' section, choose a terminal and generate keys for the account connection. Pay attention that you'll need different sets for the live and test connection. 
 
-![](images/start-page.png)
+![Start Page](images/start-page.png)
 
 To generate a test key set, turn on the toggle near the 'Title' input.
 
-![](images/edit-keys.png)
+![Edit Keys](images/edit-keys.png)
 
 The test key set will be marked by 'Test' label under the title in the common list.
 
-![](images/keys.png)
+![Keys](images/keys.png)
 
 ## Connect account
 
@@ -31,7 +32,7 @@ The test key set will be marked by 'Test' label under the title in the common li
 
 Press Connect at **Decta Provider Overview** page in *'New connection'* section to open Connection form.
 
-![](images/connect.png)
+![Connect](images/connect.png)
 
 Enter the key and set up the required parameters:
 
@@ -41,7 +42,7 @@ Enter the key and set up the required parameters:
 !!! note
     These parameters are set according to your Merchant account type and its available currencies.
 
-As necessary, choose additional options:
+As necessary, choose additional options:  
 
 * turn on the generation of dynamic descriptor &mdash; you can edit its content later, in the *'Commerce account'* settings;
 * add all necessary features.
