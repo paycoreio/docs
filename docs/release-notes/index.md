@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.5.21 10/01/2020](v1.5.21/)
+
+* [Payouts' moderation upgrade](v1.5.21/#payouts-moderation-upgrade): added possibility to moderate payouts directly from the dashboard
+* [New integrations](v1.5.21/#new-integrations): Paysoft, Cypix
+* [Performance improvements](v1.5.21/#performance-improvements)
+
 ## [v1.5.16 27/12/2019](v1.5.16/)
 
 * [Creation of the Merchant Portal](v1.5.16/#merchant-portal-tab): internal logic update

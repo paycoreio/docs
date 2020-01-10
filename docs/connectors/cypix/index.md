@@ -47,7 +47,7 @@ Also, choose Test mode for test connection with Cypix.
 
 ### Step 1. Connect account at dashboard.paycore.io
 
-Press **Connect** at *Cypix Provider Overview* page in *'New connection'* section and choose **Provider account** option to open Connection form.
+Press **Connect** at *Cypix Provider Overview* page in *'New connection'* section and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
