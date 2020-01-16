@@ -15,9 +15,9 @@ To configure your callbacks, go to  **Commerce Settings**  >  **Integration**  >
 
 The HTTP request that we make to your `callback_url` will have the following characteristics:
 
--   It will be a POST request.
--   Request Body will be in  [JSON-API](https://jsonapi.org/)  format. It is the same as in public API. 
--   The  object `type` and `id` will be in the body of the request (and not added as a url-parameter).
+- It will be a POST request.
+- Request Body will be in  [JSON-API](https://jsonapi.org/)  format. It is the same as in public API.
+- The  object `type` and `id` will be in the body of the request (and not added as a url-parameter).
 
 This an example for Payout Invoice operation callback data:
 
@@ -99,7 +99,7 @@ PayСore.io sends signature in `X-Signature` callback request header. The signat
 $signature = base64_encode(sha1($secret . $callbackData . $secret, true));
 ```
 
-Where the `$secret` is one your secrets: `test` or `live`, `$callbackData` is raw json data. 
+Where the `$secret` is one your secrets: `test` or `live`, `$callbackData` is raw json data.
 
 !!! note
       To be sure you got data from PayСore, you should compute the signature using an appropriate secret key and compare with ones from PayСore.io callback data.
@@ -108,9 +108,9 @@ Where the `$secret` is one your secrets: `test` or `live`, `$callbackData` is ra
 
 There are 3 timeouts for Callbacks in PayCore.io:
 
-1.  **Connection Timeout:**  The connection timeout is the timeout for making the initial connection to the callback URL's HTTP server.
-2.  **Read Timeout:**  Once the initial connection has been made, at any time there is a possibility that there is an indefinite wait to read data from the HTTP server. The read timeout is the timeout for such a wait.
-3.  **Total Callback Timeout:**  In addition to the above timeouts, PayCore.io also checks the total execution of time of any callback via the callback execution timeout.
+1. **Connection Timeout:**  The connection timeout is the timeout for making the initial connection to the callback URL's HTTP server.
+2. **Read Timeout:**  Once the initial connection has been made, at any time there is a possibility that there is an indefinite wait to read data from the HTTP server. The read timeout is the timeout for such a wait.
+3. **Total Callback Timeout:**  In addition to the above timeouts, PayCore.io also checks the total execution of time of any callback via the callback execution timeout.
 
 The values for each timeout are as follows:
 
@@ -126,19 +126,21 @@ When you successfully process callback request you must return `200` HTTP status
 
 If callback returns status code other then `200` it is assumed that the request delivery failed. Failed callback request are resent with increasing delay between each attempt:
 
--   The 1st retry will happen 15 minutes after the initial attempt,
--   the 2nd retry will happen 30 minutes after the 1st retry,
--   the 3rd retry will happen 1 hour after the 2nd retry,
--   the 4th retry will happen 6 hours after the 3rd retry,
--   the 5th retry will happen 12 hours after the 4th retry,
--   and the 6th retry will happen 24 hours after the 5th retry...
+- the 1st retry will happen 1 minute after the initial attempt,
+- the 2nd retry will happen 2 minutes after the 1st retry,
+- the 3rd retry will happen 3 minutes after the 2nd retry,
+- the 4th retry will happen 4 minutes after the 3rd retry,
+- the 5th retry will happen 5 minutes after the 4th retry,
+- the 6th retry will happen 6 minutes after the 5th retry,
+- and so on, up to 100 attempts or up to receiving `200` HTTP status code.
 
 !!! note
     You could resend a callback manually, if you wish to sync your data immediately. Go to  _Operation overview_  >  _Callbacks_. On the right side, you will have the option to select the callback and resend the same.
 
 ## Callback Handling
 
-Because HTTPS/SSL verifies the identity of the server you are making API calls to, you will always know that the updated information you are receiving is correct. 
+Because HTTPS/SSL verifies the identity of the server you are making API calls to, you will always know that the updated information you are receiving is correct.
+
 If we sent object information in the Callback itself, you would have to verify the authenticity of the information via signed request, etc.
 
 ## Duplicate Handling
