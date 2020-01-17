@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.6.1 17/01/2020](v1.6.1/)
+
+* [Card Gate Update](v1.6.1/#card-gate-update): added HPP themes' options
+* [Layout upgrade](v1.6.1/#layout-upgrade): added new filters for Transactions section
+* [New Integrations](v1.6.1/#new-integrations): Cypix, Hashconnect, MuchBetter
+* [Performance Improvements](v1.6.1/#performance-improvements)
+
 ## [v1.5.21 10/01/2020](v1.5.21/)
 
 * [Payouts' moderation upgrade](v1.5.21/#payouts-moderation-upgrade): added possibility to moderate payouts directly from the dashboard
