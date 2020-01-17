@@ -67,9 +67,14 @@ When you create a **routing scheme**, you need only to name it and all your conn
 
 ![](images/payment-routes-eg.png)
 
+??? info "Into the details: Fee strategy Optimizing"
+    ![Fee parameters](images/fee-routes.png)
+    ![Payment](images/payment-options.png)
+    [Learn more (at Google Spreadsheets) -->](https://docs.google.com/spreadsheets/d/1yvQ3kdyuB7S0DbDgqBgdXq_F_YYHDt-qeAtOo7B9kk8/edit#gid=1939885920)
+
 **Payout schemes** are created in the same way as **Payment schemes**.
 
-[PayCore.io](https://paycore.io) has a **Test Mode** you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. You should use the same accounts in test and live modes when testing your integration. It makes testing more consistent across the two modes, and you don't have to maintain as many accounts. 
+[PayCore.io](https://paycore.io) has a **Test Mode** you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. You should use the same accounts in test and live modes when testing your integration. It makes testing more consistent across the two modes, and you don't have to maintain as many accounts.
 
 Whether a transaction was created in the test or live mode is dictated by which API keys. ***Keep in mind*** that in Test Mode only test routes will be available.
 
@@ -87,7 +92,7 @@ A **Commerce Account** is used by the organisation to account all websites, pro
 
 ![](images/commerce-account.png)
 
-To create a new [Commerce Account](https://dashboard.paycore.io/commerce/accounts), it is enough to simply indicate its name, the Commerce scheme used and the base currencies available for it. If you are a Business plan user, you can additionally enable a Ledger scheme for better understanding and monitoring the flow of funds. 
+To create a new [Commerce Account](https://dashboard.paycore.io/commerce/accounts), it is enough to simply indicate its name, the Commerce scheme used and the base currencies available for it. If you are a Business plan user, you can additionally enable a Ledger scheme for better understanding and monitoring the flow of funds.
 
 Congratulations! Your account is set up and ready to go!
 
