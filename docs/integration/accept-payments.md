@@ -4,7 +4,6 @@ With PayCore.io, you can build a payments flow that gives you and your customers
 
 Read about our integration methods below, then choose the one that best suits your needs.
 
-
 ## [Hosted Payment Page (HPP)](/products/hpp/)
 
 ![](/products/hpp/images/hpp-preview.png)
@@ -40,7 +39,6 @@ Use our hosted responsive solution for payment processing:
 
 [Learn more -->](/products/hpp/)
 
-
 ## [Self-hosted payment page](/products/hpp/self-hosted-payment-page/)
 
 <img src="/integration/images/icon-paymentform.svg" alt="Payment Form" style="width: 150px; float: right; padding-left: 10px;">
@@ -50,10 +48,10 @@ Building your own form gives you full control over the look and feel of your che
 
 Build and host yourself using SDKs or client API:
 
--   Full control over design
--   Users stay in your application/domain
--   Easy best-practices based development
--   Available for many platforms
+- Full control over design
+- Users stay in your application/domain
+- Easy best-practices based development
+- Available for many platforms
 
 ??? question "What we do? What you do?"
     You can manage shopper data and the shopper journey within your own environment.
@@ -73,7 +71,6 @@ Build and host yourself using SDKs or client API:
 
 [Learn more -->](/products/hpp/self-hosted-payment-page/)
 
-
 ## Payment card interfaces
 
 ### CardGate HPP
@@ -92,7 +89,6 @@ Unlike our other integration methods, the full card details API does not use car
 
 [Learn more -->](/products/cardgate/full-card-details-api/)
 
-
 ## SDKs
 
 <img src="/products/hpp/images/mobile-sdk.svg" alt="SDKs" style="width: 150px; float: right;">
@@ -100,7 +96,6 @@ Unlike our other integration methods, the full card details API does not use car
 Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. We'll still take care of the processing side of things, and return tokenized payment information to you.
   
 [Learn more -->](/integration/sdks/)
-
 
 ## Shopping carts
 

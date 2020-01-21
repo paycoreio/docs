@@ -67,9 +67,57 @@ When you create a **routing scheme**, you need only to name it and all your conn
 
 ![](images/payment-routes-eg.png)
 
+??? info "Into the Details: Fee Optimizing"
+    ![Fee parameters](images/fee-routes.png)
+
+    The used value of the fee is the sum of the *rate fee* (in percentage with two decimal places) and the *fixed fee* (in base currency). Also, it always lies within the *minimum* and *maximum* setpoints (in base currency).
+
+    ![Payment](images/payment-options.png)
+
+    Depending on the commerce account's payment options, PayCore.io platform enables to use of 4 types of fee strategy: 
+
+    * *Internal* strategy and *Direct* calculation:
+        - Paid Amount = Input Amount;
+        - Fee = Rate Fee × Input Amount + Fixed Fee;
+        - Deposit Amount = Input Amount - Fee;
+        - thus:
+            <img align="center" src="https://tex.s2cms.ru/svg/%20Deposit%20Amount%20%3D%7BInput%20Amount%5Ctimes(%7B%7B100%5C%25%20-%20Rate%20Fee%7D%20%5Cover%20100%5C%25%7D%7D)%20-%20Fixed%20Fee%7D." alt="Deposit Amount Calculation" height="35px" />
+    * *Internal* strategy and *Reverse* calculation:
+        - Deposit Amount = Input Amount;
+        - Fee = Rate Fee × Paid Amount + Fixed Fee;
+        - Paid Amount = Input Amount + Fee;
+        - thus:
+            <img align="center" src="https://tex.s2cms.ru/svg/Paid%20Amount%20%3D%20%7B%7B(Input%20Amount%20%2B%20Fixed%20Fee)%5Ctimes100%5C%25%7D%20%5Cover%20100%5C%25%20%2B%20Rate%20Fee%7D." alt="Paid Amount Calculation" height="35px" />
+
+    * *External* Strategy and *Direct* calculation:
+        - Deposit Amount = Input Amount;
+        - Fee = Rate Fee × Input Amount + Fixed Fee;
+        - Paid Amount = Input Amount + Fee;
+        - thus:
+            <img align="center" src="https://tex.s2cms.ru/svg/%20Paid%20Amount%20%3D%7BInput%20Amount%5Ctimes(%7B%7B100%5C%25%20%2B%20Rate%20Fee%7D%20%5Cover%20100%5C%25%7D%7D)%20%2B%20Fixed%20Fee%7D." alt="Paid Amount Calculation" height="35px" />
+
+    * *External* strategy and *Reverse* calculation:
+        - Paid Amount = Input Amount;
+        - Fee =  Rate Fee × Deposit Amount + Fixed Fee;
+        - Deposit Amount = Input Amount - Fee;
+        - thus: 
+            <img align="center" src="https://tex.s2cms.ru/svg/Deposit%20Amount%20%3D%20%7B%7B(Input%20Amount%20-%20Fixed%20Fee)%5Ctimes100%5C%25%7D%20%5Cover%20100%5C%25%20%2B%20Rate%20Fee%7D." alt="Deposit Amount Calculation" height="35px" />
+    
+    where *Input Amount* — `amount` — initiated amount of the invoice;
+
+    *Paid Amount* — `payment_amount` — value to be paid by the customer;
+
+    *Deposit Amount* — `deposit` — amount to be charged to the account, always less than `payment_amount` by `fee`;
+
+    *Fee* — `fee` — current fee amount (don't forget that its value lies within the minimum and maximum setpoints).
+
+    Any set of options can be chosen as the preferred, at your discretion.
+
+    [Check the fee calculation at Google Spreadsheets -->](https://docs.google.com/spreadsheets/d/1yvQ3kdyuB7S0DbDgqBgdXq_F_YYHDt-qeAtOo7B9kk8/edit#gid=1939885920)
+
 **Payout schemes** are created in the same way as **Payment schemes**.
 
-[PayCore.io](https://paycore.io) has a **Test Mode** you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. You should use the same accounts in test and live modes when testing your integration. It makes testing more consistent across the two modes, and you don't have to maintain as many accounts. 
+[PayCore.io](https://paycore.io) has a **Test Mode** you should use for testing. It operates separately from live mode, so you can make changes without affecting your live data. You should use the same accounts in test and live modes when testing your integration. It makes testing more consistent across the two modes, and you don't have to maintain as many accounts.
 
 Whether a transaction was created in the test or live mode is dictated by which API keys. ***Keep in mind*** that in Test Mode only test routes will be available.
 
@@ -87,7 +135,7 @@ A **Commerce Account** is used by the organisation to account all websites, pro
 
 ![](images/commerce-account.png)
 
-To create a new [Commerce Account](https://dashboard.paycore.io/commerce/accounts), it is enough to simply indicate its name, the Commerce scheme used and the base currencies available for it. If you are a Business plan user, you can additionally enable a Ledger scheme for better understanding and monitoring the flow of funds. 
+To create a new [Commerce Account](https://dashboard.paycore.io/commerce/accounts), it is enough to simply indicate its name, the Commerce scheme used and the base currencies available for it. If you are a Business plan user, you can additionally enable a Ledger scheme for better understanding and monitoring the flow of funds.
 
 Congratulations! Your account is set up and ready to go!
 
