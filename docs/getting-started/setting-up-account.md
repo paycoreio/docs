@@ -67,10 +67,53 @@ When you create a **routing scheme**, you need only to name it and all your conn
 
 ![](images/payment-routes-eg.png)
 
-??? info "Into the details: Fee strategy Optimizing"
+??? info "Into the Details: Fee Optimizing"
     ![Fee parameters](images/fee-routes.png)
+
+    The used value of the fee is the sum of the *rate fee* (in percentage with two decimal places) and the *fixed fee* (in base currency). Also, it always lies within the *minimum* and *maximum* setpoints (in base currency).
+
     ![Payment](images/payment-options.png)
-    [Learn more (at Google Spreadsheets) -->](https://docs.google.com/spreadsheets/d/1yvQ3kdyuB7S0DbDgqBgdXq_F_YYHDt-qeAtOo7B9kk8/edit#gid=1939885920)
+
+    Depending on the commerce account's payment options, PayCore.io platform enables to use of 4 types of fee strategy: 
+
+    * *Internal* strategy and *Direct* calculation:
+        - Paid Amount = Input Amount;
+        - Fee = Rate Fee × Input Amount + Fixed Fee;
+        - Deposit Amount = Input Amount - Fee;
+        - thus:
+            <img align="center" src="https://tex.s2cms.ru/svg/%20Deposit%20Amount%20%3D%7BInput%20Amount%5Ctimes(%7B%7B100%5C%25%20-%20Rate%20Fee%7D%20%5Cover%20100%5C%25%7D%7D)%20-%20Fixed%20Fee%7D." alt="Deposit Amount Calculation" height="35px" />
+    * *Internal* strategy and *Reverse* calculation:
+        - Deposit Amount = Input Amount;
+        - Fee = Rate Fee × Paid Amount + Fixed Fee;
+        - Paid Amount = Input Amount + Fee;
+        - thus:
+            <img align="center" src="https://tex.s2cms.ru/svg/Paid%20Amount%20%3D%20%7B%7B(Input%20Amount%20%2B%20Fixed%20Fee)%5Ctimes100%5C%25%7D%20%5Cover%20100%5C%25%20%2B%20Rate%20Fee%7D." alt="Paid Amount Calculation" height="35px" />
+
+    * *External* Strategy and *Direct* calculation:
+        - Deposit Amount = Input Amount;
+        - Fee = Rate Fee × Input Amount + Fixed Fee;
+        - Paid Amount = Input Amount + Fee;
+        - thus:
+            <img align="center" src="https://tex.s2cms.ru/svg/%20Paid%20Amount%20%3D%7BInput%20Amount%5Ctimes(%7B%7B100%5C%25%20%2B%20Rate%20Fee%7D%20%5Cover%20100%5C%25%7D%7D)%20%2B%20Fixed%20Fee%7D." alt="Paid Amount Calculation" height="35px" />
+
+    * *External* strategy and *Reverse* calculation:
+        - Paid Amount = Input Amount;
+        - Fee =  Rate Fee × Deposit Amount + Fixed Fee;
+        - Deposit Amount = Input Amount - Fee;
+        - thus: 
+            <img align="center" src="https://tex.s2cms.ru/svg/Deposit%20Amount%20%3D%20%7B%7B(Input%20Amount%20-%20Fixed%20Fee)%5Ctimes100%5C%25%7D%20%5Cover%20100%5C%25%20%2B%20Rate%20Fee%7D." alt="Deposit Amount Calculation" height="35px" />
+    
+    where *Input Amount* — `amount` — initiated amount of the invoice;
+
+    *Paid Amount* — `payment_amount` — value to be paid by the customer;
+
+    *Deposit Amount* — `deposit` — amount to be charged to the account, always less than `payment_amount` by `fee`;
+
+    *Fee* — `fee` — current fee amount (don't forget that its value lies within the minimum and maximum setpoints).
+
+    Any set of options can be chosen as the preferred, at your discretion.
+
+    [Check the fee calculation at Google Spreadsheets -->](https://docs.google.com/spreadsheets/d/1yvQ3kdyuB7S0DbDgqBgdXq_F_YYHDt-qeAtOo7B9kk8/edit#gid=1939885920)
 
 **Payout schemes** are created in the same way as **Payment schemes**.
 
