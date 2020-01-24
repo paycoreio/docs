@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.6.12 24/01/2020](v1.6.12/)
+
+* [Commerce minor improvement](v1.6.12/#commerce-improvement): added optionality to display transaction context in Return URL
+* [Card Gate upgrade](v1.6.12/#card-gate-upgrade): added Features tab to the payment schemes
+* [API's update](v1.6.12/#apis-update): added `context` and `return_urls` objects
+* [New integrations](v1.6.12/#new-integrations)
+* [Performance betterment](v1.6.12/#performance-betterment)
+
 ## [v1.6.1 17/01/2020](v1.6.1/)
 
 * [Card Gate Update](v1.6.1/#card-gate-update): added HPP themes' options
