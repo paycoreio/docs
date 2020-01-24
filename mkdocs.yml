@@ -269,6 +269,7 @@ nav:
       - Xpay: connectors/xpayua/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.6.12 (24/01/2020): release-notes/v1.6.12.md
     - v1.6.1 (17/01/2020): release-notes/v1.6.1.md
     - v1.5.21 (10/01/2020): release-notes/v1.5.21.md
     - v1.5.16 (27/12/2019): release-notes/v1.5.16.md
