@@ -13,12 +13,12 @@ Visit the [registration page](https://dashboard.paycore.io/register).
 
 ![](images/register.png "PayCore.io > Setting up account")
 
-Enter an **email** address and **password**. A new account of the user and the linked organisation's account will be created automatically. 
+Enter an **email** address and **password**. A new account of the user and the linked organisation's account will be created automatically.
 
 !!! note
     One user account can be a member of any number of organisations.
 
-Click on the avatar in the top right corner and set up user profile and preferences for working with the platform. 
+Click on the avatar in the top right corner and set up user profile and preferences for working with the platform.
 
 ![](images/user-profile.png)
 
@@ -26,10 +26,10 @@ Manage organisation settings in the Organisation section.
 
 ![](images/organization-profile.png)
 
-The first connected contact for the organisation is an **Owner** who serves as default primary contact and has all user permissions. 
+The first connected contact for the organisation is an **Owner** who serves as default primary contact and has all user permissions.
 
 The next step after creating your account is to invite your team members to your organisation. A **Member** can access all **Commerce Accounts** within an **Organisation**.
- 
+
 Also, if you're an Account Owner, later you can transfer account ownership to any other user who has access to the account.
 
 For more information, you can read the section [‘Account’](https://dashboard.paycore.io/organization/settings/access-roles).
@@ -40,20 +40,20 @@ After successful registration, you need to connect your existing merchant accoun
 
 But before that, it is necessary to connect the first provider and create routing schemes for payments and payouts.  
 
-The list of all available integrations can be found in the [Connectors](https://docs.paycore.io/connectors/). 
+The list of all available integrations can be found in the [Connectors](https://docs.paycore.io/connectors/).
 
 To connect a **Payment Provider**, follow these steps:
 
 1. Click on [New Connection](https://dashboard.paycore.io/connect-directory/payment-providers) section to access providers directory.
 2. Select the desired provider and click on its logo. Payment providers, that are available for connection, are marked with `Ready` flag in the top right corner. Contact our [Customer Support](mailto:support@paycore.io) if you don’t find a payment provider in the list of payment providers or integration is not yet implemented. We will do our best to deliver it right for you as soon as possible, generally under 7 business days.
 ![](images/connectors.png)
-3. Each connector has its unique properties and account credentials to connect. For more information please follow the steps of the accompanying [connection guide](https://docs.paycore.io/connectors/) for every provider to set up the connection properly. Once you set up everything, you must click **Save** to get online with the payment provider. To quickly test your integration with PayCore.io, you may connect a **Test Connector** in 2 clicks! 
+3. Each connector has its unique properties and account credentials to connect. For more information please follow the steps of the accompanying [connection guide](https://docs.paycore.io/connectors/) for every provider to set up the connection properly. Once you set up everything, you must click **Save** to get online with the payment provider. To quickly test your integration with PayCore.io, you may connect a **Test Connector** in 2 clicks!
 ![](images/test-connector.png)
 4. Immediately afterwards, PayCore.io will automatically check all available payment methods, payment and payout routes in supported currencies for your merchant account in the payment provider or acquirer. Now all is done!
 
 ## Creating routing schemes
 
-After connecting to a payment provider, you need to set up **[Payment](https://dashboard.paycore.io/payment-gateway/payment-routes)** and **[Payout](https://dashboard.paycore.io/payment-gateway/payment-routes) Gateways**. 
+After connecting to a payment provider, you need to set up **[Payment](https://dashboard.paycore.io/payment-gateway/payment-routes)** and **[Payout](https://dashboard.paycore.io/payment-gateway/payment-routes) Gateways**.
 
 When you create a **routing scheme**, you need only to name it and all your connected payment methods will be automatically linked and enabled here. You can choose which of them you want to use in that scheme, set up routes and choose a strategy and conditions. Click on the right line to go to the level below ([Routing Scheme] &rarr; [Service] &rarr; [Rule] or [Route]).
 
