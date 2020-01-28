@@ -1,138 +1,126 @@
 <img src="https://static.openfintech.io/payment_providers/advcash/logo.svg?w=400" width="400px" >
 
-# Advcash Connector
+# Advcash
 
-## Introduction
+> Money + online safe and simple
 
-Here You can find  instructions for setting up [**AdvCash** account](https://wallet.advcash.com/)! 
+**Website**: [advcash.com](https://advcash.com/en/)
 
-## Setup account
+**Account**: [log in](https://wallet.advcash.com/login)
 
+Follow the instructions for setting up a connection with Cypix payment provider.
 
-#### Step 1: Open profile setting
+## Set Up Account
 
-![Step 1](images/advcash-step1.png)
+### Step 0: Register or login into your account at wallet.advcash.com
 
-#### Step 2: Go to "API AND SCI FOR DEVELOPERS" section
+![Step 0](images/advcash-step0.png)
 
-![Step 2](images/advcash-step2.png)
+### Step 1. Open profile settings
 
-### Setup API
+![Step 1.1](images/advcash-step1_1.png)
+
+### Step 2: Go to "API AND SCI FOR DEVELOPERS" section
+
+![Step 1.2](images/advcash-step1_2.png)
+
+## Set Up API
 
 !!! info
-    Skip this section if You have already configure it.
+    [Skip this section](#set-up-sci) if you have already configured API.
 
-#### Step 1: Create New API
+### Step 1: Create New API connection
 
-![Step 1](images/advcash-step3.png)
+![Step 1](images/advcash-step2_1.png)
 
-#### Step 2: Set up the following parameters
+### Step 2: Set up the properties
 
-- API Name
-- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
-- API Password
-- Set all checkboxes
-    -  Accounts Verification
-    -  Get Balance per Wallet
-    -  Find Transaction
-    -  Transaction history
-    -  Make Transactions
+* API Name
+* IP Addresses (comma-separated list): add all necessary IP addresses including [PayСore.io white-list IP addresses](/integration/ips/)
+* API Password
 
-![Step 2](images/advcash-step4.png)
-  
-        
-#### Step 3: Save changes
+* Tick all checkboxes:
+      * Accounts Verification
+      * Get Balance per Wallet
+      * Find Transaction
+      * Transaction history
+      * Make Transactions
+
+![Step 2](images/advcash-step2_2.png)
+
+### Step 3: Confirm changes
 
 !!! warning
-    To save changes You may be asked to Confirm this action via email!    
-    
-![Step 3](images/advcash-step4_2.png)
+    To confirm the changes, follow the link with instructions that AdvCash send to your registered e-mail.
+
+![Step 3](images/advcash-step2_3.png)
 
 !!! success
-    You have created an API
+    You have activated API.
 
-
-    
-### Setup SCI
+## Set Up SCI
 
 !!! info
-    Skip this section if You have already configure it.
-    
-To create new SCI You need to have a varified account!
+    [Skip this section](#connect-account) if you have already configured SCI.
 
-#### Step 1: Verify your account
+!!! warning
+    To activate SCI, first, you should verify account.
 
-![Step 4](images/advcash-step5_1.png)
-        
-        
+### Step 0: Verify your account
 
-#### Step 2: Create New SCI
+![Step 3.0](images/advcash-step3.png)
 
-![Step 2](images/advcash-step5.png)
+### Step 1: Create New SCI
 
-#### Step 3: Set up basic parameters
+![Step 3.1](images/advcash-step3_1.png)
 
--  Use a digital signature in the request to SCI
-    
-    !!! tip
-        Parameters "**COMMISSION PAYS**", "**Accept underpayment**", "**Accept overpayment**"  are set  at your choice!
+### Step 2: Set up basic properties
 
-![Step 3](images/advcash-step5_2.png)  
- 
-
-#### Step 4: Set up advanced parameters   
-
--  SCI NAME
--  WEBSITE ADDRESS : ```https://paycore.io/```
--  EMAIL FOR NOTIFICATIONS
--  EMAIL TO DISPLAY IN SCI
--  PASSWORD
--  SUCCESSFUL TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
--  FAILED TRANSACTION PAGE : ```https://psp-ext.paycore.io/advcash/return```
--  STATUS PAGE : ```https://psp-ext.paycore.io/advcash/callback```
-
-![Step 4](images/advcash-step5_3.png)
-
-#### Step 5: Save changes
-
-!!! success
-    You have created the SCI
-
-
-
-## Connect account
-
-#### Step 1: Copy required credentials
-
--  Account Email
-    
-    ??? tip
-        Main email from your [Profile](https://wallet.advcash.com/pages/profile)
-
--  API Name
--  API Password
--  SCI Name
--  SCI Password
-
-
-
-#### Step 2: Enter credentials
-
--  Account Email
--  API Name
--  API Password
--  SCI Name
--  SCI Password
-
+* Tick the option *Use a digital signature in the request to SCI*
 
 !!! tip
-    Press **`Connect`** at AdvCash **`Provider Overview page`** in **`New connection`** section to open Connection form!
+    All other properties (*COMMISSION PAYS*, *Accept underpayment*, *Accept overpayment*) are set at your discretion.
 
+![Step 3.2](images/advcash-step3_2.png)  
 
+### Step 3: Set up advanced properties
+
+* SCI NAME
+* Your WEBSITE ADDRESS (such as`https://paycore.io/`)
+* EMAIL FOR NOTIFICATIONS
+* EMAIL TO DISPLAY IN SCI
+* PASSWORD
+
+![Step 3.3](images/advcash-step3_3.png)
+
+!!! tip
+    All other links (*SUCCESSFUL TRANSACTION PAGE*, *FAILED TRANSACTION PAGE*, *STATUS PAGE*) should remain unfilled, they will be set via API on our side.
+
+### Step 4: Save changes
+
+!!! success
+    You have activated the SCI
+
+## Connect Provider Account
+
+### Step 1: Copy required credentials from wallet.advcash.com
+
+* Account Email (the main email linked with your [Profile](https://wallet.advcash.com/pages/profile))
+* API Name
+* API Password
+* SCI Name
+* SCI Password
+
+### Step 2: Connect account at dashboard.paycore.io
+
+Press **Connect** at [*AdvCash Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/advcash/general) page in *'New connection'* to open Connection form.
+
+Enter copied credentials from [Step 1](#step-1-copy-required-credentials-from-walletadvcashcom).
 
 ![Connect](images/advcash_connect.png)
 
-
-
 !!! success
-    You have connected **Advcash**!
+    You have connected **AdvCash** account!
+
+!!! question "Still looking for help connecting your AdvCash account?"
+    [Please contact our support team!](mailto:support@paycore.io)

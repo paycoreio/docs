@@ -1,14 +1,16 @@
 <img src="https://static.openfintech.io/payment_providers/cypix/logo.svg?w=400" width="400px" >
 
-# Cypix Connector
+# Cypix
 
-> Modern payment aggregator for your site.
+> Modern payment aggregator for your site
 
 **Website**: [cypix.ru](https://cypix.ru/)
 
+**Account**: [log in -->](https://lk.cypix.ru/#/auth/login)
+
 Follow the instructions for setting up a connection with Cypix payment provider.
 
-## Set up account
+## Set Up Account
 
 ### Step 1: Contact Cypix support manager
 
@@ -23,11 +25,11 @@ Credentials that have to be issued:
 * secret — your unique secret key for signing API requests
 * host — API platform domain
 
-## Connect provider account
+## Connect Provider Account
 
 ### Step 1. Connect account at dashboard.paycore.io
 
-Press **Connect** at *Cypix Provider Overview* page in *'New connection'* section and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Cypix Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/cypix/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -43,11 +45,11 @@ Also, choose Test mode for test connection with Cypix.
 !!! success
     You have connected **Cypix** account!
 
-## Connect H2H merchant account
+## Connect H2H Merchant Account
 
 ### Step 1. Connect account at dashboard.paycore.io
 
-Press **Connect** at *Cypix Provider Overview* page in *'New connection'* section and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Cypix Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/cypix/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
