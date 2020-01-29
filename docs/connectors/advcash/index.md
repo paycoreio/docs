@@ -8,19 +8,19 @@
 
 **Account**: [log in](https://wallet.advcash.com/login)
 
-Follow the instructions for setting up a connection with Cypix payment provider.
+Follow the instructions for setting up a connection with AdvCash payment provider.
 
 ## Set Up Account
 
-### Step 0: Register or login into your account at wallet.advcash.com
+### Step 1: Register or login into your account at wallet.advcash.com
 
-![Step 0](images/advcash-step0.png)
+![Step 1](images/advcash-step0.png)
 
-### Step 1. Open profile settings
+### Step 2. Open profile settings
 
 ![Step 1.1](images/advcash-step1_1.png)
 
-### Step 2: Go to "API AND SCI FOR DEVELOPERS" section
+### Step 3: Go to "API AND SCI FOR DEVELOPERS" section
 
 ![Step 1.2](images/advcash-step1_2.png)
 
@@ -29,7 +29,7 @@ Follow the instructions for setting up a connection with Cypix payment provider.
 !!! info
     [Skip this section](#set-up-sci) if you have already configured API.
 
-### Step 1: Create New API connection
+### Step 1: Create New API
 
 ![Step 1](images/advcash-step2_1.png)
 
@@ -56,7 +56,7 @@ Follow the instructions for setting up a connection with Cypix payment provider.
 ![Step 3](images/advcash-step2_3.png)
 
 !!! success
-    You have activated API.
+    You have set up and activated API.
 
 ## Set Up SCI
 
@@ -65,10 +65,8 @@ Follow the instructions for setting up a connection with Cypix payment provider.
 
 !!! warning
     To activate SCI, first, you should verify account.
-
-### Step 0: Verify your account
-
-![Step 3.0](images/advcash-step3.png)
+    
+    ![Step 3.0](images/advcash-step3.png)
 
 ### Step 1: Create New SCI
 
@@ -85,23 +83,21 @@ Follow the instructions for setting up a connection with Cypix payment provider.
 
 ### Step 3: Set up advanced properties
 
-* SCI NAME
-* Your WEBSITE ADDRESS (such as`https://paycore.io/`)
-* EMAIL FOR NOTIFICATIONS
-* EMAIL TO DISPLAY IN SCI
-* PASSWORD
+* SCI name
+* Your Website address (such as`https://paycore.io/`)
+* Email for notifications
+* Email to display in SCI
+* Password
 
 ![Step 3.3](images/advcash-step3_3.png)
 
 !!! tip
-    All other links (*SUCCESSFUL TRANSACTION PAGE*, *FAILED TRANSACTION PAGE*, *STATUS PAGE*) should remain unfilled, they will be set via API on our side.
-
-### Step 4: Save changes
+    All other links (*Successful transaction page*, *Failed transaction page*, *Status page*) should remain unfilled, they will be set through API.
 
 !!! success
-    You have activated the SCI
+    You have set up and activated the SCI.
 
-## Connect Provider Account
+## Connect Account
 
 ### Step 1: Copy required credentials from wallet.advcash.com
 
