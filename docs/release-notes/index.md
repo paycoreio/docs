@@ -4,12 +4,19 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.7.1 31/01/2020](v1.7.1/)
+
+* [Commerce update](v1.7.1/#commerce-update): added possibility to save recurrent tokens as a general payment option
+* [Layout upgrade](v1.7.1/#layout-upgrade): added Logs tab in Transactions and new filters for payouts
+* [New integrations](v1.7.1/#new-integrations): Ecobanq, Hashconnect
+* [Bug fixes](v1.7.1/#bug-fixes)
+
 ## [v1.6.12 24/01/2020](v1.6.12/)
 
 * [Commerce minor improvement](v1.6.12/#commerce-improvement): added optionality to display transaction context in Return URL
 * [Card Gate upgrade](v1.6.12/#card-gate-upgrade): added Features tab to the payment schemes
 * [API update](v1.6.12/#api-update): added `context` and `return_urls` objects
-* [New integrations](v1.6.12/#new-integrations)
+* [New integrations](v1.6.12/#new-integrations): Payment Center, paysafecard
 * [Performance betterment](v1.6.12/#performance-betterment)
 
 ## [v1.6.1 17/01/2020](v1.6.1/)
@@ -28,7 +35,7 @@ This changelog lists releases by date and version number, along with associated 
 ## [v1.5.16 27/12/2019](v1.5.16/)
 
 * [Creation of the Merchant Portal](v1.5.16/#merchant-portal-tab): internal logic update
-* [New integration](v1.5.16/#new-integration): Wirecard, Forwardbank, a bunch of refunds' update
+* [New integrations](v1.5.16/#new-integrations): Wirecard, Forwardbank, a bunch of refunds' update
 * [Performance improvements](v1.5.16/#performance-improvements)
 
 ## [v1.5.6 20/12/2019](v1.5.6/)
