@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.7.6 07/02/2020](v1.7.6/)
+
+* [Card Gate Updates](v1.7.6/#card-gate-updates): add Masterpass and possibility to customize currency exchange
+* [Data Export](v1.7.6/#data-export): exports for Deposits, Withdrawals and Transfers
+* [Layout Upgrade](v1.7.6/#layout-upgrade): added quick search for accounts
+* [New integrations](v1.7.6/#new-integrations): Wirecard payouts, ecoPayz voucher
+* [Performance improvements](v1.7.6/#performance-improvements)
+
 ## [v1.7.1 31/01/2020](v1.7.1/)
 
 * [Commerce update](v1.7.1/#commerce-update): added possibility to save recurrent tokens as a general payment option
