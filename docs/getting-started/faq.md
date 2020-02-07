@@ -1,8 +1,8 @@
+<img src="/getting-started/images/faq.svg" alt="QA-chat" style="width: 150px; float: right; padding-left: 10px;">
+
 # PayCore.io FAQ
 
-![FAQ](/images/faq.svg)
-
-Here You can find the answers for the most popular questions about interaction and working with PayCore.io!
+Here you can find the answers for the most popular questions about interaction and working with PayCore.io!
 
 ## Navigation
 
