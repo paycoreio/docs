@@ -784,6 +784,7 @@ A metric used to understand how much money customers are paying quarterly for [s
 
 !!! tip
     **QRR** can be calculated by multiplying the number of customers a business has by the average of their quarterly subscriptions.
+
 <!-- 
 ### Query
 
@@ -791,6 +792,7 @@ A metric used to understand how much money customers are paying quarterly for [s
 -->
 
 ## R
+
 <!--
 ### Rate
 ### Rate Resource
@@ -915,10 +917,11 @@ A [merchant](#merchant) that contracts with a [payment service provider](#paymen
 
 !!! info
     A sponsored merchant clears its [transactions](#transaction-settlement) through a payment service provider which is the 'merchant of record' for the transaction within the payment system.
+
 <!--
 ### Statement
 ### Status
---> 
+-->
 
 ### Subscription
 
