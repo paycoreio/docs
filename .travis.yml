@@ -1,7 +1,8 @@
 sudo: false
 language: python
 install:
-- pip install mkdocs mkdocs-material
+- pip install mkdocs
+- pip install mkdocs-material
 script:
 - git clean -f -d -x;
 - mkdocs build
