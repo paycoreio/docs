@@ -4,7 +4,7 @@
     Remember to use **Test Mode** to process any test transactions.
     ![Retry](images/test-mode.png)
 
-You can test Card Gate connection with [**Test** H2H merchant account](/connectors/test/#host-to-host-merchant-account). We prepare a list of credit card numbers for submitting and checking payment status codes.
+To test card payments, you can use our [Test H2H connector](/connectors/test/#host-to-host-merchant-account) and test card numbers. We also prepare a list of possible resolutions associated with an assigned expiry date.
 
 | Card number | CVV2 | Expiry date | 3DS |Status code |
 |-------------|:---:|:------:|:---:|------|
@@ -54,4 +54,4 @@ You can test Card Gate connection with [**Test** H2H merchant account](/connecto
 | `0226` | `invalid_pan` |
 | `0125` | `invalid_credentials` |
 
-![Retry](images/retry.png)
+If testing, you specify for unsuccessful cards any other valid period, the expected resolution will be `general_fatal_error`.
