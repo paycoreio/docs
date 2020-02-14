@@ -197,30 +197,32 @@ nav:
         - Test Connector: connectors/test/index.md
         - Test Card Payments: connectors/test/test-card-numbers.md
       - Manual: connectors/manual/index.md
+      #- AustralPay: connectors/australpay/index.md
+      #- CoinPayments:connectors/coinpayments/index.md
+      #- Enfins: connectors/enfins/index.md
+      #- MoneyMovers: connectors/moneymovers/index.md
+      #- Payoneer: connectors/payoneer/index.md
       - 123x: connectors/123x/index.md
       - 4bill: connectors/4bill/index.md
-      - Accentpay: connectors/accentpay/index.md
       - ADgroup: connectors/adgroup/index.md
+      - Accentpay: connectors/accentpay/index.md
       - AdvCash: connectors/advcash/index.md
       - Alfa Bank: connectors/alfabank/index.md
       - AnyCash: connectors/anycash/index.md
-      #- AustralPay: connectors/australpay/index.md
+      - Billline: connectors/billline/index.md
       - CardGate: connectors/cardgate/index.md
       - CardPay: connectors/cardpay/index.md
       - Certus Finance: connectors/certusfinance/index.md
       - CoinGate: connectors/coingate/index.md
-      #- CoinPayments:connectors/coinpayments/index.md
       - Concord Bank: connectors/concord/index.md
       - Connectum: connectors/connectum/index.md
       - Cypix: connectors/cypix/index.md
       - Decta: connectors/decta/index.md
-      - dLocal: connectors/dlocal/index.md
       - Dotpay: connectors/dotpay/index.md
+      - ECommPay: connectors/ecommpay/index.md
       - EasyBits.io: connectors/easybits/index.md
-      - Ecopayz: connectors/ecopayz/index.md
       - Ecobanq: connectors/ecobanq/index.md
-      #- Enfins: connectors/enfins/index.md
-      - ePay: connectors/epay/index.md
+      - Ecopayz: connectors/ecopayz/index.md
       - Exactly: connectors/exactly/index.md
       - FlashPay: connectors/flashpay/index.md
       - Fondy: connectors/fondy/index.md
@@ -231,33 +233,35 @@ nav:
       - HashConnect: connectors/hashconnect/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
       - Interkassa: connectors/interkassa/index.md
+      - Kuna: connectors/kuna/index.md
       - Leogaming: connectors/leogaming/index.md
       - LiqPay: connectors/liqpay/index.md
       - MaxPay: connectors/maxpay/index.md
       - Mercuryo: connectors/mercuryo/index.md
-      #- MoneyMovers: connectors/moneymovers/index.md
       - MuchBetter: connectors/muchbetter/index.md
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
       - Parimatch: connectors/parimatch/index.md
       - PayBox: connectors/paybox/index.md
-      - Payeer: connectors/payeer/index.md
       - PayLink: connectors/paylink/index.md
-      - Paylogic: connectors/paylogic/index.md
       - PayMega.eu: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
-      - PaymentCenter: connectors/paymentcenter/index.md 
-      - Paymentwall: connectors/paymentwall/index.md   
-      #- Payoneer: connectors/payoneer/index.md
       - PayPal: connectors/paypal/index.md
-      - paysafecard: connectors/paysafecard/index.md
       - PaySec: connectors/paysec/index.md
       - PaySoft: connectors/paysoft/index.md
+      - Payeer: connectors/payeer/index.md
+      - Paylogic: connectors/paylogic/index.md
+      - PaymentCenter: connectors/paymentcenter/index.md 
+      - Paymentwall: connectors/paymentwall/index.md   
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
+      - Platio: connectors/platio/index.md
       - Procard: connectors/procard/index.md
+      - RBK Money: connectors/rbkmoney/index.md
+      - Rapyd.net: connectors/rapyd/index.md
       - SafeCharge: connectors/safecharge/index.md
-      - SatchelPay: connectors/satchelpay/index.md     
+      - SatchelPay: connectors/satchelpay/index.md
+      - Selcom: connectors/selcom/index.md     
       - Skrill: connectors/skrill/index.md
       - TKB pay: connectors/tkbpay/index.md
       - Tranzzo: connectors/tranzzo/index.md
@@ -266,10 +270,15 @@ nav:
       - Wirecapital: connectors/wirecapital/index.md
       - Wirecard: connectors/wirecard/index.md
       - WonderlandPay: connectors/wlandpay/index.md
-      - xpate: connectors/xpate/index.md
       - Xpay: connectors/xpayua/index.md
+      - Zotapay: connectors/zotapay/index.md
+      - dLocal: connectors/dlocal/index.md
+      - ePay: connectors/epay/index.md
+      - paysafecard: connectors/paysafecard/index.md
+      - xpate: connectors/xpate/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - V1.8.0 (14/02/2020): release-notes/v1.8.0.md
     - v1.7.6 (07/02/2020): release-notes/v1.7.6.md
     - v1.7.1 (31/01/2020): release-notes/v1.7.1.md
     - v1.6.12 (24/01/2020): release-notes/v1.6.12.md
