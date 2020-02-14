@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.8.0 14/02/2020](v1.8.0/)
+
+* [FXRates Updates](v1.8.0/#fxrates-updates): added `System scheme fallback` option and a list of supported currencies
+* [New integrations](v1.8.0/#new-integrations): Billine, ECommPay, Kuna, Rapyd.net, Selcom
+* [Performance improvements](v1.8.0/#performance-improvements)
+
 ## [v1.7.6 07/02/2020](v1.7.6/)
 
 * [Card Gate Updates](v1.7.6/#card-gate-updates): add Masterpass and possibility to customize currency exchange
