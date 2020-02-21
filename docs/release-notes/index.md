@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.8.5 21/02/2020](v1.8.5/)
+
+* [Commerce betterment](v1.8.5/#commerce-betterment) in service settings
+* [Support of UAX](v1.8.5/#support-of-a-new-cryptocurrency)
+* [Bug fixes](v1.8.5/#bug-fixes)
+
 ## [v1.8.0 14/02/2020](v1.8.0/)
 
 * [FXRates Updates](v1.8.0/#fxrates-updates): added `System scheme fallback` option and a list of supported currencies

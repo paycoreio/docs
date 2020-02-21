@@ -2,6 +2,50 @@
 
 ![Go global!](/images/go-global.png)
 
+<!---
+| Logo | Name | Supported Features |
+|:---:|:--- |:--- |
+|  <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px"> | [123x](123x/) | Payments |
+|  <img src="https://static.openfintech.io/payment_providers/4bill/logo.svg?w=70" width="70px"> | [4bill](4bill/) | H2H connection, Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/accentpay/logo.png?w=100" width="100px"> | [Accentpay](accentpay/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/adgroup/logo.svg?w=70" width="70px"> | [ADgroup](adgroup/) | H2H connection, Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/advcash/logo.svg?w=100" width="100px"> | [AdvCash](advcash/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/alfabank/logo.svg?w=90" width="90px"> | [Alfa Bank](adgroup/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/anycash/logo.svg?w=70" width="100px"> | [any.cash](anycash/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/billline/logo.svg?w=70" width="70px"> | [BillLine](billline/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/cardgate/logo.svg?w=70" width="70px"> | [Card Payments](cardgate/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/cardpay/logo.svg?w=70" width="70px"> | [cardpay](cardpay/) | H2H connection, Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png?w=120" width="120px"> | [Certus Finance](certusfinance/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/coingate/logo.svg?w=70" width="70px"> | [CoinGate](coingate/) | Payments |
+|  <img src="https://static.openfintech.io/payment_providers/concord/logo.svg?w=120" width="120px"> | [Concord Bank](concord/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/connectum/logo.svg?w=70" width="70px"> | [Connectum](connectum/) | H2H payment connection |
+|  <img src="https://static.openfintech.io/payment_providers/cypix/logo.svg?w=70" width="70px"> | [Cypix](cypix/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/decta/logo.svg?w=70" width="70px"> | [Decta](decta/) | H2H payment connection |
+|  <img src="https://static.openfintech.io/payment_providers/dlocal/logo.svg?w=70" width="70px"> | [dLocal](dlocal/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/dotpay/logo.svg?w=70" width="70px"> | [dotpay](dotpay/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/easybits/logo.svg?w=100" width="100px"> | [EasyBits.io](easybits/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/ecobanq/logo.png?w=70" width="70px"> | [Ecobanq](ecobanq/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/ecommpay/logo.png?w=100" width="100px"> | [ECommPay](ecommpay/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/ecopayz/logo.svg?w=70" width="70px"> | [ecoPayz](ecopayz/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/epay/logo.png?w=70" width="70px"> | [ePay](epay/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/exactly/logo.svg?w=70" width="70px"> | [exactly](exactly/) | H2H payment connection |
+|  <img src="https://static.openfintech.io/payment_providers/flashpay/logo.png?w=80" width="80px"> | [FlashPay](flashpay/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/fondy/logo.svg?w=70" width="70px"> | [Fondy](fondy/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/forwardbank/logo.svg?w=70" width="70px"> | [Forward Bank](forwardbank/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/genome/logo.svg?w=70" width="70px"> | [Genome](genome/) | H2H payment connection |
+|  <img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg?w=70" width="70px"> | [GEO pay](geopaynet/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/globalmoney/logo.svg?w=50" width="50px"> | [Global Money](globalmoney/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/hashconnect/logo.png?w=50" width="50px"> | [Hashconnect](hashconnect/) | H2H payment connection, Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg?w=70" width="70px"> | [ING Bank Poland](ingbankpl/) | Payments |
+|  <img src="https://static.openfintech.io/payment_providers/interkassa/logo.svg?w=80" width="80px"> | [Interkassa](interkassa/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/kuna/logo.svg?w=70" width="70px"> | [Kuna](kuna/) | Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=80" width="80px"> | [LeoGaming](leogaming/) | Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/liqpay/logo.svg?w=70" width="70px"> | [LiqPay](liqpay/) | Payments |
+|  <img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=25" width="25px"> | [Manual](manual/) | Swift Payments and Payouts |
+|  <img src="https://static.openfintech.io/payment_providers/maxpay/logo.svg?w=90" width="90px"> | [Maxpay](maxpay/) | Payments and Payouts |
+  
+--->
+
 This section is intended for mastering with the general connecting process.
 
 The section contains  all connecting instructions (for each provider) which will help you to:
