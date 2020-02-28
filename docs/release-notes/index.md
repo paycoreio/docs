@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.9 28/02/2020](v1.9/)
+
+* [Card Gate update](v1.9/#card-gate-update): added options for merchant accounts
+* [Update routing schemes for payouts](v1.9/#update-payout-routes)
+* [New integration](v1.9/#new-integration): WinPay
+* [Performance improvements](v1.9/#performance-improvements) (and bug fixes)
+
 ## [v1.8.5 21/02/2020](v1.8.5/)
 
 * [Commerce betterment](v1.8.5/#commerce-betterment) in service settings

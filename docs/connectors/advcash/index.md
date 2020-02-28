@@ -8,7 +8,7 @@
 
 **Account**: [log in](https://wallet.advcash.com/login)
 
-Follow the instructions for setting up a connection with AdvCash payment provider.
+Follow the guidance for setting up a connection with AdvCash payment provider.
 
 ## Set Up Account
 
@@ -16,7 +16,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 
 ![Step 1](images/advcash-step0.png)
 
-### Step 2. Open profile settings
+### Step 2: Open profile settings
 
 ![Step 1.1](images/advcash-step1_1.png)
 
@@ -51,7 +51,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 ### Step 3: Confirm changes
 
 !!! warning
-    To confirm the changes, follow the link with instructions that AdvCash send to your registered e-mail.
+    To confirm the changes, follow the link with instructions that AdvCash send to your primary email.
 
 ![Step 3](images/advcash-step2_3.png)
 
@@ -65,7 +65,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 
 !!! warning
     To activate SCI, first, you should verify account.
-    
+
     ![Step 3.0](images/advcash-step3.png)
 
 ### Step 1: Create New SCI
@@ -77,7 +77,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 * Tick the option *Use a digital signature in the request to SCI*
 
 !!! tip
-    All other properties (*COMMISSION PAYS*, *Accept underpayment*, *Accept overpayment*) are set at your discretion.
+    All other properties (*COMMISSION PAYS*, *Accept underpayment*, *Accept overpayment*) are your discretion.
 
 ![Step 3.2](images/advcash-step3_2.png)  
 
@@ -92,7 +92,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 ![Step 3.3](images/advcash-step3_3.png)
 
 !!! tip
-    All other links (*Successful transaction page*, *Failed transaction page*, *Status page*) should remain unfilled, they will be set through API.
+    All other links (*Successful transaction page*, *Failed transaction page*, *Status page*) should remain unfilled; they are set through API.
 
 !!! success
     You have set up and activated the SCI.
@@ -101,7 +101,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 
 ### Step 1: Copy required credentials from wallet.advcash.com
 
-* Account Email (the main email linked with your [Profile](https://wallet.advcash.com/pages/profile))
+* Account Email (the primary email linked with your [Profile](https://wallet.advcash.com/pages/profile))
 * API Name
 * API Password
 * SCI Name
@@ -109,9 +109,7 @@ Follow the instructions for setting up a connection with AdvCash payment provide
 
 ### Step 2: Connect account at dashboard.paycore.io
 
-Press **Connect** at [*AdvCash Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/advcash/general) page in *'New connection'* to open Connection form.
-
-Enter copied credentials from [Step 1](#step-1-copy-required-credentials-from-walletadvcashcom).
+Press **Connect** at [*AdvCash Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/advcash/general) page in *'New connection'* to open Connection form. Enter copied credentials from [Step 1](#step-1-copy-required-credentials-from-walletadvcashcom).
 
 ![Connect](images/advcash_connect.png)
 
