@@ -685,9 +685,12 @@ Payment gateways are software and servers that transmit transaction information 
 
 An invoice is a payment request sent by a [merchant](#merchant) that lists the goods or services, includes the total amount and any necessary taxes, and provided it to a customer.
 
-<!--
-### Payment Method 
+### Payment Method
 
+The way that a customer chooses to pay to the merchant. Typically, payment methods include cash, checks, credit or debit cards, money orders, bank transfers and online payment services such as PayPal and others.
+
+
+<!--
 ### Payment Page
 ### Payment Pre-Request
 -->
@@ -703,15 +706,18 @@ A payment processor is a company authorized to process [credit card transactions
 ### Payment Request
 
 ### Payment Route
-### Payment Service 
 -->
+
+### Payment Service
+
+A virtual entity that displays the [payment method](#payment-method) linked with the specific currency.
 
 ### Payment Service Provider (PSP)
 
 A third party that helps [merchants](#merchant) accept and facilitate payments.
 
 !!! info
-    Payment service providers partner with [acquiring banks](#acquiring-bank) to offer merchants the capability to accept payments. Payment Service Providers often offer services in addition to processing transactions. These services include [Payment Card Industry Data Security Standard (PCI)](#payment-card-industry-data-security-standard-pci) compliance, fraud protection and the ability to process different currencies and translate different languages.
+    Payment service providers partner with [acquiring banks](#acquiring-bank) to offer merchants the capability to accept payments. Payment Service Providers often offer services in addition to processing transactions. These services include [Payment Card Industry Data Security Standard (PCI)](#payment-card-industry-data-security-standard-pci) compliance, fraud protection, and the ability to process different currencies and translate different languages.
 
 ### Payout
 
@@ -722,9 +728,12 @@ The transaction refers to the financial return or monetary disbursement of inves
 ### Payout Batch Item
 ### Payout Gateway
 ### Payout Invoice
-### Payout Method
 ### Payout Method currency
 -->
+
+### Payout Method
+
+The way that the [merchants](#merchant) can refund customers, pay suppliers, withdraws and transfer funds.
 
 ### Payout Point
 
@@ -750,8 +759,12 @@ An aggregation entity responsible for routing configuration. Consists of a set o
 
 Route processing rule for the payout method currency. Sets the route processing strategy and the conditions under which this strategy will be active.
 
+### Payout Service
+
+A virtual entity that displays the [payout method](#payment-method) linked with the specific currency.
+
 <!--
-### Payout Service 
+
 ### Pending balance
 ### Permission
 -->
