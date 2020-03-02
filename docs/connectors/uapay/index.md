@@ -33,7 +33,7 @@ Enter credentials:
 
 * Client ID
 * Secret key
-* Virtual ID (a random number you set yourself, should be unique: as appropriate, use another one to connect multiple accounts with the same credentials)
+* Virtual ID (a random number you set yourself, should be unique: as appropriate, use another ones to connect multiple accounts with the same credentials)
 
 Also, choose Test Mode for test connection with UApay, and P2P mode for connection in  peer-to-peer payment network.
 
