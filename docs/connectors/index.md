@@ -25,6 +25,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |    <img src="https://static.openfintech.io/payment_providers/billline/logo.svg?w=70" width="70px">     | [BillLine](billline/)            | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/cardgate/logo.svg?w=70" width="70px">     | [Card Payments](cardgate/)       | Card Payments and Payouts                       |
 |     <img src="https://static.openfintech.io/payment_providers/cardpay/logo.svg?w=70" width="70px">     | [cardpay](cardpay/)              | H2H connection, Payments and Payouts            |
+| <img src="https://static.openfintech.io/payment_providers/cashfree/logo.svg?w=80" width="80px"> | [Cashfree](cashfree/) | Payouts                                         |
 | <img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png?w=120" width="120px"> | [Certus Finance](certusfinance/) | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/coingate/logo.svg?w=70" width="70px">     | [CoinGate](coingate/)            | Payments                                        |
 |    <img src="https://static.openfintech.io/payment_providers/concord/logo.svg?w=120" width="120px">    | [Concord Bank](concord/)         | H2H payment connection, Payouts                 |

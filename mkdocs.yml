@@ -212,6 +212,7 @@ nav:
       - Billline: connectors/billline/index.md
       - CardGate: connectors/cardgate/index.md
       - CardPay: connectors/cardpay/index.md
+      - Cashfree: connectors/cashfree/index.md
       - Certus Finance: connectors/certusfinance/index.md
       - CoinGate: connectors/coingate/index.md
       - Concord Bank: connectors/concord/index.md

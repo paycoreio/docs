@@ -122,20 +122,20 @@ The values for each timeout are as follows:
 
 ## Automatic Retries
 
-When you successfully process callback request you must return `200` HTTP status code. Any other data return by callback is ignored.
+When you successfully process callback request, you must return 200 HTTP status code. Our application ignores any other data return by callback.
 
-If callback returns status code other then `200` it is assumed that the request delivery failed. Failed callback request are resent with increasing delay between each attempt:
+If the callback returns status code other then 200, it is assumed the delivery of request failed. The failed callback request is resent with an increasing delay between each attempt:
 
-- the 1st retry will happen 1 minute after the initial attempt,
-- the 2nd retry will happen 2 minutes after the 1st retry,
-- the 3rd retry will happen 3 minutes after the 2nd retry,
-- the 4th retry will happen 4 minutes after the 3rd retry,
-- the 5th retry will happen 5 minutes after the 4th retry,
-- the 6th retry will happen 6 minutes after the 5th retry,
-- and so on, up to 100 attempts or up to receiving `200` HTTP status code.
+- the 1st retry 1 minute after the initial attempt,
+- the 2nd retry 2 minutes after the 1st retry,
+- the 3rd retry 3 minutes after the 2nd retry,
+- the 4th retry 4 minutes after the 3rd retry,
+- the 5th retry 5 minutes after the 4th retry,
+- the 6th retry 6 minutes after the 5th retry,
+- and so on, up to 100 attempts or up to receiving 200 HTTP status code.
 
 !!! note
-    You could resend a callback manually, if you wish to sync your data immediately. Go to  _Operation overview_  >  _Callbacks_. On the right side, you will have the option to select the callback and resend the same.
+   You could resend a callback manually if you wish to sync your data immediately. Go to *Operation overview* > *Callbacks*, select the callback and use the button on the right side to resend it.
 
 ## Callback Handling
 
