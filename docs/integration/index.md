@@ -2,7 +2,6 @@
 
 ![PayCore.io APIs](/images/paycore-apis.png)
 
-
 ## Basic principles
 
 We offer a great deal of payment products and services, each with its own options and possibilities.
@@ -19,7 +18,6 @@ Get the answers straight:
 
 ??? question "Do you want to host your payment services yourself or let us take care of hosting?"
     You can either build your payment pages yourself using our JavaScript or Native mobile SDKs on our Commerce Public API, or let us completely handle this for you through our Hosted Payment Pages. Which of these options is best in your case depends on your specific needs, and we're happy to advise.
-
 
 ## Accept Payments
 
@@ -53,7 +51,6 @@ We offer several RESTful APIs: A server API which is used by the merchants in a 
 
 [Learn more -->](/integration/api-references/)
 
-
 ## SDKs
 
 <img src="/integration/images/mobile-sdk.svg" alt="SDKs" style="width: 150px; float: right;">
@@ -63,7 +60,6 @@ Whether you're processing payments on desktop or on mobile, our software develop
   
 [Learn more -->](/integration/sdks/)
 
-
 ## Shopping carts
 
 <img src="/integration/images/merchant.svg" alt="Shopping carts" style="width: 150px; float: right;">
@@ -72,10 +68,9 @@ Our payment gateway is integrated with many popular shopping cart platforms. Get
 
 [Learn more -->](/integration/cms-modules/)
 
-
 ## FAQ
 
 [Explore FAQ section -->](/getting-started/faq/)
 
 !!! question
-    Can't find what you're looking for? [Contact our support team for help](https://support.paycore.io/).
+    Can't find what you're looking for? [Contact our support team for help!](https://support.paycore.io/)
