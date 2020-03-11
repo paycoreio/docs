@@ -134,6 +134,12 @@ If the callback returns status code other then 200, it is assumed the delivery o
 - the 6th retry 6 minutes after the 5th retry,
 - and so on, up to 100 attempts or up to receiving 200 HTTP status code.
 
+You can set up delays between Callbacks' requests and the number of attempts in the *Commerce* settings.
+
+![Callback Options](images/callback-options.png)
+
+Additionally, you can avoid receiving unnecessary messages in Callbacks by toggling the "Only final" statuses option.
+
 !!! note
    You could resend a callback manually if you wish to sync your data immediately. Go to *Operation overview* > *Callbacks*, select the callback and use the button on the right side to resend it.
 
