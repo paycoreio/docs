@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.10 11/03/2020](v1.10/)
+
+* [Card Gate upgrade](v1.10/#verify-flow): added flow for card verification
+* [Commerce improvements](v1.10/#commerce-improvements): added possibility to set up Callbacks' options, filtered archived currency accounts
+* [Dashboard betterment](v1.10/#expanded-transaction-overview): expanded information about payment
+* [New integrations](v1.10/#new-integrations): Cashfree, updated LiqPay and Twelve.live
+* [Performance improvements](v1.10/#performance-improvements)
+
 ## [v1.9 28/02/2020](v1.9/)
 
 * [Card Gate update](v1.9/#card-gate-update): added options for merchant accounts
