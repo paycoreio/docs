@@ -209,6 +209,7 @@ nav:
       - AdvCash: connectors/advcash/index.md
       - Alfa Bank: connectors/alfabank/index.md
       - AnyCash: connectors/anycash/index.md
+      - Any.Money: connectors/anymoney/index.md
       - Billline: connectors/billline/index.md
       - CardGate: connectors/cardgate/index.md
       - CardPay: connectors/cardpay/index.md
