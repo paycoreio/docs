@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 11/03/2019: 78 connectors -->
+<!-- 20/03/2019: 79 connectors -->
 
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
@@ -24,6 +24,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |    <img src="https://static.openfintech.io/payment_providers/advcash/logo.svg?w=100" width="100px">    | [AdvCash](advcash/)              | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/alfabank/logo.svg?w=90" width="90px">     | [Alfa Bank](adgroup/)            | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/anycash/logo.svg?w=70" width="100px">     | [any.cash](anycash/)             | Payments and Payouts                            |
+| <img src="https://static.openfintech.io/payment_providers/anymoney/logo.svg?w=80" width="80px"> | [Any.Money](anymoney/) | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/billline/logo.svg?w=70" width="70px">     | [BillLine](billline/)            | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/cardgate/logo.svg?w=70" width="70px">     | [Card Payments](cardgate/)       | Card Payments and Payouts                       |
 |     <img src="https://static.openfintech.io/payment_providers/cardpay/logo.svg?w=70" width="70px">     | [cardpay](cardpay/)              | H2H connection, Payments and Payouts            |
