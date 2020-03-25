@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.11 25/03/2020](v1.11/)
+
+* [Addons](v1.11/#addons): implemented addons
+* [Card Gateway Routing Updates](#card-gateway-routing-updates): added possibility to set up Callbacks' options, filtered archived currency accounts
+* [Commerce Update](v1.11/#commerce-update): expanded information about payment
+* [New integrations](v1.11/#new-integrations): Masterpass UI Flow for Concord Bank, Google Pay UI Flow for Portmone.com, ApplePay and Google Pay UI Flow for WinPay, updated Forwardbank connection
+* [Performance improvements](v1.11/#performance-improvements)
+
 ## [v1.10 11/03/2020](v1.10/)
 
 * [Card Gate upgrade](v1.10/#verify-flow): added flow for card verification

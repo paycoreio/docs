@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 20/03/2019: 79 connectors -->
+<!-- 25/03/2019: 80 connectors -->
 
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
@@ -77,6 +77,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |  <img src="https://static.openfintech.io/payment_providers/perfectmoney/logo.svg?w=35" width="35px">   | [Perfect Money](perfectmoney/)   | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/piastrix/logo.svg?w=70" width="70px">     | [Piastrix](piastrix/)            | H2H connection, Payments and Payouts            |
 |     <img src="https://static.openfintech.io/payment_providers/platio/logo.svg?w=70" width="70px">      | [Platio](platio/)                | H2H payment connection, Payouts                 |
+|    <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">     | [Portmone.com](portmone/)            | H2H connection            |
 |     <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px">     | [Procard](procard/)              | H2H payment & payout connection                 |
 |      <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px">      | [Rapyd.net](rapyd/)              | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/rbkmoney/logo.png?w=70" width="70px">     | [RBK Money](rbkmoney/)           | H2H connection, Payouts                 |
