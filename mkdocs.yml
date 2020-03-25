@@ -261,6 +261,7 @@ nav:
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
       - Platio: connectors/platio/index.md
+      - Portmone.com: connectors/portmone/index.md
       - Procard: connectors/procard/index.md
       - RBK Money: connectors/rbkmoney/index.md
       - Rapyd.net: connectors/rapyd/index.md
