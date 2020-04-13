@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.12 10/04/2020](v1.12/)
+
+* [Commerce Improvements](v1.12/#commerce-improvements): added Reference ID for Commerce Accounts, Autoprocess and P2P-firstly strategy to the Payouts options, enabled process pending transactions from the Dashboard, added custom favicons for HPP
+* [Integration Updates](v1.12/#integration-updates): Concord Bank Google Pay UI Flow, Xpate Payouts, XPAY 1-stage Payouts
+* [Bug Fixes](v1.12/#bug-fixes)
+
 ## [v1.11 25/03/2020](v1.11/)
 
 * [Addons](v1.11/#addons): implemented addons

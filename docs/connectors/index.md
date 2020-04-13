@@ -93,7 +93,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |  <img src="https://static.openfintech.io/payment_providers/wirecapital/logo.svg?w=110" width="110px">  | [Wirecapital](wirecapital/)      | Payments                                        |
 |    <img src="https://static.openfintech.io/payment_providers/wirecard/logo.svg?w=70" width="70px">     | [wirecard](wirecard/)            | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/wlandpay/logo.png?w=90" width="90px">     | [WlandPay](wlandpay/)            | H2H payment connection                          |
-|      <img src="https://static.openfintech.io/payment_providers/xpate/logo.svg?w=70" width="70px">      | [xpate](xpate/)                  | H2H payment connection                          |
+|      <img src="https://static.openfintech.io/payment_providers/xpate/logo.svg?w=70" width="70px">      | [xpate](xpate/)                  | H2H payment connection, Payouts                          |
 |     <img src="https://static.openfintech.io/payment_providers/xpayua/logo.svg?w=70" width="70px">      | [XPAY](xpayua/)                  | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/zotapay/logo.png?w=70" width="70px">     | [Zotapay](zotapay/)              | Payments and Payouts                            |
 
