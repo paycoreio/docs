@@ -4,6 +4,7 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+<!--
 ## [v1.13 30/04/2020](v1.13/)
 
 * [Tokenisation process upgrade](v1.13/#tokenisation-process-upgrade): separated two types of tokens
@@ -11,6 +12,7 @@ This changelog lists releases by date and version number, along with associated 
 * [Dashboard UX Betterment](v1.13/#dashboard-ux-betterment): grid tabs in the dashboard's section open as a new tab in a browser
 * [Integration Updates](v1.13/#integration-updates): Concord Bank 3DS Flow, Portmone.com non-3DS Flow, UAPay Balances, new supported currencies, Google Pay UI update
 * [Bug Fixes](v1.13/#bug-fixes)
+-->
 
 ## [v1.12 10/04/2020](v1.12/)
 
