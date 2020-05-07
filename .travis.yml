@@ -1,8 +1,9 @@
 sudo: false
 language: python
 install:
-- pip install mkdocs
-- pip install mkdocs-material==3.1
+- pip install mkdocs==1.0.4
+- pip install mkdocs-material==4.6.3
+- pip install mkdocs-macros-plugin pymdown-extensions==6.3 mkdocs-markdownextradata-plugin mkdocs-minify-plugin
 script:
 - git clean -f -d -x;
 - mkdocs build

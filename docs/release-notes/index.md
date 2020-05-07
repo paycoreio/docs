@@ -4,6 +4,16 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+<!--
+## [v1.13 30/04/2020](v1.13/)
+
+* [Tokenisation process upgrade](v1.13/#tokenisation-process-upgrade): separated two types of tokens
+* [Updates for Commerce account management](v1.13/#updates-for-commerce-account-management): functionalities for archiving accounts and setting up different Return URLs from the dashboard
+* [Dashboard UX Betterment](v1.13/#dashboard-ux-betterment): grid tabs in the dashboard's section open as a new tab in a browser
+* [Integration Updates](v1.13/#integration-updates): Concord Bank 3DS Flow, Portmone.com non-3DS Flow, UAPay Balances, new supported currencies, Google Pay UI update
+* [Bug Fixes](v1.13/#bug-fixes)
+-->
+
 ## [v1.12 10/04/2020](v1.12/)
 
 * [Commerce Improvements](v1.12/#commerce-improvements): added Reference ID for Commerce Accounts, Autoprocess and P2P-firstly strategy to the Payouts options, enabled process pending transactions from the Dashboard, added custom favicons for HPP
