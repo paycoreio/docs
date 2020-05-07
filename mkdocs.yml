@@ -284,7 +284,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
-    # - v1.13 (30/04/2020): release-notes/v1.13.md
+    - v1.13 (07/05/2020): release-notes/v1.13.md
     - v1.12 (10/04/2020): release-notes/v1.12.md
     - v1.11 (25/03/2020): release-notes/v1.11.md
     - v1.10 (11/03/2020): release-notes/v1.10.md
