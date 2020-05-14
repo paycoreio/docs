@@ -4,15 +4,15 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
-<!--
-## [v1.13 30/04/2020](v1.13/)
+## [v1.13 14/05/2020](v1.13/)
 
+* [Payout Schemes](v1.13/#payout-schemes): improved payout routing
 * [Tokenisation process upgrade](v1.13/#tokenisation-process-upgrade): separated two types of tokens
-* [Updates for Commerce account management](v1.13/#updates-for-commerce-account-management): functionalities for archiving accounts and setting up different Return URLs from the dashboard
-* [Dashboard UX Betterment](v1.13/#dashboard-ux-betterment): grid tabs in the dashboard's section open as a new tab in a browser
-* [Integration Updates](v1.13/#integration-updates): Concord Bank 3DS Flow, Portmone.com non-3DS Flow, UAPay Balances, new supported currencies, Google Pay UI update
+* [Updates for Commerce account management](v1.13/#updates-for-commerce-account-management): functionalities for archiving accounts and for setting up different Return URLs from the dashboard; also, updated Merchant Portal settings
+* [Dashboard UX Betterment](v1.13/#dashboard-ux-betterment): a full-text search launch
+* [HPP Update](v1.13/#hpp-update): change localisation key
+* [New Integrations](v1.13/#new-integrations): Klarna Payments, Paysafe Payments and Payouts, Genome Payouts, Concord Bank 3DS Flow, Portmone.com non-3DS Flow, UAPay Balances, new supported currencies, Google Pay UI update
 * [Bug Fixes](v1.13/#bug-fixes)
--->
 
 ## [v1.12 10/04/2020](v1.12/)
 

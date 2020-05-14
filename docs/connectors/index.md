@@ -46,7 +46,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |    <img src="https://static.openfintech.io/payment_providers/flashpay/logo.png?w=80" width="80px">     | [FlashPay](flashpay/)            | Payouts                                         |
 |      <img src="https://static.openfintech.io/payment_providers/fondy/logo.svg?w=70" width="70px">      | [Fondy](fondy/)                  | H2H payment connection, Payouts                 |
 |   <img src="https://static.openfintech.io/payment_providers/forwardbank/logo.svg?w=70" width="70px">   | [Forward Bank](forwardbank/)     | H2H payment connection, Payouts                 |
-|     <img src="https://static.openfintech.io/payment_providers/genome/logo.svg?w=70" width="70px">      | [Genome](genome/)                | H2H payment connection                          |
+|     <img src="https://static.openfintech.io/payment_providers/genome/logo.svg?w=70" width="70px">      | [Genome](genome/)                | H2H payment connection, Payouts                          |
 |    <img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg?w=70" width="70px">    | [GEO pay](geopaynet/)            | Payments and Payouts                            |
 |   <img src="https://static.openfintech.io/payment_providers/globalmoney/logo.svg?w=50" width="50px">   | [Global Money](globalmoney/)     | Payouts                                         |
 |   <img src="https://static.openfintech.io/payment_providers/hashconnect/logo.png?w=50" width="50px">   | [Hashconnect](hashconnect/)      | H2H payment connection, Payouts                 |
