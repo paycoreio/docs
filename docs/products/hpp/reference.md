@@ -311,7 +311,7 @@ HPP supports following languages in multiple regions around the world: English, 
 
 |Key       |Type    |Description                                                                                                    |
 |----------|--------|---------------------------------------------------------------------------------------------------------------|
-|`language`|`string`|The ISO 639-1 code of one of predefined languages. Enum: `en`, `uk`, `ru` (Default: The user browser language).|
+|`locale`|`string`|The ISO 639-1 code of one of predefined languages. Enum: `en`, `uk`, `ru` (Default: The user browser language).|
 
 ??? example "Example: Payment with predefined language for the UI"
 
@@ -320,7 +320,7 @@ HPP supports following languages in multiple regions around the world: English, 
     <script>
     window.HPPConfig = {
         public_key: "<your_public_key>",
-        language: "uk",
+        locale: "uk",
         amount: 100.00,
         currency: "USD",
         description: "Some goods"
@@ -332,7 +332,7 @@ HPP supports following languages in multiple regions around the world: English, 
     ```html tab="Payment Link (HTML Form)" hl_lines="3"
     <form action="https://com.paycore.io/hpp/" method="get">
         <input type="hidden" name="public_key" value="<your_public_key>" />
-        <input type="hidden" name="language" value="uk" />
+        <input type="hidden" name="locale" value="uk" />
         <input type="hidden" name="currency" value="USD" />
         <input type="hidden" name="amount" value="100" />
         <input type="hidden" name="description" value="Some goods" />
