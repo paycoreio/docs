@@ -1,9 +1,7 @@
 sudo: false
 language: python
-python:	
-- "3.6"
 install:
-- pip install mkdocs==1.0.4
+- pip install mkdocs==1.1.2
 - pip install mkdocs-material==4.6.3
 script:
 - git clean -f -d -x;
