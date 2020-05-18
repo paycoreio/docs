@@ -13,6 +13,8 @@ To test card payments, you can use our [Test H2H connector](/connectors/test/#ho
 | 4412397212080000 | any | defined *** |  yes | fail (`process_failed`) |
 | 4302912837020000 | any | defined *** | no |  fail (`process_failed`) |
 
+![Retry Example](images/retry-inv-cvv.png)
+
 \* Use any valid expiry date except `0777` for successful processing. And use `0777` to receive status `pending` (resolution `auth_3ds_required`) on reconciliation.
 
 \** Use any valid expiry date except `0777` for successful processing. And use `0777` to receive status `pending` on reconciliation.
