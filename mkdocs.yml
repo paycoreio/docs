@@ -142,6 +142,7 @@ nav:
         - Basic Concepts: products/payout-gateway/basic-concepts.md
         - Managing Payouts: products/payout-gateway/managing-payouts.md
         - Managing Routing: products/payout-gateway/managing-routing.md
+        - Payout Schemes: products/payout-gateway/payout-schemes.md
         - Payout Workflow: products/payout-gateway/payout-workflow.md
         - Payout Request Workflow: products/payout-gateway/payout-request-workflow.md
     - Hosted Payment Page:
