@@ -276,6 +276,7 @@ nav:
       - Tranzzo: connectors/tranzzo/index.md
       - Twelve.live: connectors/twelvelive/index.md
       - UAPay: connectors/uapay/index.md
+      - VCreditos: connectors/vcreditos/index.md
       - WinPay: connectors/winpay/index.md
       - Wirecapital: connectors/wirecapital/index.md
       - Wirecard: connectors/wirecard/index.md
@@ -285,7 +286,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
-    - v1.14 (16/05/2020); release-notes/v1.14.md
+    - v1.14 (19/06/2020): release-notes/v1.14.md
     - v1.13 (14/05/2020): release-notes/v1.13.md
     - v1.12 (10/04/2020): release-notes/v1.12.md
     - v1.11 (25/03/2020): release-notes/v1.11.md

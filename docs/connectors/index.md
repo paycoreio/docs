@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 07/05/2019: 82 connectors -->
+<!-- 19/06/2019: 83 connectors -->
 
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
@@ -91,6 +91,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px">     | [Tranzzo](tranzzo/)              | Payments                                        |
 |   <img src="https://static.openfintech.io/payment_providers/twelvelive/logo.svg?w=25" width="25px">    | [Twelve.live](twelvelive/)       | H2H payment connection, Payments and Payouts                 |
 |      <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px">      | [UAPay](uapay/)                  | H2H payment connection, Payouts                 |
+|     <img src="https://static.openfintech.io/payment_providers/vcreditos/logo.png?w=70" width="70px">      | [VCreditos](vcreditos/)                | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/winpay/logo.png?w=70" width="70px">      | [WinPay](winpay/)                | Payments and Payouts                            |
 |  <img src="https://static.openfintech.io/payment_providers/wirecapital/logo.svg?w=110" width="110px">  | [Wirecapital](wirecapital/)      | Payments                                        |
 |    <img src="https://static.openfintech.io/payment_providers/wirecard/logo.svg?w=70" width="70px">     | [wirecard](wirecard/)            | H2H payment connection, Payouts                 |
