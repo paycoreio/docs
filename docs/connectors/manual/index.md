@@ -2,33 +2,21 @@
 
 # Manual Connector
 
-## Introduction
+The manual connector serves as an auxiliary tool for Swift and Bank transfer payment methods. Follow the guidance for setting it up.
 
-Here You can find  instructions for setting up **Manual**  account.
+## Connect Account
 
+### Enter credentials
 
+Press **Connect** at [*Manual Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/manual/general) page in *'New connection'*  to open Connection form.
 
-## Connect account
+- MID &mdash; set a random unique identifier up to 32 characters
+- Methods &mdash; select the methods you want
 
-
-#### Step 1: Enter credentials
-
-- Services
-- External ID (_optional_)
-
-It should have 32 characters or less!
-
-!!! tip
-    Press **`Connect`** at Manual **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-!!! note
-    These parameters are set according to your choice and needs!
-
-
-
-![Connect](images/manual_connect.png)
-
+![Connect](images/manual_connect_new.png)
 
 !!! success
-    You have connected **Manual**!
+    You have connected Manual connector! Now you can use it to send and receive Swift and bank transfer transactions.
+
+!!! question "Still looking for help connecting Manual connector?"
+    [Please contact our support team!](mailto:support@paycore.io)
