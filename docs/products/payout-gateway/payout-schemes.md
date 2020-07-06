@@ -80,3 +80,11 @@ P2p options help you to customise the P2P routing as efficiently as possible. Yo
 
     ??? example "Example calculation"
         Let there are processed $100 payout, and the p2p pool has $130 and $140 payments, you choose to sort transactions by *minimal remainders* and select those with a *minimal amount* $35. Based on sorting settings, the components should take $130 payment, but in that case, the $30 rest will never be paid. So, you need to set 35 as the minimal remainder to split $140 payment on $100 and $40.
+
+## Status Resolutions Related to Payout Schemes
+
+We have also added additional types of payout request's failed status resolutions related to payout schemes usage:
+
+- `STRATEGY_RECEIVED_NO_ROUTES` — there are no routes by the condition in the routing
+- `STRATEGY_CONFIGURED_ROUTES_WERE_FILTERED` — all rows do not match a result of filtration 
+- `NO_AVAILABLE_P2P_PAYMENTS` — there are no proper p2p-payments (for р2р-routes only)
