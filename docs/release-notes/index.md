@@ -4,6 +4,21 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.15 23/06/2020](v1.15/)
+
+* [Platform UX Enhancements](v1.15/#platform-ux-enhancements): added payloads for Deposit account balances, extra fields to the Payout Overview, the layout sort parameter 'Created', actions for p2p payments, and new fields to the export grids for Deposits, Withdrawals, and Transfers
+* [Merchant Application Update](v1.15/#merchant-application-settings-update): added API Key to the configuration
+* [Integration Updates](v1.15/#integration-updates): CardPay and Platio instant payments
+* [Bug Fixes and Stability Improvements](v1.15/#stability-improvements)
+
+## [v1.14 09/06/2020](v1.14/)
+
+* [Commerce Enhancements](v1.14/#commerce-enhancements): added possibility to withhold part of the funds before releasing to the merchant and to include the minimum required balance for the currency account; restrictions on transfers between commerce accounts, and resolutions related to payout schemes usage
+* [Merchant Application update](v1.14/#merchant-application-settings-update): added custom roles to account settings and the session limit to Merchant Portal configuration
+* [Card Gate Update](v1.14/#card-gate-update): added metadata modifier, a cap limit increase to 100,000 UAH for payouts
+* [New Integrations](v1.14/#new-integrations): LiqPay non-CVV payments, VCreditos wallet payments and payouts, bank transfers as manual payouts
+* [And other minor performance improvements](v1.14/#performance-improvements)
+
 ## [v1.13 14/05/2020](v1.13/)
 
 * [Payout Schemes](v1.13/#payout-schemes): improved payout routing
