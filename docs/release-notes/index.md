@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.16 07/07/2020](v1.16/)
+
+* [Payout Gateway Updates](v1.16/#payout-gateway-updates): upgraded batch payouts and the added possibility for direct p2p-payouts
+* [UX Improvements](v1.16/#ux-improvements): added archiving for routing schemes and multi-sorting for grids
+* [White Label URL Addons](v1.16/#white-label-url-addons)
+* [Performance Improvements](v1.16/#performance-improvements)
+
 ## [v1.15 23/06/2020](v1.15/)
 
 * [Platform UX Enhancements](v1.15/#platform-ux-enhancements): added payloads for Deposit account balances, extra fields to the Payout Overview, the layout sort parameter 'Created', actions for p2p payments, and new fields to the export grids for Deposits, Withdrawals, and Transfers

@@ -34,6 +34,8 @@ Find *Payout Schemes* tab in *Payout Gateway* section. Click on the *Create* but
 
 In the new scheme configuration, you can see automatically created routes for all services available to the organisation. All of them are enabled by default, and you can turn off those you don't plan to use.
 
+![Set of Enabled Service Schemes](images/enabled-schemes.png)
+
 ## Configure routing
 
 The set of service schemes defines the routing in the payout scheme. To configure each of them, click on the corresponding row in the grid.
@@ -46,11 +48,15 @@ You can combine different conditions and groups of conditions; connect them usin
 
 For illustration purposes, routing has a tree structure. Branches start from a node with conditions and end with a strategy, a set of strategies, or the following set of conditions. Green branches refer to meet conditions, red—represent the state when conditions are not met.
 
+![Set of stretegies](images/multi.png)
+
 ![Edit Strategy](images/edit-strategy.png)
 
-The execution of strategies in the set depends on how they locate from top to bottom.
+Set of strategies allows you to combine strategies (by balance, by weight) within a branch. The execution of strategies there depends on how they locate from top to bottom.
 
 ![Set of strategies](images/set-of-strategy.png)
+
+![Another set of strategies](images/multi-strategy.png)
 
 !!! tip "Failover"
     Failover is handled at Payout Request level by creating additional payouts if the previous ones were unsuccessful. This feature is set in the payout settings by the *Attempts limit* option if its value is above zero.
@@ -63,7 +69,7 @@ If the strategy operates a p2p route, an additional p2p option section appears f
 
 ## P2p Routing Strategies
 
-P2p options help you to customise the P2P routing as efficiently as possible. You can override the following options as part of the whole strategy.
+P2p options help you to customise the P2P routing as efficiently as possible. You can override the following options as part of the whole strategy. By default, p2p routes do not have priority over regular routes, but you can turn on the *P2P firstly* option in the payout processing settings for a Commerce account.
 
 ![P2p options](images/p2p-options.png)
 
