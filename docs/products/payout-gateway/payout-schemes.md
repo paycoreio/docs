@@ -71,6 +71,8 @@ If the strategy operates a p2p route, an additional p2p option section appears f
 
 P2p options help you to customise the P2P routing as efficiently as possible. You can override the following options as part of the whole strategy. By default, p2p routes do not have priority over regular routes, but you can turn on the *P2P firstly* option in the payout processing settings for a Commerce account.
 
+![P2p options](images/p2p-options.png)
+
 1. Sorting: you can select the oldest transactions (that will soon be expired), biggest—with the highest amount, and with the minimal remainder (the recent option is only relevant for routes with p2p payment splitting and, at the same time, turned-off splitting on payouts).
 
 2. Minimal amount: to select from p2p-pool transactions with amounts that are over or equal to the set value.
