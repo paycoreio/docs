@@ -215,6 +215,7 @@ nav:
       - CardGate: connectors/cardgate/index.md
       - CardPay: connectors/cardpay/index.md
       - Cashfree: connectors/cashfree/index.md
+      - Cauri: connectors/cauri/index.md
       - Certus Finance: connectors/certusfinance/index.md
       - CoinGate: connectors/coingate/index.md
       - Concord Bank: connectors/concord/index.md
@@ -268,6 +269,7 @@ nav:
       - Procard: connectors/procard/index.md
       - RBK Money: connectors/rbkmoney/index.md
       - Rapyd.net: connectors/rapyd/index.md
+      - Raiffeisen Bank: connectors/raiffeisenbank/index.md
       - SafeCharge: connectors/safecharge/index.md
       - SatchelPay: connectors/satchelpay/index.md
       - Selcom: connectors/selcom/index.md     
@@ -286,6 +288,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.17 (21/07/2020): release-notes/v1.17.md
     - v1.16 (07/07/2020): release-notes/v1.16.md
     - v1.15 (23/06/2020): release-notes/v1.15.md
     - v1.14 (09/06/2020): release-notes/v1.14.md

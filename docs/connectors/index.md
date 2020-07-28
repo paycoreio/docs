@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 19/06/2019: 83 connectors -->
+<!-- 28/07/2019: 85 connectors -->
 
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
@@ -29,6 +29,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |    <img src="https://static.openfintech.io/payment_providers/cardgate/logo.svg?w=70" width="70px">     | [Card Payments](cardgate/)       | Card Payments and Payouts                       |
 |     <img src="https://static.openfintech.io/payment_providers/cardpay/logo.svg?w=70" width="70px">     | [cardpay](cardpay/)              | H2H connection, Payments and Payouts            |
 | <img src="https://static.openfintech.io/payment_providers/cashfree/logo.png?w=80" width="80px"> | [Cashfree](cashfree/) | Payouts                                         |
+| <img src="https://static.openfintech.io/payment_providers/cauri/logo.png?w=35" width="35px"> | [Cauri](cauri/) | H2H payment connection                                         |
 | <img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png?w=120" width="120px"> | [Certus Finance](certusfinance/) | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/coingate/logo.svg?w=70" width="70px">     | [CoinGate](coingate/)            | Payments                                        |
 |    <img src="https://static.openfintech.io/payment_providers/concord/logo.svg?w=120" width="120px">    | [Concord Bank](concord/)         | H2H payment connection, Payouts                 |
@@ -82,8 +83,9 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |    <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">     | [Portmone.com](portmone/)            | H2H connection            |
 |     <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px">     | [Procard](procard/)              | H2H payment & payout connection                 |
 |      <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px">      | [Rapyd.net](rapyd/)              | Payouts                                         |
+|    <img src="https://static.openfintech.io/payment_providers/raiffeisenbank/logo.svg?w=100" width="100px">     | [Raiffeisen Bank](raiffeisenbank/)           | H2H payment connection                 |
 |    <img src="https://static.openfintech.io/payment_providers/rbkmoney/logo.png?w=70" width="70px">     | [RBK Money](rbkmoney/)           | H2H connection, Payouts                 |
-|   <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px">    | [SafeCharge](safecharge/)        | H2H payment connection                          |
+|   <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px">    | [SafeCharge](safecharge/)        | H2H payment connection, Payouts                          |
 |   <img src="https://static.openfintech.io/payment_providers/satchelpay/logo.svg?w=90" width="90px">    | [SatchelPay](satchelpay/)        | Payouts                                         |
 |     <img src="https://static.openfintech.io/payment_providers/selcom/logo.png?w=70" width="70px">      | [Selcom](selcom/)                | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/skrill/logo.svg?w=50" width="50px">      | [Skrill](skrill/)                | Payments and Payouts                            |
