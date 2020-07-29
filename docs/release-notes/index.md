@@ -4,7 +4,7 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
-## [v1.17 28/07/2020](v1.17/)
+[//]: # (## [v1.17 28/07/2020](v1.17/)
 
 ## [v1.16 07/07/2020](v1.16/)
 

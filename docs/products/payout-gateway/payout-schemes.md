@@ -92,5 +92,5 @@ P2p options help you to customise the P2P routing as efficiently as possible. Yo
 We have also added additional types of payout request's failed status resolutions related to payout schemes usage:
 
 - `STRATEGY_RECEIVED_NO_ROUTES` — there are no routes by the condition in the routing
-- `STRATEGY_CONFIGURED_ROUTES_WERE_FILTERED` — all rows do not match a result of filtration 
+- `STRATEGY_CONFIGURED_ROUTES_WERE_FILTERED` — all rows do not match a result of filtration
 - `NO_AVAILABLE_P2P_PAYMENTS` — there are no proper p2p-payments (for р2р-routes only)
