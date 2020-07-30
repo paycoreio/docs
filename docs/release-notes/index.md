@@ -1,8 +1,10 @@
 # PayCore.io Release notes
 
-[PayCore.io](http://paycore.io/) regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
+[PayCore.io](http://paycore.io/) follows [Semantic Versioning](https://semver.org/) and regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
 
 This changelog lists releases by date and version number, along with associated changes.
+
+[//]: # (## [v1.17 28/07/2020](v1.17/)
 
 ## [v1.16 07/07/2020](v1.16/)
 
