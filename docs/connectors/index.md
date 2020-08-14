@@ -13,11 +13,16 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 28/07/2019: 85 connectors -->
-
+<!-- 04/08/2020: 82 connectors
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
+|     <img src="https://static.openfintech.io/payment_providers/paymega/logo.svg?w=90" width="90px">     | [PayMega](paymega/)              | H2H connection, Payments and Payouts            |
+|   <img src="https://static.openfintech.io/payment_providers/twelvelive/logo.svg?w=25" width="25px">    | [Twelve.live](twelvelive/)       | H2H payment connection, Payments and Payouts                 |
+ -->
+
+|                                                  Logo                                                  | Name                             | Supported Features                              |
+|:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/4bill/logo.svg?w=70" width="70px">      | [4bill](4bill/)                  | H2H connection, Payments and Payouts            |
 |   <img src="https://static.openfintech.io/payment_providers/accentpay/logo.png?w=100" width="100px">   | [Accentpay](accentpay/)          | H2H connection, Payments and Payouts                           |
 |     <img src="https://static.openfintech.io/payment_providers/adgroup/logo.svg?w=70" width="70px">     | [ADgroup](adgroup/)              | Payments and Payouts            |
@@ -68,7 +73,6 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/payeer/logo.svg?w=70" width="70px">      | [Payeer](payeer/)                | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/paylink/logo.png?w=70" width="70px">     | [Paylink](paylink/)              | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/paylogic/logo.png?w=70" width="70px">     | [Pay-logic](paylogic/)           | Payouts                                         |
-|     <img src="https://static.openfintech.io/payment_providers/paymega/logo.svg?w=90" width="90px">     | [PayMega](paymega/)              | H2H connection, Payments and Payouts            |
 |     <img src="https://static.openfintech.io/payment_providers/paymega/logo.svg?w=90" width="90px">     | [Paymega.io](paymegaio/)         | H2H connection, Payments and Payouts            |
 |  <img src="https://static.openfintech.io/payment_providers/paymentcenter/logo.png?w=70" width="70px">  | [Payment Center](paymentcenter/) | H2H payment connection, Payouts                 |
 |  <img src="https://static.openfintech.io/payment_providers/paymentwall/logo.svg?w=110" width="110px">  | [Paymentwall](paymentwall/)      | H2H payment connection                          |
@@ -91,7 +95,6 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/skrill/logo.svg?w=50" width="50px">      | [Skrill](skrill/)                | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/tkbpay/logo.svg?w=70" width="70px">      | [TKB Pay](rbkmoney/)             | H2H payment connection, Payouts                 |
 |     <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px">     | [Tranzzo](tranzzo/)              | Payments                                        |
-|   <img src="https://static.openfintech.io/payment_providers/twelvelive/logo.svg?w=25" width="25px">    | [Twelve.live](twelvelive/)       | H2H payment connection, Payments and Payouts                 |
 |      <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px">      | [UAPay](uapay/)                  | H2H payment connection, Payouts                 |
 |     <img src="https://static.openfintech.io/payment_providers/vcreditos/logo.png?w=70" width="70px">      | [VCreditos](vcreditos/)                | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/winpay/logo.png?w=70" width="70px">      | [WinPay](winpay/)                | Payments and Payouts                            |
