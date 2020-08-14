@@ -2,5 +2,10 @@
 
 # NAME Connector
 
+> SLOGAN
+
+**Website**: [NAME](WEBSITE)
+**Login**: [NAME](WEBSITE)
+
 !!! question "Looking for help connecting your NAME account?"
     [Please contact our support team](mailto:support@paycore.io)!

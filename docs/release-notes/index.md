@@ -4,7 +4,15 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
-[//]: # (## [v1.17 28/07/2020](v1.17/)
+## [v1.17 04/08/2020](v1.17/)
+
+* [The Refund Fee option](v1.17/#refund-fee-option): added possibility to return refund fee
+* [Payout Gateway Updates](v1.17/#payout-gateway-updates): added a routing condition by Metadata, limited payout splitting to 100 parts
+* [Card Gate Improvements](v1.17/#card-gate-improvements): put to the general overview all connected features for the Merchant account, added new attributes for payment and payout routings, failover routing for same cards in case of auto-repeatable resolutions
+* [HPP Theme Options](v1.17/#additional-checkout-theme-options): increased limit up to 20
+* [Reports Update](v1.17/#reports-update): added Reserved amounts and Reserved balances
+* [New Integrations](v1.17/#new-integrations): Cauri, Global Money, Neteller, Raiffeisen Bank, SafeCharge; AMD currency
+* [Bug Fixes](v1.17/#bug-fixes)
 
 ## [v1.16 07/07/2020](v1.16/)
 
