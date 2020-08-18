@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 04/08/2020: 82 connectors
+<!-- 18/08/2020: 84 connectors
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -62,7 +62,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |      <img src="https://static.openfintech.io/payment_providers/kuna/logo.svg?w=70" width="70px">       | [Kuna](kuna/)                    | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=80" width="80px">    | [LeoGaming](leogaming/)          | Payouts                                         |
 |     <img src="https://static.openfintech.io/payment_providers/liqpay/logo.svg?w=70" width="70px">      | [LiqPay](liqpay/)                | H2H connection, Payments                                        |
-|     <img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=25" width="25px">      | [Manual](manual/)                | manual connector for Swift Payments and Payouts |
+|     <img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=25" width="25px">      | [Manual](manual/)                | manual connector for Swift Payments and Payouts, and bank transfer methods |
 |     <img src="https://static.openfintech.io/payment_providers/maxpay/logo.svg?w=90" width="90px">      | [Maxpay](maxpay/)                | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/mercuryo/logo.svg?w=90" width="90px">     | [mercuryo](mercuryo/)            | Payments                                        |
 |   <img src="https://static.openfintech.io/payment_providers/muchbetter/logo.svg?w=90" width="90px">    | [MuchBetter](muchbetter/)        | Payments and Payouts                            |
@@ -86,13 +86,15 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/platio/logo.svg?w=70" width="70px">      | [Platio](platio/)                | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">     | [Portmone.com](portmone/)            | H2H connection            |
 |     <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px">     | [Procard](procard/)              | H2H payment & payout connection                 |
-|      <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px">      | [Rapyd.net](rapyd/)              | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/raiffeisenbank/logo.svg?w=100" width="100px">     | [Raiffeisen Bank](raiffeisenbank/)           | H2H payment connection                 |
+|      <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px">      | [Rapyd.net](rapyd/)              | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/rbkmoney/logo.png?w=70" width="70px">     | [RBK Money](rbkmoney/)           | H2H connection, Payouts                 |
+|    <img src="https://static.openfintech.io/payment_providers/royalpay/logo.svg?w=70" width="70px">     | [Royal Pay](royalpay/)           | H2H payment connection                 |
 |   <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px">    | [SafeCharge](safecharge/)        | H2H payment connection, Payouts                          |
 |   <img src="https://static.openfintech.io/payment_providers/satchelpay/logo.svg?w=90" width="90px">    | [SatchelPay](satchelpay/)        | Payouts                                         |
 |     <img src="https://static.openfintech.io/payment_providers/selcom/logo.png?w=70" width="70px">      | [Selcom](selcom/)                | Payments and Payouts                            |
 |     <img src="https://static.openfintech.io/payment_providers/skrill/logo.svg?w=50" width="50px">      | [Skrill](skrill/)                | Payments and Payouts                            |
+|     <img src="https://static.openfintech.io/payment_providers/stripe/logo.svg?w=70" width="70px">      | [Stripe](stripe/)                | H2H payment connection                          |
 |     <img src="https://static.openfintech.io/payment_providers/tkbpay/logo.svg?w=70" width="70px">      | [TKB Pay](rbkmoney/)             | H2H payment connection, Payouts                 |
 |     <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px">     | [Tranzzo](tranzzo/)              | Payments                                        |
 |      <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px">      | [UAPay](uapay/)                  | H2H payment connection, Payouts                 |

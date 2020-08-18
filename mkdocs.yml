@@ -270,10 +270,12 @@ nav:
       - RBK Money: connectors/rbkmoney/index.md
       - Rapyd.net: connectors/rapyd/index.md
       - Raiffeisen Bank: connectors/raiffeisenbank/index.md
+      - Royal Pay: connectors/royalpay/index.md
       - SafeCharge: connectors/safecharge/index.md
       - SatchelPay: connectors/satchelpay/index.md
       - Selcom: connectors/selcom/index.md     
       - Skrill: connectors/skrill/index.md
+      - Stripe: connectors/stripe/index.md   
       - TKB pay: connectors/tkbpay/index.md
       - Tranzzo: connectors/tranzzo/index.md
       #- Twelve.live: connectors/twelvelive/index.md
