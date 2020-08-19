@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.18 19/08/2020](v1.18/)
+
+* [Dashboard UX Improvements](v1.18/#dashboard-ux-improvements): added bulk editing of commerce payment services, started to display transaction source in the Dashboard and the Merchant Portal, improved multiple sorting
+* [New Integrations](v1.18/#new-integrations) for Stripe and Royal Pay; increased the Card Gate limit of the possible invoice amount up to 1,000,000,000
+* [Bug Fixes](v1.18/#bug-fixes)
+
 ## [v1.17 04/08/2020](v1.17/)
 
 * [The Refund Fee option](v1.17/#refund-fee-option): added possibility to return refund fee
