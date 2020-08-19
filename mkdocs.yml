@@ -224,9 +224,9 @@ nav:
       - Decta: connectors/decta/index.md
       - dLocal: connectors/dlocal/index.md
       - Dotpay: connectors/dotpay/index.md
-      - ECommPay: connectors/ecommpay/index.md
       - EasyBits.io: connectors/easybits/index.md
       - Ecobanq: connectors/ecobanq/index.md
+      - ECommPay: connectors/ecommpay/index.md
       - Ecopayz: connectors/ecopayz/index.md
       - ePay: connectors/epay/index.md
       - Exactly: connectors/exactly/index.md
@@ -253,6 +253,7 @@ nav:
       - PayLink: connectors/paylink/index.md
       #- PayMega.eu: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
+      - Paymentwall: connectors/paymentwall/index.md   
       - PayPal: connectors/paypal/index.md
       - Paysafe: connectors/paysafe/index.md
       - paysafecard: connectors/paysafecard/index.md
@@ -261,15 +262,14 @@ nav:
       - Payeer: connectors/payeer/index.md
       - Paylogic: connectors/paylogic/index.md
       - PaymentCenter: connectors/paymentcenter/index.md 
-      - Paymentwall: connectors/paymentwall/index.md   
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
       - Platio: connectors/platio/index.md
       - Portmone.com: connectors/portmone/index.md
       - Procard: connectors/procard/index.md
-      - RBK Money: connectors/rbkmoney/index.md
-      - Rapyd.net: connectors/rapyd/index.md
       - Raiffeisen Bank: connectors/raiffeisenbank/index.md
+      - Rapyd.net: connectors/rapyd/index.md
+      - RBK Money: connectors/rbkmoney/index.md
       - Royal Pay: connectors/royalpay/index.md
       - SafeCharge: connectors/safecharge/index.md
       - SatchelPay: connectors/satchelpay/index.md
@@ -290,6 +290,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.18 (18/08/2020): release-notes/v1.18.md
     - v1.17 (04/08/2020): release-notes/v1.17.md
     - v1.16 (07/07/2020): release-notes/v1.16.md
     - v1.15 (23/06/2020): release-notes/v1.15.md
