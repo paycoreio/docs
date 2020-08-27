@@ -239,6 +239,7 @@ nav:
       - HashConnect: connectors/hashconnect/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
       - Interkassa: connectors/interkassa/index.md
+      - IPayTotal: connectors/ipaytotal/index.md
       - Klarna: connectors/klarna/index.md
       - Kuna: connectors/kuna/index.md
       - Leogaming: connectors/leogaming/index.md
@@ -249,21 +250,22 @@ nav:
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
       - Parimatch: connectors/parimatch/index.md
-      - PayBox: connectors/paybox/index.md
+      - PayBox: connectors/paybox/index.md      
+      - Payeer: connectors/payeer/index.md
       - PayLink: connectors/paylink/index.md
+      - Paylogic: connectors/paylogic/index.md
       #- PayMega.eu: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
+      - PaymentCenter: connectors/paymentcenter/index.md
       - Paymentwall: connectors/paymentwall/index.md   
       - PayPal: connectors/paypal/index.md
       - Paysafe: connectors/paysafe/index.md
       - paysafecard: connectors/paysafecard/index.md
       - PaySec: connectors/paysec/index.md
       - PaySoft: connectors/paysoft/index.md
-      - Payeer: connectors/payeer/index.md
-      - Paylogic: connectors/paylogic/index.md
-      - PaymentCenter: connectors/paymentcenter/index.md 
       - PerfectMoney: connectors/perfectmoney/index.md
       - Piastrix: connectors/piastrix/index.md
+      - Pivdenny Bank: connectors/pivdennybank/index.md
       - Platio: connectors/platio/index.md
       - Portmone.com: connectors/portmone/index.md
       - Procard: connectors/procard/index.md

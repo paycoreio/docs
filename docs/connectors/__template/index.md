@@ -2,7 +2,7 @@
 
 # NAME Connector
 
-> Payments and transfers without undue effort
+> SLOGAN
 
 **Website**: [NAME](WEBSITE)
 **Login**: [NAME](WEBSITE)

@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 18/08/2020: 84 connectors
+<!-- 27/08/2020: 86 connectors
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -58,6 +58,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |   <img src="https://static.openfintech.io/payment_providers/hashconnect/logo.png?w=50" width="50px">   | [Hashconnect](hashconnect/)      | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg?w=70" width="70px">    | [ING Bank Poland](ingbankpl/)    | Payments                                        |
 |   <img src="https://static.openfintech.io/payment_providers/interkassa/logo.svg?w=80" width="80px">    | [Interkassa](interkassa/)        | Payments and Payouts                            |
+|   <img src="https://static.openfintech.io/payment_providers/ipaytotal/logo.png?w=80" width="80px">    | [IPayTotal](ipaytotal/)        | H2H Connection                            |
 |   <img src="https://static.openfintech.io/payment_providers/klarna/logo.svg?w=90" width="90px">   | [Klarna](klarna/)      | Payments                             |
 |      <img src="https://static.openfintech.io/payment_providers/kuna/logo.svg?w=70" width="70px">       | [Kuna](kuna/)                    | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=80" width="80px">    | [LeoGaming](leogaming/)          | Payouts                                         |
@@ -83,6 +84,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/paysoft/logo.png?w=35" width="35px">     | [PaySoft Inc.](paysoft/)         | Payouts                                         |
 |  <img src="https://static.openfintech.io/payment_providers/perfectmoney/logo.svg?w=35" width="35px">   | [Perfect Money](perfectmoney/)   | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/piastrix/logo.svg?w=70" width="70px">     | [Piastrix](piastrix/)            | H2H connection, Payments and Payouts            |
+|    <img src="https://static.openfintech.io/payment_providers/pivdennybank/logo.svg?w=100" width="100px">     | [Pivdenny Bank](pivdennybank/)           | H2H payment connection                 |
 |     <img src="https://static.openfintech.io/payment_providers/platio/logo.svg?w=70" width="70px">      | [Platio](platio/)                | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">     | [Portmone.com](portmone/)            | H2H connection            |
 |     <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px">     | [Procard](procard/)              | H2H payment & payout connection                 |
