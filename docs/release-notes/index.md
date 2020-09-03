@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.19 01/09/2020](v1.19/)
+
+* [Commerce Update](v1.19/#commerce-update): allowed controlling the refund fee option from the Dashboard
+* [Card Gate Update](v1.19/#card-gate-update): added the payment retry feature for "bad" routing
+* [New and Updated Integrations](v1.19/#new-integrations): IPayTotal, Pivdenny Bank, Royal Pay, WinPay
+* [Trivial Bug Fixes](v1.19/#bug-fixes)
+
 ## [v1.18 19/08/2020](v1.18/)
 
 * [Dashboard UX Improvements](v1.18/#dashboard-ux-improvements): added bulk editing of commerce payment services, started to display transaction source in the Dashboard and the Merchant Portal, improved multiple sorting

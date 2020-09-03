@@ -84,14 +84,14 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/paysoft/logo.png?w=35" width="35px">     | [PaySoft Inc.](paysoft/)         | Payouts                                         |
 |  <img src="https://static.openfintech.io/payment_providers/perfectmoney/logo.svg?w=35" width="35px">   | [Perfect Money](perfectmoney/)   | Payments and Payouts                            |
 |    <img src="https://static.openfintech.io/payment_providers/piastrix/logo.svg?w=70" width="70px">     | [Piastrix](piastrix/)            | H2H connection, Payments and Payouts            |
-|    <img src="https://static.openfintech.io/payment_providers/pivdennybank/logo.svg?w=100" width="100px">     | [Pivdenny Bank](pivdennybank/)           | H2H payment connection                 |
+|    <img src="https://static.openfintech.io/payment_providers/pivdennybank/logo.svg?w=100" width="100px">     | [Pivdenny Bank](pivdennybank/)           | H2H payment connection, Payouts                 |
 |     <img src="https://static.openfintech.io/payment_providers/platio/logo.svg?w=70" width="70px">      | [Platio](platio/)                | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">     | [Portmone.com](portmone/)            | H2H connection            |
 |     <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px">     | [Procard](procard/)              | H2H payment & payout connection                 |
 |    <img src="https://static.openfintech.io/payment_providers/raiffeisenbank/logo.svg?w=100" width="100px">     | [Raiffeisen Bank](raiffeisenbank/)           | H2H payment connection                 |
 |      <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px">      | [Rapyd.net](rapyd/)              | Payouts                                         |
 |    <img src="https://static.openfintech.io/payment_providers/rbkmoney/logo.png?w=70" width="70px">     | [RBK Money](rbkmoney/)           | H2H connection, Payouts                 |
-|    <img src="https://static.openfintech.io/payment_providers/royalpay/logo.svg?w=90" width="90px">     | [Royal Pay](royalpay/)           | H2H payment connection                 |
+|    <img src="https://static.openfintech.io/payment_providers/royalpay/logo.svg?w=90" width="90px">     | [Royal Pay](royalpay/)           | H2H payment connection, Payouts                |
 |   <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px">    | [SafeCharge](safecharge/)        | H2H payment connection, Payouts                          |
 |   <img src="https://static.openfintech.io/payment_providers/satchelpay/logo.svg?w=90" width="90px">    | [SatchelPay](satchelpay/)        | Payouts                                         |
 |     <img src="https://static.openfintech.io/payment_providers/selcom/logo.png?w=70" width="70px">      | [Selcom](selcom/)                | Payments and Payouts                            |
@@ -101,7 +101,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px">     | [Tranzzo](tranzzo/)              | Payments                                        |
 |      <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px">      | [UAPay](uapay/)                  | H2H payment connection, Payouts                 |
 |     <img src="https://static.openfintech.io/payment_providers/vcreditos/logo.svg?w=70" width="70px">      | [VCreditos](vcreditos/)                | Payments and Payouts                            |
-|     <img src="https://static.openfintech.io/payment_providers/winpay/logo.png?w=70" width="70px">      | [WinPay](winpay/)                | Payments and Payouts                            |
+|     <img src="https://static.openfintech.io/payment_providers/winpay/logo.png?w=70" width="70px">      | [WinPay](winpay/)                | H2H payment connection, Payments and Payouts                           |
 |  <img src="https://static.openfintech.io/payment_providers/wirecapital/logo.svg?w=110" width="110px">  | [Wirecapital](wirecapital/)      | Payments                                        |
 |    <img src="https://static.openfintech.io/payment_providers/wirecard/logo.svg?w=70" width="70px">     | [wirecard](wirecard/)            | H2H payment connection, Payouts                 |
 |    <img src="https://static.openfintech.io/payment_providers/wlandpay/logo.png?w=90" width="90px">     | [WlandPay](wlandpay/)            | H2H payment connection                          |
