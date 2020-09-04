@@ -7,7 +7,7 @@ This changelog lists releases by date and version number, along with associated 
 ## [v1.19 01/09/2020](v1.19/)
 
 * [Commerce Update](v1.19/#commerce-update): allowed controlling the refund fee option from the Dashboard
-* [Card Gate Update](v1.19/#card-gate-update): added the payment retry feature for "bad" routing
+* [Card Gate Update](v1.19/#card-gate-update): added the error message with a hint for payment retry (in case of "bad" routing)
 * [New and Updated Integrations](v1.19/#new-integrations): IPayTotal, Pivdenny Bank, Royal Pay, WinPay
 * [Trivial Bug Fixes](v1.19/#bug-fixes)
 
