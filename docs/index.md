@@ -1,17 +1,34 @@
-# Welcome to [PayCore.io](https://paycore.io/) documentation
+# Resources and tools to integrate [PayCore.io](https://paycore.io/)  payments platform
 
-![Build your own payment solution!](/images/build-your-own-solution.png)
+![Build your payment solution!](images/intro.jpg)
 
-## Getting started
+## Welcome!
 
-PayCore.io provides online businesses and financial institutions with the technical cloud-based infrastructure and payment platform required to operate an online payment system. PayCore.io helps you to create any type of payment flow and demystify complex financial solutions in industries starting with e-commerce to FinTech and everything in between. Please, follow our development quickstart manual so you could start building your payment solution.
+[PayCore.io](https://paycore.io/) is a payment platform and payments hub for online businesses and payment institutions. With the technical cloud-based infrastructure and payment tools required to operate an online payment system, we help you to create any payment flow and effectively address complex financial problems in industries.
 
-## Accepting payments and making payouts
+[Look at the big picture -->](getting-started/platform-overview/)
 
-PayCore.io allows you to make payments and payouts by any [payment method](https://paycore.io/portfolio-category/payment-methods/) in any supported currency made through almost any [payment provider](https://paycore.io/portfolio-category/providers/) across the globe.
+## Accept payments
 
-- **Payments**: Take advantage of international and local payment methods, including credit cards, e-wallets, and bank transfers.
-- **Payouts**: Exploit the benefits of safe and quick domestic and international methods of making payouts to third parties.
+<img src="images/secure-payment.png" alt="PayCore Payments" style="width: 300px; float: left; padding-right: 20px;">
+
+Accepting online payments, whether of products or services, is an essential part of any e-commerce project. The task is to ensure the process of transfer funds from one party to another, usually from a customer to a merchant.
+
+One of the keys to achieving success and effectiveness in your e-commerce business is to guarantee the most convenient, fast, cheaper and safer way to pay online for your customers.
+
+Also, the following challenges need to consider when scaling your online business; they are payment methods' availability in different regions, financial risk management from mitigation to optimization, payments security, payment processing faultless and its efficiency.
+
+[Accept and process cards, wallets, and local payment methods -->](/getting-started/accept-payments/)
+
+## Make payouts
+
+<img src="images/payouts-all-over.png" alt="PayCore Payouts" style="width: 300px; float: right; padding-left: 20px;">
+
+PayCore.io platform allows you to make transaction by any connected payout method, in any supported currency, and to almost any country across the globe. We support integration with multiple payment providers and acquirers to help you optimize your pricing and success rates.
+
+Your organisation can send single or batch payouts to your clients, contract workers, claimers, freelancers, and retailers. To satisfy both your goals and your payee intentions, you need to customise payout processes, and our platform ready to assist in these regards.
+
+[Save time and money with fast and cost-effective payouts -->](/getting-started/make-payouts/)
 
 ## Design your own payment solution
 
