@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.20 15/09/2020](v1.20/)
+
+* [Merchant App Theme Switcher](v1.20/#merchant-app-theme-switcher): added possibility to change Merchant Portal appearance in the settings
+* [Card Gate update](v1.20/#card-gate-update): added routing by the client IPs
+* [Reports and Exports upgrades](v1.20/#reports-and-exports-upgrades): added a feature to create a custom report from the Reports section, added the Commerce account ID column to the Export spreadsheets
+* [Integration updates](v1.20/#integration-updates): AdGroup, Stripe, Wirecapital; INR and MXN currencies
+* [Minor bug fixes](v1.20/#bug-fixes)
+
 ## [v1.19 01/09/2020](v1.19/)
 
 * [Commerce Update](v1.19/#commerce-update): allowed controlling the refund fee option from the Dashboard
