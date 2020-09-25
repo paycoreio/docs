@@ -211,6 +211,7 @@ nav:
       - Alfa Bank: connectors/alfabank/index.md
       - AnyCash: connectors/anycash/index.md
       - Any.Money: connectors/anymoney/index.md
+      - Bank Onego: connectors/bankonego/index.md
       - Billline: connectors/billline/index.md
       - CardGate: connectors/cardgate/index.md
       - CardPay: connectors/cardpay/index.md
@@ -292,6 +293,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.20 (15/09/2020): release-notes/v1.20.md
     - v1.19 (01/09/2020): release-notes/v1.19.md
     - v1.18 (18/08/2020): release-notes/v1.18.md
     - v1.17 (04/08/2020): release-notes/v1.17.md
