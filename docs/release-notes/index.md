@@ -4,6 +4,12 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.21 30/09/2020](v1.21/)
+
+* [Dashboard UX improvements](v1.21/#dashboard-ux-improvements): added cross-links between transaction and request screens, and Request Payload for Payouts
+* [New and updated integrations](v1.21/#new-integrations): Bank Onego, Procard, new currencies
+* [Minor bug fixes](v1.21/#bug-fixes)
+
 ## [v1.20 15/09/2020](v1.20/)
 
 * [Merchant App Theme Switcher](v1.20/#merchant-app-theme-switcher): added possibility to change Merchant Portal appearance in the settings
