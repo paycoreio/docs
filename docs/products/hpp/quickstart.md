@@ -10,7 +10,7 @@ Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy i
 Why not give HPP a test run? Click the  **Pay Now**  button below and the form will spring to life.
 
 <figure class="hpp_container">
-    <iframe height="600px" width="100%" src="https://com-dev.paycore.io/hpp/methods?amount=100&currency=UAH&public_key=pk_test_yNznq07p7MChOL8shs7WT3Yat6ZnlqyXq8ep6WKF998" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+    <iframe height="600px" width="100%" src="https://com.paycoreio.com/hpp/methods?amount=100&currency=UAH&public_key=pk_test_yNznq07p7MChOL8shs7WT3Yat6ZnlqyXq8ep6WKF998" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
 </figure>
 
 
