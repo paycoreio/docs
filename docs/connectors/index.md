@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready Connectors for Payment Providers
 
-<!-- 27/08/2020: 86 connectors
+<!-- 20/10/2020: 87 connectors + Test
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -81,6 +81,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |     <img src="https://static.openfintech.io/payment_providers/paypal/logo.svg?w=70" width="70px">      | [PayPal](paypal/)                | Payments, Payouts, Account balances                            |
 |   <img src="https://static.openfintech.io/payment_providers/paysafe/logo.svg?w=90" width="90px">   | [Paysafe](paysafe/)      | Payments, Payouts, Account balances                  |
 |   <img src="https://static.openfintech.io/payment_providers/paysafecard/logo.svg?w=90" width="90px">   | [paysafecard](paysafecard/)      | Payments, Payouts, Account balances                       |
+|   <img src="https://static.openfintech.io/payment_providers/paysage/logo.png?w=90" width="90px">   | [PaySage.io](paysage/)      | Payouts, Account balances                       |
 |     <img src="https://static.openfintech.io/payment_providers/paysec/logo.svg?w=70" width="70px">      | [PaySec](paysec/)                | Payments, Payouts, Account balances                           |
 |     <img src="https://static.openfintech.io/payment_providers/paysoft/logo.png?w=35" width="35px">     | [PaySoft Inc.](paysoft/)         | Payouts, Account balances                                         |
 |  <img src="https://static.openfintech.io/payment_providers/perfectmoney/logo.svg?w=35" width="35px">   | [Perfect Money](perfectmoney/)   | Payments, Payouts, Account balances                |

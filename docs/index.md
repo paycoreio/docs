@@ -18,7 +18,7 @@ One of the keys to achieving success and effectiveness in your e-commerce busine
 
 Also, the following challenges need to consider when scaling your online business; they are payment methods' availability in different regions, financial risk management from mitigation to optimization, payments security, payment processing faultless and its efficiency.
 
-[Accept and process cards, wallets, and local payment methods -->](getting-started/accept-payments/)
+[Accept and process cards, wallets, and local payment methods -->](getting-started/first-payment/#receiving-your-first-payment)
 
 ## Make payouts
 
@@ -28,7 +28,7 @@ PayCore.io platform allows you to make transaction by any connected payout metho
 
 Your organisation can send single or batch payouts to your clients, contract workers, claimers, freelancers, and retailers. To satisfy both your goals and your payee intentions, you need to customise payout processes, and our platform ready to assist in these regards.
 
-[Save time and money with fast and cost-effective payouts -->](getting-started/make-payouts/)
+[Save time and money with fast and cost-effective payouts -->](getting-started/first-payment/#make-your-first-payout)
 
 ## Design your own payment solution
 
