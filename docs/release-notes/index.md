@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.22 16/10/2020](v1.22/)
+
+* [Batch Payouts' Refactoring and Upgrade](v1.22/#batch-payouts-upgrade): added customer attributes to a single batch item
+* [Card Gateway Update](v1.22/#card-gate-update): added the possibility to share tokens for the *Remember me* option between your commerce accounts, and transliteration for the Cardholder DTO
+* [Minor API Scheme Update](v1.22/#api-update): added the Response URLs object
+* [New Functionality](v1.22/#new-addon): addon for registration of financial transactions in  National Bank of Ukraine
+* [Minor bug fixes](v1.22/#bug-fixes)
+
 ## [v1.21 30/09/2020](v1.21/)
 
 * [Dashboard UX improvements](v1.21/#dashboard-ux-improvements): added cross-links between transaction and request screens, and Request Payload for Payouts
