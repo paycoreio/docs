@@ -4,7 +4,7 @@
 
 ## Welcome!
 
-[PayCore.io](https://paycore.io/) is a payment platform and payments hub for online businesses and payment institutions. With the technical cloud-based infrastructure and payment tools required to operate an online payment system, we help you to create any payment flow and effectively address complex financial problems in industries.
+[PayCore.io](https://paycore.io/) is a payment platform and payment hub for online businesses and financial institutions. With the technical cloud-based infrastructure and tools required to operate an online payment system, we help you to create any payment flow and effectively address complex financial problems in industries.
 
 [Look at the big picture -->](getting-started/platform-overview/)
 
