@@ -48,7 +48,6 @@ Also, choose Test Mode for test connection with PaySage.io.
 !!! success
     Just right: you have connected **PaySage.io** account!
 
-<!--
 ## Connect H2H Merchant Account
 
 ### Step 1. Connect H2H account at dashboard.paycore.io
@@ -57,16 +56,14 @@ Press **Connect** at [*PaySage.io Provider Overview*](https://dashboard.paycore.
 
 ![Connect](images/h2h-merchant-account.png)
 
-Enter credentials:
+Switch to the Test Mode if you want to test connection with PaySage.io.
 
-[//]: # (Choose Test Mode for test connection with PaySage.io.)
+Enter your credentials and choose Provider URL (*PaySage*).
 
 Choose Currency and Features: set these parameters according to available currencies and features for your PaySage.io account.
 
 !!! success
     You have connected **PaySage.io** H2H merchant account!
-
--->
 
 !!! question "Still looking for help connecting your PaySage.io account?"
     [Please contact our support team!](mailto:support@paycore.io)
