@@ -1,8 +1,8 @@
-# PayCore.io Platform Overview
+# PayCore.io Ecosystem Overview
 
 ## Product Overview
 
-![](images/paycore-overview.png)
+![Ecosystem PayCore.io](images/ecosystem-overview.png)
 
 ## Ecosystem Overview
 

@@ -1,5 +1,5 @@
 # Project information
-site_name: 'Documentation'
+site_name: 'Paycore.io Developer Docs'
 site_description: 'PayCore.io public documentation'
 site_author: 'PayCore.io (c)'
 site_url: 'https://docs.paycore.io/'
@@ -9,67 +9,76 @@ site_url: 'https://docs.paycore.io/'
 #repo_url: 'https://github.com/paycoreio/docs/'
 
 # Copyright
-copyright: '© 2016-2048 PayCore.io<sup>®</sup>. All Rights Reserved.'
+copyright: '© 2018-2020 PayCore.io<sup>®</sup>. All Rights Reserved.
+<a href ="https://paycore.io/legal/" target="_blank" rel="noopener">Privacy & Terms</a>.'
 
 # Configuration
 theme:
-  name: 'material'
-  custom_dir: 'theme'
-  favicon: 'images/favicon.ico'
-  logo:
-    icon: 'import_contacts'
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  include_search_page: false
+  search_index_only: true
+
+  language: en
+  features:
+    - navigation.tabs
+    #- navigation.instant
   palette:
-    primary: 'indigo'
-    accent: 'indigo'
-  feature:
-    tabs: true
+    scheme: default
+    primary: indigo
+    accent: blue
   font:
     text: Roboto
-    code: Roboto Mono    
+    code: Roboto Mono
+  favicon: images/favicon.ico
+  icon:
+    logo: material/import-contacts
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
 
 # Customization
 extra:
   social:
-    - type: 'facebook'
-      link: 'https://facebook.com/paycore.io/'
-    - type: 'twitter'
-      link: 'https://twitter.com/paycoreio'
-    - type: 'linkedin'
-      link: 'https://www.linkedin.com/company/paycore/'
-    - type: 'github'
-      link: 'https://github.com/paycoreio'
+    - icon: fontawesome/brands/facebook-f
+      link: https://facebook.com/paycore.io/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/paycoreio
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/paycore/
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/paycoreio
 extra_css:
   - extra.css
-#extra_javascript:
-  #- 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  #- 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'
-  #- 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'
-  #- 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
-  #- 'https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js'
 
-# Google Analytics
-google_analytics:
-  - 'UA-72023338-4'
-  - 'auto'
-
-# Extensions
+  # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
-      guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+  - admonition
+  - abbr
+  - attr_list
+  - footnotes
+  - meta
+  - toc:
       permalink: true
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -80,6 +89,8 @@ markdown_extensions:
       repo: docs
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.superfences:
       preserve_tabs: true
       custom_fences: 
@@ -89,12 +100,18 @@ markdown_extensions:
         - name: sequence
           class: uml-sequence-diagram
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.details
 
-# Navigation
+# Google Analytics
+google_analytics:
+  - 'UA-72023338-4'
+  - 'auto'
+
+# Page tree
 nav:
 - Getting started:
     - Introduction: index.md
