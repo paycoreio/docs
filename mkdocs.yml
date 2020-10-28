@@ -15,7 +15,7 @@ copyright: '© 2018-2020 PayCore.io<sup>®</sup>. All Rights Reserved.
 # Configuration
 theme:
   name: null
-  custom_dir: material
+    custom_dir: material
 
   # 404 page
   static_templates:
@@ -93,7 +93,7 @@ markdown_extensions:
       check_paths: true
   - pymdownx.superfences:
       preserve_tabs: true
-      custom_fences: 
+      custom_fences:
         - name: flow
           class: uml-flowchart
           format: !!python/name:pymdownx.superfences.fence_code_format
@@ -131,7 +131,7 @@ nav:
         - Access Control: products/account/access-control.md
         - Customers: products/account/customers.md
         - Activity Log: products/account/activity-log.md
-    - Provider Hub: 
+    - Provider Hub:
         - Introduction: products/provider-hub/index.md
         - Basic Concepts: products/provider-hub/basic-concepts.md
         - Accounts Hierarchy: products/provider-hub/accounts-hierarchy.md
@@ -174,15 +174,15 @@ nav:
         - Troubleshoot: products/hpp/troubleshoot.md
         #- Sandbox: products/hpp/sandbox.md
         #- FAQ: products/hpp/faq.md
-        #- Self-hosted payment page: products/hpp/self-hpp.md        
-    #- Ledger: products/ledger/index.md        
+        #- Self-hosted payment page: products/hpp/self-hpp.md
+    #- Ledger: products/ledger/index.md
     #- Batch Payouts: products/batch-payouts/index.md
     - FX Rates:
         - Overview: products/fx-rates/index.md
         - How To: products/fx-rates/how-to.md
-    #- Ledger: 
-    #    - Overview: products/ledger/index.md        
-    #- Batch Payouts: 
+    #- Ledger:
+    #    - Overview: products/ledger/index.md
+    #- Batch Payouts:
     #    - Overview: products/batch-payouts/index.md
     #- Merchant Portal:
     #    - Overview: products/merchant-portal/index.md
@@ -194,7 +194,7 @@ nav:
         - Managing Alerts: products/analytics/managing-alerts.md
         - Visualizations: products/analytics/visualizations.md
         - FAQ: products/analytics/faq.md
-- Integration: 
+- Integration:
     - Integrate with PayCore.io: integration/index.md
     - Accept Payments: integration/accept-payments.md
     - Make Payouts: integration/make-payouts.md
@@ -268,14 +268,14 @@ nav:
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
       - Parimatch: connectors/parimatch/index.md
-      - PayBox: connectors/paybox/index.md      
+      - PayBox: connectors/paybox/index.md
       - Payeer: connectors/payeer/index.md
       - PayLink: connectors/paylink/index.md
       - Paylogic: connectors/paylogic/index.md
       #- PayMega.eu: connectors/paymega/index.md
       - PayMega.io: connectors/paymegaio/index.md
       - PaymentCenter: connectors/paymentcenter/index.md
-      - Paymentwall: connectors/paymentwall/index.md   
+      - Paymentwall: connectors/paymentwall/index.md
       - PayPal: connectors/paypal/index.md
       - Paysafe: connectors/paysafe/index.md
       - paysafecard: connectors/paysafecard/index.md
@@ -294,9 +294,9 @@ nav:
       - Royal Pay: connectors/royalpay/index.md
       - SafeCharge: connectors/safecharge/index.md
       - SatchelPay: connectors/satchelpay/index.md
-      - Selcom: connectors/selcom/index.md     
+      - Selcom: connectors/selcom/index.md
       - Skrill: connectors/skrill/index.md
-      - Stripe: connectors/stripe/index.md   
+      - Stripe: connectors/stripe/index.md
       - TKB pay: connectors/tkbpay/index.md
       - Tranzzo: connectors/tranzzo/index.md
       #- Twelve.live: connectors/twelvelive/index.md
@@ -309,7 +309,7 @@ nav:
       - xpate: connectors/xpate/index.md
       - Xpay: connectors/xpayua/index.md
       - Zotapay: connectors/zotapay/index.md
-- Release notes: 
+- Release notes:
     - Overview: release-notes/index.md
     - v1.22 (16/10/2020): release-notes/v1.22.md
     - v1.21 (30/09/2020): release-notes/v1.21.md
