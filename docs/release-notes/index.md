@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.23 27/10/2020](v1.23/)
+
+* [Card Gateway Betterments](v1.23/#card-gateway-betterments): added the OCT flow, MCC and Merchant URL options for commerce accounts, and `restrict_saved_cards` parameter for an invoice creation request.
+* [Commerce UI update](v1.23/#commerce-ui-update) of commerce service editing.
+* [Exports' changes](v1.23/#exports-changes): the time of creation and last update of transactions are displayed related to the user's timezone
+* [New and updated integrations](v1.23/#new-integrations): ADgroup Qiwi acquiring, Paysage, Stripe.
+* Related [bug fixes](v1.23/#bug-fixes).
+
 ## [v1.22 16/10/2020](v1.22/)
 
 * [Batch Payouts' Refactoring and Upgrade](v1.22/#batch-payouts-upgrade): added customer attributes to a single batch item
