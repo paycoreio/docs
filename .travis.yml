@@ -2,8 +2,8 @@ sudo: false
 language: python
 install:
 - pip install mkdocs==1.1.2
-- pip install mkdocs-material==6.1.2
-- pip install mkdocs-macros-plugin pymdown-extensions==6.3 mkdocs-markdownextradata-plugin mkdocs-minify-plugin
+- pip install mkdocs-material==6.1.0
+- pip install mkdocs-macros-plugin pymdown-extensions==8.0 mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
 script:
 - git clean -f -d -x;
 - mkdocs build
@@ -11,7 +11,7 @@ deploy:
     provider: script
     script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./deploy.sh; else echo "PR skip deploy"; fi
     on:
-      branch: master
+      branch: maste
 
 env:
   matrix:
