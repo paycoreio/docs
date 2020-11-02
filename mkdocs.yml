@@ -9,34 +9,46 @@ site_url: 'https://docs.paycore.io/'
 #repo_url: 'https://github.com/paycoreio/docs/'
 
 # Copyright
-copyright: '© 2016-2048 PayCore.io<sup>®</sup>. All Rights Reserved.'
+copyright: '© 2017-2020 PayCore.io<sup>®</sup>. All Rights Reserved. <a href ="https://paycore.io/legal/" target="_blank" rel="noopener">Privacy & Terms.</a>'
 
 # Configuration
 theme:
   name: 'material'
   custom_dir: 'theme'
   favicon: 'images/favicon.ico'
-  logo:
-    icon: 'import_contacts'
+  icon:
+    logo: material/import-contacts
   palette:
     primary: 'black'
     accent: 'indigo'
-  feature:
-    tabs: true
+  features:
+    - navigation.tabs
+    - navigation.instant
   font:
     text: Roboto
-    code: Roboto Mono    
+    code: Roboto Mono 
+  
+    # 404 page
+  static_templates:
+    - 404.html
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
 
 # Customization
 extra:
   social:
-    - type: 'facebook'
+    - icon: fontawesome/brands/facebook-f
       link: 'https://facebook.com/paycore.io/'
-    - type: 'twitter'
+    - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/paycoreio'
-    - type: 'linkedin'
+    - icon: fontawesome/brands/linkedin-in
       link: 'https://www.linkedin.com/company/paycore/'
-    - type: 'github'
+    - icon: fontawesome/brands/github-alt
       link: 'https://github.com/paycoreio'
 extra_css:
   - extra.css
