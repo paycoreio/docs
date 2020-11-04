@@ -8,7 +8,7 @@ on:
     branches:
       - master
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Master
@@ -17,19 +17,18 @@ jobs:
         uses: actions/setup-python@v2 
         with: 
           python-version: '3.x' 
-      - name: Install dependencies 
-        run: | 
-          python -m pip install --upgrade pip 
-          pip install mkdocs==1.1.2
+      - run: python -m pip install --upgrade pip 
+      - name: Install theme 
+        run: |
           pip install mkdocs-material==6.1.2
-          pip install mkdocs-macros-plugin pymdown-extensions==8.0 mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
+          pip install mkdocs-macros-plugin mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
       - name: Build docs
         run:  |
           git clean -f -d -x
           mkdocs build
   deploy:
     runs-on: ubuntu-latest
-    if: success() && github.ref == 'refs/heads/master'
+    if: success() && github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
     steps:
       - name: Checkout Master
         uses: actions/checkout@v2
@@ -37,11 +36,13 @@ jobs:
         uses: actions/setup-python@v2 
         with: 
           python-version: '3.x' 
-      - name: Install dependencies 
+      - run: python -m pip install --upgrade pip
+      - name: Install theme 
         run: | 
-          python -m pip install --upgrade pip 
-          pip install mkdocs==1.1.2
           pip install mkdocs-material==6.1.2
-          pip install mkdocs-macros-plugin pymdown-extensions==8.0 mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
+          pip install mkdocs-macros-plugin mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
       - name: Deploy docs
-        run:  mkdocs gh-deploy --force
+        run: |
+          mkdocs gh-deploy --force
+          mkdocs --version
+
