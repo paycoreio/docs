@@ -1,5 +1,5 @@
 # Project information
-site_name: 'Documentation'
+site_name: 'Paycore.io Developer Docs'
 site_description: 'PayCore.io public documentation'
 site_author: 'PayCore.io (c)'
 site_url: 'https://docs.paycore.io/'
@@ -14,13 +14,14 @@ copyright: '© 2017-2020 PayCore.io<sup>®</sup>. All Rights Reserved. <a href =
 # Configuration
 theme:
   name: 'material'
-  custom_dir: 'theme'
-  favicon: 'images/favicon.ico'
+  custom_dir: theme
+  favicon: images/favicon.ico
   icon:
     logo: material/import-contacts
   palette:
-    primary: 'black'
-    accent: 'indigo'
+    scheme: default
+    primary: black
+    accent: indigo
   features:
     - navigation.tabs
     - navigation.instant
@@ -28,16 +29,21 @@ theme:
     text: Roboto
     code: Roboto Mono 
   
+  include_search_page: false
+  search_index_only: true
     # 404 page
   static_templates:
     - 404.html
 
 # Plugins
 plugins:
+  - minify:
+      minify_html: true
   - search:
       separator: '[\s\-\.]+'
       lang:
         - en
+
 
 # Customization
 extra:
@@ -52,7 +58,10 @@ extra:
       link: 'https://github.com/paycoreio'
 extra_css:
   - extra.css
-#extra_javascript:
+extra_javascript:
+  - scripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   #- 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
   #- 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'
   #- 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'
@@ -66,31 +75,31 @@ google_analytics:
 
 # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
-      guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
       permalink: true
-  - pymdownx.arithmatex
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
-  - pymdownx.critic
+  - pymdownx.critic:
+      mode: view
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      hide_protocol: true
-      repo_url_shortener: true
-      repo_url_shorthand: true
-      user: paycoreio
-      repo: docs
   - pymdownx.mark
+  - pymdownx.snippets
   - pymdownx.smartsymbols
   - pymdownx.superfences:
       preserve_tabs: true
@@ -100,11 +109,17 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
         - name: sequence
           class: uml-sequence-diagram
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_code_format  
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - pymdownx.details
+  - pymdownx.magiclink:
+      hide_protocol: true
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      user: paycoreio
+      repo: docs
 
 # Navigation
 nav:

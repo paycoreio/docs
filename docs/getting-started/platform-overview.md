@@ -2,7 +2,7 @@
 
 ## Product Overview
 
-![](images/paycore-overview.png)
+![Ecosystem PayCore.io](images/ecosystem-overview.png)
 
 ## Ecosystem Overview
 
