@@ -1,6 +1,6 @@
 # PayCore.io Products
 
-![PayСore.io Products](/images/paycore-main3.png)
+![PayСore.io Products](/images/cubes.jpg)
 
 Welcome to PayCore.io! Get familiar with the PayCore.io products and explore their features:
 

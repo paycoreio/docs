@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.24 10/11/2020](v1.24/)
+
+* [Payout Request Editing](v1.24/#payout-gateway-update): added possibility to patch payout request options
+* [Routing dynamic attributes](v1.24/#card-gate-update)
+* [New and updated integrations](v1.24/#new-and-updated-integrations): OffsetPay, Parimatch, PaySage.io, TKB Pay, WPayments
+* Related [bug fixes](v1.24/#bug-fixes)
+
 ## [v1.23 27/10/2020](v1.23/)
 
 * [Card Gateway Betterments](v1.23/#card-gateway-betterments): added the OCT flow, MCC and Merchant URL options for commerce accounts, and `restrict_saved_cards` parameter for an invoice creation request.

@@ -2,17 +2,18 @@
 
 # PaySage.io
 
-> Discover solutions that’ll help you keep up with the evolving payments world.
+!!! quote ""
+    Discover solutions that’ll help you keep up with the evolving payments world.
 
 **Website**: [PaySage.io](https://paysage.io/)
 
 **Login**: [backoffice](https://backoffice.paysage.io/)
 
-Follow the guidance for setting up a connection with PaySage.io payment service provider.
+Follow the guidance for setting up a connection with *PaySage.io* payment service provider.
 
 ## Set Up Account
 
-### Step 1: Contact PaySage.io support
+### Step 1: Contact *PaySage.io* support
 
 Send a request on the [website](https://paysage.io/get-started/). Submit the required documents to verify your account and gain access to the *Backoffice*.
 
@@ -31,7 +32,7 @@ Credentials that have to be issued:
 ![Secret key](images/secret-key.png)
 
 !!! note "Please note"
-    Be aware if you generate new keys in the PaySage.io backoffice, you will also should re-connect your account with new credentials in the PayCore.io dashboard.
+    Be aware if you generate new keys in the *PaySage.io* backoffice, you will also should re-connect your account with new credentials in the PayCore.io dashboard.
 
 ## Connect Provider Account
 
@@ -43,7 +44,7 @@ Press **Connect** at [*PaySage.io Provider Overview*](https://dashboard.paycore.
 
 Enter your credentials and choose Provider URL (*PaySage*).
 
-Also, choose Test Mode for test connection with PaySage.io.
+Also, choose Test Mode for test connection with *PaySage.io*.
 
 !!! success
     Just right: you have connected **PaySage.io** account!
@@ -56,11 +57,19 @@ Press **Connect** at [*PaySage.io Provider Overview*](https://dashboard.paycore.
 
 ![Connect](images/h2h-merchant-account.png)
 
-Switch to the Test Mode if you want to test connection with PaySage.io.
+Switch to the Test Mode if you want to test connection with *PaySage.io*.
 
 Enter your credentials and choose Provider URL (*PaySage*).
 
-Choose Currency and Features: set these parameters according to available currencies and features for your PaySage.io account.
+Choose 3DS mode:
+
+* **simple** if your Merchant's application simply sends customers to Redirect URL for 3DS verification
+* **advanced** if your Merchant's application builds a form for customer verification and operates, collects, and stores values of ACS URL, PaReq, Merchant Data (MD), and PaRes URL on your side.
+
+!!! info "Before implementation of the **advanced** 3DS Mode"
+    You need to check with your *PaySage.io* account manager if it is available for you.
+
+Finally, choose Currency and Features: set these parameters according to available currencies and features for your *PaySage.io* account.
 
 !!! success
     You have connected **PaySage.io** H2H merchant account!
