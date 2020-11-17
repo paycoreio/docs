@@ -20,7 +20,7 @@ Welcome to the Frequently Asked Questions about interaction and working with Pay
     If you enabled Two-Factor Authentication, you need to enter the secret code to access the application. But what if you don't have your mobile device to get that code? There are several steps you can take.
 
     1. If you use the Authy app, download the desktop version to your laptop or desktop computer. You can then get the authentication code on your computer and use that code to log in.
-    2. Also, you can [change the mobile phone number with Authy <i class="md-icon">launch</i>](https://www.authy.com/phones/change/) and have the authentication code sent to a different mobile phone number.
+    2. Also, you can [change the mobile phone number with Authy :material-launch:](https://www.authy.com/phones/change/) and have the authentication code sent to a different mobile phone number.
     3. If you have saved list with one-time 10-digits codes to restore access, enter one of them in the field for two-factor authentication.
     4. Contact [PayCore.io support](mailto:support@paycore.io) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
 

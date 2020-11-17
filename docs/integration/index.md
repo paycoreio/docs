@@ -1,6 +1,6 @@
 # Integrate with PayCore.io
 
-![PayCore.io APIs](/images/paycore-apis.png)
+![PayCore.io APIs](/images/codenumbers.jpg)
 
 ## Basic principles
 

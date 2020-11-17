@@ -44,7 +44,6 @@ plugins:
       lang:
         - en
 
-
 # Customization
 extra:
   social:
@@ -99,7 +98,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.smartsymbols
   - pymdownx.superfences:
       preserve_tabs: true
@@ -274,9 +274,11 @@ nav:
       - LiqPay: connectors/liqpay/index.md
       - MaxPay: connectors/maxpay/index.md
       - Mercuryo: connectors/mercuryo/index.md
+      - Mine.Exchange: connectors/mineexchange/index.md
       - MuchBetter: connectors/muchbetter/index.md
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
+      - Offsetpay: connectors/offsetpay/index.md
       - Parimatch: connectors/parimatch/index.md
       - PayBox: connectors/paybox/index.md      
       - Payeer: connectors/payeer/index.md
@@ -316,11 +318,13 @@ nav:
       - Wirecapital: connectors/wirecapital/index.md
       - Wirecard: connectors/wirecard/index.md
       - WonderlandPay: connectors/wlandpay/index.md
+      - WPayments: connectors/wpayments/index.md
       - xpate: connectors/xpate/index.md
       - Xpay: connectors/xpayua/index.md
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.24 (10/11/2020): release-notes/v1.24.md
     - v1.23 (27/10/2020): release-notes/v1.23.md
     - v1.22 (16/10/2020): release-notes/v1.22.md
     - v1.21 (30/09/2020): release-notes/v1.21.md
