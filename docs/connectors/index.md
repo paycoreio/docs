@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready-Made Connections
 
-<!-- 13/11/2020: 87 connectors + Test + manual
+<!-- 13/11/2020: 88 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -67,6 +67,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=25" width="25px">  | [Manual](manual/) | manual connector for Swift and bank transfer methods | [according to the transfer parameters] |
 | <img src="https://static.openfintech.io/payment_providers/maxpay/logo.svg?w=90" width="90px">  | [Maxpay](maxpay/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/mercuryo/logo.svg?w=90" width="90px">  | [mercuryo](mercuryo/)  | Payments | [according to the provider account settings] |
+|<img src="https://static.openfintech.io/payment_providers/mineexchange/logo.png?w=90" width="90px">    | [Mine.Exchange](mineexchange/) | Payments and Payouts | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/muchbetter/logo.svg?w=90" width="90px"> | [MuchBetter](muchbetter/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/neteller/logo.svg?w=75" width="75px"> | [Neteller](neteller/) | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/odysseq/logo.svg?w=90" width="90px">  | [Odysseq](odysseq/) | Payments, Payouts, Account balances | [according to the provider account settings] |

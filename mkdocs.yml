@@ -274,6 +274,7 @@ nav:
       - LiqPay: connectors/liqpay/index.md
       - MaxPay: connectors/maxpay/index.md
       - Mercuryo: connectors/mercuryo/index.md
+      - Mine.Exchange: connectors/mineexchange/index.md
       - MuchBetter: connectors/muchbetter/index.md
       - Neteller: connectors/neteller/index.md
       - Odysseq: connectors/odysseq/index.md
