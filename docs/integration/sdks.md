@@ -13,7 +13,7 @@ If you have programmed your own library, simply let us know by writing us at <su
   
 ### JavaScript
 
-[<i class="md-icon">description</i> public-api-client.js](/integration/public-api-client-js/)
+:material-semantic-web: [public-api-client.js](/integration/public-api-client-js/)
 
 ## Payment widget
 

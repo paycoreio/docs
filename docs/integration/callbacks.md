@@ -95,7 +95,7 @@ PayСore.io sign data using secret keys. They can be obtained in organization or
 
 PayСore.io sends signature in `X-Signature` callback request header. The signature is created by next algorithm:
 
-```php tab="PHP"
+``` php
 $signature = base64_encode(sha1($secret . $callbackData . $secret, true));
 ```
 
@@ -141,7 +141,7 @@ You can set up delays between Callbacks' requests and the number of attempts in 
 Additionally, you can avoid receiving unnecessary messages in Callbacks by toggling the "Only final" statuses option.
 
 !!! note
-   You could resend a callback manually if you wish to sync your data immediately. Go to *Operation overview* > *Callbacks*, select the callback and use the button on the right side to resend it.
+    You could resend a callback manually if you wish to sync your data immediately. Go to *Operation overview* > *Callbacks*, select the callback and use the button on the right side to resend it.
 
 ## Callback Handling
 

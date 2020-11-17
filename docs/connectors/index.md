@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready-Made Connections
 
-<!-- 13/11/2020: 88 connectors + Test + manual
+<!-- 17/11/2020: 88 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |

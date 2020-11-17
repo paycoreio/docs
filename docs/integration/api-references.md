@@ -8,25 +8,25 @@ We offer several RESTful APIs: A server API which is used by the merchants in a 
 
 Start accepting online payments in just a few minutes with HPP. It's quick and easy to integrate, accepts online payments from all major methods and credit cards, and is customizable to your brand.
 
-[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full HPP API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce-hpp/)
+[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full HPP API Reference :material-launch:](https://apidoc.paycore.io/commerce-hpp/)
 
-[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger HPP API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/commerce-hpp/)
+[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger HPP API Specification :material-launch:](https://swagger.paycore.io/commerce-hpp/)
 
 ### Commerce Public API
 
 The Public API enables mobile phones, browsers, and apps to access the hosted data such as detailed information about the available payment methods, services metadata, and public keys used for encrypting sensitive data. These calls require a Public Key that the merchant can create using the Private API.
 
-[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full Public API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce-public/)
+[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full Public API Reference :material-launch:](https://apidoc.paycore.io/commerce-public/)
 
-[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger Public API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/commerce-public/)
+[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger Public API Specification :material-launch:](https://swagger.paycore.io/commerce-public/)
 
 ### Commerce Private API
 
 The Private API enables merchants to access functionality such as payments, initiating hosted payments, creating profiles, and much more. All these calls require the caller to have a secret API key that merchants can look up in their Commerce Account.
 
-[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full Private API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/commerce/)
+[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full Private API Reference :material-launch:](https://apidoc.paycore.io/commerce/)
 
-[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger Private API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/commerce/)
+[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger Private API Specification :material-launch:](https://swagger.paycore.io/commerce/)
 
 ### Commerce Callbacks
 
@@ -42,9 +42,9 @@ The Core API allows you to programmatically manage your PayCore.io account. It d
 
 Consider, for instance, a business model in which you provide a service that allows other merchants to accept payments (like in a marketplace). Using the Core API you can create a Commerce accounts on behalf of each merchant, under the umbrella of your main account.
 
-[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full Core API Reference <i class="md-icon">launch</i>](https://apidoc.paycore.io/)
+[<img src="/integration/images/code-docs.svg" alt="Docs" style="width: 26px; margin-right: 5px; float: left;"> Full Core API Reference :material-launch:](https://apidoc.paycore.io/)
 
-[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger Core API Specification <i class="md-icon">launch</i>](https://swagger.paycore.io/)
+[<img src="/integration/images/swagger.svg" alt="Swagger" style="width: 26px; margin-right: 5px; float: left;"> Swagger Core API Specification :material-launch:](https://swagger.paycore.io/)
 
 <!--
 ### Webhooks

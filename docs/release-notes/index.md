@@ -389,7 +389,7 @@ This changelog lists releases by date and version number, along with associated 
 * Performance improvements
 
 !!! info
-    Read more about [Software Versioning <i class="md-icon">launch</i>](https://semver.org).
+    Read more about [Software Versioning :material-launch:](https://semver.org).
 
 !!! question
     We are always here to hear your thoughts, questions, and feedback!
