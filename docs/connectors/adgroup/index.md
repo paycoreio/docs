@@ -56,7 +56,7 @@ Enter credentials to access the API:
 * Merchant Account Password --> User Password
 * Merchant Account Key --> Key
 
-Choose Currency and Features: set these parameters according to available currencies and features for your ADgroup account.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your ADgroup account, but it is necessary to check the details of their connection with your PayCore.io account manager.
 
 Also, choose *Save Instant Token* options if you plan to use the ADgroup account for instant payments.
 

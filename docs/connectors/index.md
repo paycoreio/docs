@@ -2,7 +2,7 @@
 
 ![Go global!](/images/go-global-new.png)
 
-This topic explains how to connect your payment providers' accounts with PayCore.io. It describes setup processes and helps you to put in place new services that can relay requests to the payment or payout gateways.
+This section explains how to connect your payment providers' accounts and the PayCore.io platform. It describes setup processes and helps you to put in place new services that can relay requests to the payment or payout gateways.
 
 Click on the name of the desired connector and follow the link to the step-by-step guide.
 
@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready-Made Connections
 
-<!-- 17/11/2020: 88 connectors + Test + manual
+<!-- 24/11/2020: 90 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -38,6 +38,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/cauri/logo.png?w=35" width="35px"> | [Cauri](cauri/) | H2H connection | EUR, RUB, USD |
 | <img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png?w=120" width="120px">  | [Certus Finance](certusfinance/) | Payouts  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/coingate/logo.svg?w=70" width="70px"> | [CoinGate](coingate/) | Payments | BCH, BTC, ETH, EUR, LTC, USD |
+| <img src="https://static.openfintech.io/payment_providers/cib/logo.svg?w=120" width="120px"> | [ComIn Bank](cib/)  | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/concord/logo.svg?w=120" width="120px"> | [Concord Bank](concord/)  | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/connectum/logo.svg?w=70" width="70px">  | [Connectum](connectum/) | H2H connection | AUD, CAD, EUR, GBP, UAH,USD |
 | <img src="https://static.openfintech.io/payment_providers/cypix/logo.svg?w=70" width="70px"> | [Cypix](cypix/) | H2H connection, Payouts, Account balances | EUR, RUB, UAH, USD |
