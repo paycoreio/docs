@@ -15,7 +15,7 @@ copyright: '© 2017-2020 PayCore.io<sup>®</sup>. All Rights Reserved. <a href =
 theme:
   name: 'material'
   custom_dir: theme
-  favicon: images/favicon.ico
+  favicon: images/favicon.svg
   icon:
     logo: material/import-contacts
   palette:
@@ -245,6 +245,7 @@ nav:
       - Cashfree: connectors/cashfree/index.md
       - Cauri: connectors/cauri/index.md
       - Certus Finance: connectors/certusfinance/index.md
+      - ComInBank: connectors/cib/index.md
       - CoinGate: connectors/coingate/index.md
       - Concord Bank: connectors/concord/index.md
       - Connectum: connectors/connectum/index.md
@@ -324,6 +325,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.25 (24/11/2020): release-notes/v1.25.md
     - v1.24 (10/11/2020): release-notes/v1.24.md
     - v1.23 (27/10/2020): release-notes/v1.23.md
     - v1.22 (16/10/2020): release-notes/v1.22.md

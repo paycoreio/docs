@@ -66,7 +66,7 @@ Enable *Send Merchant URL* option for sending the Merchant's shop URL to Platio.
 
 Enable *Save Instant Token* if you plan on using payments by token with the connected Outlet ID.
 
-Also, choose Currency and Features: set these parameters according to available currencies and features for your Platio account.
+Also, choose Currency and Features. You can set these parameters according to available currencies and features for your Platio account, but it is necessary to check the details of their connection with your PayCore.io account manager.
 
 !!! success
     You have connected **Platio** H2H merchant account!

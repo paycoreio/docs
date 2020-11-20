@@ -88,7 +88,7 @@ Enter credentials:
 
 Choose Test Mode for test connection with Win Pay.
 
-Choose Currency and Features: set these parameters according to available currencies and features for your Win Pay wallet.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your Win Pay wallet, but it is necessary to check the details of their connection with your PayCore.io account manager.
 
 !!! success
     You have connected **Win Pay** H2H merchant account!

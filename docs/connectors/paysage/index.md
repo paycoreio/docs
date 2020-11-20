@@ -69,7 +69,7 @@ Choose 3DS mode:
 !!! info "Before implementation of the **advanced** 3DS Mode"
     You need to check with your *PaySage.io* account manager if it is available for you.
 
-Finally, choose Currency and Features: set these parameters according to available currencies and features for your *PaySage.io* account.
+Finally, choose Currency and Features. You can set these parameters according to available currencies and features for your PaySage.io account, but it is necessary to check the details of their connection with your PayCore.io account manager.
 
 !!! success
     You have connected **PaySage.io** H2H merchant account!

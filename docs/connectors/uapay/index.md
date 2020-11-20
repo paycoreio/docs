@@ -55,7 +55,7 @@ Enter credentials:
 
 Choose Test Mode for test connection with UApay.
 
-Choose Currency and Features: set these parameters according to available currencies and features for your UApay account.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your UApay account, but it is necessary to check the details of their connection with your PayCore.io account manager.
 
 !!! success
     You have connected **UApay** H2H merchant account!
