@@ -7,7 +7,7 @@ This changelog lists releases by date and version number, along with associated 
 ## [v1.25 24/11/2020](v1.25/)
 
 * [Card Gate update](v1.25/#card-gate-update): added the `browser_info` object to the API for H2H connections
-* [Update of Receipt Addon](v1.25/#receipt-addon): addednew types of extensions for EDS keys
+* [Update of Receipt Addon](v1.25/#receipt-addon): added new types of extensions for EDS keys
 * [New and updated integrations](v1.25/#new-and-updated-integrations): AlfaBank, ComIn Bank, Forward Bank, SafeCharge; added the common standard scheme for transferring cardholder parameter
 * Several [bug fixes](v1.25/#bug-fixes)
 

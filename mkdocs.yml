@@ -314,6 +314,7 @@ nav:
       - Tranzzo: connectors/tranzzo/index.md
       #- Twelve.live: connectors/twelvelive/index.md
       - UAPay: connectors/uapay/index.md
+      - UKRGASBANK: connectors/ukrgasbank/index.md
       - VCreditos: connectors/vcreditos/index.md
       - WinPay: connectors/winpay/index.md
       - Wirecapital: connectors/wirecapital/index.md

@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready-Made Connections
 
-<!-- 24/11/2020: 90 connectors + Test + manual
+<!-- 26/11/2020: 91 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -105,6 +105,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/tkbpay/logo.svg?w=70" width="70px"> | [TKB Pay](tkbpay/) | H2H connection, Payouts, Account balances | RUB |
 | <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px"> | [Tranzzo](tranzzo/) | Payments | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px"> | [UAPay](uapay/)  | H2H connection, Payouts, Account balances | UAH |
+| <img src="https://static.openfintech.io/payment_providers/ukrgasbank/logo.png?w=90" width="90px"> | [UKRGASBANK](ukrgasbank/)  | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/vcreditos/logo.svg?w=70" width="70px"> | [VCreditos](vcreditos/) | Payments, Payouts, Account balances | [according to the provider account settings]  |
 | <img src="https://static.openfintech.io/payment_providers/winpay/logo.png?w=70" width="70px"> | [WinPay](winpay/) | H2H connection, Payments, Payouts, Account balances | EUR, USD, UAH, KZT, GBP, RUB |
 |  <img src="https://static.openfintech.io/payment_providers/wirecapital/logo.svg?w=110" width="110px">   | [Wirecapital](wirecapital/) | H2H connection, Payments  | AZN, EUR, INR, KGS, MDL, PLN, RUB, TJS, UAH, USD, UZS |
