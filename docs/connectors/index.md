@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready-Made Connections
 
-<!-- 26/11/2020: 91 connectors + Test + manual
+<!-- 01/12/2020: 92 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -30,6 +30,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/alfabank/logo.svg?w=90" width="90px">  | [Alfa Bank](alfabank/) | H2H connection, Payouts, Account balances  | UAH |
 | <img src="https://static.openfintech.io/payment_providers/anycash/logo.svg?w=70" width="100px"> | [any.cash](anycash/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/anymoney/logo.svg?w=80" width="80px"> | [Any.Money](anymoney/) | Payments, Payouts, Account balances | [according to the provider account settings] |
+| <img src="https://static.openfintech.io/payment_providers/axcessmerchantservices/logo.png?w=60" width="60px"> | [Axcess Merchant Services](axcessmerchantservices/) | H2H connection  | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/bankonego/logo.png?w=60" width="60px"> | [Bank Onego](bankonego/) | H2H connection, Payouts, Account balances  | RUB |
 | <img src="https://static.openfintech.io/payment_providers/billline/logo.svg?w=70" width="70px">  | [BillLine](billline/) | Payments, Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/cardgate/logo.svg?w=70" width="70px"> | [Card Payments](cardgate/) | Card Payments & Payouts | AMD, AUD, AZN, BYN, CAD, CHF, CNY, CZK, DKK, EUR, GBP, GEL, GIP, HKD, INR, JPY, KZT, MDL, MXN, NGN, NOK, NZD, PLN, RUB, SGD, TJS, TMT, TRY, TZS, UAH, USD, UZS |

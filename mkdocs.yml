@@ -238,6 +238,7 @@ nav:
       - Alfa Bank: connectors/alfabank/index.md
       - AnyCash: connectors/anycash/index.md
       - Any.Money: connectors/anymoney/index.md
+      - Axcess Merchant Services: connectors/axcessmerchantservices/index.md
       - Bank Onego: connectors/bankonego/index.md
       - Billline: connectors/billline/index.md
       - CardGate: connectors/cardgate/index.md

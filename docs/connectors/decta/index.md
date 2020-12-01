@@ -12,7 +12,7 @@ Submit the required documents to verify your account and gain access.
 
 ### Step 2:  Generate key(s)
 
-Go to the 'e-Commerce & API' section, choose a terminal and generate keys for the account connection. Pay attention that you'll need different sets for the live and test connection. 
+Go to the 'e-Commerce & API' section, choose a terminal and generate keys for the account connection. Pay attention that you'll need different sets for the live and test connection.
 
 ![Start Page](images/start-page.png)
 
@@ -20,7 +20,7 @@ To generate a test key set, turn on the toggle near the 'Title' input.
 
 ![Edit Keys](images/edit-keys.png)
 
-The test key set will be marked by 'Test' label under the title in the common list.
+The test key set will be marked by 'Test' label under the title in the common list (the screenshot shows the correct toggle position to generate test keys).
 
 ![Keys](images/keys.png)
 
