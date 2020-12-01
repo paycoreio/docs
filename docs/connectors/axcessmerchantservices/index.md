@@ -1,11 +1,13 @@
-<img src="https://static.openfintech.io/payment_providers/axcessmerchantservices/logo.svg?w=400" width="400px" >
+<img src="https://static.openfintech.io/payment_providers/axcessmerchantservices/logo.png?w=400" width="400px" >
 
-# Axcess Merchant Services Connector
+# Axcess Merchant Services
 
-> SLOGAN
+!!! quote ""
+    Merchant account solutions to fit your business model. Greater choice, flexibility and bespoke merchant account arrangements.
 
-**Website**: [Axcess Merchant Services](https://www.axcessms.com/)
-**Login**: [Axcess Merchant Services](WEBSITE)
+**Website**: [axcesssms.com](https://www.axcessms.com/)
+
+**Login**: [test.oppwa.com](https://test.oppwa.com/authentication/v1/login)
 
 Follow the guidance for setting up a connection with Axcess Merchant Services payment provider.
 
@@ -20,7 +22,7 @@ Send a request on the [website](https://www.axcessms.com/) or call the hotline. 
 Credentials that have to be issued:
 
 * entityId
-* Authorization Bearer \<access-token\>
+* Authorization Bearer `<access-token>`
 
 You can gain them from your account administrator (or take from the backend UI if you have specific administration rights).
 
@@ -52,7 +54,7 @@ Press **Connect** at [*Axcess Merchant Services Provider Overview*](https://dash
 Enter credentials:
 
 * entityId --> Entity ID
-* Authorization Bearer \<access-token\> --> Access Token
+* Authorization Bearer `<access-token>` --> Access Token
 
 Choose Save Instant Token option if you plan to use the Axcess account for instant payments.
 
