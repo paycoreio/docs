@@ -312,6 +312,7 @@ nav:
       - Skrill: connectors/skrill/index.md
       - Stripe: connectors/stripe/index.md   
       - TKB pay: connectors/tkbpay/index.md
+      - tome: connectors/tome/index.md
       - Tranzzo: connectors/tranzzo/index.md
       #- Twelve.live: connectors/twelvelive/index.md
       - UAPay: connectors/uapay/index.md
