@@ -1,105 +1,71 @@
 <img src="https://static.openfintech.io/payment_providers/paylink/logo.png?w=400" width="400px" >
 
+# PayLink (TAS Link)
 
-# PayLink Connector
+quote ""
+    TAS LINK is a high-tech and innovative company specializing in payment solutions.
 
-## Introduction
+**Website**: [taslink.com.ua](https://taslink.com.ua/)
 
-Here You can find  instructions for setting up **PayLink**  account.
+**Login**: [application](https://paylink.com.ua/app/login.php)
 
+Follow the guidance for setting up a connection with PayLink (TAS LINK) payment service provider.
 
-## Payouts
+## Set Up Account
 
-Connect **PayLink** **`Provider account`** to make payouts.
+### Step 1. Contact with PayLink Support Manager
 
-### Setup account
+Send a request on the [website](https://taslink.com.ua/#contacts) or call the hotline. Submit the required documents to verify your account and gain access.
 
-#### Step 1 Contact with PayLink Support Manager
-
-
-#### Step 2: Get required credentials
-
-- Merchant (Terminal ID)
-- Private Key
-- Account (Bank account)
-
-!!! success
-    You have configured account!
-
-
-### Connect account
-
-#### Step 1: Copy required credentials
-
-#### Step 2: Enter credentials
+### Step 2: Get credentials
 
 - Merchant (Terminal ID)
 - Private Key
-- Account (Bank account)
 
+## Connect Provider Account
 
-!!! tip
-    Press **`Connect`** at PayLink **`Provider Overview page`** in **`New connection`** section to open Connection form!
+### Step 1. Connect account at dashboard.paycore.io
 
+Press **Connect** at [*PayLink Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/paylink/general) page in *'New connection'* and choose **Provider account** option to open a Connection form.
 
-#### Step 3: Set up additional parameters 
+![Connect](images/provider-account.png)
 
-- Test mode
+Enter credentials:
 
-!!! note
-    These parameters are set according to your Merchant account type and it's available currencies!
+- Merchant (Terminal ID)
+- Private Key
+- Account (Bank Account)
 
+!!! attention "Be aware"
+    The *Account* field has its specificities to fill in:
 
+    * it is obligatory only for non-P2P connections
+    * and you shouldn't fill in the full IBAN (International Bank Account Number) there, just your bank account identifier (up to 14 digits)
 
-![Connect](images/paylink_provider_connect.png)
-
-
-!!! success
-    You have connected **PayLink** for payouts!
-
-
-
-## Payments
-
-Connect **PayLink** **`H2H merchant account`** to make payments.
-
-### Setup account
-
-#### Step 1 Contact with PayLink Support Manager
-
-#### Step 2: Get required credentials
-
-- Terminal ID
-- Private key
+Also, you should toggle P2P mode for connection in peer-to-peer payment network. And choose Test Mode if you want to test the connection with PayLink.
 
 !!! success
-    You have configured account!
+    You have connected **PayLink** account!
 
-### Connect account
+## Connect H2H Merchant Account
 
-#### Step 1: Copy required credentials
+### Step 1. Connect H2H account at dashboard.paycore.io
 
-#### Step 2 (OPTIONAL): Initialize the CardGate
+Press **Connect** at [*PayLink Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/paylink/general) page in *'New connection'* and choose **H2H Merchant account** option to open a Connection form.
 
-!!! info
-    Initialize the CardGate if it had not been done before.
+![Connect](images/h2h-merchant-account.png)
 
-![Connect](images/paylink_merchant_connect1.png)
+Enter credentials:
 
-![Connect](images/paylink_merchant_connect2.png)
+- Merchant (Terminal ID)
+- Private Key
 
-#### Step 3: Enter credentials
+Choose Test Mode to test the connection with PayLink. Also, check an option *Send Merchant URL* if you want to transfer Merchant URL (specified in the Commerce general settings) to the provider.
 
-
-#### Step 3: Set up additional parameters 
-
-- Test mode
-- Features
-
-!!! note
-    These parameters are set according to your Merchant account type and it's available currencies!
-
-![Connect](images/paylink_merchant_connect3.png)
+Choose Currency and Features. You can set these parameters according to available currencies and features for your PayLink account, but it is necessary to check details of the connection with your PayCore.io account manager.
 
 !!! success
-    You have connected **PayLink** for payments!
+    You have connected **PayLink** H2H merchant account!
+
+!!! question "Still looking for help connecting your PayLink account?"
+    [Please contact our support team!](mailto:support@paycore.io)
