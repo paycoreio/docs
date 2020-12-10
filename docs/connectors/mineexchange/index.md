@@ -19,7 +19,7 @@ Send a request on the [website](https://mine.exchange/en/). Submit the required 
 
 ### Step 2: Get credentials
 
-To connect Mine.Exchange, you need to know your **key to API authentication**.
+To connect Mine.Exchange, you need to know your **key to API authentication**. Also, it is worth clarifying with the manager which number you should use as the `account_send` (Mine.exchange internal account to send payouts).
 
 ## Connect Provider Account
 
@@ -31,7 +31,7 @@ Press **Connect** at [*Mine.Exchange Provider Overview*](https://dashboard.payco
 
 Choose Account ID for the connection: it can be any number value.
 
-Enter the key to API authentication in the *Password* field.
+Enter the key to API authentication into the *Password* field and the `account_send` into *Account (Send)*.
 
 Choose your commission (fee) type: Internal or External according to your Mine.Exchange account settings.
 

@@ -246,8 +246,9 @@ nav:
       - Cashfree: connectors/cashfree/index.md
       - Cauri: connectors/cauri/index.md
       - Certus Finance: connectors/certusfinance/index.md
-      - ComInBank: connectors/cib/index.md
       - CoinGate: connectors/coingate/index.md
+      - CoinsPaid: connectors/coinspaid/index.md      
+      - ComInBank: connectors/cib/index.md
       - Concord Bank: connectors/concord/index.md
       - Connectum: connectors/connectum/index.md
       - Cypix: connectors/cypix/index.md
