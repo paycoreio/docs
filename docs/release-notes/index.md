@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.26 08/12/2020](v1.26/)
+
+* [Payment Gateway Update](v1.26/#payment-gateway-update): added fields for peer-to-peer options in the *Payment Routes* section
+* [Card Gate Updates](v1.26/#card-gate-updates): additional parameters in the Commerce settings, getting browser_info from HPP
+* [Receipt Addon](v1.26/#receipt-addon): added the possibility to specify a provider code
+* [New and Updated Integrations](v1.26/#new-and-updated-integrations): Axcess Merchant Services, Payeer, UkrGasBank, tome; support of new currencies for CardPay
+* [Bug Fixes](v1.26/#bug-fixes)
+
 ## [v1.25 24/11/2020](v1.25/)
 
 * [Card Gate update](v1.25/#card-gate-update): added the `browser_info` object to the API for H2H connections
