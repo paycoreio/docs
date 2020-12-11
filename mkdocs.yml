@@ -207,6 +207,8 @@ nav:
 - Integration: 
     - Integrate with PayCore.io: integration/index.md
     - Accept Payments: integration/accept-payments.md
+    - Payment Methods:
+        - Google Pay: integration/payment-methods/google-pay.md
     - Make Payouts: integration/make-payouts.md
     - API References: integration/api-references.md
     - SDKs:
@@ -251,6 +253,7 @@ nav:
       - ComInBank: connectors/cib/index.md
       - Concord Bank: connectors/concord/index.md
       - Connectum: connectors/connectum/index.md
+      - CrossPay: connectors/crosspay/index.md
       - Cypix: connectors/cypix/index.md
       - Decta: connectors/decta/index.md
       - dLocal: connectors/dlocal/index.md
@@ -329,6 +332,7 @@ nav:
       - Zotapay: connectors/zotapay/index.md
 - Release notes: 
     - Overview: release-notes/index.md
+    - v1.26 (08/12/2020): release-notes/v1.26.md    
     - v1.25 (24/11/2020): release-notes/v1.25.md
     - v1.24 (10/11/2020): release-notes/v1.24.md
     - v1.23 (27/10/2020): release-notes/v1.23.md
