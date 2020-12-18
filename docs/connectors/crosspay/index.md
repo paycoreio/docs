@@ -21,7 +21,6 @@ Credentials that have to be issued:
 
 * Public Key
 * Secret Key
-* Wallet type
 
 ## Connect Provider Account
 
@@ -35,7 +34,6 @@ Enter credentials:
 
 * Public Key
 * Secret Key
-* type of Wallet
 
 Also, choose Test Mode for test connection with CrossPay.
 
