@@ -21,16 +21,15 @@ That's all! We integrate the Google Pay button to the Hosted Payment Page for yo
 
 ![Scheme](images/googlePay.png)
 
-1. You request the customer payment data from your application and create an invoice.
-2. You send the invoice request to PayCore.io, and we response with the HPP redirect form.
-3. You let the customer choose the payment method, including Google Pay option.
+1. You request the customer payment data from your application.
+2. You display available payment methods to the customer, including Google Pay option.
+3. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the HPP redirect form.
 4. Google Pay authenticates the customer and returns the encrypted data.
-5. We decrypt payment data and create the purchase request.
-6. We transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
-7. We transfer the ACS data or transaction status (if the provider gets confirmation from the card issuer and let us skip the 3D-secure stage) with the enrollment response.
-8. In case two-factor authentication is required, the customer is redirected to the ACS page from the issuer, and we forwarded their entered data to the 3DS service with the Payment Authentication Request (PaReq).
-9. We get the PaRes (Payment Authentication Response) value received from the issuer 3DS service and transfer the payment response to your server.
-10. You inform the customer about the result.
+5. We decrypt payment data, create the purchase request and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
+6. The acquirer can request an additional user verification step by passing a 3DS or OTP test; in that case, the customer gets the verification page from the issuer, and we forwarded their entered data to the 3DS service.
+7. We get the response value received from the issuer 3DS service and finalize the transaction.
+8. We send a Callback message; if the Callback URL is not set, we expect a status request from your server.
+9. You inform the customer about the result.
 
 ## Implementing Google Pay directly through the API
 
@@ -63,26 +62,48 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
     2. Tokenization type:
         `tokenizationType: 'PAYMENT_GATEWAY'`
     3. Gateway parameter: `paycoreio`
-    4. gatewayMerchantId parameter --> your unique account ID
+    4. Your Google merchant ID 
+    5. And gateway merchant ID parameter --> your unique account ID
 
     ```json
     {
-        "type": "CARD",
-        "parameters": {
-            "allowedAuthMethods": [
-            "PAN_ONLY",
-            "CRYPTOGRAM_3DS"
-            ],
-            "allowedCardNetworks": [
-            "MASTERCARD",
-            "VISA"
-            ]
-        },
-        "tokenizationSpecification": {
-            "type": "PAYMENT_GATEWAY",
-            "parameters": {
-            "gateway": "paycoreio",
-            "gatewayMerchantId": "coma_eRb9pWCMbrCadlw0" //your unique commerce account identifier
+        "data":{
+            "id":"cgi_7U4hCiGtMAaGJnwN",
+            "attributes":{
+                "amount":10,
+                "currency":"USD",
+                "description":null,
+                "service":"googlepay",
+                "options":{},
+                "customer":{
+                    "reference_id": "customer1"
+                },
+                "repeatable":true,
+                "flow":"charge",
+                "status":"process_pending",
+                "resolution":"ok",
+                "active_request":{
+                    "status":"process_pending",
+                    "resolution":"ok"
+                },
+                "active_payment":{
+                    "status":"authorize_required",
+                    "resolution":"ok"
+                },
+                "auto_repay":false,
+                "metadata":{
+                    "fee":"0.00",
+                    "fee_strategy":"external"
+                },
+                "form_data":{
+                    "gateway":"paycoreio",
+                    "google_merchant_id":"014****68",
+                    "gateway_merchant_id":"coma_3****51"
+                }
+            },
+            "payment":{
+                "fee":"0.00",
+                "feeStrategy":"external"
             }
         }
     }
@@ -90,42 +111,49 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
 
     If your integration works properly, you will receive a Google Pay button on the payment page. <img src="/integration/payment-methods/images/buy-buttons-black-small.png" alt="PayCore" style="width: 150px;">
 
-3. When a Google Pay transaction is initiated, a [Payment Token](https://developers.google.com/pay/api/web/reference/object#PaymentMethodTokenizationData) obtaining a JSON-formatted string will be sent to the merchant application.
+3. To initiate a Google Pay transaction, send request with the invoice ID and Google Pay gateway parameters and a JSON-formatted [Payment Token](https://developers.google.com/pay/api/web/reference/object#PaymentMethodTokenizationData).
 
-    !!! example "An example of Google Pay response"
-        ```json
+    !!! example "Request Sample"
+
+        ``` json
         {
-            "apiVersionMinor":0,
-            "apiVersion":2,
-            "paymentMethodData":{
-                "description":"Mastercard  •••• 0000",
-                "tokenizationData":{
-                    "type":"PAYMENT_GATEWAY",
-                    "token":"{"signature":"MEUCeVnFnfjmo5ALeretMPEQPUMnvMOnDAgZsOL/1D6o7hd4kbUdHHzAiEA94L1GfNWW8n+l6B6tqk6n18VgIA3sdkPqKL3\u003d","intermediateSigningKey":{"signedKey":"{\"keyValue\":\"MFkwEwYQgAEem3biYxltOBuMVHKoZIzj0CAQYIKoZIzj0DAQcD+Dd9g+ZhV3VnSNrkPo8hu5kLtxN0QXCYkqEzP2vAlFXvb9tJoYGLtetxDYWTUqnXPvKGDeAQ\\u003d\\u003d\",\"keyExpiration\":\"1551385212256\"}","signatures":["MEYCIQD/TWKH5P3i9unZJhG/u3iL2r0rCbpw1/+z9dr/ytvwIhAPfV2zF5cqGyP/L+42W+JKghv6fgQKBEc67HTtfderefdJ"]},"protocolVersion":"ECv2","signedMessage":"{\"encryptedMessage\":\"OidSptk8w+I3FnR1VFmiVswXaZ7ADnmMP1MQelp6GSg0/3aVpAXeLRH/fT1wN7gpxNPy7tFITeQenrJm3QG19tAPuVhcAVM26DMU6LAmZPyPXALktpnYrUj6etCjvWWM/1LkhjDBSjtkmpWRiHIyqj5aud/j8rxFEk06GhwqPWbunZJhG/u3iL2aZIV1vdeV6d7iQ6EDWWAS/z9pXWkqpW//M/TVTrcKFXh4C2TI2O+qyBD9VzK3TqU6wS5VsYL69W9/4xzV5L5irpp/wzNfPHunZJhG/u3iL2m3v+JCaqIA3oK9Sw/5o/gZp/pnOhUdax0VjGEvmbGXs2+ufBChCkh+/BpobbpzVS9T/DZSlUO2FLANMjSaEQzh74ymtDgP4x9O64RAdySW+V7lVZMa7FVZ3PFnTfa8W89pzIgo6ocSGHQPBFnExTmSbDpUU0L12wzHkAcZSyngPAljqg\\u003d\",\"ephemeralPublicKey\":\"BBKgbSbykNy1111QYRmGJEhnCorkt+VoDYlYbAlg0a5WO2uV/M50XqOSG0uxWAvUqrZolQuEX6yZ+dvvufLEZtI\\u003d\",\"tag\":\"p9ItvOfsQVTzhunZJhG/u3iL21TtozP/yym4QWWVRVCk\\u003d\"}"}"
-                },
-                "type":"CARD",
-                "info":{
-                    "cardNetwork":"MASTERCARD",
-                    "cardDetails":"0004",
-                    "billingAddress":{
-                        "phoneNumber":"+1202 555 0137",
-                        "address3":"",
-                        "sortingCode":"",
-                        "address2":"",
-                        "countryCode":"US",
-                        "address1":"Pennsylvania Ave",
-                        "postalCode":"20500",
-                        "name":"Customer 1",
-                        "locality":"NW",
-                        "administrativeArea":"Washington, DC."
+            "data":{
+                "type":"process-payment-invoice",
+                "attributes":{
+                    "invoice_id":"cgi_7U4hCiGtMAaGJnwN",
+                    "auth":{
+                        "google_pay":{
+                            "apiVersionMinor":0,
+                            "apiVersion":2,
+                            "paymentMethodData":{
+                                "description":"Mastercard  •••• 1111",
+                                "tokenizationData":{
+                                    "type":"PAYMENT_GATEWAY",
+                                    "token":"{\"signature\":\"MEQCIBjQhjaZB76j...d"}"
+                                    },
+                                    "type":"CARD",
+                                    "info":{
+                                        "cardNetwork":"MASTERCARD",
+                                        "cardDetails":"1111"
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
-            },
-            "email":"example-gmail@gmail.com"
-        }
-        ```
+            }
+            ```
+        
+        === "Response"
 
-4. The main part of response is `token` that allows you initiate verify or charge flow transferring it to the Google Pay. You can also use `google_pay` method in a separate flow from the start.
+            ``` json
+            
+
+
+            ```
+
+
+4. `token` allows you initiate verify or charge flow transferring it to the Google Pay.
 
     <!--
     There we have a place for Request and Response parameters' tables
@@ -133,7 +161,7 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
 
 5. If payment status requires 3DS-verification, you should redirect the customer to the issuing bank ACS page (`action`). Send POST request including `PaReq`  (Payer Authentication Request), and `MD` (Merchant Data) parameters and Return URL to return the customer after 3D Secure (`TermUrl`) for 3ds 1.0 or `creq` (Challenge Request Message) for 3DS 2.0.
 
-    !!! example "JSON"
+    !!! example "Request samples"
 
         === "3DS 1.0"
 
@@ -145,8 +173,8 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
                     "params":{
                         "MD":"999999999",
                         "PaReq":"eJxVUlFvVA2jYv2jAQfuZfoD5v2E5KfQlLFJ2jAQfuZfoD5v2E5KQqurpe5os5wRBJU6dZCX79bszlDIrUe6+zWRkwjEe0qVHL3dmbqjeATGvs6XKz2Np1GBFSxq3r684PeiZvQbwnXOj9i951XdPeC4HWHT5bV1v+3z29+Vgs/OIi+9oe48acmxbs8VxVT7cFNkaX3+raapimUYqiZPbGz2CAOvRCP6gbytXany0njnTX07Y3Ii6VYY9u64EQNFz3J5OPlalzjc/4nyTv63+Lo+rfR6tFtlbfnofQDCDmaXpUEdS3SmcbXhU7MLJSwQ12gwovceazvouxlVLxmX8EgKkXeDuMSs7UoPPH47/yLbkeV+MU3SeTqst8PT5mfi9m5WZtmv+eMzCzuTzr0rcpzulYTmVbAfBLejA8KAsIlhlij6b8b+AbaDvJg=",
-                        "TermUrl":"your.pay_domain/3ds-return?pid=pay_Hjh3kMlNdqE4WpOmNPCoIgFU_K1_nM"
-                        }
+                        "TermUrl":"your.pay_domain/\/complete-auth?pid=pay_gcRU0PhWvBCz2dabWNpLu1Q3_qK_ly"
+                    }
                 }
             }
             ```

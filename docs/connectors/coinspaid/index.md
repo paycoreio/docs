@@ -25,7 +25,7 @@ You should set up and activate your API key (or create a new one).
 
 You will receive your API secret – an access code for the API key that you’ve activated.  You’ll need to copy and save the key secret in a safe place because it is only displayed once and you won’t be able to see it again.
 
-Then you can set up Callbacks. You need to complete this step to receive callbacks from CoinsPaid.
+Then you can set up Callback URL: `https://psp-ext.paycore.io/coinspaid/callback`. You need to complete this step to receive callbacks from CoinsPaid.
 
 ![Settings](images/api-callbacks.png)
 
