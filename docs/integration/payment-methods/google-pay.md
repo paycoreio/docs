@@ -65,58 +65,61 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
     4. Your Google merchant ID 
     5. And gateway merchant ID parameter --> your unique account ID
 
-    ```json
-    {
-        "data":{
-            "id":"cgi_7U4hCiGtMAaGJnwN",
-            "attributes":{
-                "amount":10,
-                "currency":"USD",
-                "description":null,
-                "service":"googlepay",
-                "options":{},
-                "customer":{
-                    "reference_id": "customer1"
-                },
-                "repeatable":true,
-                "flow":"charge",
-                "status":"process_pending",
-                "resolution":"ok",
-                "active_request":{
+    !!! example "API Response sample"
+
+        ``` json
+        {
+            "data":{
+                "id":"cgi_7U4hCiGtMAaGJnwN",
+                "attributes":{
+                    "amount":10,
+                    "currency":"USD",
+                    "description": "Payment Example",
+                    "service":"googlepay",
+                    "options":{},
+                    "customer":{
+                        "reference_id": "customer1"
+                    },
+                    "repeatable":true,
+                    "flow":"charge",
                     "status":"process_pending",
-                    "resolution":"ok"
+                    "resolution":"ok",
+                    "active_request":{
+                        "status":"process_pending",
+                        "resolution":"ok"
+                    },
+                    "active_payment":{
+                        "status":"authorize_required",
+                        "resolution":"ok"
+                    },
+                    "auto_repay":false,
+                    "metadata":{
+                        "fee":"0.00",
+                        "fee_strategy":"external"
+                    },
+                    "form_data":{
+                        "gateway":"paycoreio",
+                        "google_merchant_id":"014****68",
+                        "gateway_merchant_id":"coma_3****51"
+                    }
                 },
-                "active_payment":{
-                    "status":"authorize_required",
-                    "resolution":"ok"
-                },
-                "auto_repay":false,
-                "metadata":{
+                "payment":{
                     "fee":"0.00",
-                    "fee_strategy":"external"
-                },
-                "form_data":{
-                    "gateway":"paycoreio",
-                    "google_merchant_id":"014****68",
-                    "gateway_merchant_id":"coma_3****51"
+                    "feeStrategy":"external"
                 }
-            },
-            "payment":{
-                "fee":"0.00",
-                "feeStrategy":"external"
             }
         }
-    }
-    ```
+        ```
 
+    
     If your integration works properly, you will receive a Google Pay button on the payment page. <img src="/integration/payment-methods/images/buy-buttons-black-small.png" alt="PayCore" style="width: 150px;">
 
 3. To initiate a Google Pay transaction, send request with the invoice ID and Google Pay gateway parameters and a JSON-formatted [Payment Token](https://developers.google.com/pay/api/web/reference/object#PaymentMethodTokenizationData).
 
     !!! example "Request Sample"
-
+    
         ``` json
-        {
+            {
             "data":{
                 "type":"process-payment-invoice",
                 "attributes":{
@@ -130,7 +133,7 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
                                 "tokenizationData":{
                                     "type":"PAYMENT_GATEWAY",
                                     "token":"{\"signature\":\"MEQCIBjQhjaZB76j...d"}"
-                                    },
+                                        },
                                     "type":"CARD",
                                     "info":{
                                         "cardNetwork":"MASTERCARD",
@@ -142,22 +145,13 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
                     }
                 }
             }
-            ```
-        
-        === "Response"
-
-            ``` json
-            
-
-
-            ```
-
-
-4. `token` allows you initiate verify or charge flow transferring it to the Google Pay.
+        ```
 
     <!--
     There we have a place for Request and Response parameters' tables
     -->
+
+4. `token` allows you initiate verify or charge flow transferring it to the Google Pay.
 
 5. If payment status requires 3DS-verification, you should redirect the customer to the issuing bank ACS page (`action`). Send POST request including `PaReq`  (Payer Authentication Request), and `MD` (Merchant Data) parameters and Return URL to return the customer after 3D Secure (`TermUrl`) for 3ds 1.0 or `creq` (Challenge Request Message) for 3DS 2.0.
 
