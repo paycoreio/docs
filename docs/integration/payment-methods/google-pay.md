@@ -26,7 +26,11 @@ That's all! We integrate the Google Pay button to the Hosted Payment Page for yo
 3. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the HPP redirect form.
 4. Google Pay authenticates the customer and returns the encrypted data.
 5. We decrypt payment data, create the purchase request and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
+<<<<<<< HEAD
 6. The acquirer can request an additional user verification step by passing a 3DS or OTP test; in that case, the customer gets the verification page from the issuer.
+=======
+6. The acquirer can request an additional user verification step by passing a 3DS or OTP test; in that case, the customer gets the verification page from the issuer, and we forwarded their entered data to the 3DS service.
+>>>>>>> requested changes
 7. We get the response value received from the issuer 3DS service and finalize the transaction.
 8. We send a Callback message; if the Callback URL is not set, we expect a status request from your server.
 9. You inform the customer about the result.
