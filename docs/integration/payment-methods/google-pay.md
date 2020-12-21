@@ -19,17 +19,18 @@ That's all! We integrate the Google Pay button to the Hosted Payment Page for yo
 
 ### How it works
 
-![Scheme](images/googlePay.png)
+![Integration Scheme](images/googlepayHPP.png)
 
-1. You request the customer payment data from your application.
-2. You display available payment methods to the customer, including Google Pay option.
-3. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the HPP redirect form.
-4. Google Pay authenticates the customer and returns the encrypted data.
-5. We decrypt payment data, create the purchase request and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
-6. The acquirer can request an additional user verification step by passing a 3DS or OTP test; in that case, the customer gets the verification page from the issuer.
-7. We get the response value received from the issuer 3DS service and finalize the transaction.
-8. We send a Callback message; if the Callback URL is not set, we expect a status request from your server.
-9. You inform the customer about the result.
+1. You request the customer payment data from your application/checkout page.
+2. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the HPP redirect form.
+3. The Hosted Payment Page displays available payment methods to the customer, including Google Pay option.
+4. Google Pay authenticates the customer and returns their encrypted data.
+5. We decrypt received payment data.
+6. We create the purchase request and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
+7. The acquirer can request an additional user verification step by passing a 3DS or OTP test; in that case, the customer gets the verification page from the issuer.
+8. We get the response value received from the issuer 3DS service and finalize the transaction.
+9. We send a Callback message to the application back-end; if the Callback URL is not set, we expect a status request from your server.
+10. You inform the customer about the result.
 
 ## Implementing Google Pay directly through the API
 
@@ -51,17 +52,23 @@ Get verified: send mobile app (.apk) or link to your site with the payment page.
 
 ### How to integrate the Google Pay method
 
+![Integration Scheme](images/googlepayAPI.png)
+
 The overall transaction flow is similar to the standard Google Pay process. PayCore.io receives the encrypted Google Pay payload from your application and is responsible for decrypting the payment token and transferring the purchase data to a chosen gateway.
 
 1. Make sure that you complete preparations from the previous section. Use [Google Pay API](https://developers.google.com/pay/api/android/guides/setup) to get a **paymentData**.
 
-2. As script parameters specify:
+2. As script parameters specify and transfer to us:
 
     1. Available payment methods:
         `var allowedPaymentMethods = ['CARD']`
     2. Tokenization type:
-        `tokenizationType: 'PAYMENT_GATEWAY'`
-    3. Gateway parameter: `paycoreio`
+        `"tokenizationType": "PAYMENT_GATEWAY"`
+    3. Allowed card networks:
+        `"allowedCardNetworks": ["MASTERCARD", "VISA"]`
+    4. Allowed authorization methods:
+        `"allowedAuthMethods": "["PAN_ONLY", "CRYPTOGRAM_3DS"]"`
+    4. Gateway parameter: `paycoreio`
     4. Your Google merchant ID 
     5. And gateway merchant ID parameter --> your unique account ID
 
