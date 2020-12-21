@@ -207,8 +207,8 @@ nav:
 - Integration: 
     - Integrate with PayCore.io: integration/index.md
     - Accept Payments: integration/accept-payments.md
-    # - Payment Methods:
-    #    - Google Pay: integration/payment-methods/google-pay.md
+    - Payment Methods:
+        - Google Pay: integration/payment-methods/google-pay.md
     - Make Payouts: integration/make-payouts.md
     - API References: integration/api-references.md
     - SDKs:
