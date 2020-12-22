@@ -36,6 +36,9 @@ That's all! We integrate the Google Pay button to the Hosted Payment Page for yo
 
 ### Before you start
 
+!!! attention "Be aware"
+    Your site should run on the HTTPS scheme and support the TLS 1.2 protocol.
+
 To integrate Google Pay into your Android application, check the links below:
 
 - [Google Pay Android developer documentation](https://developers.google.com/pay/api/android/overview)
@@ -51,8 +54,6 @@ To integrate Google Pay into your website, review the following links:
 Get verified: send mobile app (.apk) or link to your site with the payment page.
 
 ### How to integrate the Google Pay method
-
-![Integration Scheme](images/googlepayAPI.png)
 
 The overall transaction flow is similar to the standard Google Pay process. PayCore.io receives the encrypted Google Pay payload from your application and is responsible for decrypting the payment token and transferring the purchase data to a chosen gateway.
 
@@ -72,90 +73,121 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
     4. Your Google merchant ID 
     5. And gateway merchant ID parameter --> your unique account ID
 
-    !!! example "API Response sample"
+    The Customer's billing address is not required for the PayCore.io Google Pay API requests.
+
+    If your integration works properly, you will receive a Google Pay button on the payment page.
+    <img src="/integration/payment-methods/images/buy-buttons-black-small.png" alt="PayCore" style="width: 150px; float: left; padding-top: 10px; padding-right: 10px;">
+    The pop-up window or the additional card selection form will appear after pressing the button on the device with the Google Pay connected. And after customer selecting the card, you will get the data set with PaymentData.
+
+    !!! example "The PaymentData item (JSON)"
 
         ``` json
         {
-            "data":{
-                "id":"cgi_7U4hCiGtMAaGJnwN",
-                "attributes":{
-                    "amount":10,
-                    "currency":"USD",
-                    "description": "Payment Example",
-                    "service":"googlepay",
-                    "options":{},
-                    "customer":{
-                        "reference_id": "customer1"
-                    },
-                    "repeatable":true,
-                    "flow":"charge",
-                    "status":"process_pending",
-                    "resolution":"ok",
-                    "active_request":{
-                        "status":"process_pending",
-                        "resolution":"ok"
-                    },
-                    "active_payment":{
-                        "status":"authorize_required",
-                        "resolution":"ok"
-                    },
-                    "auto_repay":false,
-                    "metadata":{
-                        "fee":"0.00",
-                        "fee_strategy":"external"
-                    },
-                    "form_data":{
-                        "gateway":"paycoreio",
-                        "google_merchant_id":"014****68",
-                        "gateway_merchant_id":"coma_3****51"
-                    }
-                },
-                "payment":{
-                    "fee":"0.00",
-                    "feeStrategy":"external"
-                }
-            }
-        }
-        ```
-
-    
-    If your integration works properly, you will receive a Google Pay button on the payment page. <img src="/integration/payment-methods/images/buy-buttons-black-small.png" alt="PayCore" style="width: 150px;">
-
-3. To initiate a Google Pay transaction, send request with the invoice ID and Google Pay gateway parameters and a JSON-formatted [Payment Token](https://developers.google.com/pay/api/web/reference/object#PaymentMethodTokenizationData).
-
-    !!! example "Request Sample"
-    
-        ``` json
-        {
-        "data":{
-            "type":"sale-operation",
-            "attributes":{
-                "google_pay":{
-                    "apiVersionMinor":0,
-                    "apiVersion":2,
-                    "paymentMethodData":{
-                    "description":"Mastercard  •••• 1111",
-                    "tokenizationData":{
-                        "type":"PAYMENT_GATEWAY",
-                        "token":"{\"signature\":\"MEQCIBjQhjaZB76j...d}"
+            "apiVersionMinor":0,
+            "apiVersion":2,
+            "paymentMethodData":{
+                "description":"Mastercard  •••• 1111",
+                "tokenizationData":{
+                    "type":"PAYMENT_GATEWAY",
+                    "token":"{\"signature\":\"MEQCIBjQhjaZB76j...d}"
                         }
                     },
-                    "type":"CARD",
-                    "info":{
+                "type":"CARD",
+                "info":{
                     "cardNetwork":"MASTERCARD",
                     "cardDetails":"1111"
+                    }
+            }
+        ```
+
+3. To initiate a Google Pay transaction, send request with the Google Pay gateway parameters and a JSON-formatted [Payment Token](https://developers.google.com/pay/api/web/reference/object#PaymentMethodTokenizationData)  encoded using Base64 function.
+
+    `token` allows you initiate verify or charge flow transferring it to the Google Pay.
+
+    **Endpoint**: `https://cardgate.paycore.io/payment/sale`
+
+    **Method**: POST
+
+    !!! example "JSON"
+
+        === "Request Sample"
+    
+            ``` json
+            {
+            "data":{
+                "type":"sale-operation",
+                "attributes":{
+                    "google_pay":{
+                        "apiVersionMinor":0,
+                        "apiVersion":2,
+                        "paymentMethodData":{
+                        "description":"Mastercard  •••• 1111",
+                        "tokenizationData":{
+                            "type":"PAYMENT_GATEWAY",
+                            "token":"{\"signature\":\"MEQCIBjQhjaZB76j...d}"
+                            }
+                        },
+                        "type":"CARD",
+                        "info":{
+                        "cardNetwork":"MASTERCARD",
+                        "cardDetails":"1111"
+                            }
                         }
                     }
                 }
             }
-        }
-        ```
+            ```
+    
+        === "API Response sample"
+
+            ``` json
+            {
+                "data":{
+                    "id":"cgi_7U4hCiGtMAaGJnwN",
+                    "attributes":{
+                        "amount":10,
+                        "currency":"USD",
+                        "description": "Payment Example",
+                        "service":"googlepay",
+                        "options":{},
+                        "customer":{
+                            "reference_id": "customer1"
+                        },
+                        "repeatable":true,
+                        "flow":"charge",
+                        "status":"process_pending",
+                        "resolution":"ok",
+                        "active_request":{
+                            "status":"process_pending",
+                            "resolution":"ok"
+                        },
+                        "active_payment":{
+                            "status":"authorize_required",
+                            "resolution":"ok"
+                        },
+                        "auto_repay":false,
+                        "metadata":{
+                            "fee":"0.00",
+                            "fee_strategy":"external"
+                        },
+                        "form_data":{
+                            "gateway":"paycoreio",
+                            "google_merchant_id":"014****68",
+                            "gateway_merchant_id":"coma_3****51"
+                        }
+                    },
+                    "payment":{
+                        "fee":"0.00",
+                        "feeStrategy":"external"
+                    }
+                }
+            }
+            ```
+
 
     <!--
     There we have a place for Request and Response parameters' tables
     -->
-
-4. `token` allows you initiate verify or charge flow transferring it to the Google Pay.
 
 5. If payment status requires 3DS-verification, you should redirect the customer to the issuing bank ACS page (`action`). Send POST request including `PaReq`  (Payer Authentication Request), and `MD` (Merchant Data) parameters and Return URL to return the customer after 3D Secure (`TermUrl`) for 3ds 1.0 or `creq` (Challenge Request Message) for 3DS 2.0.
 
@@ -191,4 +223,7 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
             }
             ```
 
-6. The response from PayCore.io will contain the transaction result.
+5. The response from PayCore.io will contain the transaction result.
+
+!!! question "Looking for help connecting the Google Pay method via PayCore.io?"
+    [Please contact our support team!](mailto:support@paycore.io)
