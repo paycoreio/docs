@@ -53,13 +53,32 @@ To integrate Google Pay into your website, review the following links:
 
 Get verified: send mobile app (.apk) or link to your site with the payment page.
 
+### How the direct integration works
+
+![Integration Scheme](images/googlepayAPI.png)
+
+1. You request the customer payment data from your application/checkout page.
+2. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the invoice ID and the invoice status `created`.
+3. Your application displays available payment methods to the customer, including Google Pay option.
+4. You request the encrypted payment data from your application, and Google Pay authenticates the customer.
+5. You handle the received payment data and send to your server.
+6. The application back-end transfers the encrypted data to [PayCore.io](http://paycore.io/).
+7. We create the purchase request, decrypt the payment data and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
+8. The acquirer can request an additional user verification step by passing a 3DS or OTP test.
+9. We send to your application back-end the ACS redirect form.
+10. You display the ACS or OTP to the customer.
+11. We get the response value received from the issuer 3DS service.
+12. We request the payment status from the acquirer and finalize the transaction.
+13. We send a Callback message to the application back-end; if the Callback URL is not set, we expect a status request from your server.
+14. You inform the customer about the result.
+
 ### How to integrate the Google Pay method
 
 The overall transaction flow is similar to the standard Google Pay process. PayCore.io receives the encrypted Google Pay payload from your application and is responsible for decrypting the payment token and transferring the purchase data to a chosen gateway.
 
 1. Make sure that you complete preparations from the previous section. Use [Google Pay API](https://developers.google.com/pay/api/android/guides/setup) to get a **paymentData**.
 
-2. As script parameters specify and transfer to us:
+2. As script parameters specify:
 
     1. Available payment methods:
         `var allowedPaymentMethods = ['CARD']`
