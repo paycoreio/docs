@@ -271,6 +271,7 @@ nav:
       - GeoPay: connectors/geopaynet/index.md
       - GlobalMoney: connectors/globalmoney/index.md
       - HashConnect: connectors/hashconnect/index.md
+      - Ibox Bank: connectors/iboxbank/index.md
       - ING Bank Poland: connectors/ingbankpl/index.md
       - Interkassa: connectors/interkassa/index.md
       - IPayTotal: connectors/ipaytotal/index.md
@@ -317,6 +318,7 @@ nav:
       - Stripe: connectors/stripe/index.md   
       - TKB pay: connectors/tkbpay/index.md
       - tome: connectors/tome/index.md
+      - TransferHub: connectors/transferhub/index.md
       - Tranzzo: connectors/tranzzo/index.md
       #- Twelve.live: connectors/twelvelive/index.md
       - UAPay: connectors/uapay/index.md
