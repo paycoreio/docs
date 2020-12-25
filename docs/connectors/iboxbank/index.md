@@ -18,7 +18,9 @@ Send a request on the [website](https://iboxbank.online/ua/open-account) or call
 
 Credentials that have to be issued from your Ibox Bank account manager:
 
-* ID
+* Merchant ID
+* Point ID
+* Service ID
 * Public IboxBank Key
 
 Upon registration with the system you will be able to create the necessary quantity of payment points and generate Private keys for each points.
@@ -30,8 +32,6 @@ Upon registration with the system you will be able to create the necessary quant
 After key generation, you can download it in the point's settings:
 ![Download](images/download-private-key.png)
 
-<!--
-
 ## Connect Provider Account
 
 ### Step 1. Connect account at dashboard.paycore.io
@@ -42,12 +42,18 @@ Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.paycore.i
 
 Enter credentials:
 
-[//]: # (Also, choose Test Mode for test connection with Ibox Bank, and P2P mode for connection in  peer-to-peer payment network.)
+* Point ID
+* Service ID
+
+!!! attention "Please be aware"
+    You should connect each point and each available service separately.
+
+Upload files with related Public IboxBank key and Private payment point key.
+
+Also, choose Test Mode for test connection with Ibox Bank.
 
 !!! success
     You have connected **Ibox Bank** account!
-
--->
 
 ## Connect H2H Merchant Account
 

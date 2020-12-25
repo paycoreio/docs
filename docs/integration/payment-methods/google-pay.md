@@ -58,19 +58,18 @@ Get verified: send mobile app (.apk) or link to your site with the payment page.
 ![Integration Scheme](images/googlepayAPI.png)
 
 1. You request the customer payment data from your application/checkout page.
-2. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the invoice ID and the invoice status `created`.
-3. Your application displays available payment methods to the customer, including Google Pay option.
-4. You request the encrypted payment data from your application, and Google Pay authenticates the customer.
-5. You handle the received payment data and send to your server.
-6. The application back-end transfers the encrypted data to [PayCore.io](http://paycore.io/).
-7. We create the purchase request, decrypt the payment data and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
-8. The acquirer can request an additional user verification step by passing a 3DS or OTP test.
-9. We send to your application back-end the ACS redirect form.
-10. You display the ACS or OTP to the customer.
-11. We get the response value received from the issuer 3DS service.
-12. We request the payment status from the acquirer and finalize the transaction.
-13. We send a Callback message to the application back-end; if the Callback URL is not set, we expect a status request from your server.
-14. You inform the customer about the result.
+2. Your application displays available payment methods to the customer, including Google Pay option.
+3. You request the encrypted payment data from your application, and Google Pay authenticates the customer.
+4. You handle the received payment data and send to your server.
+5. The application back-end transfers the encrypted data to card gateway [PayCore.io](http://paycore.io/) with the invoice request to the Commerce API, and we respond with the invoice ID and the invoice status `created`.
+6. We decrypt the payment data, create the purchase request, and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
+7. The acquirer can request an additional user verification step by passing a 3DS or OTP test.
+8. We send to your application back-end the ACS redirect form.
+9. You display the ACS or OTP to the customer.
+10. We get the response value received from the issuer 3DS service.
+11. We request the payment status from the acquirer and finalize the transaction.
+12. We send a Callback message to the application back-end; if the Callback URL is not set, we expect a status request from your server.
+13. You inform the customer about the result.
 
 ### How to integrate the Google Pay method
 
