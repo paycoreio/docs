@@ -13,7 +13,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
 ## List of Ready-Made Connections
 
-<!-- 01/12/2020: 95 connectors + Test + manual
+<!-- 23/12/2020: 97 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -34,13 +34,13 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/bankonego/logo.png?w=60" width="60px"> | [Bank Onego](bankonego/) | H2H connection, Payouts, Account balances  | RUB |
 | <img src="https://static.openfintech.io/payment_providers/billline/logo.svg?w=70" width="70px">  | [BillLine](billline/) | Payments, Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/cardgate/logo.svg?w=70" width="70px"> | [Card Payments](cardgate/) | Card Payments & Payouts | AMD, AUD, AZN, BYN, CAD, CHF, CNY, CZK, DKK, EUR, GBP, GEL, GIP, HKD, INR, JPY, KZT, MDL, MXN, NGN, NOK, NZD, PLN, RUB, SGD, TJS, TMT, TRY, TZS, UAH, USD, UZS |
-| <img src="https://static.openfintech.io/payment_providers/cardpay/logo.svg?w=70" width="70px"> | [cardpay](cardpay/)  | H2H connection, Payments, Payouts, Account balances | AUD, CAD, CZK, EUR, GBP, INR, MXN, PLN, RUB, UAH, USD, VND |
+| <img src="https://static.openfintech.io/payment_providers/cardpay/logo.svg?w=70" width="70px"> | [cardpay](cardpay/)  | H2H connection, Payments, Payouts, Account balances | AUD, CAD, CZK, EUR, GBP, INR, MXN, PHP, PLN, RUB, UAH, USD, VND |
 | <img src="https://static.openfintech.io/payment_providers/cashfree/logo.png?w=80" width="80px"> | [Cashfree](cashfree/) | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/cauri/logo.png?w=35" width="35px"> | [Cauri](cauri/) | H2H connection | EUR, RUB, USD |
 | <img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png?w=120" width="120px">  | [Certus Finance](certusfinance/) | Payouts  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/cib/logo.svg?w=120" width="120px"> | [ComIn Bank](cib/)  | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/coingate/logo.svg?w=70" width="70px"> | [CoinGate](coingate/) | Payments | BCH, BTC, ETH, EUR, LTC, USD |
-| <img src="https://static.openfintech.io/payment_providers/coinspaid/logo.svg?w=70" width="70px"> | [CoinsPaid](coinspaid/) | Payouts, Account Balances | [according to the provider account settings] | |
+| <img src="https://static.openfintech.io/payment_providers/coinspaid/logo.svg?w=70" width="70px"> | [CoinsPaid](coinspaid/) | Payments, Payouts, Account Balances | [according to the provider account settings] | |
 | <img src="https://static.openfintech.io/payment_providers/concord/logo.svg?w=120" width="120px"> | [Concord Bank](concord/)  | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/connectum/logo.svg?w=70" width="70px">  | [Connectum](connectum/) | H2H connection | AUD, CAD, EUR, GBP, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/crosspay/logo.png?w=80" width="80px">  | [CrossPay](crosspay/) | Payouts, Account Balances | [according to the provider account settings] |
@@ -61,6 +61,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg?w=70" width="70px">  | [GEO pay](geopaynet/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/globalmoney/logo.svg?w=50" width="50px"> | [Global Money](globalmoney/) | Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/hashconnect/logo.png?w=50" width="50px">  | [Hashconnect](hashconnect/) | H2H connection, Payouts, Account balances  | RUB |
+| <img src="https://static.openfintech.io/payment_providers/iboxbank/logo.png?w=50" width="50px">  | [Ibox Bank](iboxbank/) | H2H connection, Payouts  | UAH |
 | <img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg?w=70" width="70px"> | [ING Bank Poland](ingbankpl/) | Payments   | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/interkassa/logo.svg?w=80" width="80px"> | [Interkassa](interkassa/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/ipaytotal/logo.png?w=80" width="80px"> | [IPayTotal](ipaytotal/) | H2H Connection  | EUR, INR, MXN, PLN, USD |
@@ -107,6 +108,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/stripe/logo.svg?w=70" width="70px"> | [Stripe](stripe/)  | H2H connection | AUD, CAD, EUR, GBP, USD |
 | <img src="https://static.openfintech.io/payment_providers/tkbpay/logo.svg?w=70" width="70px"> | [TKB Pay](tkbpay/) | H2H connection, Payouts, Account balances | RUB |
 | <img src="https://static.openfintech.io/payment_providers/tome/logo.svg?w=70" width="70px"> | [tome](tome/) | H2H connection, Payouts, Account balances | BYN, EUR, KZT, RUB, UAH, USD |
+| <img src="https://static.openfintech.io/payment_providers/transferhub/logo.svg?w=60" width="60px"> | [TransferHub](transferhub/) | H2H connection, Payments, Payouts, Account balances | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px"> | [Tranzzo](tranzzo/) | Payments | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px"> | [UAPay](uapay/)  | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/ukrgasbank/logo.png?w=90" width="90px"> | [UKRGASBANK](ukrgasbank/)  | Payouts, Account balances | [according to the provider account settings] |

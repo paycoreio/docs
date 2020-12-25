@@ -4,6 +4,14 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.27 22/12/2020](v1.27/)
+
+* [Increased Metadata limit](v1.27/#metadata-update) up to 20 attributes
+* [Batch Payouts Validation Update](v1.27/#batch-payouts-update): the limit number of Base64 characters must not exceed 100,000 in the whole file
+* [Card Gate Update](v1.27/#card-gateway-update): sanitised Cardholder DTO
+* [Integration Updates](v1.27/#integration-updates): CoinsPaid, CrossPay, Genome, Ibox Bank, Odysseq, Stripe, xpate; PHP currency
+* [And other minor fixes and performance improvements](v1.27/#fixes-and-improvements)
+
 ## [v1.26 08/12/2020](v1.26/)
 
 * [Payment Gateway Update](v1.26/#payment-gateway-update): added fields for peer-to-peer options in the *Payment Routes* section

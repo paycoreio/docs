@@ -1,48 +1,73 @@
 <img src="https://static.openfintech.io/payment_providers/4bill/logo.svg?w=400" width="400px" >
 
-# 4bill Connector
+# 4bill
 
-## Introduction
+!!! quote ""
+    Payments that drives business
 
-Here You can find  instructions for setting up [**4bill** account](https://4bill.io/)!
+**Website**: [4bill.io](https://4bill.io/)
 
-## Setup account
+**Login**: [login](https://cabinet.4bill.io/login)
 
-#### Step 1: Create merchant account
+Follow the guidance for setting up a connection with 4bill payment service provider.
 
-!!! note
-    To create an account send connection request at [**4bill Website**](https://4bill.io/) or contact manager directly!
+## Set up Account
 
-![Step 2](images/4bill-step1.png)
+### Step 1: Create merchant account
+
+To create an account send connection request at the [website](https://4bill.io/) or contact manager directly. Submit the required documents to verify your account and gain access.
 
 #### Step 2: Get required credentials
 
-- Ask your manager for required credentials
-    -  Point ID
-    -  API key
+Credentials that have to be issued:
 
-!!! note
-    Another parameters You will be able to get within API key (token)! 
+* account_id
+* wallet_id
+* point_id
+* service_id (you need a separate service code for each requested feature)
+* api_token
 
-!!! success
-    You are ready to connect!
-    
-## Connect account
+## Connect Provider Account
 
-#### Step 1: Copy credentials
+### Step 1. Connect account at dashboard.paycore.io
 
--  Point ID
--  API key
+Press **Connect** at [*4bill Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/4bill/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-#### Step 2: Enter credentials
+![Connect](images/provider-account.png)
 
-!!! tip
-    Press **`Connect`** at 4bill **`Provider Overview page`** in **`New connection`** section to open Connection form!
+Enter credentials:
 
-
-
-![Connect](images/4bill_connect.png)
-    
+* account_id --> Account ID
+* point_id --> Point ID (if you have more than one, you should connect each payment point separately)
+* api_token --> API key
 
 !!! success
-    You have connected **4bill**!
+    You have connected **4bill** account!
+
+## Connect H2H Merchant Account
+
+### Step 1. Connect H2H account at dashboard.paycore.io
+
+Press **Connect** at [*4bill Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/4bill/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+
+![Connect](images/h2h-merchant-account.png)
+
+Enter credentials:
+
+* account_id --> Account ID
+* point_id --> Point ID (if you have more than one, you should connect each payment point separately)
+* api_token --> API token
+* wallet_id --> Wallet ID (each wallet holds a balance in the related currency)
+* service_id --> Service ID
+
+Choose 'Send merchant data' option if you need to send Commerce MCC and Merchant URL to 4bill.
+
+Choose Test Mode for test connection.
+
+Choose Currency and Features. You can set these parameters according to available currencies and features for your 4bill wallets and services, but it is necessary to check details of the connection with your PayCore.io account manager.
+
+!!! success
+    You have connected **4bill** H2H merchant account!
+
+!!! question "Still looking for help connecting your 4bill account?"
+    [Please contact our support team!](mailto:support@paycore.io)

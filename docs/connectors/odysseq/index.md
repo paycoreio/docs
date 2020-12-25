@@ -1,50 +1,45 @@
 <img src="https://static.openfintech.io/payment_providers/odysseq/logo.svg?w=400" width="400px" >
 
+# Odysseq
 
-# Odysseq Connector
+**Website**: [odysseq.com](https://odysseq.com/)
 
-## Introduction
+**Login**: [Sign in](https://odysseq.com/user/sign-in/login)
 
-Here You can find  instructions for setting up **Odysseq**  account.
+Follow the guidance for setting up a connection with Odysseq payment service provider.
 
-## Setup account
+## Set Up Account
 
-#### Step 1 Contact with Odysseq Support Manager
+### Step 1: Apply for integration
 
+Send a request on the [website](https://odysseq.com/) or via Telegram. Submit the required documents to verify your account and gain access.
 
-#### Step 2: Get required credentials
+### Step 2: Get credentials
 
-- Access token
-- Signature key
+Credentials that have to be issued:
 
-!!! success
-    You have configured account!
+* Access token
+* Signature key
 
+Specify your API type connection with your Odysseq support manager.
 
+## Connect Provider Account
 
+### Step 1. Connect account at dashboard.paycore.io
 
-## Connect account
+Press **Connect** at [*Odysseq Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/odysseq/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-#### Step 1: Copy required credentials
+![Connect](images/provider-account.png)
 
+Enter credentials:
 
-#### Step 2: Enter credentials
+* Access token
+* Signature key --> Secret key
 
-- Access token
-- Signature key
-
-!!! tip
-    Press **`Connect`** at Odysseq **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-
-!!! note
-    These parameters are set according to your Merchant account type and it's available currencies!
-
-
-
-![Connect](images/odysseq_connect.png)
-
+Choose your API type from the dropdown list.
 
 !!! success
-    You have connected **Odysseq**!
+    You have connected **Odysseq** account!
+
+!!! question "Still looking for help connecting your Odysseq account?"
+    [Please contact our support team!](mailto:support@paycore.io)
