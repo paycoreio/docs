@@ -21,7 +21,7 @@ jobs:
       - name: Install theme 
         run: |
           pip install mkdocs-material==6.1.7
-          pip install mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
+          pip install mkdocs-macros-plugin mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
       - name: Build docs
         run:  |
           git clean -f -d -x
@@ -40,7 +40,7 @@ jobs:
       - name: Install theme 
         run: | 
           pip install mkdocs-material==6.1.7
-          pip install mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
+          pip install mkdocs-macros-plugin mkdocs-markdownextradata-plugin mkdocs-minify-plugin mkdocs-material-extensions==1.0.1
       - name: Deploy docs
         run: |
           mkdocs gh-deploy --force
