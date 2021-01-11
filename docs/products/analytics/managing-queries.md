@@ -22,7 +22,7 @@ PayСore.Analytics uses [ **SQL (Structured Query Language)**](https://en.wikipe
 
 To the left of the query editor, you will find the Schema Browser:
 
-<img src="../images/schema-browser.png" width="50%">
+<img src="/images/schema-browser.png" width="50%">
 
 The schema browser will list all your tables, and when clicking on a table will show its columns. To insert an item into your query, simply click the double arrow on the right side. You can filter the schema with the search box and refresh it by clicking on the refresh button (otherwise it refreshes periodically in the background).
 
@@ -198,8 +198,8 @@ If your target query returns more than one column, PayCore.Analytics uses the  _
 
 For example, suppose this query:
 
-SELECT user_uuid as 'value', username as 'name'
-FROM users
+```SELECT user_uuid as 'value', username as 'name'
+FROM users```
 
 returned this data:
 

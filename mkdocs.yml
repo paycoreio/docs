@@ -2,7 +2,7 @@
 site_name: 'Paycore.io Developer Docs'
 site_description: 'PayCore.io public documentation'
 site_author: 'PayCore.io (c)'
-site_url: 'https://docs.paycore.io/'
+site_url: https://docs.paycore.io/
 
 # Repository
 #repo_name: 'paycoreio/docs'
@@ -28,9 +28,10 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono 
-  
+  language: 'en'
   include_search_page: false
   search_index_only: true
+
     # 404 page
   static_templates:
     - 404.html
@@ -42,7 +43,9 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
       lang:
-        - en
+        - en   
+  - macros
+  - markdownextradata: {}
 
 # Customization
 extra:
@@ -55,6 +58,10 @@ extra:
       link: 'https://www.linkedin.com/company/paycore/'
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/paycoreio'
+  custom:
+    # docs_base_url: ""
+    company_name: "PayCore.io"
+
 extra_css:
   - extra.css
 extra_javascript:
@@ -172,6 +179,7 @@ nav:
         - Payout Schemes: products/payout-gateway/payout-schemes.md
         - Payout Workflow: products/payout-gateway/payout-workflow.md
         - Payout Request Workflow: products/payout-gateway/payout-request-workflow.md
+        - Batch Payouts: products/batch-payouts/index.md
     - Hosted Payment Page:
         - Introduction: products/hpp/index.md
         #- Features: products/hpp/features.md
@@ -192,14 +200,12 @@ nav:
         - How To: products/fx-rates/how-to.md
     #- Ledger: 
     #    - Overview: products/ledger/index.md        
-    #- Batch Payouts: 
-    #    - Overview: products/batch-payouts/index.md
     #- Merchant Portal:
     #    - Overview: products/merchant-portal/index.md
     - Analytics:
         - Overview: products/analytics/index.md
         - Getting Started: products/analytics/getting-started.md
-        - Managing Queries: products/analytics/managing-queries.md
+        #- Managing Queries: products/analytics/managing-queries.md
         - Managing Dashboards: products/analytics/managing-dashboards.md
         - Managing Alerts: products/analytics/managing-alerts.md
         - Visualizations: products/analytics/visualizations.md
@@ -219,7 +225,7 @@ nav:
     - Security:
         - Security Recommendations: integration/security-recommendations.md
         - PCI Compliance: integration/pci-dss-overview.md
-    - Testing: integration/tesing.md
+    - Testing: integration/testing.md
     - Public IPs: integration/ips.md
 - Connectors:
       - Overview: connectors/index.md
