@@ -1,5 +1,161 @@
 # Creating and Editing Queries
 
+To make a new query, click  `Create` in the navbar then select `Query`.
+
+![](images/add_new_query.gif)
+
+## Query Editor
+
+### Query Syntax
+
+In most cases we use the query language native to the data source. In some cases there are differences or additions, which are documented on the page.
+
+PayСore.Analytics uses [**SQL (Structured Query Language)**](https://en.wikipedia.org/wiki/SQL) for creating queries.
+
+### Keyboard Shorcuts
+
+-   Execute query:  ++ctrl+enter++ or ++cmd+enter++
+-   Save query:  ++ctrl+s++ or ++cmd+s++
+-   Toggle Auto Complete:  ++ctrl+space++
+-   Toggle Schema Browser  ++alt+d++ or ++option+d++
+
+### Schema Browser
+
+To the left of the query editor, you will find the Schema Browser:
+
+<img src="/products/analytics/images/schema-browser.png" width="50%">
+
+The schema browser will list all your tables, and when clicking on a table will show its columns. To insert an item into your query, simply click the double arrow on the right side. You can filter the schema with the search box and refresh it by clicking on the refresh button (otherwise it refreshes periodically in the background).
+
+Please note that not all data source types support loading the schema.
+
+You can hide the Schema Browser using the key shortcut or by double-clicking the pane handle on the interface. This can be useful when you want to maximize screen while composing a query.
+
+### Auto Complete
+
+The query editor also includes an Auto Complete feature that makes writing complicated queries easier. Live Auto Complete is on by default. So you will see table and column suggestions as you type. You can disable Live Auto Complete by clicking the lightning bolt icon beneath the query editor. When Live Auto Complete is disabled, you can still activate Auto Complete by hitting  ++ctrl+space++.
+
+Live Auto Complete is enabled by default unless your database schema exceeds five thousand tokens (tables or columns). In such cases, you can manually trigger Auto Complete using the keyboard shortcut.
+
+Auto Complete looks for schema tokens, query syntax identifiers (like  `SELECT`  or  `JOIN`) and the titles of Query Snippets.
+
+## Query Settings
+
+### Published vs Unpublished Queries
+
+By default each query starts as an unpublished draft, which means that:
+
+-   Only the user who created this query can see it in the "All Queries" list or in search results.
+-   You can't add visualizations from an unpublished query to dashboards or use it in alerts.
+
+To publish a query, give it a name or click the  `Publish`  button. It's also possible to unpublish a published query by clicking on the  `Unpublish`  button in the query menu.
+
+### Archiving a Query
+
+Once a query is no longer useful, you can archive it. Archiving is almost the same as deleting, except that  **direct links to the query will still work.**  To archive a query, open the little menu at the top-right area of the query editor, next to the Save button and click Archive.
+
+![](images/archive_query.png)
+
+### Duplicating (Forking) a Query
+
+If you need to create a copy of an existing query (created by you or someone else), you can fork it. To fork a query, just click on the Fork button (see example below)
+
+![](images/fork_query.gif)
+
+### Managing Query Permissions
+
+By default, saved queries can only be modified by the user who created them and members of the Admin group. But PayCore.Analytics includes experimental support to share edit permissions with non-Admin users. An Admin in your organization needs to enable it first. Open your organization settings and check the "Enable experimental multiple owners support"
+
+![](images/experimental-owners-support.png)
+
+Now the Query Editor options menu includes a  `Manage Permissions`  option. Clicking on it it will open a dialog where you can add other users as editors to your query or dashboard.
+
+![](images/experimental-permissions-button.png)
+
+Please note that currently the users you add won't receive a notification, so you will need to notify them manually.
+
+## Download or Export Query Results
+
+To manually download the query results, click the "Download Dataset" button above the results and select the type of file you'd like to download:
+
+![](images/download-dataset.png)
+
+### Export URLs and API Key
+
+![](images/show-api-key.png)
+
+The Download Dataset URLs are direct links to the current query result you see on screen. To get a URL which always points at the latest query results, click on the "Show API Key" button in the query menu.
+
+![](images/show-api-key-modal.png)
+
+In the dialog that will open you will find:
+
+- Query API key.
+- Latest results URL in CSV and JSON format. You can also get the Excel format by changing the file type suffix from  `json`/`csv`  to  `xlsx`.
+
+## Favorites & Tagging
+
+PayCore.Analytics users write a lot of queries and dashboards! Favorites and Tagging are here to make finding them easy as your collection of queries and dashboards grows from a few hundred to a few thousand.
+
+![](images/favorites-example.png)
+
+### Favorites
+
+You can favorite a dashboard or query by clicking the star to the left of its title anywhere in PayCore.Analytics. The star will turn yellow to indicate success. Your favorites are displayed at several places in PayCore.Analytics. They appear on the homepage, in the navbar dropdown menus and as filters in the query or dashboard list views.
+
+### Tagging
+
+You can tag queries and queries by subject matter, location, user or any parameter that is meaningful to your organization. Tags are added from the query editor or the dashboard editor. Hover your mouse on the query or dashboard title and an  `+Add Tag`  button will appear. In the modal that appears you can select as many tags as you need. The modal will suggest previously-used tags as you type. Hit  `Save`  when you're finished or  ++Esc++  to abort tagging.
+
+It's important to have predictable taxonomy for your tags. Consistency in this area makes using PayCore.Analytics an even nicer experience and helps bring new users onboard. So we recommend that your team have an internal discussion about the tag hierarchy that will be most beneficial to your organization.
+
+![](images/tagging-example.png)
+
+Your tags will appear on the Dashboard and Query list views on the right-hand side. Click any tag to filter the list view instantly. Click a second time to remove the filter.  `Shift + Click`  to select multiple filters.
+
+## Query Filters
+
+PayCore.Analytics has filters for query results and visualizations! Thanks to filters, you can restrain the result to a specific or multiple values. Filters are enabled by following a naming convention for columns.
+
+If you want to focus on a specific value, you'll need to alias your column to  `<columnName>::filter`  . Here's an example:
+
+``` sql
+SELECT action AS "action::filter", COUNT(0) AS "actions count"
+FROM events
+GROUP BY action
+```
+
+![](images/multifilter_example.png)
+
+Note that you can use  `__filter`  or  `__multiFilter`, (double underscore instead of double quotes) if your database doesn’t support `::` in column names (such as BigQuery).
+
+![](images/filter_example_action_create.png)
+
+If you're interested in multi filters (meaning you can select multiple values), you will need to alias your column to `<columnName>::multi-filter`. Here's an example:
+
+``` sql
+SELECT action AS "action::multi-filter", COUNT (0) AS "actions count"
+FROM events
+GROUP BY action
+```
+![](images/multifilter_example.png)
+
+## Query Parameters
+
+Unless specific to a one-time project, most queries can be reused by changing a  `WHERE`  clause (or filter block in NoSQL) to suit the present need. Yet it can be a hassle to  `Edit Source`  every time you make a minor change. Query Parameters let you insert values at run time without editing your base query. The syntax is straightforward: PayCore.Analytics recognizes any string between double curly braces \{\{ \}\} as a Query Parameter.
+
+``` sql
+SELECT count(0)
+FROM events
+WHERE action = '{{ keyword }}'
+```
+
+In the above example  `{{ keyword }}`  is the Query Parameter. To change the value of the parameter, PayCore.Analytics places an input box above the results pane. The contents of this input box are passed to the database instead of the double curly braces whenever you execute the query.
+
+![](images/query-parameter.png)  
+
+# Creating and Editing Queries
+
 To make a new query, click  `Create`  in the navbar then select  `Query`.
 
 ![](images/add_new_query.gif)
@@ -22,7 +178,7 @@ PayСore.Analytics uses [ **SQL (Structured Query Language)**](https://en.wikipe
 
 To the left of the query editor, you will find the Schema Browser:
 
-<img src="/images/schema-browser.png" width="50%">
+<img src="../images/schema-browser.png" width="50%">
 
 The schema browser will list all your tables, and when clicking on a table will show its columns. To insert an item into your query, simply click the double arrow on the right side. You can filter the schema with the search box and refresh it by clicking on the refresh button (otherwise it refreshes periodically in the background).
 
@@ -143,7 +299,7 @@ GROUP BY action
 ## Query Parameters
 
 
-Unless specific to a one-time project, most queries can be reused by changing a  `WHERE`  clause (or filter block in NoSQL) to suit the present need. Yet it can be a hassle to  `Edit Source`  every time you make a minor change. Query Parameters let you insert values at run time without editing your base query. The syntax is straightforward: PayCore.Analytics recognizes any string between double curly braces  `{{ }}`  as a Query Parameter.
+Unless specific to a one-time project, most queries can be reused by changing a  `WHERE`  clause (or filter block in NoSQL) to suit the present need. Yet it can be a hassle to  `Edit Source`  every time you make a minor change. Query Parameters let you insert values at run time without editing your base query. The syntax is straightforward: PayCore.Analytics recognizes any string between double curly braces  \{\{ \}\}  as a Query Parameter.
 
 ```sql
 SELECT count(0)
@@ -198,8 +354,8 @@ If your target query returns more than one column, PayCore.Analytics uses the  _
 
 For example, suppose this query:
 
-```SELECT user_uuid as 'value', username as 'name'
-FROM users```
+SELECT user_uuid as 'value', username as 'name'
+FROM users
 
 returned this data:
 
