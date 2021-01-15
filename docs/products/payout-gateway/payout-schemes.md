@@ -26,7 +26,7 @@ But we recommend to take your transaction routing to the next level as early as 
 ## Create your first payout scheme
 
 !!! tips "Before you start"
-    Ensure you have a proper conversion scheme in the *'[Rate Schemes](https://dashboard.paycore.io/fx-rates/schemes)'*. Create a new scheme if necessary.
+    Ensure you have a proper conversion scheme in the *'[Rate Schemes]({{custom.dashboard_base_url}}fx-rates/schemes)'*. Create a new scheme if necessary.
 
 ![Create Payout Scheme](images/create-payout-scheme.png)
 

@@ -85,7 +85,7 @@ This section contains settings, which determine the external interaction with co
 
 #### Keys
 
-Keys subsection relates to [Commerce Public API](https://swagger-dev.paycore.io/commerce-public/#/). 
+Keys subsection relates to [Commerce Public API](https://swagger-dev.{{custom.company_name}}/commerce-public/#/). 
 
  
 **`Public`** Keys are used to: 
@@ -125,7 +125,7 @@ This subsection contains:
 
 #### API Keys
 
-API key relates to [Commerce Private API](https://swagger-dev.paycore.io/commerce/#/).
+API key relates to [Commerce Private API](https://swagger-dev.{{custom.company_name}}/commerce/#/).
 
 !!! info
     To authorize the connection **`basic auth`** is used.
@@ -150,7 +150,7 @@ This page contains a list of available Payment services (within assigned contrac
 
 To configure the payment invoice **`lifetime`** or **`attempts limit`**:
 
-1. Navigate to the [Commerce accounts](https://dashboard.paycore.io/commerce/accounts/)
+1. Navigate to the [Commerce accounts]({{custom.dashboard_base_url}}commerce/accounts/)
 2. Go to the Setting of neccessary one
 3. Find **Payment Options** section
 4. Set property value
@@ -180,7 +180,7 @@ This page contains a list of available Payout services (within assigned contract
 
 To configure the payout invoice set necessary properties at Commerce Account **`Payout options`** page:
 
-1. Navigate to the [Commerce accounts](https://dashboard.paycore.io/commerce/accounts/)
+1. Navigate to the [Commerce accounts]({{custom.dashboard_base_url}}commerce/accounts/)
 2. Go to the Setting of neccessary one
 3. Find **Payout Options** section
 4. Set property value

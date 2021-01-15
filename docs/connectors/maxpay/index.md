@@ -77,7 +77,7 @@ This Payment Provoider gives acoount credentials personaly to their merchants!
 
 #### Step 5: Set up parameters
 
-- Callback URL: ```https://psp-ext.paycore.io/maxpay/callback```
+- Callback URL: ```https://psp-ext.{{custom.company_name}}/maxpay/callback```
 
 
 !!! success

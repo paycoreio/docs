@@ -24,12 +24,12 @@ Use these features to enhance and customize your integration.
 |---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Customize the look and feel of the buttons        | Follow the Style the buttons guide to change the button layout, color, label, shape or size.                                |
 | Create an authorization, and capture funds later  | Follow the Authorize and Capture guide to authorize the payment immediately, then capture the payment at a later time.      |
-| Refund a transaction                              | Follow the Refunds guide to call PayCore.io to refund any transactions that have already been captured.                         |
-| Send funds to a custom payee                      | Follow the Custom Payee guide to direct any funds to a different PayCore.io account                                             |
+| Refund a transaction                              | Follow the Refunds guide to call {{custom.company_name}} to refund any transactions that have already been captured.                         |
+| Send funds to a custom payee                      | Follow the Custom Payee guide to direct any funds to a different {{custom.company_name}} account                                             |
 | Listen for transaction events on your server      | Follow the Add Webhooks guide to listen for events on your server from transactions as they are created and captured.       |
 | Search for completed transactions                 | Follow the Search Transactions guide to search for completed transactions from your buyers.                                 |
 | Handle disputes                                   | Follow the Handle Disputes guide to handle buyer disputes.                                                                  |
-| Show PayCore.io when the buyer selects a radio button | Follow the Radio buttons guide to show the Smart Payment Buttons to the buyer when they select a radio button on your site. |
+| Show {{custom.company_name}} when the buyer selects a radio button | Follow the Radio buttons guide to show the Smart Payment Buttons to the buyer when they select a radio button on your site. |
 | Validate on button click                          | Follow the Validation guide to validate user inputs on button clicks.                                                       |
 | Show a confirmation page                          | Follow the Confirmation page guide to show a confirmation page to the buyer before capturing the funds from a transaction.  |
 | Update a transaction                              | Follow the Update order details guide to update a transaction after it has been set up.                                     |
@@ -153,7 +153,7 @@ As your customer enters their card details, we automatically detect:
 
 ## Error handling
 
-When an error condition occurs, there are some cases where PayCore.io cannot determine which skin and language to use to display the error message with.
+When an error condition occurs, there are some cases where {{custom.company_name}} cannot determine which skin and language to use to display the error message with.
 
 To enhance the shopper experience, you have the option to include the following fields in the URL that the shopper is directed to:
 
@@ -163,12 +163,12 @@ To enhance the shopper experience, you have the option to include the following 
 |skinCode     |The code of the skin used.                                                                    |
 |shopperLocale|A combination of a language code and country code to specify the language used in the session.|
 
-These values are used as a fallback when PayCore.io is unable to determine skin and language configuration.
+These values are used as a fallback when {{custom.company_name}} is unable to determine skin and language configuration.
 
 
 ### Return Method
 
-PayCore.io provides three methods in which the buyer and sale parameters can be returned to your approved URL. You may send the buyer to our order processed page which will display a  **Click Here to Finalize your Order**  button to redirect the buyer, you may bypass the order processed page using a header redirect or you can immediately display your approved URL to the buyer while they remain on our server. Your return method can be selected on the Site Management page.
+{{custom.company_name}} provides three methods in which the buyer and sale parameters can be returned to your approved URL. You may send the buyer to our order processed page which will display a  **Click Here to Finalize your Order**  button to redirect the buyer, you may bypass the order processed page using a header redirect or you can immediately display your approved URL to the buyer while they remain on our server. Your return method can be selected on the Site Management page.
 
 #### Given links back to my Website
 
@@ -176,7 +176,7 @@ With the Return Method set to Given links back to my website, the buyer will be 
 
 #### Direct Return
 
-With the Return Method set to Direct Return, sale parameters will be posted automatically to the approved URL while fetched by our server and displayed to the buyer. When using this Direct Return function the URL will be masked to the buyer, appearing to still be on the PayCore.io.com domain. This method can be used with redirects as long as each page outputs content more than 255 characters to the browser. If Direct Return encounters a page that redirects without outputting content the process will fail and the buyer will be sent to our standard Order Processed page. This occurs usually with a header redirect, specifically content less then 255 characters. This is a common issue as many developers will set their approved URL to a script that processes the return sales parameters then silently forwards the buyer to another page. This is usually a thank you or download page for intangible products. The best solution is to handle all post-order processing on the page set as your approved URL, including the thank you message. If no redirects are used, meaning the URL is masked by our servers, then relative links will not point to the correct location. This can be corrected with the use of absolute paths on the approved URL page or by simply using a base tag in the head of the document to provide a reference for the relative paths.
+With the Return Method set to Direct Return, sale parameters will be posted automatically to the approved URL while fetched by our server and displayed to the buyer. When using this Direct Return function the URL will be masked to the buyer, appearing to still be on the {{custom.company_name}}.com domain. This method can be used with redirects as long as each page outputs content more than 255 characters to the browser. If Direct Return encounters a page that redirects without outputting content the process will fail and the buyer will be sent to our standard Order Processed page. This occurs usually with a header redirect, specifically content less then 255 characters. This is a common issue as many developers will set their approved URL to a script that processes the return sales parameters then silently forwards the buyer to another page. This is usually a thank you or download page for intangible products. The best solution is to handle all post-order processing on the page set as your approved URL, including the thank you message. If no redirects are used, meaning the URL is masked by our servers, then relative links will not point to the correct location. This can be corrected with the use of absolute paths on the approved URL page or by simply using a base tag in the head of the document to provide a reference for the relative paths.
 
 #### Header Redirect
 

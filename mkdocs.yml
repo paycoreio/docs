@@ -59,8 +59,15 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/paycoreio'
   custom:
-    # docs_base_url: ""
+    docs_base_url: ""
     company_name: "PayCore.io"
+    pay_domain: "https://com.paycore.io"
+    website_url: "https://paycore.io/"
+    support_url: "https://support.paycore.io/"
+    support_email: "support@paycore.io"
+    dashboard_base_url: "https://dashboard.paycore.io/"
+    redoc_base_url: "https://apidoc.paycore.io/"
+    swagger_base_url: "https://swagger.paycore.io/"
 
 extra_css:
   - extra.css

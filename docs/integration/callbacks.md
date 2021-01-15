@@ -87,7 +87,7 @@ You also have the option to exclude card object from the callback. Enabling this
 
 ## API Version
 
-PayCore.io supports multiple API versions. The event content sent to the callback is structured based on the API version selected. Hence it is crucial that the API version of the callback matches the API version of the client library used by your application server. Learn more about API versioning  [here](/integration/).
+{{custom.company_name}} supports multiple API versions. The event content sent to the callback is structured based on the API version selected. Hence it is crucial that the API version of the callback matches the API version of the client library used by your application server. Learn more about API versioning  [here](/integration/).
 
 ## Signature
 
@@ -106,11 +106,11 @@ Where the `$secret` is one your secrets: `test` or `live`, `$callbackData` is ra
 
 ## Timeouts
 
-There are 3 timeouts for Callbacks in PayCore.io:
+There are 3 timeouts for Callbacks in {{custom.company_name}}:
 
 1. **Connection Timeout:**  The connection timeout is the timeout for making the initial connection to the callback URL's HTTP server.
 2. **Read Timeout:**  Once the initial connection has been made, at any time there is a possibility that there is an indefinite wait to read data from the HTTP server. The read timeout is the timeout for such a wait.
-3. **Total Callback Timeout:**  In addition to the above timeouts, PayCore.io also checks the total execution of time of any callback via the callback execution timeout.
+3. **Total Callback Timeout:**  In addition to the above timeouts, {{custom.company_name}} also checks the total execution of time of any callback via the callback execution timeout.
 
 The values for each timeout are as follows:
 

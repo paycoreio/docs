@@ -8,4 +8,4 @@
 **Login**: [NAME](WEBSITE)
 
 !!! question "Looking for help connecting your NAME account?"
-    [Please contact our support team](mailto:support@paycore.io)!
+    [Please contact our support team](mailto:{{custom.support_email}})!

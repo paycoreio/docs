@@ -18,43 +18,43 @@
 
 Server-server интеграция для Commerce Account. Позволяет получать балансы аккаунта, создавать платежи, выплаты и т.п.
 
-Swagger: [https://swagger.paycore.io/commerce/](https://swagger.paycore.io/commerce/)
+Swagger: [{{custom.swagger_base_url}}commerce/]({{custom.swagger_base_url}}commerce/)
 
-Full Reference: [https://apidoc.paycore.io/commerce/](https://apidoc.paycore.io/commerce/)
+Full Reference: [{{custom.redoc_base_url}}commerce/]({{custom.redoc_base_url}}commerce/)
 
 
 ### Commerce Public API
 
 Client–server интеграция для Commerce Account со стороны Website. Позволяет получить прямо на frontend, минуя серверное взаимодействие список доступных платежных сервисов и сервисов выплат.
 
-Swagger: [https://swagger.paycore.io/commerce-public/](https://swagger.paycore.io/commerce-public/)
+Swagger: [{{custom.swagger_base_url}}commerce-public/]({{custom.swagger_base_url}}commerce-public/)
 
-Full Reference: [https://apidoc.paycore.io/commerce-public/](https://apidoc.paycore.io/commerce-public/)
+Full Reference: [{{custom.redoc_base_url}}commerce-public/]({{custom.redoc_base_url}}commerce-public/)
 
 
 ### Commerce HPP API
 
 интеграция для взаимодействия с Hosted Payment Page для приема платежей. Позволяет перенаправить клиента на готовую платежную страницу, где он сможет выбрать платежный метод и совершить платеж.
 
-Swagger: [https://swagger.paycore.io/commerce-hpp/](https://swagger.paycore.io/commerce-public/)
+Swagger: [{{custom.swagger_base_url}}commerce-hpp/]({{custom.swagger_base_url}}commerce-public/)
 
-Full Reference: [https://apidoc.paycore.io/commerce-hpp/](https://apidoc.paycore.io/commerce-hpp/)
+Full Reference: [{{custom.redoc_base_url}}commerce-hpp/]({{custom.redoc_base_url}}commerce-hpp/)
 
 
 ### Platform API
 
 Позволяет реализовать низкоуровневую интеграцию с платформой и ее сервисами. Вся фунциональность реализованная в Dashboard доступна через данное API.
 
-Swagger: [https://swagger.paycore.io/](https://swagger.paycore.io/commerce-public/)
+Swagger: [{{custom.swagger_base_url}}]({{custom.swagger_base_url}}commerce-public/)
 
-Full Reference: [https://apidoc.paycore.io/](https://apidoc.paycore.io/)
+Full Reference: [{{custom.redoc_base_url}}]({{custom.redoc_base_url}})
 
 
 ## API ключи
 
 Все ключи для Commerce Public API, Private API, HPP API доступны в личном кабинете в настройках Commerce Account → Integration.
 
-![](images/commerce-keys.png "PayCore.io > Play with API > Integration")
+![](images/commerce-keys.png "{{custom.company_name}} > Play with API > Integration")
 
 
 ### Live / Test keys
@@ -100,7 +100,7 @@ Our APIs accept and return JSON in the HTTP body and return HTTP response codes 
 
 ### Authentication
 
-To initiate a request to any of PayCore.io,’s endpoints, you will need to provide an API key in the  `Authorization`  header. Unless otherwise specified, you should use your secret key.
+To initiate a request to any of {{custom.company_name}},’s endpoints, you will need to provide an API key in the  `Authorization`  header. Unless otherwise specified, you should use your secret key.
 
 
 ### HTTP response codes
@@ -136,7 +136,7 @@ The JSON response includes the following fields:
 
 Field name Description
 
-`request_id` The request ID used by PayCore.io  to trace what went wrong in the payment.
+`request_id` The request ID used by {{custom.company_name}}  to trace what went wrong in the payment.
 
 `error_type` The type of error.
 
@@ -196,7 +196,7 @@ Callback Request будет содержать уникальный ID плат�
 
 ### Create payment over Commerce HPP API
 
-![](images/hpp.png "PayCore.io > Play with API > Hosted Payment Page.png")
+![](images/hpp.png "{{custom.company_name}} > Play with API > Hosted Payment Page.png")
 
 **HPP** (hosted payment page) — это готовый UI интерфейс для проведения платежей.
 
@@ -213,7 +213,7 @@ Callback Request будет содержать уникальный ID плат�
 **Пример запроса:**
 
 ```html
-<form action="https://com.paycore.io/hpp/" method="GET">
+<form action="{{custom.pay_domain}}/hpp/" method="GET">
 <input type="hidden" name="public_key"
  value="pk_live_mF-EbTQBhz15e4AWAQNq-CFrBIdAEKG2pFSuj7JudNY"/>
  <!-- Change this key. Don't forget to allow public creation -->
@@ -234,7 +234,7 @@ window.document.getElementById('reference_id').value
 **Пример запроса с авто-перенаправлением на оплату:**
 
 ```html
-<form action="https://com.paycore.io/public-api/payment-invoices/process" method="POST">
+<form action="{{custom.pay_domain}}/public-api/payment-invoices/process" method="POST">
     Amount: <input type="text" name="amount" value="100"/> <br/>
     <input type="hidden" name="public_key" 
 				value="pk_live_mF-EbTQBhz15e4AWAQNq-CFrBIdAEKG2pFSuj7JudNY"/>
@@ -289,7 +289,7 @@ window.document.getElementById('reference_id').value
 
 Незабывайте, что данный процесс требует реализации вашей внутренней бизнес-логики по блокировке и списанию средств с баланса клиента в процессе проведения выплаты.
 
-**Endpoint:** POST "[https://com.paycore.io/api/payout-invoices](https://com.paycore.io/api/payout-invoices)"
+**Endpoint:** POST "[{{custom.pay_domain}}/api/payout-invoices]({{custom.pay_domain}}/api/payout-invoices)"
 
 **Request:**
 ```json

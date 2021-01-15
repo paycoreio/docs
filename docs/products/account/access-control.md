@@ -2,7 +2,7 @@
 
 "Access control" is intended to delimit User access to different Dashboard sections  through User Roles assignment.
 
-PayCore.io implements multi-user access, which allows one user to use several independent organization accounts and switch between them.
+{{custom.company_name}} implements multi-user access, which allows one user to use several independent organization accounts and switch between them.
 
 It is divided into **2 parts**:
 

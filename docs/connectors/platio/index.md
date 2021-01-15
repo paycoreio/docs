@@ -29,9 +29,9 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}ompany_name}}ompany_name}}
 
-Press **Connect** at [*Platio Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Platio Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -48,9 +48,9 @@ Also, choose Test Mode for test connection.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}ompany_name}}ompany_name}}
 
-Press **Connect** at [*Platio Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Platio Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -66,10 +66,10 @@ Enable *Send Merchant URL* option for sending the Merchant's shop URL to Platio.
 
 Enable *Save Instant Token* if you plan on using payments by token with the connected Outlet ID.
 
-Also, choose Currency and Features. You can set these parameters according to available currencies and features for your Platio account, but it is necessary to check details of the connection with your PayCore.io account manager.
+Also, choose Currency and Features. You can set these parameters according to available currencies and features for your Platio account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **Platio** H2H merchant account!
 
 !!! question "Still looking for help connecting your Platio account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}}ompany_name}}ompany_name}})

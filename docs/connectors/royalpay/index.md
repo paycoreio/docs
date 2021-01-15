@@ -7,4 +7,4 @@
 **Website**: [royalpay.eu](https://royalpay.eu/)
 
 !!! question "Looking for help connecting your Royal Pay account?"
-    [Please contact our support team](mailto:support@paycore.io)!
+    [Please contact our support team](mailto:{{custom.support_email}}ompany_name}})!

@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The payment providers hub is the heart of the [PayCore.io](http://PayCore.io) platform.
+The payment providers hub is the heart of the [{{custom.company_name}}](http://PayCore.io) platform.
 
 Based on it, all the main services of the platform are implemented.
 
-Therefore, it is extremely important to understand the work of other components and products of [PayCore.io](http://PayCore.io), to thoroughly understand the principles and concepts of the payment hub.
+Therefore, it is extremely important to understand the work of other components and products of [{{custom.company_name}}](http://PayCore.io), to thoroughly understand the principles and concepts of the payment hub.
 
 ## What's inside?
 
@@ -24,7 +24,7 @@ For a start, we propose to deal with the basic concepts with which he operates:
 
 After, we will consider what the Connector of a payment provider is and its capabilities.
 
-This will give an insight into how [PayCore.io](http://PayCore.io) providers are organized and how they can be managed.
+This will give an insight into how [{{custom.company_name}}](http://PayCore.io) providers are organized and how they can be managed.
 
 ## Next
 

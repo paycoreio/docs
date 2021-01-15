@@ -25,9 +25,9 @@ Specify your API type connection with your Odysseq support manager.
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Odysseq Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/odysseq/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Odysseq Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/odysseq/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -42,4 +42,4 @@ Choose your API type from the dropdown list.
     You have connected **Odysseq** account!
 
 !!! question "Still looking for help connecting your Odysseq account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

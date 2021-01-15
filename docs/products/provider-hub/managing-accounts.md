@@ -40,21 +40,21 @@
 
 ## Provider accounts
 
-![](images/provider-account.png "PayCore.io > Provider Hub > Managing accounts ~ Docs > Provider Account overview")
+![](images/provider-account.png "{{custom.company_name}} > Provider Hub > Managing accounts ~ Docs > Provider Account overview")
 
 На экране управления аккаунтов провайдеров вы можете отслеживать подключенные аккаунты провайдеров, а также связанные с ним **Merchant Account** и **Deposit Account**.
 
 Если провалиться глубже в какой то аккаунт, то вы увидите его детали.
 
-Если отозвать доступ на стороне провайдера, это произведет сбой подключения на стороне [PayCore.io](http://PayCore.io) и потребуется его переподключение.
+Если отозвать доступ на стороне провайдера, это произведет сбой подключения на стороне [{{custom.company_name}}](http://PayCore.io) и потребуется его переподключение.
 
 На экране аккаунта можно его переподключить как по существующим доступам, так и указав новые.
 
-В момент переподключения, PayCore.io синхронихирует все данные по аккаунту с провайдером: его **Merchant Account**, **Deposit Account**, маршруты, балансы.
+В момент переподключения, {{custom.company_name}} синхронихирует все данные по аккаунту с провайдером: его **Merchant Account**, **Deposit Account**, маршруты, балансы.
 
 ## Merchant accounts
 
-![](images/merchant-account.png "PayCore.io > Provider Hub > Managing accounts ~ Docs > Merchant Account overview.png")
+![](images/merchant-account.png "{{custom.company_name}} > Provider Hub > Managing accounts ~ Docs > Merchant Account overview.png")
 
 Данный раздел дает возможность управлять вашими **Merchant Accounts** и конролировать их состоние.
 
@@ -62,7 +62,7 @@
 
 ## Deposit accounts
 
-![](images/deposit-accounts.png "PayCore.io > Provider Hub > Managing accounts ~ Docs > Deposit accounts (1).png")
+![](images/deposit-accounts.png "{{custom.company_name}} > Provider Hub > Managing accounts ~ Docs > Deposit accounts (1).png")
 
 На экране **Deposit Accounts** можно видить аутальные балансы, если коннектор конкретного провайдера поддерживает синхронизацию балансов.
 

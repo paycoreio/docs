@@ -4,9 +4,9 @@
 
 Mass payouts or mass payments, refers to the concept of paying out to a large number of partners, publishers, suppliers, or sub-merchants – usually on a regular basis. In many cases, it can involve making a high volume of payments in multiple payment methods, multiple currencies, and to countries across the world.
 
-Payouts allows marketplaces and financial institutions (banks and payment service providers) to use PayCore.io as a payout option for their customers.
+Payouts allows marketplaces and financial institutions (banks and payment service providers) to use {{custom.company_name}} as a payout option for their customers.
 
-All the above listed payouts and account automation benefits are also true for payouts service. You can build payment services to your customers on top of PayCore.io payment platform that enables your customers to send cross-border payouts to 40+ currencies in 70+ countries.
+All the above listed payouts and account automation benefits are also true for payouts service. You can build payment services to your customers on top of {{custom.company_name}} payment platform that enables your customers to send cross-border payouts to 40+ currencies in 70+ countries.
 
 ## Benefits
 
@@ -26,7 +26,7 @@ If earlier you counted one-on-one with your remote employees, then you definitel
 
 You don’t necessarily need to integrate with the API to make a large number of payouts.
 
-Create and send up to 1,000 transfers with just one payment using our Batch Payouts tool. All you need to do is fill a CSV file with all the transfer details, upload it to PayCore.io, and payout for the batch. No development effort needed.
+Create and send up to 1,000 transfers with just one payment using our Batch Payouts tool. All you need to do is fill a CSV file with all the transfer details, upload it to {{custom.company_name}}, and payout for the batch. No development effort needed.
 
 [Learn more -->](/products/batch-payouts/)
 
@@ -34,6 +34,6 @@ Create and send up to 1,000 transfers with just one payment using our Batch Payo
 
 ![Mass payouts](images/masspay-api.svg)
 
-PayCore.io’s Payout API is a mass payout solution that enables businesses to initiate hundreds of supplier payments or vendor payments through an easy to use, intuitive API.
+{{custom.company_name}}’s Payout API is a mass payout solution that enables businesses to initiate hundreds of supplier payments or vendor payments through an easy to use, intuitive API.
 
 Completely automate your payout process by sending payout orders via the [Commerce Private API](/integration/api-references/#commerce-private-api).

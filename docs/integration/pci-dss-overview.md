@@ -4,7 +4,7 @@
 
 If you're processing payments, transmitting and storing card data, you must comply with the  [Payment Card Industry Data Security Standards](https://www.pcisecuritystandards.org/security_standards)  (PCI DSS).
 
-_PayCore.io Ltd company is certified for PCI DSS as a Level 1 Service Provider._
+_{{custom.company_name}} Ltd company is certified for PCI DSS as a Level 1 Service Provider._
 
 PCI compliance is a responsibility shared between both us and your business. So when accepting payments, it is essential that you do so in a PCI compliant manner. The complexity of this depends upon your integration methods, but the simplest way is never to see or access your customers' card data. Here are our tips:
 
@@ -76,4 +76,4 @@ The PCI requirements for our integration methods are as follows:
 
 ## Can we help?
 
-If you have any questions or are unsure about PCI compliance, please contact our support team at  [support@paycore.io](mailto:support@paycore.io).
+If you have any questions or are unsure about PCI compliance, please contact our support team at  [{{custom.support_email}}](mailto:{{custom.support_email}}).

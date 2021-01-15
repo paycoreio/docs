@@ -9,7 +9,7 @@ If you haven't set up your account yet, we recommend going to the ['Setting up']
 
 ## Receiving your first payment
 
-* **Step 1**. Go to ['Operations' → 'Payment invoices'](https://dashboard.paycore.io/operations/payment-invoices).
+* **Step 1**. Go to ['Operations' → 'Payment invoices'](https://dashboard.{{custom.company_name}}ompany_name}}/operations/payment-invoices).
 
 ![](images/accept-1st-payment1.png)
 
@@ -30,7 +30,7 @@ Congratulations! You have just created your first payment invoice. If you send i
 
 ## Make your first payout
 
-* **Step 1**: Go to ['Operations' – 'Payout invoices'](https://dashboard.paycore.io/operations/payout-invoices).
+* **Step 1**: Go to ['Operations' – 'Payout invoices'](https://dashboard.{{custom.company_name}}ompany_name}}/operations/payout-invoices).
 
 ![](images/make-1st-payout1.png)
 

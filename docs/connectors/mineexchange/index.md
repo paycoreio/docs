@@ -23,9 +23,9 @@ To connect Mine.Exchange, you need to know your **key to API authentication**. A
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Mine.Exchange Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/mineexchange/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Mine.Exchange Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/mineexchange/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -42,9 +42,9 @@ Choose your commission (fee) type: Internal or External according to your Mine.E
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Mine.Exchange Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/mineexchange/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Mine.Exchange Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/mineexchange/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -60,4 +60,4 @@ Choose Currency and Features: set these parameters according to available curren
 -->
 
 !!! question "Still looking for help connecting your Mine.Exchange account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

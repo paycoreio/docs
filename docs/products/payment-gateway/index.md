@@ -22,7 +22,7 @@ We will understand the basic concepts with which he operates:
 
 After that, we consider typical interaction cases and routing tuning subtleties.
 
-This will give you an understanding of how the payment gateway works in [PayCore.io](http://PayCore.io) and how it can be managed.
+This will give you an understanding of how the payment gateway works in [{{custom.company_name}}](http://{{custom.company_name}}) and how it can be managed.
 
 ## Next
 

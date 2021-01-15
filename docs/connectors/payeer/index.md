@@ -51,7 +51,7 @@ Here You can find  instructions for setting up [ **Payeer**  account](https://pa
     - **`Success URL`**, **`Fail URL`**, **`Status URL`** : Set your URLs
         
         !!! info
-            PayCore.io will overwrite this properties in request. 
+            {{custom.company_name}} will overwrite this properties in request. 
 
     - other properties are set at your choice
 

@@ -1,8 +1,8 @@
-# PayCore.io Products
+# {{custom.company_name}} Products
 
 ![PayСore.io Products](/images/cubes.jpg)
 
-Welcome to PayCore.io! Get familiar with the PayCore.io products and explore their features:
+Welcome to {{custom.company_name}}! Get familiar with the {{custom.company_name}} products and explore their features:
 
 | Product                                       | Description                                                                                                      |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|

@@ -39,9 +39,9 @@ To connect Provider Account, you should also copy ID for the chosen wallet.
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Win Pay Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Win Pay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -57,9 +57,9 @@ Choose Test Mode for test connection with Win Pay and Currency according to the 
 
 ## Connect Merchant Account
 
-### Step 1. Connect Merchant account at dashboard.paycore.io
+### Step 1. Connect Merchant account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Win Pay Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **Merchant account** option to open Connection form.
+Press **Connect** at [*Win Pay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **Merchant account** option to open Connection form.
 
 ![Connect](images/merchant-account.png)
 
@@ -75,9 +75,9 @@ Choose Test Mode for test connection.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Win Pay Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Win Pay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -88,10 +88,10 @@ Enter credentials:
 
 Choose Test Mode for test connection with Win Pay.
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your Win Pay wallet, but it is necessary to check details of the connection with your PayCore.io account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your Win Pay wallet, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **Win Pay** H2H merchant account!
 
 !!! question "Still looking for help connecting your Win Pay account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

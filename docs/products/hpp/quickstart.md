@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with PayCore.io. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
+Hosted Payment Page (HPP) is a ready-to-go solution that allows quick and easy integration with {{custom.company_name}}. You only have to redirect your customers to the payment form we give you. There’s also no need for you to pass any PCI scans or have an SSL certificate (though having one is always recommended), since the actual payment is submitted via our secure payment page.
 
 
 ## Try it out
@@ -16,22 +16,22 @@ Why not give HPP a test run? Click the  **Pay Now**  button below and the form w
 
 ## Customer Journey
 
-PayCore.io Commerce HPP is a secure hosted payment page, where you can redirect customers from your website to make a payment through PayCore.io. Commerce HPP provides customers with access to a range of payment methods, based on their location and your account and integration settings. Integration to Commerce HPP is simple and requires collecting customer payment information on your website in a standard HTML form and submitting this to PayCore.io.
+{{custom.company_name}} Commerce HPP is a secure hosted payment page, where you can redirect customers from your website to make a payment through {{custom.company_name}}. Commerce HPP provides customers with access to a range of payment methods, based on their location and your account and integration settings. Integration to Commerce HPP is simple and requires collecting customer payment information on your website in a standard HTML form and submitting this to {{custom.company_name}}.
 
 Commerce HPP then collects the customer payment details needed to complete the payment, and sends these details to the relevant bank or payment provider for authorisation. After the payment is complete, the customer is returned to your website and you receive a real-time notification of the payment, which includes details of the transaction.
 
-A simplified illustration of the PayCore.io HPP payment flow is shown in the figure below.
+A simplified illustration of the {{custom.company_name}} HPP payment flow is shown in the figure below.
 
 ![HPP Interaction](images/hpp-interaction.png)
 
 ??? tip "Full customer journey details"
     1.  A customer on your website decides to checkout.
-    2.  Your website redirects the customer to the Hosted Payment Page on the PayCore.io platform by submitting HTML form or calling the Private API with Payment Invoice data the amount, a payment description, a callback URL, and a Return URL we should redirect the customer to after the payment is made.
-    3.  The customer reaches the Hosted Payment Page, chooses a payment method and makes the payment. This process is entirely taken care of by PayCore.io. You don’t need to do anything here.
-    4.  At this point PayCore.io returns the visitor to your website using the  `return_url`  specified when the payment was created. Your website already knows the payment was successful and thanks the customer.
-    5.  When the payment is made PayCore.io will call your  [callback URL](/integration/callbacks/)  informing your website about the  [payment’s invoice status change](/products/commerce/payment-invoice/). You should define a callback when creating the initial payment.
+    2.  Your website redirects the customer to the Hosted Payment Page on the {{custom.company_name}} platform by submitting HTML form or calling the Private API with Payment Invoice data the amount, a payment description, a callback URL, and a Return URL we should redirect the customer to after the payment is made.
+    3.  The customer reaches the Hosted Payment Page, chooses a payment method and makes the payment. This process is entirely taken care of by {{custom.company_name}}. You don’t need to do anything here.
+    4.  At this point {{custom.company_name}} returns the visitor to your website using the  `return_url`  specified when the payment was created. Your website already knows the payment was successful and thanks the customer.
+    5.  When the payment is made {{custom.company_name}} will call your  [callback URL](/integration/callbacks/)  informing your website about the  [payment’s invoice status change](/products/commerce/payment-invoice/). You should define a callback when creating the initial payment.
         
-        In response to your callback being called your application just needs to issue a  `200  OK`  status. From that response PayCore.io can tell that your processing of the new status was successful – for any other response we keep trying.
+        In response to your callback being called your application just needs to issue a  `200  OK`  status. From that response {{custom.company_name}} can tell that your processing of the new status was successful – for any other response we keep trying.
 
         This fetched status serves to mark the payment paid, trigger fulfilment and send out an email confirmation to the customer.
 
@@ -39,7 +39,7 @@ A simplified illustration of the PayCore.io HPP payment flow is shown in the fig
 
 Commerce HPP is the easiest and the quickest way to integrate checkout into your website.  **No coding knowledge**  is required. But your requirements should satisfy the below conditions:
 
--   You do not have an user authentication or management system at your end and you rely on PayCore.io for providing it.
+-   You do not have an user authentication or management system at your end and you rely on {{custom.company_name}} for providing it.
 -   Only after completing checkout, end users are allowed to access your product or service.
 
 You can integrate with any of our payment page experience offerings. Choose from one of our simple hosted solutions — **Payment Widget** or **Payment Link** which are based on **Commerce HPP API**.
@@ -83,7 +83,7 @@ Here’s how it can look like:
 === "HTML Form"
 
     ``` html
-    <form action="https://com.paycore.io/hpp/" method="get">
+    <form action="{{custom.pay_domain}}/hpp/" method="get">
         <input type="hidden" name="public_key" value="<your_public_key>" />
         <input type="hidden" name="currency" value="USD" />
         <input type="hidden" name="description" value="Some goods" />
@@ -95,19 +95,19 @@ Here’s how it can look like:
 === "URL (Link)"
 
     ``` html
-    <a href="https://com.paycore.io/hpp/?public_key=your_public_key&currency=USD&description=Some%20goods&amount=100" target="self" />
+    <a href="{{custom.pay_domain}}/hpp/?public_key=your_public_key&currency=USD&description=Some%20goods&amount=100" target="self" />
     ```
 
 === "QR Code (Image)"
 
     ```html
-    <img alt="Payment Link" src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.paycore.io%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100">
+    <img alt="Payment Link" src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.{{custom.company_name}}%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100">
     ```
 
 ??? tip "Payment Link as a QR-Code"
     Payment Link could be generated even like a QR code:
 
-    ![Payment Link](https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.paycore.io%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100)
+    ![Payment Link](https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.{{custom.company_name}}%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100)
 
 ### Widget vs Link
 
@@ -133,7 +133,7 @@ Read about our all integration methods for accepting payments below, then [choos
 
 ### Before you start
 
-Make sure you have your  `public_key`. You can find it in the  [Dashboard](https://dashboard.paycore.io/), under  **Commerce Account Settings > Integration**. If you don't have an account with us yet, sign up for your free test account at  [PayCore.io](https://dashboard.paycore.io/).
+Make sure you have your  `public_key`. You can find it in the  [Dashboard]({{custom.dashboard_base_url}}), under  **Commerce Account Settings > Integration**. If you don't have an account with us yet, sign up for your free test account at  [{{custom.company_name}}]({{custom.dashboard_base_url}}).
 
 !!! warning "General requirements"
 
@@ -175,7 +175,7 @@ You'll need to replace the example  `public_key`  with your own, and edit the re
 === "Payment Link (HTML Form)"
 
     ``` html
-    <form action="https://com.paycore.io/hpp/" method="get">
+    <form action="{{custom.pay_domain}}/hpp/" method="get">
         <input type="hidden" name="public_key" value="<your_public_key>" />
         <input type="hidden" name="currency" value="USD" />
         <input type="hidden" name="description" value="Some goods" />
@@ -186,7 +186,7 @@ You'll need to replace the example  `public_key`  with your own, and edit the re
 
 ### Step 3 (Optional):  Add callback handler to your backend app
 
-When the payment process is complete PayCore.io sends the details of the transaction to the `callback_url` page you provided in your payment request. This is done with a standard HTTP POST. The PayCore.io server continues to post the status until a response of HTTP `OK` (`200`) is received from your server or the number of posts exceeds `attempts_limit` (10 by default).
+When the payment process is complete {{custom.company_name}} sends the details of the transaction to the `callback_url` page you provided in your payment request. This is done with a standard HTTP POST. The {{custom.company_name}} server continues to post the status until a response of HTTP `OK` (`200`) is received from your server or the number of posts exceeds `attempts_limit` (10 by default).
 
 More information about handling callbacks you could find [here](/integration/callbacks/).
 
@@ -218,7 +218,7 @@ We provide two ways to integrate:
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="1"
-        <form action="https://com.paycore.io/hpp/" method="get" target="_self">
+        <form action="{{custom.pay_domain}}/hpp/" method="get" target="_self">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="currency" value="USD" />
             <input type="hidden" name="description" value="Some goods" />
@@ -254,7 +254,7 @@ More about embedding options you could find in our [Full Reference Guide](/produ
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="1 8"
-        <form action="https://com.paycore.io/hpp/" method="get" target="payment_frame">
+        <form action="{{custom.pay_domain}}/hpp/" method="get" target="payment_frame">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="currency" value="USD" />
             <input type="hidden" name="description" value="Some goods" />
@@ -297,7 +297,7 @@ This example represents a complete payment process, based on the order details a
 === "Payment Link (HTML Form)"
 
     ``` html
-    <form action="https://com.paycore.io/hpp/" method="get">
+    <form action="{{custom.pay_domain}}/hpp/" method="get">
         <input type="hidden" name="public_key" value="<your_public_key>" />
         <input type="hidden" name="reference_id" value="12345" /><!-- The order was placed with unique ID is _12345_. -->
         <input type="hidden" name="currency" value="USD" /><!-- Amount of the order bill is _100 USD_. -->
@@ -330,7 +330,7 @@ This example represents a complete payment process, based on the order details a
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="5"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="currency" value="USD" />
             <input type="hidden" name="amount" value="100" />
@@ -360,7 +360,7 @@ This example represents a complete payment process, based on the order details a
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="3 6"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
             <input type="hidden" name="currency" value="USD" />
@@ -400,7 +400,7 @@ This example represents a complete payment process, based on the order details a
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="7 8 9 10 11"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
             <input type="hidden" name="currency" value="USD" />
@@ -440,7 +440,7 @@ This example represents a complete payment process, based on the order details a
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="7 8"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
             <input type="hidden" name="currency" value="USD" />
@@ -473,7 +473,7 @@ This example represents a complete payment process, based on the order details a
     === "Payment Link (HTML Form)"
 
         ```html hl_lines="3"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="return_url" value="https://somedomain.com/" />
             <input type="hidden" name="currency" value="USD" />
@@ -507,7 +507,7 @@ This example represents a complete payment process, based on the order details a
     === "Payment Link (HTML Form)"
 
         ```html hl_lines="5"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="reference_id" value="12345" />
             <input type="hidden" name="currency" value="GBP" />

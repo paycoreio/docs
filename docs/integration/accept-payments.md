@@ -1,6 +1,6 @@
 # Accept Payments
 
-With PayCore.io, you can build a payments flow that gives you and your customers the power of choice. Collect payment information quickly and securely, create charges server-side in over 150 currencies, or accept payments from a host of additional payment methods, including 3-D Secure, Apple Pay, and SEPA.
+With {{custom.company_name}}, you can build a payments flow that gives you and your customers the power of choice. Collect payment information quickly and securely, create charges server-side in over 150 currencies, or accept payments from a host of additional payment methods, including 3-D Secure, Apple Pay, and SEPA.
 
 Read about our integration methods below, then choose the one that best suits your needs.
 
@@ -33,8 +33,8 @@ Use our hosted responsive solution for payment processing:
     **What you do**
 
     -   Collect details of the items your shopper wants to buy
-    -   Send the order details to PayCore.io
-    -   Redirect the shopper to PayCore.io to make a payment
+    -   Send the order details to {{custom.company_name}}
+    -   Redirect the shopper to {{custom.company_name}} to make a payment
     -   Inform the shopper of the payment result
 
 [Learn more -->](/products/hpp/)
@@ -67,7 +67,7 @@ Build and host yourself using SDKs or client API:
 
     -   Collect details of the items your shopper wants to buy
     -   Collect the shopper's payment details (such as cardholder name and card number) and their chosen payment method
-    -   Send the payment to PayCore.io
+    -   Send the payment to {{custom.company_name}}
 
 [Learn more -->](/products/hpp/self-hosted-payment-page/)
 

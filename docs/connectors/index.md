@@ -2,7 +2,7 @@
 
 ![Go global!](/images/go-global-new.png)
 
-This section explains how to connect your payment providers' accounts and the PayCore.io platform. It describes setup processes and helps you to put in place new services that can relay requests to the payment or payout gateways.
+This section explains how to connect your payment providers' accounts and the {{custom.company_name}} platform. It describes setup processes and helps you to put in place new services that can relay requests to the payment or payout gateways.
 
 Click on the name of the desired connector and follow the link to the step-by-step guide.
 
@@ -122,7 +122,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/xpayua/logo.svg?w=70" width="70px">  | [XPAY](xpayua/)  | Payments, Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/zotapay/logo.png?w=70" width="70px">  | [Zotapay](zotapay/)   | Payments, Payouts, Account balances | EUR, GHS, IDR, KES, MYR, NGN, THB, TZS, USD, VND, ZAR |
 
-You can also send a request about a new connection by clicking the appropriate button on the [dashboard](https://dashboard.paycore.io/connect-directory/payment-providers) or [emailing our support team](mailto:support@paycore.io).
+You can also send a request about a new connection by clicking the appropriate button on the [dashboard]({{custom.dashboard_base_url}}connect-directory/payment-providers) or [emailing our support team](mailto:{{custom.support_email}}).
 
 ## How to Connect to the Payment Provider
 
@@ -132,7 +132,7 @@ Usually, the connection algorithm includes the following steps:
 
 1. Create an account on the side of the payment provider
 2. Set up your provider or merchant account and get credentials for the further connection
-3. Connect the account in the [PayСore.io Dashboard](https://dashboard.paycore.io/)
+3. Connect the account in the [PayСore.io Dashboard]({{custom.dashboard_base_url}})
 
 !!! attention "Please note"
     - Sub-steps can be different, since methods of data storage, delivery and organisation are unique for each provider.
@@ -140,6 +140,6 @@ Usually, the connection algorithm includes the following steps:
     - The credential parameters format must be appropriate to the connection form's requirements.
 
 !!! question "Contact us"
-    If you have any questions, feature suggestions or ideas, feel free to contact our support team via [email](mailto:support@paycore.io) or [Jira service desk](https://support.paycore.io/).
+    If you have any questions, feature suggestions or ideas, feel free to contact our support team via [email](mailto:{{custom.support_email}}) or [Jira service desk]({{custom.support_url}}).
 
 --8<-- "includes/abbr.md"

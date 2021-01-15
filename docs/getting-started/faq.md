@@ -1,13 +1,13 @@
 <img src="/getting-started/images/faq.svg" alt="QA-chat" style="width: 150px; float: right; padding-left: 10px;">
 
-# PayCore.io FAQ
+# {{custom.company_name}} FAQ
 
-Welcome to the Frequently Asked Questions about interaction and working with PayCore.io! This list is not conclusive, and we regularly improve and update it with new cases. If you don’t find the answer you’re looking for here, submit your request to [our support team](mailto:support@paycore.io), we’ll be happy to help you.
+Welcome to the Frequently Asked Questions about interaction and working with {{custom.company_name}}! This list is not conclusive, and we regularly improve and update it with new cases. If you don’t find the answer you’re looking for here, submit your request to [our support team](mailto:{{custom.support_email}}), we’ll be happy to help you.
 
 ## Troubleshoot Password, Email Address, and Login Problems
 
 ??? question "Did you not receive new account invitation email?"
-    To register with PayCore.io, you need to give the account manager the existing e-mail address to send the invitation. Firstly, if you cannot find the e-mail, check the Spam folder.
+    To register with {{custom.company_name}}, you need to give the account manager the existing e-mail address to send the invitation. Firstly, if you cannot find the e-mail, check the Spam folder.
 
     Contact the account administrator to verify that the address is correct and ask about resending the invitation. If the email is still missing, you might need to use another e-mail address.
 
@@ -22,13 +22,13 @@ Welcome to the Frequently Asked Questions about interaction and working with Pay
     1. If you use the Authy app, download the desktop version to your laptop or desktop computer. You can then get the authentication code on your computer and use that code to log in.
     2. Also, you can [change the mobile phone number with Authy :material-launch:](https://www.authy.com/phones/change/) and have the authentication code sent to a different mobile phone number.
     3. If you have saved list with one-time 10-digits codes to restore access, enter one of them in the field for two-factor authentication.
-    4. Contact [PayCore.io support](mailto:support@paycore.io) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
+    4. Contact [{{custom.company_name}} support](mailto:{{custom.support_email}}) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
 
 ??? question "Does your authentication fail several times?"
     1. If your authentication fails several times, you may need to synchronize your phone's clock with your mobile provider. Often, this involves checking the "Set automatically" option on your phone's clock, rather than providing your time zone.
     2. Code not working? Make sure you are not entering spaces between the numbers from the Authy app.
     3. Use your saved list with one-time 10-digits codes to restore access and enter one of them in the field for two-factor authentication.
-    4. Contact [PayCore.io support](mailto:support@paycore.io) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
+    4. Contact [{{custom.company_name}} support](mailto:{{custom.support_email}}) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
 
 
 ## Troubleshoot Dashboard Errors
@@ -58,25 +58,25 @@ Welcome to the Frequently Asked Questions about interaction and working with Pay
     - **5xx**: Server error. Need to clarify operation state via API request
 
 ??? question "Is the CVV stored in card payment processes?"
-    PayCore.io properly maintains PCI-DSS compliance for processing of Card Not Present transactions. That means the CVV, submitted by the client and sent to the issuer bank with the first payment attempt, should not be stored. So that it cannot be sent for recurring series transactions.
+    {{custom.company_name}} properly maintains PCI-DSS compliance for processing of Card Not Present transactions. That means the CVV, submitted by the client and sent to the issuer bank with the first payment attempt, should not be stored. So that it cannot be sent for recurring series transactions.
 
-    PayCore.io  includes to payload a recurring flag that goes out to the issuer bank and alerts about CVV is not coming with repeat authorizations you submit.  This possibility is based on the recurring nature of the agreement or relationship with your client.
+    {{custom.company_name}}  includes to payload a recurring flag that goes out to the issuer bank and alerts about CVV is not coming with repeat authorizations you submit.  This possibility is based on the recurring nature of the agreement or relationship with your client.
 
 ??? question "May 3D Secure be enabled only for certain payments and countries?"
     When 3D secure is enabled for all card types; by default 3D authentication will take place for card transaction in all countries.
 
-    PayCore.io includes to payload a recurring flag to alert the issuing bank about skipping the 3D secure check. This possibility is based on your business logic and relationship with your clients.
+    {{custom.company_name}} includes to payload a recurring flag to alert the issuing bank about skipping the 3D secure check. This possibility is based on your business logic and relationship with your clients.
 
 ??? question "Can you save a card and charge it later?"
     If you create card payment invoice with enabled tokenization, we save card details on our servers and store a related token on your side. You can use this token to charge the card at a later date.
 
-    To resolve any other refund issues, contact [our support team](mailto:support@paycore.io), and we will help you as soon as possible.
+    To resolve any other refund issues, contact [our support team](mailto:{{custom.support_email}}), and we will help you as soon as possible.
 
 ??? question "Does token have an expiration date?"
     A token is valid until expiring the linked card.
 
 ??? question "How long does it take to receive a response from the payment platform?"
-    On average, the PayCore.io platform responds within one to two seconds. Certain responses can take a bit longer in case various third-party platforms need to be reached.
+    On average, the {{custom.company_name}} platform responds within one to two seconds. Certain responses can take a bit longer in case various third-party platforms need to be reached.
 
 ??? question "Can you submit more than one refund on the same order on the same day?"
     Yes, you can. But be aware: some local card acquirers (for example, in Argentina, Brazil, Mexico, and Columbia) impose restrictions on multiple refunds.
@@ -89,7 +89,7 @@ Welcome to the Frequently Asked Questions about interaction and working with Pay
 ??? question "How to choose fee strategy"
     Used value of the fee is the sum of the *rate fee* (in percentage with two decimal places) and the *fixed fee* (in base currency). Also, it always lies within the *minimum* and *maximum* setpoints (in base currency).
 
-    Depending on the commerce account's payment options, PayCore.io platform enables to use of 4 types of fee strategy:
+    Depending on the commerce account's payment options, {{custom.company_name}} platform enables to use of 4 types of fee strategy:
 
     1. Internal strategy and Direct calculation
         - `fee_strategy:internal`, `reverse_fee:false`
@@ -152,7 +152,7 @@ Welcome to the Frequently Asked Questions about interaction and working with Pay
 ??? question "Unable to initiate invoice via Public API?"
     Turn off the *Forbid creation through the Public API* option in the Commerce account settings (Payment options)
 
-??? question "How to understand that the transaction with a certain ID(Reference ID) successfully created in the PayCore.io system"
+??? question "How to understand that the transaction with a certain ID(Reference ID) successfully created in the {{custom.company_name}} system"
     You should reconcile the transaction status or use response codes:
 
     * **201**: Successfully created
@@ -206,19 +206,19 @@ Welcome to the Frequently Asked Questions about interaction and working with Pay
 
 
 !!! question "Have you found an answer to your question?"
-    If no, ask [our support team](mailto:support@paycore.io), we are always here for help!
+    If no, ask [our support team](mailto:{{custom.support_email}}), we are always here for help!
 
-## PayCore.io HPP
+## {{custom.company_name}} HPP
 
 ??? question "How do you enable the device-specific Checkout page?"  
-    The PayCore.io HPP is responsive. The page adapts to the screen size and format of your client's device. This makes sure that the payment page is optimized for use on desktop, tablet and mobile phone screens, both in the portrait and landscape modes.
+    The {{custom.company_name}} HPP is responsive. The page adapts to the screen size and format of your client's device. This makes sure that the payment page is optimized for use on desktop, tablet and mobile phone screens, both in the portrait and landscape modes.
 
     If you wish to create specific versions of your checkout page for specific devices, you can create and design as many variants as want. And through the REST API, you can direct your users to each of these variants.
 
 ??? question "Is it possible to hide the header, footer, or any other basic elements of the HPP?"
     You can hide any of the elements other than the main: client-available payment methods.
 
-    Test the look and feel of the HPP in the [Sandbox](https://dashboard.paycore.io/sandbox/hpp) and choose the best combination of options.
+    Test the look and feel of the HPP in the [Sandbox]({{custom.dashboard_base_url}}sandbox/hpp) and choose the best combination of options.
 
 ??? question "Which browsers does the HPP support?"
     The following browsers are supported:

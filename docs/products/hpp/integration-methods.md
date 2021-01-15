@@ -4,7 +4,7 @@
 
 Commerce HPP is the easiest and the quickest way to integrate checkout into your website.  **No coding knowledge**  is required. But your requirements should satisfy the below conditions:
 
--   You do not have an user authentication or management system at your end and you rely on PayCore.io for providing it.
+-   You do not have an user authentication or management system at your end and you rely on {{custom.company_name}} for providing it.
 -   Only after completing checkout, end users are allowed to access your product or service.
 
 You can integrate with any of our payment page experience offerings. Choose from one of our simple hosted solutions — **Payment Widget** or **Payment Link** which are based on **HPP API**.
@@ -48,13 +48,13 @@ Here’s how it can look like:
 !!! example "Simple redirect example"
 
     ```html
-    <form action="https://com.paycore.io/hpp/" method="GET">
+    <form action="{{custom.pay_domain}}/hpp/" method="GET">
         <input type="hidden" name="public_key" value="<your-public-key>" />
         <input type="hidden" name="reference_id" value="<unique-reference-id>" />
         <input type="hidden" name="currency" value="USD" />
         <input type="hidden" name="description" value="Some goods" />
         <input type="hidden" name="amount" value="100" />
-        <input type="submit" value="Pay with PayCore.io" />
+        <input type="submit" value="Pay with {{custom.company_name}}" />
     </form>
     ```
 

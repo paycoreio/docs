@@ -1,12 +1,12 @@
 # HPP Guide: Integration Overview
 
-This page will take you through the  _Hosted Payment Page API_  and explain how to interact with it and its concepts. Please make sure to understand why you should use the Hosted Payment Page and the Overview of the system before reading this documentation. The Hosted Payment Page works with a  _Commerce_  from the PayCore.io ecosystem. 
+This page will take you through the  _Hosted Payment Page API_  and explain how to interact with it and its concepts. Please make sure to understand why you should use the Hosted Payment Page and the Overview of the system before reading this documentation. The Hosted Payment Page works with a  _Commerce_  from the {{custom.company_name}} ecosystem. 
 
-This page lists a high-level overview of all ways to integrate PayCore.io HPP into a website, application, web store or Smart TV service.
+This page lists a high-level overview of all ways to integrate {{custom.company_name}} HPP into a website, application, web store or Smart TV service.
 
 ## Ecosystem overview
 
-**Commerce’s Hosted Payment Page**  (_HPP_) requires that you integrate different server-side REST APIs from the PayCore.io environment and thus requires no client-side integration. The different APIs correspond to different PayCore.io products and have some defined objects that interact with each other.
+**Commerce’s Hosted Payment Page**  (_HPP_) requires that you integrate different server-side REST APIs from the {{custom.company_name}} environment and thus requires no client-side integration. The different APIs correspond to different {{custom.company_name}} products and have some defined objects that interact with each other.
 
 ![HPP Preview](images/hpp-ecosystem.png)
 
@@ -63,9 +63,9 @@ On the merchant backend, the order is managed, payment is initiated and Payment 
 
 ## How does it work
 
-Technically, HPP is a companion service to  _PayCore.io Commerce_ that uses  _PayCore.io Payment Gateway_, which can both be referred as a  _Payment Provider_. You will have to integrate one of these APIs to create a  _Payment Invoice_, and then use HPP to deliver the Payment experience to merchant customers.
+Technically, HPP is a companion service to  _{{custom.company_name}} Commerce_ that uses  _{{custom.company_name}} Payment Gateway_, which can both be referred as a  _Payment Provider_. You will have to integrate one of these APIs to create a  _Payment Invoice_, and then use HPP to deliver the Payment experience to merchant customers.
 
-A complete payment process will involve three of PayCore.io services:
+A complete payment process will involve three of {{custom.company_name}} services:
 
 1.  **Commerce HPP API**  - Hosted Payment Page to distribute the Payment Invoice to merchant Customer.
 2.  **Commerce Public API**  - Public API to integrate to create a Payment Invoice.

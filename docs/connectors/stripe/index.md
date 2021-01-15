@@ -9,4 +9,4 @@
 **Login**: [dashboard.stripe.com](https://dashboard.stripe.com/login)
 
 !!! question "Looking for help connecting your Stripe account?"
-    [Please contact our support team](mailto:support@paycore.io)!
+    [Please contact our support team](mailto:{{custom.support_email}}ompany_name}})!

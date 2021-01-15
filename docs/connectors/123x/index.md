@@ -31,9 +31,9 @@ Here You can find  instructions for setting up [**123x** account](https://123x.i
 
 #### Step 5: Set up parameters
 -  Market name
--  Handler Url ```https://psp-ext.paycore.io/123xio/callback```
--  Success Url ```https://psp-ext.paycore.io/123xio/return```
--  Error Url ```https://psp-ext.paycore.io/123xio/return```
+-  Handler Url ```https://psp-ext.{{custom.company_name}}/123xio/callback```
+-  Success Url ```https://psp-ext.{{custom.company_name}}/123xio/return```
+-  Error Url ```https://psp-ext.{{custom.company_name}}/123xio/return```
 -  Status
 
 ![Step 5](images/123xio-step5.png)

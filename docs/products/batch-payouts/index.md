@@ -56,7 +56,7 @@ You can also add columns for objects with client data: `customer` and `customer_
 
 ### Create the Batch in the Dashboard
 
-[Click the *+New* button :material-launch:](https://dashboard.paycore.io/transactions/payout-batches/new-batch) in the Dashboard (*Transactions* --> *Batch Payouts*), and upload your prepared CSV file.
+[Click the *+New* button :material-launch:]({{custom.dashboard_base_url}}transactions/payout-batches/new-batch) in the Dashboard (*Transactions* --> *Batch Payouts*), and upload your prepared CSV file.
 
 ![+New Button](images/batch-payouts.png)
 

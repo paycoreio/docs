@@ -7,4 +7,4 @@
 **Website**: [wonderlandpay.com](http://www.wonderlandpay.com/index.html)
 
 !!! question "Looking for help connecting your WonderlandPay account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

@@ -5,4 +5,4 @@
 **Website**: [onegobank.ru](https://www.onegobank.ru/)
 
 !!! question "Looking for help connecting your Bank Onego account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})
