@@ -34,9 +34,9 @@ After key generation, you can download it in the point's settings:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}ompany_name}}
 
-Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -57,9 +57,9 @@ Also, choose Test Mode for test connection with Ibox Bank.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}ompany_name}}
 
-Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -67,10 +67,10 @@ Enter your Merchant ID and upload files with related Public IboxBank key and Pri
 
 Choose Test Mode for test connection with Ibox Bank.
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your Ibox Bank account, but it is necessary to check details of the connection with your PayCore.io account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your Ibox Bank account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **Ibox Bank** H2H merchant account!
 
 !!! question "Still looking for help connecting your Ibox Bank account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}}ompany_name}})

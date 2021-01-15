@@ -1,10 +1,10 @@
-# Resources and tools to integrate [PayCore.io](https://paycore.io/) payments platform
+# Resources and tools to integrate [{{custom.company_name}}]({{custom.website_url}}) payments platform
 
 ![Build your payment solution!](images/intro.jpg)
 
 ## Welcome!
 
-[PayCore.io](https://paycore.io/) is a payment platform and payment hub for online businesses and financial institutions. With the technical cloud-based infrastructure and tools required to operate an online payment system, we help you to create any payment flow and effectively address complex financial problems in industries.
+[{{custom.company_name}}]({{custom.website_url}}) is a payment platform and payment hub for online businesses and financial institutions. With the technical cloud-based infrastructure and tools required to operate an online payment system, we help you to create any payment flow and effectively address complex financial problems in industries.
 
 [Look at the big picture -->](getting-started/platform-overview/)
 
@@ -24,7 +24,7 @@ Also, the following challenges need to consider when scaling your online busines
 
 <img src="images/payouts-all-over.png" alt="PayCore Payouts" style="width: 300px; float: right; padding-left: 20px;">
 
-PayCore.io platform allows you to make transaction by any connected payout method, in any supported currency, and to almost any country across the globe. We support integration with multiple payment providers and acquirers to help you optimize your pricing and success rates.
+{{custom.company_name}} platform allows you to make transaction by any connected payout method, in any supported currency, and to almost any country across the globe. We support integration with multiple payment providers and acquirers to help you optimize your pricing and success rates.
 
 Your organisation can send single or batch payouts to your clients, contract workers, claimers, freelancers, and retailers. To satisfy both your goals and your payee intentions, you need to customise payout processes, and our platform ready to assist in these regards.
 
@@ -40,6 +40,6 @@ Whether your business is simple or complex, we offer a robust set of building bl
 
 There is a range of different ways that you can integrate directly with PayCore's systems for seamless payment capability in your applications, systems, products, or services.
 
-You can use our RESTful API and Checkout Pages to accept payments and Callbacks­ to handle changes in the transaction statuses. And you can develop your own Checkout page. In any case, our APIs provide a safe route through standard interfaces to all PayCore.io's features.
+You can use our RESTful API and Checkout Pages to accept payments and Callbacks­ to handle changes in the transaction statuses. And you can develop your own Checkout page. In any case, our APIs provide a safe route through standard interfaces to all {{custom.company_name}}'s features.
 
 [Start by learning about our effective and flexible APIs -->](integration/)

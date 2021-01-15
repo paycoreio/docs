@@ -6,7 +6,7 @@ Our HPP reference is here to help you find those hard-to-find bits of informatio
 
 You can use a Payment Link (standard HTML form) or Payment Widget (JS) to collect and pass payment and customer details to HPP. More about integration methods you could find [here](/products/hpp/quickstart/#integration-methods).
 
-When the customer selects the payment option, your website should post the HTML form containing their transaction details to: `https://com.paycore.io/hpp/`.
+When the customer selects the payment option, your website should post the HTML form containing their transaction details to: `{{custom.pay_domain}}/hpp/`.
 
 The HTML form should contain the mandatory hidden input fields listed in [Configuration](#configuration-options).
 
@@ -15,26 +15,26 @@ You could use a secure method of obtaining a precreated Payment Invoice ID befor
 !!! tip "Tips for improving the customer experience"
      -   Any parameters that you pass through in your HTML form, such [customer details](#customer-details) as first name, last name, and email, will be automatically populated (or populated and hidden) as appropriate, on the HPP making it easier for the customer to complete these forms.
      -   You can customize the appearance of the HPP using the options described in [Customization Guide](/products/hpp/customization/).
-     -   To maximise conversion, PayCore.io recommends that you redirect customers to the HPP in the same browser window or embed the HPP in an iframe (see Embedding on [Quickstart Guide](/products/hpp/quickstart/#integration-methods).
+     -   To maximise conversion, {{custom.company_name}} recommends that you redirect customers to the HPP in the same browser window or embed the HPP in an iframe (see Embedding on [Quickstart Guide](/products/hpp/quickstart/#integration-methods).
 
 ### Secure redirection method
 
-This method can be used to ensure that details of the payment are communicated securely between your server and PayCore.io. 
+This method can be used to ensure that details of the payment are communicated securely between your server and {{custom.company_name}}. 
 
 !!! note "Important!"
-     We strongly recommend that you use this method when redirecting your customers to PayCore.io, as it does not require sending any payment parameters to their browser. This prevents customers from being able to view or modify any hidden parameters in your source code.
+     We strongly recommend that you use this method when redirecting your customers to {{custom.company_name}}, as it does not require sending any payment parameters to their browser. This prevents customers from being able to view or modify any hidden parameters in your source code.
 
 The redirection process is as follows:
 
 1. Your web server makes a standard POST request with the payment parameters, using the [Commerce Private API](/integration/api-references/).
-2. The PayCore.io server prepares a Payment Invoice for the payment and returns a standard HTTP(S) response with it.
+2. The {{custom.company_name}} server prepares a Payment Invoice for the payment and returns a standard HTTP(S) response with it.
 3. Your web server takes the body of the response which contains a Payment Invoice ID value.
 4. Using this Payment Invoice ID value the customer can be redirected to:
 
 === "Payment Link"
 
     ``` markdown
-    https://com.paycore.io/hpp/?cpi=<PAYMENT_INVOICE_ID>
+    {{custom.pay_domain}}/hpp/?cpi=<PAYMENT_INVOICE_ID>
     ```    
 
 === "Payment Widget (JS)"
@@ -77,7 +77,7 @@ All following fields are **required**:
 
 |Key                                      |Type                   |Description                                                                                      |
 |-----------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------|
-|`public_key` **\***  | `string`               |Public key of your commerce account — find it in the  [Dashboard](https://dashboard.paycore.io/).|
+|`public_key` **\***  | `string`               |Public key of your commerce account — find it in the  [Dashboard]({{custom.dashboard_base_url}}).|
 |`amount`  **\***   | `float`                |The payment invoice amount.                                                                      |
 |`currency`  **\*** | `string` |The payment invoice currency (three-letter ISO 4217 code).                                       |
 
@@ -100,7 +100,7 @@ All following fields are **required**:
     === "Payment Link (HTML Form)"
 
         ```html hl_lines="2 3 4"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="currency" value="USD" />
             <input type="hidden" name="amount" value="100" />
@@ -147,7 +147,7 @@ For example, specify the validity period of payment invoice.
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="5 6 7"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="currency" value="USD" />
             <input type="hidden" name="amount" value="100" />
@@ -211,7 +211,7 @@ Set in `customer` key a customer object with following optional properties:
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="7 8 9 10 11"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
             <input type="hidden" name="currency" value="USD" />
@@ -257,7 +257,7 @@ If the `service` has mandatory fields, the you need also specify them in `servic
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="5"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="currency" value="USD" />
             <input type="hidden" name="amount" value="100" />
@@ -275,7 +275,7 @@ If the `service` has mandatory fields, the you need also specify them in `servic
 
 Provide custom `return_url` so that your shoppers are returned to your website at the end of the payment process.
 
-If `return_url` are not provided, shoppers are redirected to one of PayCore.io's default result pages, where the payment journey ends.
+If `return_url` are not provided, shoppers are redirected to one of {{custom.company_name}}'s default result pages, where the payment journey ends.
 
 You could override the return URL on individual transactions in `options` key a options object with following optional properties:
 
@@ -310,7 +310,7 @@ To set the return URL for individual transactions, include the  `return_url`  va
     === "Payment Link (HTML Form)"
 
         ``` html hl_lines="3"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="return_url" value="https://somedomain.com/" />
             <input type="hidden" name="currency" value="USD" />
@@ -325,9 +325,9 @@ To set the return URL for individual transactions, include the  `return_url`  va
 
 ### Auto return the buyer to your website
 
-With Auto return for PayCore.io payments, buyers are not required to click a button to return to your website after they complete their payments with PayCore.io. Auto Return applies to all PayCore.io Payments Standards payment buttons, including Buy Now, Shopping Cart, Subscription, and Donate buttons.
+With Auto return for {{custom.company_name}} payments, buyers are not required to click a button to return to your website after they complete their payments with {{custom.company_name}}. Auto Return applies to all {{custom.company_name}} Payments Standards payment buttons, including Buy Now, Shopping Cart, Subscription, and Donate buttons.
 
-Auto Return shortens the checkout flow and immediately brings your buyers back to your website upon payment completion. To set up _Auto Return_, you need to turn it on in your PayCore.io account profile and enter the return URL that will be used to redirect your buyers back to your site. For more information on how to enable this feature in your PayCore.io account, see  [Auto return](/products/commerce/)  in the Commerce Account setup and administration guide.
+Auto Return shortens the checkout flow and immediately brings your buyers back to your website upon payment completion. To set up _Auto Return_, you need to turn it on in your {{custom.company_name}} account profile and enter the return URL that will be used to redirect your buyers back to your site. For more information on how to enable this feature in your {{custom.company_name}} account, see  [Auto return](/products/commerce/)  in the Commerce Account setup and administration guide.
 
 ### Localization
 
@@ -358,7 +358,7 @@ HPP supports following languages in multiple regions around the world: English, 
     === "Payment Link (HTML Form)"
 
         ```html hl_lines="3"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="locale" value="uk" />
             <input type="hidden" name="currency" value="USD" />
@@ -454,11 +454,11 @@ Configuration property:
 |----------|---------------------------------------------------------------------|
 |`metadata`|Set of key/value pairs. Additional key:value info about your invoice.|
 
-In the example above we suppose you will store the  `reference_id`  that’s unique to the payment in your order table. This way your website is able to look-up the order for this payment when the callback is sended by PayCore.io. Your website is keeping track of the payment, effectively bringing about the connection between order and payment. This approach is easiest to grasp, which is why we use it in our example.
+In the example above we suppose you will store the  `reference_id`  that’s unique to the payment in your order table. This way your website is able to look-up the order for this payment when the callback is sended by {{custom.company_name}}. Your website is keeping track of the payment, effectively bringing about the connection between order and payment. This approach is easiest to grasp, which is why we use it in our example.
 
-Alternatively you could ask PayCore.io to remember the unique identifier of your order by instructing the PayCore.io API to store it in the payment’s  `metadata`. You would provide it while creating the payment. In our example  `order_id` would be a good candidate. PayCore.io stores the metadata for you, when you fetch the payment during processing the callback the metadata is included in the response. This is another way to connect orders and payments. We advise to use the  `metadata`  approach. This is the most popular approach and it’s easiest to implement.
+Alternatively you could ask {{custom.company_name}} to remember the unique identifier of your order by instructing the {{custom.company_name}} API to store it in the payment’s  `metadata`. You would provide it while creating the payment. In our example  `order_id` would be a good candidate. {{custom.company_name}} stores the metadata for you, when you fetch the payment during processing the callback the metadata is included in the response. This is another way to connect orders and payments. We advise to use the  `metadata`  approach. This is the most popular approach and it’s easiest to implement.
 
-If you want to store additional/custom data at a resource's level, you can make use of PayCore.io's Metadata.
+If you want to store additional/custom data at a resource's level, you can make use of {{custom.company_name}}'s Metadata.
 
 For example, if you're a data service provider and want to store certain features of a particular plan, say "Usage Limit", "Speed within limit", etc., you can store it in the Metadata of the Plan.
 
@@ -490,7 +490,7 @@ Considering the same example as above, if you want to store the additional featu
     === "Payment Link (HTML Form)"
 
         ```html hl_lines="7 8 9"
-        <form action="https://com.paycore.io/hpp/" method="get">
+        <form action="{{custom.pay_domain}}/hpp/" method="get">
             <input type="hidden" name="public_key" value="<your_public_key>" />
             <input type="hidden" name="reference_id" value="<your_unique_reference_id>" />
             <input type="hidden" name="currency" value="USD" />
@@ -538,7 +538,7 @@ Set `target` field to `redirect` for Payment Widget integration method.
 === "Payment Link (HTML Form)"
 
     ``` html hl_lines="1"
-    <form action="https://com.paycore.io/hpp/" method="get" target="_self">
+    <form action="{{custom.pay_domain}}/hpp/" method="get" target="_self">
         <input type="hidden" name="public_key" value="<your_public_key>" />
         <input type="hidden" name="currency" value="USD" />
         <input type="hidden" name="description" value="Some goods" />
@@ -576,7 +576,7 @@ Set `target` field to `iframe` and create HTML tag to insert HPP into. Define `s
 === "Payment Link (HTML Form)"
 
     ```html hl_lines="1 8"
-    <form action="https://com.paycore.io/hpp/" method="get" target="payment_frame">
+    <form action="{{custom.pay_domain}}/hpp/" method="get" target="payment_frame">
         <input type="hidden" name="public_key" value="<your_public_key>" />
         <input type="hidden" name="currency" value="USD" />
         <input type="hidden" name="description" value="Some goods" />
@@ -594,7 +594,7 @@ Set `target` field to `iframe` and create HTML tag to insert HPP into. Define `s
     -   Some redirect payment methods, such as iDEAL, do not allow displaying their pages in an iFrame; they will break out of it. Other redirect payment methods may require more available screen space than your iFrame allows. You should also be prepared to handle the difference in behaviour for the payment callback URL, as once the payment completes you may not be in an iFrame anymore.
     -   Another problem you may face is the browser's cookie policy. The HPP solution requires cookies. Using an iFrame means that the browser may impose restrictions regarding the conditions in which cookies are allowed to be set within the iFrame. While there are workarounds to get the browser to accept cookies in a default configuration, the shopper may have configured a more restrictive policy. The most common problem is with Apple Safari and Google Chrome browsers: by default, they require user-initiated page loading inside an iFrame. This means that first the iFrame needs to be loaded with a page hosted at the parent domain. Secondly, on this page the user needs to actively click on a button submitting the redirect to the HPP.
 
-    PayCore.io cannot guarantee that all payment methods will work when using an iFrame, nor that the behaviour of a payment method will remain the same. Furthermore, the exact operation of a redirect payment method can differ between the test and the live environments.
+    {{custom.company_name}} cannot guarantee that all payment methods will work when using an iFrame, nor that the behaviour of a payment method will remain the same. Furthermore, the exact operation of a redirect payment method can differ between the test and the live environments.
 
 ## Payment Widget
 
@@ -824,4 +824,4 @@ There are three ways to add an event handler:
 
 ## Can we help?
 
-Thanks for using PayCore.io. If you need any help or support, then message our support team at  [support@paycore.io](mailto:support@paycore.io).
+Thanks for using {{custom.company_name}}. If you need any help or support, then message our support team at  [{{custom.support_email}}](mailto:{{custom.support_email}}).

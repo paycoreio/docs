@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Instead of having multiple [PayCore.io](http://PayCore.io) accounts to support various projects or business entities now you can create as many  **Commerce Accounts**  as you require within one account. When it comes to running multiple businesses now you can manage them all in one place. For our FinTech and marketplace customers, this means an ability to create accounts for their merchants and manage them in one place.
+Instead of having multiple [{{custom.company_name}}](http://{{custom.company_name}}) accounts to support various projects or business entities now you can create as many  **Commerce Accounts**  as you require within one account. When it comes to running multiple businesses now you can manage them all in one place. For our FinTech and marketplace customers, this means an ability to create accounts for their merchants and manage them in one place.
 
 ## What's inside?
 

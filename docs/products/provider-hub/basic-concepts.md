@@ -30,7 +30,7 @@ Some PSPs provide services to process other next-generation methods ([payment sy
 
 Full-service payment service providers like [Stripe](https://www.stripe.com/), [Braintree](https://www.braintreepayments.com/), [PayPal](https://www.paypal.com/), [Adyen](https://www.adyen.com/home/) are typically easier and quicker to get started with as you don't need to set up your own merchant account (and if you do the provider will offer that too).
 
-### What Payment providers does [PayCore.io](https://paycore.io/) support?
+### What Payment providers does [{{custom.company_name}}]({{custom.website_url}}) support?
 
 The platform supports all possible currencies, methods, flow and payment providers.
 
@@ -50,11 +50,11 @@ Currencies can be classified into two  [monetary systems](https://en.wikipedia.o
 
 **Digital currency** (**digital money**, **electronic money** or **electronic currency**) is a type of [currency](https://en.wikipedia.org/wiki/Currency "Currency") available in digital form (in contrast to physical, such as [banknotes](https://en.wikipedia.org/wiki/Banknote "Banknote") and [coins](https://en.wikipedia.org/wiki/Coin "Coin")). It exhibits properties similar to physical currencies, but can allow for instantaneous transactions and borderless transfer-of-ownership. Examples include [virtual currencies](https://en.wikipedia.org/wiki/Virtual_currency "Virtual currency") and [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency "Cryptocurrency") and [central bank](https://en.wikipedia.org/wiki/Central_bank "Central bank") issued money accounted for in a computer database (including [digital base money](https://en.wikipedia.org/wiki/Digital_base_money "Digital base money")). Like traditional [money](https://en.wikipedia.org/wiki/Money "Money"), these currencies may be used to buy physical [goods](https://en.wikipedia.org/wiki/Goods "Goods") and [services](https://en.wikipedia.org/wiki/Service_(economics) "Service (economics)"), but may also be restricted to certain communities such as for use inside an online game or social network.
 
-### What currencies does [PayCore.io](https://paycore.io/) support?
+### What currencies does [{{custom.company_name}}]({{custom.website_url}}) support?
 
-In general, [PayCore.io](https://paycore.io/) supports all the currencies in the world.
+In general, [{{custom.company_name}}]({{custom.website_url}}) supports all the currencies in the world.
 
-This need is dictated by the fact that [PayCore.io](https://paycore.io/) integrates various payment providers that can process any currency, including digital and crypto.
+This need is dictated by the fact that [{{custom.company_name}}]({{custom.website_url}}) integrates various payment providers that can process any currency, including digital and crypto.
 
 A list of all supported currencies can be found in our [currency directory](#).
 
@@ -74,11 +74,11 @@ In general, there is no difference between payment methods and payments. This se
 
 Payment methods used for payments in the payment gateway. Payouts, respectively.
 
-### What methods does [PayCore.io](https://paycore.io/) support?
+### What methods does [{{custom.company_name}}]({{custom.website_url}}) support?
 
 Supported by widespread access to high-speed internet and the insatiable appetite of customers for convenience, online commerce is progressing rapidly around the world and estimated to reach $4T (source: eMarketer) in 2020. But when it comes to payments online, businesses expanding internationally and taking advantage of the increased reach that online commerce provides them with are met with widely varying customer preferences. Not only can delivery terms be quite different (pay after delivery, for example, common in Europe and Asia, requires businesses to only expect payment once they’ve shipped goods) but the payment methods used for online transactions themselves vary too. Credit and debit cards, not always the most trusted option, only account for half of the online transactions globally. Bank payments, digital wallets, and cash are in strong customer demand, and can even offer additional benefits to businesses such as lower risks and transaction costs.
 
-That's why, [PayCore.io](https://paycore.io/) supports all the payment and payout methods implemented by payment providers that connected to our platform.
+That's why, [{{custom.company_name}}]({{custom.website_url}}) supports all the payment and payout methods implemented by payment providers that connected to our platform.
 
 A list of all supported currencies can be found in our [payment and payout methods directory](#).
 
@@ -135,7 +135,7 @@ There are 4 basic payment processing flows:
 -   `card` — used for host-to-host card payment processing. Requires PCI DSS.
 -   `test` — used only for testing.
 
-### What payment and payout services does [PayCore.io](https://paycore.io/) support?
+### What payment and payout services does [{{custom.company_name}}]({{custom.website_url}}) support?
 
 First of all, the payment hub unifies the protocols and interaction with external payment providers.
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A  **organization**  in PayCore.io can be visualized as a container that holds all the customer information, payment provider accounts, payment & payout data, reports and associated configurations. It's the heart of a PayCore.io account and the way it is built and configured determines how your customers are paid, charged and communicated with. The kind of access privileges you have on a organization depend on the kind of  **role**  you have as a organization  **member**. You can learn more about organization member roles  [here](/account/assess-control/). The top-left corner in PayCore.io shows the organization you are working in and allows you to switch to any other one you may have access to.
+A  **organization**  in {{custom.company_name}} can be visualized as a container that holds all the customer information, payment provider accounts, payment & payout data, reports and associated configurations. It's the heart of a {{custom.company_name}} account and the way it is built and configured determines how your customers are paid, charged and communicated with. The kind of access privileges you have on a organization depend on the kind of  **role**  you have as a organization  **member**. You can learn more about organization member roles  [here](/account/assess-control/). The top-left corner in {{custom.company_name}} shows the organization you are working in and allows you to switch to any other one you may have access to.
 
 
 ## Organisation settings
@@ -36,7 +36,7 @@ Go to this link. You will be redirected to the confirmation page and asked to cr
 
 You can create your own organisation in  **`TWO`** ways.
 
-**`First way`**: you need to **`Sign up`** in [PayCore.io](https://dashboard.paycore.io/register).
+**`First way`**: you need to **`Sign up`** in [{{custom.company_name}}]({{custom.dashboard_base_url}}register).
 
 After Signing up new organisation will be created automticaly.
 

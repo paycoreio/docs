@@ -1,13 +1,13 @@
-# PayCore.io Platform Overview
+# {{custom.company_name}} Platform Overview
 
 ## Product Overview
 
-![Ecosystem PayCore.io](images/ecosystem-overview.png)
+![Ecosystem {{custom.company_name}}](images/ecosystem-overview.png)
 
 ## Ecosystem Overview
 
-You can interact with PayCore.io using the  [Dashboard](#dashboard), or using  [APIs](#api)  and  [Webhooks](#webhooks).  
-PayCore.io also collects payment information from your customers via the  [hosted payment page](#hosted-payment-page)  and the  [merchant portal](#merchant-portal).
+You can interact with {{custom.company_name}} using the  [Dashboard](#dashboard), or using  [APIs](#api)  and  [Webhooks](#webhooks).  
+{{custom.company_name}} also collects payment information from your customers via the  [hosted payment page](#hosted-payment-page)  and the  [merchant portal](#merchant-portal).
 
 Here's an overview of how this works:
 
@@ -15,20 +15,20 @@ Here's an overview of how this works:
 
 ### Dashboard
 
-The **Dashboard** is the PayCore.io application. It allows you to create and configure your payment and payout gateways, provide access to your team members and assign them roles, and so on. 
+The **Dashboard** is the {{custom.company_name}} application. It allows you to create and configure your payment and payout gateways, provide access to your team members and assign them roles, and so on. 
 
-All you have to do is log in with your credentials and you can start setting up your provider accounts and related settings. This would be the quickest way to kick start billing with PayCore.io. 
+All you have to do is log in with your credentials and you can start setting up your provider accounts and related settings. This would be the quickest way to kick start billing with {{custom.company_name}}. 
 
-You could always decide to switch to PayCore.io's API for handling your payment needs. Learn more about the Dashboard [here](/products/dashboard/)
+You could always decide to switch to {{custom.company_name}}'s API for handling your payment needs. Learn more about the Dashboard [here](/products/dashboard/)
 
 ## APIs and Client Libraries
 
-PayCore.io provides HTTP-based RESTful APIs that allow your application, system, product or service to interact with our system.
- To know more, take a look at [PayCore.io's API documentation](/integration/api-references/) and detailed [client library integration instructions](/integration/).
+{{custom.company_name}} provides HTTP-based RESTful APIs that allow your application, system, product or service to interact with our system.
+ To know more, take a look at [{{custom.company_name}}'s API documentation](/integration/api-references/) and detailed [client library integration instructions](/integration/).
 
 ## Callbacks
 
-Use callbacks to notify your site or your application of events that happen inside PayCore.io, such as payment status update, recurring charges, and so on. Implement callbacks to handle events when using our APIs to customise your customer's experience when specific events occur. Learn more about callbacks and how to configure them [here](/integration/callbacks/).
+Use callbacks to notify your site or your application of events that happen inside {{custom.company_name}}, such as payment status update, recurring charges, and so on. Implement callbacks to handle events when using our APIs to customise your customer's experience when specific events occur. Learn more about callbacks and how to configure them [here](/integration/callbacks/).
 
 ### Hosted Payment Page
 
@@ -40,4 +40,4 @@ Look at the [Payment Page Introduction](/products/hpp/) section to learn more ab
 
 ### Merchant Portal
 
-PayCore.io offers a Merchant Portal, which is a self-service option you can provide to your merchants. It allows them to monitor and manage their payments, make mass payouts, access customer data and business insights, and many more. PayCore.io's merchant portal is ready-to-use and either be hosted by us or your infrastructure and hence requires no development effort. If you want to know more about the Merchant Portal – you can visit the  [Merchant Portal User Guide](/products/merchant-portal/).
+{{custom.company_name}} offers a Merchant Portal, which is a self-service option you can provide to your merchants. It allows them to monitor and manage their payments, make mass payouts, access customer data and business insights, and many more. {{custom.company_name}}'s merchant portal is ready-to-use and either be hosted by us or your infrastructure and hence requires no development effort. If you want to know more about the Merchant Portal – you can visit the  [Merchant Portal User Guide](/products/merchant-portal/).

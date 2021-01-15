@@ -1,15 +1,15 @@
 # SDKs
 
-PayCore.io offers SDKs that wrap the RESTful API and make it even easier to integrate with our platform. The SDK you need depends on your server-side technology stack and on the clients that you want to support.
+{{custom.company_name}} offers SDKs that wrap the RESTful API and make it even easier to integrate with our platform. The SDK you need depends on your server-side technology stack and on the clients that you want to support.
 Whether you're processing payments on desktop or on mobile, our software development kits give you the freedom to build your own custom integration. 
 
 ## Client Libraries
 
-We offer various libraries via our PayCore.io API.
+We offer various libraries via our {{custom.company_name}} API.
 Have a good look at our getting started guide and the API reference to get started right away in your IDE.
-These libraries are hosted and maintained by PayCore.io. Nevertheless we always appreciate pull requests on GitHub to ensure our libraries are up to date. We greatly appreciate your input.
+These libraries are hosted and maintained by {{custom.company_name}}. Nevertheless we always appreciate pull requests on GitHub to ensure our libraries are up to date. We greatly appreciate your input.
 
-If you have programmed your own library, simply let us know by writing us at <support@paycore.io>.
+If you have programmed your own library, simply let us know by writing us at <{{custom.support_email}}>.
   
 ### JavaScript
 

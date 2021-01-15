@@ -24,9 +24,9 @@ Here You can find  instructions for setting up **Piastrix**  account.
 
 #### Step 3: Set required parameters
 
-- Notification URL ```https://psp-ext.paycore.io/piastrix/callback```
-- Success URL ```https://psp-ext.paycore.io/piastrix/return```
-- Failed URL ```https://psp-ext.paycore.io/piastrix/return```
+- Notification URL ```https://psp-ext.{{custom.company_name}}/piastrix/callback```
+- Success URL ```https://psp-ext.{{custom.company_name}}/piastrix/return```
+- Failed URL ```https://psp-ext.{{custom.company_name}}/piastrix/return```
 - Check uniqueness of payments : TRUE
 
 

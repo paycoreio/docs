@@ -8,7 +8,7 @@ The manual connector serves as an auxiliary tool for Swift and Bank transfer pay
 
 ### Enter credentials
 
-Press **Connect** at [*Manual Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/manual/general) page in *'New connection'*  to open Connection form.
+Press **Connect** at [*Manual Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/manual/general) page in *'New connection'*  to open Connection form.
 
 - MID &mdash; set a random unique identifier up to 32 characters
 - Methods &mdash; select the methods you want
@@ -19,4 +19,4 @@ Press **Connect** at [*Manual Provider Overview*](https://dashboard.paycore.io/c
     You have connected Manual connector! Now you can use it to send and receive Swift and bank transfer transactions.
 
 !!! question "Still looking for help connecting Manual connector?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

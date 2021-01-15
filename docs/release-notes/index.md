@@ -1,6 +1,6 @@
-# PayCore.io Release notes
+# {{custom.company_name}} Release notes
 
-[PayCore.io](http://paycore.io/) follows [Semantic Versioning](https://semver.org/) and regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
+[{{custom.company_name}}](http://{{custom.company_name}}/) follows [Semantic Versioning](https://semver.org/) and regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
 
 This changelog lists releases by date and version number, along with associated changes.
 
@@ -417,4 +417,4 @@ This changelog lists releases by date and version number, along with associated 
 !!! question
     We are always here to hear your thoughts, questions, and feedback!
 
-    Send us your thoughts and questions at [support@paycore.io](mailto:support@paycore.io)
+    Send us your thoughts and questions at [{{custom.support_email}}](mailto:{{custom.support_email}})

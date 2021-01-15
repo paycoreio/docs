@@ -33,9 +33,9 @@ Here You can find  instructions for setting up  [**Paybox** account](https://my.
     ![Step 4](images/paybox-step4.png)
 
     -  URLs
-        - RESULT URL    ```https://psp-ext.paycore.io/paybox/callback```
-        - SUCCESS ```https://psp-ext.paycore.io/paybox/return```
-        - FAILURE URL ```https://psp-ext.paycore.io/paybox/return```
+        - RESULT URL    ```https://psp-ext.{{custom.company_name}}/paybox/callback```
+        - SUCCESS ```https://psp-ext.{{custom.company_name}}/paybox/return```
+        - FAILURE URL ```https://psp-ext.{{custom.company_name}}/paybox/return```
         
         
     -  REQUEST METHOD ```POST```

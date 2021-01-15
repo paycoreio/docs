@@ -25,6 +25,6 @@ You’re done! Postman will detect all the Swagger definitions and convert them 
 
 ## API Swagger Specifications
 
--   Commerce Public API: https://swagger.paycore.io/commerce-public/swagger.yaml
--   Commerce Private API: https://swagger.paycore.io/commerce/swagger.yaml
--   Core API: https://swagger.paycore.io/swagger.yaml
+-   Commerce Public API: {{custom.swagger_base_url}}commerce-public/swagger.yaml
+-   Commerce Private API: {{custom.swagger_base_url}}commerce/swagger.yaml
+-   Core API: {{custom.swagger_base_url}}swagger.yaml

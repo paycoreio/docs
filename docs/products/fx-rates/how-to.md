@@ -1,6 +1,6 @@
 # FX Rates: How To
 
-Раздел [FX Rates](https://dashboard.paycore.io/fx-rates) состоит из 2 подразделов:
+Раздел [FX Rates]({{custom.dashboard_base_url}}fx-rates) состоит из 2 подразделов:
 - Ресурсы
 - Схемы курсов
 

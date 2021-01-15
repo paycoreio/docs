@@ -28,7 +28,7 @@ This first page displays the payment methods available to the shopper, which dep
 -   The payment methods set up on your account
 
 !!! note
-    Alternatively, you can request the shopper's desired payment method on your website and then provide it to PayCore.io. If you do, this page is bypassed, shortening the shopper's payment journey.
+    Alternatively, you can request the shopper's desired payment method on your website and then provide it to {{custom.company_name}}. If you do, this page is bypassed, shortening the shopper's payment journey.
 
 **Desktop view**
 
@@ -88,7 +88,7 @@ In this example, JavaScript is enabled and the fields are validated in real-time
 The payment result page provides the status of the payment to the shopper.
 
 !!! note
-    You can use PayCore.io's default result pages. However, to ensure that your customer is returned to your website, we recommend that you provide your own.
+    You can use {{custom.company_name}}'s default result pages. However, to ensure that your customer is returned to your website, we recommend that you provide your own.
 
 ### Success
 

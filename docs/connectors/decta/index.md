@@ -28,7 +28,7 @@ The test key set will be marked by 'Test' label under the title in the common li
 
 ### Step 1: Copy the secret key from the key set at gate.decta.com
 
-### Step 2: Connect account at dashboard.paycore.io
+### Step 2: Connect account at dashboard.{{custom.company_name}}
 
 Press Connect at **Decta Provider Overview** page in *'New connection'* section to open Connection form.
 
@@ -51,4 +51,4 @@ As necessary, choose additional options:
     You have connected **Decta** account!
 
 !!! question "Still looking for help connecting your Decta account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

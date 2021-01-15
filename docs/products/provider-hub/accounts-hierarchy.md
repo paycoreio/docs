@@ -10,13 +10,13 @@
 
 ## Каталог коннекторов
 
-Сразу после регистрации новой организации в PayCore.io вы можете подключить платежные провайдеры в каталоге коннекторов.
+Сразу после регистрации новой организации в {{custom.company_name}} вы можете подключить платежные провайдеры в каталоге коннекторов.
 
 A complete list of already implemented integrations with payment providers can be found  [here](#).
 
 There are more than 900 payment providers in the world. Even if you do not find the provider you are interested in, you can always  [request its implementation](#)  from us at any time.
 
-![](images/payment-providers.png "PayCore.io > Provider Hub > Connectors and Accounts ~ Docs > Payment providers")
+![](images/payment-providers.png "{{custom.company_name}} > Provider Hub > Connectors and Accounts ~ Docs > Payment providers")
 
 ## Функциональность коннектора
 
@@ -44,7 +44,7 @@ Connector **должен**:
 
 ## Типы аккаунтов провайдеров
 
-В PayCore.io предусмотрено 3 типа аккантов платежных провайдеров.
+В {{custom.company_name}} предусмотрено 3 типа аккантов платежных провайдеров.
 
 Каждый из них выполняет свою функцию и имеет уникальные свойства.
 
@@ -123,8 +123,8 @@ C баланса **Deposit Account** выводятся деньги при вы
 
 Что бы убедится, что аккаунт правильно сконфигурирован, вам необходимо проверить наличие активных платежных маршрутов в каждом из шлюзов соответственно:
 
--   Для платежного шлюза — [https://dashboard.paycore.io/payment-gateway/payment-routes](https://dashboard-dev.paycore.io/payment-gateway/payment-routes)
--   Для шлюза выплат — [https://dashboard.paycore.io/payment-gateway/payment-routes](https://dashboard-dev.paycore.io/payment-gateway/payment-routes)
+-   Для платежного шлюза — [{{custom.dashboard_base_url}}payment-gateway/payment-routes](https://dashboard-dev.{{custom.company_name}}/payment-gateway/payment-routes)
+-   Для шлюза выплат — [{{custom.dashboard_base_url}}payment-gateway/payment-routes](https://dashboard-dev.{{custom.company_name}}/payment-gateway/payment-routes)
 
 **Внимание!** Учитывайте, что для тестового режима отображения данных отображаются только тестовые маршруты.
 
@@ -132,9 +132,9 @@ C баланса **Deposit Account** выводятся деньги при вы
 
 Для быстрого тестирования системы мы предлагаем подключить тестовое подключение (Test connector) в 2 клика! После подключения, для вас будут доступны тестовые платежные маршруты и маршруты выплат.
 
-Детальнее о тестовом режиме вы можете ознакомится в разделе "[Тестирование](#)" ([https://docs.paycore.io/connectors/test/](https://docs.paycore.io/connectors/test/)).
+Детальнее о тестовом режиме вы можете ознакомится в разделе "[Тестирование](#)" ([https://docs.{{custom.company_name}}/connectors/test/](https://docs.{{custom.company_name}}/connectors/test/)).
 
-![](images/payment-routes.png  "PayCore.io > Provider Hub > Connectors and Accounts ~ Docs > Payment routes")
+![](images/payment-routes.png  "{{custom.company_name}} > Provider Hub > Connectors and Accounts ~ Docs > Payment routes")
 
 ## Next
 

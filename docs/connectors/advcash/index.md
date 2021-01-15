@@ -84,7 +84,7 @@ Follow the guidance for setting up a connection with AdvCash payment provider.
 ### Step 3: Set up advanced properties
 
 * SCI name
-* Your Website address (such as`https://paycore.io/`)
+* Your Website address (such as`{{custom.website_url}}`)
 * Email for notifications
 * Email to display in SCI
 * Password
@@ -107,9 +107,9 @@ Follow the guidance for setting up a connection with AdvCash payment provider.
 * SCI Name
 * SCI Password
 
-### Step 2: Connect account at dashboard.paycore.io
+### Step 2: Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*AdvCash Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/advcash/general) page in *'New connection'* to open Connection form. Enter copied credentials from [Step 1](#step-1-copy-required-credentials-from-walletadvcashcom).
+Press **Connect** at [*AdvCash Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/advcash/general) page in *'New connection'* to open Connection form. Enter copied credentials from [Step 1](#step-1-copy-required-credentials-from-walletadvcashcom).
 
 ![Connect](images/advcash_connect.png)
 
@@ -117,4 +117,4 @@ Press **Connect** at [*AdvCash Provider Overview*](https://dashboard.paycore.io/
     You have connected **AdvCash** account!
 
 !!! question "Still looking for help connecting your AdvCash account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

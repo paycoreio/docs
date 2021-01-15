@@ -62,7 +62,7 @@ The resolution explains why the payout is in this status and, in fact, is the co
 | `INVALID_AMOUNT`            | Invalid payout amount. Amount format or route limits violation.                                             |
 | `INVALID_METHOD`            | Invalid payout method                                                                                       |
 | `INVALID_CREDENTIALS`       | Invalid authentication data                                                                                 |
-| `FORBIDDEN_IP`              | Forbidden IP. Perhaps you did not register PayCore.io IP addresses in Whitelist.                            |
+| `FORBIDDEN_IP`              | Forbidden IP. Perhaps you did not register {{custom.company_name}} IP addresses in Whitelist.                            |
 | `SIGNATURE_ERROR`           | Signature verification error. Perhaps key was changed or it is outdated.                                    |
 | `DUPLICATED_ID`             | Operation ID already exists                                                                                 |
 | `INSUFFICIENT_FUNDS`        | Insufficient funds for payout                                                                               |
@@ -71,7 +71,7 @@ The resolution explains why the payout is in this status and, in fact, is the co
 | `RECIPIENT_NOT_FOUND`       | Payout Recipient not found                                                                                  |
 | `INVALID_RECIPIENT`         | Payout Recipient is invalid or inaccessible                                                                 |
 | `LIMIT_VIOLATION`           | Payout limits violation                                                                                     |
-| `INTERNAL_ERROR`            | System error. Internal PayCore.io error.                                                                    |
+| `INTERNAL_ERROR`            | System error. Internal {{custom.company_name}} error.                                                                    |
 | `ACCESS_ERROR`              | There are not enough permissions to perform the operation. Check the configuration in the payment provider. |
 | `ACCESS_DENIED`             | User is not authorized to perform these actions                                                             |
 | `GENERAL_FATAL_ERROR`       | Critical error. Further processing of the operation is meaningless.                                         |

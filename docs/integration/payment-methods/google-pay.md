@@ -7,22 +7,22 @@ Google Pay™ is an instant payment that allows quick and easy card transaction 
 !!! quote ""
     Google Pay and Google Play are trademarks of Google LLC.
 
-## Implementing Google Pay with the PayCore.io HPP
+## Implementing Google Pay with the {{custom.company_name}} HPP
 
 ### How to set up
 
-1. Sign a contract with PayCore.io.
+1. Sign a contract with {{custom.company_name}}.
 2. Review and agree with [Google Pay Terms of Service](https://payments.developers.google.com/terms/sellertos) and [Acceptable Use Policy](https://payments.developers.google.com/terms/aup).
-3. Inform your PayCore.io account manager about.
+3. Inform your {{custom.company_name}} account manager about.
 
-That's all! We integrate the Google Pay button to the Hosted Payment Page for you. Thus you can create a payment invoice from the *Dashboard* or via the API and start processing Google Pay transactions through PayCore.io.
+That's all! We integrate the Google Pay button to the Hosted Payment Page for you. Thus you can create a payment invoice from the *Dashboard* or via the API and start processing Google Pay transactions through {{custom.company_name}}.
 
 ### How it works
 
 ![Integration Scheme](images/googlepayHPP.png)
 
 1. You request the customer payment data from your application/checkout page.
-2. You send the invoice request to [PayCore.io](http://paycore.io/), and we respond with the HPP redirect form.
+2. You send the invoice request to [{{custom.company_name}}](http://{{custom.company_name}}/), and we respond with the HPP redirect form.
 3. The Hosted Payment Page displays available payment methods to the customer, including Google Pay option.
 4. Google Pay authenticates the customer and returns their encrypted data.
 5. We decrypt received payment data.
@@ -61,7 +61,7 @@ Get verified: send mobile app (.apk) or link to your site with the payment page.
 2. Your application displays available payment methods to the customer, including Google Pay option.
 3. You request the encrypted payment data from your application, and Google Pay authenticates the customer.
 4. You handle the received payment data and send to your server.
-5. The application back-end transfers the encrypted data to card gateway [PayCore.io](http://paycore.io/) with the invoice request to the Commerce API, and we respond with the invoice ID and the invoice status `created`.
+5. The application back-end transfers the encrypted data to card gateway [{{custom.company_name}}](http://{{custom.company_name}}/) with the invoice request to the Commerce API, and we respond with the invoice ID and the invoice status `created`.
 6. We decrypt the payment data, create the purchase request, and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
 7. The acquirer can request an additional user verification step by passing a 3DS or OTP test.
 8. We send to your application back-end the ACS redirect form.
@@ -73,7 +73,7 @@ Get verified: send mobile app (.apk) or link to your site with the payment page.
 
 ### How to integrate the Google Pay method
 
-The overall transaction flow is similar to the standard Google Pay process. PayCore.io receives the encrypted Google Pay payload from your application and is responsible for decrypting the payment token and transferring the purchase data to a chosen gateway.
+The overall transaction flow is similar to the standard Google Pay process. {{custom.company_name}} receives the encrypted Google Pay payload from your application and is responsible for decrypting the payment token and transferring the purchase data to a chosen gateway.
 
 1. Make sure that you complete preparations from the previous section. Use [Google Pay API](https://developers.google.com/pay/api/android/guides/setup) to get a **paymentData**.
 
@@ -91,7 +91,7 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
     4. Your Google merchant ID 
     5. And gateway merchant ID parameter --> your unique account ID
 
-    The Customer's billing address is not required for the PayCore.io Google Pay API requests.
+    The Customer's billing address is not required for the {{custom.company_name}} Google Pay API requests.
 
     If your integration works properly, you will receive a Google Pay button on the payment page.
     <img src="/integration/payment-methods/images/buy-buttons-black-small.png" alt="PayCore" style="width: 150px; float: left; padding-top: 10px; padding-right: 10px;">
@@ -122,7 +122,7 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
 
     `token` allows you initiate verify or charge flow transferring it to the Google Pay.
 
-    **Endpoint**: `https://cardgate.paycore.io/payment/sale`
+    **Endpoint**: `https://cardgate.{{custom.company_name}}/payment/sale`
 
     **Method**: POST
 
@@ -241,7 +241,7 @@ The overall transaction flow is similar to the standard Google Pay process. PayC
             }
             ```
 
-5. The response from PayCore.io will contain the transaction result.
+5. The response from {{custom.company_name}} will contain the transaction result.
 
-!!! question "Looking for help connecting the Google Pay method via PayCore.io?"
-    [Please contact our support team!](mailto:support@paycore.io)
+!!! question "Looking for help connecting the Google Pay method via {{custom.company_name}}?"
+    [Please contact our support team!](mailto:{{custom.support_email}})

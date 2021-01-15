@@ -2,7 +2,7 @@
 
 ## Overview
 
-Smart routing is more complex than simply finding the most cost-efficient route. Generally, it needs to include all relevant factors such as a transaction amount and currency, merchant or payout accounts limits, geographic location, and many more. Without intelligent automation, finding the optimal route can become a concern. PayCore's routing engine determines the best possible route across providers and accounts to optimize all incoming and outgoing transactions in real-time settings. As an illustration of the wider use of routing scenarios and their combinations, let's explore features that will help you to benefit from [PayCore.io](http://PayCore.io) smart routing.
+Smart routing is more complex than simply finding the most cost-efficient route. Generally, it needs to include all relevant factors such as a transaction amount and currency, merchant or payout accounts limits, geographic location, and many more. Without intelligent automation, finding the optimal route can become a concern. PayCore's routing engine determines the best possible route across providers and accounts to optimize all incoming and outgoing transactions in real-time settings. As an illustration of the wider use of routing scenarios and their combinations, let's explore features that will help you to benefit from [{{custom.company_name}}](http://{{custom.company_name}}) smart routing.
 
 Main features:
 
@@ -60,7 +60,7 @@ Direct routing always works along the same route. In fact, this is a link to the
 
 ### Fee strategy
 
-[PayCore.io](http://PayCore.io) can dynamically determine the optimal route based on an inherent transaction fee value. It can help to optimize all transactions and ensure lower transaction fees by orchestrating cashflows across payment providers and acquiring banks. Likewise, adding two more attributes of payment request currency and payee geographic location allows for a transformation of all payments into local transactions, eliminating cross-border and currency conversion fees for international transactions.
+[{{custom.company_name}}](http://{{custom.company_name}}) can dynamically determine the optimal route based on an inherent transaction fee value. It can help to optimize all transactions and ensure lower transaction fees by orchestrating cashflows across payment providers and acquiring banks. Likewise, adding two more attributes of payment request currency and payee geographic location allows for a transformation of all payments into local transactions, eliminating cross-border and currency conversion fees for international transactions.
 
 ### Traversal strategy
 

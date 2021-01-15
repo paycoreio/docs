@@ -44,7 +44,7 @@ Here You can find  instructions for setting up [**Interkassa** account](https://
     
     ![Step 2](images/interkassa-step2_1.png)
 
--  Set up  Site URL as ```https://paycore.io```
+-  Set up  Site URL as ```https://{{custom.company_name}}```
       
     ![Step 2](images/interkassa-step2_2.png)
 

@@ -1,7 +1,7 @@
 
 # Currencies Supported
 
-PayCore.io supports billing in around 100+ currencies.
+{{custom.company_name}} supports billing in around 100+ currencies.
 
 The complete list of supported currencies is given below.
 

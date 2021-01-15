@@ -7,4 +7,4 @@
 **Website**: [ipaytotal.com](https://ipaytotal.com/)
 
 !!! question "Looking for help connecting your iPayTotal account?"
-    [Please contact our support team](mailto:support@paycore.io)!
+    [Please contact our support team](mailto:{{custom.support_email}})!

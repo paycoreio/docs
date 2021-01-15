@@ -28,9 +28,9 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Tome Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/tome/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Tome Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/tome/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -46,9 +46,9 @@ Also, choose Test Mode for test connection with tome.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Tome Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/tome/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Tome Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/tome/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -59,10 +59,10 @@ Enter credentials:
 
 Choose Test Mode for test connection with tome.
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your tome account, but it is necessary to check details of the connection with your PayCore.io account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your tome account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **tome** H2H merchant account!
 
 !!! question "Still looking for help connecting your tome account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

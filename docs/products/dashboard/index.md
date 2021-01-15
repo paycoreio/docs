@@ -2,24 +2,24 @@
 
 ## Introduction
 
-The [PayCore.io](https://paycore.io/) Dashboard is a feature-rich user interface for you to operate and configure your [PayCore.io](https://paycore.io/) account. You can use it to manage payments and payouts, respond to disputes, monitor your integration, and more.
+The [{{custom.company_name}}]({{custom.website_url}}) Dashboard is a feature-rich user interface for you to operate and configure your [{{custom.company_name}}]({{custom.website_url}}) account. You can use it to manage payments and payouts, respond to disputes, monitor your integration, and more.
 
 The Dashboard home page provides useful at-a-glance information about the activity on your account. A wide range of analytics and real-time charts provide insight into the performance of your business. The Dashboard also shows recent activity that may require you to take action.
 
-![](images/dashboard.png "PayCore.io > Dashboard ~ Docs > Home")
+![](images/dashboard.png "{{custom.company_name}} > Dashboard ~ Docs > Home")
 
 ## Basic features
 
 -   **Search**  payments, payouts, customers and provider accounts by using the  **header search bar**.
 -   Easily switch between organization accounts with the **account dropdown.**
 -   Access the Knowledge Center articles and documentation by clicking the **Help button**.
--   Contact with [PayCore.io](https://paycore.io/) team using the **chat button**.
+-   Contact with [{{custom.company_name}}]({{custom.website_url}}) team using the **chat button**.
 -   Use the user account dropdown list, to find your: **Profile settings, Access Role in the current organization,** and the **Log Out** button.
 -   Control the interval for which the data is being displayed, by selecting one of the predefined timeframes: **today, yesterday, last 7 days, last 30 days, this month, last month** or set a specific timeframe with the **custom range** option.
 
 ## Navigation
 
-The Dashboard is primarily organized into separate sections. Each section represents a particular area of the API (e.g.,  Payment Request represents Payment  objects that have been created) or functionality provided by [PayCore.io](https://paycore.io/) (e.g., PayCore Commerce).
+The Dashboard is primarily organized into separate sections. Each section represents a particular area of the API (e.g.,  Payment Request represents Payment  objects that have been created) or functionality provided by [{{custom.company_name}}]({{custom.website_url}}) (e.g., PayCore Commerce).
 
 In many cases, you can use the Dashboard to perform specific actions, such as refunding a payment or canceling a subscription, without needing to use the API-making the Dashboard a useful tool for running your business.
 

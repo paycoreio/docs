@@ -29,9 +29,9 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*4bill Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/4bill/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*4bill Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/4bill/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -46,9 +46,9 @@ Enter credentials:
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*4bill Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/4bill/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*4bill Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/4bill/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -64,10 +64,10 @@ Choose 'Send merchant data' option if you need to send Commerce MCC and Merchant
 
 Choose Test Mode for test connection.
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your 4bill wallets and services, but it is necessary to check details of the connection with your PayCore.io account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your 4bill wallets and services, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **4bill** H2H merchant account!
 
 !!! question "Still looking for help connecting your 4bill account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

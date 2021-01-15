@@ -4,7 +4,7 @@
 
 ## General 
 
-[ **PayСore.io Analytics**](https://analytics.paycore.io) - is a partly separated plugin, which is intended to generate, aggregate and create accessible and understandable visualization of your bussiness data.
+[ **PayСore.io Analytics**](https://analytics.{{custom.company_name}}) - is a partly separated plugin, which is intended to generate, aggregate and create accessible and understandable visualization of your bussiness data.
 
 ![Overview](images/overview1.png)
 

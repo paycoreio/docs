@@ -21,9 +21,9 @@ Send a request on the [adgroup.finance](https://adgroup.finance/en/). Submit the
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*ADgroup Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/adgroup/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*ADgroup Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/adgroup/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -42,9 +42,9 @@ Also, choose *Test Mode* for test connection with ADgroup.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*ADgroup Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/adgroup/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*ADgroup Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/adgroup/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -56,7 +56,7 @@ Enter credentials to access the API:
 * Merchant Account Password --> User Password
 * Merchant Account Key --> Key
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your ADgroup account, but it is necessary to check details of the connection with your PayCore.io account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your ADgroup account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 Also, choose *Save Instant Token* option if you plan to use the ADgroup account for instant payments.
 
@@ -64,4 +64,4 @@ Also, choose *Save Instant Token* option if you plan to use the ADgroup account 
     You have connected **ADgroup** H2H merchant account!
 
 !!! question "Still looking for help connecting your ADgroup account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

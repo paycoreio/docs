@@ -23,9 +23,9 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*Cashfree Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/cashfree/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Cashfree Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/cashfree/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -40,4 +40,4 @@ Also, choose Test Mode for test connection with Cashfree.
     You have connected **Cashfree** account!
 
 !!! question "Still looking for help connecting your Cashfree account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

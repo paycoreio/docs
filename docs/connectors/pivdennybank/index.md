@@ -9,4 +9,4 @@
 **Internet-banking**: [ifobs.bank.com.ua](https://ifobs.bank.com.ua/ifobsClient/LoginShow.action?localeName=en)
 
 !!! question "Looking for help connecting your Bank Pivdenny account?"
-    [Please contact our support team](mailto:support@paycore.io)!
+    [Please contact our support team](mailto:{{custom.support_email}}ompany_name}})!

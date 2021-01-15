@@ -1,8 +1,8 @@
 # Domains and IP Addresses
 
-Your integration must be able to reach any of PayCore.io’s fully qualified  [domain names](#domains)  for it to function properly. Depending on how your integration operates, you may need to whitelist them.
+Your integration must be able to reach any of {{custom.company_name}}’s fully qualified  [domain names](#domains)  for it to function properly. Depending on how your integration operates, you may need to whitelist them.
 
-To help your integration operate securely, it must also verify that it’s communicating with  **api.paycore.io**  through SSL certificate on it and DNS IP address.
+To help your integration operate securely, it must also verify that it’s communicating with  **api.{{custom.company_name}}**  through SSL certificate on it and DNS IP address.
 
 For correct communication between PayСore.io and Payment Providers or third-party services what PayСore.io have access to, use [PayСore.io white-list IP addresses](#white-list-ip-addresses).
 
@@ -11,8 +11,8 @@ For correct communication between PayСore.io and Payment Providers or third-par
 PayСore.io uses the following fully qualified domain names to interact with your integration:
 
 ```html
-api.paycore.io
-com.paycore.io
+api.{{custom.company_name}}
+com.{{custom.company_name}}
 ```
 
 ## White-list IP addresses

@@ -3,4 +3,4 @@
 # Any.Money Connector
 
 !!! question "Looking for help connecting your Any.Money account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

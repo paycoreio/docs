@@ -34,11 +34,11 @@ More details can be found in the article on [Wikipedia](https://en.wikipedia.org
 
 Or take a look at [a guide to payment methods](https://stripe.com/payments/payment-methods-guide).
 
-### What methods does [PayCore.io](http://PayCore.io) support?
+### What methods does [{{custom.company_name}}](http://{{custom.company_name}}) support?
 
 Supported by widespread access to high-speed internet and the insatiable appetite of customers for convenience, online commerce is progressing rapidly around the world and estimated to reach $4T (source: eMarketer) in 2020. But when it comes to payments online, businesses expanding internationally and taking advantage of the increased reach that online commerce provides them with are met with widely varying customer preferences. Not only can delivery terms be quite different (pay after delivery, for example, common in Europe and Asia, requires businesses to only expect payment once they’ve shipped goods) but the payment methods used for online transactions themselves vary too. Credit and debit cards, not always the most trusted option, only account for half of the online transactions globally. Bank payments, digital wallets, and cash are in strong customer demand, and can even offer additional benefits to businesses such as lower risks and transaction costs.
 
-That's why, [PayCore.io](http://PayCore.io) supports all the payment and payout methods implemented by payment providers that connected to our platform.
+That's why, [{{custom.company_name}}](http://{{custom.company_name}}) supports all the payment and payout methods implemented by payment providers that connected to our platform.
 
 A list of all supported methods can be found in our [payment methods directory](#).
 
@@ -96,7 +96,7 @@ There are 4 basic payment processing flows:
 
 The only difference between the payment and payout services is that the payment service has **flow** property.
 
-### What payment services does [PayCore.io](http://PayCore.io) support?
+### What payment services does [{{custom.company_name}}](http://{{custom.company_name}}) support?
 
 First of all, the payment hub unifies the protocols and interaction with external payment providers.
 
@@ -124,11 +124,11 @@ You can read more about routing in the [Smart Routing section](#).
 
 ## What is a payment?
 
-Payment in [PayCore.io](http://PayCore.io) is an operation that is responsible for the state of the process of transferring money from the client to the account merchant in the payment provider.
+Payment in [{{custom.company_name}}](http://{{custom.company_name}}) is an operation that is responsible for the state of the process of transferring money from the client to the account merchant in the payment provider.
 
 It is important to understand that this payment process is not linear and depends on many factors.
 
-In [PayCore.io](http://PayCore.io), the minimum required unit for making and making payments is the active payment route.
+In [{{custom.company_name}}](http://{{custom.company_name}}), the minimum required unit for making and making payments is the active payment route.
 
 It has a strict bond: a merchant account, its currency and payment service.
 

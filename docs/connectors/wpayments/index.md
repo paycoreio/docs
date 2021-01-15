@@ -27,13 +27,13 @@ Credentials that have to be issued:
 ![Secret key](images/secret-key.png)
 
 !!! note "Please note"
-    Be aware if you generate new keys in the *WPayments* backoffice, you will also should re-connect your account with new credentials in the PayCore.io dashboard.
+    Be aware if you generate new keys in the *WPayments* backoffice, you will also should re-connect your account with new credentials in the {{custom.company_name}} dashboard.
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.paycore.io
+### Step 1. Connect account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*WPayments Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/wpayments/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*WPayments Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/wpayments/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -46,9 +46,9 @@ Also, choose Test Mode for test connection.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*WPayments Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/WPayments/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*WPayments Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/WPayments/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -64,9 +64,9 @@ Choose 3DS mode:
 !!! info "Before implementation of the **advanced** 3DS Mode"
     You need to check with your *WPayments* account manager if it is available for you.
 
-Finally, choose Currency and Features. You can set these parameters according to available currencies and features for your Wpayments account, but it is necessary to check details of the connection with your PayCore.io account manager.
+Finally, choose Currency and Features. You can set these parameters according to available currencies and features for your Wpayments account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 !!! success
     You have connected **WPayments** H2H merchant account!
 
 !!! question "Still looking for help connecting your WPayments account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

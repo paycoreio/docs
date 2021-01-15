@@ -3,4 +3,4 @@
 # Kuna Connector
 
 !!! question "Looking for help connecting your Kuna account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

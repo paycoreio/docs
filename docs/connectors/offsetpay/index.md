@@ -18,7 +18,7 @@ Your account administrator sends your credentials with the instruction for integ
 
 ![Creds](images/credentials.png)
 
-Credentials that have to be issued to establish a connection in PayCore.io dashboard:
+Credentials that have to be issued to establish a connection in {{custom.company_name}} dashboard:
 
 * Your ID
 * API Key
@@ -32,9 +32,9 @@ Endpoint: `/gateways/listGateways`
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.paycore.io
+### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
 
-Press **Connect** at [*OffsetPay Provider Overview*](https://dashboard.paycore.io/connect-directory/payment-providers/offsetpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*OffsetPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/offsetpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -47,10 +47,10 @@ Select one of the Gateway name included in the [list of available gateways](#ste
 
 [//]: # (Choose Test Mode for test connection with OffsetPay.)
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your OffsetPay account, but it is necessary to check details of the connection with your PayCore.io account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your OffsetPay account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **OffsetPay** H2H merchant account!
 
 !!! question "Still looking for help connecting your OffsetPay account?"
-    [Please contact our support team!](mailto:support@paycore.io)
+    [Please contact our support team!](mailto:{{custom.support_email}})

@@ -41,15 +41,15 @@ There are 4 main parties involved in the process: the customer (card owner), the
 
 ### Account 
 
-The combination of user name and password that provides an individual, group, or service with access to the PayCore.io platform. There are six types of accounts depending on access rights: 
+The combination of user name and password that provides an individual, group, or service with access to the {{custom.company_name}} platform. There are six types of accounts depending on access rights: 
 
 #### Owner account
 
-The privileged account that serves as a default primary contact, impacts access to the PayCore.io platform and allows circumvention of controls to administer the system.
+The privileged account that serves as a default primary contact, impacts access to the {{custom.company_name}} platform and allows circumvention of controls to administer the system.
 
 #### Administrative (Admin) account
 
-The privileged account that impacts access to the PayCore.io platform and has all permissions except permission to manage the Owner's access.
+The privileged account that impacts access to the {{custom.company_name}} platform and has all permissions except permission to manage the Owner's access.
 
 #### Manager account
 
