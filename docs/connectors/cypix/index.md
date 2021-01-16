@@ -27,7 +27,7 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Cypix Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/cypix/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
@@ -47,7 +47,7 @@ Also, choose Test mode for test connection with Cypix.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Cypix Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/cypix/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

@@ -23,7 +23,7 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Cashfree Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/cashfree/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 

@@ -21,7 +21,7 @@ Send a request on the [adgroup.finance](https://adgroup.finance/en/). Submit the
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*ADgroup Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/adgroup/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
@@ -42,7 +42,7 @@ Also, choose *Test Mode* for test connection with ADgroup.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*ADgroup Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/adgroup/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

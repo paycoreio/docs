@@ -32,7 +32,7 @@ Endpoint: `/gateways/listGateways`
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*OffsetPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/offsetpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

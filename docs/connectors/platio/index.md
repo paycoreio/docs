@@ -29,9 +29,9 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}ompany_name}}ompany_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboardompany_name}}ompany_name}}
 
-Press **Connect** at [*Platio Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Platio Provider Overview*](https://the {{custom.company_name}} Dashboardompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -48,9 +48,9 @@ Also, choose Test Mode for test connection.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}ompany_name}}ompany_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboardompany_name}}ompany_name}}
 
-Press **Connect** at [*Platio Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Platio Provider Overview*](https://the {{custom.company_name}} Dashboardompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 

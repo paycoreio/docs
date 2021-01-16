@@ -39,7 +39,7 @@ To connect Provider Account, you should also copy ID for the chosen wallet.
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Win Pay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
@@ -57,7 +57,7 @@ Choose Test Mode for test connection with Win Pay and Currency according to the 
 
 ## Connect Merchant Account
 
-### Step 1. Connect Merchant account at dashboard.{{custom.company_name}}
+### Step 1. Connect Merchant account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Win Pay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **Merchant account** option to open Connection form.
 
@@ -75,7 +75,7 @@ Choose Test Mode for test connection.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Win Pay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/winpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

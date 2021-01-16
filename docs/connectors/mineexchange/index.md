@@ -23,7 +23,7 @@ To connect Mine.Exchange, you need to know your **key to API authentication**. A
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Mine.Exchange Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/mineexchange/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
@@ -42,7 +42,7 @@ Choose your commission (fee) type: Internal or External according to your Mine.E
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Mine.Exchange Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/mineexchange/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
