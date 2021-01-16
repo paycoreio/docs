@@ -25,7 +25,7 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*ComIn Bank Connector Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/cib/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
@@ -45,7 +45,7 @@ Also, choose Test Mode for test connection with ComIn Bank, and P2P mode for con
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*ComIn Bank Connector Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/cib/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

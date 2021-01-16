@@ -20,7 +20,7 @@ Here You can find  instructions for setting up [**CardPay**  account](https://ca
 
 #### Step 3: Send necessary paramenter yo CardPay
 
--  Callback URL : ```https://psp-ext.{{custom.company_name}}/cardpay/callback```
+-  Callback URL : ```https://psp-ext.paycore.io/cardpay/callback```
 
 !!! success
     You have configured account!

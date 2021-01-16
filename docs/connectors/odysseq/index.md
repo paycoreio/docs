@@ -25,7 +25,7 @@ Specify your API type connection with your Odysseq support manager.
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Odysseq Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/odysseq/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 

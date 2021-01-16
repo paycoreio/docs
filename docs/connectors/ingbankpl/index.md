@@ -25,7 +25,7 @@ Here You can find  instructions for setting up [**ING Bank Poland** account](htt
 
 - Go to the Integration Data (Dane do integracji) Section
 - Set "Notification address"(Adres notyfikacji)
-    -  ```https://psp-ext.{{custom.company_name}}/ingbank/callback```
+    -  ```https://psp-ext.paycore.io/ingbank/callback```
 
     ![Step 2](images/ingbank-step2_2.png)
 

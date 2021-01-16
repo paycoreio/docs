@@ -32,7 +32,7 @@ If your Merchant Key is not specified, it matches the Certificate password.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*Procard Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/procard/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

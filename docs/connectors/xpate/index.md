@@ -30,7 +30,7 @@ If you’re going to set up a H2H connection, you will also need the Server Toke
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*xpate Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/xpate/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
@@ -48,7 +48,7 @@ Also, choose Test Mode for test connection with xpate.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*xpate Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/xpate/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 

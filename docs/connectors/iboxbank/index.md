@@ -34,9 +34,9 @@ After key generation, you can download it in the point's settings:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at dashboard.{{custom.company_name}}ompany_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboardompany_name}}
 
-Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Ibox Bank Provider Overview*](https://the {{custom.company_name}} Dashboardompany_name}}/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -57,9 +57,9 @@ Also, choose Test Mode for test connection with Ibox Bank.
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at dashboard.{{custom.company_name}}ompany_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboardompany_name}}
 
-Press **Connect** at [*Ibox Bank Provider Overview*](https://dashboard.{{custom.company_name}}ompany_name}}/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Ibox Bank Provider Overview*](https://the {{custom.company_name}} Dashboardompany_name}}/connect-directory/payment-providers/iboxbank/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 

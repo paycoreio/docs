@@ -39,8 +39,8 @@ Get **`Login`** and **`Password`** for [Your personal account](https://cabinet.p
 
 #### Step 3: Set up parameters
 
-- Return URL: ```https://psp-ext.{{custom.company_name}}/paymentcenter/return```
-- Callback URL: ```https://psp-ext.{{custom.company_name}}/paymentcenter/callback```
+- Return URL: ```https://psp-ext.paycore.io/paymentcenter/return```
+- Callback URL: ```https://psp-ext.paycore.io/paymentcenter/callback```
 - Notifications: **`ENABLED`**
 - Callback data format : **`JSON`**
 

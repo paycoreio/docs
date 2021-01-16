@@ -107,7 +107,7 @@ Follow the guidance for setting up a connection with AdvCash payment provider.
 * SCI Name
 * SCI Password
 
-### Step 2: Connect account at dashboard.{{custom.company_name}}
+### Step 2: Connect account at the {{custom.company_name}} Dashboard
 
 Press **Connect** at [*AdvCash Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/advcash/general) page in *'New connection'* to open Connection form. Enter copied credentials from [Step 1](#step-1-copy-required-credentials-from-walletadvcashcom).
 
