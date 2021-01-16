@@ -5,6 +5,7 @@
 > SLOGAN
 
 **Website**: [NAME](WEBSITE)
+
 **Login**: [NAME](WEBSITE)
 
 Follow the guidance for setting up a connection with NAME payment service provider.
