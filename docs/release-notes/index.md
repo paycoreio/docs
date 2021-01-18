@@ -4,6 +4,13 @@
 
 This changelog lists releases by date and version number, along with associated changes.
 
+## [v1.28 05/01/2021](v1.28/)
+
+* [Payout Schemes optimisation](v1.28/#payout-schemes-update): at payout splitting, the system examines routes' limits and remaining amounts for each following parts
+* [Manual card transaction handling](v1.28/#card-gate-update)
+* [New and updated integrations](v1.28/#new-integrations): CoinsPaid, dLocal, Ibox Bank, Kassa, MaxPay, Russian Standard Bank
+* [Other fixes and improvements](v1.28/#fixes-and-improvements)
+
 ## [v1.27 22/12/2020](v1.27/)
 
 * [Increased Metadata limit](v1.27/#metadata-update) up to 20 attributes
