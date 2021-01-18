@@ -22,7 +22,7 @@ That's all! We integrate the Google Pay button to the Hosted Payment Page for yo
 ![Integration Scheme](images/googlepayHPP.png)
 
 1. You request the customer payment data from your application/checkout page.
-2. You send the invoice request to [{{custom.company_name}}](http://{{custom.company_name}}/), and we respond with the HPP redirect form.
+2. You send the invoice request to [{{custom.company_name}}]({{custom.website_url}}), and we respond with the HPP redirect form.
 3. The Hosted Payment Page displays available payment methods to the customer, including Google Pay option.
 4. Google Pay authenticates the customer and returns their encrypted data.
 5. We decrypt received payment data.
@@ -61,7 +61,7 @@ Get verified: send mobile app (.apk) or link to your site with the payment page.
 2. Your application displays available payment methods to the customer, including Google Pay option.
 3. You request the encrypted payment data from your application, and Google Pay authenticates the customer.
 4. You handle the received payment data and send to your server.
-5. The application back-end transfers the encrypted data to card gateway [{{custom.company_name}}](http://{{custom.company_name}}/) with the invoice request to the Commerce API, and we respond with the invoice ID and the invoice status `created`.
+5. The application back-end transfers the encrypted data to card gateway [{{custom.company_name}}]({{custom.website_url}}) with the invoice request to the Commerce API, and we respond with the invoice ID and the invoice status `created`.
 6. We decrypt the payment data, create the purchase request, and transfer the card data to the payment service provider (PSP) or bank acquirer service to complete the transaction and obtain a payment response.
 7. The acquirer can request an additional user verification step by passing a 3DS or OTP test.
 8. We send to your application back-end the ACS redirect form.
