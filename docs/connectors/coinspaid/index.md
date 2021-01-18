@@ -48,7 +48,7 @@ Enter credentials:
 * activated API Key --> Public Key
 * API Secret --> Secret Key
 
-Also, choose Test Mode if you want to test connection with CoinsPaid. Choose 
+Also, choose Test Mode if you want to test connection with CoinsPaid. Choose API URL that your CoinsPaid account uses.
 
 !!! success
     You have connected **CoinsPaid** account!
