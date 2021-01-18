@@ -2,7 +2,8 @@
 
 # NAME Connector
 
-> SLOGAN
+!!! quote ""
+    Slogan
 
 **Website**: [NAME](WEBSITE)
 

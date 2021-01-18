@@ -1,6 +1,6 @@
 # {{custom.company_name}} Release notes
 
-[{{custom.company_name}}](http://{{custom.company_name}}/) follows [Semantic Versioning](https://semver.org/) and regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
+[{{custom.company_name}}]({{custom.website_url}}) follows [Semantic Versioning](https://semver.org/) and regularly updates the platform and its APIs with **new features**, **bug fixes**, and **performance improvements**.
 
 This changelog lists releases by date and version number, along with associated changes.
 
