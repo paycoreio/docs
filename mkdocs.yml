@@ -324,6 +324,7 @@ nav:
       - Rapyd.net: connectors/rapyd/index.md
       - RBK Money: connectors/rbkmoney/index.md
       - Royal Pay: connectors/royalpay/index.md
+      - Russian Standard Bank: connectors/russianstandardbank/index.md
       - SafeCharge: connectors/safecharge/index.md
       - SatchelPay: connectors/satchelpay/index.md
       - Selcom: connectors/selcom/index.md     
