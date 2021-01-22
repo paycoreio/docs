@@ -1,109 +1,96 @@
 <img src="https://static.openfintech.io/payment_providers/maxpay/logo.svg?w=400" width="400px">
 
-# MaxPay Connector
+# MaxPay
 
-## Introduction
+!!! quote ""
+    We are an international payment gateway designed to help your business.
 
-Here You can find  instructions for setting up **Paymega** accounts.
+**Website**: [MaxPay](https://maxpay.com/)
 
-!!! info
-     This provider supports **`Merchant`** and **`Provider`** account connection!
+**Login**: [MaxPay](https://my.maxpay.com/#/signin)
 
-## Provider account
+Follow the guidance for setting up a connection with MaxPay payment service provider.
 
-### Setup account
+## Set Up Account
 
-#### Step 1: Contact with MaxPay Support Manager
+### Step 1: Contact MaxPay support manager
 
-This Payment Provoider gives acoount credentials personaly to their merchants!
-    
-#### Step 2: Get required credentials
+Send a request on the [website](https://maxpay.com/). Submit the required documents to verify your account and gain access.
 
--   Account ID
--   Account Password
--   Signature key
+### Step 2: Get credentials
 
-!!! success
-    You have configured account!
-    
-### Connect account
+Credentials that have to be issued:
 
-#### Step 1: Copy required credentials
+* Account ID
+* Account password
+* Signature key
 
-#### Step 2: Enter credentials
+### Step 3. Create your payment page
 
--   Account ID
--   Account Password
--   Signature key
+If you are planning to use Merchant account connection at {{custom.company_name}}, firstly, you should create the related payment page. Log into the [MaxPay merchant portal](https://my.maxpay.com/#/signin), go to the *'Payment Pages'* section, and press the *'Create'* button. After that, send request to your MaxPay support manager about upgrading the created payment page from Test to Live type.
 
-!!! tip
-    Press **`Connect`** at MaxPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
-    Choose **`Provider`** account type.
+Go to the created *'Page'* --> *'General'*, find and copy:
 
+* Test public key
+* Test secret key
+* Live public key
+* Live secret key
 
-![Connect](images/maxpay_provider_connect1.png)
-    ![Connect](images/maxpay_provider_connect2.png)
+Also, set `https://psp-ext.paycore.io/maxpay/callback` as Callback URL.
 
-!!! success
-    You have connected **MaxPay** **Provider** Account!
+## Connect Merchant Account
 
+### Step 1. Connect Merchant account at the {{custom.company_name}} Dashboard
 
-## Merchant account
+Press **Connect** at [*MaxPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/maxpay/general) page in *'New connection'* and choose **Merchant account** option to open Connection form.
 
+![Connect](images/merchant-account.png)
 
-### Setup account
+Enter your credentials:
 
-#### Step 1: Log in to [**MaxPay** Merchant Portal](https://my.maxpay.eu/)
-
-#### Step 2: Create Payment Page
-
-- Go to the **Payment Pages** section
-- Press create button
-
-
-#### Step 3: Upgrade  your page to LIVE
-
-!!! tip
-    Contact MaxPay support manager to upgrade your payment page!
-
-#### Step 4: Get required credentials
-
-- Go to created Page —> General
-- Find and copy:
-    -  **Test** public key
-    -  **Test** secret key
-    -  **Live** public key
-    -  **Live** secret key
-
-#### Step 5: Set up parameters
-
-- Callback URL: ```https://psp-ext.paycore.io/maxpay/callback```
-
+* Test public key
+* Test secret key
+* Live public key
+* Live secret key
 
 !!! success
-    You have configured account!
-    
-### Connect account
+    You have connected **MaxPay** merchant account!
 
-#### Step 1: Copy required credentials
+## Connect Provider account
 
+### Step 1. Connect Provider account at the {{custom.company_name}} Dashboard
 
-#### Step 2: Enter credentials
+Press **Connect** at [*MaxPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/maxpay/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
--  **Test** public key
--  **Test** secret key
--  **Live** public key
--  **Live** secret key
+![Connect](images/provider-account.png)
 
-!!! tip
-    Press **`Connect`** at MaxPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
-    Choose **`Merchant`** account type.
+Enter your credentials:
 
-
-![Connect](images/maxpay_merchant_connect1.png)
-
-![Connect](images/maxpay_merchant_connect2.png)
-
+* Account ID
+* Account password
+* Signature key
 
 !!! success
-    You have connected **MaxPay** **Merchant** Account!
+    You have connected **MaxPay** provider account!
+
+## Connect H2H merchant account
+
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
+
+Press **Connect** at [*MaxPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/maxpay/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+
+![Connect](images/h2h-merchant-account.png)
+
+Enter credentials:
+
+* Account ID --> Account
+* Account password --> Password
+* Signature key
+
+Choose Currency and Features. You can set these parameters according to available currencies and features for your MaxPay account, but it is also necessary to check details of the connection with your {{custom.company_name}} account manager.
+
+!!! success
+    You have connected **MaxPay** H2H merchant account!
+
+!!! question "Still looking for help connecting your MaxPay account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})

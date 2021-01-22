@@ -48,7 +48,7 @@ Enter credentials:
 * activated API Key --> Public Key
 * API Secret --> Secret Key
 
-Also, choose Test Mode if you want to test connection with CoinsPaid. Choose API URL that your CoinsPaid account uses.
+Also, choose Test Mode if you want to test connection with CoinsPaid. Choose API URL that your CoinsPaid account uses: `https://app.cryptoprocessing.com/api/v2` or `https://app.alphapo.net/api/v2`.
 
 !!! success
     You have connected **CoinsPaid** account!
