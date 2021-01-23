@@ -45,11 +45,10 @@ You can also add columns for objects with client data: `customer` and `customer_
 ??? example "Example of a batch payout table"
 
     ```csv
-    service;service_amount;fields/card_number;reference_id
-    payment_card_uah;1.9;4000000000000010;salary111
-    payment_card_usd;1.54;4000000000000002;salary112
-    payment_card_uah;0.7;5555555555554444;salary113
-    payment_card_usd;1;4300000000000777;salary114
+    service,service_amount,fields_data,reference_id,description,customer,customer_metadata
+    test_usd,100,account:587964,BI10,test,reference_id:example_ref1;email:test@example.com;phone:+12345678945;name:John S,
+    swift_usd,1,swift_code:TESTUAUKXXX;account_number:GB94BARC193459;recipient_name:John;country_code:UA;address:Kyiv;purpose:test,BI20,test swift,reference_id:example_ref1,key:value;know:nothing
+    payment_card_usd,50,card_number:5519283812030000,BI30,test cards,,
     ```
 
 [The same example as a CSV file -->](batch-example.csv)
