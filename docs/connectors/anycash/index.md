@@ -1,54 +1,47 @@
 <img src="https://static.openfintech.io/payment_providers/anycash/logo.svg?w=400" width="400px">
 
-# AnyCash Connector
+# AnyCash
 
-## Introduction
+!!! quote ""
+    Convenient and secure digital wallet on Telegram
 
-Here You can find  instructions for setting up [**AnyCash** account](https://any.cash/)! 
+**Website**: [any.cash](https://any.cash/en)
 
-## Setup account
+## Set Up account
 
-#### Step 1: Create AnyCash wallet
+### Step 1: Create AnyCash wallet
 
-!!! note
-    Before creating You must have [**Telegram** account](https://web.telegram.org) with presetted ```@User name```
+!!! note ""
+    Since this digital wallet for sending funds with Telegram, you should have your trusted account in this messenger.
 
--  Press "Create Wallet" button
--  Run commant ```/start```
+Press the *'Create Wallet'* button or find `@AnyCashBot` directly on Telegram. Run `/start`
 
-    ![Step 1](images/anycash-step1.png)
+![Step 1](images/anycash-step1.png)
     
-    ![Step 1](images/anycash-step1_1.png)
+![Step 1](images/anycash-step1_1.png)
 
-#### Step 2: Contact with AnyCash Manager
+### Step 2: Contact AnyCash Manager and get required credentials
 
-This Payment Provoider gives account credentials personaly to their merchants!
-    
-#### Step 3: Get required credentials
+Credentials that have to be issued:
+
+* Merchant ID
+* Signature key
+
+## Connect Account
+
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
+
+Press **Connect** at [*Any.Cash Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/anycash/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+
+![Connect](images/provider-account.png)
+
+Enter credentials:
+
+* Merchant ID --> Merchant
+* Signature key
 
 !!! success
-    You are ready to connect!
-    
-## Connect account
+    You have connected **Any.Cash** account!
 
-#### Step 1: Copy credentials
-
--  Merchant ID
--  Signature key
-
-#### Step 2: Enter credentials
-
--  Merchant ID
--  Signature key
-
-
-!!! tip
-    Press **`Connect`** at AnyCash **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-
-![Connect](images/anycash_connect.png)
-
-
-!!! success
-    You have connected **AnyCash**!
+!!! question "Still looking for help connecting your Any.Cash account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})

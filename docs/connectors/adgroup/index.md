@@ -2,10 +2,11 @@
 
 # ADgroup
 
-> Payment Processor for Merchants and host2host provider for other processors all in one
+!!! quote ""
+
+    Payment Processor for Merchants and host2host provider for other processors all in one
 
 **Website**: [adgroup.finance](https://adgroup.finance/en/)
-
 
 Follow the guidance for setting up a connection with ADgroup payment service provider.
 
@@ -18,6 +19,8 @@ Send a request on the [adgroup.finance](https://adgroup.finance/en/). Submit the
 ### Step 2: Check your contact email for credentials
 
 ![Email](images/email.png)
+
+You also should be informed about your Account type and Terminal type.
 
 ## Connect Provider Account
 
@@ -35,7 +38,7 @@ Enter credentials to access the API:
 * Merchant Account Password --> User Password
 * Merchant Account Key --> Key
 
-Also, choose *Test Mode* for test connection with ADgroup.
+Also, choose *Test Mode* for test connection with ADgroup. Specify your Account type and Terminal type.
 
 !!! success
     You have connected **ADgroup** account!
