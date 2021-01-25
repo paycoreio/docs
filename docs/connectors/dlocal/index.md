@@ -1,104 +1,83 @@
 <img src="https://static.openfintech.io/payment_providers/dlocal/logo.svg?w=400" width="400px">
 
-# dLocal Connector
+# dLocal
 
-## Introduction
+!!! quote ""    
+    Local payments in emerging markets made easy
 
-Here You can find  instructions for setting up **dLocal**  account.
+**Website**: [dlocal.com](https://dlocal.com/)
 
-## Setup account
+**Login**: [merchant.dlocal.com](https://merchant.dlocal.com/login)
 
-#### Step 1: Contact with dLocal Support Manager
+Follow the guidance for setting up a connection with dLocal payment service provider.
+
+## Set Up Account
+
+### Step 1: Contact dLocal support manager
+
+Send a request on the [website](https://dlocal.com/lets-talk/). Submit the required documents to verify your account and gain access.
+
+### Step 2: Set up your account
+
+Log into the Merchant application. Go to the *'Integration'* --> *Integration Settings*.
 
 !!! note
-    You can not create dLocal merchant account yourself! 
- 
-    Ask Support manager how to get login details!
 
+    Please note that dlocal has Test and Live integration panel. Be sure that you operate in the right mode.
 
-#### Step 2: Log in to the dashboard
-![Log in](images/dLocal__login.png)
-#### Step 3: Go to the Integration:Credentials&Settings section
+    ![Mode](images/dLocal__testmode.png)
 
-![Settings](images/dLocal__settings.png)
+Whitelist all your necessary IP addresses including [{{custom.company_name}} whitelist IPs](/integration/ips/).
 
-#### Step 4: Get required credentials
+![IPs](images/ip-addresses.png)
 
-!!! info
-    Note that  there are  **`TEST`** and **`LIVE`** mode.
-    Ensure that you turn on the rught one.
+Configure Return URL, Confirm URL, and Refund URL.
+
+![Set of URLs](images/return-urls.png)
+
+### Step 3: Get credentials
+
+Credentials that have to be issued:
+
+* *Test (Live) Credentials*:
+
+    * x_login
+    * x_trans_key
+    * Secret Key
+
+* *Cashout credentials*:
+
+    * Secret key
+
+![Credentials](images/dLocal__cred.png)
+
+!!! attention "Be aware"
+
+    Once you have finished connection testing, make sure dLocal has activated your account and you have got the production key.
     
-![Mode](images/dLocal__testmode.png)
+    When you go live, switch from Test to Live mode, update the API credentials by replacing the test key with the production key and updating the whitelisted IPs and the URLs in the endpoint targets.
 
+## Connect Provider Account
 
-- **Test (Live) Credentials**:
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-    -  x_login
+Press **Connect** at [*dLocal Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/dLocal/general) page in *'New connection'* to open Connection form.
 
-    -  x_trans_key
+![Connect](images/provider-account.png)
 
-    -  Secret Key
+Enter credentials:
 
+* x_login
+* x_trans_key
+* Secret Key
+* Cashout secret key
 
-- **Cashout credentials:**
+Choose Currencies according to available currencies for your dLocal account.
 
-    -  Cashout secret key
-
-![Cashout ](images/dLocal__cred.png)
-
-#### Step 5: Set up required parameters
-
-- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
-    
-![IPs](images/dLocal__ips.png)
+Make sure enable test mode if you specify test credentials (or vice versa).
 
 !!! success
-    You have configured account!
+    You have connected **dLocal** provider account!
 
-
-
-
-## Connect account
-
-#### Step 1: Copy required credentials
-
-
-#### Step 2: Enter credentials
-
--  x_login
-
--  x_trans_key
-
--  Secret Key
-
--  Cashout secret key
-
-
-!!! tip
-    Press **`Connect`** at dLocal **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-#### Step 3: Set up additional parameters
-
--  Currencies
-    
-    !!! tip
-        You can add any currency, available for your dLocal merchant account.
-
-    !!! Note 
-        If You add **unavailable** currency - it will occure an **`ERROR`**!
-
--  Test mode
-
-    !!! tip
-        Set **TRUE** - if You connect **`TEST`** account!
-
-        Set **FALSE** - if You connect **`LIVE`** account!
-
-
-
-![Connect](images/dlocal_connect.png)
-
-
-!!! success
-    You have connected **dLocal**!
+!!! question "Still looking for help connecting your dLocal account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})

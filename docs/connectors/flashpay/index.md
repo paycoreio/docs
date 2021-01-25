@@ -1,50 +1,48 @@
 <img src="https://static.openfintech.io/payment_providers/flashpay/logo.png?w=400" width="400px" >
 
-# FlashPay Connector
+# FlashPay
 
-## Introduction
+Info: [fbank.com.ua](https://www.fbank.com.ua/index.php?p=168)
 
-Here You can find  instructions for setting up **FlashPay** account!
+Follow the guidance for setting up a connection with FlashPay payment service provider.
 
-## Setup account
+## Set Up Account
 
-#### Step 1: Create provider account
+### Step 1: Contact FlashPay support
 
-#### Step 2: Generate the key-pair
+Pass all necessary procedures for the conclusion of the contract with the FlashPay payment system.
 
-1. Generate Private key : `openssl genrsa -out priv.key 2048`
-2. Get public key: `openssl rsa -in priv.key -out open.key -pubout`
+### Step 2: Generate the private/public key pair for authentication
 
-#### Step 3: Contact with Flashpay manager
+!!! example ""
 
-Ask manager to link public key to your account. 
+    ``` bash
+    # the Private key
+    openssl genrsa -out priv.key 2048
+    # the Public key
+    openssl rsa -in priv.key -out open.key -pubout
+    ```
 
-#### Step 4: Get required credentials
+Send the public key (`open.key`) to your FlashPay support manager.
 
--  Key ID
+### Step 3: Get credentials
 
-!!! success
-    You are ready to connect!
-    
-## Connect account
+Linking the received public key and your account data, FlashPay assigns the **Key ID** and passes it on to you.
 
-#### Step 1: Copy credentials
+## Connect Provider Account
 
--  Key ID
--  Private key
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-#### Step 2: Enter credentials
+Press **Connect** at [*FlashPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/flashpay/general) page in *'New connection'* to open Connection form.
 
--  Key ID
--  Upload your Private key file
+![Connect](images/provider-account.png)
 
-!!! tip
-    Press **`Connect`** at FlashPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
+Enter you Key ID and upload your private key (`priv.key`).
 
-
-
-![Connect](images/flashpay_connect.png)
-
+Also, choose Test Mode for test connection with FlashPay.
 
 !!! success
-    You have connected **FlashPay**!
+    You have connected **FlashPay** account!
+
+!!! question "Still looking for help connecting your FlashPay account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})

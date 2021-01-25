@@ -1,48 +1,42 @@
 <img src="https://static.openfintech.io/payment_providers/easybits/logo.svg?w=400" width="400px">
 
 
-# EasyBits.io Connector
+# EasyBits.io
 
-## Introduction
-
-Here You can find  instructions for setting up **EasyBits.io**  account.
-
-## Setup account
-
-#### Step 1 Contact with EasyBits.io Support Manager
-
-#### Step 2: Get required credentials
-
-- Client name
-
-!!! success
-    You have configured account!
+!!! quote ""
+    Integrated cryptocurrency solutions for your business
 
 
-## Connect account
+**Website**: [EasyBits.io](https://easybits.io)
 
-#### Step 1: Copy required credentials
+**Login**: [EasyBits.io](https://easybits.io/trade/signin/)
 
+Follow the guidance for setting up a connection with EasyBits.io payment service provider.
 
-#### Step 2: Enter credentials
+## Set Up Account
 
-- Client name
+### Step 1: Contact EasyBits.io support manager
 
-!!! tip
-    Press **`Connect`** at EasyBits.io **`Provider Overview page`** in **`New connection`** section to open Connection form!
+Send a request via the email. Submit the required documents to verify your account and gain access.
 
+### Step 2: Get credentials
 
-#### Step 3: Set up additional parameters 
+Upon registration, EasyBits.io assigns you a personal code name: `clientCodeName`.
 
--  Test mode
+## Connect Provider Account
 
-!!! note
-    This parameter is set according to your Merchant account type!
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
+Press **Connect** at [*EasyBits.io Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/easybits/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
+![Connect](images/provider-account.png)
 
-![Connect](images/easybits_connect.png)
+Enter your `clientCodeName` as Client name.
 
+Choose Test Mode for test connection with EasyBits.io.
 
 !!! success
-    You have connected **EasyBits.io**!
+    You have connected **EasyBits.io** account!
+
+!!! question "Still looking for help connecting your EasyBits.io account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})
