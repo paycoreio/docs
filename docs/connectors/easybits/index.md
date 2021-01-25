@@ -1,6 +1,5 @@
 <img src="https://static.openfintech.io/payment_providers/easybits/logo.svg?w=400" width="400px">
 
-
 # EasyBits.io
 
 !!! quote ""
