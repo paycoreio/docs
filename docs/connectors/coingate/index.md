@@ -1,63 +1,60 @@
 <img src="https://static.openfintech.io/payment_providers/coingate/logo.svg?w=300" width="300px" >
 
-# CoinGate Connector
+# CoinGate
 
-## Introduction
+!!! quote ""
+    Your Gateway to All Things Cryptocurrency
 
-Here You can find  instructions for setting up [**CoingGate** account](https://coingate.com/account/dashboard)!
+**Website**: [coingate.com](https://coingate.com/)
 
-## Setup account
+**Login**: [dashboard.coingate.com](https://dashboard.coingate.com/login)
 
+Follow the guidance for setting up a connection with CoinGate payment service provider.
 
-#### Step 1: Open Merchant setting
+## Set Up Account
 
-![Step 1](images/coingate-step1.png)
+### Step 1: Register at CoinGate dashboard
 
-#### Step 2: Create new App
--  GO to the API App section
--  Press "New App" button
+Create an account at the [CoinGate dashboard](https://dashboard.coingate.com/register). Submit the required documents to verify your account and gain full access.
 
-![Step 2](images/coingate-step2_1.png)
+### Step 2: Create API credentials
 
-#### Step 3: Set up parameters
+Login to your CoinGate account, go to the *'API'* --> *'Apps'* section, and click on *'+ New App'*".
 
--  Title
--  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)   
--  Integration URL or Description  as ```{{custom.website_url}}```
+![create New App](images/new-app.png)
 
-![Step 3](images/coingate-step3.png)
+Fill out the form:
 
-!!! info
-    **_Invoice Time_**, **_Max % of Order Amount to Cover_**, **_Underpaid Cover %_**, **_Notification_** parameters are set  at your choice!
+* enter a title
+* whitelist all necessary IP addresses including [{{custom.company_name}} whitelist IP addresses](/integration/ips/)
+* set your integration URL as `{{custom.website_url}}`
+* choose an invoice expiration time and acceptable underpayment threshold if desired
 
+![Fill the form](images/coingate-app-form.png)
 
-!!! success
-    You have created the API app!
-    
-## Connect account
+Press '*Submit*'. Immediately after creation, copy the displayed Auth Token to your API integration code or configuration (it's only shown once for security purposes).
 
-#### Step 1: Copy required credentials
+![Copy Auth Token](images/auth-token.png)
 
--  API key
+!!! note "Please note"
+    To use Test Mode, you should create an account on the [CoinGate sandbox environment](https://sandbox.coingate.com/) and get API credentials there.
 
-!!! warning
-    Copy the API key straight away after App creation!
-    It will be unavailable later!
+## Connect Provider Account
 
-![Step 1](images/coingate-step4.png)
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-#### Step 2: Enter credentials
+Press **Connect** at [*CoinGate Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/coingate/general) page in *'New connection'* to open Connection form.
 
--  API key
--  Currencies to use
+![Connect](images/provider-account.png)
 
-!!! tip
-    Press **`Connect`** at CoinGate **`Provider Overview page`** in **`New connection`** section to open Connection form!
+Enter:
 
+* *Auth Token* --> *API Key*
 
+Choose Test Mode for test connection. Choose currencies to use.
 
-![Connect](images/coingate_connect.png)
+!!! success "That's all!"
+    You have connected **CoinGate** account!
 
-
-!!! success
-    You have connected **CoinGate**!
+!!! question "Still looking for help connecting your CoinGate account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})

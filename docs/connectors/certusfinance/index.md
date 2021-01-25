@@ -1,55 +1,50 @@
 <img src="https://static.openfintech.io/payment_providers/certusfinance/logo.png?w=400" width="400px">
 
-# Certus Finance Connector
+# Certus Finance
 
-## Introduction
+!!! quote ""
+    Real processing for all business categories
 
-Here You can find  instructions for setting up **Certus Finance** account!
+**Website**: [certus.finance](https://certus.finance/)
 
-## Setup account
+**Login**: [mbo.certus.finance](https://mbo.certus.finance/Portal/#!login)
 
-#### Step 1: Create provider account
+Follow the guidance for setting up a connection with Certus Finance payment service provider.
 
-#### Step 2: Contact with Certus Finance manager
+## Set Up Account
 
-This Payment Provoider gives acoount credentials personaly to their merchants!
+### Step 1: Contact Certus Finance support manager
 
-#### Step 3: Get required credentials
+Send a request on the [website](https://certus.finance/). Submit the required documents to verify your account and gain access.
 
--  Merchant ID hash
+### Step 2: Get credentials
 
--  Merchant account ID hash
+Credentials that have to be issued:
 
--  Merchant account key
+* Merchant ID hash
+* Merchant account ID hash
+* Merchant account key
+* Merchant account username
+* Merchant account password
 
--  Merchant account username
+## Connect Provider Account
 
--  Merchant account password
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-!!! success
-    You are ready to connect!
-    
-## Connect account
+Press **Connect** at [*Certus Finance Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/certusfinance/general) page in *'New connection'* to open Connection form.
 
-#### Step 1: Copy credentials
+![Connect](images/provider-account.png)
 
-#### Step 2: Enter credentials
--  Merchant ID hash
+Enter the credentials obtained for your account:
 
--  Merchant account ID hash
+* Merchant ID hash
+* Merchant account ID hash
+* Merchant account key
+* Merchant account username
+* Merchant account password
 
--  Merchant account key
+!!! success "That's all!"
+    You have connected **Certus Finance** account!
 
--  Merchant account username
-
--  Merchant account password
-
-!!! tip
-    Press **`Connect`** at Certus Finance **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-
-![Connect](images/certusfinance_connect.png)
-
-!!! success
-    You have connected **Certus Finance**!
+!!! question "Still looking for help connecting your Certus Finance account?"
+    [Please contact our support team!](mailto:{{custom.support_email}})
