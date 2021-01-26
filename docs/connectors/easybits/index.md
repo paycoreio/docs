@@ -5,7 +5,6 @@
 !!! quote ""
     Integrated cryptocurrency solutions for your business
 
-
 **Website**: [EasyBits.io](https://easybits.io)
 
 **Login**: [EasyBits.io](https://easybits.io/trade/signin/)
