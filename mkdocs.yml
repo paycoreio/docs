@@ -17,7 +17,7 @@ theme:
   custom_dir: theme
   favicon: images/favicon.svg
   icon:
-    logo: material/import-contacts
+    logo: favicon
   palette:
     scheme: default
     primary: black
