@@ -31,9 +31,7 @@ Whitelist all your necessary IP addresses including [{{custom.company_name}} whi
 
 ![IPs](images/ip-addresses.png)
 
-Configure Return URL, Confirm URL, and Refund URL.
-
-![Set of URLs](images/return-urls.png)
+Since {{custom.company_name}} and dLocal have implemented integration only for payouts yet, you shouldn't configure *Return URL*, *Confirm URL*, and *Refund URL*: it is correct to leave them empty.
 
 ### Step 3: Get credentials
 
@@ -55,7 +53,7 @@ Credentials that have to be issued:
 
     Once you have finished connection testing, make sure dLocal has activated your account and you have got the production key.
     
-    When you go live, switch from Test to Live mode, update the API credentials by replacing the test key with the production key and updating the whitelisted IPs and the URLs in the endpoint targets.
+    When you go live, switch from Test to Live mode, update the API credentials by replacing the test key with the production key and necessarily updating the whitelisted IPs.
 
 ## Connect Provider Account
 
