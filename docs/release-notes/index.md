@@ -6,7 +6,13 @@
 
 This changelog lists releases by date and version number along with associated changes.
 
-### [v1.28 05/01/2021](v1.28/)
+### [February 5, 2021 (versions 1.36, 1.35, 1.34, 1.33, 1.32, 1.31, 1.30, & 1.29)](v1.36-1.29/)
+
+* [Payment Gateway updates](v1.36-1.29/#payment-gateway-updates): added fee set for chargebacks to Commerce payment services' options and Provider Reference ID parameter to payment flow
+* [Card Gateway update](v1.36-1.29/#card-gateway-updates): security updates, increased HPP theme options limit, updated `browser_ip` regular expression to support IPv4 and IPv6 addresses
+* And other platform performance improvements
+
+### [January 5, 2021 (v1.28)](v1.28/)
 
 * [Payout Schemes optimisation](v1.28/#payout-schemes-update): at payout splitting, the system examines routes' limits and remaining amounts for each following parts
 * [Manual card transaction handling](v1.28/#card-gate-update)

@@ -349,6 +349,7 @@ nav:
 - Changelog: 
     - Release notes:
         - Overview: release-notes/index.md
+        - February 5, 2021 (1.36-1.29): release-notes/v1.36-1.29.md
         - January 5, 2021 (1.28): release-notes/v1.28.md
     - Release notes archive:
         - Archive: release-notes/archive/index.md
