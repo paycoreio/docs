@@ -10,7 +10,6 @@ This changelog lists releases by date and version number along with associated c
 
 * [Payout Schemes optimisation](v1.28/#payout-schemes-update): at payout splitting, the system examines routes' limits and remaining amounts for each following parts
 * [Manual card transaction handling](v1.28/#card-gate-update)
-* [New and updated integrations](v1.28/#new-integrations): CoinsPaid, dLocal, Ibox Bank, Kassa, MaxPay, Russian Standard Bank
 * [Other fixes and improvements](v1.28/#fixes-and-improvements)
 
 ## Other resources
