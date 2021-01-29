@@ -7,7 +7,6 @@ This page contains a historical archive of all release notes for {{custom.compan
 * [Increased Metadata limit](v1.27/#metadata-update) up to 20 attributes
 * [Batch Payouts Validation Update](v1.27/#batch-payouts-update): the limit number of Base64 characters must not exceed 100,000 in the whole file
 * [Card Gate Update](v1.27/#card-gateway-update): sanitised Cardholder DTO
-* [Integration Updates](v1.27/#integration-updates): CoinsPaid, CrossPay, Genome, Ibox Bank, Odysseq, Stripe, xpate; PHP currency
 * [And other minor fixes and performance improvements](v1.27/#fixes-and-improvements)
 
 ## [v1.26 08/12/2020](v1.26/)
@@ -15,21 +14,18 @@ This page contains a historical archive of all release notes for {{custom.compan
 * [Payment Gateway Update](v1.26/#payment-gateway-update): added fields for peer-to-peer options in the *Payment Routes* section
 * [Card Gate Updates](v1.26/#card-gate-updates): additional parameters in the Commerce settings, getting browser_info from HPP
 * [Receipt Addon](v1.26/#receipt-addon): added the possibility to specify a provider code
-* [New and Updated Integrations](v1.26/#new-and-updated-integrations): Axcess Merchant Services, Payeer, UkrGasBank, tome; support of new currencies for CardPay
 * [Bug Fixes](v1.26/#bug-fixes)
 
 ## [v1.25 24/11/2020](v1.25/)
 
 * [Card Gate update](v1.25/#card-gate-update): added the `browser_info` object to the API for H2H connections
 * [Update of Receipt Addon](v1.25/#receipt-addon): added new types of extensions for EDS keys
-* [New and updated integrations](v1.25/#new-and-updated-integrations): AlfaBank, ComIn Bank, Forward Bank, SafeCharge; added the common standard scheme for transferring cardholder parameter
 * Several [bug fixes](v1.25/#bug-fixes)
 
 ## [v1.24 10/11/2020](v1.24/)
 
 * [Payout Request Editing](v1.24/#payout-gateway-update): added possibility to patch payout request options
 * [Routing dynamic attributes](v1.24/#card-gate-update)
-* [New and updated integrations](v1.24/#new-and-updated-integrations): OffsetPay, Parimatch, PaySage.io, TKB Pay, WPayments
 * Related [bug fixes](v1.24/#bug-fixes)
 
 ## [v1.23 27/10/2020](v1.23/)
@@ -37,7 +33,6 @@ This page contains a historical archive of all release notes for {{custom.compan
 * [Card Gateway Betterments](v1.23/#card-gateway-betterments): added the OCT flow, MCC and Merchant URL options for commerce accounts, and `restrict_saved_cards` parameter for an invoice creation request.
 * [Commerce UI update](v1.23/#commerce-ui-update) of commerce service editing.
 * [Exports' changes](v1.23/#exports-changes): the time of creation and last update of transactions are displayed related to the user's timezone
-* [New and updated integrations](v1.23/#new-integrations): ADgroup Qiwi acquiring, Paysage, Stripe.
 * Related [bug fixes](v1.23/#bug-fixes).
 
 ## [v1.22 16/10/2020](v1.22/)
