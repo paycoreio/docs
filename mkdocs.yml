@@ -300,7 +300,8 @@ nav:
     - Odysseq: connectors/odysseq/index.md
     - Offsetpay: connectors/offsetpay/index.md
     - Parimatch: connectors/parimatch/index.md
-    - PayBox: connectors/paybox/index.md      
+    - PayBox: connectors/paybox/index.md
+    - PayDoo: connectors/paydoo/index.md
     - Payeer: connectors/payeer/index.md
     - PayLink: connectors/paylink/index.md
     - Paylogic: connectors/paylogic/index.md
