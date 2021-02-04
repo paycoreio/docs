@@ -65,7 +65,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/ingbankpl/logo.svg?w=70" width="70px"> | [ING Bank Poland](ingbankpl/) | Payments   | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/interkassa/logo.svg?w=80" width="80px"> | [Interkassa](interkassa/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/ipaytotal/logo.png?w=80" width="80px"> | [IPayTotal](ipaytotal/) | H2H Connection  | EUR, INR, MXN, PLN, USD |
-| <img src="https://static.openfintech.io/payment_providers/kassa/logo.svg?w=70" width="70px">  | [Kassa](/connectors/kassa/) | Payouts, Account Balances  |
+| <img src="https://static.openfintech.io/payment_providers/kassa/logo.svg?w=70" width="70px">  | [Kassa](/connectors/kassa/) | H2H Connection, Payouts, Account Balances  | BYN, EUR, KZT, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/klarna/logo.svg?w=90" width="90px"> | [Klarna](klarna/) | Payments | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/kuna/logo.svg?w=70" width="70px"> | [Kuna](kuna/) | Payments, Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=80" width="80px"> | [LeoGaming](leogaming/) | Payouts, Account balances | [according to the provider account settings] |
