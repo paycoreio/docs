@@ -2,7 +2,7 @@
 
 # PayLink (TAS Link)
 
-quote ""
+!!! quote ""
     TAS LINK is a high-tech and innovative company specializing in payment solutions.
 
 **Website**: [taslink.com.ua](https://taslink.com.ua/)
