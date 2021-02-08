@@ -20,7 +20,7 @@ This changelog lists releases by date and version number along with associated c
 
 ## Other resources
 
-To view release notes for versions prior to 2021, see the [Release notes archive](archive).
+To view release notes for versions prior to 2021, see the [2020](archive/2020) and [2019](archive/2019) archive pages.
 
 You also can follow us for the latest news and updates on [:fontawesome-brands-twitter: @insidepaycore](https://twitter.com/insidepaycore).
 

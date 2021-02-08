@@ -235,172 +235,173 @@ nav:
     - Testing: integration/testing.md
     - Public IPs: integration/ips.md
 - Connectors:
-      - Overview: connectors/index.md
-      - Test:
+    - Overview: connectors/index.md
+    - Test:
         - Test Connector: connectors/test/index.md
         - Test Card Payments: connectors/test/test-card-numbers.md
-      - Manual: connectors/manual/index.md
+    - Manual: connectors/manual/index.md
       #- AustralPay: connectors/australpay/index.md
       #- CoinPayments:connectors/coinpayments/index.md
       #- Enfins: connectors/enfins/index.md
       #- MoneyMovers: connectors/moneymovers/index.md
       #- Payoneer: connectors/payoneer/index.md
       #- 123x: connectors/123x/index.md
-      - 4bill: connectors/4bill/index.md
-      - Accentpay: connectors/accentpay/index.md
-      - ADgroup: connectors/adgroup/index.md
-      - AdvCash: connectors/advcash/index.md
-      - Alfa Bank: connectors/alfabank/index.md
-      - AnyCash: connectors/anycash/index.md
-      - Any.Money: connectors/anymoney/index.md
-      - Axcess Merchant Services: connectors/axcessmerchantservices/index.md
-      - Bank Onego: connectors/bankonego/index.md
-      - Billline: connectors/billline/index.md
-      - CardGate: connectors/cardgate/index.md
-      - CardPay: connectors/cardpay/index.md
-      - Cashfree: connectors/cashfree/index.md
-      - Cauri: connectors/cauri/index.md
-      - Certus Finance: connectors/certusfinance/index.md
-      - CoinGate: connectors/coingate/index.md
-      - CoinsPaid: connectors/coinspaid/index.md      
-      - ComInBank: connectors/cib/index.md
-      - Concord Bank: connectors/concord/index.md
-      - Connectum: connectors/connectum/index.md
-      - CrossPay: connectors/crosspay/index.md
-      - Cypix: connectors/cypix/index.md
-      - Decta: connectors/decta/index.md
-      - dLocal: connectors/dlocal/index.md
-      - Dotpay: connectors/dotpay/index.md
-      - EasyBits.io: connectors/easybits/index.md
-      - Ecobanq: connectors/ecobanq/index.md
-      - ECommPay: connectors/ecommpay/index.md
-      - Ecopayz: connectors/ecopayz/index.md
-      - ePay: connectors/epay/index.md
-      - Exactly: connectors/exactly/index.md
-      - FlashPay: connectors/flashpay/index.md
-      - Fondy: connectors/fondy/index.md
-      - Forward Bank: connectors/forwardbank/index.md
-      - Genome: connectors/genome/index.md
-      - GeoPay: connectors/geopaynet/index.md
-      - GlobalMoney: connectors/globalmoney/index.md
-      - HashConnect: connectors/hashconnect/index.md
-      - Ibox Bank: connectors/iboxbank/index.md
-      - ING Bank Poland: connectors/ingbankpl/index.md
-      - Interkassa: connectors/interkassa/index.md
-      - IPayTotal: connectors/ipaytotal/index.md
-      - Klarna: connectors/klarna/index.md
-      - Kuna: connectors/kuna/index.md
-      - Leogaming: connectors/leogaming/index.md
-      - LiqPay: connectors/liqpay/index.md
-      - MaxPay: connectors/maxpay/index.md
-      - Mercuryo: connectors/mercuryo/index.md
-      - Mine.Exchange: connectors/mineexchange/index.md
-      - MuchBetter: connectors/muchbetter/index.md
-      - Neteller: connectors/neteller/index.md
-      - Odysseq: connectors/odysseq/index.md
-      - Offsetpay: connectors/offsetpay/index.md
-      - Parimatch: connectors/parimatch/index.md
-      - PayBox: connectors/paybox/index.md      
-      - Payeer: connectors/payeer/index.md
-      - PayLink: connectors/paylink/index.md
-      - Paylogic: connectors/paylogic/index.md
+    - 4bill: connectors/4bill/index.md
+    - Accentpay: connectors/accentpay/index.md
+    - ADgroup: connectors/adgroup/index.md
+    - AdvCash: connectors/advcash/index.md
+    - Alfa Bank: connectors/alfabank/index.md
+    - AnyCash: connectors/anycash/index.md
+    - Any.Money: connectors/anymoney/index.md
+    - Axcess Merchant Services: connectors/axcessmerchantservices/index.md
+    - Bank Onego: connectors/bankonego/index.md
+    - Billline: connectors/billline/index.md
+    - CardGate: connectors/cardgate/index.md
+    - CardPay: connectors/cardpay/index.md
+    - Cashfree: connectors/cashfree/index.md
+    - Cauri: connectors/cauri/index.md
+    - Certus Finance: connectors/certusfinance/index.md
+    - CoinGate: connectors/coingate/index.md
+    - CoinsPaid: connectors/coinspaid/index.md      
+    - ComInBank: connectors/cib/index.md
+    - Concord Bank: connectors/concord/index.md
+    - Connectum: connectors/connectum/index.md
+    - CrossPay: connectors/crosspay/index.md
+    - Cypix: connectors/cypix/index.md
+    - Decta: connectors/decta/index.md
+    - dLocal: connectors/dlocal/index.md
+    - Dotpay: connectors/dotpay/index.md
+    - EasyBits.io: connectors/easybits/index.md
+    - Ecobanq: connectors/ecobanq/index.md
+    - ECommPay: connectors/ecommpay/index.md
+    - Ecopayz: connectors/ecopayz/index.md
+    - ePay: connectors/epay/index.md
+    - Exactly: connectors/exactly/index.md
+    - FlashPay: connectors/flashpay/index.md
+    - Fondy: connectors/fondy/index.md
+    - Forward Bank: connectors/forwardbank/index.md
+    - Genome: connectors/genome/index.md
+    - GeoPay: connectors/geopaynet/index.md
+    - GlobalMoney: connectors/globalmoney/index.md
+    - HashConnect: connectors/hashconnect/index.md
+    - Ibox Bank: connectors/iboxbank/index.md
+    - ING Bank Poland: connectors/ingbankpl/index.md
+    - Interkassa: connectors/interkassa/index.md
+    - IPayTotal: connectors/ipaytotal/index.md
+    - Klarna: connectors/klarna/index.md
+    - Kuna: connectors/kuna/index.md
+    - Leogaming: connectors/leogaming/index.md
+    - LiqPay: connectors/liqpay/index.md
+    - MaxPay: connectors/maxpay/index.md
+    - Mercuryo: connectors/mercuryo/index.md
+    - Mine.Exchange: connectors/mineexchange/index.md
+    - MuchBetter: connectors/muchbetter/index.md
+    - Neteller: connectors/neteller/index.md
+    - Odysseq: connectors/odysseq/index.md
+    - Offsetpay: connectors/offsetpay/index.md
+    - Parimatch: connectors/parimatch/index.md
+    - PayBox: connectors/paybox/index.md      
+    - Payeer: connectors/payeer/index.md
+    - PayLink: connectors/paylink/index.md
+    - Paylogic: connectors/paylogic/index.md
       #- PayMega.eu: connectors/paymega/index.md
-      - PayMega.io: connectors/paymegaio/index.md
-      - PaymentCenter: connectors/paymentcenter/index.md
-      - Paymentwall: connectors/paymentwall/index.md   
-      - PayPal: connectors/paypal/index.md
-      - Paysafe: connectors/paysafe/index.md
-      - paysafecard: connectors/paysafecard/index.md
-      - Paysage.io: connectors/paysage/index.md
-      - PaySec: connectors/paysec/index.md
-      - PaySoft: connectors/paysoft/index.md
-      - PerfectMoney: connectors/perfectmoney/index.md
-      - Piastrix: connectors/piastrix/index.md
-      - Pivdenny Bank: connectors/pivdennybank/index.md
-      - Platio: connectors/platio/index.md
-      - Portmone.com: connectors/portmone/index.md
-      - Procard: connectors/procard/index.md
-      - Raiffeisen Bank: connectors/raiffeisenbank/index.md
-      - Rapyd.net: connectors/rapyd/index.md
-      - RBK Money: connectors/rbkmoney/index.md
-      - Royal Pay: connectors/royalpay/index.md
-      - Russian Standard Bank: connectors/russianstandardbank/index.md
-      - SafeCharge: connectors/safecharge/index.md
-      - SatchelPay: connectors/satchelpay/index.md
-      - Selcom: connectors/selcom/index.md     
-      - Skrill: connectors/skrill/index.md
-      - Stripe: connectors/stripe/index.md   
-      - TKB pay: connectors/tkbpay/index.md
-      - tome: connectors/tome/index.md
-      - TransferHub: connectors/transferhub/index.md
-      - Tranzzo: connectors/tranzzo/index.md
+    - PayMega.io: connectors/paymegaio/index.md
+    - PaymentCenter: connectors/paymentcenter/index.md
+    - Paymentwall: connectors/paymentwall/index.md   
+    - PayPal: connectors/paypal/index.md
+    - Paysafe: connectors/paysafe/index.md
+    - paysafecard: connectors/paysafecard/index.md
+    - Paysage.io: connectors/paysage/index.md
+    - PaySec: connectors/paysec/index.md
+    - PaySoft: connectors/paysoft/index.md
+    - PerfectMoney: connectors/perfectmoney/index.md
+    - Piastrix: connectors/piastrix/index.md
+    - Pivdenny Bank: connectors/pivdennybank/index.md
+    - Platio: connectors/platio/index.md
+    - Portmone.com: connectors/portmone/index.md
+    - Procard: connectors/procard/index.md
+    - Raiffeisen Bank: connectors/raiffeisenbank/index.md
+    - Rapyd.net: connectors/rapyd/index.md
+    - RBK Money: connectors/rbkmoney/index.md
+    - Royal Pay: connectors/royalpay/index.md
+    - Russian Standard Bank: connectors/russianstandardbank/index.md
+    - SafeCharge: connectors/safecharge/index.md
+    - SatchelPay: connectors/satchelpay/index.md
+    - Selcom: connectors/selcom/index.md     
+    - Skrill: connectors/skrill/index.md
+    - Stripe: connectors/stripe/index.md   
+    - TKB pay: connectors/tkbpay/index.md
+    - tome: connectors/tome/index.md
+    - TransferHub: connectors/transferhub/index.md
+    - Tranzzo: connectors/tranzzo/index.md
       #- Twelve.live: connectors/twelvelive/index.md
-      - UAPay: connectors/uapay/index.md
-      - UKRGASBANK: connectors/ukrgasbank/index.md
-      - VCreditos: connectors/vcreditos/index.md
-      - WinPay: connectors/winpay/index.md
-      - Wirecapital: connectors/wirecapital/index.md
-      - Wirecard: connectors/wirecard/index.md
-      - WonderlandPay: connectors/wlandpay/index.md
-      - WPayments: connectors/wpayments/index.md
-      - xpate: connectors/xpate/index.md
-      - Xpay: connectors/xpayua/index.md
-      - Zotapay: connectors/zotapay/index.md
+    - UAPay: connectors/uapay/index.md
+    - UKRGASBANK: connectors/ukrgasbank/index.md
+    - VCreditos: connectors/vcreditos/index.md
+    - WinPay: connectors/winpay/index.md
+    - Wirecapital: connectors/wirecapital/index.md
+    - Wirecard: connectors/wirecard/index.md
+    - WonderlandPay: connectors/wlandpay/index.md
+    - WPayments: connectors/wpayments/index.md
+    - xpate: connectors/xpate/index.md
+    - Xpay: connectors/xpayua/index.md
+    - Zotapay: connectors/zotapay/index.md
 - Changelog: 
-    - Release notes:
-        - Overview: release-notes/index.md
-        - February 6, 2021 (1.29-1.36): release-notes/v1.36-1.29.md
-        - January 5, 2021 (1.28): release-notes/v1.28.md
-    - Release notes archive:
-        - Archive: release-notes/archive/index.md
-        - v1.27 (22/12/2020): release-notes/archive/v1.27.md
-        - v1.26 (08/12/2020): release-notes/archive/v1.26.md
-        - v1.25 (24/11/2020): release-notes/archive/v1.25.md
-        - v1.24 (10/11/2020): release-notes/archive/v1.24.md
-        - v1.23 (27/10/2020): release-notes/archive/v1.23.md
-        - v1.22 (16/10/2020): release-notes/archive/v1.22.md
-        - v1.21 (30/09/2020): release-notes/archive/v1.21.md
-        - v1.20 (15/09/2020): release-notes/archive/v1.20.md
-        - v1.19 (01/09/2020): release-notes/archive/v1.19.md
-        - v1.18 (18/08/2020): release-notes/archive/v1.18.md
-        - v1.17 (04/08/2020): release-notes/archive/v1.17.md
-        - v1.16 (07/07/2020): release-notes/archive/v1.16.md
-        - v1.15 (23/06/2020): release-notes/archive/v1.15.md
-        - v1.14 (09/06/2020): release-notes/archive/v1.14.md
-        - v1.13 (14/05/2020): release-notes/archive/v1.13.md
-        - v1.12 (10/04/2020): release-notes/archive/v1.12.md
-        - v1.11 (25/03/2020): release-notes/archive/v1.11.md
-        - v1.10 (11/03/2020): release-notes/archive/v1.10.md
-        - v1.9 (28/02/2020): release-notes/archive/v1.9.md
-        - v1.8.5 (21/02/2020): release-notes/archive/v1.8.5.md
-        - v1.8.0 (14/02/2020): release-notes/archive/v1.8.0.md
-        - v1.7.6 (07/02/2020): release-notes/archive/v1.7.6.md
-        - v1.7.1 (31/01/2020): release-notes/archive/v1.7.1.md
-        - v1.6.12 (24/01/2020): release-notes/archive/v1.6.12.md
-        - v1.6.1 (17/01/2020): release-notes/archive/v1.6.1.md
-        - v1.5.21 (10/01/2020): release-notes/archive/v1.5.21.md
-        - v1.5.16 (27/12/2019): release-notes/archive/v1.5.16.md
-        - v1.5.6 (20/12/2019): release-notes/archive/v1.5.6.md
-        - v1.5.2 (13/12/2019): release-notes/archive/v1.5.2.md
-        - v1.5 (06/12/2019): release-notes/archive/v1.5.md
-        - v1.4.8 (22/11/2019): release-notes/archive/v1.4.8.md
-        - v1.4.4 (15/11/2019): release-notes/archive/v1.4.4.md
-        - v1.4.2 (08/11/2019): release-notes/archive/v1.4.2.md
-        - v1.3.21 (01/11/2019): release-notes/archive/v1.3.21.md
-        - v1.3.17 (25/10/2019): release-notes/archive/v1.3.17.md
-        - v1.3.14 (18/10/2019): release-notes/archive/v1.3.14.md
-        - v1.3.12 (11/10/2019): release-notes/archive/v1.3.12.md
-        - v1.3.9 (04/10/2019): release-notes/archive/v1.3.9.md
-        - v1.3.4 (27/09/2019): release-notes/archive/v1.3.4.md
-        - v1.1.0 (20/09/2019): release-notes/archive/v1.1.0.md
-        - v1.0 (13/09/2019): release-notes/archive/v1.0.md
-        - v0.61.5 (06/09/2019): release-notes/archive/v0.61.5.md
-        - v0.60.41 (30/08/2019): release-notes/archive/v0.60.41.md
-        - v0.60.37 (23/08/2019): release-notes/archive/v0.60.37.md
-        - v0.60.30 (16/08/2019): release-notes/archive/v0.60.30.md
-        - v0.60.25 (09/08/2019): release-notes/archive/v0.60.25.md
-        - v0.60 (01/07/2019): release-notes/archive/v0.60.md
-        - v0.59 (15/04/2019): release-notes/archive/v0.59.md
-        - v0.58 (23/03/2019): release-notes/archive/v0.58.md
-        - v0.57 (11/03/2019): release-notes/archive/v0.57.md
-        - v0.56 (05/03/2019): release-notes/archive/v0.56.md
+    - Overview: release-notes/index.md
+    - February 6, 2021 (1.29-1.36): release-notes/v1.36-1.29.md
+    - January 5, 2021 (1.28): release-notes/v1.28.md
+    - 2020:
+        - Overview: release-notes/archive/2020/index.md
+        - v1.27 (22/12/2020): release-notes/archive/2020/v1.27.md
+        - v1.26 (08/12/2020): release-notes/archive/2020/v1.26.md
+        - v1.25 (24/11/2020): release-notes/archive/2020/v1.25.md
+        - v1.24 (10/11/2020): release-notes/archive/2020/v1.24.md
+        - v1.23 (27/10/2020): release-notes/archive/2020/v1.23.md
+        - v1.22 (16/10/2020): release-notes/archive/2020/v1.22.md
+        - v1.21 (30/09/2020): release-notes/archive/2020/v1.21.md
+        - v1.20 (15/09/2020): release-notes/archive/2020/v1.20.md
+        - v1.19 (01/09/2020): release-notes/archive/2020/v1.19.md
+        - v1.18 (18/08/2020): release-notes/archive/2020/v1.18.md
+        - v1.17 (04/08/2020): release-notes/archive/2020/v1.17.md
+        - v1.16 (07/07/2020): release-notes/archive/2020/v1.16.md
+        - v1.15 (23/06/2020): release-notes/archive/2020/v1.15.md
+        - v1.14 (09/06/2020): release-notes/archive/2020/v1.14.md
+        - v1.13 (14/05/2020): release-notes/archive/2020/v1.13.md
+        - v1.12 (10/04/2020): release-notes/archive/2020/v1.12.md
+        - v1.11 (25/03/2020): release-notes/archive/2020/v1.11.md
+        - v1.10 (11/03/2020): release-notes/archive/2020/v1.10.md
+        - v1.9 (28/02/2020): release-notes/archive/2020/v1.9.md
+        - v1.8.5 (21/02/2020): release-notes/archive/2020/v1.8.5.md
+        - v1.8.0 (14/02/2020): release-notes/archive/2020/v1.8.0.md
+        - v1.7.6 (07/02/2020): release-notes/archive/2020/v1.7.6.md
+        - v1.7.1 (31/01/2020): release-notes/archive/2020/v1.7.1.md
+        - v1.6.12 (24/01/2020): release-notes/archive/2020/v1.6.12.md
+        - v1.6.1 (17/01/2020): release-notes/archive/2020/v1.6.1.md
+        - v1.5.21 (10/01/2020): release-notes/archive/2020/v1.5.21.md
+    - 2019:
+        - Overview: release-notes/archive/2019/index.md
+        - v1.5.16 (27/12/2019): release-notes/archive/2019/v1.5.16.md
+        - v1.5.6 (20/12/2019): release-notes/archive/2019/v1.5.6.md
+        - v1.5.2 (13/12/2019): release-notes/archive/2019/v1.5.2.md
+        - v1.5 (06/12/2019): release-notes/archive/2019/v1.5.md
+        - v1.4.8 (22/11/2019): release-notes/archive/2019/v1.4.8.md
+        - v1.4.4 (15/11/2019): release-notes/archive/2019/v1.4.4.md
+        - v1.4.2 (08/11/2019): release-notes/archive/2019/v1.4.2.md
+        - v1.3.21 (01/11/2019): release-notes/archive/2019/v1.3.21.md
+        - v1.3.17 (25/10/2019): release-notes/archive/2019/v1.3.17.md
+        - v1.3.14 (18/10/2019): release-notes/archive/2019/v1.3.14.md
+        - v1.3.12 (11/10/2019): release-notes/archive/2019/v1.3.12.md
+        - v1.3.9 (04/10/2019): release-notes/archive/2019/v1.3.9.md
+        - v1.3.4 (27/09/2019): release-notes/archive/2019/v1.3.4.md
+        - v1.1.0 (20/09/2019): release-notes/archive/2019/v1.1.0.md
+        - v1.0 (13/09/2019): release-notes/archive/2019/v1.0.md
+        - v0.61.5 (06/09/2019): release-notes/archive/2019/v0.61.5.md
+        - v0.60.41 (30/08/2019): release-notes/archive/2019/v0.60.41.md
+        - v0.60.37 (23/08/2019): release-notes/archive/2019/v0.60.37.md
+        - v0.60.30 (16/08/2019): release-notes/archive/2019/v0.60.30.md
+        - v0.60.25 (09/08/2019): release-notes/archive/2019/v0.60.25.md
+        - v0.60 (01/07/2019): release-notes/archive/2019/v0.60.md
+        - v0.59 (15/04/2019): release-notes/archive/2019/v0.59.md
+        - v0.58 (23/03/2019): release-notes/archive/2019/v0.58.md
+        - v0.57 (11/03/2019): release-notes/archive/2019/v0.57.md
+        - v0.56 (05/03/2019): release-notes/archive/2019/v0.56.md
