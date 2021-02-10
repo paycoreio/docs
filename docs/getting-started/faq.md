@@ -86,6 +86,8 @@ Welcome to the Frequently Asked Questions about interaction and working with {{c
 
     Once we have received the confirmation that the client has received the funds, you get a payment status `refunded` or `partially_refunded` in the Callbacks.
 
+## Commerce Account Settings
+
 ??? question "How to choose fee strategy"
     Used value of the fee is the sum of the *rate fee* (in percentage with two decimal places) and the *fixed fee* (in base currency). Also, it always lies within the *minimum* and *maximum* setpoints (in base currency).
 
@@ -114,27 +116,41 @@ Welcome to the Frequently Asked Questions about interaction and working with {{c
         - Fee = Rate Fee × Input Amount + Fixed Fee;
         - Deposit Amount = Input Amount - Fee;
         - thus:
-            <img align="center" src="https://tex.s2cms.ru/svg/%20Deposit%20Amount%20%3D%7BInput%20Amount%5Ctimes(%7B%7B100%5C%25%20-%20Rate%20Fee%7D%20%5Cover%20100%5C%25%7D%7D)%20-%20Fixed%20Fee%7D." alt="Deposit Amount Calculation" height="35px" />
+
+    $$
+    {Deposit Amount} = {Input Amount} \times {\frac{100\% - {Rate Fee}} {100\%}} - {Fixed Fee}
+    $$
+    
     * *Internal* strategy and *Reverse* calculation:
         - Deposit Amount = Input Amount;
         - Fee = Rate Fee × Paid Amount + Fixed Fee;
         - Paid Amount = Input Amount + Fee;
         - thus:
-            <img align="center" src="https://tex.s2cms.ru/svg/Paid%20Amount%20%3D%20%7B%7B(Input%20Amount%20%2B%20Fixed%20Fee)%5Ctimes100%5C%25%7D%20%5Cover%20100%5C%25%20%2B%20Rate%20Fee%7D." alt="Paid Amount Calculation" height="35px" />
+
+    $$
+    {Paid Amount} = \frac{({Input Amount} + {Fixed Fee}) \times 100\%}{100\% + {Rate Fee}}
+    $$
 
     * *External* Strategy and *Direct* calculation:
         - Deposit Amount = Input Amount;
         - Fee = Rate Fee × Input Amount + Fixed Fee;
         - Paid Amount = Input Amount + Fee;
         - thus:
-            <img align="center" src="https://tex.s2cms.ru/svg/%20Paid%20Amount%20%3D%7BInput%20Amount%5Ctimes(%7B%7B100%5C%25%20%2B%20Rate%20Fee%7D%20%5Cover%20100%5C%25%7D%7D)%20%2B%20Fixed%20Fee%7D." alt="Paid Amount Calculation" height="35px" />
+
+    $$
+    {Paid Amount} = {Input Amount} \times {\frac{100\% + {Rate Fee}} {100\%}} + {Fixed Fee}
+    $$
 
     * *External* strategy and *Reverse* calculation:
         - Paid Amount = Input Amount;
         - Fee =  Rate Fee × Deposit Amount + Fixed Fee;
         - Deposit Amount = Input Amount - Fee;
         - thus: 
-            <img align="center" src="https://tex.s2cms.ru/svg/Deposit%20Amount%20%3D%20%7B%7B(Input%20Amount%20-%20Fixed%20Fee)%5Ctimes100%5C%25%7D%20%5Cover%20100%5C%25%20%2B%20Rate%20Fee%7D." alt="Deposit Amount Calculation" height="35px" />
+
+    $$
+    {Deposit Amount} = \frac{({Input Amount} - {Fixed Fee}) \times 100\%}{100\% + {Rate Fee}}
+    $$
+
 
     where *Input Amount* — `amount` — initiated amount of the invoice;
 
@@ -143,6 +159,8 @@ Welcome to the Frequently Asked Questions about interaction and working with {{c
     *Deposit Amount* — `deposit` — amount to be charged to the account, always less than `payment_amount` by `fee`;
 
     *Fee* — `fee` — current fee amount (don't forget that its value lies within the minimum and maximum setpoints). 
+
+
 
 ## Transactions handling
 

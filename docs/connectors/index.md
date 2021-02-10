@@ -21,7 +21,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 |   <img src="https://static.openfintech.io/payment_providers/twelvelive/logo.svg?w=25" width="25px">    | [Twelve.live](twelvelive/)       | H2H connection, Payments and Payouts                 |
  -->
 
-| Logo | Name | Supported Connections | Supported Currencies |
+| Logo | Name | Supported Connections | Supported Currencies[^1] |
 |:--:|:---|:----|:----|
 | <img src="https://static.openfintech.io/payment_providers/4bill/logo.svg?w=70" width="70px"> | [4bill](4bill/) | H2H&nbsp;connection,&nbsp;Payments, Payouts, Account balances | AUD, CAD, EUR, GBP, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/accentpay/logo.png?w=100" width="100px"> | [Accentpay](accentpay/) | H2H connection, Payments, Payouts, Account balances | EUR, PLN, RUB, UAH, USD |
@@ -144,5 +144,7 @@ Usually, the connection algorithm includes the following steps:
 
 !!! question "Contact us"
     If you have any questions, feature suggestions or ideas, feel free to contact our support team via [email](mailto:{{custom.support_email}}) or [Jira service desk]({{custom.support_url}}).
+
+[^1]: You can find the complete list of currencies {{custom.company_name}} support [here](/products/currency-rates/supported-currencies/).
 
 --8<-- "includes/abbr.md"

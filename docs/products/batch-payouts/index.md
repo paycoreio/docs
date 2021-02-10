@@ -64,7 +64,7 @@ You can also add columns for objects with client data: `customer` and `customer_
 Required fields:
 
 * the commerce account
-* the related currency account for the write-offs: if the currency of the selected payment service differs, we convert the funds on the [current exchange rate](/products/fx-rates/)
+* the related currency account for the write-offs: if the currency of the selected payment service differs, we convert the funds on the [current exchange rate](/products/currency-rates/)
 * the batch name
 
 The single item reference ID is created by connecting two elements: the batch ID and the payout `reference_id` specified in the table's corresponding CSV cell.
