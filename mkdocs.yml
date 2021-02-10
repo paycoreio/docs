@@ -288,6 +288,7 @@ nav:
     - ING Bank Poland: connectors/ingbankpl/index.md
     - Interkassa: connectors/interkassa/index.md
     - IPayTotal: connectors/ipaytotal/index.md
+    - Kassa: connectors/kassa/index.md
     - Klarna: connectors/klarna/index.md
     - Kuna: connectors/kuna/index.md
     - Leogaming: connectors/leogaming/index.md
