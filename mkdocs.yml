@@ -64,7 +64,7 @@ extra:
     pay_domain: "https://com.paycore.io"
     website_url: "https://paycore.io/"
     support_url: "https://support.paycore.io/"
-    support_email: "support@paycore.io"
+    support_email: "mailto:support@paycore.io"
     dashboard_base_url: "https://dashboard.paycore.io/"
     redoc_base_url: "https://apidoc.paycore.io/"
     swagger_base_url: "https://swagger.paycore.io/"
@@ -202,9 +202,9 @@ nav:
         #- Self-hosted payment page: products/hpp/self-hpp.md        
     #- Ledger: products/ledger/index.md        
     #- Batch Payouts: products/batch-payouts/index.md
-    - FX Rates:
-        - Overview: products/fx-rates/index.md
-        - How To: products/fx-rates/how-to.md
+    - Exchange Rates:
+        - Overview: products/currency-rates/index.md
+        - Supported Currencies: products/currency-rates/supported-currencies.md
     #- Ledger: 
     #    - Overview: products/ledger/index.md        
     #- Merchant Portal:
@@ -386,6 +386,7 @@ nav:
         - v1.5.6 (20/12/2019): release-notes/archive/2019/v1.5.6.md
         - v1.5.2 (13/12/2019): release-notes/archive/2019/v1.5.2.md
         - v1.5 (06/12/2019): release-notes/archive/2019/v1.5.md
+        - v1.4.45 (29/11/2019): release-notes/archive/2019/v1.4.45.md
         - v1.4.8 (22/11/2019): release-notes/archive/2019/v1.4.8.md
         - v1.4.4 (15/11/2019): release-notes/archive/2019/v1.4.4.md
         - v1.4.2 (08/11/2019): release-notes/archive/2019/v1.4.2.md
