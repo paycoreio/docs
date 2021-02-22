@@ -171,9 +171,10 @@ nav:
         - Payment Invoice: products/commerce/payment-invoice.md
         - Payout Invoice: products/commerce/payout-invoice.md
         #- Calculating Fees: products/commerce/calculating-fees.md
-    - Payment Gateway:
-        - Overview: products/payment-gateway/index.md
-        - Basic Concepts: products/payment-gateway/basic-concepts.md
+    - Accept Payments:
+        - Payment Flow Overview: products/payment-gateway/index.md
+        - How to Start Accept Payments: products/payment-gateway/how-to-start-accept-payments.md
+        - Payment Methods and Options: products/payment-gateway/methods-n-options.md
         - Managing Payments: products/payment-gateway/managing-payments.md
         - Managing Routing: products/payment-gateway/managing-routing.md
         - Payment Workflow: products/payment-gateway/payment-workflow.md
