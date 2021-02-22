@@ -1,4 +1,4 @@
-# Basic Concepts
+# Basic concepts
 
 ## Introduction
 
