@@ -1,7 +1,7 @@
 # Project information
-site_name: 'Paycore.io Developer Docs'
-site_description: 'PayCore.io public documentation'
-site_author: 'PayCore.io (c)'
+site_name: 'Corefy Developer Docs'
+site_description: 'Corefy public documentation'
+site_author: 'Corefy ©'
 site_url: https://docs.paycore.io/
 
 # Repository
@@ -9,7 +9,7 @@ site_url: https://docs.paycore.io/
 #repo_url: 'https://github.com/paycoreio/docs/'
 
 # Copyright
-copyright: '© 2017-2020 PayCore.io<sup>®</sup>. All Rights Reserved. <a href ="https://paycore.io/legal/" target="_blank" rel="noopener">Privacy & Terms.</a>'
+copyright: '© 2017-2021 Corefy<sup>®</sup>. All Rights Reserved. <a href ="https://corefy.com/privacy-policy" target="_blank" rel="noopener">Privacy Notice.</a>'
 
 # Configuration
 theme:
@@ -51,18 +51,22 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/facebook-f
-      link: 'https://facebook.com/paycore.io/'
+      link: 'https://www.facebook.com/corefy'
     - icon: fontawesome/brands/twitter
-      link: 'https://twitter.com/paycoreio'
+      link: 'https://twitter.com/corefy_com'
     - icon: fontawesome/brands/linkedin-in
-      link: 'https://www.linkedin.com/company/paycore/'
+      link: 'https://www.linkedin.com/company/corefycom'
+    - icon: fontawesome/brands/youtube
+      link: 'https://www.youtube.com/channel/UCWxS8ICD_VymZodUAqzKdVA'
+    - icon: fontawesome/brands/medium
+      link: 'https://corefy.medium.com/'
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/paycoreio'
   custom:
     docs_base_url: ""
-    company_name: "PayCore.io"
+    company_name: "Corefy"
     pay_domain: "https://com.paycore.io"
-    website_url: "https://paycore.io/"
+    website_url: "https://corefy.com/"
     support_url: "https://support.paycore.io/"
     support_email: "mailto:support@paycore.io"
     dashboard_base_url: "https://dashboard.paycore.io/"
@@ -291,6 +295,7 @@ nav:
     - Kassa: connectors/kassa/index.md
     - Klarna: connectors/klarna/index.md
     - Kuna: connectors/kuna/index.md
+    - Kuna Pay: connectors/kunapay/index.md
     - Leogaming: connectors/leogaming/index.md
     - LiqPay: connectors/liqpay/index.md
     - MaxPay: connectors/maxpay/index.md

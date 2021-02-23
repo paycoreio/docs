@@ -2,7 +2,7 @@
 
 # Exchange Rates
 
-An exchange rate is the value of one currency versus another currency. In most cases, exchange rates are free-floating and rise or fall based on supply and demand in the market. But others are strictly regulated by a decision of the governments or the central banks.
+An exchange rate is the value of one currency versus another currency. In most cases, exchange rates are free-floating and rise or fall based on supply and demand in the market. But others are strictly regulated by the decisions of governments or central banks.
 
 ## Types of Exchange Rates
 
@@ -47,7 +47,7 @@ After finding the proper exchange pair, you can choose a data source. In this dr
 
 ![Create New rule: choose Data source](images/currency_rate_rule_create.png)
 
-Then you can set fee values or assign zero values, and save. The resulting value of '*Estimated rate*' is the sum of the source rate and both types of fee: the rate fee (per cent of the source rate) and the fixed fee (in base currency).
+Then you can set fee values or assign zero values and save. The resulting value of '*Estimated rate*' is the sum of the source rate and both types of fee: the rate fee (per cent of the source rate) and the fixed fee (in base currency).
 
 $$
 \sum_{rate} = S_{rate} + \frac{S_{rate} \times F_{rate}} {100\%} + F_{fixed}
@@ -58,7 +58,7 @@ $$
 The *Estimated Rate* is applied to converting.
 
 !!! tip
-    Later, you can edit the name, description and any of scheme rules. You may also remove the scheme provided it is not used in the calculations for:
+    Later, you can edit the name, description and any of the scheme rules. You may also remove the scheme provided it is not used in the calculations for:
 
     - Payment Page
     - Payout Point
