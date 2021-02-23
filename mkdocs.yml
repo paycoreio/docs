@@ -1,7 +1,7 @@
 # Project information
-site_name: 'Paycore.io Developer Docs'
-site_description: 'PayCore.io public documentation'
-site_author: 'PayCore.io (c)'
+site_name: 'Corefy Developer Docs'
+site_description: 'Corefy public documentation'
+site_author: 'Corefy ©'
 site_url: https://docs.paycore.io/
 
 # Repository
@@ -9,7 +9,7 @@ site_url: https://docs.paycore.io/
 #repo_url: 'https://github.com/paycoreio/docs/'
 
 # Copyright
-copyright: '© 2017-2020 PayCore.io<sup>®</sup>. All Rights Reserved. <a href ="https://paycore.io/legal/" target="_blank" rel="noopener">Privacy & Terms.</a>'
+copyright: '© 2017-2021 Corefy<sup>®</sup>. All Rights Reserved. <a href ="https://corefy.com/privacy-policy" target="_blank" rel="noopener">Privacy Notice.</a>'
 
 # Configuration
 theme:
