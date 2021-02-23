@@ -172,9 +172,8 @@ nav:
         - Payout Invoice: products/commerce/payout-invoice.md
         #- Calculating Fees: products/commerce/calculating-fees.md
     - Accept Payments:
-        - Payment Flow Overview: products/payment-gateway/index.md
-        - How to Start Accept Payments: products/payment-gateway/how-to-start-accept-payments.md
-        - Payment Methods and Options: products/payment-gateway/methods-n-options.md
+        - Overview: products/payment-gateway/index.md
+        - Basic Concepts: products/payment-gateway/basic-concepts.md
         - Managing Payments: products/payment-gateway/managing-payments.md
         - Managing Routing: products/payment-gateway/managing-routing.md
         - Payment Workflow: products/payment-gateway/payment-workflow.md
@@ -292,6 +291,7 @@ nav:
     - Kassa: connectors/kassa/index.md
     - Klarna: connectors/klarna/index.md
     - Kuna: connectors/kuna/index.md
+    - Kuna Pay: connectors/kunapay/index.md
     - Leogaming: connectors/leogaming/index.md
     - LiqPay: connectors/liqpay/index.md
     - MaxPay: connectors/maxpay/index.md

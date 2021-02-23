@@ -68,8 +68,9 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/kassa/logo.svg?w=70" width="70px">  | [Kassa](/connectors/kassa/) | H2H Connection, Payouts, Account Balances  | BYN, EUR, KZT, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/klarna/logo.svg?w=90" width="90px"> | [Klarna](klarna/) | Payments | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/kuna/logo.svg?w=70" width="70px"> | [Kuna](kuna/) | Payments, Payouts, Account balances  | [according to the provider account settings] |
+| <img src="https://static.openfintech.io/payment_providers/kunapay/logo.svg?w=70" width="70px"> | [Kuna Pay](kunapay/) | H2H Connection, Payments, Payouts, Account balances  | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=80" width="80px"> | [LeoGaming](leogaming/) | Payouts, Account balances | [according to the provider account settings] |
-| <img src="https://static.openfintech.io/payment_providers/liqpay/logo.svg?w=70" width="70px">  | [LiqPay](liqpay/)  | H2H connection, Payments, Payouts, Account balances   | EUR, USD, UAH, RUB |
+| <img src="https://static.openfintech.io/payment_providers/liqpay/logo.svg?w=70" width="70px">  | [LiqPay](liqpay/)  | H2H connection, Payments, Payouts, Account balances   | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/manual/logo.svg?w=25" width="25px">  | [Manual](manual/) | manual connector for Swift and bank transfer methods | [according to the transfer parameters] |
 | <img src="https://static.openfintech.io/payment_providers/maxpay/logo.svg?w=90" width="90px">  | [Maxpay](maxpay/) | H2H Connection, Payments, Payouts, Account balances | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/mercuryo/logo.svg?w=90" width="90px">  | [mercuryo](mercuryo/)  | Payments | [according to the provider account settings] |
