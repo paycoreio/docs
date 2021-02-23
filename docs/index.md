@@ -1,4 +1,4 @@
-# Resources and tools to integrate [{{custom.company_name}}]({{custom.website_url}}) payments platform
+# Resources and tools to integrate [{{custom.company_name}}]({{custom.website_url}}) payment platform
 
 ![Build your payment solution!](images/intro.jpg)
 
