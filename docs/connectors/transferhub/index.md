@@ -14,9 +14,9 @@ Contact TransferHub support manager, submit the required documents to verify you
 
 Credentials that have to be issued:
 
-* Your Commerce Account ID
+* Your Account ID
 * API Key
-* Callback Secret Key
+* Private key &mdash; for Callback X-Signature
 
 ## Connect Provider Account
 
@@ -28,9 +28,9 @@ Press **Connect** at [*TransferHub Provider Overview*]({{custom.dashboard_base_u
 
 Enter credentials:
 
-* Commerce Account ID
+* Account ID
 * API Key
-* Callback Secret Key
+* Private key
 
 !!! success
     You have connected **TransferHub** account!
@@ -45,9 +45,9 @@ Press **Connect** at [*TransferHub Provider Overview*]({{custom.dashboard_base_u
 
 Enter credentials:
 
-* Commerce Account ID
+* Account ID
 * API Key
-* Callback Secret Key
+* Private key
 
 Choose Test Mode for test connection with TransferHub.
 

@@ -18,9 +18,9 @@ Send a request on the website and contact PayMega.io support manager.
 
 Credentials that have to be issued:
 
-- Commerce Account ID
+- Account ID
 - API key
-- Callback Secret key
+- Private key &mdash; for Callback X-Signature
 
 ## Connect Provider Account
 
@@ -32,9 +32,9 @@ Press **Connect** at [*PayMega.io Provider Overview*]({{custom.dashboard_base_ur
 
 Enter credentials:
 
-- Commerce Account ID
+- Account ID
 - API key
-- Callback Secret key
+- Private key
 
 !!! success
     You have connected **PayMega.io** account!
@@ -49,9 +49,9 @@ Press **Connect** at [*PayMega.io Provider Overview*]({{custom.dashboard_base_ur
 
 Enter credentials:
 
-- Commerce Account ID
+- Account ID
 - API Key
-- Callback Secret key
+- Private key
 
 Choose Test Mode for test connection with PayMega.io.
 
