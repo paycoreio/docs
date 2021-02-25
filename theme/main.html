@@ -7,29 +7,29 @@
   {% if page and page.meta and page.meta.title %}
     <meta property="og:title" content="{{ page.meta.title }}">
   {% elif page and page.title and not page.is_homepage %}
-    <meta property="og:title" content="{{ page.title }} - {{ config.site_name }}">
+    <meta property="og:title" content="{{ page.title }} — {{ config.site_name }}">
   {% else %}
     <meta property="og:title" content="{{ config.site_name }}">
   {% endif %}
   <meta property="og:description" content="{{ config.site_description }}">
-  <meta property="og:image" content="https://og-image.now.sh/{{ page.title|urlencode }}.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg&images=https%3A%2F%2Fdocs.paycore.io%2Fimages%2Fpaycore-white.svg">
-  <meta property="og:image:alt" content="PayCore.io<sup>®</sup> Documentation">
+  <meta property="og:image" content="https://og-image.now.sh/{{ page.title|urlencode }}.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg&images=https%3A%2F%2Fdocs.paycore.io%2Fimages%2Fcorefy-logo.svg">
+  <meta property="og:image:alt" content="Corefy<sup>®</sup> Documentation">
   <meta property="og:image:type" content="images/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@paycoreio">
-  <meta name="twitter:creator" content="@paycoreio">
+  <meta name="twitter:site" content="@corefy_com">
+  <meta name="twitter:creator" content="@corefy_com">
   {% if page and page.meta and page.meta.title %}
     <meta property="twitter:title" content="{{ page.meta.title }}">
   {% elif page and page.title and not page.is_homepage %}
-    <meta property="twitter:title" content="{{ page.title }} - {{ config.site_name }}">
+    <meta property="twitter:title" content="{{ page.title }} — {{ config.site_name }}">
   {% else %}
     <meta property="twitter:title" content="{{ config.site_name }}">
   {% endif %}
   <meta name="twitter:description" content="{{ config.site_description }}">
-  <meta name="twitter:image" content="https://og-image.now.sh/{{ page.title|urlencode }}.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg&images=https%3A%2F%2Fdocs.paycore.io%2Fimages%2Fpaycore-white.svg">
-  <meta name="twitter:image:alt" content="PayCore.io<sup>®</sup> Documentation">
+  <meta name="twitter:image" content="https://og-image.now.sh/{{ page.title|urlencode }}.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg&images=https%3A%2F%2Fdocs.paycore.io%2Fimages%2Fcorefy-logo.svg">
+  <meta name="twitter:image:alt" content="Corefy<sup>®</sup> Documentation">
 
 {% endblock %}
