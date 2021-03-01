@@ -244,6 +244,7 @@ nav:
         - Test Connector: connectors/test/index.md
         - Test Card Payments: connectors/test/test-card-numbers.md
     - Manual: connectors/manual/index.md
+    - External Provider: connectors/externalprovider/index.md
       #- AustralPay: connectors/australpay/index.md
       #- CoinPayments:connectors/coinpayments/index.md
       #- Enfins: connectors/enfins/index.md
