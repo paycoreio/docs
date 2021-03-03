@@ -4,14 +4,15 @@ Below is the complete list of {{custom.company_name}} supported currencies. **Ze
 
 | ISO Code | Currency                              | ISO Code | Currency                               |
 |:--------:|:--------------------------------------|:--------:|:---------------------------------------|
-|   AED    | United Arab Emirates (Emirati) dirham |   KGS    | Kyrgyzstani som                        |
-|   AMD    | Armenian dram                         | **KRW**  | **South Korean (Korean Republic) won** |
-|   ARS    | Argentine peso                        |   KZT    | Kazakhstani tenge                      |
+|   AED    | United Arab Emirates (Emirati) dirham | **KRW**  | **South Korean (Korean Republic) won** |
+|   AMD    | Armenian dram                         |   KZT    | Kazakhstani tenge                      |
+|   ARS    | Argentine peso                        |   LKR    | Sri Lankan rupee                       |
 |   AUD    | Australian dollar                     |   MDL    | Moldovan leu                           |
 |   AZN    | Azerbaijani manat                     |   MXN    | Mexican peso                           |
-|   BGN    | Bulgarian lev                         |   MYR    | Malaysian ringgit                      |
-|   BOB    | Bolivian boliviano                    |   NGN    | Nigerian naira                         |
-|   BRL    | Brazilian real                        |   NOK    | Norwegian krone                        |
+|   BDT    | Bangladeshi taka                      |   MYR    | Malaysian ringgit                      |
+|   BGN    | Bulgarian lev                         |   NGN    | Nigerian naira                         |
+|   BOB    | Bolivian boliviano                    |   NOK    | Norwegian krone                        |
+|   BRL    | Brazilian real                        |   NPR    | Nepalese rupee                         |
 |   BYN    | Belarusian ruble                      |   NZD    | New Zealand dollar                     |
 |   CAD    | Canadian dollar                       |   PEN    | Peruvian sol                           |
 |   CHF    | Swiss franc                           |   PHP    | Philippine peso                        |
@@ -33,6 +34,7 @@ Below is the complete list of {{custom.company_name}} supported currencies. **Ze
 |   INR    | Indian rupee                          |   UZS    | Uzbekistani soʻm                       |
 | **JPY**  | **Japanese yen**                      | **VND**  | **Vietnamese đồng**                    |
 |   KES    | Kenyan shilling                       |   ZAR    | South African rand                     |
+|   KGS    | Kyrgyzstani som                       |          |                                        |
 |          |                                       |          |                                        |
 |   BCH    | Bitcoin Cash                          |   ETH    | Ethereum                               |
 |   BTC    | Bitcoin                               |   LTC    | Litecoin                               |
