@@ -4,6 +4,7 @@
 *[ARS]: The Argentine peso
 *[AUD]: The Australian dollar
 *[AZN]: The Azerbaijani manat
+*[BDT]: The Bangladeshi taka
 *[BGN]: The Bulgarian lev
 *[BOB]: The Bolivian boliviano
 *[BRL]: The Brazilian real
@@ -18,21 +19,26 @@
 *[EUR]: The euro
 *[GBP]: The British pound sterling
 *[GEL]: The Georgian lari
+*[GHS]: The Ghanaian cedi
 *[GIP]: The Gibraltar pound
 *[HKD]: The Hong Kong dollar
 *[HRK]: The Croatian kuna
 *[HUF]: The Hungarian forint
+*[IDR]: The Indonesian rupiah
 *[ILS]: The Israeli new shekel
 *[INR]: The Indian rupee
 *[JPY]: The Japanese yen
+*[KES]: The Kenyan shilling
 *[KGS]: The Kyrgyzstani som
 *[KRW]: The South Korean (Korean Republic) won
 *[KZT]: The Kazakhstani tenge
+*[LKR]: The Sri Lankan rupee
 *[MDL]: The Moldovan leu
 *[MXN]: The Mexican peso
 *[MYR]: The Malaysian ringgit
 *[NGN]: The Nigerian naira
 *[NOK]: The Norwegian krone
+*[NPR]: The Nepalese rupee
 *[NZD]: The New Zealand dollar
 *[PEN]: The Peruvian sol
 *[PHP]: The Philippine peso
@@ -54,9 +60,6 @@
 *[UZS]: The Uzbekistani soʻm
 *[VND]: The Vietnamese đồng
 *[ZAR]: The South African rand
-*[GHS]: The Ghanaian cedi
-*[IDR]: The Indonesian rupiah
-*[KES]: The Kenyan shilling
 *[BCH]: Bitcoin Cash
 *[BTC]: Bitcoin
 *[DASH]: Dash (cryptocurrency)
