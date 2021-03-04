@@ -16,12 +16,12 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v2 
         with: 
-          python-version: '3.x' 
+          python-version: '3.9.1' 
       - run: python -m pip install --upgrade pip 
       - name: Install theme 
         run: |
-          pip install mkdocs-material==6.1.7
-          pip install mkdocs-macros-plugin==0.5.0 mkdocs-markdownextradata-plugin==0.1.9 mkdocs-minify-plugin==0.3.0 mkdocs-material-extensions==1.0.1
+          pip install mkdocs==1.1.2 mkdocs-material==6.1.7
+          pip install mkdocs-macros-plugin==0.5.0 mkdocs-markdownextradata-plugin==0.2.4 mkdocs-minify-plugin==0.4.0 mkdocs-material-extensions==1.0.1
       - name: Build docs
         run:  |
           git clean -f -d -x
@@ -35,12 +35,12 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v2 
         with: 
-          python-version: '3.x' 
+          python-version: '3.9.1' 
       - run: python -m pip install --upgrade pip
       - name: Install theme 
         run: | 
-          pip install mkdocs-material==6.1.7
-          pip install mkdocs-macros-plugin==0.5.0 mkdocs-markdownextradata-plugin==0.1.9 mkdocs-minify-plugin==0.3.0 mkdocs-material-extensions==1.0.1
+          pip install mkdocs==1.1.2 mkdocs-material==6.1.7
+          pip install mkdocs-macros-plugin==0.5.0 mkdocs-markdownextradata-plugin==0.2.4 mkdocs-minify-plugin==0.4.0 mkdocs-material-extensions==1.0.1
       - name: Deploy docs
         run: |
           mkdocs gh-deploy --force
