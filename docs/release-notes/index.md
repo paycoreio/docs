@@ -8,7 +8,7 @@ This changelog lists releases by date and version number along with associated c
 
 ### [March 3, 2021 (versions 1.44, 1.43, 1.42, 1.41, 1.40, 1.39, 1.38, & 1.37)](v1.37-1.44/)
 
-* [Payout Gateway update](v1.37-1.44/#payout-gateway-update): added possibility to resolve statement conflict from the Dashboard
+* [Payout Gateway update](v1.37-1.44/#payout-gateway-update): added possibility to resolve statement conflict from dashboard
 * [Extended Export Data Files](v1.37-1.44/#extended-export-data-files) and add new fields
 * Update [Addons](v1.37-1.44/#addons-editing): add editing option
 * [Performance Improvements](v1.37-1.44/#performance-improvements)
