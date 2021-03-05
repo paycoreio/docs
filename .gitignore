@@ -2,3 +2,4 @@ site
 .idea
 .vscode
 mindmap.mm.md
+Dockerfile
