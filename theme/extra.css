@@ -3,9 +3,9 @@
 .md-typeset code {
     word-break:normal;
 }
-
+/*
 .md-typeset .magiclink:before{position:relative;padding-right:.25rem;font-family:FontAwesome;-moz-osx-font-smoothing:initial;-webkit-font-smoothing:initial;font-weight:400}.md-typeset .magiclink-repository.magiclink-github:before{content:""}.md-typeset .magiclink-repository.magiclink-gitlab:before{content:""}.md-typeset .magiclink-repository.magiclink-bitbucket:before{content:""}.md-typeset {}
-
+*/
 img[src*='#w40'] {
     width: 40px;
 }
@@ -42,4 +42,4 @@ img[src*='#w200'] {
     max-height: 3.6em;
     padding-top: 1.2em;
     padding-left: 0.6em;
-} 
+}

@@ -14,7 +14,8 @@
     <a href="{{ site_url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}">
       {% include "partials/logo.html" %}
     </a>
-    <a href="{{ site_url }}" title="{{ config.site_name | e }}">{{ config.site_name }}</a>  </label>
+    {{ config.site_name }}
+  </label>
   {% if config.repo_url %}
     <div class="md-nav__source">
       {% include "partials/source.html" %}
@@ -22,7 +23,7 @@
   {% endif %}
   <ul class="md-nav__list" data-md-scrollfix>
     {% for nav_item in nav %}
-      {% set path = "nav-" ~ loop.index %}
+      {% set path = "__nav_" ~ loop.index %}
       {% set level = 1 %}
       {% include "partials/nav-item.html" %}
     {% endfor %}
