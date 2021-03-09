@@ -1,6 +1,6 @@
 # {{custom.company_name}} Products
 
-![PayСore.io Products](/images/cubes.jpg)
+![{{custom.company_name}} Products](/images/cubes.jpg)
 
 Welcome to {{custom.company_name}}! Get familiar with the {{custom.company_name}} products and explore their features:
 

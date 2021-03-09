@@ -91,9 +91,9 @@ You also have the option to exclude card object from the callback. Enabling this
 
 ## Signature
 
-PayСore.io sign data using secret keys. They can be obtained in organization or Commerce Account settings. All callbacks are signed `live` or `test` secret key according to the mode in which operation has been created.
+{{custom.company_name}} sign data using secret keys. They can be obtained in organization or Commerce Account settings. All callbacks are signed `live` or `test` secret key according to the mode in which operation has been created.
 
-PayСore.io sends signature in `X-Signature` callback request header. The signature is created by next algorithm:
+{{custom.company_name}} sends signature in `X-Signature` callback request header. The signature is created by next algorithm:
 
 ``` php
 $signature = base64_encode(sha1($secret . $callbackData . $secret, true));
@@ -102,7 +102,7 @@ $signature = base64_encode(sha1($secret . $callbackData . $secret, true));
 Where the `$secret` is one your secrets: `test` or `live`, `$callbackData` is raw json data.
 
 !!! note
-      To be sure you got data from PayСore, you should compute the signature using an appropriate secret key and compare with ones from PayСore.io callback data.
+      To be sure you got data from PayСore, you should compute the signature using an appropriate secret key and compare with ones from {{custom.company_name}} callback data.
 
 ## Timeouts
 

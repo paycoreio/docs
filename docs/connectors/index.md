@@ -137,7 +137,7 @@ Usually, the connection algorithm includes the following steps:
 
 1. Create an account on the side of the payment provider
 2. Set up your provider or merchant account and get credentials for the further connection
-3. Connect the account in the [PayСore.io Dashboard]({{custom.dashboard_base_url}})
+3. Connect the account in the [{{custom.company_name}} Dashboard]({{custom.dashboard_base_url}})
 
 !!! attention "Please note"
     - Sub-steps can be different, since methods of data storage, delivery and organisation are unique for each provider.

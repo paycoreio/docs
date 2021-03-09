@@ -36,7 +36,7 @@ Follow the guidance for setting up a connection with AdvCash payment provider.
 ### Step 2: Set up the properties
 
 * API Name
-* IP Addresses (comma-separated list): add all necessary IP addresses including [PayСore.io white-list IP addresses](/integration/ips/)
+* IP Addresses (comma-separated list): add all necessary IP addresses including [{{custom.company_name}} white-list IP addresses](/integration/ips/)
 * API Password
 
 * Tick all checkboxes:

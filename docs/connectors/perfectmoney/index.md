@@ -26,7 +26,7 @@ Here You can find  instructions for setting up [ **PerfectMoney** account](https
 - Go to the **`Settings`**
 - Find **`Security`**  section
 - Enable **`API access`**
-- Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
+- Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/)
     
     !!! tip
         IP list should contains IP adresses separated with **`;`**.

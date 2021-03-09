@@ -28,6 +28,9 @@ Find it in the *API* section of the UI.
 
 If you’re going to set up a H2H connection, you will also need the Server Token.
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 ## Connect Provider Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard

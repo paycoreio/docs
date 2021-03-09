@@ -85,7 +85,7 @@ This section contains settings, which determine the external interaction with co
 
 #### Keys
 
-Keys subsection relates to [Commerce Public API](https://swagger-dev.{{custom.company_name}}/commerce-public/#/). 
+Keys subsection relates to [Commerce Public API](https://swagger-dev.paycore.io/commerce-public/#/). 
 
  
 **`Public`** Keys are used to: 
@@ -125,7 +125,7 @@ This subsection contains:
 
 #### API Keys
 
-API key relates to [Commerce Private API](https://swagger-dev.{{custom.company_name}}/commerce/#/).
+API key relates to [Commerce Private API](https://swagger-dev.paycore.io/commerce/#/).
 
 !!! info
     To authorize the connection **`basic auth`** is used.

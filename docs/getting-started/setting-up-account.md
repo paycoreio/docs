@@ -40,14 +40,14 @@ After successful registration, you need to connect your existing merchant accoun
 
 But before that, it is necessary to connect the first provider and create routing schemes for payments and payouts.  
 
-The list of all available integrations can be found in the [Connectors](https://docs.{{custom.company_name}}/connectors/).
+The list of all available integrations can be found in the [Connectors](https://docs.paycore.io/connectors/).
 
 To connect a **Payment Provider**, follow these steps:
 
 1. Click on [New Connection]({{custom.dashboard_base_url}}connect-directory/payment-providers) section to access providers directory.
 2. Select the desired provider and click on its logo. Payment providers, that are available for connection, are marked with `Ready` flag in the top right corner. Contact our [Customer Support](mailto:{{custom.support_email}}) if you don’t find a payment provider in the list of payment providers or integration is not yet implemented. We will do our best to deliver it right for you as soon as possible, generally under 7 business days.
 ![](images/connectors.png)
-3. Each connector has its unique properties and account credentials to connect. For more information please follow the steps of the accompanying [connection guide](https://docs.{{custom.company_name}}/connectors/) for every provider to set up the connection properly. Once you set up everything, you must click **Save** to get online with the payment provider. To quickly test your integration with {{custom.company_name}}, you may connect a **Test Connector** in 2 clicks!
+3. Each connector has its unique properties and account credentials to connect. For more information please follow the steps of the accompanying [connection guide](https://docs.paycore.io/connectors/) for every provider to set up the connection properly. Once you set up everything, you must click **Save** to get online with the payment provider. To quickly test your integration with {{custom.company_name}}, you may connect a **Test Connector** in 2 clicks!
 ![](images/test-connector.png)
 4. Immediately afterwards, {{custom.company_name}} will automatically check all available payment methods, payment and payout routes in supported currencies for your merchant account in the payment provider or acquirer. Now all is done!
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-[User profile]({{custom.dashboard_base_url}}user/settings/) is the part of[>PayСore.io Dashboard]({{custom.dashboard_base_url}}), where You can:
+[User profile]({{custom.dashboard_base_url}}user/settings/) is the part of[>{{custom.company_name}} Dashboard]({{custom.dashboard_base_url}}), where You can:
 
 
 - [x] Configure your personal info

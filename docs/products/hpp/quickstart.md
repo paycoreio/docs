@@ -101,13 +101,13 @@ Here’s how it can look like:
 === "QR Code (Image)"
 
     ```html
-    <img alt="Payment Link" src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.{{custom.company_name}}%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100">
+    <img alt="Payment Link" src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.paycore.io%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100">
     ```
 
 ??? tip "Payment Link as a QR-Code"
     Payment Link could be generated even like a QR code:
 
-    ![Payment Link](https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.{{custom.company_name}}%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100)
+    ![Payment Link](https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fcom.paycore.io%2Fhpp%2F%3Fpublic_key%3Dyour_public_key%26currency%3DUSD%26description%3DSome%2520goods%26amount%3D100)
 
 ### Widget vs Link
 

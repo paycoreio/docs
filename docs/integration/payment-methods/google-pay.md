@@ -122,7 +122,7 @@ The overall transaction flow is similar to the standard Google Pay process. {{cu
 
     `token` allows you initiate verify or charge flow transferring it to the Google Pay.
 
-    **Endpoint**: `https://cardgate.{{custom.company_name}}/payment/sale`
+    **Endpoint**: `https://cardgate.paycore.io/payment/sale`
 
     **Method**: POST
 

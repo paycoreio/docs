@@ -262,7 +262,7 @@ nav:
     - Bank Onego: connectors/bankonego/index.md
     - Billline: connectors/billline/index.md
     - CardGate: connectors/cardgate/index.md
-    - CardPay: connectors/cardpay/index.md
+    - CardPay (Unlimint): connectors/cardpay/index.md
     - Cashfree: connectors/cashfree/index.md
     - Cauri: connectors/cauri/index.md
     - Certus Finance: connectors/certusfinance/index.md
@@ -328,6 +328,7 @@ nav:
     - Platio: connectors/platio/index.md
     - Portmone.com: connectors/portmone/index.md
     - Procard: connectors/procard/index.md
+    - PUMB (FUIB): connectors/pumb/index.md
     - Raiffeisen Bank: connectors/raiffeisenbank/index.md
     - Rapyd.net: connectors/rapyd/index.md
     - RBK Money: connectors/rbkmoney/index.md

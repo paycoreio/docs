@@ -10,7 +10,7 @@ Follow the guidance for setting up a connection with *WPayments* payment service
 
 ### Step 1: Contact *WPayments* support
 
-Send a request, Submit the required documents to verify your account and gain access to the *Backoffice*.
+Send a request, submit the required documents to verify your account and gain access to the *Backoffice*.
 
 ### Step 2: Get credentials
 
@@ -26,8 +26,11 @@ Credentials that have to be issued:
 ![Details](images/shop-details.png)
 ![Secret key](images/secret-key.png)
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 !!! note "Please note"
-    Be aware if you generate new keys in the *WPayments* backoffice, you will also should re-connect your account with new credentials in the {{custom.company_name}} dashboard.
+    If you generate new keys in the *WPayments* backoffice, you will also should re-connect your account with new credentials in the {{custom.company_name}} dashboard.
 
 ## Connect Provider Account
 

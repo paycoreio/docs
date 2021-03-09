@@ -37,6 +37,9 @@ To connect Provider Account, you should also copy ID for the chosen wallet.
 
 ![Wallet ID](images/id.png)
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 ## Connect Provider Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard

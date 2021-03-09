@@ -18,6 +18,9 @@ Credentials that have to be issued:
 * API Key
 * Private key &mdash; for Callback X-Signature
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 ## Connect Provider Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard

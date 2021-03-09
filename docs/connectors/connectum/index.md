@@ -26,6 +26,9 @@ Credentials that have to be obtained from your Connectum account manager:
 * archive file with your PKCS key --> unpack it and save the key
 * certificate password
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 !!! note "Please keep in mind"
     Connectum renews access certificates annually, so stay in touch with your account manager to timely know about updates. Once your certificate has been updated, you will need to reconnect your accounts.
 
