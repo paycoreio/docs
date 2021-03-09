@@ -22,6 +22,9 @@ Send a request on the [website](https://business.uapay.ua/about/contacts/) or ca
 
 ![Find Secret Key](images/secret-key.png)
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 ## Connect Provider Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard

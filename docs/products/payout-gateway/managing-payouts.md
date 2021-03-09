@@ -39,7 +39,7 @@ This example shows how to create a Payout Request:
 
 ```http
 POST /v1/payout-gateway/payout-requests HTTP/1.1
-Host: api.{{custom.company_name}}
+Host: api.paycore.io
 Content-Type: application/json
 
 {

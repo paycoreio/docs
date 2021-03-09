@@ -12,7 +12,7 @@ Here You can find  instructions for setting up **Neteller**  account.
 
 1. Go to the **`Developer`** settings
 2. Open **`API`** section
-3. Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
+3. Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/)
 
 ![API](images/ips_1.png)
 

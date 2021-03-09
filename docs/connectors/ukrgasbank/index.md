@@ -24,7 +24,7 @@ Send a request on the [website](https://www.ukrgasbank.com/) or call the hotline
 * Jump to the *AccountToCard* section --> *Terminals* tab --> *Add new terminal*.
 
 !!! caution
-    Be sure to specify a whitelist IP address for requests.
+    Be sure to specify [whitelist IP addresses](/integration/ips/) for requests.
 
     Each terminal must be added separately.
 

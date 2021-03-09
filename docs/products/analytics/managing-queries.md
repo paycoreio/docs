@@ -401,7 +401,7 @@ We use two parameters:  `{{org_id}}`  and  `{{start_date}}`.
 
 ## Parameter Mapping on Dashboards
 
-This is currently available on  [PayCore.Analytics](https://analytics.{{custom.company_name}}/)  and is part of the next Open Source release (v7.0).
+This is currently available on  [PayCore.Analytics](https://analytics.paycore.io/)  and is part of the next Open Source release (v7.0).
 
 Query Parameters can also be powerfully controlled within dashboards. You can link together parameters on different widgets, set static parameter values, or choose values individually for each widget.
 

@@ -26,6 +26,9 @@ Credentials that have to be issued:
 
 You can gain them from your account administrator (or take from the backend UI if you have specific administration rights).
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 <!--
 ## Connect Provider Account
 

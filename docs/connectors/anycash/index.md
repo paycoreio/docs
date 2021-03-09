@@ -27,6 +27,9 @@ Credentials that have to be issued:
 * Merchant ID
 * Signature key
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 ## Connect Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard

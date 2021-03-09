@@ -28,7 +28,7 @@ Here You can find  instructions for setting up [**Skrill**  account](https://acc
     - Automated Payment Interface (API)
     - Merchant Query Interface (MQI)
     - Quick Checkout Secure Restriction
-3. Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/) to **each** service
+3. Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/) to **each** service
 4. Set up parameters:
     - MQI/API password 
     - Secret word

@@ -48,7 +48,7 @@ Here You can find  instructions for setting up **Piastrix**  account.
     
     - Go to the Security settings
     - Set new or get exists key
-    - Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
+    - Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/)
 
 ![Secret](images/security_1.png)
 

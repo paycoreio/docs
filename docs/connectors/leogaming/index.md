@@ -19,7 +19,7 @@ Contact with LeoGaming Support Manager to get help with creating.
 
 2. Go to the Point settings
 
-3. (Optional)  Add all necessary IP adressess to the White list, including  [PayСore.io white-list IP addresses](/integration/ips/)
+3. (Optional)  Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/)
 
 4. Generate keys
 

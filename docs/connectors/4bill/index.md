@@ -17,7 +17,7 @@ Follow the guidance for setting up a connection with 4bill payment service provi
 
 To create an account send connection request at the [website](https://4bill.io/) or contact manager directly. Submit the required documents to verify your account and gain access.
 
-#### Step 2: Get required credentials
+### Step 2: Get required credentials
 
 Credentials that have to be issued:
 
@@ -26,6 +26,9 @@ Credentials that have to be issued:
 * point_id
 * service_id (you need a separate service code for each requested feature)
 * api_token
+
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
 
 ## Connect Provider Account
 

@@ -16,7 +16,7 @@ Send a request on the [website](https://business.rsb.ru/) or call the hotline. S
 
 ### Step 2: Get credentials
 
-You obtain your Merchant ID to the Ecomm system. The bank send you instructions and Openssl generator files. You need to check that you have installed the latest version of Openssl, generate the `MerchantID.key` and `MerchantID.req` files according to the instructions. You should send the `MerchantID.req` file to your Bank account manager also indicating your Merchant ID and your legal name, your site Return URL, and a list of IP addresses which payment requests will be sent from.
+You obtain your Merchant ID to the Ecomm system. The bank send you instructions and Openssl generator files. You need to check that you have installed the latest version of Openssl, generate the `MerchantID.key` and `MerchantID.req` files according to the instructions. You should send the `MerchantID.req` file to your Bank account manager also indicating your Merchant ID and your legal name, your site Return URL, and a list of IP addresses which payment requests will be sent from (be sure to specify IP addresses from the [Corefy list](/integration/ips/)).
 
 Credentials that have to be obtained from the Bank response:
 

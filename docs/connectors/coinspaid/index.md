@@ -35,6 +35,9 @@ Make sure that all necessary currencies are enabled on your merchant account, fo
 
 ![Currency list](images/currencies.png)
 
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
+
 ## Connect Provider Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard
