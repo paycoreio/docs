@@ -34,11 +34,3 @@ img[src*='#w200'] {
 .hpp_container iframe {
     border-radius: 10px;        
 }
-
-/* crutch fix for navigation tabs list */
-
-.md-tabs {
-    font-size: 1.2em;
-    max-height: 3.6em;
-    padding-top: 1em;
-}
