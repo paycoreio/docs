@@ -40,6 +40,5 @@ img[src*='#w200'] {
 .md-tabs {
     font-size: 1.2em;
     max-height: 3.6em;
-    padding-top: 1.2em;
-    padding-left: 0.6em;
+    padding-top: 1em;
 }
