@@ -60,4 +60,4 @@ Choose Currency and Features and check details of the connection with your {{cus
     You have connected **TransferHub** H2H merchant account!
 
 !!! question "Still looking for help connecting your TransferHub account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

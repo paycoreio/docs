@@ -43,4 +43,4 @@ Also, choose Test Mode for test connection with Cashfree.
     You have connected **Cashfree** account!
 
 !!! question "Still looking for help connecting your Cashfree account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

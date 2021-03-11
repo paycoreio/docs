@@ -50,4 +50,4 @@ Enter the credentials obtained for your account:
     You have connected **Certus Finance** account!
 
 !!! question "Still looking for help connecting your Certus Finance account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

@@ -7,4 +7,4 @@
 **Website**: [rbinternational.com](https://www.rbinternational.com/en/homepage.html)
 
 !!! question "Looking for help connecting your Raiffeisen Bank account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

@@ -127,7 +127,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/xpayua/logo.svg?w=70" width="70px">  | [XPAY](xpayua/)  | Payments, Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/zotapay/logo.png?w=70" width="70px">  | [Zotapay](zotapay/)   | Payments, Payouts, Account balances | EUR, GHS, IDR, KES, MYR, NGN, THB, TZS, USD, VND, ZAR |
 
-You can also send a request about a new connection by clicking the appropriate button on the [dashboard]({{custom.dashboard_base_url}}connect-directory/payment-providers) or [emailing our support team](mailto:{{custom.support_email}}).
+You can also send a request about a new connection by clicking the appropriate button on the [dashboard]({{custom.dashboard_base_url}}connect-directory/payment-providers) or <!--email_off-->[emailing our support team](mailto:{{custom.support_email}}).<!--/email_off-->
 
 ## How to Connect to the Payment Provider
 
@@ -145,7 +145,7 @@ Usually, the connection algorithm includes the following steps:
     - The credential parameters format must be appropriate to the connection form's requirements.
 
 !!! question "Contact us"
-    If you have any questions, feature suggestions or ideas, feel free to contact our support team via [email](mailto:{{custom.support_email}}) or [Jira service desk]({{custom.support_url}}).
+    If you have any questions, feature suggestions or ideas, feel free to contact our support team via <!--email_off-->[email](mailto:{{custom.support_email}})<!--/email_off--> or [Jira service desk]({{custom.support_url}}).
 
 [^1]: You can find the complete list of currencies {{custom.company_name}} support [here](/products/currency-rates/supported-currencies/).
 

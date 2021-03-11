@@ -69,4 +69,4 @@ Choose Currency and Features. You can set these parameters according to availabl
     You have connected **Axcess Merchant Services** H2H merchant account!
 
 !!! question "Still looking for help connecting your Axcess Merchant Services account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

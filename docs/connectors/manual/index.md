@@ -19,4 +19,4 @@ Press **Connect** at [*Manual Provider Overview*]({{custom.dashboard_base_url}}c
     You have connected Manual connector! Now you can use it to send and receive Swift and bank transfer transactions.
 
 !!! question "Still looking for help connecting Manual connector?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

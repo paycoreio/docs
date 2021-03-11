@@ -76,4 +76,4 @@ The PCI requirements for our integration methods are as follows:
 
 ## Can we help?
 
-If you have any questions or are unsure about PCI compliance, please contact our support team at  [{{custom.support_email}}](mailto:{{custom.support_email}}).
+If you have any questions or are unsure about PCI compliance, please contact our support team at  <!--email_off-->[{{custom.support_email}}](mailto:{{custom.support_email}})<!--/email_off-->.

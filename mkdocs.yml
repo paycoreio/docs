@@ -68,7 +68,7 @@ extra:
     pay_domain: "https://com.paycore.io"
     website_url: "https://corefy.com/"
     support_url: "https://support.paycore.io/"
-    support_email: "mailto:support@paycore.io"
+    support_email: "support@corefy.com"
     dashboard_base_url: "https://dashboard.paycore.io/"
     redoc_base_url: "https://apidoc.paycore.io/"
     swagger_base_url: "https://swagger.paycore.io/"

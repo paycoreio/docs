@@ -42,4 +42,4 @@ Choose your API type from the dropdown list.
     You have connected **Odysseq** account!
 
 !!! question "Still looking for help connecting your Odysseq account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

@@ -244,4 +244,4 @@ The overall transaction flow is similar to the standard Google Pay process. {{cu
 5. The response from {{custom.company_name}} will contain the transaction result.
 
 !!! question "Looking for help connecting the Google Pay method via {{custom.company_name}}?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

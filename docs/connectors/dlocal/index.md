@@ -78,4 +78,4 @@ Make sure enable test mode if you specify test credentials (or vice versa).
     You have connected **dLocal** provider account!
 
 !!! question "Still looking for help connecting your dLocal account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

@@ -60,4 +60,4 @@ Choose Currency and Features: set these parameters according to available curren
 -->
 
 !!! question "Still looking for help connecting your Mine.Exchange account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

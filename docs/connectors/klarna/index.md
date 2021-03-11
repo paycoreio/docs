@@ -7,4 +7,4 @@
 **Website**: [klarna.com](https://www.klarna.com/international/)
 
 !!! question "Looking for help connecting your Klarna account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

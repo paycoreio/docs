@@ -57,4 +57,4 @@ Choose Test Mode for test connection. Choose currencies to use.
     You have connected **CoinGate** account!
 
 !!! question "Still looking for help connecting your CoinGate account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

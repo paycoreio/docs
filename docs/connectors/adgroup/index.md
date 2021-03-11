@@ -67,4 +67,4 @@ Also, choose *Save Instant Token* option if you plan to use the ADgroup account 
     You have connected **ADgroup** H2H merchant account!
 
 !!! question "Still looking for help connecting your ADgroup account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

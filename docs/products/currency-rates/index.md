@@ -23,7 +23,7 @@ An exchange rate is the value of one currency versus another currency. In most c
 
 ![The list of sources](images/resources-list.png)
 
-Please [contact us]({{custom.support_email}}) if you need to set up a connection with the other source.
+Please <!--email_off-->[contact us](mailto:{{custom.support_email}})<!--/email_off--> if you need to set up a connection with the other source.
 
 ## Rate Schemes
 

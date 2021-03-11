@@ -2,7 +2,7 @@
 
 # {{custom.company_name}} FAQ
 
-Welcome to the Frequently Asked Questions about interaction and working with {{custom.company_name}}! This list is not conclusive, and we regularly improve and update it with new cases. If you don’t find the answer you’re looking for here, submit your request to [our support team](mailto:{{custom.support_email}}), we’ll be happy to help you.
+Welcome to the Frequently Asked Questions about interaction and working with {{custom.company_name}}! This list is not conclusive, and we regularly improve and update it with new cases. If you don’t find the answer you’re looking for here, submit your request to <!--email_off-->[our support team](mailto:{{custom.support_email}})<!--/email_off-->, we’ll be happy to help you.
 
 ## Troubleshoot Password, Email Address, and Login Problems
 
@@ -22,13 +22,13 @@ Welcome to the Frequently Asked Questions about interaction and working with {{c
     1. If you use the Authy app, download the desktop version to your laptop or desktop computer. You can then get the authentication code on your computer and use that code to log in.
     2. Also, you can [change the mobile phone number with Authy :material-launch:](https://www.authy.com/phones/change/) and have the authentication code sent to a different mobile phone number.
     3. If you have saved list with one-time 10-digits codes to restore access, enter one of them in the field for two-factor authentication.
-    4. Contact [{{custom.company_name}} support](mailto:{{custom.support_email}}) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
+    4. Contact <!--email_off-->[{{custom.company_name}} support](mailto:{{custom.support_email}})<!--/email_off--> to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
 
 ??? question "Does your authentication fail several times?"
     1. If your authentication fails several times, you may need to synchronize your phone's clock with your mobile provider. Often, this involves checking the "Set automatically" option on your phone's clock, rather than providing your time zone.
     2. Code not working? Make sure you are not entering spaces between the numbers from the Authy app.
     3. Use your saved list with one-time 10-digits codes to restore access and enter one of them in the field for two-factor authentication.
-    4. Contact [{{custom.company_name}} support](mailto:{{custom.support_email}}) to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
+    4. Contact <!--email_off-->[{{custom.company_name}} support](mailto:{{custom.support_email}})<!--/email_off--> to disable two-factor authentication on your profile, so you can log in with a password only. But after that, don't forget to return 2FA with the right device.
 
 
 ## Troubleshoot Dashboard Errors
@@ -70,7 +70,7 @@ Welcome to the Frequently Asked Questions about interaction and working with {{c
 ??? question "Can you save a card and charge it later?"
     If you create card payment invoice with enabled tokenization, we save card details on our servers and store a related token on your side. You can use this token to charge the card at a later date.
 
-    To resolve any other refund issues, contact [our support team](mailto:{{custom.support_email}}), and we will help you as soon as possible.
+    To resolve any other refund issues, contact <!--email_off-->[our support team](mailto:{{custom.support_email}})<!--/email_off-->, and we will help you as soon as possible.
 
 ??? question "Does token have an expiration date?"
     A token is valid until expiring the linked card.
@@ -224,7 +224,7 @@ Welcome to the Frequently Asked Questions about interaction and working with {{c
 
 
 !!! question "Have you found an answer to your question?"
-    If no, ask [our support team](mailto:{{custom.support_email}}), we are always here for help!
+    If no, ask <!--email_off-->[our support team](mailto:{{custom.support_email}})<!--/email_off-->, we are always here for help!
 
 ## {{custom.company_name}} HPP
 
