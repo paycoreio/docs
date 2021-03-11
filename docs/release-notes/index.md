@@ -42,4 +42,4 @@ We are improving our documentation day by day, so add to the list only significa
 !!! question
     We are always here to hear your thoughts, questions, and feedback!
 
-    Send us your questions and suggestions at [{{custom.support_email}}](mailto:{{custom.support_email}}).
+    Send us your questions and suggestions at <!--email_off-->[{{custom.support_email}}](mailto:{{custom.support_email}})<!--/email_off-->.

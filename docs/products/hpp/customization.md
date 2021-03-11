@@ -98,7 +98,7 @@ The {{custom.company_name}}'s HPP provides out-of-the-box support for the follow
 
 The translation that a shopper will see in your Hosted Payment Page is set with the `locale` specified in the HPP Request.
 
-For shoppers in an unsupported `locale`, the default language (English - EN) will be used. If you have many of these shoppers in a specific locale, you may wish to  [create a localization](mailto:{{custom.support_email}}).
+For shoppers in an unsupported `locale`, the default language (English - EN) will be used. If you have many of these shoppers in a specific locale, you may wish to  <!--email_off-->[create a localization](mailto:{{custom.support_email}})<!--/email_off-->.
 
 ### Language packs
 

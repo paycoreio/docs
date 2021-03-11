@@ -52,4 +52,4 @@ Choose Currencies and Features. You can set these parameters according to availa
     You have connected the **PUMB** H2H merchant account!
 
 !!! question "Still looking for help connecting your PUMB account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

@@ -75,4 +75,4 @@ Choose Currencies and Features. You can set these parameters according to availa
     You have connected **Connectum** H2H merchant account!
 
 !!! question "Still looking for help connecting your Connectum account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

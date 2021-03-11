@@ -824,4 +824,4 @@ There are three ways to add an event handler:
 
 ## Can we help?
 
-Thanks for using {{custom.company_name}}. If you need any help or support, then message our support team at  [{{custom.support_email}}](mailto:{{custom.support_email}}).
+Thanks for using {{custom.company_name}}. If you need any help or support, then message our support team at  <!--email_off-->[{{custom.support_email}}](mailto:{{custom.support_email}})<!--/email_off-->.

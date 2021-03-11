@@ -7,4 +7,4 @@
 **Website**: [cauri.com](https://cauri.com/)
 
 !!! question "Looking for help connecting your Cauri account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

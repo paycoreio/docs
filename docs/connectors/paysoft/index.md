@@ -7,4 +7,4 @@
 **Website**: [paysoft.com](https://www.paysoft.com/)
 
 !!! question "Looking for help connecting your PaySoft account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

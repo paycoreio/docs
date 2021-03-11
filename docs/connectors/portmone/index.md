@@ -3,4 +3,4 @@
 # Portmone.com Connector
 
 !!! question "Looking for help connecting your Portmone account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

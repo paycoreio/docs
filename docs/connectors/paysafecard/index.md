@@ -7,4 +7,4 @@
 **Website**: [paysafecard.com](https://www.paysafecard.com/en-gb/)
 
 !!! question "Looking for help connecting your paysafecard account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

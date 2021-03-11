@@ -31,4 +31,4 @@ The most reason why people don’t lock up their website is lack of awareness of
 -   Monitor for suspicious admin activities
 
 !!! warning
-    If you see anything suspicious, the checkout looks weird, or you detect anomalies in your transaction processing - [reach out to us immediately](mailto:{{custom.support_email}}). Let’s fight against fraud together.
+    If you see anything suspicious, the checkout looks weird, or you detect anomalies in your transaction processing - <!--email_off-->[reach out to us immediately](mailto:{{custom.support_email}})<!--/email_off-->. Let’s fight against fraud together.

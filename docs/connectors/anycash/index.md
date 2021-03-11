@@ -47,4 +47,4 @@ Enter credentials:
     You have connected **Any.Cash** account!
 
 !!! question "Still looking for help connecting your Any.Cash account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

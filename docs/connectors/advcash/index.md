@@ -117,4 +117,4 @@ Press **Connect** at [*AdvCash Provider Overview*]({{custom.dashboard_base_url}}
     You have connected **AdvCash** account!
 
 !!! question "Still looking for help connecting your AdvCash account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

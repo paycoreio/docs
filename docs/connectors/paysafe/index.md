@@ -7,4 +7,4 @@
 **Website**: [paysafe.com](https://www.paysafe.com/en/)
 
 !!! question "Looking for help connecting your Paysafe account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

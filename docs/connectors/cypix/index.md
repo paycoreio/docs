@@ -65,4 +65,4 @@ Choose Test mode for test connection with Cypix. Choose Currency: set this param
     You have connected **Cypix** H2H merchant account!
 
 !!! question "Still looking for help connecting your Cypix account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

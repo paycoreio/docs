@@ -11,7 +11,7 @@ Here You can find  instructions for setting up [**Skrill**  account](https://acc
 ### Step 1: Ensure that your accoutn is verified as Merchant
 
 !!! note
-    If the Settings > Developer Settings section is not displayed in your account, contact [merchantservices@skrill.com](mailto:{{custom.support_email}})
+    If the Settings > Developer Settings section is not displayed in your account, contact [merchantservices@skrill.com](mailto:merchantservices@skrill.com)
 
 ### Step 2: Enable automated payments
 

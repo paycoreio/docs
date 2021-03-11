@@ -11,4 +11,4 @@ At the end of 2018, Alfa-Bank became the absolute leader among major Russian ban
 [{{custom.company_name}}]({{custom.website_url}}) has been established the host-to-host payment integration with Alfa-Bank for both incoming and outgoing card transactions, including refunds support and continue working on the integration of other payment options.
 
 !!! question "Looking for help connecting your Alfa Bank account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

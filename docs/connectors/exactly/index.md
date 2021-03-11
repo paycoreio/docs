@@ -7,4 +7,4 @@
 **Website**: [exactly.com](https://exactly.com/)
 
 !!! question "Looking for help connecting your Exactly account?"
-    [Please contact our support team!](mailto:{{custom.support_email}})
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->
