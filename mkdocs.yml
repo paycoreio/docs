@@ -256,6 +256,7 @@ nav:
     - ADgroup: connectors/adgroup/index.md
     - AdvCash: connectors/advcash/index.md
     - Alfa Bank: connectors/alfabank/index.md
+    - Alikassa: connectors/alikassa/index.md
     - AnyCash: connectors/anycash/index.md
     - Any.Money: connectors/anymoney/index.md
     - Axcess Merchant Services: connectors/axcessmerchantservices/index.md
@@ -338,6 +339,7 @@ nav:
     - SatchelPay: connectors/satchelpay/index.md
     - Selcom: connectors/selcom/index.md     
     - Skrill: connectors/skrill/index.md
+    - Square: connectors/square/index.md
     - Stripe: connectors/stripe/index.md   
     - TKB pay: connectors/tkbpay/index.md
     - tome: connectors/tome/index.md

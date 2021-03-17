@@ -28,6 +28,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/adgroup/logo.svg?w=70" width="70px">  | [ADgroup](adgroup/)  | H2H connection, Payments, Payouts, Account balances   | EUR, RUB, USD |
 | <img src="https://static.openfintech.io/payment_providers/advcash/logo.svg?w=100" width="100px"> | [AdvCash](advcash/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/alfabank/logo.svg?w=90" width="90px">  | [Alfa Bank](alfabank/) | H2H connection, Payouts, Account balances  | UAH |
+| <img src="https://static.openfintech.io/payment_providers/alikassa/logo.svg?w=70" width="100px"> | [AliKassa](alikassa/) | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/anycash/logo.svg?w=70" width="100px"> | [any.cash](anycash/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/anymoney/logo.svg?w=80" width="80px"> | [Any.Money](anymoney/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/axcessmerchantservices/logo.png?w=60" width="60px"> | [Axcess Merchant Services](axcessmerchantservices/) | H2H connection  | EUR, RUB, UAH, USD |
@@ -101,6 +102,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/platio/logo.svg?w=70" width="70px"> | [Platio](platio/) | H2H connection, Payouts, Account balances | RUB |
 | <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">  | [Portmone.com](portmone/) | H2H connection | UAH |
 | <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px"> | [Procard](procard/)  | H2H connection | UAH |
+| <img src="https://static.openfintech.io/payment_providers/pumb/logo.svg?w=35" width="35px"> | [PUMB (FUIB)](pumb/)  | H2H connection | UAH |
 | <img src="https://static.openfintech.io/payment_providers/raiffeisenbank/logo.svg?w=100" width="100px"> | [Raiffeisen Bank](raiffeisenbank/) | H2H connection, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px"> | [Rapyd.net](rapyd/) | Payouts, Account balances  | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/rbkmoney/logo.png?w=70" width="70px">  | [RBK Money](rbkmoney/) | H2H connection, Payouts, Account balances   | EUR, RUB, USD |
@@ -110,6 +112,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/satchelpay/logo.svg?w=90" width="90px"> | [SatchelPay](satchelpay/)  | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/selcom/logo.png?w=70" width="70px">  | [Selcom](selcom/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/skrill/logo.svg?w=50" width="50px"> | [Skrill](skrill/) | Payments, Payouts, Account balances | AUD, BGN, CHF, CZK, DKK, EUR, GBP, HRK, HUF, MYR, NOK, PLN, RON, SEK, THB, USD |
+| <img src="https://static.openfintech.io/payment_providers/square/logo.svg?w=70" width="70px">  | [Square](square/) | Payments | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/stripe/logo.svg?w=70" width="70px"> | [Stripe](stripe/)  | H2H connection | AUD, CAD, EUR, GBP, USD |
 | <img src="https://static.openfintech.io/payment_providers/tkbpay/logo.svg?w=70" width="70px"> | [TKB Pay](tkbpay/) | H2H connection, Payouts, Account balances | RUB |
 | <img src="https://static.openfintech.io/payment_providers/tome/logo.svg?w=70" width="70px"> | [tome](tome/) | H2H connection, Payouts, Account balances | BYN, EUR, KZT, RUB, UAH, USD |

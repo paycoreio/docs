@@ -6,7 +6,7 @@
 
 Follow the guidance for setting up a connection with PUMB as a payment service provider.
 
-## Set Up Account
+## Set up account
 
 ### Step 1: Contact PUMB support manager
 
@@ -21,12 +21,12 @@ Credentials that have to be issued:
 * API URL for requests
 * Portal ID corresponding to a web application, a mobile application, or a server outside the bank system
 
-You also provide your email and get a registration in the bank digital system, and then you use this email and password to connect your H2H Merchant Account at the {{custom.company_name}} Dashboard.
+You also provide your email and get a registration in the bank digital system, and then you use this email login and password to connect your H2H Merchant Account at the {{custom.company_name}} Dashboard.
 
 !!! important
     Be sure to check with the bank manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
 
-## Connect H2H Merchant Account
+## Connect H2H Merchant account
 
 ### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
@@ -38,12 +38,15 @@ Enter credentials:
 
 * Merchant ID
 * Account ID
-* Email (to the bank digital system)
-* Password
 * API URL
 * Portal ID
 
-Choose Currencies and Features. You can set these parameters according to available currencies and features for your PUMB account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Optional fields (to carry the refunds through {{custom.company_name}} system):
+
+* User login to the bank digital system
+* User password
+
+Choose Currencies and Features. You can set these parameters according to available currencies and features for your PUMB account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! caution "3DS 2.0 settings"
     The `required_3ds_v2` feature is mandatory if such client authentication protocol is defined by your bank merchant account settings.
