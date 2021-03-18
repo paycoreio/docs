@@ -1,0 +1,136 @@
+# Docs.Paycore.io
+
+- Getting Started
+  - ✔ [Introduction](https://docs.paycore.io/)
+  - ✏️ [Ecosystem Overview](https://docs.paycore.io/getting-started/platform-overview/)
+  - Onboarding
+  - Use Cases
+  - Go Live Checklist
+  - ⚖️ FAQ
+  - Glossary
+
+- Integration
+  - Overview
+    - Versioning
+  - Authentication
+  - Account Data
+    - Exchange Rates
+    - Balances
+  - Accept Payments
+    - Base Integration
+    - Host-to-host payments
+    - Tokenisation
+    - PaymentWidget.js
+  - Make payouts
+    - Base Integration
+    - Using of Tokens
+  - Callbacks
+    - Idempotent responses
+  - Testing
+  - Reconciliations
+  - Handling Errors
+  - Public IPs
+
+- Products
+  - Account & Dashboard settings
+    - User Account
+      - Basic settings
+      - Security & session control
+      - Audit log
+    - Organisation Account
+      - Basic settings
+      - Team work settings
+      - Security
+        - API Keys
+        - Callbacks settings
+    - Sandbox & Test mode
+    - Global Search
+  - Merchant (Cashiers)
+    - Basic Concepts
+    - Merchant Account
+      - Options
+      - Schemes
+    - Provider solutions
+      - Ledger overview
+      - Currency accounts & balances
+      - Deposits, withdrawals, transfers
+      - White-label Merchant Portal
+        - [MP guides & settings]
+    - Customers
+    - Exchange rates
+  - Accept payments
+    - Payment flow
+    - Payment methods & options
+    - Start accept payments
+    - Card vault & tokenisation
+    - Reconciliation
+      - Manual
+        - With dashboard
+        - Pull statement
+        - Bulk callbacks
+      - Automated
+        - API requests
+        - Callbacks
+    - Optimising payments
+      - Routing
+        - Choose routing strategy
+        - P2P routing
+      - Cascading
+      - Auto-retry
+    - Recurring payments
+    - Refunds
+    - Type of integrations
+      - Checkout
+        - Overview
+        - Quickstart
+        - Integration
+        - Customisation
+        - Sandbox
+        - Samples
+      - Build your own payment page
+  - Make payouts
+    - Payout flow
+    - Payout methods & options
+    - Send a single item payout
+    - Reconciliation
+      - Manual
+        - With dashboard
+        - Pull statement
+        - Bulk callbacks
+      - Automated
+        - API requests
+        - Callbacks
+    - Optimising payouts
+      - Routing
+        - Choose routing strategy
+        - P2P routing
+    - Batch payouts
+      - Use Cases
+      - Create batch items
+  - Analytics
+    - Analytic Portal
+      - Overview
+      - Getting Started
+      - Managing Queries
+      - Managing Dashboards
+      - Managing Alerts
+      - Visualizations
+      - FAQ
+    - Reports
+    - Exports
+
+- Connection Hub
+  - Type of Connections
+    - Merchant Account
+    - Provider Account
+    - H2H Merchant Account
+  - List of all available connectors
+    - [Connectors guides]
+
+- Changelog
+  - Release notes 2021
+  - Archive
+    - 2020
+    - 2019
+  - API Changelog
+  - Docs updates
