@@ -14,14 +14,18 @@ Send a request on the [website](WEBSITE), verify your account and gain access.
 
 ### Step 2: Get credentials
 
-In the account settings, find:
+In the account (*'Settings'* --> '*Security*'), find:
 
-* Provider UUID
-* Private Key
+* UUID
+* Private (Secret) Key
 
-### Step 3: Set Callback URL in the account integration settings
+![UUID key](images/uuid.png)
 
-Add `https://psp-ext.paycore.io/alikassa/callback` as the notification URL.
+### Step 3: Set Callback URL in the account API settings
+
+Add `https://psp-ext.paycore.io/alikassa/callback` as the notification URL if you want to receive Callbacks through the {{custom.company_name}} platform.
+
+![](images/callback.png)
 
 !!! important
     Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [{{custom.company_name}} list](/integration/ips/).
@@ -36,7 +40,7 @@ Press **Connect** at [*AliKassa Provider Overview*]({{custom.dashboard_base_url}
 
 Enter credentials:
 
-* Provider UUID
+* UUID --> Provider UUID
 * Private Key
 
 !!! success

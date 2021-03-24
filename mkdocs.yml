@@ -345,6 +345,7 @@ nav:
     - tome: connectors/tome/index.md
     - TransferHub: connectors/transferhub/index.md
     - Tranzzo: connectors/tranzzo/index.md
+    - TrustPay: connectors/trustpay/index.md
       #- Twelve.live: connectors/twelvelive/index.md
     - UAPay: connectors/uapay/index.md
     - UKRGASBANK: connectors/ukrgasbank/index.md
