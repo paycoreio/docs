@@ -286,6 +286,7 @@ nav:
     - FlashPay: connectors/flashpay/index.md
     - Fondy: connectors/fondy/index.md
     - Forward Bank: connectors/forwardbank/index.md
+    - Forta: connectors/forta/index.md
     - Genome: connectors/genome/index.md
     - GeoPay: connectors/geopaynet/index.md
     - GlobalMoney: connectors/globalmoney/index.md
