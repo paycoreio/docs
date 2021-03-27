@@ -28,7 +28,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/adgroup/logo.svg?w=70" width="70px">  | [ADgroup](adgroup/)  | H2H connection, Payments, Payouts, Account balances   | EUR, RUB, USD |
 | <img src="https://static.openfintech.io/payment_providers/advcash/logo.svg?w=100" width="100px"> | [AdvCash](advcash/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/alfabank/logo.svg?w=90" width="90px">  | [Alfa Bank](alfabank/) | H2H connection, Payouts, Account balances  | UAH |
-| <img src="https://static.openfintech.io/payment_providers/alikassa/logo.svg?w=70" width="100px"> | [AliKassa](alikassa/) | Payouts, Account balances | [according to the provider account settings] |
+| <img src="https://static.openfintech.io/payment_providers/alikassa/logo.svg?w=70" width="100px"> | [AliKassa](alikassa/) | H2H connection, Payouts, Account balances | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/anycash/logo.svg?w=70" width="100px"> | [any.cash](anycash/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/anymoney/logo.svg?w=80" width="80px"> | [Any.Money](anymoney/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/axcessmerchantservices/logo.png?w=60" width="60px"> | [Axcess Merchant Services](axcessmerchantservices/) | H2H connection  | EUR, RUB, UAH, USD |
@@ -58,6 +58,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/externalprovider/logo.svg?w=70" width="70px">  | [External Provider](externalprovider/) |  Payouts, Account Balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/flashpay/logo.png?w=80" width="80px"> | [FlashPay](flashpay/) | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/fondy/logo.svg?w=70" width="70px"> | [Fondy](fondy/) | H2H connection, Payouts, Account balances | AUD, CAD, CZK, EUR, GBP, PLN, RUB, UAH, USD |
+| <img src="https://static.openfintech.io/payment_providers/forta/logo.png?w=35" width="35px"> | [Forta](forta/) | Payouts | RUB |
 | <img src="https://static.openfintech.io/payment_providers/forwardbank/logo.svg?w=70" width="70px"> | [Forward Bank](forwardbank/) | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/genome/logo.svg?w=70" width="70px">  | [Genome](genome/) | H2H connection, Payouts, Account balances | AUD, CAD, EUR, GBP, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg?w=70" width="70px">  | [GEO pay](geopaynet/) | Payments, Payouts, Account balances | [according to the provider account settings] |
