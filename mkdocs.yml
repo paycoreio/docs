@@ -19,9 +19,24 @@ theme:
   icon:
     logo: favicon
   palette:
-    scheme: default
-    primary: black
-    accent: indigo
+    # Light mode
+    - indigo: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to the dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/weather-night
+        name: Switch to the light mode
+
   features:
     - navigation.tabs
     - navigation.instant
