@@ -1,55 +1,47 @@
 <img src="https://static.openfintech.io/payment_providers/parimatch/logo.svg?w=400" width="400px">
 
-# Parimatch Connector
+# Parimatch
 
-## Introduction
+**Website**: [parimatch.com](https://parimatch.com/en/)
 
-Here You can find  instructions for setting up **Parimatch**  account.
+**Login**: [parimatch.com](https://parimatch.com/en/?login=1)
 
-## Setup account
+Follow the guidance for setting up a connection with Parimatch payment service provider.
 
-#### Step 1 Contact with Parimatch Support Manager
+## Set up account
 
+### Step 1 Contact Parimatch support team
 
-#### Step 2: Get required credentials
+Join or register your account to obtain a unique Project ID.
 
--  Secret key
--  API URL
+### Step 2: Get credentials
 
-!!! info
-    Parimatch **Account ID** is also required.
+Credentials that have to be issued:
 
-    It is used to verify Secret Key and API URL. 
+* Secret key
+* Pay gateway URL
 
-    It is not involved in the operations initializing  and processing.
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
 
-!!! success
-    You have configured account!
+## Connect Provider Account
 
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-## Connect account
+Press **Connect** at [*Parimatch Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/NAME/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-#### Step 1: Copy required credentials
+![Connect](images/provider-account.png)
 
+Enter credentials:
 
-#### Step 2: Enter credentials
+* Project ID
+* Pay gateway URL
+* Secret key
 
-
--  Account ID
--  Secret key
--  API URL
-
-!!! tip
-    Press **`Connect`** at Parimatch **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-!!! note
-    These parameters are set according to your Merchant account type and it's available currencies!
-
-
-
-![Connect](images/parimatch_connect.png)
-
+Also, choose Test Mode for test connection with Parimatch.
 
 !!! success
-    You have connected **Parimatch**!
+    You have connected **Parimatch** account!
+
+!!! question "Still looking for help connecting your Parimatch account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

@@ -293,6 +293,7 @@ nav:
     - dLocal: connectors/dlocal/index.md
     - Dotpay: connectors/dotpay/index.md
     - EasyBits.io: connectors/easybits/index.md
+    - EasyPayRU: connectors/easypayru/index.md
     - Ecobanq: connectors/ecobanq/index.md
     - ECommPay: connectors/ecommpay/index.md
     - Ecopayz: connectors/ecopayz/index.md
@@ -324,6 +325,7 @@ nav:
     - Odysseq: connectors/odysseq/index.md
     - Offsetpay: connectors/offsetpay/index.md
     - Parimatch: connectors/parimatch/index.md
+    - pay2kassa: connectors/pay2kassa/index.md
     - PayBox: connectors/paybox/index.md
     - PayDoo: connectors/paydoo/index.md
     - Payeer: connectors/payeer/index.md

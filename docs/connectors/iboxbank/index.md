@@ -65,6 +65,8 @@ Press **Connect** at [*Ibox Bank Provider Overview*](https://the {{custom.compan
 
 Enter your Merchant ID and upload files with related Public IboxBank key and Private payment point key.
 
+Specify your Google Pay Merchant ID and the related gateway for an account with the Google Pay connection.
+
 Choose Test Mode for test connection with Ibox Bank.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Ibox Bank account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.

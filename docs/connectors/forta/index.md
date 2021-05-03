@@ -12,7 +12,7 @@ Send a request on the [website](WEBSITE) or call the hotline. Submit the require
 
 ### Step 2: Get credentials
 
-To connect Forta account, you just need to obtain the API Key.
+To connect Forta account, you just need to obtain the API key and API URL.
 
 !!! important
     Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
@@ -25,7 +25,12 @@ Press **Connect** at [*Forta Provider Overview*]({{custom.dashboard_base_url}}co
 
 ![Connect](images/provider-account.png)
 
-Enter your API key and choose currencies.
+Enter credentials:
+
+* API key
+* API URL
+
+Choose currencies according to available currencies for your Forta account and check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **Forta** provider account!
