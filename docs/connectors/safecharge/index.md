@@ -1,59 +1,72 @@
 <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=400" width="400px" >
 
+# SafeCharge
 
-# SafeCharge Connector
+**Website**: [safecharge.com](https://www.safecharge.com/)
 
-## Introduction
+**Login**: [cpanel.safecharge.com](https://cpanel.safecharge.com/)
 
-Here You can find  instructions for setting up **SafeCharge**  account.
+Follow the guidance for setting up a connection with SafeCharge payment service provider.
 
-## Host2Host Payments
+## Set up account
 
-### Setup account
+### Step 1: Contact SafeCharge support team
 
-#### Step 1 Contact with SafeCharge Support Manager to open the Merchant Account
+Send a request on the [website](https://www.safecharge.com/contacts/) to obtain a merchant ID. Submit the required documents to verify your account and gain full access.
 
+### Step 2: Get credentials
 
-#### Step 2: Get required credentials
+Find in the *Account Settings*:
 
-Go to the **Account Settings** and find:
-
-- Site ID
-- Secret Key
+* Site ID
+* Secret Key
 
 ![Credential](images/creds.png)
 
-!!! success
-    You have configured account!
+!!! important
+    If you require to provide a white list of IPs, be sure to include the [Corefy IP addresses](/integration/ips/) on the list.
 
+## Connect Provider Account
 
-### Connect account
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-#### Step 1: Copy required credentials
+Press **Connect** at [*SafeCharge Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/safecharge/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
+![Connect](images/provider-account.png)
 
-#### Step 2: Enter credentials
+Enter credentials:
 
-- Merchant ID
-- Site ID
-- Secret Key
+* Merchant ID
+* Site ID
+* Secret key
 
-!!! tip
-    Press **`Connect`** at SafeCharge **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-#### Step 3: Set up additional parameters 
-
-- Test mode
-
-
-!!! note
-    These parameters are set according to your Merchant account type!
-
-
-<!--
-![Connect](images/safecharge_connect.png)
--->
+Also, choose Test Mode for test connection with SafeCharge.
 
 !!! success
-    You have connected **SafeCharge**!
+    You have connected **SafeCharge** account!
+
+## Connect H2H Merchant Account
+
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
+
+Press **Connect** at [*SafeCharge Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/safecharge/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+
+![Connect](images/h2h-merchant-account.png)
+
+Enter credentials:
+
+* Merchant ID
+* Site ID
+* Secret key
+
+Choose Test Mode for test connection with SafeCharge.
+
+Choose Currencies and Features. You can set these parameters according to available currencies and features for your SafeCharge account, but it's necessary to verify details of the connection with your {{custom.company_name}} account manager.
+
+Also, choose *Save Instant Token* option if you plan to use the SafeCharge account for instant payments.
+
+!!! success
+    You have connected **SafeCharge** H2H merchant account!
+
+!!! question "Still looking for help connecting your SafeCharge account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

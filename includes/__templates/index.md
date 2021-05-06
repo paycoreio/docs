@@ -51,7 +51,7 @@ Enter credentials:
 
 [//]: # (Choose Test Mode for test connection with NAME.)
 
-Choose Currencies and Features. You can set these parameters according to available currencies and features for your NAME account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Choose Currencies and Features. You can set these parameters according to available currencies and features for your NAME account, but it's necessary to verify details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **NAME** H2H merchant account!

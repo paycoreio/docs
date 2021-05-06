@@ -46,6 +46,8 @@ Enter your Merchant ID and upload the certificates:
 * Ecomm Certificate (`ecomm-ca.crt`) --> Certificate
 * Root Certificate (`root-ca.crt`) --> Root CA
 
+Choose Test Mode for test connection with Russian Standard Bank.
+
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Russian Standard Bank account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success

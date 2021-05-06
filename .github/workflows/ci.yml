@@ -22,7 +22,7 @@ jobs:
       
       - name: Install theme
         run: |
-          pip install mkdocs-material==7.1.0 mkdocs-macros-plugin==0.5.5 \
+          pip install mkdocs-material==7.1.3 mkdocs-macros-plugin==0.5.5 \
                       mkdocs-markdownextradata-plugin==0.2.4 mkdocs-minify-plugin==0.4.0 mkdocs-material-extensions==1.0.1
 
       - name: Build docs
@@ -43,10 +43,9 @@ jobs:
       - run: python -m pip install --upgrade pip
       - name: Install theme 
         run: | 
-          pip install mkdocs-material==7.1.0
+          pip install mkdocs-material==7.1.3
           pip install mkdocs-macros-plugin==0.5.5 mkdocs-markdownextradata-plugin==0.2.4 mkdocs-minify-plugin==0.4.0 mkdocs-material-extensions==1.0.1
       - name: Deploy docs
         run: |
           mkdocs gh-deploy -c --force
           mkdocs --version
-

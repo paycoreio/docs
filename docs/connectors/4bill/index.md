@@ -40,9 +40,11 @@ Press **Connect** at [*4bill Provider Overview*]({{custom.dashboard_base_url}}co
 
 Enter credentials:
 
-* account_id --> Account ID
 * point_id --> Point ID (if you have more than one, you should connect each payment point separately)
+* account_id --> Account ID
 * api_token --> API key
+
+Choose currencies according to available currencies for your 4bill wallets and services. Also, select P2P mode for connection in the peer-to-peer payment network.
 
 !!! success
     You have connected **4bill** account!
@@ -67,7 +69,7 @@ Choose 'Send merchant data' option if you need to send Commerce MCC and Merchant
 
 Choose Test Mode for test connection.
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your 4bill wallets and services, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your 4bill wallets and services, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **4bill** H2H merchant account!

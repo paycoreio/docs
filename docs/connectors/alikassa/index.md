@@ -30,6 +30,7 @@ And if AliKassa provides you with the H2H connection, you will also obtain:
 
 * *Merchant Account*
 * *Public key* (file)
+* API URL for connection
 
 ### Step 3: Set Callback URL in the account API settings
 
@@ -44,7 +45,7 @@ Add `https://psp-ext.paycore.io/alikassa/callback` as the notification URL if yo
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-Press **Connect** at [*AliKassa Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/alikassa/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*AliKassa Provider Overview*]({{custom.dashboard_base_url}}connect-dirhttps://payment.alikassa.com/ectory/payment-providers/alikassa/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -69,9 +70,10 @@ Enter credentials:
 * UUID --> Provider UUID
 * Private Key
 * Merchant Account
+* API URL (without `api` prefix, for example: `https://payment.alikassa.com/`)
 
 Upload the file with the Public key.
-
+https://payment.alikassa.com/
 Choose Test Mode to test connection with AliKassa if you're sure you also checked Test mode in your account on the AliKassa platform.
 
 Choose Currencies and Features. You can set these parameters according to available currencies and features for your AliKassa account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
