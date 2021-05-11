@@ -6,6 +6,14 @@
 
 This changelog lists releases by date and version number along with associated changes.
 
+### [April 2, 2021 (versions 1.53, 1.52, 1.51, 1.50, 1.49, 1.48, 1.47, 1.46, 1.45, & 1.44)](v1.44-1.53/)
+
+* [Processing supplements](v1.44-1.53/#processing-supplements): added partial statuses for payments' refunds and chargebacks, and an option to skip the verify stage on payouts
+* [Card Gate](v1.44-1.53/#card-gate-update): added possibility to update features for connected merchant accounts in the Dashboard
+* [Merchant Portal](v1.44-1.53/#merchant-portal-updates): configuration and exports updates
+* [Transaction Registration Addon](v1.44-1.53/#transaction-registration-addon): added API endpoints to get data from Transaction registration addon
+* [Performance improvements](v1.44-1.53/#performance-improvements)
+
 ### [March 3, 2021 (versions 1.44, 1.43, 1.42, 1.41, 1.40, 1.39, 1.38, & 1.37)](v1.37-1.44/)
 
 * [Payout Gateway update](v1.37-1.44/#payout-gateway-update): added possibility to resolve statement conflict from the Dashboard
