@@ -40,7 +40,7 @@ Enter credentials:
 * `secret` --> Secret Key
 * `host` --> Host
 
-Also, choose Test mode for test connection with Cypix.
+Also, select Test or Live mode according to the type of account to connect with Cypix.
 
 !!! success
     You have connected **Cypix** account!
@@ -59,7 +59,7 @@ Enter credentials:
 * `secret` --> Secret Key
 * `host` --> Host
 
-Choose Test mode for test connection with Cypix. Choose Currency: set this parameter according to available currencies for your Cypix account.
+Select Test or Live mode according to the type of account to connect with Cypix. Choose Currency: set this parameter according to available currencies for your Cypix account.
 
 !!! success
     You have connected **Cypix** H2H merchant account!

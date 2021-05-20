@@ -53,7 +53,7 @@ Enter credentials:
 - API Key
 - Private key
 
-Choose Test Mode for test connection with PayMega.io.
+Select Test or Live mode according to the type of account to connect with PayMega.io.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your PayMega.io account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager..
 

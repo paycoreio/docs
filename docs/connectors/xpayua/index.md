@@ -58,7 +58,7 @@ Enter credentials:
 * XPAY partner token
 * XPAY public key
 
-Upload the .txt file with your private key. Also, choose Test Mode for test connection.
+Upload the .txt file with your private key. Also, select Test or Live mode according to the type of account to connect.
 
 !!! success
     You have connected **XPAY** account!

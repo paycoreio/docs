@@ -51,7 +51,7 @@ Enter:
 
 * *Auth Token* --> *API Key*
 
-Choose Test Mode for test connection. Choose currencies to use.
+Select Test or Live mode according to the type of account to connect. Choose currencies to use.
 
 !!! success "That's all!"
     You have connected **CoinGate** account!

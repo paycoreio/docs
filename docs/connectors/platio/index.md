@@ -29,9 +29,9 @@ Credentials that have to be issued:
 
 ## Connect Provider Account
 
-### Step 1. Connect account at the {{custom.company_name}} Dashboardompany_name}}ompany_name}}
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-Press **Connect** at [*Platio Provider Overview*](https://the {{custom.company_name}} Dashboardompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
+Press **Connect** at [*Platio Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
 ![Connect](images/provider-account.png)
 
@@ -41,16 +41,16 @@ Enter credentials:
 * Secret Key
 * Secret Key for Result URL as Secret Key Return URL
 
-Also, choose Test Mode for test connection.
+Also, select Test or Live mode according to the type of account to connect.
 
 !!! success
     You have connected **Platio** account!
 
 ## Connect H2H Merchant Account
 
-### Step 1. Connect H2H account at the {{custom.company_name}} Dashboardompany_name}}ompany_name}}
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
-Press **Connect** at [*Platio Provider Overview*](https://the {{custom.company_name}} Dashboardompany_name}}ompany_name}}/connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*Platio Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/platio/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
@@ -60,16 +60,16 @@ Enter credentials:
 * Secret Key
 * Secret Key for Result URL as Secret Key Return URL
 
-Choose Test Mode for test connection.
+Select Test or Live mode according to the type of account to connect.
 
 Enable *Send Merchant URL* option for sending the Merchant's shop URL to Platio.
 
 Enable *Save Instant Token* if you plan on using payments by token with the connected Outlet ID.
 
-Also, choose Currency and Features. You can set these parameters according to available currencies and features for your Platio account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Also, choose Currency and Features. You can set these parameters according to available currencies and features for your Platio account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **Platio** H2H merchant account!
 
 !!! question "Still looking for help connecting your Platio account?"
-    [Please contact our support team!](mailto:{{custom.support_email}}ompany_name}}ompany_name}})
+    [Please contact our support team!](mailto:{{custom.support_email}}ompany_name}})

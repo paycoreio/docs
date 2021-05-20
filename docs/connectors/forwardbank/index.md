@@ -20,16 +20,16 @@ Credentials that have to be issued:
 
 * Merchant ID
 * Terminal ID
-* CA Certificate (if you need [H2H Merchant Account connection](#connect-h2h-merchant-account))
+* CA Certificate file (if you need [H2H Merchant Account connection](#connect-h2h-merchant-account))
 
 ### Step 3: Generate Private Key
 
 You should create your public key certificate in PEM and CRT formats.
 
 !!! info
-    .pem — (Privacy-enhanced Electronic Mail) Base64 encoded DER certificate, enclosed between '-----BEGIN CERTIFICATE-----' and '-----END CERTIFICATE-----'
+    .pem—(Privacy-enhanced Electronic Mail) Base64 encoded DER certificate, enclosed between '-----BEGIN CERTIFICATE-----' and '-----END CERTIFICATE-----'
 
-    .crt — usually in binary DER form, but Base64-encoded certificates are standard too
+    .crt—usually in binary DER form, but Base64-encoded certificates are standard too
 
 Create or update with your actual data *config.dat* file in OpenSSL directory.
 
@@ -82,7 +82,7 @@ Enter credentials:
 * upload your PEM key file to the Private Key
 * Sender Account (the unique code of the legal entity in the National State Registry of Ukrainian Enterprises and Organizations (*ЄДРПОУ*))
 
-Also, choose Test Mode for test connection with Forward Bank.
+Also, select Test or Live mode according to the type of account to connect with Forward Bank.
 
 !!! success
     You have connected **Forward Bank** account!
@@ -99,10 +99,10 @@ Enter credentials:
 
 * Merchant ID
 * Terminal ID
-* CA Certificate
-* upload your PEM key file to the Private Key
 
-Choose Test Mode for test connection with Forward Bank.
+Upload your PEM key file as a Private key and Certificate file as a CA certificate.
+
+Select Test or Live mode according to the type of account to connect with Forward Bank.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Forward Bank account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

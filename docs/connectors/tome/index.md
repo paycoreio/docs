@@ -42,7 +42,7 @@ Enter credentials:
 * Shop ID
 * API Secret Key
 
-Also, choose Test Mode for test connection with tome.
+Also, select Test or Live mode according to the type of account to connect with tome.
 
 !!! success
     You have connected **tome** account!
@@ -60,7 +60,7 @@ Enter credentials:
 * Shop ID
 * API Secret Key
 
-Choose Test Mode for test connection with tome.
+Select Test or Live mode according to the type of account to connect with tome.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your tome account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

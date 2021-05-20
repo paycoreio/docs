@@ -1,6 +1,6 @@
 <img src="https://static.openfintech.io/payment_providers/decta/logo.svg?w=400" width="400px" >
 
-# Decta Connector
+# Decta
 
 Follow the instructions for setting up a connection with Decta payment provider.
 
@@ -36,7 +36,7 @@ Press Connect at **Decta Provider Overview** page in *'New connection'* section 
 
 Enter the key and set up the required parameters:
 
-* Test mode &mdash; if you connect the test key;
+* Test mode&mdash;if you connect the test key;
 * Currency.
 
 !!! note

@@ -42,7 +42,7 @@ Press **Connect** at [*WPayments Provider Overview*]({{custom.dashboard_base_url
 
 Enter your credentials and choose Provider URL (*WPayments*).
 
-Also, choose Test Mode for test connection.
+Also, select Test or Live mode according to the type of account to connect.
 
 !!! success
     Just right: you have connected **WPayments** account!
@@ -55,7 +55,7 @@ Press **Connect** at [*WPayments Provider Overview*]({{custom.dashboard_base_url
 
 ![Connect](images/h2h-merchant-account.png)
 
-Switch to the Test Mode if you want to test connection with *WPayments*.
+Select Test or Live mode according to the type of account to connect with *WPayments*.
 
 Enter your credentials and choose Provider URL (*WPayments*).
 
@@ -65,9 +65,9 @@ Choose 3DS mode:
 * **advanced** if your Merchant's application builds a form for customer verification and operates, collects, and stores values of ACS URL, PaReq, Merchant Data (MD), and PaRes URL on your side.
 
 !!! info "Before implementation of the **advanced** 3DS Mode"
-    You need to check with your *WPayments* account manager if it is available for you.
+    You need to check with your *WPayments* account manager if it's available for you.
 
-Finally, choose Currency and Features. You can set these parameters according to available currencies and features for your Wpayments account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Finally, choose Currency and Features. You can set these parameters according to available currencies and features for your Wpayments account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 !!! success
     You have connected **WPayments** H2H merchant account!
 

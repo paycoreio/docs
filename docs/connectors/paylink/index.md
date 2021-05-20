@@ -42,7 +42,7 @@ Enter credentials:
     * it is obligatory only for non-P2P connections
     * and you shouldn't fill in the full IBAN (International Bank Account Number) there, just your bank account identifier (up to 14 digits)
 
-Also, you should toggle P2P mode for connection in peer-to-peer payment network. And choose Test Mode if you want to test the connection with PayLink.
+Also, you should toggle P2P mode for connection in peer-to-peer payment network. And select Test or Live mode according to the type of account to connect with PayLink.
 
 !!! success
     You have connected **PayLink** account!
@@ -60,7 +60,7 @@ Enter credentials:
 - Merchant (Terminal ID)
 - Private Key
 
-Choose Test Mode to test the connection with PayLink. Also, check an option *Send Merchant URL* if you want to transfer Merchant URL (specified in the Commerce general settings) to the provider.
+Select Test or Live mode according to the type of account to connect with PayLink. Also, check an option *Send Merchant URL* if you want to transfer Merchant URL (specified in the Commerce general settings) to the provider.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your PayLink account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

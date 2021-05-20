@@ -1,83 +1,98 @@
 <img src="https://static.openfintech.io/payment_providers/piastrix/logo.svg?w=400" width="400px">
 
-# Piastrix Connector
+# Piastrix
 
-## Introduction
+!!! quote ""
+    Piastrix is a new electronic wallet standard
 
-Here You can find  instructions for setting up **Piastrix**  account.
+**Website**: [Piastrix](https://piastrix.com/)
 
+**Login**: [Piastrix Wallet](https://wallet.piastrix.com/auth/login)
 
-## Payment Gateway
+Follow the guidance for setting up a connection with the Piastrix payment service provider.
 
-### Setup account
+## Set Up Account
 
-#### Step 1 Create shop
+### Step 1: Contact the Piastrix support team
 
-1. Switch to the API mode
-2. Open Shop section
-3. Create New shop
+Register on the [website](https://wallet.piastrix.com/auth/register). Submit the required documents to verify your account and gain access.
 
-![Create](images/shop_create_1.png)
+### Step 2: Create a shop
 
+1. Switch to the *API* mode
+2. Open the *Shop* section
+3. Create a *New shop*
 
+!!! tip ""
+    ![Create](images/shop_create_1.png)
 
+### Step 3: Set required parameters
 
-#### Step 3: Set required parameters
+* Notification URL ```https://psp-ext.paycore.io/piastrix/callback```
+* Success URL ```https://psp-ext.paycore.io/piastrix/return```
+* Failed URL ```https://psp-ext.paycore.io/piastrix/return```
+* Check uniqueness of payments: yes
 
-- Notification URL ```https://psp-ext.paycore.io/piastrix/callback```
-- Success URL ```https://psp-ext.paycore.io/piastrix/return```
-- Failed URL ```https://psp-ext.paycore.io/piastrix/return```
-- Check uniqueness of payments : TRUE
+!!! tip ""
+    ![Set parameters](images/shop_create_2.png)
 
+### Step 4: Get credentials
 
-![Create](images/shop_create_2.png)
+* *Shop ID*: find in the relevant row in the *Shops* table.
 
-!!! success
-    You have configured account!
+!!! top ""
+    ![Shop ID](images/shop_id.png)
 
-#### Step 4: Get required credentials
+* *Project ID*: request it from your Piastrix manager.
+* *Secret Key*: set new or get existed in the shop's *Security* settings.
 
-- Shop ID
+!!! top ""
 
-    - Go tu the shop list
-    - Find Shop ID in the table
+    ![Secret Key](images/security_1.png)
+    ![Secret Key](images/security_2.png)
 
-![ShopID](images/shop_id.png)
+!!! important
+    Also, specify IP addresses from the [{{custom.company_name}} list](/integration/ips/) there.
 
-- Secret Key
-    
-    - Go to the Security settings
-    - Set new or get exists key
-    - Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/)
+## Connect Provider Account
 
-![Secret](images/security_1.png)
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-![Secret](images/security_2.png)
+Press **Connect** at [*Piastrix Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/piastrix/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-- Project ID (**Only for Aggregators**): ask Piastrix manager for this ID
+![Connect](images/provider-account.png)
 
+Enter credentials:
 
+* Project ID
+* Shop ID --> Merchant ID
+* Secret key
 
-
-
-### Connect account
-
-#### Step 1: Copy required credentials
-
-
-#### Step 2: Enter credentials
-
-- Project ID (**Only for Aggregators**)
-- Secret Key
-- Shop ID
-
-!!! tip
-    Press **`Connect`** at Piastrix **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-
-![Connect](images/piastrix_connect.png)
-
+Toggle the *Aggregator* feature if you work with this account as a payment aggregator.
 
 !!! success
-    You have connected **Piastrix**!
+    You have connected **Piastrix** account!
+
+## Connect H2H Merchant Account
+
+### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
+
+Press **Connect** at [*Piastrix Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/piastrix/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+
+![Connect](images/h2h-merchant-account.png)
+
+Enter credentials:
+
+* Project ID
+* Shop ID --> Merchant ID
+* Secret key
+
+Toggle the *Aggregator* feature if you work with this account as a payment aggregator.
+
+Choose Currencies and Features. You can set these parameters according to available currencies and features for your Piastrix account, but it's necessary to verify details of the connection with your {{custom.company_name}} account manager.
+
+!!! success
+    You have connected **Piastrix** H2H merchant account!
+
+!!! question "Still looking for help connecting your Piastrix account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

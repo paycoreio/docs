@@ -45,7 +45,7 @@ Enter credentials:
 
 Select one of the Gateway name included in the [list of available gateways](#step-3-get-list-of-available-gateways).
 
-[//]: # (Choose Test Mode for test connection with OffsetPay.)
+[//]: # (Select Test or Live mode according to the type of account to connect with OffsetPay.)
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your OffsetPay account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

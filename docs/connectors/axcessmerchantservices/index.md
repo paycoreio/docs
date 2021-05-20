@@ -40,7 +40,7 @@ Press **Connect** at [*Axcess Merchant Services Provider Overview*]({{custom.das
 
 Enter credentials:
 
-[//]: # (Also, choose Test Mode for test connection with Axcess Merchant Services, and P2P mode for connection in  peer-to-peer payment network.)
+[//]: # (Also, select Test or Live mode according to the type of account to connect with Axcess Merchant Services, and P2P mode for connection in  peer-to-peer payment network.)
 
 !!! success
     You have connected **Axcess Merchant Services** account!
@@ -61,7 +61,7 @@ Enter credentials:
 
 Choose Save Instant Token option if you plan to use the Axcess account for instant payments.
 
-Choose Test Mode for test connection with Axcess Merchant Services.
+Select Test or Live mode according to the type of account to connect with Axcess Merchant Services.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Axcess Merchant Services account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

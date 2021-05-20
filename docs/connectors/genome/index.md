@@ -50,7 +50,7 @@ Enter credentials:
 - Signature Key (`your_privat_signature`)
 - Reference MID
 
-Choose API URL. Also, choose Test Mode for test connection with Genome.
+Choose API URL. Also, select Test or Live mode according to the type of account to connect with Genome.
 
 !!! success
     You have connected **Genome** account!
@@ -72,7 +72,7 @@ Enter credentials:
 
 Choose API URL.
 
-Choose Test Mode for test connection with Genome.
+Select Test or Live mode according to the type of account to connect with Genome.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Genome account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

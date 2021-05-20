@@ -71,7 +71,7 @@ Enter credentials:
 * API Key
 * Notification API Key
 
-Choose Test Mode for test connection with Kassa. Switch the toggle '*Use two-step payments*' if this option is available for your Kassa account (clear that with the Kassa support).
+Select Test or Live mode according to the type of account to connect with Kassa. Switch the toggle '*Use two-step payments*' if this option is available for your Kassa account (clear that with the Kassa support).
 
 Choose Currencies and Features. You can set these parameters according to available currencies and features for your Kassa account, but it is necessary to check all details of the connection with your {{custom.company_name}} account manager.
 

@@ -52,7 +52,7 @@ Enter credentials:
 * API Key
 * Private key
 
-Choose Test Mode for test connection with TransferHub.
+Select Test or Live mode according to the type of account to connect with TransferHub.
 
 Choose Currency and Features and check details of the connection with your {{custom.company_name}} account manager.
 

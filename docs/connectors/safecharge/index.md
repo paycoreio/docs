@@ -40,7 +40,7 @@ Enter credentials:
 * Site ID
 * Secret key
 
-Also, choose Test Mode for test connection with SafeCharge.
+Also, select Test or Live mode according to the type of account to connect with SafeCharge.
 
 !!! success
     You have connected **SafeCharge** account!
@@ -59,7 +59,7 @@ Enter credentials:
 * Site ID
 * Secret key
 
-Choose Test Mode for test connection with SafeCharge.
+Select Test or Live mode according to the type of account to connect with SafeCharge.
 
 Choose Currencies and Features. You can set these parameters according to available currencies and features for your SafeCharge account, but it's necessary to verify details of the connection with your {{custom.company_name}} account manager.
 

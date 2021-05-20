@@ -44,7 +44,7 @@ Enter credentials:
 * Brand ID
 * API Key as Secret Key
 
-Also, choose Test Mode for test connection with xpate.
+Also, select Test or Live mode according to the type of account to connect with xpate.
 
 !!! success
     You have connected **xpate** account!

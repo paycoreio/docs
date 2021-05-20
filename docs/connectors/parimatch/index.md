@@ -38,7 +38,7 @@ Enter credentials:
 * Pay gateway URL
 * Secret key
 
-Also, choose Test Mode for test connection with Parimatch.
+Also, select Test or Live mode according to the type of account to connect with Parimatch.
 
 !!! success
     You have connected **Parimatch** account!

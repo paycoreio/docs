@@ -42,7 +42,7 @@ Enter credentials:
 * Gateway Number
 * Sign Key
 
-Choose Test Mode for test connection with TrustPay.
+Select Test or Live mode according to the type of account to connect with TrustPay.
 
 Choose Currencies and Features. You can set these parameters according to available currencies and features for your TrustPay account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

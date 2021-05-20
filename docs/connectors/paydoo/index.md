@@ -38,9 +38,13 @@ Enter credentials:
 * User ID
 * User password
 
-Choose Test Mode for test connection with PayDoo. Choose 'Save OCT Token' option if you plan to use Original Credit Transaction flow for card payments.
+Select Test or Live mode according to the type of account to connect with PayDoo.
 
-Choose Currencies and Features. You can set these parameters according to available currencies and features for your PayDoo account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Toggle the 'Save OCT Token' option if you plan to use Original Credit Transaction flow for payouts. Also, toggle 'Save Instant token' for instant payments use.
+
+Choose API type connected with your account.
+
+Choose Currencies and Features. You can set these parameters according to available currencies and features for your PayDoo account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **PayDoo** H2H merchant account!

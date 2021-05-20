@@ -48,7 +48,7 @@ Enter credentials:
 
 Upload file with PKCS key.
 
-Also, choose Test Mode for test connection with Connectum.
+Also, select Test or Live mode according to the type of account to connect with Connectum.
 
 !!! success "Just right!"
     You have connected **Connectum** account!
@@ -67,7 +67,7 @@ Enter credentials:
 * password
 * certificate password
 
-Upload file with PKCS key. Choose Test Mode for test connection with Connectum.
+Upload file with PKCS key. select Test or Live mode according to the type of account to connect with Connectum.
 
 Choose Currencies and Features. You can set these parameters according to available currencies and features for your Connectum account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

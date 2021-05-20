@@ -73,10 +73,10 @@ Enter credentials:
 * API URL (without `api` prefix, for example: `https://payment.alikassa.com/`)
 
 Upload the file with the Public key.
-https://payment.alikassa.com/
-Choose Test Mode to test connection with AliKassa if you're sure you also checked Test mode in your account on the AliKassa platform.
 
-Choose Currencies and Features. You can set these parameters according to available currencies and features for your AliKassa account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Select Test mode to test connection with AliKassa if you're sure you also checked Test mode in your account on the AliKassa platform.
+
+Choose Currencies and Features. You can set these parameters according to available currencies and features for your AliKassa account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **AliKassa** H2H merchant account!
