@@ -6,6 +6,21 @@
 
 This changelog lists releases by date and version number along with associated changes.
 
+### [May 13, 2021 (versions 1.65, 1.64, 1.63, 1.62, 1.61, 1.60, 1.59, 1.58, 1.57, 1.56, 1.55, & 1.54)](v1.54-1.65/)
+
+* [Commerce updates](v1.54-1.65/#commerce-updates): expanded access settings for commerce accounts and operations, added `merchant_profile` object to the Commerce settings and request creation and options to control Saved cards access scope
+* [Connectors Hub update](v1.54-1.65/#connectors-hub-update): updated the Callback handler, added `payouts` array to Callback for payouts processing, added the Deposit account option for preventing finalising payout transactions with failure resolutions
+* [Card Gateway update](v1.54-1.65/#card-gate-update): added modifier by card status to Payment schemes
+* [Reports optimising](v1.54-1.65/#reports-optimising)
+* [Receipt Addon update](v1.54-1.65/#addons-update): receipts generating for Payout invoices
+
+### [April 2, 2021 (versions 1.53, 1.52, 1.51, 1.50, 1.49, 1.48, 1.47, 1.46, 1.45, & 1.44)](v1.44-1.53/)
+
+* [Processing supplements](v1.44-1.53/#processing-supplements): added partial statuses for payments' refunds and chargebacks, and an option to skip the verify stage on payouts
+* [Card Gate](v1.44-1.53/#card-gate-update): added possibility to update features for connected merchant accounts in the Dashboard
+* [Merchant Portal](v1.44-1.53/#merchant-portal-updates): configuration and exports updates
+* [Performance improvements](v1.44-1.53/#performance-improvements)
+
 ### [March 3, 2021 (versions 1.44, 1.43, 1.42, 1.41, 1.40, 1.39, 1.38, & 1.37)](v1.37-1.44/)
 
 * [Payout Gateway update](v1.37-1.44/#payout-gateway-update): added possibility to resolve statement conflict from the Dashboard
