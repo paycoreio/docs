@@ -29,6 +29,17 @@ Set up your account at [pay.concord.ua](https://pay.concord.ua/cabinet/default/l
 !!! important
     Be sure to check with the bank manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
 
+#### Optional: Google Pay registration
+
+To connect Google Pay, you should share to the Google Pay service a list of fully qualified domains, including subdomains, from which you intend to call the Google Pay API. Check this list with your account manager and add the {{custom.company_name}} domain URLs if necessary.
+
+#### Optional: Apple Pay registration
+
+You should verify the domain from which you intend to call Apple Pay API. Provide your {{custom.company_name}} HPP URL to your Apple Pay developer account manager, obtain a domain association file, and share it with your {{custom.company_name}} account manager.
+
+Meanwhile, you should preliminarily determine the verification details with your {{custom.company_name}} account manager if you plan to use a white-label domain.
+
+
 ## Connect Provider Account
 
 ### Step 1. Connect account at the {{custom.company_name}} Dashboard
@@ -62,9 +73,9 @@ Enter credentials:
 * Merchant ID
 * Private Key --> Secret Key
 
-Specify your GooglePay Merchant ID for an account with the Google Pay connection and your Masterpass Client ID for an account with the Masterpass connection.
+Specify your GooglePay Merchant ID for an account with the Google Pay connection and your Masterpass Client ID for an account with the Masterpass connection. Be sure you define `google_pay` and `masterpass` as features in these cases.
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your Concord account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Choose Currency and Features. You can set these parameters according to available currencies and features for your Concord account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **Concord** H2H merchant account!

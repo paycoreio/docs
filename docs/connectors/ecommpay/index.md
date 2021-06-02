@@ -3,4 +3,4 @@
 # ECommPay Connector
 
 !!! question "Looking for help connecting your ECommPay account?"
-    [Please contact our support team!](mailto:{{custom.support_email}}ompany_name}})
+    [Please contact our support team!](mailto:{{custom.support_email}})

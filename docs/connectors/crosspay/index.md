@@ -35,7 +35,7 @@ Enter credentials:
 * Public Key
 * Secret Key
 
-Also, choose Test Mode for test connection with CrossPay.
+Also, select Test or Live mode according to the type of account to connect with CrossPay.
 
 !!! success
     You have connected **CrossPay** account!
@@ -52,7 +52,7 @@ Press **Connect** at [*CrossPay Provider Overview*]({{custom.dashboard_base_url}
 
 Enter credentials:
 
-[//]: # (Choose Test Mode for test connection with CrossPay.)
+[//]: # (Select Test or Live mode according to the type of account to connect with CrossPay.)
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your CrossPay account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

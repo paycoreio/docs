@@ -52,36 +52,33 @@ Enter credentials:
 * Your Merchant ID
 * Terminal ID
 
-Upload files with:
+Upload file with Private Key (`{terminal_id}_PrivateKey.key`).
 
-* Private Key (`{terminal_id}_PrivateKey.key`)
-* Public Key (`{terminal_id}_Public.key`)
-* SSL Certificate (`{terminal_id}_SSL.crt`)
-
-Also, choose Test Mode for test connection with UKRGASBANK.
+Also, select Test or Live mode according to the type of account to connect with UKRGASBANK.
 
 !!! success
     You have connected **UKRGASBANK** account!
 
-<!--
 ## Connect H2H Merchant Account
 
 ### Step 1. Connect H2H account at the {{custom.company_name}} Dashboard
 
-Press **Connect** at [*UKRGASBANK Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/UKRGASBANK/general) page in *'New connection'* and choose **H2H Merchant account** option to open Connection form.
+Press **Connect** at [*UKRGASBANK Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/ukrgasbank/general) page in *'New connection'* and choose the **H2H Merchant account** option to open Connection form.
 
 ![Connect](images/h2h-merchant-account.png)
 
-Enter credentials:
+Enter your Merchant name (Merchant ID).
 
-[//]: # (Choose Test Mode for test connection with UKRGASBANK.)
+Upload file with Private Key (`{terminal_id}_PrivateKey.key`).
 
-Choose Currency and Features. You can set these parameters according to available currencies and features for your UKRGASBANK account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
+Choose your API type from the drop-down list.
+
+Select Test or Live mode according to the type of account to connect with UKRGASBANK.
+
+Choose Currency and Features. You can set these parameters according to available currencies and features for your UKRGASBANK account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
     You have connected **UKRGASBANK** H2H merchant account!
-
---->
 
 !!! question "Still looking for help connecting your UKRGASBANK account?"
     <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

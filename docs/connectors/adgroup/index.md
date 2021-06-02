@@ -38,7 +38,7 @@ Enter credentials to access the API:
 * Merchant Account Password --> User Password
 * Merchant Account Key --> Key
 
-Also, choose *Test Mode* for test connection with ADgroup. Specify your Account type and Terminal type.
+Also, select Test or Live mode according to the type of account to connect with ADgroup. Specify your Account type and Terminal type.
 
 !!! success
     You have connected **ADgroup** account!

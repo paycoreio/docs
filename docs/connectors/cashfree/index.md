@@ -37,7 +37,7 @@ Enter credentials:
 * Client ID
 * Secret key
 
-Also, choose Test Mode for test connection with Cashfree.
+Also, select Test or Live mode according to the type of account to connect with Cashfree.
 
 !!! success
     You have connected **Cashfree** account!

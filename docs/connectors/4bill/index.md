@@ -67,7 +67,7 @@ Enter credentials:
 
 Choose 'Send merchant data' option if you need to send Commerce MCC and Merchant URL to 4bill.
 
-Choose Test Mode for test connection.
+Select Test or Live mode according to the type of account to connect.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your 4bill wallets and services, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 

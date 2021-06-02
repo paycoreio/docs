@@ -44,7 +44,7 @@ Enter credentials:
 * Merchant Key
 * Bank Account (IBAN) for payments
 
-Choose Test Mode for test connection with Procard, and the Dynamic Descriptor option if you if you want to allow changing in the payment description.
+Select Test or Live mode according to the type of account to connect with Procard, and the Dynamic Descriptor option if you if you want to allow changing in the payment description.
 
 Upload the prepared key and certificates files.
 

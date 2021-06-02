@@ -53,7 +53,7 @@ Enter credentials:
 * wallet ID as Service ID
 * secret_key as Secret Key
 
-Choose Test Mode for test connection with Win Pay and Currency according to the currency of chosen wallet.
+Select Test or Live mode according to the type of account to connect with Win Pay and Currency according to the currency of chosen wallet.
 
 !!! success
     You have connected **Win Pay** Provider account!
@@ -71,7 +71,7 @@ Enter credentials:
 * api_key as API Key
 * secret_key as Secret Key
 
-Choose Test Mode for test connection.
+Select Test or Live mode according to the type of account to connect.
 
 !!! success
     You have connected **Win Pay** Merchant account!
@@ -89,7 +89,7 @@ Enter credentials:
 * api_key as API Key
 * secret_key as Secret Key
 
-Choose Test Mode for test connection with Win Pay.
+Select Test or Live mode according to the type of account to connect with Win Pay.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Win Pay wallet, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

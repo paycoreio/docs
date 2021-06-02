@@ -1,79 +1,80 @@
 <img src="https://static.openfintech.io/payment_providers/skrill/logo.svg?w=400" width="400px">
 
-# Skrill Connector
+# Skrill
 
-## Introduction
+!!! quote ""
+    Online payments made simple, for you and your customers
 
-Here You can find  instructions for setting up [**Skrill**  account](https://account.skrill.com/).
+**Website**: [Skrill.com](https://www.skrill.com/en/business/)
 
-## Setup account
+**Login**: [account.skrill.com](https://account.skrill.com/)
 
-### Step 1: Ensure that your accoutn is verified as Merchant
+Follow the guidance for setting up a connection with Skrill as a payment service provider.
 
-!!! note
-    If the Settings > Developer Settings section is not displayed in your account, contact [merchantservices@skrill.com](mailto:merchantservices@skrill.com)
+## Set up account
 
-### Step 2: Enable automated payments
+### Step 1: Contact the Skrill support team
 
-- Go to the **`Settings`** —> **`Account settings`**
-- Set **`Auto accept payments`** property
+Register on the [website](https://account.skrill.com/wallet/account/sign-up?locale=en), and then contact the Skrill Merchant Services team with the account details to enable it.
 
-![Settings](images/acc_settings_1.png)
+Wait for your account to be verified as a Merchant.
 
+!!! note ""
+    When testing payments, set the beneficiary email to the same account to ensure that the test account has sufficient virtual funds.
+
+### Step 2: Enable automatic payments
+
+Start from the *Settings* --> *Account settings* and enable the *Auto accept payments* option:
+
+!!! tip ""
+
+    ![Settings](images/acc_settings_1.png)
 
 ### Step 3: Set up API access
 
-1. Go to the **`Developers`** settings
+1. Go to the *Developer settings*.
 2. Enable services:
-    - Automated Payment Interface (API)
-    - Merchant Query Interface (MQI)
-    - Quick Checkout Secure Restriction
-3. Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/) to **each** service
-4. Set up parameters:
-    - MQI/API password 
-    - Secret word
+    * *Automated Payment Interface (API)*;
+    * *Merchant Query Interface (MQI)*;
+    * *Quick Checkout Secure Restriction*.
+3. Add all necessary IP addresses to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/) to each service.
+4. Set up security parameters following the Skrill recommendations:
+    * MQI/API password;
+    * Secret word.
 
-!!! tip
-    Follow the Skrill recomendations for passwords and secrets requirements!
+!!! tip ""
 
-![Settings](images/acc_dev_settings_1.png)
+    ![Settings](images/acc_dev_settings_1.png)
 
-### Step 4: Get required credentials
+!!! note ""
 
--  Account email
--  Merchant ID
--  Secret Word
--  API password
+    If the *Settings* --> *Account Settings* section isn't displayed in the back office, contact [merchantservices@skrill.com](mailto:merchantservices@skrill.com).
 
-!!! success
-    You have configured account!
+### Step 4: Check your Merchant ID and available currencies
 
+!!! note "Be aware"
 
+    If you have several Skrill accounts to operate with the same currency, their balances will be summed up to one currency account at the {{custom.company_name}} Dashboard.  
 
+## Connect Provider Account
 
-## Connect account
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-### Step 1: Copy required credentials
+Press **Connect** at [*Skrill Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/skrill/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
+![Connect](images/provider-account.png)
 
-### Step 2: Enter credentials
+Enter credentials:
 
--  Account email
--  Merchant ID
--  Secret Word
--  API password
--  Currencies (available in Your Skrill account)
+* Account email
+* Merchant ID
+* Secret word
+* API password
 
-
-
-!!! tip
-    Press **`Connect`** at Skrill **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-
-
-![Connect](images/skrill_connect.png)
-
+Choose *Currencies* according to available currencies for your Skrill accounts, but it's necessary to verify details of the connection with your {{custom.company_name}} account manager.
 
 !!! success
-    You have connected **Skrill**!
+    You have connected **Skrill** account!
+
+!!! question "Still looking for help connecting your Skrill account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

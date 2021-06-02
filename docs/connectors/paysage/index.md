@@ -44,7 +44,7 @@ Press **Connect** at [*PaySage.io Provider Overview*]({{custom.dashboard_base_ur
 
 Enter your credentials and choose Provider URL (*PaySage*).
 
-Also, choose Test Mode for test connection with *PaySage.io*.
+Also, select Test or Live mode according to the type of account to connect with *PaySage.io*.
 
 !!! success
     Just right: you have connected **PaySage.io** account!

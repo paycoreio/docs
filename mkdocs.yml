@@ -306,7 +306,7 @@ nav:
     - Genome: connectors/genome/index.md
     - GeoPay: connectors/geopaynet/index.md
     - GlobalMoney: connectors/globalmoney/index.md
-    - HashConnect: connectors/hashconnect/index.md
+    - Hashconnect: connectors/hashconnect/index.md
     - Ibox Bank: connectors/iboxbank/index.md
     - ING Bank Poland: connectors/ingbankpl/index.md
     - Interkassa: connectors/interkassa/index.md
@@ -347,6 +347,7 @@ nav:
     - Platio: connectors/platio/index.md
     - Portmone.com: connectors/portmone/index.md
     - Procard: connectors/procard/index.md
+    - PSPGate: connectors/pspgate/index.md
     - PUMB (FUIB): connectors/pumb/index.md
     - Raiffeisen Bank: connectors/raiffeisenbank/index.md
     - Rapyd.net: connectors/rapyd/index.md
@@ -355,6 +356,7 @@ nav:
     - Russian Standard Bank: connectors/russianstandardbank/index.md
     - SafeCharge: connectors/safecharge/index.md
     - SatchelPay: connectors/satchelpay/index.md
+    - SDK.finance: connectors/sdkfinance/index.md
     - Selcom: connectors/selcom/index.md     
     - Skrill: connectors/skrill/index.md
     - Square: connectors/square/index.md
@@ -365,6 +367,7 @@ nav:
     - Tranzzo: connectors/tranzzo/index.md
     - TrustPay: connectors/trustpay/index.md
       #- Twelve.live: connectors/twelvelive/index.md
+    - 2click: connectors/twoclick/index.md
     - UAPay: connectors/uapay/index.md
     - UKRGASBANK: connectors/ukrgasbank/index.md
     - VCreditos: connectors/vcreditos/index.md

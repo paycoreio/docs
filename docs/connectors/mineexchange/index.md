@@ -50,7 +50,7 @@ Press **Connect** at [*Mine.Exchange Provider Overview*]({{custom.dashboard_base
 
 Enter credentials:
 
-[//]: # (Choose Test Mode for test connection with Mine.Exchange.)
+[//]: # (Select Test or Live mode according to the type of account to connect with Mine.Exchange.)
 
 Choose Currency and Features: set these parameters according to available currencies and features for your Mine.Exchange account.
 

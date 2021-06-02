@@ -31,7 +31,7 @@ Press **Connect** at [*EasyBits.io Provider Overview*]({{custom.dashboard_base_u
 
 Enter your `clientCodeName` as Client name.
 
-Choose Test Mode for test connection with EasyBits.io.
+Select Test or Live mode according to the type of account to connect with EasyBits.io.
 
 !!! success
     You have connected **EasyBits.io** account!

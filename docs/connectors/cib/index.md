@@ -41,7 +41,7 @@ Enter credentials:
 * API Token
 * API URL
 
-Also, choose Test Mode for test connection with ComIn Bank, and P2P mode for connection in  the peer-to-peer network.
+Also, select Test or Live mode according to the type of account to connect with ComIn Bank, and P2P mode for connection in  the peer-to-peer network.
 
 !!! success
     You have connected the **ComIn Bank** account!
@@ -56,7 +56,7 @@ Press **Connect** at [*ComIn Bank Connector Overview*]({{custom.dashboard_base_u
 
 Enter credentials:
 
-Choose Test Mode for test connection with ComIn Bank.
+Select Test or Live mode according to the type of account to connect with ComIn Bank.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your ComIn Bank account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

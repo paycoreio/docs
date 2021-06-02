@@ -42,7 +42,7 @@ Enter credentials:
 !!! info ""
     **\*** Virtual ID is a random number you set by yourself. It should be unique and, as appropriate, you can use another ones to connect multiple Shop accounts with the same Client ID. It also may or may not coincide with the Shop ID that you set at the UAPay account.
 
-Also, choose Test Mode for test connection with UAPay, P2P mode for connection in  peer-to-peer payment network, and *'Get Balances'* option if you want to obtain your UAPay account balances through {{custom.company_name}} system.
+Also, select Test or Live mode according to the type of account to connect with UAPay, P2P mode for connection in  peer-to-peer payment network, and *'Get Balances'* option if you want to obtain your UAPay account balances through {{custom.company_name}} system.
 
 !!! success
     You have connected **UAPay** account!
@@ -60,7 +60,7 @@ Enter credentials:
 * Client ID
 * Secret key
 
-Choose Test Mode for test connection with UApay. Choose your Account type: *Acquiring* or *P2P*.
+Select Test or Live mode according to the type of account to connect with UApay. Choose your Account type: *Acquiring* or *P2P*.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your UApay account, but it is necessary to check details of the connection with your {{custom.company_name}} account manager.
 

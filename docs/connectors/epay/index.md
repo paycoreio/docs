@@ -7,4 +7,4 @@
 **Website**: [epay.eu](http://www.epay.eu/epay-payment-solutions/)
 
 !!! question "Looking for help connecting your ePay account?"
-    [Please contact our support team!](mailto:{{custom.support_email}}ompany_name}})
+    [Please contact our support team!](mailto:{{custom.support_email}})

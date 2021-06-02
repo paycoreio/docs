@@ -39,7 +39,7 @@ Press **Connect** at [*FlashPay Provider Overview*]({{custom.dashboard_base_url}
 
 Enter you Key ID and upload your private key (`priv.key`).
 
-Also, choose Test Mode for test connection with FlashPay.
+Also, select Test or Live mode according to the type of account to connect with FlashPay.
 
 !!! success
     You have connected **FlashPay** account!

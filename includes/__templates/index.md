@@ -34,7 +34,7 @@ Press **Connect** at [*NAME Provider Overview*]({{custom.dashboard_base_url}}con
 
 Enter credentials:
 
-[//]: # (Also, choose Test Mode for test connection with NAME, and P2P mode for connection in  peer-to-peer payment network.)
+[//]: # (Also, Select Test or Live mode according to the type of account to connect with NAME, and P2P mode for connection in  peer-to-peer payment network.)
 
 !!! success
     You have connected **NAME** account!
@@ -49,7 +49,7 @@ Press **Connect** at [*NAME Provider Overview*]({{custom.dashboard_base_url}}con
 
 Enter credentials:
 
-[//]: # (Choose Test Mode for test connection with NAME.)
+[//]: # (Select Test or Live mode according to the type of account to connect with NAME.)
 
 Choose Currencies and Features. You can set these parameters according to available currencies and features for your NAME account, but it's necessary to verify details of the connection with your {{custom.company_name}} account manager.
 

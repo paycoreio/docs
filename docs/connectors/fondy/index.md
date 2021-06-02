@@ -83,7 +83,11 @@ Then, generate the Apple Pay certificate  by yourself, or apply to Fondy or {{cu
         openssl pkcs12 -export -out merchant.p12 -inkey merchant.key -in merchant.pem
         ```
 
-At key generation step, you can additionally protect your certificates with a password.
+!!! note
+
+    You should verify the domain from which you intend to call Apple Pay API. Provide your {{custom.company_name}} HPP URL to your Apple Pay developer account manager, obtain a domain association file, and share it with your {{custom.company_name}} account manager.
+
+    Meanwhile, you should preliminarily determine the verification details with your {{custom.company_name}} account manager if you plan to use a white-label domain.
 
 ## Connect Provider Account
 
@@ -117,7 +121,7 @@ Enter credentials:
 - Merchant ID
 - Payment Key --> Password
 
-Choose Test Mode for test connection with Fondy.
+Select Test or Live mode according to the type of account to connect with Fondy.
 
 If you need to connect ApplePay with Fondy, receive the Merchant ID and generate certificates [in advance](#optional-get-applepay-registration). Enter the related credentials:
 

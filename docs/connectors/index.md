@@ -11,9 +11,9 @@ Click on the name of the desired connector and follow the link to the step-by-st
 
     PSPs partner with [acquiring banks](/getting-started/glossary/#acquiring-bank) to offer merchants the capability to accept payments. They often offer services in addition to processing transactions. These services include [Payment Card Industry Data Security Standard (PCI)](/getting-started/glossary/#payment-card-industry-data-security-standard-pci) compliance, fraud protection, and the ability to process different currencies and translate different languages.
 
-## List of Ready-Made Connections
+## List of ready-made connections
 
-<!-- 18/01/2021: 100 connectors + Test + manual
+<!-- 01/06/2021: 112 connectors + Test + manual
 |                                                  Logo                                                  | Name                             | Supported Features                              |
 |:------------------------------------------------------------------------------------------------------:|:---------------------------------|:------------------------------------------------|
 |      <img src="https://static.openfintech.io/payment_providers/123x/logo.png?w=70" width="70px">       | [123x](123x/)                    | Payments                                        |
@@ -105,6 +105,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/platio/logo.svg?w=70" width="70px"> | [Platio](platio/) | H2H connection, Payouts, Account balances | RUB |
 | <img src="https://static.openfintech.io/payment_providers/portmone/logo.svg?w=70" width="70px">  | [Portmone.com](portmone/) | H2H connection | UAH |
 | <img src="https://static.openfintech.io/payment_providers/procard/logo.png?w=70" width="70px"> | [Procard](procard/)  | H2H connection | UAH |
+| <img src="https://static.openfintech.io/payment_providers/pspgate/logo.png?w=70" width="70px"> | [PSPGate](pspgate/)  | H2H connection | CNY, EUR, GBP, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/pumb/logo.svg?w=35" width="35px"> | [PUMB (FUIB)](pumb/)  | H2H connection | UAH |
 | <img src="https://static.openfintech.io/payment_providers/raiffeisenbank/logo.svg?w=100" width="100px"> | [Raiffeisen Bank](raiffeisenbank/) | H2H connection, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/rapyd/logo.svg?w=70" width="70px"> | [Rapyd.net](rapyd/) | Payouts, Account balances  | [according to the provider account settings] |
@@ -113,6 +114,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/russianstandardbank/logo.png?w=70" width="70px">  | [Russian Standard Bank](russianstandardbank/) | H2H connection | RUB |
 | <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px"> | [SafeCharge](safecharge/) | H2H connection, Payouts | AUD, CAD, EUR, GBP, USD |
 | <img src="https://static.openfintech.io/payment_providers/satchelpay/logo.svg?w=90" width="90px"> | [SatchelPay](satchelpay/)  | Payouts, Account balances | [according to the provider account settings] |
+| <img src="https://static.openfintech.io/payment_providers/sdkfinance/logo.png?w=80" width="80px">  | [SDK.finance](sdkfinance/) | Payments | UAH |
 | <img src="https://static.openfintech.io/payment_providers/selcom/logo.png?w=70" width="70px">  | [Selcom](selcom/) | Payments, Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/skrill/logo.svg?w=50" width="50px"> | [Skrill](skrill/) | Payments, Payouts, Account balances | AUD, BGN, CHF, CZK, DKK, EUR, GBP, HRK, HUF, MYR, NOK, PLN, RON, SEK, THB, USD |
 | <img src="https://static.openfintech.io/payment_providers/square/logo.svg?w=70" width="70px">  | [Square](square/) | Payments | [according to the provider account settings] |
@@ -122,6 +124,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/transferhub/logo.svg?w=60" width="60px"> | [TransferHub](transferhub/) | H2H connection, Payments, Payouts, Account balances | EUR, RUB, UAH, USD |
 | <img src="https://static.openfintech.io/payment_providers/tranzzo/logo.svg?w=90" width="90px"> | [Tranzzo](tranzzo/) | Payments | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/trustpay/logo.svg?w=90" width="90px"> | [TrustPay](trustpay/)  | H2H connection | AZN, CAD, IDR, KGS, KZT, MDL, MYR, PLN, RUB, THB, TJS, TMT, UZS, VND |
+| <img src="https://static.openfintech.io/payment_providers/twoclick/logo.png?w=50" width="50px"> | [2click](twoclick/)  | Payouts, Account balances | according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/uapay/logo.svg?w=50" width="50px"> | [UAPay](uapay/)  | H2H connection, Payouts, Account balances | UAH |
 | <img src="https://static.openfintech.io/payment_providers/ukrgasbank/logo.png?w=90" width="90px"> | [UKRGASBANK](ukrgasbank/)  | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/vcreditos/logo.svg?w=70" width="70px"> | [VCreditos](vcreditos/) | Payments, Payouts, Account balances | [according to the provider account settings]  |
