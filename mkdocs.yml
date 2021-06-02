@@ -195,7 +195,7 @@ nav:
         - Payment Methods and Options: products/payment-gateway/methods-n-options.md
         - How to Start Accept Payments: products/payment-gateway/how-to-start-accept-payments.md
         # - Managing Payments: products/payment-gateway/managing-payments.md
-        - Managing Routing: products/payment-gateway/managing-routing.md
+        - Managing Routing: products/payment-gateway/payment-routing-schemes.md
         - Payment Workflow: products/payment-gateway/payment-workflow.md
         - Payment Request Workflow: products/payment-gateway/payment-request-workflow.md
     - Make Payouts:
