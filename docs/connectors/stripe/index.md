@@ -35,9 +35,11 @@ If you need to connect ApplePay with Stripe, [complete the requirements](https:/
 
     ![Completing the requirements](images/applepay.png)
 
-Then verify your domain to go live using [the Apple Pay settings in the Dashboard](https://dashboard.stripe.com/account/payments/apple_pay).
+Then verify your {{custom.company_name}} HPP URL to go live using [the Apple Pay settings in the Dashboard](https://dashboard.stripe.com/account/payments/apple_pay), obtain a domain association file, and share it with your {{custom.company_name}} account manager.
 
-You should also share a domain URL and a domain association file for the merchant ID verification with your {{custom.company_name}} account manager.
+!!! note
+
+   You should preliminarily determine the verification details with your {{custom.company_name}} account manager if you plan to use a white-label domain.
 
 ## Connect H2H Merchant Account
 

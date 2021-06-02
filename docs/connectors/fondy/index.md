@@ -85,7 +85,9 @@ Then, generate the Apple Pay certificate  by yourself, or apply to Fondy or {{cu
 
 !!! note
 
-    You should also share a domain URL and a domain association file for the merchant ID verification with your {{custom.company_name}} account manager.
+    You should verify the domain from which you intend to call Apple Pay API. Provide your {{custom.company_name}} HPP URL to your Apple Pay developer account manager, obtain a domain association file, and share it with your {{custom.company_name}} account manager.
+
+    Meanwhile, you should preliminarily determine the verification details with your {{custom.company_name}} account manager if you plan to use a white-label domain.
 
 ## Connect Provider Account
 
