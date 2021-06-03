@@ -29,13 +29,14 @@ What happens when a customer decides to pay for merchandise or service? In gener
 5. The issuer also checks the authorisation request and responds to the payment processor with the transaction status or error details. Before this, the issuer bank may request 3DS verification from the payer.
 6. Through the payment gateway, the transaction status is returned to the merchant.
 7. The merchant displays a status page with the transaction status (accepted or denied). And the issuer bank also sends an appropriate message to the customer.
-8. Within a day or a couple of days, the issuing bank transfers funds to the merchant's account.
+8. Within a day or a couple of days, during clearing process, the issuing bank transfers funds to the merchant's account.
 
 The payment gateway plays an essential role by connecting the main participants. However, depending on the flow chosen, it can:
 
 - **process** all the data on its side, 
-- **redirect** the payer to the provider's  payment page, 
-- or **make the authorisation** without writing off funds.
+- or **redirect** the payer to the provider's  payment page.
+
+In addition, the payment gateway can **make the card verification** (for the further payments) without writing off funds.
 
 ## {{custom.company_name}} payment gateway
 
