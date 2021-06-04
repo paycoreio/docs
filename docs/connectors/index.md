@@ -112,7 +112,7 @@ Click on the name of the desired connector and follow the link to the step-by-st
 | <img src="https://static.openfintech.io/payment_providers/rbkmoney/logo.png?w=70" width="70px">  | [RBK Money](rbkmoney/) | H2H connection, Payouts, Account balances   | EUR, RUB, USD |
 | <img src="https://static.openfintech.io/payment_providers/royalpay/logo.svg?w=90" width="90px"> | [Royal Pay](royalpay/) | H2H connection, Payouts, Account balances | RUB |
 | <img src="https://static.openfintech.io/payment_providers/russianstandardbank/logo.png?w=70" width="70px">  | [Russian Standard Bank](russianstandardbank/) | H2H connection | RUB |
-| <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px"> | [SafeCharge](safecharge/) | H2H connection, Payouts | AUD, CAD, EUR, GBP, USD |
+| <img src="https://static.openfintech.io/payment_providers/safecharge/logo.svg?w=90" width="90px"> | [SafeCharge](safecharge/) | H2H connection, Payouts | AUD, CAD, CHF, EUR, GBP, PLN, USD  |
 | <img src="https://static.openfintech.io/payment_providers/satchelpay/logo.svg?w=90" width="90px"> | [SatchelPay](satchelpay/)  | Payouts, Account balances | [according to the provider account settings] |
 | <img src="https://static.openfintech.io/payment_providers/sdkfinance/logo.png?w=80" width="80px">  | [SDK.finance](sdkfinance/) | Payments | UAH |
 | <img src="https://static.openfintech.io/payment_providers/selcom/logo.png?w=70" width="70px">  | [Selcom](selcom/) | Payments, Payouts, Account balances | [according to the provider account settings] |
