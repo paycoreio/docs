@@ -2,18 +2,57 @@
 
 ![{{custom.company_name}} Products](/images/cubes.jpg)
 
-Welcome to {{custom.company_name}}! Get familiar with the {{custom.company_name}} products and explore their features:
+Explore setting up and using {{custom.company_name}} products by areas and choose the best solution for your business needs!
 
-| Product                                       | Description                                                                                                      |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| [Provider Hub](/products/provider-hub/)       | Connect any provider or merchant account of any payment provider into the one hub.                               |
-| [Payment Gateway](/products/payment-gateway/) | Accept any online payment option through the single omnichannel gateway.                                         |
-| [Payout Gateway](/products/payout-gateway/)   | Make payouts on any online option in multiple ways through the single omni-chanel gateway.                       |
-| [FX Rates](/products/currency-rates/)               | FX conversion rules are encapsulated in a currency exchange scheme, which is adhered to every routing scheme.    |
-| [Commerce](/products/commerce/)               | Online commerce management.                                                                                      |
-| [Hosted payment page](/products/hpp/)         | Secure, easier and seamless shopping experience with the hosted checkout that works right out of the box.        |
-| [Batch Payouts](/products/batch-payouts/)     | Omnichannel large batch payouts.                                                                                 |
-| [Ledger](/products/ledger/)                   | Automated treasury accounting.                                                                                   |
-| [Analytics](/products/analytics/)             | Data analytics & real-time metrics.                                                                              |
-| [Card Processing](#)                          | Payment card processing.                                                                                         |
-| [Merchant Portal](#)                          | White-label merchant back-office web application for PSPs.                                                       |
+## Accept Payments
+
+* Accept any online payments through the single, easy-to-configure gateway
+    
+     <span style="font-size: 125%">[--> Payments  :material-credit-card-outline:](/products/payment-gateway/)</span>
+
+* Secure, effortless and seamless shopping experience with the hosted checkout page that works right out of the box
+
+    <span style="font-size: 125%">[--> HPP Checkout :material-cart-arrow-right: ](/products/hpp/)</span>
+
+## Make Payouts
+
+* Make payouts on any online option in multiple ways through the omni-channel gateway
+
+    <span style="font-size: 125%">[--> Direct payouts  :material-cash-multiple:](/products/payout-gateway/)</span>
+
+* Large batch payouts to any part of the world
+
+    <span style="font-size: 125%">[--> Batch payouts  :material-group:](/products/payout-gateway/)</span>
+
+## Control Accounts and Cashiers
+
+* Manage all day-to-day operations from a single dashboard
+
+    <span style="font-size: 125%">[--> Organisation Account :material-view-grid-plus:](/products/account/)</span>
+
+* Support numerous projects and business entities
+
+    <span style="font-size: 125%">[--> Cashier Management :material-store:](/products/commerce/)</span>
+
+* Explore white-label merchant web application for PSPs
+
+    <span style="font-size: 125%">[--> Merchant Portal :material-home-group:](https://merchant-docs.paycore.io/)</span>
+
+## Connect Various PSP Accounts
+
+* Connect and organise all your payment providers' accounts in the {{custom.company_name}} platform
+
+    <span style="font-size: 125%">[--> Connection Hub :material-transit-connection-variant:](/products/provider-hub/)</span>
+
+## Analyse and Optimise
+
+* Multiple connected exchange rate sources and conversion rules adhered to every routing scheme
+
+    <span style="font-size: 125%">[--> Exchange Rates :material-autorenew:](/products/currency-rates/)</span>
+
+* Data analytics & real-time metrics
+
+    <span style="font-size: 125%">[--> Reports & Analytics :material-finance:](/products/analytics/)</span>
+
+!!! note "Not sure which option suits you best?"
+    Submit your request to [our support team](mailto:{{custom.support_email}}); we'll be happy to help you!

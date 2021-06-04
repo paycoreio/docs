@@ -5,7 +5,12 @@
 }
 /*
 .md-typeset .magiclink:before{position:relative;padding-right:.25rem;font-family:FontAwesome;-moz-osx-font-smoothing:initial;-webkit-font-smoothing:initial;font-weight:400}.md-typeset .magiclink-repository.magiclink-github:before{content:""}.md-typeset .magiclink-repository.magiclink-gitlab:before{content:""}.md-typeset .magiclink-repository.magiclink-bitbucket:before{content:""}.md-typeset {}
-*/
+*/ 
+
+.md-typeset .md-button {
+    color: hsla(231, 48%, 48%, 1);
+}
+
 img[src*='#w40'] {
     width: 40px;
 }

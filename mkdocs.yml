@@ -94,7 +94,7 @@ extra_javascript:
   - scripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  #- 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
   #- 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'
   #- 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'
   #- 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
@@ -177,8 +177,8 @@ nav:
     - Provider Hub: 
         - Introduction: products/provider-hub/index.md
         - Basic Concepts: products/provider-hub/basic-concepts.md
-        - Accounts Hierarchy: products/provider-hub/accounts-hierarchy.md
-        - Managing Accounts: products/provider-hub/managing-accounts.md
+        # - Accounts Hierarchy: products/provider-hub/accounts-hierarchy.md
+        # - Managing Accounts: products/provider-hub/managing-accounts.md
     - Commerce:
         - Overview: products/commerce/index.md
         - Basic Concepts: products/commerce/basic-concepts.md
@@ -190,14 +190,15 @@ nav:
         - Payment Invoice: products/commerce/payment-invoice.md
         - Payout Invoice: products/commerce/payout-invoice.md
         #- Calculating Fees: products/commerce/calculating-fees.md
-    - Payment Gateway:
-        - Overview: products/payment-gateway/index.md
-        - Basic Concepts: products/payment-gateway/basic-concepts.md
-        - Managing Payments: products/payment-gateway/managing-payments.md
-        - Managing Routing: products/payment-gateway/managing-routing.md
+    - Accept Payments:
+        - Payment Flow and Gateway: products/payment-gateway/index.md
+        - Payment Methods and Options: products/payment-gateway/methods-n-options.md
+        - How to Start Accept Payments: products/payment-gateway/how-to-start-accept-payments.md
+        # - Managing Payments: products/payment-gateway/managing-payments.md
+        - Managing Routing: products/payment-gateway/payment-routing-schemes.md
         - Payment Workflow: products/payment-gateway/payment-workflow.md
         - Payment Request Workflow: products/payment-gateway/payment-request-workflow.md
-    - Payout Gateway:
+    - Make Payouts:
         - Overview: products/payout-gateway/index.md
         - Basic Concepts: products/payout-gateway/basic-concepts.md
         - Managing Payouts: products/payout-gateway/managing-payouts.md
