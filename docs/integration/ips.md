@@ -20,14 +20,10 @@ com.paycore.io
 The full list of IP addresses that {{custom.company_name}} use to interact with Payment Providers & third-party services:
 
 ``` html
-54.36.117.30
-51.38.147.254
-54.38.139.222
-35.158.227.239
-3.121.144.169
 3.126.246.226
 3.127.19.165
 3.126.219.223
+3.65.180.235
 ```
 
 ## Downloading IP address lists
