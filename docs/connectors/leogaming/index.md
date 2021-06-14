@@ -1,87 +1,67 @@
 <img src="https://static.openfintech.io/payment_providers/leogaming/logo.svg?w=400" width="400px">
 
-# LeoGaming Connector
+# LeoGaming
 
-## Introduction
+!!! quote ""
+    PAYMENT AND REFILLING OF ONLINE GAMES
 
-Here You can find  instructions for setting up **LeoGaming**  account.
+**Website**: [LeoGaming](https://leogaming.net/en)
 
-## Setup account
+**Login**: [LeoGaming](https://leogaming.net/en/user/)
 
-#### Step 1 Create Agent and Point
+Follow the guidance to set up a connection with LeoGaming as the payment service provider.
 
-Contact with LeoGaming Support Manager to get help with creating. 
+## Set Up Account
 
+### Step 1: Contact LeoGaming support manager
 
-#### Step 2: Configure Point
+Send a request on the [website](WEBSITE) or call the hotline. Submit the required documents for verification and gain access.
 
-1. Open "Points" section.
+Obtain your Agent and Point ID.
 
-2. Go to the Point settings
-
-3. (Optional)  Add all necessary IP adressess to the White list, including  [{{custom.company_name}} white-list IP addresses](/integration/ips/)
-
-4. Generate keys
-
-5. Download Keys
-
-6. Save the configuration.
-
-
-![Point Config](images/point_configure.png)
-
-
-#### Step 3: Get required credentials
-
-- **Point ID**
-    - Go to the "Points" list and find ID column
-
+!!! tip ""
     ![Point ID](images/point_id.png)
 
-- **Service ID**
-    - Ask LeoGaming Support Manager for this ID
+### Step 2: Configure the point
 
-- **Private Key**
-    - Get Private key from Keys archive from **Step 2**
+Log in to the LeoGaming dashboard. In the *Points* section, edit the Point settings:
 
-- **Public Key**
-    - Get Private key from Keys archive from **Step 2**
-    - Encode in **base64**  (_You can use any online service to encode_, for example: [base64encode.org](https://www.base64encode.org/))
+* add all necessary IP addresses to the White list, including the [{{custom.company_name}} IP list](/integration/ips/);
+* generate and download Private and Public keys.
 
+!!! tip ""
+    ![Configure the Point](images/point_configure.png)
 
-!!! success
-    You have configured account!
+    Don't forget to save your settings by clicking on the *Save* button.
 
+### Step 3: Check the credentials
 
+Credentials that have to be issued:
 
+* Point ID
+* Service ID (request it from your LeoGaming support manager)
+* Private key
+* Public key
 
-## Connect account
+## Connect Provider Account
 
-#### Step 1: Copy required credentials
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
+Press **Connect** at [*LeoGaming Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/leogaming/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-#### Step 2: Enter credentials
+![Connect](images/provider-account.png)
 
-- Point ID
-- Service ID
-- Private Key
-- Public Key (base64)
+Enter credentials:
 
-!!! tip
-    Press **`Connect`** at LeoGaming **`Provider Overview page`** in **`New connection`** section to open Connection form!
+* Point ID
+* Service ID
 
+Upload Private and Public keys. Toggle the 'Verify' option if you want to verify card requisites before payout processing.
 
-#### Step 3: Set up additional parameters 
-
-- Test mode
-
-!!! note
-    This parameters are set according to your Merchant account type!
-
-
-
-![Connect](images/leogaming_connect.png)
-
+Also, select Test or Live mode according to the type of account to connect with LeoGaming.
 
 !!! success
-    You have connected **LeoGaming**!
+    You have connected **LeoGaming** account!
+
+!!! question "Still looking for help connecting your LeoGaming account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->
