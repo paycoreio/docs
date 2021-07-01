@@ -22,8 +22,9 @@ Credentials that have to be issued from your Ibox Bank account manager:
 * Point ID
 * Service ID
 * Public IboxBank Key
+* Type of integration (Acquiring or Card-to-account transfer flow)
 
-Upon registration with the system you will be able to create the necessary quantity of payment points and generate Private keys for each points.
+Upon registration with the system, you will be able to create the necessary quantity of payment points and generate Private keys for each points.
 
 ???+ hint
     ![Create a new Point](images/point-creation.png)
@@ -93,7 +94,7 @@ Enter your Merchant ID and upload files with the Public IboxBank key and Private
 
     Specify the Apple Pay Merchant ID and upload files with the certificate (`server.pem`) and the certificate key (`server.key`). And be sure you define `apple_pay` as a feature in the relevant field.
 
-Select Test or Live mode according to the type of account to connect with Ibox Bank.
+Select Test or Live mode according to the type of account to connect with Ibox Bank. Choose the API type.
 
 Choose Currency and Features. You can set these parameters according to available currencies and features for your Ibox Bank account, but it's necessary to check details of the connection with your {{custom.company_name}} account manager.
 

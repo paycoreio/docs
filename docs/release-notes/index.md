@@ -6,6 +6,15 @@
 
 This changelog lists releases by date and version number along with associated changes.
 
+### [June 9, 2021 (versions 1.75, 1.74, 1.73, 1.72, 1.71, 1.70, 1.69, 1.68, 1.67, & 1.66)](v1.66-1.75/)
+
+* [Commerce update](v1.66-1.75/#commerce-update): implemented two-step transactions within an organisation
+* [Gateways updates](v1.66-1.75/#gateways-updates): detailed charged back amounts and fees, added an option for the card validation field on the default HPP, and new metrics for card payment routing
+* [Customers section's updates](v1.66-1.75/#customers-sections-updates): added options to control payments and payouts availability in the customer entry and two extra columns in the transactional report tables for the customers' data and metadata
+* Added an extra table for [Analytics queries](v1.66-1.75/#analytics-update)
+* [Minor dashboard layout update](v1.66-1.75/#dashboard-layout-update)
+* Performance improvements and bug fixes.
+
 ### [May 13, 2021 (versions 1.65, 1.64, 1.63, 1.62, 1.61, 1.60, 1.59, 1.58, 1.57, 1.56, 1.55, & 1.54)](v1.54-1.65/)
 
 * [Commerce updates](v1.54-1.65/#commerce-updates): expanded access settings for commerce accounts and operations, added `merchant_profile` object to the Commerce settings and request creation and options to control Saved cards access scope
@@ -14,12 +23,12 @@ This changelog lists releases by date and version number along with associated c
 * [Reports optimising](v1.54-1.65/#reports-optimising)
 * [Receipt Addon update](v1.54-1.65/#addons-update): receipts generating for Payout invoices
 
-### [April 2, 2021 (versions 1.53, 1.52, 1.51, 1.50, 1.49, 1.48, 1.47, 1.46, 1.45, & 1.44)](v1.44-1.53/)
+### [April 2, 2021 (versions 1.53, 1.52, 1.51, 1.50, 1.49, 1.48, 1.47, 1.46, & 1.45)](v1.45-1.53/)
 
-* [Processing supplements](v1.44-1.53/#processing-supplements): added partial statuses for payments' refunds and chargebacks, and an option to skip the verify stage on payouts
-* [Card Gate](v1.44-1.53/#card-gate-update): added possibility to update features for connected merchant accounts in the Dashboard
-* [Merchant Portal](v1.44-1.53/#merchant-portal-updates): configuration and exports updates
-* [Performance improvements](v1.44-1.53/#performance-improvements)
+* [Processing supplements](v1.45-1.53/#processing-supplements): added partial statuses for payments' refunds and chargebacks, and an option to skip the verify stage on payouts
+* [Card Gate](v1.45-1.53/#card-gate-update): added possibility to update features for connected merchant accounts in the Dashboard
+* [Merchant Portal](v1.45-1.53/#merchant-portal-updates): configuration and exports updates
+* [Performance improvements](v1.45-1.53/#performance-improvements)
 
 ### [March 3, 2021 (versions 1.44, 1.43, 1.42, 1.41, 1.40, 1.39, 1.38, & 1.37)](v1.37-1.44/)
 
