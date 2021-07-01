@@ -31,7 +31,7 @@ Go to the *Settings* --> *Wallet settings* --> *Show credentials function* and c
 
 ### Step 3: Set up your account
 
-Set up all necessary parameters. Make sure to specify `https://psp-ext.paycore.io/cardpay/callback` as the Callback URL.
+Set up all necessary parameters. Make sure to specify `https://psp-ext.paycore.io/cardpay/callback` as the Callback URL for the provider account connection.
 
 ![Set Callback URL](images/cardpay-callback-url.png)
 
