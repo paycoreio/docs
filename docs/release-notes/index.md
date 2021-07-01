@@ -10,7 +10,7 @@ This changelog lists releases by date and version number along with associated c
 
 * [Commerce update](v1.66-1.75/#commerce-update): implemented two-step transactions within an organisation
 * [Gateways updates](v1.66-1.75/#gateways-updates): detailed charged back amounts and fees, added an option for the card validation field on the default HPP, and new metrics for card payment routing
-* [Customers database updates](v1.66-1.75/#customers-database-updates): added options to control payments and payouts availability in the customer entry and two extra columns in the transactional report tables for the customers' data and metadata
+* [Customers section's updates](v1.66-1.75/#customers-sections-updates): added options to control payments and payouts availability in the customer entry and two extra columns in the transactional report tables for the customers' data and metadata
 * Added an extra table for [Analytics queries](v1.66-1.75/#analytics-update)
 * [Minor dashboard layout update](v1.66-1.75/#dashboard-layout-update)
 * Performance improvements and bug fixes.
