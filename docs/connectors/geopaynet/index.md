@@ -1,50 +1,51 @@
 <img src="https://static.openfintech.io/payment_providers/geopaynet/logo.svg?w=400" width="400px" >
 
-# GeoPay Connector
+# GeoPay
 
-## Introduction
+!!! quote ""
+    Manage your online assets with GEO Pay
 
-Here You can find  instructions for setting up [**GeoPay**  account](https://geo-pay.net/account/#!/)!
+**Website**: [geo-pay.net](https://geo-pay.net/)
 
-## Setup account
+**Login**: [partners.geo-pay.net](https://partners.geo-pay.net/)
 
-#### Step 1: Create provider account
+Follow the guidance for setting up a connection with GeoPay payment service provider.
 
-#### Step 2: Go to the **Profile** info
+## Set Up Account
 
-![Step 2](images/geopay-step1.png)
+### Step 1: Create an account
 
-#### Step 3: Get User ID (Hash ID)
+Create an account on the [website](https://geo-pay.net/login/#!/sign-up/) or message the GeoPay support team.
 
-![Step 3](images/geopay-step2.png)
+### Step 2: Get credentials
 
-#### Step 4: Contact with GeoPay manager
+Go to the *Profile* section and copy User ID (Hash ID). Then, contact the GeoPay support team to request:
 
-This Payment Provoider gives account credentials personaly to their merchants!
+* API key
+* Card API token (if you plan on using payouts to cards)
 
-#### Step 5: Get API Key
+![Step 1](images/geopay-step1.png)
+![Step 2](images/geopay-step2.png)
 
--  API Key
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
 
+## Connect Provider Account
 
-!!! success
-    You are ready to connect!
-    
-## Connect account
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-#### Step 1: Copy credentials
+Press **Connect** at [*GeoPay Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/geopaynet/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-#### Step 2: Enter credentials
+![Connect](images/provider-account.png)
 
--  User ID (Hash ID)
--  API Key
+Enter credentials:
 
-!!! tip
-    Press **`Connect`** at GeoPay **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-
-
-![Connect](images/geopay_connect.png)
+* API key
+* Hash ID
+* Card API token (optionally)
 
 !!! success
-    You have connected **GeoPay**!
+    You have connected **GeoPay** account!
+
+!!! question "Still looking for help connecting your GeoPay account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->

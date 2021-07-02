@@ -1,121 +1,90 @@
 <img src="https://static.openfintech.io/payment_providers/paypal/logo.svg?w=400" width="400px">
 
-# PayPal Connector
+# PayPal
 
-## Introduction
+!!! quote ""
+    The platform that grows with you
 
-Here You can find  instructions for setting up [ **PayPal** account](https://developer.paypal.com/).
+**Website**: [paypal.com/uk/business](https://www.paypal.com/uk/business)
 
-## Setup account
+**Login**: [paypal.com/uk/signin](https://www.paypal.com/uk/signin)
 
-#### Step 1: Create App
+Follow the guidance for setting up a connection with PayPal payment service provider.
 
-!!! info
-     Skip this step if You have already configured it.
+## Set Up Account
 
-- Go to the **`REST API apps`** section
-- Press **`Create App`**
-- Set **`App Name`** 
-- Choose **`Sandbox developer account`**
+### Step 1: Contact PayPal support manager
 
+Sign up for a business account on the [website](https://www.paypal.com/bizsignup/#/checkAccount) or contact support team via hotline. Submit the required documents to verify your account and gain access to the Sandbox and then, after testing, to the live account.
+
+### Step 2: Create new App or select one from the list 
+
+Log in to the [Developer Dashboard](https://www.paypal.com/signin?returnUri=https%3A%2F%2Fdeveloper.paypal.com%2Fdeveloper%2Fapplications&_ga=1.13091063.1562130854.1623839968) with your PayPal account. 
+
+Go to the *DASHBOARD* menu, select *My Apps & Credentials*.
+
+Press the *Create App* button and set *App Name*, or choose one of the existing app entries as *Default*.
+
+!!! tip ""
     ![Create App](images/createapp1.png)
-
     ![Create App](images/createapp2.png)
 
-!!! Note
-    You will be automaticaly redirected to Created app!
+!!! attention ""
+    Make sure you're on the *Sandbox* tab to get the API credentials you'll use while you're testing connection. After you test and before you go live, switch to the *Live* tab to get live credentials and complete *Live App* setup.
 
-#### Step 2: Get App credentials
-
--  Client ID
--  Client Secret
-
-![App Credentials](images/appcred1.png)
-
-!!! warning
-    Ensure that **`Mode Switcher`** has **`Live`** state, if you want to connect **`Live`** account!
-    
-!!! tip
-    You can find **`Mode Switcher`** on the upper right.
+    ![Live setup](images/setup1.png) 
 
 
-#### Step 3: Set Up App settings
-- Go to the  **`LIVE APP SETTINGS`**
-- Set the necessary parameters
 
-!!! note
-    If **`Mode Switcher`** has **`Sanbox`** state - this section has **`SANDBOX APP SETTINGS`** title!
+### Step 3: Get credentials
 
-!!! tip
-    Don't forget to confirm action!
+The *Default Application* page displays your API credentials, including your client ID and secret.
 
-    ![Set Up](images/setup1.png)
+You also can log in to the *Sandbox* (or *Live*) store account and find API credentials at *App Centre* --> *Streamline operations* --> *API credentials*. 
 
+Credentials that have to be issued there:
 
-#### Step 4: Get Account credentials
+* Client ID
+* Secret
 
-Besides App credentials You also need:
+!!! tip ""
+    ![App Center](images/api-creds.png)
+    ![API credentials](images/api-creds2.png)
 
--  SOAP Username
--  SOAP Password
--  Signature
+Also, SOAP API credentials you can find at *Account settings* --> *Account access* --> *API access* --> *NVP/SOAP API integration (Classic)*.
 
+* API Username
+* API Password
+* Signature
 
-To get them - folow this flow:
+!!! tip ""
+    ![Account access section](images/account-access.png)
+    ![SOAP API credentials](images/soap-api.png)
+    ![Check API signature](images/api-signature.png)
 
-1. Log In at  [  **PayPal.com**](https://paypal.com/) 
-2. Open **`Tools`** -> **`All Tools`** 
-    
-    !!! tip
-        You can find this on the **`Navigation bar`**
+!!! important
+    Be sure to check with the manager if you require to provide a white list of IPs, and if so, specify IP addresses from the [Corefy list](/integration/ips/).
 
-3. Find  and Open **`API Credentials`**
+## Connect Provider Account
 
-5. Go to the **`NVP/SOAP API integration (classic)`** section
-6. Press **`Manage API Credentials`**
+### Step 1. Connect account at the {{custom.company_name}} Dashboard
 
-- Find:
-    -  SOAP Username
-    -  SOAP Password
-    -  Signature
+Press **Connect** at [*PayPal Provider Overview*]({{custom.dashboard_base_url}}connect-directory/payment-providers/paypal/general) page in *'New connection'* and choose **Provider account** option to open Connection form.
 
-    ![Acc Credentials](images/acc-cred1.png)
+![Connect](images/provider-account.png)
 
-    ![Acc Credentials](images/acc-cred2.png)
+Enter credentials:
 
-    ![Acc Credentials](images/acc-cred3.png)
+* Client ID
+* Secret --> Client Secret
+* API Username --> SOAP username
+* API Password --> SOAP password
+* Signature
 
-    ![Acc Credentials](images/acc-cred4.png)
+Select Test or Live mode according to the type of account to connect with PayPal.
 
 !!! success
-    You have configured account!
+    You have connected **PayPal** account!
 
-## Connect account
-
-#### Step 1: Copy required credentials
-
--  Client ID
--  Client Secret
--  SOAP Username
--  SOAP Password
--  Signature
-
-#### Step 2: Enter credentials
-
-!!! tip
-    Press **`Connect`** at PayPal **`Provider Overview page`** in **`New connection`** section to open Connection form!
-
-#### Step 3: Set additional parameters
-
--  Test mode
-
-!!! info
-    **`Test mode`** is set **_according to your PayPal account settings_**!
-
-
-
-![Connect](images/paypal_connect.png)
-
-
-!!! success
-    You have connected **PayPal**!
+!!! question "Still looking for help connecting your PayPal account?"
+    <!--email_off-->[Please contact our support team!](mailto:{{custom.support_email}})<!--/email_off-->
