@@ -12,9 +12,9 @@ HPP lets you accept payments on your website with {{custom.company_name}} just b
 
 It supports  _{{custom.company_name}} Commerce_  so that you get the solution that matches the best your eCommerce needs. With distribution mechanisms (QR Code, SMS and Email), it lets you build your own customized flow that goes beyond the typical eCommerce solution.
 
-Before deciding to integrate the Hosted Payment Page, make sure that you checked our guidelines regarding integrations depending on your use case. A seemless integration of _{{custom.company_name}} Commerce_ in your eCommerce checkout flow will always lead to a better conversion rate than using our HPP.
+Before deciding to integrate the Hosted Payment Page, make sure that you checked our guidelines regarding integrations depending on your use case. A seamless integration of _{{custom.company_name}} Commerce_ in your eCommerce checkout flow will always lead to a better conversion rate than using our HPP.
 
-For more information, visit our product page on [{{custom.company_name}} HPP]({{custom.website_url}}payment-gateway/checkout/).
+For more information, visit our product page about [{{custom.company_name}} Checkout]({{custom.website_url}}checkout/).
 
 ## Benefits
 
