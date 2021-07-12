@@ -6,6 +6,15 @@
 
 This changelog lists releases by date and version number along with associated changes.
 
+### [July 8, 2021 (versions 1.82, 1.81, 1.80, 1.79, 1.78, 1.77, & 1.76)](v1.76-1.82/)
+
+* [Commerce updates](v1.76-1.82/#commerce-updates): added the `company_phone` and `country_code` parameters to the `merchant_profile` object
+* [Platform API updates](v1.76-1.82/#api-updates): added endpoints for handling transactions that affect the Commerce balances
+* [Card Gate updates](v1.76-1.82/#card-gate-updates): started supporting OTP flow for card payments, moved the 'Allow to use saved cards' to the Card Gateway Options
+* [Routing updates](v1.76-1.82/#routing-updates): extended the list of attributes for payout scheme conditions
+* [Addons updates](v1.76-1.82/#addons-management): expanded possibilities to manage addons, updated the NBU transaction registration addon, revised approaches to providing access to addons within organisations
+* Performance improvements and bug fixes.
+
 ### [June 9, 2021 (versions 1.75, 1.74, 1.73, 1.72, 1.71, 1.70, 1.69, 1.68, 1.67, & 1.66)](v1.66-1.75/)
 
 * [Commerce update](v1.66-1.75/#commerce-update): implemented two-step transactions within an organisation
