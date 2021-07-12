@@ -1,0 +1,4 @@
+service,service_amount,fields_data,reference_id,description,customer,customer_metadata
+test_usd,100,account:587964,BI10,test,reference_id:example_ref1;email:test@example.com;phone:+12345678945;name:John S,
+swift_usd,1,swift_code:TESTUAUKXXX;account_number:GB94BARC193459;recipient_name:John;country_code:UA;address:Kyiv;purpose:test,BI20,test swift,reference_id:example_ref1,key:value;know:nothing
+payment_card_usd,50,card_number:5519283812030000,BI30,test cards,,

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="72"
+   height="72"
+   viewBox="0 0 72 72"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="checkout-js-72x72.svg">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="948"
+     inkscape:window-height="480"
+     id="namedview34"
+     showgrid="false"
+     inkscape:zoom="3.2777778"
+     inkscape:cx="36"
+     inkscape:cy="36"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">01.Web.Icon.Pack</title>
+  <g
+     id="lines">
+    <rect
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="rect9"
+       rx="3"
+       height="58"
+       width="43"
+       y="7"
+       x="14" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line11"
+       y2="11"
+       x2="19"
+       y1="11"
+       x1="17" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line13"
+       y2="11"
+       x2="23"
+       y1="11"
+       x1="21" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line15"
+       y2="11"
+       x2="27"
+       y1="11"
+       x1="25.209999" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line17"
+       y2="15"
+       x2="56"
+       y1="15"
+       x1="15" />
+    <rect
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="rect19"
+       rx="3.0699999"
+       height="34"
+       width="22"
+       y="23"
+       x="25" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line21"
+       y2="30"
+       x2="43"
+       y1="30"
+       x1="29" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line23"
+       y2="36"
+       x2="43"
+       y1="36"
+       x1="29" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line25"
+       y2="42"
+       x2="34"
+       y1="42"
+       x1="29" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line27"
+       y2="42"
+       x2="43"
+       y1="42"
+       x1="36" />
+    <line
+       style="fill:none;stroke:#003a52;stroke-width:2;stroke-linejoin:round"
+       id="line29"
+       y2="51"
+       x2="43"
+       y1="51"
+       x1="29" />
+  </g>
+  <g
+     id="Boxes">
+    <rect
+       width="72"
+       height="72"
+       fill="none"
+       id="rect32" />
+  </g>
+</svg>
